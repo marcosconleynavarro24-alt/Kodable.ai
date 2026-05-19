@@ -1,0 +1,61 @@
+import { services } from "@/content/services";
+
+export default function Services() {
+  return (
+    <section
+      id="services"
+      className="py-[160px] max-w-[1280px] mx-auto px-5 md:px-20"
+    >
+      <div className="grid grid-cols-4 md:grid-cols-12 gap-8 mb-24">
+        <div className="col-span-4 md:col-span-5">
+          <span
+            className="text-[#5B3FA8] uppercase tracking-[0.2em] mb-4 block text-[12px] leading-[1.0] font-medium"
+            style={{ fontFamily: "var(--font-mono)" }}
+          >
+            Our Capabilities
+          </span>
+          <h2
+            className="text-[42px] leading-[1.2] font-normal text-[#0A0A0A]"
+            style={{ fontFamily: "var(--font-serif)" }}
+          >
+            Crafted at the intersection of design and data.
+          </h2>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-4 md:grid-cols-12 gap-8">
+        {services.map((s) => (
+          <div
+            key={s.title}
+            className="col-span-4 md:col-span-4 bg-white border border-[#E8E5DD] p-10 print-shadow group hover:border-[#5B3FA8] transition-all duration-500 lift-hover"
+          >
+            <span className="material-symbols-outlined text-[#5B3FA8] mb-6 text-4xl block">
+              {s.icon}
+            </span>
+            <h3
+              className="text-[32px] leading-[1.3] font-normal mb-4"
+              style={{ fontFamily: "var(--font-serif)" }}
+            >
+              {s.title}
+            </h3>
+            <p className="text-[#444748] text-[16px] leading-[1.6] mb-8">
+              {s.description}
+            </p>
+            <ul className="space-y-3">
+              {s.features.map((f) => (
+                <li
+                  key={f}
+                  className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-[#747878]"
+                  style={{ fontFamily: "var(--font-mono)" }}
+                >
+                  <span className="text-[#5B3FA8] font-bold">+</span>
+                  {f}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}
