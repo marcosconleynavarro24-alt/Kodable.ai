@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -27,12 +28,16 @@ export default function Nav() {
       }`}
     >
       <nav className="flex justify-between items-center w-full px-5 md:px-20 py-4 max-w-[1280px] mx-auto">
-        <div
-          className="text-[32px] leading-[1.3] font-bold text-[#0A0A0A] tracking-tighter"
-          style={{ fontFamily: "var(--font-serif)" }}
-        >
-          Kodable.ai
-        </div>
+        <a href="#" aria-label="Kodable.ai home" className="flex items-center">
+          <Image
+            src="/logo.png"
+            alt="Kodable.ai"
+            width={228}
+            height={105}
+            priority
+            className="h-9 w-auto md:h-10"
+          />
+        </a>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center space-x-8">
