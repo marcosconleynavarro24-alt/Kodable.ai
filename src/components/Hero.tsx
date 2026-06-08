@@ -7,9 +7,8 @@ export default function Hero() {
             className="text-[48px] md:text-[88px] leading-[1.1] md:leading-[1.0] tracking-[-0.02em] font-normal text-[#0A0A0A] mb-8 max-w-[90%] md:max-w-full"
             style={{ fontFamily: "var(--font-serif)" }}
           >
-            We build websites that{" "}
-            <span className="italic-accent italic">actually wins</span> you
-            customers
+            Your ideas,{" "}
+            <span className="italic-accent italic">our reality</span>
           </h1>
           <div className="w-[60px] h-[2px] bg-[#0A0A0A] mb-12" />
           <p className="text-[18px] leading-[1.6] tracking-[-0.01em] text-[#444748] max-w-[600px] mb-10">
