@@ -53,9 +53,6 @@ export default function Nav() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <span className="hidden lg:inline text-ink-muted uppercase tracking-widest text-[10px] font-mono">
-            Available for projects
-          </span>
           <a
             href="#contact"
             className="hidden sm:inline-block bg-ink text-white px-6 py-2.5 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors duration-300"
