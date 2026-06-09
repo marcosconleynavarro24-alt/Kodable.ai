@@ -1,4 +1,5 @@
-import { services } from "@/content/services";
+import Link from "next/link";
+import { servicesCatalog } from "@/content/servicesCatalog";
 
 export default function Services() {
   return (
@@ -7,7 +8,7 @@ export default function Services() {
       className="py-[160px] max-w-[1280px] mx-auto px-5 md:px-20"
     >
       <div className="grid grid-cols-4 md:grid-cols-12 gap-8 mb-24">
-        <div className="col-span-4 md:col-span-5">
+        <div className="col-span-4 md:col-span-6">
           <span
             className="text-accent uppercase tracking-[0.2em] mb-4 block text-[12px] leading-[1.0] font-medium"
             style={{ fontFamily: "var(--font-mono)" }}
@@ -18,16 +19,17 @@ export default function Services() {
             className="text-[42px] leading-[1.2] font-normal text-ink"
             style={{ fontFamily: "var(--font-serif)" }}
           >
-            Crafted at the intersection of design and data.
+            Everything your site needs, under one roof.
           </h2>
         </div>
       </div>
 
       <div className="grid grid-cols-4 md:grid-cols-12 gap-8">
-        {services.map((s) => (
-          <div
-            key={s.title}
-            className="col-span-4 md:col-span-4 bg-white border border-line p-10 print-shadow group hover:border-accent transition-all duration-500 lift-hover"
+        {servicesCatalog.map((s) => (
+          <Link
+            key={s.slug}
+            href={`/services/${s.slug}`}
+            className="col-span-4 md:col-span-6 bg-white border border-line p-10 print-shadow group hover:border-accent transition-all duration-500 lift-hover flex flex-col"
           >
             <span className="material-symbols-outlined text-accent mb-6 text-4xl block">
               {s.icon}
@@ -39,10 +41,10 @@ export default function Services() {
               {s.title}
             </h3>
             <p className="text-ink-muted text-[16px] leading-[1.6] mb-8">
-              {s.description}
+              {s.tagline}
             </p>
-            <ul className="space-y-3">
-              {s.features.map((f) => (
+            <ul className="space-y-3 mb-8">
+              {s.included.slice(0, 2).map((f) => (
                 <li
                   key={f}
                   className="flex items-center gap-2 text-[11px] uppercase tracking-wider text-ink-muted"
@@ -53,7 +55,11 @@ export default function Services() {
                 </li>
               ))}
             </ul>
-          </div>
+            <span className="mt-auto text-accent font-medium text-[15px] inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+              Learn more
+              <span aria-hidden="true">→</span>
+            </span>
+          </Link>
         ))}
       </div>
     </section>

@@ -14,11 +14,11 @@ export default function Nav() {
   }, []);
 
   const links = [
-    { href: "#services", label: "Services" },
-    { href: "#process", label: "Process" },
-    { href: "#pricing", label: "Pricing" },
-    { href: "#faq", label: "FAQ" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#services", label: "Services" },
+    { href: "/#process", label: "Process" },
+    { href: "/#pricing", label: "Pricing" },
+    { href: "/#faq", label: "FAQ" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   return (
@@ -28,7 +28,7 @@ export default function Nav() {
       }`}
     >
       <nav className="flex justify-between items-center w-full px-5 md:px-20 py-4 max-w-[1280px] mx-auto">
-        <a href="#" aria-label="Kodable.ai home" className="flex items-center">
+        <a href="/" aria-label="Kodable.ai home" className="flex items-center">
           <Logo />
         </a>
 
@@ -47,7 +47,7 @@ export default function Nav() {
 
         <div className="flex items-center space-x-4">
           <a
-            href="#contact"
+            href="/#contact"
             className="hidden sm:inline-block bg-ink text-white px-6 py-2.5 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors duration-300"
           >
             Get a free quote
@@ -79,7 +79,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/#contact"
             onClick={() => setMenuOpen(false)}
             className="block text-center bg-ink text-white px-6 py-3 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors"
           >
