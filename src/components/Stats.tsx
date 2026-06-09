@@ -88,7 +88,10 @@ export default function Stats() {
           }
         }
       },
-      { threshold: 0.3 }
+      // Pull the trigger line up 25% of the viewport so the count starts only
+      // once the section is genuinely scrolled into view — not the moment its
+      // top edge peeks in from the bottom.
+      { threshold: 0, rootMargin: "0px 0px -25% 0px" }
     );
     observer.observe(el);
     return () => observer.disconnect();
