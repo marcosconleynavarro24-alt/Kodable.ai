@@ -55,14 +55,14 @@ const jsonLd = {
   description:
     "Web design and development agency for local small businesses. We build high-conversion websites with editorial aesthetics and production-grade engineering.",
   url: "https://kodable.ai",
-  email: "hello@kodable.ai",
+  email: "help@kodable.ai",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "San Francisco",
-    addressRegion: "CA",
-    addressCountry: "US",
+    addressLocality: "Valencia",
+    addressRegion: "Valencia",
+    addressCountry: "ES",
   },
-  areaServed: "US",
+  areaServed: "ES",
   serviceType: [
     "Web Design",
     "Web Development",

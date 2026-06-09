@@ -92,7 +92,7 @@ export default function ContactForm() {
                 >
                   Email
                 </p>
-                <p className="font-semibold">hello@kodable.ai</p>
+                <p className="font-semibold">help@kodable.ai</p>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -108,7 +108,7 @@ export default function ContactForm() {
                 >
                   Studio
                 </p>
-                <p className="font-semibold">San Francisco, CA</p>
+                <p className="font-semibold">Valencia, Spain</p>
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function ContactForm() {
               {state === "error" && (
                 <p className="text-[#ba1a1a] text-[14px]">
                   Something went wrong. Please try again or email us directly at
-                  hello@kodable.ai.
+                  help@kodable.ai.
                 </p>
               )}
 
