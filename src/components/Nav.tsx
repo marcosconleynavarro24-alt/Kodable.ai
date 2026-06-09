@@ -32,10 +32,10 @@ export default function Nav() {
           <Image
             src="/logo.png"
             alt="Kodable.ai"
-            width={228}
-            height={105}
+            width={178}
+            height={45}
             priority
-            className="h-9 w-auto md:h-10"
+            className="h-8 w-auto md:h-9"
           />
         </a>
 
