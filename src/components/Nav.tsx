@@ -23,7 +23,7 @@ export default function Nav() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-shadow duration-300 bg-[#FAFAF7]/85 backdrop-blur-xl border-b border-[#E8E5DD]/30 ${
+      className={`fixed top-0 w-full z-50 transition-shadow duration-300 bg-bg/85 backdrop-blur-xl border-b border-line/30 ${
         scrolled ? "shadow-sm" : ""
       }`}
     >
@@ -45,7 +45,7 @@ export default function Nav() {
             <a
               key={l.href}
               href={l.href}
-              className="text-[#444748] font-medium text-[16px] leading-[1.6] hover:text-[#5B3FA8] transition-colors duration-300"
+              className="text-ink-muted font-medium text-[16px] leading-[1.6] hover:text-accent transition-colors duration-300"
             >
               {l.label}
             </a>
@@ -53,12 +53,12 @@ export default function Nav() {
         </div>
 
         <div className="flex items-center space-x-4">
-          <span className="hidden lg:inline text-[#747878] uppercase tracking-widest text-[10px] font-mono">
+          <span className="hidden lg:inline text-ink-muted uppercase tracking-widest text-[10px] font-mono">
             Available for projects
           </span>
           <a
             href="#contact"
-            className="bg-[#0A0A0A] text-white px-6 py-2.5 rounded-[4px] font-medium text-[16px] hover:bg-[#5B3FA8] transition-colors duration-300"
+            className="hidden sm:inline-block bg-ink text-white px-6 py-2.5 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors duration-300"
           >
             Get a free quote
           </a>
@@ -77,17 +77,24 @@ export default function Nav() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden bg-[#FAFAF7] border-t border-[#E8E5DD]/30 px-5 py-6 space-y-4">
+        <div className="md:hidden bg-bg border-t border-line/30 px-5 py-6 space-y-4">
           {links.map((l) => (
             <a
               key={l.href}
               href={l.href}
               onClick={() => setMenuOpen(false)}
-              className="block text-[#444748] font-medium text-[16px] hover:text-[#5B3FA8] transition-colors"
+              className="block text-ink-muted font-medium text-[16px] hover:text-accent transition-colors"
             >
               {l.label}
             </a>
           ))}
+          <a
+            href="#contact"
+            onClick={() => setMenuOpen(false)}
+            className="block text-center bg-ink text-white px-6 py-3 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors"
+          >
+            Get a free quote
+          </a>
         </div>
       )}
     </header>

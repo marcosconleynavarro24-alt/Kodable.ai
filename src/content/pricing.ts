@@ -46,7 +46,6 @@ export const pricingTiers: PricingTier[] = [
     price: "$9,000+",
     period: "/project",
     featured: false,
-    accentColor: "#B8860B",
     features: [
       "Unlimited Custom Pages",
       "AI Agent Integration",

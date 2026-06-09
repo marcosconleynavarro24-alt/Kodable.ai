@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="w-full relative overflow-hidden bg-[#0A0A0A] py-20 mt-12">
-      <div className="grid grid-cols-4 md:grid-cols-12 gap-8 px-5 md:px-20 max-w-[1280px] mx-auto text-[#FAFAF7]">
+    <footer className="w-full relative overflow-hidden bg-ink py-20 mt-12">
+      <div className="grid grid-cols-4 md:grid-cols-12 gap-8 px-5 md:px-20 max-w-[1280px] mx-auto text-bg">
         {/* Brand */}
         <div className="col-span-4 md:col-span-4">
           <h3
@@ -10,28 +10,28 @@ export default function Footer() {
           >
             Kodable.ai
           </h3>
-          <p className="text-[#FAFAF7]/60 text-[16px] leading-[1.6] mb-8 max-w-[280px]">
+          <p className="text-bg/60 text-[16px] leading-[1.6] mb-8 max-w-[280px]">
             Building high-conversion digital experiences for companies that
             demand excellence.
           </p>
           <div className="flex gap-6">
             <a
               href="#"
-              className="text-[#FAFAF7]/60 hover:text-white transition-colors"
+              className="text-bg/60 hover:text-white transition-colors"
               aria-label="Twitter/X"
             >
               Twitter
             </a>
             <a
               href="#"
-              className="text-[#FAFAF7]/60 hover:text-white transition-colors"
+              className="text-bg/60 hover:text-white transition-colors"
               aria-label="LinkedIn"
             >
               LinkedIn
             </a>
             <a
               href="#"
-              className="text-[#FAFAF7]/60 hover:text-white transition-colors"
+              className="text-bg/60 hover:text-white transition-colors"
               aria-label="Clutch"
             >
               Clutch
@@ -47,11 +47,11 @@ export default function Footer() {
           >
             Navigation
           </h4>
-          <ul className="space-y-4 text-[#FAFAF7]/80">
+          <ul className="space-y-4 text-bg/80">
             <li>
               <a
                 href="#services"
-                className="hover:text-[#cebdff] transition-colors"
+                className="hover:text-white transition-colors"
               >
                 Services
               </a>
@@ -59,7 +59,7 @@ export default function Footer() {
             <li>
               <a
                 href="#process"
-                className="hover:text-[#cebdff] transition-colors"
+                className="hover:text-white transition-colors"
               >
                 Process
               </a>
@@ -67,7 +67,7 @@ export default function Footer() {
             <li>
               <a
                 href="#pricing"
-                className="hover:text-[#cebdff] transition-colors"
+                className="hover:text-white transition-colors"
               >
                 Pricing
               </a>
@@ -83,14 +83,14 @@ export default function Footer() {
           >
             Legal
           </h4>
-          <ul className="space-y-4 text-[#FAFAF7]/80">
+          <ul className="space-y-4 text-bg/80">
             <li>
-              <a href="#" className="hover:text-[#cebdff] transition-colors">
+              <a href="#" className="hover:text-white transition-colors">
                 Privacy Policy
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#cebdff] transition-colors">
+              <a href="#" className="hover:text-white transition-colors">
                 Terms of Service
               </a>
             </li>
@@ -106,7 +106,7 @@ export default function Footer() {
             >
               Newsletter
             </h4>
-            <div className="flex border-b border-[#FAFAF7]/20 pb-2">
+            <div className="flex border-b border-bg/20 pb-2">
               <input
                 type="email"
                 placeholder="Email Address"
@@ -123,7 +123,7 @@ export default function Footer() {
             </div>
           </div>
           <p
-            className="text-[#FAFAF7]/60 text-[10px] mt-12 md:mt-0"
+            className="text-bg/60 text-[10px] mt-12 md:mt-0"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             © {new Date().getFullYear()} Kodable.ai. All rights reserved.
@@ -134,7 +134,7 @@ export default function Footer() {
 
       {/* Large watermark text */}
       <div
-        className="font-normal opacity-5 text-[#FAFAF7] absolute bottom-0 left-0 -mb-8 leading-none pointer-events-none uppercase text-[88px]"
+        className="font-normal opacity-5 text-bg absolute bottom-0 left-0 -mb-8 leading-none pointer-events-none uppercase text-[88px]"
         style={{ fontFamily: "var(--font-serif)" }}
         aria-hidden="true"
       >

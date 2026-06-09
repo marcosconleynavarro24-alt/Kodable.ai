@@ -8,7 +8,7 @@ export default function Pricing() {
     >
       <div className="text-center mb-24">
         <span
-          className="text-[#5B3FA8] uppercase tracking-[0.2em] mb-4 block text-[12px] leading-[1.0] font-medium"
+          className="text-accent uppercase tracking-[0.2em] mb-4 block text-[12px] leading-[1.0] font-medium"
           style={{ fontFamily: "var(--font-mono)" }}
         >
           Transparent Investment
@@ -34,13 +34,13 @@ export default function Pricing() {
               >
                 <div className="flex justify-between items-center mb-2">
                   <h4
-                    className="text-[#5B3FA8] uppercase text-[12px] font-medium"
+                    className="text-accent uppercase text-[12px] font-medium"
                     style={{ fontFamily: "var(--font-mono)" }}
                   >
                     {tier.label}
                   </h4>
                   {tier.badge && (
-                    <span className="bg-[#5B3FA8] text-white text-[9px] font-bold px-2 py-0.5 rounded-full uppercase">
+                    <span className="bg-accent text-white text-[9px] font-bold px-2 py-0.5 rounded-full uppercase">
                       {tier.badge}
                     </span>
                   )}
@@ -52,16 +52,16 @@ export default function Pricing() {
                   >
                     {tier.price}
                   </span>
-                  <span className="text-[#444748]">{tier.period}</span>
+                  <span className="text-ink-muted">{tier.period}</span>
                 </div>
                 <ul className="space-y-4 mb-12">
                   {tier.features.map((f) => (
                     <li
                       key={f}
-                      className="flex items-center gap-3 text-[#1A1A1A] text-[16px] leading-[1.6]"
+                      className="flex items-center gap-3 text-ink text-[16px] leading-[1.6]"
                     >
                       <span
-                        className="material-symbols-outlined text-[#5B3FA8] text-sm"
+                        className="material-symbols-outlined text-accent text-sm"
                         style={{ fontVariationSettings: "'FILL' 1" }}
                       >
                         check
@@ -72,7 +72,7 @@ export default function Pricing() {
                 </ul>
                 <a
                   href="#contact"
-                  className="block w-full bg-[#0A0A0A] text-white py-4 font-semibold text-center hover:bg-[#5B3FA8] transition-all"
+                  className="block w-full bg-ink text-white py-4 font-semibold text-center hover:bg-accent transition-all"
                 >
                   {tier.cta}
                 </a>
@@ -80,24 +80,14 @@ export default function Pricing() {
             );
           }
 
-          const accentStyle = tier.accentColor
-            ? {
-                borderTop: `4px solid ${tier.accentColor}`,
-              }
-            : {};
-
           return (
             <div
               key={tier.id}
-              className="col-span-4 md:col-span-4 bg-white border border-[#E8E5DD] p-10 print-shadow lift-hover"
-              style={accentStyle}
+              className="col-span-4 md:col-span-4 bg-white border border-line p-10 print-shadow lift-hover"
             >
               <h4
-                className="uppercase mb-2 text-[12px] font-medium"
-                style={{
-                  fontFamily: "var(--font-mono)",
-                  color: tier.accentColor ?? "#747878",
-                }}
+                className="uppercase mb-2 text-[12px] font-medium text-ink-muted"
+                style={{ fontFamily: "var(--font-mono)" }}
               >
                 {tier.label}
               </h4>
@@ -108,15 +98,15 @@ export default function Pricing() {
                 >
                   {tier.price}
                 </span>
-                <span className="text-[#444748]">{tier.period}</span>
+                <span className="text-ink-muted">{tier.period}</span>
               </div>
               <ul className="space-y-4 mb-12">
                 {tier.features.map((f) => (
                   <li
                     key={f}
-                    className="flex items-center gap-3 text-[#444748] text-[16px] leading-[1.6]"
+                    className="flex items-center gap-3 text-ink-muted text-[16px] leading-[1.6]"
                   >
-                    <span className="material-symbols-outlined text-[#5B3FA8] text-sm">
+                    <span className="material-symbols-outlined text-accent text-sm">
                       check
                     </span>
                     {f}
@@ -125,7 +115,7 @@ export default function Pricing() {
               </ul>
               <a
                 href="#contact"
-                className="block w-full border border-[#0A0A0A] py-4 font-semibold text-center hover:bg-[#0A0A0A] hover:text-white transition-all"
+                className="block w-full border border-ink py-4 font-semibold text-center hover:bg-ink hover:text-white transition-all"
               >
                 {tier.cta}
               </a>

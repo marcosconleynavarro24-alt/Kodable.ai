@@ -1,11 +1,11 @@
 export default function AITeaser() {
   return (
     <section className="py-[80px] max-w-[1280px] mx-auto px-5 md:px-20">
-      <div className="bg-gradient-to-br from-[#F5F0FA] to-[#F0F4FA] border border-[#D6D0E5] rounded-xl p-12 md:p-20 relative overflow-hidden">
+      <div className="bg-accent-soft border border-line rounded-xl p-12 md:p-20 relative overflow-hidden">
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
           <div className="max-w-[600px]">
             <span
-              className="inline-block bg-white px-3 py-1 text-[10px] border border-[#D6D0E5] text-[#5B3FA8] rounded-full uppercase mb-6 tracking-widest font-medium"
+              className="inline-block bg-white px-3 py-1 text-[10px] border border-line text-accent rounded-full uppercase mb-6 tracking-widest font-medium"
               style={{ fontFamily: "var(--font-mono)" }}
             >
               Coming Soon
@@ -17,7 +17,7 @@ export default function AITeaser() {
               The next evolution: Intelligent AI Agents for your customer
               service.
             </h2>
-            <p className="text-[#444748] text-[18px] leading-[1.6]">
+            <p className="text-ink-muted text-[18px] leading-[1.6]">
               We&apos;re building custom AI agents that live on your website,
               handle complex customer inquiries, and close sales while you
               sleep.
@@ -26,7 +26,7 @@ export default function AITeaser() {
           <div>
             <a
               href="#contact"
-              className="print-shadow bg-[#5B3FA8] text-white px-12 py-5 rounded-[4px] font-semibold text-[16px] hover:bg-[#0A0A0A] transition-all duration-300 inline-block whitespace-nowrap"
+              className="print-shadow bg-accent text-white px-12 py-5 rounded-[4px] font-semibold text-[16px] hover:bg-ink transition-all duration-300 inline-block whitespace-nowrap"
             >
               Join the Waitlist
             </a>

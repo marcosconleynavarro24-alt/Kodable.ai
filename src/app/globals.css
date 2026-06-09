@@ -1,7 +1,18 @@
 @import "tailwindcss";
 
 @theme {
-  /* Colors */
+  /* ── Core palette ──────────────────────────────────────────────
+     ONE cohesive, restrained system. Cream + ink carry the page;
+     a SINGLE purple appears sparingly as an editorial accent.
+     Use these tokens everywhere — never hardcode colors in components. */
+  --color-bg: #FAFAF7;          /* cream background */
+  --color-ink: #0A0A0A;         /* headings / primary ink (soft near-black) */
+  --color-ink-muted: #444748;   /* body / secondary text (warm grey) */
+  --color-line: #E8E5DD;        /* hairlines, borders */
+  --color-accent: #5B3FA8;      /* THE purple — the only one, used sparingly */
+  --color-accent-soft: rgba(91, 63, 168, 0.08); /* low-opacity accent tint */
+
+  /* Colors (legacy semantic aliases — all resolve to the core palette) */
   --color-surface: #FAFAF7;
   --color-background: #FAFAF7;
   --color-primary: #0A0A0A;
@@ -20,10 +31,10 @@
   --color-surface-container-highest: #e5e2e1;
   --color-inverse-surface: #313030;
   --color-inverse-on-surface: #f4f0ef;
-  --color-secondary-container: #ab8ffd;
-  --color-on-secondary-container: #3f1e8b;
+  --color-secondary-container: #5B3FA8;
+  --color-on-secondary-container: #5B3FA8;
   --color-secondary-fixed: #e8ddff;
-  --color-secondary-fixed-dim: #cebdff;
+  --color-secondary-fixed-dim: #5B3FA8;
   --color-error: #ba1a1a;
   --color-error-container: #ffdad6;
 
@@ -81,26 +92,66 @@
   border-radius: inherit;
 }
 
-/* Asymmetric section divider */
+/* Section divider — a deliberate centered hairline that fades at the edges */
 .asymmetric-divider {
   height: 1px;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.06);
+  max-width: 1280px;
+  margin-inline: auto;
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--color-line) 12%,
+    var(--color-line) 88%,
+    transparent
+  );
 }
 
-/* Italic accent (aubergine) */
+/* Italic display accent — the ONE purple */
 .italic-accent {
-  font-family: "Instrument Serif", serif;
+  font-family: var(--font-serif), "Instrument Serif", serif;
   font-style: italic;
-  color: #3D1F4E;
+  color: var(--color-accent);
 }
 
 /* Lift on hover */
 .lift-hover {
-  transition: transform 0.4s cubic-bezier(0.2, 1, 0.3, 1);
+  transition: transform 0.4s cubic-bezier(0.2, 1, 0.3, 1),
+    box-shadow 0.4s cubic-bezier(0.2, 1, 0.3, 1);
 }
 .lift-hover:hover {
   transform: translateY(-4px);
+}
+
+/* Accessible focus ring for all interactive elements */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Respect reduced-motion: kill transforms/animations/smooth-scroll */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .lift-hover:hover,
+  .transform {
+    transform: none !important;
+  }
 }
 
 /* Material Symbols */
