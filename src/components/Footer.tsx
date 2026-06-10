@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="w-full relative overflow-hidden bg-ink py-20 mt-12">
@@ -85,14 +87,20 @@ export default function Footer() {
           </h4>
           <ul className="space-y-4 text-bg/80">
             <li>
-              <a href="#" className="hover:text-white transition-colors">
+              <Link
+                href="/privacy"
+                className="hover:text-white transition-colors"
+              >
                 Privacy Policy
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-white transition-colors">
+              <Link
+                href="/terms"
+                className="hover:text-white transition-colors"
+              >
                 Terms of Service
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
