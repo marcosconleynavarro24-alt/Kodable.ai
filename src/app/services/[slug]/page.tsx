@@ -138,6 +138,20 @@ export default async function ServicePage({
               >
                 {service.cta}
               </a>
+
+              {service.underTheHood && service.underTheHood.length > 0 && (
+                <div className="mt-12 pt-8 border-t border-line">
+                  <span
+                    className="text-ink-muted uppercase tracking-[0.2em] mb-3 block text-[11px] font-medium"
+                    style={{ fontFamily: "var(--font-mono)" }}
+                  >
+                    Under the hood
+                  </span>
+                  <p className="text-ink-muted text-[13px] leading-[1.6]">
+                    {service.underTheHood.join(" · ")}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
 

@@ -24,23 +24,24 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kodable.ai — Websites for Local Small Businesses",
+  title: "Web Design on the Costa Blanca — in English & Spanish | Kodable.ai",
   description:
-    "Kodable.ai builds high-performance, beautifully designed websites for local small businesses. Editorial aesthetics, production-grade engineering, real results.",
+    "Kodable.ai builds high-performance, beautifully designed bilingual (ES/EN) websites for Costa Blanca small businesses. Fixed transparent pricing, WhatsApp & booking built in, and a studio that's still here after launch.",
   openGraph: {
-    title: "Kodable.ai — Websites for Local Small Businesses",
+    title: "Web Design on the Costa Blanca — in English & Spanish | Kodable.ai",
     description:
-      "We build websites that actually win you customers. Editorial design meets production engineering.",
+      "Bilingual websites that win you customers — for Spanish and expat businesses on the Costa Blanca. Fixed pricing, no surprises, real support after launch.",
     url: "https://kodable.ai",
     siteName: "Kodable.ai",
     type: "website",
-    locale: "en_US",
+    locale: "en_GB",
+    alternateLocale: ["es_ES"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kodable.ai — Websites for Local Small Businesses",
+    title: "Web Design on the Costa Blanca — in English & Spanish | Kodable.ai",
     description:
-      "We build websites that actually win you customers. Editorial design meets production engineering.",
+      "Bilingual websites that win you customers — for Spanish and expat businesses on the Costa Blanca.",
   },
   metadataBase: new URL("https://kodable.ai"),
   alternates: {
@@ -58,18 +59,18 @@ const jsonLd = {
   email: "help@kodable.ai",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Valencia",
-    addressRegion: "Valencia",
+    addressRegion: "Alicante",
     addressCountry: "ES",
   },
-  areaServed: "ES",
+  areaServed: "Costa Blanca",
+  availableLanguage: ["es", "en"],
   serviceType: [
     "Web Design",
     "Web Development",
     "SEO Optimization",
     "AI Agent Integration",
   ],
-  priceRange: "$$$",
+  priceRange: "€€",
 };
 
 export default function RootLayout({

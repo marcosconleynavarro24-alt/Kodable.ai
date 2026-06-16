@@ -34,6 +34,12 @@ export default function Services() {
             <span className="material-symbols-outlined text-accent mb-6 text-4xl block">
               {s.icon}
             </span>
+            <span
+              className="text-accent uppercase tracking-[0.2em] mb-3 block text-[11px] leading-[1.0] font-medium"
+              style={{ fontFamily: "var(--font-mono)" }}
+            >
+              {s.bucket}
+            </span>
             <h3
               className="text-[32px] leading-[1.3] font-normal mb-4"
               style={{ fontFamily: "var(--font-serif)" }}

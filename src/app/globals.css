@@ -181,3 +181,56 @@ body {
 details summary::-webkit-details-marker {
   display: none;
 }
+
+/* Feature marquee — seamless auto-scroll. The track holds two identical
+   groups; translating it by -50% lands group 2 exactly where group 1 began. */
+.marquee {
+  --marquee-duration: 60s;
+}
+.marquee__track {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll var(--marquee-duration) linear infinite;
+}
+.marquee:hover .marquee__track {
+  animation-play-state: paused;
+}
+.marquee__group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.marquee__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  padding-inline: 2rem;
+  white-space: nowrap;
+}
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* No motion: drop the animation and wrap the lines into a static centred grid.
+   The duplicate group is hidden so lines aren't repeated. */
+@media (prefers-reduced-motion: reduce) {
+  .marquee__track {
+    animation: none;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .marquee__group[aria-hidden="true"] {
+    display: none;
+  }
+  .marquee__group {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 0;
+  }
+}

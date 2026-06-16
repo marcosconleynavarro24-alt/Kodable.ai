@@ -12,9 +12,15 @@ export default function Footer() {
           >
             Kodable.ai
           </h3>
-          <p className="text-bg/60 text-[16px] leading-[1.6] mb-8 max-w-[280px]">
+          <p className="text-bg/60 text-[16px] leading-[1.6] mb-4 max-w-[280px]">
             Building high-conversion digital experiences for companies that
             demand excellence.
+          </p>
+          <p
+            className="text-white/40 text-[10px] uppercase tracking-widest mb-8"
+            style={{ fontFamily: "var(--font-mono)" }}
+          >
+            Hablamos español &amp; English
           </p>
           <div className="flex gap-6">
             <a
