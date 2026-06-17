@@ -1,11 +1,30 @@
 import { faqItems } from "@/content/faq";
 
+// FAQPage structured data — built from the same content shown on the page, so
+// the rich result can never drift from what visitors actually read.
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqItems.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 export default function FAQ() {
   return (
     <section
       id="faq"
       className="py-[160px] bg-white border-y border-line/30"
     >
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <div className="max-w-[800px] mx-auto px-5">
         <h2
           className="text-[42px] leading-[1.2] font-normal text-center mb-16"

@@ -30,6 +30,16 @@ export async function generateMetadata({
       description: service.tagline,
       url: `/services/${service.slug}`,
       type: "article",
+      // Re-attach the site OG image — setting openGraph here otherwise drops
+      // the auto-injected opengraph-image.tsx image.
+      images: [
+        {
+          url: "/opengraph-image",
+          width: 1200,
+          height: 630,
+          alt: "Kodable.ai — bilingual web design for Costa Blanca small businesses",
+        },
+      ],
     },
   };
 }
@@ -45,8 +55,43 @@ export default async function ServicePage({
 
   const others = servicesCatalog.filter((s) => s.slug !== service.slug);
 
+  const url = `https://kodable.ai/services/${service.slug}`;
+  const serviceJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.tagline,
+    serviceType: service.title,
+    url,
+    areaServed: "Costa Blanca",
+    availableLanguage: ["es", "en"],
+    provider: { "@id": "https://kodable.ai/#organization" },
+  };
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://kodable.ai" },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Services",
+        item: "https://kodable.ai/#services",
+      },
+      { "@type": "ListItem", position: 3, name: service.title, item: url },
+    ],
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
       <div className="film-grain" aria-hidden="true" />
       <Nav />
       <main className="pt-32">
