@@ -33,7 +33,7 @@ export default function Footer({
             <a href={contactInfo.whatsappUrl} target="_blank" rel="noopener noreferrer" data-track="whatsapp">
               WhatsApp
             </a>
-            <a href={`tel:${contactInfo.phoneHref}`} data-track="call">{`Call ${contactInfo.phoneDisplay}`}</a>
+            <a href={`tel:${contactInfo.phoneHref}`} data-track="call">{`${locale === "es" ? "Llamar" : "Call"} ${contactInfo.phoneDisplay}`}</a>
             <a href={`mailto:${contactInfo.email}`} data-track="email">{contactInfo.email}</a>
           </div>
         </div>

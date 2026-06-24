@@ -11,7 +11,7 @@ const en: FaqItem[] = [
     a: "We use AI to build the things a small business needs to grow: a fast website, an AI assistant that answers customers and takes bookings, custom tools like booking or ordering apps, and automations that connect the apps you already use. You can start with one and add the rest when you're ready.",
   },
   {
-    q: "Is the AI any good — won't it sound like a robot?",
+    q: "Is the AI any good, or will it sound like a robot?",
     a: "We tune each assistant to your business, your tone and your real answers, so it sounds like you, not a generic bot. It handles the routine questions and bookings, and the moment something needs a human, it hands the conversation straight to you.",
   },
   {

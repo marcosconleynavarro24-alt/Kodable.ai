@@ -105,31 +105,6 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* IS THIS YOU */}
-      <section className="sec sec-warm" id="work">
-        <div className="wrap">
-          <SectionHead
-            kicker={site.scenarios.kicker}
-            kickerIcon="chat"
-            title={site.scenarios.title}
-            lead={site.scenarios.lead}
-          />
-          <div className="you-grid">
-            {site.scenarios.items.map((s) => (
-              <div key={s.title} className="you-card reveal">
-                <span className="you-ico" aria-hidden="true">
-                  <Icon name={s.icon as IconName} />
-                </span>
-                <div>
-                  <h3>{s.title}</h3>
-                  <p>{s.body}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CONSULTATION (replaces pricing) */}
       <section className="sec sec-warm" id="consultation">
         <div className="wrap">

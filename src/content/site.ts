@@ -100,8 +100,6 @@ export interface SiteContent {
 // ── Shared structural data (locale-independent) ──────────────────────────
 const navHrefs = [
   { key: "services", href: "/services" },
-  { key: "work", href: "/work" },
-  { key: "about", href: "/about" },
   { key: "faq", href: "/faq" },
   { key: "contact", href: "/contact" },
 ];
@@ -113,8 +111,6 @@ const en: SiteContent = {
       ...l,
       label: {
         services: "Services",
-        work: "Work",
-        about: "About",
         faq: "FAQ",
         contact: "Contact",
       }[l.key]!,
@@ -138,7 +134,7 @@ const en: SiteContent = {
     name: "Casa del Mar",
     status: "AI assistant · replies instantly",
     them1: "Hi! Do you have a table for 4 tonight at 8?",
-    you1: "Yes — a table for 4 at 8pm is free. Terrace or inside? I can book it now.",
+    you1: "Yes, a table for 4 at 8pm is free. Terrace or inside? I can book it now.",
     them2: "Terrace, please!",
     inputPlaceholder: "Message Casa del Mar…",
     alt: "A phone showing a customer messaging a restaurant late at night, and its AI assistant booking a table in seconds.",
@@ -208,7 +204,7 @@ const en: SiteContent = {
     steps: [
       { n: "1", title: "Discovery", body: "A relaxed chat about your business, your customers and what you want more of." },
       { n: "2", title: "Blueprint", body: "We plan your pages and write the words, so it sounds like you." },
-      { n: "3", title: "Execution", body: "We build it fast and tidy — your site, AI agent and automations, all wired up and tested." },
+      { n: "3", title: "Execution", body: "We build it fast and tidy. Your site, AI agent and automations, all wired up and tested." },
       { n: "4", title: "Launch", body: "We go live together, and we show you how to run it. Plus 30-day post-launch support." },
     ],
     note: "Every site ships with 30-day post-launch support.",
@@ -292,8 +288,6 @@ const es: SiteContent = {
       ...l,
       label: {
         services: "Servicios",
-        work: "Ejemplos",
-        about: "Sobre mí",
         faq: "Preguntas",
         contact: "Contacto",
       }[l.key]!,
@@ -317,7 +311,7 @@ const es: SiteContent = {
     name: "Casa del Mar",
     status: "Asistente IA · responde al instante",
     them1: "¡Hola! ¿Tenéis mesa para 4 esta noche a las 8?",
-    you1: "Sí — hay mesa para 4 a las 20:00. ¿Terraza o dentro? Te la reservo ahora.",
+    you1: "Sí, hay mesa para 4 a las 20:00. ¿Terraza o dentro? Te la reservo ahora.",
     them2: "¡En la terraza, por favor!",
     inputPlaceholder: "Escribe a Casa del Mar…",
     alt: "Un móvil donde un cliente escribe a un restaurante de noche y su asistente de IA le reserva una mesa en segundos.",
@@ -387,7 +381,7 @@ const es: SiteContent = {
     steps: [
       { n: "1", title: "Descubrir", body: "Una charla tranquila sobre tu negocio, tus clientes y lo que quieres conseguir más." },
       { n: "2", title: "Plan", body: "Planificamos tus páginas y escribimos los textos, para que suene a ti." },
-      { n: "3", title: "Construcción", body: "La construimos rápida y ordenada — tu web, el agente de IA y las automatizaciones, todo conectado y probado." },
+      { n: "3", title: "Construcción", body: "La construimos rápida y ordenada. Tu web, el agente de IA y las automatizaciones, todo conectado y probado." },
       { n: "4", title: "Lanzamiento", body: "Salimos online juntos y te enseñamos a manejarla. Más 30 días de soporte tras el lanzamiento." },
     ],
     note: "Cada web incluye 30 días de soporte tras el lanzamiento.",

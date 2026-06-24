@@ -227,7 +227,7 @@ const SERVICE_LABELS: Record<Locale, Record<ServiceInterest, string>> = {
     "ai-agents": "Un asistente de IA",
     "custom-tools": "Una herramienta a medida",
     "automations": "Automatizaciones",
-    "not-sure": "Aún no lo saben",
+    "not-sure": "Aún no lo sé",
   },
 };
 
@@ -284,7 +284,7 @@ function customerEmail(lead: Lead, from: string): RenderedEmail | null {
   const t =
     lead.locale === "es"
       ? {
-          subject: "Gracias — hemos recibido tu mensaje · Kodable.ai",
+          subject: "Gracias, hemos recibido tu mensaje · Kodable.ai",
           hi: `¡Hola ${lead.name}!`,
           body: "Gracias por escribirnos. Hemos recibido tu mensaje y te responderemos en menos de 24 horas. Si lo prefieres ya, escríbenos por WhatsApp.",
           yours: "Esto es lo que nos contaste:",
@@ -292,7 +292,7 @@ function customerEmail(lead: Lead, from: string): RenderedEmail | null {
           sign: "Un saludo,\nEl equipo de Kodable.ai",
         }
       : {
-          subject: "Thanks — we got your message · Kodable.ai",
+          subject: "Thanks, we got your message · Kodable.ai",
           hi: `Hi ${lead.name},`,
           body: "Thanks for getting in touch. We've got your message and we'll reply within 24 hours. Prefer it sooner? Message us on WhatsApp.",
           yours: "Here's what you told us:",

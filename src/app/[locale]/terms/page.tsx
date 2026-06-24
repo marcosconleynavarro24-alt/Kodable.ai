@@ -13,8 +13,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Términos y condiciones — Kodable.ai"
-      : "Terms and conditions — Kodable.ai",
+      ? "Términos y condiciones | Kodable.ai"
+      : "Terms and conditions | Kodable.ai",
     description: es
       ? "Los términos en lenguaje sencillo para trabajar con Kodable.ai: qué incluyen los servicios, cómo funcionan los presupuestos y proyectos, los planes de cuidado, la propiedad del trabajo y la ley aplicable."
       : "The plain-language terms for working with Kodable.ai: what the services cover, how quotes and projects work, care plans, who owns the work and which law applies.",
@@ -37,30 +37,30 @@ export default async function TermsPage({
       terms: "Terms",
       title: "Terms",
       updated: "Last updated: June 2026",
-      lead: "Plain words about how working together actually works. No legalese traps — just what you can expect from us, and what we ask of you.",
+      lead: "Plain words about how working together actually works. No legalese traps. Just what you can expect from us, and what we ask of you.",
       whoTitle: "Who Kodable.ai is",
       whoBody:
-        "Kodable.ai is a small studio that uses AI to help local businesses grow. When you hire Kodable.ai, you're working directly with our team — start to finish. These terms cover any work we do for you, and by asking us to start a project you're agreeing to them.",
+        "Kodable.ai is a small studio that uses AI to help local businesses grow. When you hire Kodable.ai, you're working directly with our team, start to finish. These terms cover any work we do for you, and by asking us to start a project you're agreeing to them.",
       contactLabel: "You can reach us at",
       scopeTitle: "What we do",
       scopeBody:
         "We help local businesses grow with AI. Our work falls into four areas:",
       scopeItems: [
-        "Websites — AI-built, fast sites that get you found and turn visitors into customers.",
-        "AI agents — assistants that answer customers and take bookings around the clock.",
-        "Custom tools and apps — booking and ordering apps, calculators, dashboards and internal tools built for you.",
-        "Automations and integrations — connecting the tools you use so the busywork runs itself.",
+        "Websites: AI-built, fast sites that get you found and turn visitors into customers.",
+        "AI agents: assistants that answer customers and take bookings around the clock.",
+        "Custom tools and apps: booking and ordering apps, calculators, dashboards and internal tools built for you.",
+        "Automations and integrations: connecting the tools you use so the busywork runs itself.",
       ],
       scopeNote:
         "We'll always be clear about which of these a quote covers. Anything not written into the quote isn't included until we agree it and we confirm the price.",
       quotesTitle: "How quotes and projects work",
       quotesBody:
-        "Before any work starts we'll send you a written quote describing what's included, what it costs and roughly how long it'll take. A project is confirmed once you accept that quote and pay any agreed deposit. We'll usually ask for part of the cost up front and the rest on launch — the exact split is in your quote.",
+        "Before any work starts we'll send you a written quote describing what's included, what it costs and roughly how long it'll take. A project is confirmed once you accept that quote and pay any agreed deposit. We'll usually ask for part of the cost up front and the rest on launch. The exact split is in your quote.",
       quotesBody2:
-        "If you want to add something partway through, that's no problem — we'll quote the extra separately so there are never surprises on the final bill. If your needs change a lot, we can always pause, re-scope and re-quote.",
+        "If you want to add something partway through, that's no problem. We'll quote the extra separately so there are never surprises on the final bill. If your needs change a lot, we can always pause, re-scope and re-quote.",
       pricesTitle: "About the prices",
       pricesBody:
-        "We don't publish a price list, because every project is different. After a free, no-pressure consultation we'll send you a written price based on what your project actually needs — so you only pay for what's genuinely useful to you. Unless we say otherwise, prices are quoted without IVA; IVA is added on the invoice where it applies.",
+        "We don't publish a price list, because every project is different. After a free, no-pressure consultation we'll send you a written price based on what your project actually needs, so you only pay for what's genuinely useful to you. Unless we say otherwise, prices are quoted without IVA; IVA is added on the invoice where it applies.",
       careTitle: "Care plans and recurring services",
       careBody:
         "Hosting and the monthly care plan are ongoing services billed on a recurring basis (monthly or yearly, as agreed). They keep your site online, backed up, secure and updated, and include small changes as described in your plan.",
@@ -77,13 +77,13 @@ export default async function TermsPage({
       liabilityBody:
         "We take real care with your project, but no website can be promised to be perfect, error-free or to deliver a specific business result. SEO in particular depends on Google and your market, so we can't guarantee rankings, traffic or sales.",
       liabilityBody2:
-        "We're not responsible for problems outside our control — things like hosting outages from third parties, content you supply, or changes you or someone else makes after launch. If something does go wrong and it's our fault, our responsibility is limited to putting it right or, at most, refunding what you paid us for that piece of work. We're not liable for indirect or knock-on losses such as lost profits.",
+        "We're not responsible for problems outside our control, like hosting outages from third parties, content you supply, or changes you or someone else makes after launch. If something does go wrong and it's our fault, our responsibility is limited to putting it right or, at most, refunding what you paid us for that piece of work. We're not liable for indirect or knock-on losses such as lost profits.",
       lawTitle: "Which law applies",
       lawBody:
         "These terms are governed by the law of Spain, and any dispute will be handled by the courts of Spain. If any single part of these terms turns out not to hold up, the rest still applies.",
       noteTitle: "A note on this page",
       noteBody:
-        "This is a plain-language template written so it's easy to read, not a finished legal contract. It should be reviewed and adapted to your exact project before launch. If anything here is unclear, just ask us — we'd rather explain it than have you sign something you don't follow.",
+        "This is a plain-language template written so it's easy to read, not a finished legal contract. It should be reviewed and adapted to your exact project before launch. If anything here is unclear, just ask us. We'd rather explain it than have you sign something you don't follow.",
       back: "Back home",
     },
     es: {
@@ -100,10 +100,10 @@ export default async function TermsPage({
       scopeBody:
         "Ayudamos a negocios locales a crecer con IA. Nuestro trabajo se divide en cuatro áreas:",
       scopeItems: [
-        "Webs — sitios rápidos hechos con IA que hacen que te encuentren y convierten visitas en clientes.",
-        "Agentes de IA — asistentes que atienden a tus clientes y cogen reservas a todas horas.",
-        "Herramientas y apps a medida — apps de reservas y pedidos, calculadoras, paneles y herramientas internas hechas para ti.",
-        "Automatizaciones e integraciones — conectar las herramientas que usas para que el trabajo repetitivo se haga solo.",
+        "Webs: sitios rápidos hechos con IA que hacen que te encuentren y convierten visitas en clientes.",
+        "Agentes de IA: asistentes que atienden a tus clientes y cogen reservas a todas horas.",
+        "Herramientas y apps a medida: apps de reservas y pedidos, calculadoras, paneles y herramientas internas hechas para ti.",
+        "Automatizaciones e integraciones: conectar las herramientas que usas para que el trabajo repetitivo se haga solo.",
       ],
       scopeNote:
         "Siempre dejaremos claro cuáles de estas áreas cubre un presupuesto. Todo lo que no esté escrito en el presupuesto no está incluido hasta que lo acordemos y confirmemos el precio.",

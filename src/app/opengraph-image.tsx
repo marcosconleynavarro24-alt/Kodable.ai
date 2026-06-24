@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 // Branded social-share image, generated at build time. Applies to every route
 // that doesn't define its own. Uses the site palette (warm paper / ink / emerald).
 export const alt =
-  "Kodable.ai — AI websites, agents and automations for small businesses";
+  "Kodable.ai: AI websites, agents and automations for small businesses";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -60,7 +60,7 @@ export default function Image() {
               maxWidth: "920px",
             }}
           >
-            Websites, AI agents, custom tools and automations — built fast, for
+            Websites, AI agents, custom tools and automations, built fast, for
             local businesses.
           </div>
         </div>

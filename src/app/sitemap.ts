@@ -9,8 +9,6 @@ const routes = [
   "",
   "/services",
   ...serviceSlugs.map((slug) => `/services/${slug}`),
-  "/work",
-  "/about",
   "/contact",
   "/faq",
   "/privacy",

@@ -32,13 +32,13 @@ const en: Record<ServiceSlug, Service> = {
     icon: "globe",
     bucket: "Get found & get chosen",
     title: "Websites",
-    tagline: "A fast, AI-built site that shows up when people search nearby — and turns a curious visitor into a booking.",
+    tagline: "A fast, AI-built site that shows up when people search nearby, and turns a curious visitor into a booking.",
     intro:
-      "Your website is the first impression most customers ever get of you. We build you one that looks established, loads in a blink, and comes up when someone nearby searches for what you do. Because AI does the heavy lifting, it's ready in days, not months — and every page points at the one thing you want them to do: book, order, call or message.",
+      "Your website is the first impression most customers ever get of you. We build you one that looks established, loads in a blink, and comes up when someone nearby searches for what you do. Because AI does the heavy lifting, it's ready in days, not months, and every page points at the one thing you want them to do: book, order, call or message.",
     included: [
       "Looks established and professional from the very first second",
       "Comes up when people nearby search for what you do",
-      "Loads instantly — nobody waits around for a slow site",
+      "Loads instantly, so nobody waits around for a slow site",
       "Book, order, call or message in one tap, even after hours",
       "Ready in days, not months, because AI does the heavy lifting",
     ],
@@ -55,9 +55,9 @@ const en: Record<ServiceSlug, Service> = {
     icon: "chat",
     bucket: "Answer everyone, 24/7",
     title: "AI Agents",
-    tagline: "A friendly assistant that answers customers, takes bookings and handles reception — on WhatsApp and your site, even at midnight.",
+    tagline: "A friendly assistant that answers customers, takes bookings and handles reception, on WhatsApp and your site, even at midnight.",
     intro:
-      "Most enquiries arrive when you're busy or closed, and a question left unanswered is a customer lost. We set up a friendly assistant that replies in seconds, books appointments itself, and handles the questions you get asked all day — hours, prices, where you are. When something needs you, it hands the conversation straight over. It sounds like your business, not a robot.",
+      "Most enquiries arrive when you're busy or closed, and a question left unanswered is a customer lost. We set up a friendly assistant that replies in seconds, books appointments itself, and handles the questions you get asked all day: hours, prices, where you are. When something needs you, it hands the conversation straight over. It sounds like your business, not a robot.",
     included: [
       "Replies in seconds, day or night",
       "Books appointments and tables by itself",
@@ -78,9 +78,9 @@ const en: Record<ServiceSlug, Service> = {
     icon: "layers",
     bucket: "Software that fits exactly",
     title: "Custom Tools & Apps",
-    tagline: "Booking apps, quote calculators, simple dashboards and internal tools — built around how you actually work.",
+    tagline: "Booking apps, quote calculators, simple dashboards and internal tools, built around how you actually work.",
     intro:
-      "Off-the-shelf apps rarely fit a real business, and the ones that do cost a fortune. Because AI lets us build fast, we can make the exact tool you need: an ordering app branded as yours, a quote calculator customers fill in themselves, a simple dashboard of what actually matters, or an internal tool that kills the busywork. Yours — not a one-size-fits-all subscription.",
+      "Off-the-shelf apps rarely fit a real business, and the ones that do cost a fortune. Because AI lets us build fast, we can make the exact tool you need: an ordering app branded as yours, a quote calculator customers fill in themselves, a simple dashboard of what actually matters, or an internal tool that kills the busywork. Yours, not a one-size-fits-all subscription.",
     included: [
       "A booking or ordering app branded as yours",
       "A quote calculator customers fill in themselves",
@@ -101,7 +101,7 @@ const en: Record<ServiceSlug, Service> = {
     icon: "code",
     bucket: "Save hours every week",
     title: "Automations & Integrations",
-    tagline: "Connect the tools you already use — Stripe, WhatsApp, email, Google — so the busywork runs itself.",
+    tagline: "Connect the tools you already use (Stripe, WhatsApp, email, Google) so the busywork runs itself.",
     intro:
       "Every week you lose hours copying things between apps and chasing what slipped through. We wire your tools together so the busywork runs itself: a booking lands straight in your calendar, a payment sends its own receipt, a new enquiry goes where you'll see it, and reminders go out without you lifting a finger. You stop being the glue between your apps.",
     included: [
@@ -127,13 +127,13 @@ const es: Record<ServiceSlug, Service> = {
     icon: "globe",
     bucket: "Que te encuentren y te elijan",
     title: "Webs",
-    tagline: "Una web rápida, hecha con IA, que aparece cuando buscan cerca de ti — y convierte a un visitante curioso en una reserva.",
+    tagline: "Una web rápida, hecha con IA, que aparece cuando buscan cerca de ti y convierte a un visitante curioso en una reserva.",
     intro:
-      "Tu web es la primera impresión que la mayoría de clientes tendrá de ti. Te construimos una que parece establecida, carga en un parpadeo y aparece cuando alguien cerca busca lo que haces. Como la IA hace el trabajo pesado, está lista en días, no en meses — y cada página apunta a lo único que quieres que hagan: reservar, pedir, llamar o escribir.",
+      "Tu web es la primera impresión que la mayoría de clientes tendrá de ti. Te construimos una que parece establecida, carga en un parpadeo y aparece cuando alguien cerca busca lo que haces. Como la IA hace el trabajo pesado, está lista en días, no en meses, y cada página apunta a lo único que quieres que hagan: reservar, pedir, llamar o escribir.",
     included: [
       "Parece establecida y profesional desde el primer segundo",
       "Aparece cuando la gente cerca busca lo que haces",
-      "Carga al instante — nadie espera una web lenta",
+      "Carga al instante, nadie espera una web lenta",
       "Reservar, pedir, llamar o escribir con un toque, incluso fuera de hora",
       "Lista en días, no en meses, porque la IA hace el trabajo pesado",
     ],
@@ -150,9 +150,9 @@ const es: Record<ServiceSlug, Service> = {
     icon: "chat",
     bucket: "Atiende a todos, 24/7",
     title: "Agentes IA",
-    tagline: "Un asistente cercano que atiende a tus clientes, coge reservas y hace de recepción — en WhatsApp y en tu web, incluso a medianoche.",
+    tagline: "Un asistente cercano que atiende a tus clientes, coge reservas y hace de recepción, en WhatsApp y en tu web, incluso a medianoche.",
     intro:
-      "La mayoría de las consultas llegan cuando estás ocupado o cerrado, y una pregunta sin responder es un cliente perdido. Configuramos un asistente cercano que responde en segundos, reserva citas solo y atiende las preguntas de siempre — horarios, precios, dónde estás. Cuando algo te necesita, te pasa la conversación directamente. Suena a tu negocio, no a un robot.",
+      "La mayoría de las consultas llegan cuando estás ocupado o cerrado, y una pregunta sin responder es un cliente perdido. Configuramos un asistente cercano que responde en segundos, reserva citas solo y atiende las preguntas de siempre: horarios, precios, dónde estás. Cuando algo te necesita, te pasa la conversación directamente. Suena a tu negocio, no a un robot.",
     included: [
       "Responde en segundos, de día o de noche",
       "Reserva citas y mesas por sí solo",
@@ -173,9 +173,9 @@ const es: Record<ServiceSlug, Service> = {
     icon: "layers",
     bucket: "Software a tu medida",
     title: "Herramientas y apps a medida",
-    tagline: "Apps de reservas, calculadoras de presupuesto, paneles sencillos y herramientas internas — hechas a la medida de cómo trabajas.",
+    tagline: "Apps de reservas, calculadoras de presupuesto, paneles sencillos y herramientas internas, hechas a la medida de cómo trabajas.",
     intro:
-      "Las apps genéricas rara vez encajan en un negocio real, y las que lo hacen cuestan una fortuna. Como la IA nos deja construir rápido, podemos hacer la herramienta exacta que necesitas: una app de pedidos con tu marca, una calculadora de presupuestos que rellenan tus clientes, un panel sencillo con lo que de verdad importa o una herramienta interna que acaba con el trabajo repetitivo. Tuya — no una suscripción genérica.",
+      "Las apps genéricas rara vez encajan en un negocio real, y las que lo hacen cuestan una fortuna. Como la IA nos deja construir rápido, podemos hacer la herramienta exacta que necesitas: una app de pedidos con tu marca, una calculadora de presupuestos que rellenan tus clientes, un panel sencillo con lo que de verdad importa o una herramienta interna que acaba con el trabajo repetitivo. Tuya, no una suscripción genérica.",
     included: [
       "Una app de reservas o pedidos con tu marca",
       "Una calculadora de presupuestos que rellenan tus clientes",
@@ -196,9 +196,9 @@ const es: Record<ServiceSlug, Service> = {
     icon: "code",
     bucket: "Ahorra horas cada semana",
     title: "Automatizaciones e integraciones",
-    tagline: "Conecta las herramientas que ya usas — Stripe, WhatsApp, email, Google — para que el trabajo repetitivo se haga solo.",
+    tagline: "Conecta las herramientas que ya usas (Stripe, WhatsApp, email, Google) para que el trabajo repetitivo se haga solo.",
     intro:
-      "Cada semana pierdes horas copiando cosas entre apps y persiguiendo lo que se escapa. Conectamos tus herramientas para que el trabajo repetitivo se haga solo: una reserva entra directa en tu calendario, un pago manda su propio recibo, una consulta nueva llega donde la verás y los recordatorios salen sin que muevas un dedo. Dejas de ser el pegamento entre tus apps.",
+      "Cada semana pierdes horas copiando cosas entre apps y persiguiendo lo que se escapa. Conectamos tus herramientas para que el trabajo repetitivo se haga solo: una reserva entra directa en tu calendario, un pago manda su propio recibo, una consulta nueva llega donde la verás y los recordatorios salen sin que muevas un dedo. Dejas de ser el nexo entre tus apps.",
     included: [
       "Las reservas entran directas en tu calendario",
       "Pagos y recibos gestionados automáticamente",

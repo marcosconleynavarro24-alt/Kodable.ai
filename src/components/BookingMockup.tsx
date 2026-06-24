@@ -16,7 +16,7 @@ export default function BookingMockup({
     <div
       className="booking reveal"
       role="img"
-      aria-label={`${booking.title} — ${booking.place}`}
+      aria-label={`${booking.title}, ${booking.place}`}
     >
       <div className="booking-head">
         <span className="b-ico" aria-hidden="true">

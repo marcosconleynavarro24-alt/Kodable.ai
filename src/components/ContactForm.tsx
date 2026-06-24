@@ -14,14 +14,14 @@ const COPY = {
     optional: "optional",
     email: "Email",
     phone: "Phone / WhatsApp",
-    contactHint: "Leave an email or a phone — whichever you prefer.",
+    contactHint: "Leave an email or a phone, whichever you prefer.",
     interest: "What are you after?",
     message: "Tell us about your business",
     messagePlaceholder:
       "e.g. I run a café and want customers to book a table and see the menu on their phone…",
     submit: "Send my message",
     submitting: "Sending…",
-    okTitle: "Got it — thank you!",
+    okTitle: "Got it, thank you!",
     okBody:
       "Your message is with us. We'll reply within 24 hours. Prefer it now? Message us on WhatsApp.",
     errTitle: "That didn't send.",

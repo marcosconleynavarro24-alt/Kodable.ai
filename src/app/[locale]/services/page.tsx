@@ -17,8 +17,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Servicios — webs, agentes de IA, herramientas y automatizaciones"
-      : "Services — websites, AI agents, custom tools and automations",
+      ? "Servicios: webs, agentes de IA, herramientas y automatizaciones"
+      : "Services: websites, AI agents, custom tools and automations",
     description: es
       ? "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas ahora y añade el resto cuando quieras."
       : "Four ways we grow your business with AI: websites, AI agents, custom tools and automations. Pick what you need now, add the rest when you're ready.",

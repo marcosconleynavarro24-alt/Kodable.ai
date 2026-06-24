@@ -25,8 +25,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? `${service.title} para tu negocio — Kodable`
-      : `${service.title} for your business — Kodable`,
+      ? `${service.title} para tu negocio | Kodable`
+      : `${service.title} for your business | Kodable`,
     description: service.tagline,
     alternates: { canonical: `/${locale}/services/${service.slug}` },
   };
@@ -56,7 +56,7 @@ export default async function ServiceDetailPage({
       included: "What's included",
       whoFor: "Who it's for",
       underTheHood: "Under the hood",
-      underNote: "The technical bits, for the curious — you don't need to know any of this.",
+      underNote: "The technical bits, for the curious. You don't need to know any of this.",
       others: "Other services",
       othersLead: "Pick what you need now, then add the rest when you're ready.",
     },
@@ -67,7 +67,7 @@ export default async function ServiceDetailPage({
       included: "Qué incluye",
       whoFor: "Para quién es",
       underTheHood: "Por dentro",
-      underNote: "La parte técnica, por curiosidad — no necesitas saber nada de esto.",
+      underNote: "La parte técnica, por curiosidad. No necesitas saber nada de esto.",
       others: "Otros servicios",
       othersLead: "Coge lo que necesitas ahora y añade el resto cuando quieras.",
     },

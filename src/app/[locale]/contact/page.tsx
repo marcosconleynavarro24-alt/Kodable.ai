@@ -15,8 +15,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Hablemos — escríbenos en lenguaje normal | Kodable"
-      : "Let's talk — message us in plain language | Kodable",
+      ? "Hablemos, escríbenos en lenguaje normal | Kodable"
+      : "Let's talk, message us in plain language | Kodable",
     description: es
       ? "Cuéntanos qué necesita tu negocio en lenguaje normal, sin tecnicismos. Respondemos en menos de 24 horas. Presupuesto gratis."
       : "Tell us what your business needs in plain language, no jargon. We reply within 24 hours. Free quote.",
@@ -38,7 +38,7 @@ export default async function ContactPage({
       home: "Home",
       crumb: "Contact",
       title: "Let's talk.",
-      sub: "Tell us about your business in plain language — no tech words needed. Drop us a line below and we'll reply within 24 hours.",
+      sub: "Tell us about your business in plain language, no tech words needed. Drop us a line below and we'll reply within 24 hours.",
       ways: "Or reach us directly",
       labels: {
         whatsapp: "WhatsApp",
@@ -53,7 +53,7 @@ export default async function ContactPage({
       home: "Inicio",
       crumb: "Contacto",
       title: "Hablemos.",
-      sub: "Cuéntanos sobre tu negocio en lenguaje normal — sin tecnicismos. Escríbenos abajo y te respondemos en menos de 24 horas.",
+      sub: "Cuéntanos sobre tu negocio en lenguaje normal, sin tecnicismos. Escríbenos abajo y te respondemos en menos de 24 horas.",
       ways: "O contáctanos directamente",
       labels: {
         whatsapp: "WhatsApp",
