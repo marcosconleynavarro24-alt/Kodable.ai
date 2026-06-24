@@ -1,92 +1,97 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import type { Locale } from "@/i18n/config";
+import { otherLocale, locales } from "@/i18n/config";
 import Logo from "./Logo";
+import Icon from "./Icon";
 
-export default function Nav() {
-  const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+type NavLink = { key: string; href: string; label: string };
 
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handler, { passive: true });
-    return () => window.removeEventListener("scroll", handler);
-  }, []);
+export default function Nav({
+  locale,
+  links,
+  ctaLabel,
+  langAria,
+}: {
+  locale: Locale;
+  links: NavLink[];
+  ctaLabel: string;
+  langAria: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const pathname = usePathname() || `/${locale}`;
+  const other = otherLocale(locale);
 
-  const links = [
-    { href: "/#services", label: "Services" },
-    { href: "/#process", label: "Process" },
-    { href: "/#pricing", label: "Pricing" },
-    { href: "/#faq", label: "FAQ" },
-    { href: "/#contact", label: "Contact" },
-  ];
+  // Swap the leading locale segment to build the language-toggle href.
+  const altHref = (() => {
+    const segments = pathname.split("/");
+    if (segments[1] && (locales as readonly string[]).includes(segments[1])) {
+      segments[1] = other;
+      return segments.join("/") || `/${other}`;
+    }
+    return `/${other}`;
+  })();
+
+  const isActive = (href: string) => {
+    const full = `/${locale}${href}`;
+    return pathname === full || pathname.startsWith(`${full}/`);
+  };
 
   return (
-    <header
-      className={`fixed top-0 w-full z-50 transition-shadow duration-300 bg-bg/85 backdrop-blur-xl border-b border-line/30 ${
-        scrolled ? "shadow-sm" : ""
-      }`}
-    >
-      <nav className="flex justify-between items-center w-full px-5 md:px-20 py-4 max-w-[1280px] mx-auto">
-        <a href="/" aria-label="Kodable.ai home" className="flex items-center">
-          <Logo />
-        </a>
+    <header className="nav">
+      <div className="wrap nav-in">
+        <Logo locale={locale} />
 
-        {/* Desktop links */}
-        <div className="hidden md:flex items-center space-x-8">
+        <nav className="nav-links" aria-label="Primary">
           {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-ink-muted font-medium text-[16px] leading-[1.6] hover:text-accent transition-colors duration-300"
+            <Link
+              key={l.key}
+              href={`/${locale}${l.href}`}
+              className={isActive(l.href) ? "active" : undefined}
             >
               {l.label}
-            </a>
+            </Link>
           ))}
-        </div>
+        </nav>
 
-        <div className="flex items-center space-x-4">
-          <a
-            href="/#contact"
-            className="hidden sm:inline-block bg-ink text-white px-6 py-2.5 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors duration-300"
-          >
-            Get a free quote
-          </a>
-          {/* Mobile hamburger */}
+        <div className="nav-right">
+          <Link className="lang" href={altHref} aria-label={langAria} hrefLang={other}>
+            <span className={locale === "es" ? "on" : undefined}>ES</span>
+            <span className="sep">·</span>
+            <span className={locale === "en" ? "on" : undefined}>EN</span>
+          </Link>
+          <Link href={`/${locale}/contact`} className="btn btn-primary btn-sm desktop-cta">
+            {ctaLabel}
+          </Link>
           <button
-            className="md:hidden p-2"
-            onClick={() => setMenuOpen((v) => !v)}
-            aria-label="Toggle navigation menu"
+            className="menu-btn"
+            aria-label="Menu"
+            aria-expanded={open}
+            aria-controls="mobileMenu"
+            onClick={() => setOpen((v) => !v)}
           >
-            <span className="material-symbols-outlined">
-              {menuOpen ? "close" : "menu"}
-            </span>
+            <Icon name="menu" />
           </button>
         </div>
-      </nav>
+      </div>
 
-      {/* Mobile menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-bg border-t border-line/30 px-5 py-6 space-y-4">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              onClick={() => setMenuOpen(false)}
-              className="block text-ink-muted font-medium text-[16px] hover:text-accent transition-colors"
-            >
-              {l.label}
-            </a>
-          ))}
-          <a
-            href="/#contact"
-            onClick={() => setMenuOpen(false)}
-            className="block text-center bg-ink text-white px-6 py-3 rounded-[4px] font-medium text-[16px] hover:bg-accent transition-colors"
-          >
-            Get a free quote
-          </a>
-        </div>
-      )}
+      <div className={`mobile-menu${open ? " open" : ""}`} id="mobileMenu">
+        {links.map((l) => (
+          <Link key={l.key} href={`/${locale}${l.href}`} onClick={() => setOpen(false)}>
+            {l.label}
+          </Link>
+        ))}
+        <Link
+          href={`/${locale}/contact`}
+          className="btn btn-primary"
+          onClick={() => setOpen(false)}
+        >
+          {ctaLabel}
+        </Link>
+      </div>
     </header>
   );
 }

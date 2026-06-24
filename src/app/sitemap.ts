@@ -1,35 +1,35 @@
 import type { MetadataRoute } from "next";
-import { servicesCatalog } from "@/content/servicesCatalog";
+import { locales } from "@/i18n/config";
+import { serviceSlugs } from "@/content/services";
 
-const BASE_URL = "https://kodable.ai";
+const SITE_URL = "https://kodable.ai";
+
+// Static route suffixes (locale prefix added per-locale below).
+const routes = [
+  "",
+  "/services",
+  ...serviceSlugs.map((slug) => `/services/${slug}`),
+  "/work",
+  "/about",
+  "/contact",
+  "/faq",
+  "/privacy",
+  "/terms",
+];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
-
-  return [
-    {
-      url: BASE_URL,
-      lastModified,
-      changeFrequency: "monthly",
-      priority: 1,
-    },
-    ...servicesCatalog.map((s) => ({
-      url: `${BASE_URL}/services/${s.slug}`,
-      lastModified,
-      changeFrequency: "monthly" as const,
-      priority: 0.8,
+  const now = new Date();
+  return locales.flatMap((locale) =>
+    routes.map((route) => ({
+      url: `${SITE_URL}/${locale}${route}`,
+      lastModified: now,
+      changeFrequency: route === "" ? ("weekly" as const) : ("monthly" as const),
+      priority: route === "" ? 1 : route.startsWith("/services") ? 0.8 : 0.6,
+      alternates: {
+        languages: Object.fromEntries(
+          locales.map((l) => [l, `${SITE_URL}/${l}${route}`]),
+        ),
+      },
     })),
-    {
-      url: `${BASE_URL}/privacy`,
-      lastModified,
-      changeFrequency: "yearly" as const,
-      priority: 0.3,
-    },
-    {
-      url: `${BASE_URL}/terms`,
-      lastModified,
-      changeFrequency: "yearly" as const,
-      priority: 0.3,
-    },
-  ];
+  );
 }
