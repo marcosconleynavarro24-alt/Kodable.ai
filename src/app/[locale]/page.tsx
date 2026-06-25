@@ -4,18 +4,11 @@ import { isLocale, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
 import { getServices } from "@/content/services";
 import { getFaq } from "@/content/faq";
-import Icon, { type IconName } from "@/components/Icon";
+import Icon from "@/components/Icon";
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
 import ChatMockup from "@/components/ChatMockup";
 import FinalCta from "@/components/FinalCta";
-
-const promiseIcon: Record<string, IconName> = {
-  found: "globe",
-  answer: "chat",
-  tools: "layers",
-  automate: "code",
-};
 
 export default async function HomePage({
   params,
@@ -47,40 +40,12 @@ export default async function HomePage({
                 {site.hero.ctaPrimary}
                 <Icon name="arrow" />
               </Link>
-              <a href="#promises" className="btn btn-ghost">
+              <a href="#services" className="btn btn-ghost">
                 {site.hero.ctaSecondary}
               </a>
             </div>
           </div>
           <ChatMockup chat={site.chat} />
-        </div>
-      </section>
-
-      {/* PROMISES */}
-      <section className="sec sec-warm" id="promises">
-        <div className="wrap">
-          <SectionHead
-            kicker={site.promises.kicker}
-            kickerIcon="chat"
-            title={site.promises.title}
-            lead={site.promises.lead}
-          />
-          <div className="thread">
-            {site.promises.items.map((item) => (
-              <div
-                key={item.key}
-                className={`msg-row reveal${item.side === "right" ? " right" : ""}`}
-              >
-                <span className="msg-ava" aria-hidden="true">
-                  <Icon name={promiseIcon[item.key] ?? "chat"} />
-                </span>
-                <div className="msg">
-                  <h3>{item.title}</h3>
-                  <p>{item.body}</p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -27,12 +27,6 @@ export interface SiteContent {
     inputPlaceholder: string;
     alt: string;
   };
-  promises: {
-    kicker: string;
-    title: string;
-    lead: string;
-    items: { key: string; title: string; body: string; side: "left" | "right" }[];
-  };
   scenarios: {
     kicker: string;
     title: string;
@@ -138,37 +132,6 @@ const en: SiteContent = {
     them2: "Terrace, please!",
     inputPlaceholder: "Message Casa del Mar…",
     alt: "A phone showing a customer messaging a restaurant late at night, and its AI assistant booking a table in seconds.",
-  },
-  promises: {
-    kicker: "What you get",
-    title: "Four plain promises. No jargon.",
-    lead: "Here's what we do for you, in your own words, not web-speak.",
-    items: [
-      {
-        key: "found",
-        side: "left",
-        title: "Get found",
-        body: "When someone nearby searches for a business like yours, you show up, not just your competitors. Fast, and perfect on a phone.",
-      },
-      {
-        key: "answer",
-        side: "right",
-        title: "Never miss a customer",
-        body: "An AI assistant answers questions and takes bookings in seconds, day or night, even when you're closed.",
-      },
-      {
-        key: "tools",
-        side: "left",
-        title: "Tools that fit you",
-        body: "Booking apps, quote calculators, simple dashboards, built around how you actually work, not a generic subscription.",
-      },
-      {
-        key: "automate",
-        side: "right",
-        title: "The busywork runs itself",
-        body: "Your tools talk to each other, so bookings, payments and reminders just happen, without you in the middle.",
-      },
-    ],
   },
   scenarios: {
     kicker: "Is this you?",
@@ -315,37 +278,6 @@ const es: SiteContent = {
     them2: "¡En la terraza, por favor!",
     inputPlaceholder: "Escribe a Casa del Mar…",
     alt: "Un móvil donde un cliente escribe a un restaurante de noche y su asistente de IA le reserva una mesa en segundos.",
-  },
-  promises: {
-    kicker: "Lo que consigues",
-    title: "Cuatro promesas claras. Sin tecnicismos.",
-    lead: "Esto es lo que hacemos por ti, en tus palabras, no en jerga web.",
-    items: [
-      {
-        key: "found",
-        side: "left",
-        title: "Que te encuentren",
-        body: "Cuando alguien cerca busca un negocio como el tuyo, apareces tú, no solo tu competencia. Rápido y perfecto en el móvil.",
-      },
-      {
-        key: "answer",
-        side: "right",
-        title: "No pierdas ni un cliente",
-        body: "Un asistente de IA responde preguntas y coge reservas en segundos, de día o de noche, incluso cuando estás cerrado.",
-      },
-      {
-        key: "tools",
-        side: "left",
-        title: "Herramientas a tu medida",
-        body: "Apps de reservas, calculadoras de presupuesto y paneles sencillos, hechos a la medida de cómo trabajas, no una suscripción genérica.",
-      },
-      {
-        key: "automate",
-        side: "right",
-        title: "El trabajo repetitivo se hace solo",
-        body: "Tus herramientas se hablan entre ellas, así que reservas, pagos y recordatorios pasan solos, sin ti en medio.",
-      },
-    ],
   },
   scenarios: {
     kicker: "¿Eres tú?",
