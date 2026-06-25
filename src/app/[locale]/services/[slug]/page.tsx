@@ -7,6 +7,7 @@ import { getServices, getService, serviceSlugs } from "@/content/services";
 import Icon from "@/components/Icon";
 import ServiceCard from "@/components/ServiceCard";
 import FinalCta from "@/components/FinalCta";
+import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
 
 // Pre-render every service detail page for both locales.
 export async function generateStaticParams() {
@@ -25,8 +26,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? `${service.title} para tu negocio | Kodable`
-      : `${service.title} for your business | Kodable`,
+      ? `${service.title} para tu negocio`
+      : `${service.title} for your business`,
     description: service.tagline,
     alternates: { canonical: `/${locale}/services/${service.slug}` },
   };
@@ -72,6 +73,32 @@ export default async function ServiceDetailPage({
       othersLead: "Coge lo que necesitas ahora y añade el resto cuando quieras.",
     },
   }[locale];
+
+  // serviceType mirrors the array on the #service node in layout.tsx.
+  const serviceTypeBySlug: Record<string, string> = {
+    websites: "Website Development",
+    "ai-agents": "AI Agents",
+    "custom-tools": "Custom Software",
+    automations: "Automation & Integrations",
+  };
+
+  const jsonLd = jsonLdDoc(
+    {
+      "@type": "Service",
+      name: service.title,
+      description: service.tagline,
+      serviceType: serviceTypeBySlug[service.slug],
+      url: `${SITE_URL}/${locale}/services/${service.slug}`,
+      provider: { "@id": `${SITE_URL}/#organization` },
+      areaServed: { "@type": "Country", name: "Spain" },
+      availableLanguage: ["en", "es"],
+    },
+    breadcrumbList([
+      { name: copy.home, path: `/${locale}` },
+      { name: copy.services, path: `/${locale}/services` },
+      { name: service.title },
+    ]),
+  );
 
   return (
     <>
@@ -174,6 +201,11 @@ export default async function ServiceDetailPage({
       </section>
 
       <FinalCta finalCta={site.finalCta} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 }

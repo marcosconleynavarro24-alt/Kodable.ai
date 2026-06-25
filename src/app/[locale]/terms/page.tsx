@@ -13,8 +13,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Términos y condiciones | Kodable.ai"
-      : "Terms and conditions | Kodable.ai",
+      ? "Términos y condiciones"
+      : "Terms and conditions",
     description: es
       ? "Los términos en lenguaje sencillo para trabajar con Kodable.ai: qué incluyen los servicios, cómo funcionan los presupuestos y proyectos, los planes de cuidado, la propiedad del trabajo y la ley aplicable."
       : "The plain-language terms for working with Kodable.ai: what the services cover, how quotes and projects work, care plans, who owns the work and which law applies.",

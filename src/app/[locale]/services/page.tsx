@@ -7,6 +7,7 @@ import { getServices } from "@/content/services";
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
 import FinalCta from "@/components/FinalCta";
+import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
 
 export async function generateMetadata({
   params,
@@ -17,8 +18,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Servicios: webs, agentes de IA, herramientas y automatizaciones"
-      : "Services: websites, AI agents, custom tools and automations",
+      ? "Webs, agentes de IA, herramientas y automatización"
+      : "Websites, AI Agents, Custom Tools & Automations",
     description: es
       ? "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas ahora y añade el resto cuando quieras."
       : "Four ways we grow your business with AI: websites, AI agents, custom tools and automations. Pick what you need now, add the rest when you're ready.",
@@ -64,6 +65,13 @@ export default async function ServicesPage({
       talk: "Leer las preguntas",
     },
   }[locale];
+
+  const jsonLd = jsonLdDoc(
+    breadcrumbList([
+      { name: copy.home, path: `/${locale}` },
+      { name: copy.services },
+    ]),
+  );
 
   return (
     <>
@@ -114,6 +122,11 @@ export default async function ServicesPage({
       </section>
 
       <FinalCta finalCta={site.finalCta} />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 }

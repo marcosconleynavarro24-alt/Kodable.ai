@@ -30,12 +30,12 @@ const META: Record<Locale, { title: string; description: string }> = {
   en: {
     title: "AI websites, agents & automations for small businesses | Kodable.ai",
     description:
-      "We use AI to scale small businesses: fast websites, AI agents that answer customers 24/7, custom tools and automations. A free no-pressure consultation, and real people who answer after launch.",
+      "AI websites, agents & automations that grow small businesses: fast sites, 24/7 customer chat, custom tools. Free consult, real people after launch.",
   },
   es: {
     title: "Webs, agentes de IA y automatizaciones para pequeños negocios | Kodable.ai",
     description:
-      "Usamos IA para hacer crecer pequeños negocios: webs rápidas, agentes de IA que atienden 24/7, herramientas a medida y automatizaciones. Una consulta gratis y sin compromiso, y personas reales que responden tras el lanzamiento.",
+      "Webs, agentes de IA y automatizaciones que hacen crecer pequeños negocios: webs rápidas, atención 24/7, herramientas a medida. Consulta gratis y sin compromiso.",
   },
 };
 
@@ -68,8 +68,14 @@ export async function generateMetadata({
       type: "website",
       locale: key === "es" ? "es_ES" : "en_GB",
       alternateLocale: key === "es" ? ["en_GB"] : ["es_ES"],
+      images: ["/opengraph-image"],
     },
-    twitter: { card: "summary_large_image", title: meta.title, description: meta.description },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: ["/twitter-image"],
+    },
     robots: { index: true, follow: true },
   };
 }
@@ -95,8 +101,20 @@ export default async function LocaleLayout({
         name: "Kodable.ai",
         url: SITE_URL,
         email: contactInfo.email,
+        telephone: contactInfo.phoneHref,
         description: site.brand.tagline,
-          knowsLanguage: ["en", "es"],
+        knowsLanguage: ["en", "es"],
+        logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+        contactPoint: [
+          {
+            "@type": "ContactPoint",
+            contactType: "customer service",
+            telephone: contactInfo.phoneHref,
+            email: contactInfo.email,
+            availableLanguage: ["en", "es"],
+            url: contactInfo.whatsappUrl,
+          },
+        ],
       },
       {
         "@type": "WebSite",
@@ -113,8 +131,11 @@ export default async function LocaleLayout({
         description: site.brand.tagline,
         url: SITE_URL,
         email: contactInfo.email,
-          availableLanguage: ["es", "en"],
+        telephone: contactInfo.phoneHref,
+        knowsLanguage: ["en", "es"],
+        areaServed: { "@type": "Country", name: "Spain" },
         serviceType: ["Website Development", "AI Agents", "Custom Software", "Automation & Integrations"],
+        provider: { "@id": `${SITE_URL}/#organization` },
         priceRange: "€€",
       },
     ],

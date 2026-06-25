@@ -6,6 +6,7 @@ import { getSite } from "@/content/site";
 import { getFaq } from "@/content/faq";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
+import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
 
 export async function generateMetadata({
   params,
@@ -59,18 +60,23 @@ export default async function FaqPage({
   const site = getSite(locale);
   const faq = getFaq(locale);
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faq.map((item) => ({
-      "@type": "Question",
-      name: item.q,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: item.a,
-      },
-    })),
-  };
+  const jsonLd = jsonLdDoc(
+    {
+      "@type": "FAQPage",
+      mainEntity: faq.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.a,
+        },
+      })),
+    },
+    breadcrumbList([
+      { name: t.crumbHome, path: `/${locale}` },
+      { name: t.crumbHere },
+    ]),
+  );
 
   return (
     <>

@@ -5,6 +5,7 @@ import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
 import Icon from "@/components/Icon";
 import ContactForm from "@/components/ContactForm";
+import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
 
 export async function generateMetadata({
   params,
@@ -15,8 +16,8 @@ export async function generateMetadata({
   const es = locale === "es";
   return {
     title: es
-      ? "Hablemos, escríbenos en lenguaje normal | Kodable"
-      : "Let's talk, message us in plain language | Kodable",
+      ? "Hablemos, escríbenos en lenguaje normal"
+      : "Let's talk, message us in plain language",
     description: es
       ? "Cuéntanos qué necesita tu negocio en lenguaje normal, sin tecnicismos. Respondemos en menos de 24 horas. Presupuesto gratis."
       : "Tell us what your business needs in plain language, no jargon. We reply within 24 hours. Free quote.",
@@ -45,9 +46,6 @@ export default async function ContactPage({
         call: "Call us",
         email: "Email",
       },
-      reassureTitle: "No pressure, ever.",
-      reassure:
-        "A first chat and a clear quote are always free. We'll explain everything in plain words, you decide in your own time, and there's never any obligation.",
     },
     es: {
       home: "Inicio",
@@ -60,11 +58,15 @@ export default async function ContactPage({
         call: "Llámanos",
         email: "Email",
       },
-      reassureTitle: "Sin presión, nunca.",
-      reassure:
-        "La primera charla y un presupuesto claro son siempre gratis. Te lo explicamos todo en lenguaje normal, decides con calma y nunca hay ningún compromiso.",
     },
   }[locale];
+
+  const jsonLd = jsonLdDoc(
+    breadcrumbList([
+      { name: copy.home, path: `/${locale}` },
+      { name: copy.crumb },
+    ]),
+  );
 
   return (
     <>
@@ -127,16 +129,14 @@ export default async function ContactPage({
                 </span>
               </a>
             </div>
-
-            <p className="how-note">
-              <Icon name="check" />
-              <span>
-                <strong>{copy.reassureTitle}</strong> {copy.reassure}
-              </span>
-            </p>
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 }

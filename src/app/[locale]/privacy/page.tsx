@@ -12,7 +12,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const es = locale === "es";
   return {
-    title: es ? "Privacidad · Kodable" : "Privacy · Kodable",
+    title: es ? "Privacidad" : "Privacy",
     description: es
       ? "Cómo recogemos, usamos y protegemos tus datos cuando nos escribes a través de esta web. Conforme al RGPD y la LOPDGDD."
       : "How we collect, use and protect your data when you get in touch through this site. GDPR and Spanish data law aware.",
