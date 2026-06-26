@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Locale } from "@/i18n/config";
-import { otherLocale, locales } from "@/i18n/config";
+import { locales, localeNames, localeShort } from "@/i18n/config";
 import Logo from "./Logo";
 import Icon from "./Icon";
+import Flag from "./Flag";
 
 type NavLink = { key: string; href: string; label: string };
 
@@ -22,18 +23,39 @@ export default function Nav({
   langAria: string;
 }) {
   const [open, setOpen] = useState(false);
+  const [langOpen, setLangOpen] = useState(false);
+  const langRef = useRef<HTMLDivElement>(null);
   const pathname = usePathname() || `/${locale}`;
-  const other = otherLocale(locale);
 
-  // Swap the leading locale segment to build the language-toggle href.
-  const altHref = (() => {
+  // Build the href for a given locale by swapping the leading locale segment,
+  // keeping the rest of the current path (so the language switch stays on-page).
+  const switchHref = (target: Locale) => {
     const segments = pathname.split("/");
     if (segments[1] && (locales as readonly string[]).includes(segments[1])) {
-      segments[1] = other;
-      return segments.join("/") || `/${other}`;
+      segments[1] = target;
+      return segments.join("/") || `/${target}`;
     }
-    return `/${other}`;
-  })();
+    return `/${target}`;
+  };
+
+  // Close the language dropdown on outside click or Escape.
+  useEffect(() => {
+    if (!langOpen) return;
+    const onClick = (e: MouseEvent) => {
+      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+        setLangOpen(false);
+      }
+    };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setLangOpen(false);
+    };
+    document.addEventListener("mousedown", onClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [langOpen]);
 
   const isActive = (href: string) => {
     const full = `/${locale}${href}`;
@@ -58,11 +80,40 @@ export default function Nav({
         </nav>
 
         <div className="nav-right">
-          <Link className="lang" href={altHref} aria-label={langAria} hrefLang={other}>
-            <span className={locale === "es" ? "on" : undefined}>ES</span>
-            <span className="sep">·</span>
-            <span className={locale === "en" ? "on" : undefined}>EN</span>
-          </Link>
+          {/* Flag language switcher */}
+          <div className="lang-switch" ref={langRef}>
+            <button
+              type="button"
+              className="lang"
+              aria-label={langAria}
+              aria-haspopup="menu"
+              aria-expanded={langOpen}
+              onClick={() => setLangOpen((v) => !v)}
+            >
+              <Flag locale={locale} />
+              <span>{localeShort[locale]}</span>
+              <Icon name="chevron" className="lang-chev" />
+            </button>
+            {langOpen ? (
+              <div className="lang-menu" role="menu">
+                {locales.map((l) => (
+                  <Link
+                    key={l}
+                    href={switchHref(l)}
+                    hrefLang={l}
+                    role="menuitem"
+                    className={`lang-opt${l === locale ? " on" : ""}`}
+                    aria-current={l === locale ? "true" : undefined}
+                    onClick={() => setLangOpen(false)}
+                  >
+                    <Flag locale={l} />
+                    <span>{localeNames[l]}</span>
+                  </Link>
+                ))}
+              </div>
+            ) : null}
+          </div>
+
           <Link href={`/${locale}/contact`} className="btn btn-primary btn-sm desktop-cta">
             {ctaLabel}
           </Link>
@@ -91,6 +142,23 @@ export default function Nav({
         >
           {ctaLabel}
         </Link>
+
+        {/* Language flags inside the burger menu */}
+        <div className="mobile-lang" aria-label={langAria}>
+          {locales.map((l) => (
+            <Link
+              key={l}
+              href={switchHref(l)}
+              hrefLang={l}
+              className={`mobile-lang-opt${l === locale ? " on" : ""}`}
+              aria-current={l === locale ? "true" : undefined}
+              onClick={() => setOpen(false)}
+            >
+              <Flag locale={l} />
+              <span>{localeShort[l]}</span>
+            </Link>
+          ))}
+        </div>
       </div>
     </header>
   );

@@ -14,17 +14,50 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const es = locale === "es";
+  const meta: Record<Locale, { title: string; description: string }> = {
+    en: {
+      title: "Frequently asked questions",
+      description:
+        "Plain, jargon-free answers about timing, costs and what happens after your website goes live.",
+    },
+    es: {
+      title: "Preguntas frecuentes",
+      description:
+        "Respuestas claras y sin tecnicismos sobre plazos, costes y qué pasa después de lanzar tu web.",
+    },
+    fr: {
+      title: "Questions fréquentes",
+      description:
+        "Des réponses claires et sans jargon sur les délais, les coûts et ce qui se passe une fois votre site web en ligne.",
+    },
+    de: {
+      title: "Häufig gestellte Fragen",
+      description:
+        "Klare Antworten ohne Fachjargon zu Zeitplan, Kosten und was nach dem Launch deiner Website passiert.",
+    },
+    it: {
+      title: "Domande frequenti",
+      description:
+        "Risposte chiare e senza tecnicismi su tempi, costi e cosa succede dopo che il tuo sito va online.",
+    },
+  };
+  const key: Locale = isLocale(locale) ? locale : "en";
   return {
-    title: es ? "Preguntas frecuentes" : "Frequently asked questions",
-    description: es
-      ? "Respuestas claras y sin tecnicismos sobre plazos, costes y qué pasa después de lanzar tu web."
-      : "Plain, jargon-free answers about timing, costs and what happens after your website goes live.",
+    title: meta[key].title,
+    description: meta[key].description,
     alternates: { canonical: `/${locale}/faq` },
   };
 }
 
-const copy = {
+const copy: Record<Locale, {
+  crumbHome: string;
+  crumbHere: string;
+  h1: string;
+  sub: string;
+  stillTitle: string;
+  stillBody: string;
+  stillCta: string;
+}> = {
   en: {
     crumbHome: "Home",
     crumbHere: "FAQ",
@@ -45,6 +78,9 @@ const copy = {
       "Si la tuya no está aquí, pregúntanos sin más. Te respondemos claro, normalmente el mismo día.",
     stillCta: "Hablemos",
   },
+  fr: { crumbHome: "Accueil", crumbHere: "FAQ", h1: "Vos questions, des réponses claires.", sub: "Pas de jargon, pas de petites lignes. Voici ce que les commerçants veulent généralement savoir avant qu'on commence.", stillTitle: "Une question reste ?", stillBody: "Si la vôtre n'est pas ici, demandez-nous sans hésiter. Nous vous répondons clairement, généralement le jour même.", stillCta: "Parlez-nous" },
+  de: { crumbHome: "Start", crumbHere: "Fragen", h1: "Fragen, klar beantwortet.", sub: "Kein Fachjargon, kein Kleingedrucktes. Das wollen Unternehmer meist wissen, bevor wir loslegen.", stillTitle: "Hast du noch eine Frage?", stillBody: "Wenn deine nicht dabei ist, frag einfach. Wir geben dir eine klare Antwort, meist noch am selben Tag.", stillCta: "Sprich mit uns" },
+  it: { crumbHome: "Home", crumbHere: "Domande frequenti", h1: "Domande, con risposte chiare.", sub: "Niente gergo, niente clausole nascoste. Ecco cosa i titolari di solito vogliono sapere prima di iniziare.", stillTitle: "Hai ancora una domanda?", stillBody: "Se la tua non è qui, chiedila senza problemi. Ti diamo una risposta diretta, di solito in giornata.", stillCta: "Parla con noi" },
 };
 
 export default async function FaqPage({

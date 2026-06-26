@@ -191,7 +191,8 @@ export default async function PrivacyPage({
         "Este es un aviso de privacidad en lenguaje sencillo para un estudio pequeño con un formulario de contacto y una relación de cuidado, nada más complicado que eso. Es una plantilla que debería revisar y adaptar un profesional antes del lanzamiento. Si lees esto en una web ya publicada, esa revisión ya debería estar hecha.",
       back: "Volver al inicio",
     },
-  }[locale];
+    // Legal copy is maintained in EN/ES only; other locales fall back to EN.
+  }[locale === "es" ? "es" : "en"];
 
   return (
     <>

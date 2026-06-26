@@ -140,7 +140,8 @@ export default async function TermsPage({
         "Esto es una plantilla en lenguaje sencillo, escrita para que sea fácil de leer, no un contrato legal terminado. Conviene revisarla y adaptarla a tu proyecto concreto antes del lanzamiento. Si algo aquí no queda claro, pregúntanos: preferimos explicártelo a que firmes algo que no entiendes.",
       back: "Volver al inicio",
     },
-  }[locale];
+    // Legal copy is maintained in EN/ES only; other locales fall back to EN.
+  }[locale === "es" ? "es" : "en"];
 
   return (
     <>

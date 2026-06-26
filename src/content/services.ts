@@ -216,7 +216,292 @@ const es: Record<ServiceSlug, Service> = {
   },
 };
 
-const content: Record<Locale, Record<ServiceSlug, Service>> = { en, es };
+const fr: Record<ServiceSlug, Service> = {
+  websites: {
+    slug: "websites",
+    icon: "globe",
+    bucket: "Soyez trouvé et choisi",
+    title: "Sites web",
+    tagline: "Un site rapide, conçu avec l'IA, qui apparaît quand les gens cherchent près de chez vous et transforme un visiteur curieux en réservation.",
+    intro:
+      "Votre site web est la première impression que la plupart de vos clients auront de vous. Nous vous en construisons un qui paraît établi, se charge en un clin d'œil et apparaît quand quelqu'un près de chez vous cherche ce que vous faites. Comme l'IA fait le gros du travail, il est prêt en quelques jours, pas en quelques mois, et chaque page vise la seule chose que vous voulez qu'ils fassent : réserver, commander, appeler ou écrire.",
+    included: [
+      "Paraît établi et professionnel dès la première seconde",
+      "Apparaît quand les gens près de chez vous cherchent ce que vous faites",
+      "Se charge instantanément, personne n'attend devant un site lent",
+      "Réserver, commander, appeler ou écrire en un geste, même en dehors des horaires",
+      "Prêt en quelques jours, pas en quelques mois, parce que l'IA fait le gros du travail",
+    ],
+    whoFor: "Les commerces qui lancent un nouveau site, ou qui remplacent un site daté et standardisé.",
+    underTheHood: [
+      "Création assistée par IA avec Next.js",
+      "SEO local, schema et Google Business Profile",
+      "Core Web Vitals et accessibilité niveau WCAG AA",
+    ],
+    cta: "Construire mon site",
+  },
+  "ai-agents": {
+    slug: "ai-agents",
+    icon: "chat",
+    bucket: "Répondez à tous, 24h/24",
+    title: "Agents IA",
+    tagline: "Un assistant chaleureux qui répond aux clients, prend les réservations et fait l'accueil, sur WhatsApp et sur votre site, même à minuit.",
+    intro:
+      "La plupart des demandes arrivent quand vous êtes occupé ou fermé, et une question laissée sans réponse, c'est un client perdu. Nous mettons en place un assistant chaleureux qui répond en quelques secondes, prend les rendez-vous lui-même et gère les questions qu'on vous pose toute la journée : horaires, prix, où vous êtes. Quand quelque chose vous demande, il vous passe la conversation directement. Il sonne comme votre activité, pas comme un robot.",
+    included: [
+      "Répond en quelques secondes, de jour comme de nuit",
+      "Prend les rendez-vous et les tables tout seul",
+      "Répond aux mêmes questions qu'on vous pose toute la journée",
+      "Vous passe la conversation dès que ça compte",
+      "Fonctionne sur WhatsApp et directement sur votre site",
+    ],
+    whoFor: "Les commerces qui croulent sous les questions répétées, ou qui perdent les demandes en dehors des horaires.",
+    underTheHood: [
+      "IA conversationnelle, ajustée à votre activité",
+      "WhatsApp Business et chat sur le site",
+      "Intégrations de réservation avec passage à une personne",
+    ],
+    cta: "Mettre en place mon agent",
+  },
+  "custom-tools": {
+    slug: "custom-tools",
+    icon: "layers",
+    bucket: "Un logiciel qui vous va parfaitement",
+    title: "Outils et applis sur mesure",
+    tagline: "Applis de réservation, calculatrices de devis, tableaux de bord simples et outils internes, conçus autour de votre vraie façon de travailler.",
+    intro:
+      "Les applis toutes faites s'adaptent rarement à un vrai commerce, et celles qui le font coûtent une fortune. Comme l'IA nous permet de construire vite, nous pouvons créer l'outil exact dont vous avez besoin : une appli de commande à votre marque, une calculatrice de devis que vos clients remplissent eux-mêmes, un tableau de bord simple avec ce qui compte vraiment, ou un outil interne qui élimine les tâches ingrates. Le vôtre, pas un abonnement standardisé.",
+    included: [
+      "Une appli de réservation ou de commande à votre marque",
+      "Une calculatrice de devis que vos clients remplissent eux-mêmes",
+      "Un tableau de bord simple avec les chiffres qui comptent",
+      "Des outils internes qui réduisent les tâches répétitives du quotidien",
+      "Construit vite, parce que l'IA fait le gros du travail",
+    ],
+    whoFor: "Les dirigeants qui débordent de leurs tableurs, ou qui ont des applis qui ne collent pas tout à fait.",
+    underTheHood: [
+      "Applis sur mesure en React / Next.js",
+      "Données sécurisées, connexions et rôles",
+      "Développement assisté par IA",
+    ],
+    cta: "Construire mon outil",
+  },
+  automations: {
+    slug: "automations",
+    icon: "code",
+    bucket: "Gagnez des heures chaque semaine",
+    title: "Automatisations et intégrations",
+    tagline: "Connectez les outils que vous utilisez déjà (Stripe, WhatsApp, email, Google) pour que les tâches ingrates se fassent toutes seules.",
+    intro:
+      "Chaque semaine, vous perdez des heures à recopier des choses d'une appli à l'autre et à courir après ce qui vous a échappé. Nous relions vos outils pour que les tâches ingrates se fassent toutes seules : une réservation atterrit directement dans votre agenda, un paiement envoie son propre reçu, une nouvelle demande arrive là où vous la verrez, et les rappels partent sans que vous leviez le petit doigt. Vous cessez d'être le lien entre vos applis.",
+    included: [
+      "Les réservations atterrissent directement dans votre agenda",
+      "Paiements et reçus gérés automatiquement",
+      "Les nouvelles demandes arrivent là où vous les verrez vraiment",
+      "Rappels et relances envoyés sans que vous leviez le petit doigt",
+      "Vos outils se parlent enfin entre eux",
+    ],
+    whoFor: "Les dirigeants qui copient-collent d'une appli à l'autre, ou qui oublient les relances.",
+    underTheHood: [
+      "Intégrations avec Stripe, WhatsApp, Google et email",
+      "Automatisation des flux et webhooks",
+      "Connexions fiables et surveillées",
+    ],
+    cta: "Automatiser mes tâches ingrates",
+  },
+};
+
+const de: Record<ServiceSlug, Service> = {
+  websites: {
+    slug: "websites",
+    icon: "globe",
+    bucket: "Gefunden und gewählt werden",
+    title: "Websites",
+    tagline: "Eine schnelle, mit KI gebaute Website, die auftaucht, wenn Leute in der Nähe suchen, und einen neugierigen Besucher in eine Buchung verwandelt.",
+    intro:
+      "Deine Website ist der erste Eindruck, den die meisten Kunden je von dir bekommen. Wir bauen dir eine, die etabliert wirkt, in einem Wimpernschlag lädt und auftaucht, wenn jemand in der Nähe nach dem sucht, was du machst. Weil die KI die schwere Arbeit übernimmt, ist sie in Tagen fertig, nicht in Monaten, und jede Seite zielt auf das Eine, das sie tun sollen: buchen, bestellen, anrufen oder schreiben.",
+    included: [
+      "Wirkt von der ersten Sekunde an etabliert und professionell",
+      "Taucht auf, wenn Leute in der Nähe nach dem suchen, was du machst",
+      "Lädt sofort, sodass niemand auf eine lahme Website wartet",
+      "Buchen, bestellen, anrufen oder schreiben mit einem Tipp, auch nach Feierabend",
+      "In Tagen fertig, nicht in Monaten, weil die KI die schwere Arbeit übernimmt",
+    ],
+    whoFor: "Unternehmen, die eine neue Website starten oder eine veraltete Vorlagen-Website ersetzen.",
+    underTheHood: [
+      "KI-gestützte Entwicklung auf Next.js",
+      "Lokales SEO, schema und Google Business Profile",
+      "Core Web Vitals und Barrierefreiheit nach WCAG AA",
+    ],
+    cta: "Meine Website bauen",
+  },
+  "ai-agents": {
+    slug: "ai-agents",
+    icon: "chat",
+    bucket: "Allen antworten, rund um die Uhr",
+    title: "KI-Agenten",
+    tagline: "Ein freundlicher Assistent, der Kunden antwortet, Buchungen entgegennimmt und den Empfang macht, auf WhatsApp und auf deiner Website, auch um Mitternacht.",
+    intro:
+      "Die meisten Anfragen kommen, wenn du beschäftigt oder geschlossen hast, und eine unbeantwortete Frage ist ein verlorener Kunde. Wir richten einen freundlichen Assistenten ein, der in Sekunden antwortet, selbst Termine bucht und die Fragen beantwortet, die dir den ganzen Tag gestellt werden: Öffnungszeiten, Preise, wo ihr seid. Wenn etwas dich braucht, übergibt er das Gespräch direkt an dich. Er klingt nach deinem Unternehmen, nicht nach einem Roboter.",
+    included: [
+      "Antwortet in Sekunden, Tag und Nacht",
+      "Bucht Termine und Tische ganz von selbst",
+      "Beantwortet dieselben Fragen, die dir den ganzen Tag gestellt werden",
+      "Übergibt dir das Gespräch in dem Moment, in dem es zählt",
+      "Funktioniert auf WhatsApp und direkt auf deiner Website",
+    ],
+    whoFor: "Unternehmen, die in wiederkehrenden Fragen ertrinken oder Anfragen nach Feierabend verlieren.",
+    underTheHood: [
+      "Konversations-KI, auf dein Unternehmen abgestimmt",
+      "WhatsApp Business und Chat auf der Website",
+      "Buchungsintegrationen mit Übergabe an einen Menschen",
+    ],
+    cta: "Meinen Agenten einrichten",
+  },
+  "custom-tools": {
+    slug: "custom-tools",
+    icon: "layers",
+    bucket: "Software, die genau passt",
+    title: "Maßgeschneiderte Tools & Apps",
+    tagline: "Buchungs-Apps, Angebotsrechner, einfache Dashboards und interne Tools, gebaut um die Art, wie du tatsächlich arbeitest.",
+    intro:
+      "Apps von der Stange passen selten zu einem echten Unternehmen, und die, die passen, kosten ein Vermögen. Weil die KI uns schnell bauen lässt, können wir genau das Tool machen, das du brauchst: eine Bestell-App mit deinem Branding, einen Angebotsrechner, den deine Kunden selbst ausfüllen, ein einfaches Dashboard mit dem, was wirklich zählt, oder ein internes Tool, das die Fleißarbeit beseitigt. Deins, kein Abo nach dem Einheitsprinzip.",
+    included: [
+      "Eine Buchungs- oder Bestell-App mit deinem Branding",
+      "Ein Angebotsrechner, den deine Kunden selbst ausfüllen",
+      "Ein einfaches Dashboard mit den Zahlen, die zählen",
+      "Interne Tools, die die tägliche Fleißarbeit kürzen",
+      "Schnell gebaut, weil die KI die schwere Arbeit übernimmt",
+    ],
+    whoFor: "Inhaber, denen Tabellen zu eng werden oder deren Apps nicht ganz passen.",
+    underTheHood: [
+      "Maßgeschneiderte React- / Next.js-Apps",
+      "Sichere Daten, Logins und Rollen",
+      "KI-gestützte Entwicklung",
+    ],
+    cta: "Mein Tool bauen",
+  },
+  automations: {
+    slug: "automations",
+    icon: "code",
+    bucket: "Spar jede Woche Stunden",
+    title: "Automatisierungen & Integrationen",
+    tagline: "Verbinde die Tools, die du schon nutzt (Stripe, WhatsApp, Email, Google), sodass die Fleißarbeit sich von selbst erledigt.",
+    intro:
+      "Jede Woche verlierst du Stunden damit, Dinge zwischen Apps zu kopieren und dem hinterherzulaufen, was durchgerutscht ist. Wir verdrahten deine Tools miteinander, sodass die Fleißarbeit sich von selbst erledigt: Eine Buchung landet direkt in deinem Kalender, eine Zahlung verschickt ihre eigene Quittung, eine neue Anfrage geht dahin, wo du sie siehst, und Erinnerungen gehen raus, ohne dass du einen Finger rührst. Du hörst auf, der Klebstoff zwischen deinen Apps zu sein.",
+    included: [
+      "Buchungen landen direkt in deinem Kalender",
+      "Zahlungen und Quittungen werden automatisch abgewickelt",
+      "Neue Anfragen landen dort, wo du sie wirklich siehst",
+      "Erinnerungen und Nachfassen, verschickt ohne dass du einen Finger rührst",
+      "Deine Tools reden endlich miteinander",
+    ],
+    whoFor: "Inhaber, die zwischen Apps kopieren und einfügen oder das Nachfassen vergessen.",
+    underTheHood: [
+      "Integrationen mit Stripe, WhatsApp, Google und Email",
+      "Workflow-Automatisierung und Webhooks",
+      "Zuverlässige, überwachte Verbindungen",
+    ],
+    cta: "Meine Fleißarbeit automatisieren",
+  },
+};
+
+const it: Record<ServiceSlug, Service> = {
+  websites: {
+    slug: "websites",
+    icon: "globe",
+    bucket: "Fatti trovare e fatti scegliere",
+    title: "Siti web",
+    tagline: "Un sito veloce, costruito con l'IA, che compare quando cercano vicino a te e trasforma un visitatore curioso in una prenotazione.",
+    intro:
+      "Il tuo sito è la prima impressione che la maggior parte dei clienti avrà di te. Te ne costruiamo uno che sembra affermato, si carica in un battito di ciglia e compare quando qualcuno vicino cerca quello che fai. Siccome l'IA fa il lavoro pesante, è pronto in giorni, non in mesi, e ogni pagina punta all'unica cosa che vuoi facciano: prenotare, ordinare, chiamare o scrivere.",
+    included: [
+      "Sembra affermato e professionale fin dal primo secondo",
+      "Compare quando la gente vicino cerca quello che fai",
+      "Si carica all'istante, nessuno aspetta un sito lento",
+      "Prenotare, ordinare, chiamare o scrivere con un tocco, anche fuori orario",
+      "Pronto in giorni, non in mesi, perché l'IA fa il lavoro pesante",
+    ],
+    whoFor: "Attività che lanciano un sito nuovo o sostituiscono uno datato e da modello.",
+    underTheHood: [
+      "Realizzazione assistita dall'IA su Next.js",
+      "SEO locale, schema e Google Business Profile",
+      "Core Web Vitals e accessibilità a livello WCAG AA",
+    ],
+    cta: "Costruisci il mio sito",
+  },
+  "ai-agents": {
+    slug: "ai-agents",
+    icon: "chat",
+    bucket: "Rispondi a tutti, 24/7",
+    title: "Agenti IA",
+    tagline: "Un assistente cordiale che risponde ai clienti, prende le prenotazioni e fa da reception, su WhatsApp e sul tuo sito, anche a mezzanotte.",
+    intro:
+      "La maggior parte delle richieste arriva quando sei occupato o chiuso, e una domanda senza risposta è un cliente perso. Configuriamo un assistente cordiale che risponde in pochi secondi, prenota gli appuntamenti da solo e gestisce le domande che ti fanno tutto il giorno: orari, prezzi, dove ti trovi. Quando serve te, ti passa la conversazione direttamente. Suona come la tua attività, non come un robot.",
+    included: [
+      "Risponde in pochi secondi, di giorno o di notte",
+      "Prenota appuntamenti e tavoli da solo",
+      "Risponde alle stesse domande che ti fanno tutto il giorno",
+      "Ti passa la conversazione nel momento in cui conta",
+      "Funziona su WhatsApp e direttamente sul tuo sito",
+    ],
+    whoFor: "Attività sommerse da domande ripetute o che perdono richieste fuori orario.",
+    underTheHood: [
+      "IA conversazionale, calibrata sulla tua attività",
+      "WhatsApp Business e chat sul sito",
+      "Integrazioni con le prenotazioni e passaggio a una persona",
+    ],
+    cta: "Configura il mio agente",
+  },
+  "custom-tools": {
+    slug: "custom-tools",
+    icon: "layers",
+    bucket: "Software che calza alla perfezione",
+    title: "Strumenti e app su misura",
+    tagline: "App di prenotazione, calcolatori di preventivi, dashboard semplici e strumenti interni, costruiti su come lavori davvero.",
+    intro:
+      "Le app preconfezionate raramente si adattano a un'attività vera, e quelle che lo fanno costano una fortuna. Siccome l'IA ci permette di costruire in fretta, possiamo creare lo strumento esatto che ti serve: un'app di ordini con il tuo marchio, un calcolatore di preventivi che i clienti compilano da soli, una dashboard semplice con ciò che conta davvero, o uno strumento interno che elimina il lavoro ripetitivo. Tuo, non un abbonamento uguale per tutti.",
+    included: [
+      "Un'app di prenotazione o di ordini con il tuo marchio",
+      "Un calcolatore di preventivi che i clienti compilano da soli",
+      "Una dashboard semplice con i numeri che contano",
+      "Strumenti interni che riducono il lavoro ripetitivo quotidiano",
+      "Costruito in fretta, perché l'IA fa il lavoro pesante",
+    ],
+    whoFor: "Titolari che hanno superato i fogli di calcolo, o le app che non calzano del tutto.",
+    underTheHood: [
+      "App su misura in React / Next.js",
+      "Dati sicuri, accessi e ruoli",
+      "Sviluppo assistito dall'IA",
+    ],
+    cta: "Costruisci il mio strumento",
+  },
+  automations: {
+    slug: "automations",
+    icon: "code",
+    bucket: "Risparmia ore ogni settimana",
+    title: "Automazioni e integrazioni",
+    tagline: "Collega gli strumenti che già usi (Stripe, WhatsApp, email, Google) così il lavoro ripetitivo si fa da solo.",
+    intro:
+      "Ogni settimana perdi ore a copiare cose tra le app e a rincorrere ciò che ti è sfuggito. Colleghiamo i tuoi strumenti così il lavoro ripetitivo si fa da solo: una prenotazione finisce dritta nel tuo calendario, un pagamento invia da solo la sua ricevuta, una nuova richiesta arriva dove la vedi, e i promemoria partono senza che tu muova un dito. Smetti di essere il collante tra le tue app.",
+    included: [
+      "Le prenotazioni finiscono dritte nel tuo calendario",
+      "Pagamenti e ricevute gestiti automaticamente",
+      "Le nuove richieste arrivano dove le vedi davvero",
+      "Promemoria e follow-up inviati senza che tu muova un dito",
+      "I tuoi strumenti finalmente si parlano tra loro",
+    ],
+    whoFor: "Titolari che copiano e incollano tra le app, o che si dimenticano dei follow-up.",
+    underTheHood: [
+      "Integrazioni con Stripe, WhatsApp, Google ed email",
+      "Automazione dei flussi e webhook",
+      "Connessioni affidabili e monitorate",
+    ],
+    cta: "Automatizza il lavoro ripetitivo",
+  },
+};
+
+const content: Record<Locale, Record<ServiceSlug, Service>> = { en, es, fr, de, it };
 
 export function getServices(locale: Locale): Service[] {
   return serviceSlugs.map((slug) => content[locale][slug]);

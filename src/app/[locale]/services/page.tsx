@@ -15,14 +15,37 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const es = locale === "es";
+  const meta: Record<Locale, { title: string; description: string }> = {
+    en: {
+      title: "Websites, AI Agents, Custom Tools & Automations",
+      description:
+        "Four ways we grow your business with AI: websites, AI agents, custom tools and automations. Pick what you need now, add the rest when you're ready.",
+    },
+    es: {
+      title: "Webs, agentes de IA, herramientas y automatización",
+      description:
+        "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas ahora y añade el resto cuando quieras.",
+    },
+    fr: {
+      title: "Sites web, agents IA, outils sur mesure et automatisations",
+      description:
+        "Quatre façons de faire grandir votre activité avec l'IA : sites web, agents IA, outils sur mesure et automatisations. Prenez ce dont vous avez besoin maintenant, ajoutez le reste quand vous serez prêt.",
+    },
+    de: {
+      title: "Websites, KI-Agenten, Tools & Automatisierung",
+      description:
+        "Vier Wege, wie wir dein Unternehmen mit KI wachsen lassen: Websites, KI-Agenten, maßgeschneiderte Tools und Automatisierungen. Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist.",
+    },
+    it: {
+      title: "Siti web, agenti IA, strumenti e automazioni",
+      description:
+        "Quattro modi per far crescere la tua attività con l'IA: siti web, agenti IA, strumenti su misura e automazioni. Scegli ciò che ti serve ora e aggiungi il resto quando vuoi.",
+    },
+  };
+  const key: Locale = isLocale(locale) ? locale : "en";
   return {
-    title: es
-      ? "Webs, agentes de IA, herramientas y automatización"
-      : "Websites, AI Agents, Custom Tools & Automations",
-    description: es
-      ? "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas ahora y añade el resto cuando quieras."
-      : "Four ways we grow your business with AI: websites, AI agents, custom tools and automations. Pick what you need now, add the rest when you're ready.",
+    title: meta[key].title,
+    description: meta[key].description,
     alternates: { canonical: `/${locale}/services` },
   };
 }
@@ -64,6 +87,9 @@ export default async function ServicesPage({
       bookConsult: "Reserva una consulta gratis",
       talk: "Leer las preguntas",
     },
+    fr: { home: "Accueil", services: "Services", title: "Quatre façons de faire grandir votre activité avec l'IA.", sub: "Un site web qui vous fait trouver et choisir, un assistant IA qui répond aux clients à toute heure, des outils conçus autour de votre façon de travailler, et des automatisations qui gèrent les tâches ingrates. Prenez ce dont vous avez besoin maintenant, puis ajoutez le reste quand vous serez prêt.", reassureKicker: "Pas de mauvaises surprises", reassureTitle: "Chaque création reste suivie après le lancement.", reassureLead: "Le jour du lancement est le début, pas la fin. Tout ce que nous construisons est livré avec 30 jours d'accompagnement gratuit, et un petit plan d'entretien mensuel le garde en ligne, sûr et à jour pour que vous n'ayez jamais à y penser. Vous voulez un changement ? Vous nous écrivez, et c'est nous qui le faisons.", bookConsult: "Réservez une consultation gratuite", talk: "Lire la FAQ" },
+    de: { home: "Start", services: "Leistungen", title: "Vier Wege, wie wir dein Unternehmen mit KI wachsen lassen.", sub: "Eine Website, die dich gefunden und gewählt werden lässt, ein KI-Assistent, der deinen Kunden rund um die Uhr antwortet, maßgeschneiderte Tools rund um deine Arbeitsweise und Automatisierungen, die die Fleißarbeit übernehmen. Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist.", reassureKicker: "Keine bösen Überraschungen", reassureTitle: "Bei jedem Projekt bleibt nach dem Launch jemand dran.", reassureLead: "Der Launch-Tag ist der Anfang, nicht das Ende. Alles, was wir bauen, kommt mit 30 Tagen kostenlosem Support, und ein kleiner monatlicher Care-Plan hält es online, sicher und aktuell, sodass du nie daran denken musst. Du willst eine Änderung? Du schreibst uns, und wir sind die, die sie machen.", bookConsult: "Kostenlose Beratung buchen", talk: "Fragen lesen" },
+    it: { home: "Home", services: "Servizi", title: "Quattro modi per far crescere la tua attività con l'IA.", sub: "Un sito che ti fa trovare e scegliere, un assistente IA che risponde ai clienti a ogni ora, strumenti costruiti su come lavori e automazioni che gestiscono il lavoro ripetitivo. Scegli ciò che ti serve ora e aggiungi il resto quando vuoi.", reassureKicker: "Nessuna brutta sorpresa", reassureTitle: "Ogni progetto resta seguito anche dopo il lancio.", reassureLead: "Il giorno del lancio è l'inizio, non la fine. Tutto ciò che costruiamo include 30 giorni di supporto gratuito, e un piccolo piano di assistenza mensile lo tiene online, sicuro e aggiornato così non devi pensarci. Vuoi una modifica? Ci scrivi e la facciamo noi.", bookConsult: "Prenota una consulenza gratuita", talk: "Leggi le domande" },
   }[locale];
 
   const jsonLd = jsonLdDoc(

@@ -32,6 +32,8 @@ export default async function HomePage({
             <h1 className="hero-h">
               {site.hero.headingPre}
               <span className="hi">{site.hero.headingHi}</span>
+              {site.hero.headingMid}
+              <span className="hi">{site.hero.headingHi2}</span>
               {site.hero.headingPost}
             </h1>
             <p className="hero-sub">{site.hero.sub}</p>
@@ -53,14 +55,10 @@ export default async function HomePage({
       <section className="sec" id="services">
         <div className="wrap">
           <SectionHead
-            kicker={locale === "es" ? "Lo que hacemos" : "What we do"}
+            kicker={site.home.servicesKicker}
             kickerIcon="list"
-            title={locale === "es" ? "Cuatro formas de hacer crecer tu negocio." : "Four ways we grow your business."}
-            lead={
-              locale === "es"
-                ? "Coge lo que necesitas ahora y añade el resto cuando quieras."
-                : "Pick what you need now, then add the rest when you're ready."
-            }
+            title={site.home.servicesTitle}
+            lead={site.home.servicesLead}
           />
           <div className="svc-grid">
             {services.map((service) => (
@@ -104,9 +102,9 @@ export default async function HomePage({
       <section className="sec" id="faq">
         <div className="wrap">
           <SectionHead
-            kicker={locale === "es" ? "Preguntas frecuentes" : "Common questions"}
+            kicker={site.home.faqKicker}
             kickerIcon="chat"
-            title={locale === "es" ? "Lo que la gente suele preguntar." : "What people usually ask."}
+            title={site.home.faqTitle}
             center
           />
           <div className="faq-list">
@@ -122,7 +120,7 @@ export default async function HomePage({
           </div>
           <div className="mt-cta center">
             <Link href={`/${locale}/faq`} className="btn btn-ghost">
-              {locale === "es" ? "Ver todas las preguntas" : "See all questions"}
+              {site.home.faqSeeAll}
             </Link>
           </div>
         </div>

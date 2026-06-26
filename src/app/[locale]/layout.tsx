@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { Hanken_Grotesk, Spline_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import "../globals.css";
-import { locales, isLocale, type Locale } from "@/i18n/config";
+import { locales, isLocale, localeOg, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
 import { contactInfo } from "@/content/contact-info";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import ConversionTracker from "@/components/ConversionTracker";
+import { Analytics } from "@vercel/analytics/next";
 
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
@@ -37,6 +38,21 @@ const META: Record<Locale, { title: string; description: string }> = {
     description:
       "Webs, agentes de IA y automatizaciones que hacen crecer pequeños negocios: webs rápidas, atención 24/7, herramientas a medida. Consulta gratis y sin compromiso.",
   },
+  fr: {
+    title: "Sites web, agents IA et automatisations pour petits commerces | Kodable.ai",
+    description:
+      "Des sites web, agents IA et automatisations qui font grandir les petits commerces : sites rapides, accueil client 24h/24, outils sur mesure. Consultation gratuite, de vraies personnes après le lancement.",
+  },
+  de: {
+    title: "KI-Websites, Agenten & Automatisierungen für kleine Unternehmen | Kodable.ai",
+    description:
+      "KI-Websites, Agenten & Automatisierungen, die kleine Unternehmen wachsen lassen: schnelle Websites, Kundenchat rund um die Uhr, maßgeschneiderte Tools. Kostenlose Beratung, echte Menschen nach dem Launch.",
+  },
+  it: {
+    title: "Siti web, agenti IA e automazioni per piccole attività | Kodable.ai",
+    description:
+      "Siti web, agenti IA e automazioni che fanno crescere le piccole attività: siti veloci, assistenza 24/7, strumenti su misura. Consulenza gratuita e persone vere dopo il lancio.",
+  },
 };
 
 export async function generateStaticParams() {
@@ -58,7 +74,10 @@ export async function generateMetadata({
     applicationName: "Kodable.ai",
     alternates: {
       canonical: `/${key}`,
-      languages: { en: "/en", es: "/es", "x-default": "/en" },
+      languages: {
+        ...Object.fromEntries(locales.map((l) => [l, `/${l}`])),
+        "x-default": "/en",
+      },
     },
     openGraph: {
       title: meta.title,
@@ -66,8 +85,8 @@ export async function generateMetadata({
       url: `${SITE_URL}/${key}`,
       siteName: "Kodable.ai",
       type: "website",
-      locale: key === "es" ? "es_ES" : "en_GB",
-      alternateLocale: key === "es" ? ["en_GB"] : ["es_ES"],
+      locale: localeOg[key],
+      alternateLocale: locales.filter((l) => l !== key).map((l) => localeOg[l]),
       images: ["/opengraph-image"],
     },
     twitter: {
@@ -103,7 +122,7 @@ export default async function LocaleLayout({
         email: contactInfo.email,
         telephone: contactInfo.phoneHref,
         description: site.brand.tagline,
-        knowsLanguage: ["en", "es"],
+        knowsLanguage: [...locales],
         logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
         contactPoint: [
           {
@@ -111,7 +130,7 @@ export default async function LocaleLayout({
             contactType: "customer service",
             telephone: contactInfo.phoneHref,
             email: contactInfo.email,
-            availableLanguage: ["en", "es"],
+            availableLanguage: [...locales],
             url: contactInfo.whatsappUrl,
           },
         ],
@@ -132,7 +151,7 @@ export default async function LocaleLayout({
         url: SITE_URL,
         email: contactInfo.email,
         telephone: contactInfo.phoneHref,
-        knowsLanguage: ["en", "es"],
+        knowsLanguage: [...locales],
         areaServed: { "@type": "Country", name: "Spain" },
         serviceType: ["Website Development", "AI Agents", "Custom Software", "Automation & Integrations"],
         provider: { "@id": `${SITE_URL}/#organization` },
@@ -145,7 +164,13 @@ export default async function LocaleLayout({
     <html lang={locale} className={`${hanken.variable} ${spline.variable}`}>
       <body>
         <a className="skip" href="#main">
-          {locale === "es" ? "Saltar al contenido" : "Skip to content"}
+          {{
+            en: "Skip to content",
+            es: "Saltar al contenido",
+            fr: "Aller au contenu",
+            de: "Zum Inhalt springen",
+            it: "Vai al contenuto",
+          }[locale]}
         </a>
         <Nav
           locale={locale}
@@ -157,6 +182,7 @@ export default async function LocaleLayout({
         <ConversionTracker locale={locale} />
         <main id="main">{children}</main>
         <Footer locale={locale} site={site} />
+        <Analytics />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

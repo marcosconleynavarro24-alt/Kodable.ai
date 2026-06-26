@@ -74,11 +74,15 @@ const messages = {
   },
 } as const;
 
-export function localeFromInput(v: unknown): Locale {
+// Backend copy (validation + auto-reply email) is kept in EN/ES; other site
+// locales (fr/de/it) fall back to EN here.
+type BackendLocale = "en" | "es";
+
+export function localeFromInput(v: unknown): BackendLocale {
   return v === "es" ? "es" : "en";
 }
 
-export function errorMessages(locale: Locale) {
+export function errorMessages(locale: BackendLocale) {
   return messages[locale];
 }
 
@@ -214,7 +218,7 @@ function escapeHtml(s: string): string {
     .replace(/"/g, "&quot;");
 }
 
-const SERVICE_LABELS: Record<Locale, Record<ServiceInterest, string>> = {
+const SERVICE_LABELS: Record<BackendLocale, Record<ServiceInterest, string>> = {
   en: {
     "websites": "A new website",
     "ai-agents": "An AI assistant",

@@ -58,6 +58,81 @@ const COPY = {
       "not-sure": "Aún no lo sé",
     },
   },
+  fr: {
+    name: "Votre nom",
+    business: "Nom du commerce",
+    optional: "facultatif",
+    email: "Email",
+    phone: "Téléphone / WhatsApp",
+    contactHint: "Laissez-nous un email ou un téléphone, comme vous préférez.",
+    interest: "Que recherchez-vous ?",
+    message: "Parlez-nous de votre activité",
+    messagePlaceholder:
+      "ex. Je tiens un café et je veux que les clients réservent une table et voient la carte sur leur téléphone…",
+    submit: "Envoyer mon message",
+    submitting: "Envoi en cours…",
+    okTitle: "Bien reçu, merci !",
+    okBody:
+      "Votre message nous est bien parvenu. Nous vous répondons sous 24 heures. Vous le préférez tout de suite ? Écrivez-nous sur WhatsApp.",
+    errTitle: "L'envoi n'a pas fonctionné.",
+    interests: {
+      "websites": "Un nouveau site web",
+      "ai-agents": "Un assistant IA",
+      "custom-tools": "Un outil ou une appli sur mesure",
+      "automations": "Des automatisations",
+      "not-sure": "Je ne sais pas encore",
+    },
+  },
+  de: {
+    name: "Dein Name",
+    business: "Name des Unternehmens",
+    optional: "optional",
+    email: "Email",
+    phone: "Telefon / WhatsApp",
+    contactHint: "Hinterlass uns eine Email oder eine Telefonnummer, was dir lieber ist.",
+    interest: "Was suchst du?",
+    message: "Erzähl uns von deinem Unternehmen",
+    messagePlaceholder:
+      "z. B. Ich führe ein Café und möchte, dass Kunden einen Tisch buchen und die Karte auf dem Handy sehen…",
+    submit: "Nachricht senden",
+    submitting: "Wird gesendet…",
+    okTitle: "Angekommen, danke!",
+    okBody:
+      "Deine Nachricht ist bei uns. Wir antworten innerhalb von 24 Stunden. Lieber sofort? Schreib uns auf WhatsApp.",
+    errTitle: "Das ging nicht raus.",
+    interests: {
+      "websites": "Eine neue Website",
+      "ai-agents": "Ein KI-Assistent",
+      "custom-tools": "Ein maßgeschneidertes Tool oder eine App",
+      "automations": "Automatisierungen",
+      "not-sure": "Noch nicht sicher",
+    },
+  },
+  it: {
+    name: "Il tuo nome",
+    business: "Nome dell'attività",
+    optional: "facoltativo",
+    email: "Email",
+    phone: "Telefono / WhatsApp",
+    contactHint: "Lasciaci un'email o un telefono, quello che preferisci.",
+    interest: "Cosa cerchi?",
+    message: "Raccontaci della tua attività",
+    messagePlaceholder:
+      "es. Gestisco un caffè e voglio che i clienti prenotino un tavolo e vedano il menù dal telefono…",
+    submit: "Invia il messaggio",
+    submitting: "Invio in corso…",
+    okTitle: "Ricevuto, grazie!",
+    okBody:
+      "Il tuo messaggio è arrivato a noi. Ti rispondiamo entro 24 ore. Lo preferisci subito? Scrivici su WhatsApp.",
+    errTitle: "Non è stato inviato.",
+    interests: {
+      "websites": "Un sito nuovo",
+      "ai-agents": "Un assistente IA",
+      "custom-tools": "Uno strumento su misura",
+      "automations": "Automazioni",
+      "not-sure": "Non lo so ancora",
+    },
+  },
 } as const;
 
 const INTEREST_KEYS = [

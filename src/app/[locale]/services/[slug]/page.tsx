@@ -23,11 +23,15 @@ export async function generateMetadata({
   if (!isLocale(locale)) return {};
   const service = getService(locale, slug);
   if (!service) return {};
-  const es = locale === "es";
+  const suffix: Record<Locale, string> = {
+    en: "for your business",
+    es: "para tu negocio",
+    fr: "pour votre activité",
+    de: "für dein Unternehmen",
+    it: "per la tua attività",
+  };
   return {
-    title: es
-      ? `${service.title} para tu negocio`
-      : `${service.title} for your business`,
+    title: `${service.title} ${suffix[locale]}`,
     description: service.tagline,
     alternates: { canonical: `/${locale}/services/${service.slug}` },
   };
@@ -47,7 +51,6 @@ export default async function ServiceDetailPage({
 
   const site = getSite(locale);
   const others = getServices(locale).filter((s) => s.slug !== service.slug);
-  const es = locale === "es";
 
   const copy = {
     en: {
@@ -72,6 +75,9 @@ export default async function ServiceDetailPage({
       others: "Otros servicios",
       othersLead: "Coge lo que necesitas ahora y añade el resto cuando quieras.",
     },
+    fr: { home: "Accueil", services: "Services", allServices: "Tous les services", included: "Ce qui est inclus", whoFor: "Pour qui c'est", underTheHood: "Sous le capot", underNote: "La partie technique, pour les curieux. Vous n'avez besoin de rien savoir de tout ça.", others: "Autres services", othersLead: "Prenez ce dont vous avez besoin maintenant, puis ajoutez le reste quand vous serez prêt." },
+    de: { home: "Start", services: "Leistungen", allServices: "Alle Leistungen", included: "Was enthalten ist", whoFor: "Für wen es ist", underTheHood: "Unter der Haube", underNote: "Die technischen Details, für die Neugierigen. Du musst nichts davon wissen.", others: "Weitere Leistungen", othersLead: "Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist." },
+    it: { home: "Home", services: "Servizi", allServices: "Tutti i servizi", included: "Cosa include", whoFor: "Per chi è", underTheHood: "Dietro le quinte", underNote: "La parte tecnica, per i curiosi. Non hai bisogno di sapere nulla di tutto questo.", others: "Altri servizi", othersLead: "Scegli ciò che ti serve ora e aggiungi il resto quando vuoi." },
   }[locale];
 
   // serviceType mirrors the array on the #service node in layout.tsx.
@@ -91,7 +97,7 @@ export default async function ServiceDetailPage({
       url: `${SITE_URL}/${locale}/services/${service.slug}`,
       provider: { "@id": `${SITE_URL}/#organization` },
       areaServed: { "@type": "Country", name: "Spain" },
-      availableLanguage: ["en", "es"],
+      availableLanguage: [...locales],
     },
     breadcrumbList([
       { name: copy.home, path: `/${locale}` },
