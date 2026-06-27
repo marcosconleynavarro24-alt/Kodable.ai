@@ -343,14 +343,20 @@ function buildIcs(b: Booking, fromAddr: string): string {
 }
 
 interface Rendered {
-  to: string;
+  to: string | string[];
   subject: string;
   text: string;
   html: string;
   replyTo?: string;
 }
 
-function ownerEmail(b: Booking, to: string): Rendered {
+// Split a comma/semicolon/whitespace-separated recipient list into addresses.
+function parseRecipients(v: string | undefined): string[] {
+  if (!v) return [];
+  return [...new Set(v.split(/[,;\s]+/).map((s) => s.trim()).filter((s) => s.includes("@")))];
+}
+
+function ownerEmail(b: Booking, to: string | string[]): Rendered {
   const when = prettyWhen(b.date, b.time, b.locale);
   const lines = [
     `New booking · ${when}`,
@@ -456,7 +462,8 @@ async function writeToOutbox(kind: string, email: Rendered, ics?: string): Promi
     const dir = path.join(DATA_DIR, "outbox");
     await fs.mkdir(dir, { recursive: true });
     const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-    const body = `To: ${email.to}\nSubject: ${email.subject}\n${email.replyTo ? `Reply-To: ${email.replyTo}\n` : ""}\n${email.text}\n${ics ? `\n--- calendar invite (kodable-consultation.ics) ---\n${ics}\n` : ""}`;
+    const toLine = Array.isArray(email.to) ? email.to.join(", ") : email.to;
+    const body = `To: ${toLine}\nSubject: ${email.subject}\n${email.replyTo ? `Reply-To: ${email.replyTo}\n` : ""}\n${email.text}\n${ics ? `\n--- calendar invite (kodable-consultation.ics) ---\n${ics}\n` : ""}`;
     await fs.writeFile(path.join(dir, `${stamp}-booking-${kind}.txt`), body, "utf8");
     console.info(`[booking] email preview written for ${kind} (set RESEND_API_KEY to send)`);
   } catch (err) {
@@ -467,13 +474,16 @@ async function writeToOutbox(kind: string, email: Rendered, ics?: string): Promi
 // Best-effort: a delivery failure never fails the request (booking is saved).
 export async function deliverBooking(b: Booking): Promise<void> {
   const from = process.env.LEAD_FROM_EMAIL ?? "Kodable.ai <hola@kodable.ai>";
-  const notify = process.env.LEAD_NOTIFY_EMAIL;
+  // Owner notification can go to several inboxes (e.g. the kodable.ai address +
+  // a personal email). BOOKING_NOTIFY_EMAIL is a comma/semicolon-separated list;
+  // falls back to LEAD_NOTIFY_EMAIL.
+  const notify = parseRecipients(process.env.BOOKING_NOTIFY_EMAIL ?? process.env.LEAD_NOTIFY_EMAIL);
   const configured = Boolean(process.env.RESEND_API_KEY);
   const ics = buildIcs(b, from);
   const icsB64 = Buffer.from(ics, "utf8").toString("base64");
 
   const jobs: { kind: string; email: Rendered | null }[] = [
-    { kind: "owner", email: notify ? ownerEmail(b, notify) : null },
+    { kind: "owner", email: notify.length ? ownerEmail(b, notify) : null },
     { kind: "client", email: clientEmail(b, from) },
   ];
   for (const { kind, email } of jobs) {
