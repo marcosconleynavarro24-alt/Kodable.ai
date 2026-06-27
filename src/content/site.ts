@@ -131,6 +131,7 @@ export interface SiteContent {
 // ── Shared structural data (locale-independent) ──────────────────────────
 const navHrefs = [
   { key: "services", href: "/services" },
+  { key: "blog", href: "/blog" },
   { key: "faq", href: "/faq" },
   { key: "contact", href: "/contact" },
 ];
@@ -142,6 +143,7 @@ const en: SiteContent = {
       ...l,
       label: {
         services: "Services",
+        blog: "Blog",
         faq: "FAQ",
         contact: "Contact",
       }[l.key]!,
@@ -339,6 +341,7 @@ const es: SiteContent = {
       ...l,
       label: {
         services: "Servicios",
+        blog: "Blog",
         faq: "Preguntas",
         contact: "Contacto",
       }[l.key]!,
@@ -536,6 +539,7 @@ const fr: SiteContent = {
       ...l,
       label: {
         services: "Services",
+        blog: "Blog",
         faq: "FAQ",
         contact: "Contact",
       }[l.key]!,
@@ -733,6 +737,7 @@ const de: SiteContent = {
       ...l,
       label: {
         services: "Leistungen",
+        blog: "Blog",
         faq: "Fragen",
         contact: "Kontakt",
       }[l.key]!,
@@ -930,6 +935,7 @@ const it: SiteContent = {
       ...l,
       label: {
         services: "Servizi",
+        blog: "Blog",
         faq: "Domande",
         contact: "Contatti",
       }[l.key]!,
