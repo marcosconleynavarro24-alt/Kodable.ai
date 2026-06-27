@@ -27,6 +27,32 @@ export interface SiteContent {
     sub: string;
     ctaPrimary: string;
     ctaSecondary: string;
+    label: string;
+  };
+  problem: {
+    kicker: string;
+    title: string;
+    body: string[];
+    stakePre: string;
+    stakeHi: string;
+    stakePost: string;
+  };
+  guide: {
+    kicker: string;
+    title: string;
+    body: string[];
+  };
+  plan: {
+    kicker: string;
+    title: string;
+    lead: string;
+    steps: { n: string; title: string; body: string }[];
+    cta: string;
+  };
+  vision: {
+    kicker: string;
+    title: string;
+    body: string[];
   };
   chat: {
     name: string;
@@ -129,21 +155,61 @@ const en: SiteContent = {
   },
   home: {
     servicesKicker: "What we do",
-    servicesTitle: "Four ways we grow your business.",
-    servicesLead: "Pick what you need now, then add the rest when you're ready.",
+    servicesTitle: "Everything you need to get found, get booked, and stop losing hours to busywork.",
+    servicesLead: "Start with what you need now. Add the rest when you're ready.",
     faqKicker: "Common questions",
-    faqTitle: "What people usually ask.",
+    faqTitle: "Still not sure? Here's what most people want to know first.",
     faqSeeAll: "See all questions",
   },
   hero: {
-    headingPre: "We use ",
-    headingHi: "AI",
-    headingMid: " to bring ",
-    headingHi2: "customers",
-    headingPost: " to your door.",
-    sub: "We build websites, AI agents, custom tools and automations for local businesses, so more people find you, more book themselves in, and every customer gets answered, even after hours.",
-    ctaPrimary: "Start your project",
-    ctaSecondary: "See what you get",
+    headingPre: "Your competitor just got the ",
+    headingHi: "booking",
+    headingMid: ". You got the ",
+    headingHi2: "voicemail",
+    headingPost: ".",
+    sub: "When someone nearby searches for what you do, they pick the business with a fast site, instant replies, and easy booking. We make sure that business is yours, without you touching a line of code.",
+    ctaPrimary: "Book a free 15-minute chat",
+    ctaSecondary: "See how it works",
+    label: "This is what your customers experience.",
+  },
+  problem: {
+    kicker: "Sound familiar?",
+    title: "Running a local business is hard enough.",
+    body: [
+      "You shouldn't also have to worry about your website being slow, calls going unanswered after hours, or losing a booking because replying took too long.",
+      "Most small businesses aren't losing to better businesses. They're losing to better-looking ones, ones with slick sites, instant responses, and booking systems that work around the clock.",
+    ],
+    stakePre: "You're better than that. You just need the ",
+    stakeHi: "tools to show it",
+    stakePost: ".",
+  },
+  guide: {
+    kicker: "Why Kodable",
+    title: "We've been where you are.",
+    body: [
+      "We're a small studio that's helped local restaurants, clinics, tradespeople and shops look as sharp online as the work they do in person, using AI to do it faster and more affordably than a traditional agency ever could.",
+      "We don't do jargon. We don't do unnecessary complexity. And we don't disappear after launch. You tell us about your business in plain words. We handle everything else.",
+    ],
+  },
+  plan: {
+    kicker: "The plan",
+    title: "Getting started takes 15 minutes. Everything else is on us.",
+    lead: "Most people put off improving their online presence because it feels complicated, expensive, or like it'll take forever. It doesn't have to.",
+    steps: [
+      { n: "1", title: "Tell us about your business", body: "A relaxed 15-minute chat about what you do, who you serve, and what's not working right now. No jargon, no cost, no commitment." },
+      { n: "2", title: "We build and launch", body: "We handle everything: the site, the AI setup, the integrations, the hosting. You get a clear timeline and a plain-language quote before we start anything." },
+      { n: "3", title: "You get more customers", body: "Your site finds people searching nearby. Your AI agent answers them instantly. Your calendar fills itself. You get on with running your business." },
+    ],
+    cta: "Book your free 15-minute chat",
+  },
+  vision: {
+    kicker: "Picture this",
+    title: "Imagine finishing a Tuesday like this.",
+    body: [
+      "You wrap up at 6. You check your phone. Three new bookings are in your calendar: people who found you on Google, had their questions answered by your AI assistant, and booked themselves in while you were with another customer.",
+      "No missed calls. No chasing enquiries. No Sunday evening catching up on messages.",
+      "That's what Kodable sets up. And it keeps running after we're done.",
+    ],
   },
   chat: {
     name: "Casa del Mar",
@@ -239,8 +305,8 @@ const en: SiteContent = {
   },
   finalCta: {
     kicker: "Let's talk",
-    title: "Let's get your business online, properly.",
-    body: "Tell us a little about what you do. We'll send back a free, plain-language quote, with no jargon and no pressure. Usually within 24 hours.",
+    title: "Every week without this is a booking someone else is getting.",
+    body: "When a customer searches nearby and books the competitor with a faster site and instant replies, it isn't because they were better. It's because they were easier to find and faster to answer. That's fixable, and it starts with a 15-minute chat that costs nothing.",
     whatsapp: "Message on WhatsApp",
     email: "Email us instead",
     labels: { whatsapp: "WhatsApp", call: "Call us", email: "Email" },
@@ -286,21 +352,61 @@ const es: SiteContent = {
   },
   home: {
     servicesKicker: "Lo que hacemos",
-    servicesTitle: "Cuatro formas de hacer crecer tu negocio.",
-    servicesLead: "Coge lo que necesitas ahora y añade el resto cuando quieras.",
+    servicesTitle: "Todo lo que necesitas para que te encuentren, te reserven y dejar de perder horas en tareas que no llevan a nada.",
+    servicesLead: "Empieza por lo que necesitas ahora. Añade el resto cuando quieras.",
     faqKicker: "Preguntas frecuentes",
-    faqTitle: "Lo que la gente suele preguntar.",
+    faqTitle: "¿Aún con dudas? Esto es lo que casi todo el mundo quiere saber primero.",
     faqSeeAll: "Ver todas las preguntas",
   },
   hero: {
-    headingPre: "Usamos ",
-    headingHi: "IA",
-    headingMid: " para traerte ",
-    headingHi2: "clientes",
-    headingPost: " a tu puerta.",
-    sub: "Creamos webs, agentes de IA, herramientas a medida y automatizaciones para negocios locales, para que más gente te encuentre, más reserve sola y cada cliente reciba respuesta, incluso fuera de hora.",
-    ctaPrimary: "Empieza tu proyecto",
-    ctaSecondary: "Mira lo que incluye",
+    headingPre: "Tu competencia se ha llevado la ",
+    headingHi: "reserva",
+    headingMid: ". A ti te ha quedado el ",
+    headingHi2: "buzón de voz",
+    headingPost: ".",
+    sub: "Cuando alguien cerca busca lo que tú haces, elige al negocio con una web rápida, respuestas al instante y reserva fácil. Nos aseguramos de que ese negocio seas tú, sin que toques una sola línea de código.",
+    ctaPrimary: "Reserva una charla gratis de 15 minutos",
+    ctaSecondary: "Mira cómo funciona",
+    label: "Esto es lo que viven tus clientes.",
+  },
+  problem: {
+    kicker: "¿Te suena?",
+    title: "Llevar un negocio local ya es bastante duro.",
+    body: [
+      "Encima no deberías tener que preocuparte por si tu web va lenta, por las llamadas que se quedan sin responder fuera de horario o por perder una reserva porque tardaste demasiado en contestar.",
+      "La mayoría de pequeños negocios no pierden frente a negocios mejores. Pierden frente a los que se ven mejor, los que tienen webs cuidadas, respuestas al instante y sistemas de reserva que funcionan a todas horas.",
+    ],
+    stakePre: "Tú vales más que eso. Solo te faltan las ",
+    stakeHi: "herramientas para demostrarlo",
+    stakePost: ".",
+  },
+  guide: {
+    kicker: "Por qué Kodable",
+    title: "Hemos estado donde estás tú.",
+    body: [
+      "Somos un pequeño estudio que ha ayudado a restaurantes, clínicas, profesionales de oficios y comercios locales a verse online tan bien como el trabajo que hacen en persona, usando IA para hacerlo más rápido y más asequible de lo que jamás podría una agencia tradicional.",
+      "Nada de jerga. Nada de complicaciones innecesarias. Y no desaparecemos después de lanzar. Tú nos cuentas tu negocio con palabras normales. De todo lo demás nos encargamos nosotros.",
+    ],
+  },
+  plan: {
+    kicker: "El plan",
+    title: "Empezar son 15 minutos. De todo lo demás nos encargamos nosotros.",
+    lead: "La mayoría de la gente va aplazando lo de mejorar su presencia online porque le parece complicado, caro o que va a tardar una eternidad. No tiene por qué.",
+    steps: [
+      { n: "1", title: "Cuéntanos tu negocio", body: "Una charla tranquila de 15 minutos sobre lo que haces, a quién atiendes y qué no está funcionando ahora mismo. Sin jerga, sin coste y sin compromiso." },
+      { n: "2", title: "Lo construimos y lo lanzamos", body: "Nos encargamos de todo: la web, la IA, las integraciones, el hosting. Tú recibes un plazo claro y un presupuesto en lenguaje sencillo antes de empezar nada." },
+      { n: "3", title: "Te llegan más clientes", body: "Tu web encuentra a quien busca cerca. Tu agente de IA le responde al instante. Tu agenda se llena sola. Y tú, a lo tuyo: a llevar tu negocio." },
+    ],
+    cta: "Reserva tu charla gratis de 15 minutos",
+  },
+  vision: {
+    kicker: "Imagínate esto",
+    title: "Imagina terminar un martes así.",
+    body: [
+      "Cierras a las 6. Miras el móvil. Tienes tres reservas nuevas en la agenda: gente que te encontró en Google, que resolvió sus dudas con tu asistente de IA y que se apuntó sola mientras tú estabas con otro cliente.",
+      "Sin llamadas perdidas. Sin perseguir consultas. Sin el domingo por la tarde poniéndote al día con los mensajes.",
+      "Eso es lo que monta Kodable. Y sigue funcionando cuando nosotros ya hemos terminado.",
+    ],
   },
   chat: {
     name: "Casa del Mar",
@@ -396,8 +502,8 @@ const es: SiteContent = {
   },
   finalCta: {
     kicker: "Hablemos",
-    title: "Saquemos tu negocio online, bien hecho.",
-    body: "Cuéntanos un poco sobre lo que haces. Te devolvemos un presupuesto gratis y en lenguaje claro, sin jerga y sin presión. Normalmente en 24 horas.",
+    title: "Cada semana sin esto es una reserva que se está llevando otro.",
+    body: "Cuando un cliente busca cerca y reserva con la competencia, que tiene una web más rápida y responde al instante, no es porque fueran mejores: es porque eran más fáciles de encontrar y más rápidos respondiendo. Eso tiene solución, y empieza con una charla de 15 minutos que no te cuesta nada.",
     whatsapp: "Escríbenos por WhatsApp",
     email: "O mándanos un email",
     labels: { whatsapp: "WhatsApp", call: "Llámanos", email: "Email" },
@@ -443,21 +549,61 @@ const fr: SiteContent = {
   },
   home: {
     servicesKicker: "Ce que nous faisons",
-    servicesTitle: "Quatre façons de faire grandir votre activité.",
-    servicesLead: "Prenez ce dont vous avez besoin maintenant, puis ajoutez le reste quand vous serez prêt.",
+    servicesTitle: "Tout ce qu'il vous faut pour être trouvé, être réservé, et arrêter de perdre des heures sur des tâches répétitives.",
+    servicesLead: "Commencez par ce dont vous avez besoin maintenant. Ajoutez le reste quand vous serez prêt.",
     faqKicker: "Questions fréquentes",
-    faqTitle: "Ce qu'on nous demande le plus souvent.",
+    faqTitle: "Encore un doute ? Voici ce que la plupart des gens veulent savoir en premier.",
     faqSeeAll: "Voir toutes les questions",
   },
   hero: {
-    headingPre: "Nous utilisons l'",
-    headingHi: "IA",
-    headingMid: " pour amener des ",
-    headingHi2: "clients",
-    headingPost: " à votre porte.",
-    sub: "Nous créons des sites web, des agents IA, des outils sur mesure et des automatisations pour les commerces de proximité, pour que plus de gens vous trouvent, que plus de clients réservent eux-mêmes et que chacun obtienne une réponse, même en dehors des horaires.",
-    ctaPrimary: "Lancez votre projet",
-    ctaSecondary: "Voyez ce que vous obtenez",
+    headingPre: "Votre concurrent vient de décrocher la ",
+    headingHi: "réservation",
+    headingMid: ". Vous, vous avez eu la ",
+    headingHi2: "messagerie",
+    headingPost: ".",
+    sub: "Quand quelqu'un près de chez vous cherche ce que vous proposez, il choisit l'entreprise au site rapide, aux réponses instantanées et à la réservation facile. Nous faisons en sorte que cette entreprise, ce soit la vôtre, sans que vous touchiez la moindre ligne de code.",
+    ctaPrimary: "Réservez un échange gratuit de 15 minutes",
+    ctaSecondary: "Voir comment ça marche",
+    label: "Voilà ce que vivent vos clients.",
+  },
+  problem: {
+    kicker: "Ça vous parle ?",
+    title: "Gérer une entreprise locale, c'est déjà bien assez dur.",
+    body: [
+      "Vous ne devriez pas avoir, en plus, à vous soucier d'un site trop lent, d'appels sans réponse après la fermeture, ou d'une réservation perdue parce que vous avez mis trop de temps à répondre.",
+      "La plupart des petites entreprises ne perdent pas face à de meilleures entreprises. Elles perdent face à des entreprises qui ont meilleure allure, un site soigné, des réponses instantanées et des réservations qui tournent jour et nuit.",
+    ],
+    stakePre: "Vous valez mieux que ça. Il vous manque juste les ",
+    stakeHi: "bons outils pour le montrer",
+    stakePost: ".",
+  },
+  guide: {
+    kicker: "Pourquoi Kodable",
+    title: "On est passé par là, nous aussi.",
+    body: [
+      "Nous sommes un petit studio qui a aidé restaurants, cliniques, artisans et commerces de quartier à être aussi soignés en ligne que le travail qu'ils font en personne, en utilisant l'IA pour le faire plus vite et à un prix bien plus abordable qu'une agence traditionnelle.",
+      "Pas de jargon. Pas de complexité inutile. Et on ne disparaît pas une fois le site lancé. Vous nous parlez de votre activité avec des mots simples. On s'occupe de tout le reste.",
+    ],
+  },
+  plan: {
+    kicker: "Le plan",
+    title: "Démarrer prend 15 minutes. Tout le reste, c'est pour nous.",
+    lead: "La plupart des gens repoussent l'amélioration de leur présence en ligne parce que ça semble compliqué, cher, ou interminable. Pourtant, ça n'a rien d'une fatalité.",
+    steps: [
+      { n: "1", title: "Parlez-nous de votre activité", body: "Un échange détendu de 15 minutes sur ce que vous faites, à qui vous vous adressez, et ce qui coince en ce moment. Sans jargon, sans frais, sans engagement." },
+      { n: "2", title: "On construit et on lance", body: "On s'occupe de tout : le site, la configuration de l'IA, les intégrations, l'hébergement. Vous recevez un calendrier clair et un devis en langage simple avant qu'on ne commence quoi que ce soit." },
+      { n: "3", title: "Vous gagnez plus de clients", body: "Votre site trouve les gens qui cherchent près de chez vous. Votre agent IA leur répond instantanément. Votre agenda se remplit tout seul. Vous, vous continuez à faire tourner votre entreprise." },
+    ],
+    cta: "Réservez votre échange gratuit de 15 minutes",
+  },
+  vision: {
+    kicker: "Imaginez",
+    title: "Imaginez terminer un mardi comme celui-ci.",
+    body: [
+      "Vous bouclez à 18 h. Vous jetez un œil à votre téléphone. Trois nouvelles réservations sont déjà dans votre agenda, des gens qui vous ont trouvé sur Google, ont obtenu des réponses de votre assistant IA, et ont réservé eux-mêmes pendant que vous étiez avec un autre client.",
+      "Aucun appel manqué. Aucune demande à relancer. Aucun dimanche soir à rattraper ses messages.",
+      "C'est ça que Kodable met en place. Et ça continue de tourner une fois qu'on a fini.",
+    ],
   },
   chat: {
     name: "Casa del Mar",
@@ -553,8 +699,8 @@ const fr: SiteContent = {
   },
   finalCta: {
     kicker: "Discutons-en",
-    title: "Mettons votre activité en ligne, comme il faut.",
-    body: "Dites-nous un peu ce que vous faites. Nous vous renvoyons un devis gratuit, en langage simple, sans jargon et sans pression. Généralement sous 24 heures.",
+    title: "Chaque semaine sans ça, c'est une réservation qui part chez un autre.",
+    body: "Quand un client cherche près de chez vous et réserve chez le concurrent au site plus rapide et aux réponses instantanées, ce n'est pas parce qu'il était meilleur, c'est parce qu'il était plus facile à trouver et plus rapide à répondre. Ça se corrige, et ça commence par un échange de 15 minutes qui ne coûte rien.",
     whatsapp: "Écrivez-nous sur WhatsApp",
     email: "Ou envoyez-nous un email",
     labels: { whatsapp: "WhatsApp", call: "Appelez-nous", email: "Email" },
@@ -600,21 +746,61 @@ const de: SiteContent = {
   },
   home: {
     servicesKicker: "Was wir machen",
-    servicesTitle: "Vier Wege, wie wir dein Unternehmen wachsen lassen.",
-    servicesLead: "Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist.",
+    servicesTitle: "Alles, was du brauchst, um gefunden und gebucht zu werden, und keine Stunden mehr mit Kleinkram zu verlieren.",
+    servicesLead: "Fang mit dem an, was du jetzt brauchst. Den Rest holst du dir, wenn du bereit bist.",
     faqKicker: "Häufige Fragen",
-    faqTitle: "Was Leute uns meistens fragen.",
+    faqTitle: "Noch unsicher? Das wollen die meisten zuerst wissen.",
     faqSeeAll: "Alle Fragen ansehen",
   },
   hero: {
-    headingPre: "Wir nutzen ",
-    headingHi: "KI",
-    headingMid: ", um ",
-    headingHi2: "Kunden",
-    headingPost: " an deine Tür zu bringen.",
-    sub: "Wir bauen Websites, KI-Agenten, maßgeschneiderte Tools und Automatisierungen für lokale Unternehmen, damit mehr Leute dich finden, mehr selbst buchen und jeder Kunde eine Antwort bekommt, auch außerhalb der Öffnungszeiten.",
-    ctaPrimary: "Starte dein Projekt",
-    ctaSecondary: "Sieh, was du bekommst",
+    headingPre: "Dein Mitbewerber hat gerade die ",
+    headingHi: "Buchung",
+    headingMid: " bekommen. Du nur die ",
+    headingHi2: "Mailbox",
+    headingPost: ".",
+    sub: "Wenn jemand in deiner Nähe nach dem sucht, was du machst, wählt er das Geschäft mit der schnellen Seite, sofortigen Antworten und einfacher Buchung. Wir sorgen dafür, dass das dein Geschäft ist, ohne dass du auch nur eine Zeile Code anfassen musst.",
+    ctaPrimary: "Buch dir ein kostenloses 15-Minuten-Gespräch",
+    ctaSecondary: "So funktioniert's",
+    label: "Genau das erleben deine Kunden.",
+  },
+  problem: {
+    kicker: "Kommt dir das bekannt vor?",
+    title: "Ein lokales Geschäft zu führen ist schon hart genug.",
+    body: [
+      "Du solltest dir nicht auch noch Sorgen machen müssen, dass deine Website lahm ist, Anrufe nach Feierabend ins Leere laufen oder du eine Buchung verlierst, weil die Antwort zu lange gedauert hat.",
+      "Die meisten kleinen Geschäfte verlieren nicht gegen die besseren. Sie verlieren gegen die, die besser aussehen, mit schicken Seiten, sofortigen Antworten und Buchungssystemen, die rund um die Uhr laufen.",
+    ],
+    stakePre: "Das hast du nicht nötig. Dir fehlen nur die ",
+    stakeHi: "Mittel, um es zu zeigen",
+    stakePost: ".",
+  },
+  guide: {
+    kicker: "Warum Kodable",
+    title: "Wir waren schon da, wo du jetzt stehst.",
+    body: [
+      "Wir sind ein kleines Studio und haben lokalen Restaurants, Praxen, Handwerkern und Läden geholfen, online genauso überzeugend rüberzukommen wie bei ihrer Arbeit vor Ort, mit KI, schneller und günstiger, als es eine klassische Agentur je könnte.",
+      "Wir machen keinen Fachjargon. Wir machen keine unnötige Komplexität. Und wir verschwinden nicht nach dem Launch. Du erzählst uns mit einfachen Worten von deinem Geschäft. Um alles andere kümmern wir uns.",
+    ],
+  },
+  plan: {
+    kicker: "Der Plan",
+    title: "Der Start dauert 15 Minuten. Den Rest übernehmen wir.",
+    lead: "Die meisten schieben es auf, ihren Online-Auftritt zu verbessern, weil es kompliziert, teuer oder als würde es ewig dauern wirkt. Muss es aber nicht.",
+    steps: [
+      { n: "1", title: "Erzähl uns von deinem Geschäft", body: "Ein entspanntes 15-Minuten-Gespräch darüber, was du machst, für wen du da bist und was gerade nicht rundläuft. Kein Fachjargon, keine Kosten, keine Verpflichtung." },
+      { n: "2", title: "Wir bauen und gehen live", body: "Wir kümmern uns um alles: die Seite, die KI-Einrichtung, die Integrationen, das Hosting. Du bekommst einen klaren Zeitplan und ein Angebot in verständlicher Sprache, bevor wir irgendwas anfangen." },
+      { n: "3", title: "Du bekommst mehr Kunden", body: "Deine Seite findet Leute, die in der Nähe suchen. Dein KI-Agent antwortet ihnen sofort. Dein Kalender füllt sich von selbst. Und du kümmerst dich um dein Geschäft." },
+    ],
+    cta: "Buch dir dein kostenloses 15-Minuten-Gespräch",
+  },
+  vision: {
+    kicker: "Stell dir das vor",
+    title: "Stell dir vor, du beendest einen Dienstag so.",
+    body: [
+      "Du machst um 18 Uhr Feierabend. Du schaust aufs Handy. Drei neue Buchungen stehen in deinem Kalender: Leute, die dich bei Google gefunden haben, deren Fragen dein KI-Assistent beantwortet hat und die sich selbst eingetragen haben, während du bei einem anderen Kunden warst.",
+      "Keine verpassten Anrufe. Kein Hinterherrennen bei Anfragen. Kein Sonntagabend, an dem du Nachrichten aufarbeitest.",
+      "Genau das richtet Kodable ein. Und es läuft weiter, wenn wir längst fertig sind.",
+    ],
   },
   chat: {
     name: "Casa del Mar",
@@ -710,8 +896,8 @@ const de: SiteContent = {
   },
   finalCta: {
     kicker: "Lass uns reden",
-    title: "Bringen wir dein Unternehmen richtig online.",
-    body: "Erzähl uns ein bisschen, was du machst. Wir schicken dir ein kostenloses Angebot in einfacher Sprache zurück, ohne Fachjargon und ohne Druck. Meist innerhalb von 24 Stunden.",
+    title: "Jede Woche ohne das ist eine Buchung, die jemand anderes bekommt.",
+    body: "Wenn ein Kunde in der Nähe sucht und beim Mitbewerber mit der schnelleren Seite und den sofortigen Antworten bucht, dann nicht, weil der besser war, sondern weil er leichter zu finden und schneller zu erreichen war. Das lässt sich beheben, und es fängt mit einem 15-Minuten-Gespräch an, das nichts kostet.",
     whatsapp: "Über WhatsApp schreiben",
     email: "Lieber per Email",
     labels: { whatsapp: "WhatsApp", call: "Ruf uns an", email: "Email" },
@@ -757,21 +943,61 @@ const it: SiteContent = {
   },
   home: {
     servicesKicker: "Cosa facciamo",
-    servicesTitle: "Quattro modi per far crescere la tua attività.",
-    servicesLead: "Scegli ciò che ti serve ora e aggiungi il resto quando vuoi.",
+    servicesTitle: "Tutto quello che ti serve per farti trovare, riempire l'agenda e smettere di perdere ore in cose inutili.",
+    servicesLead: "Inizia da ciò che ti serve ora. Aggiungi il resto quando sei pronto.",
     faqKicker: "Domande frequenti",
-    faqTitle: "Quello che la gente di solito chiede.",
+    faqTitle: "Hai ancora dei dubbi? Ecco cosa vogliono sapere quasi tutti, prima di tutto.",
     faqSeeAll: "Vedi tutte le domande",
   },
   hero: {
-    headingPre: "Usiamo l'",
-    headingHi: "IA",
-    headingMid: " per portare ",
-    headingHi2: "clienti",
-    headingPost: " alla tua porta.",
-    sub: "Creiamo siti web, agenti IA, strumenti su misura e automazioni per le attività locali, così più persone ti trovano, più clienti prenotano da soli e ognuno riceve una risposta, anche fuori orario.",
-    ctaPrimary: "Inizia il tuo progetto",
-    ctaSecondary: "Guarda cosa ottieni",
+    headingPre: "Il tuo concorrente ha appena preso la ",
+    headingHi: "prenotazione",
+    headingMid: ". Tu ti ritrovi con la ",
+    headingHi2: "segreteria",
+    headingPost: ".",
+    sub: "Quando qualcuno qui vicino cerca quello che fai, sceglie l'attività con il sito veloce, le risposte immediate e la prenotazione facile. Noi facciamo in modo che quell'attività sia la tua, senza che tu tocchi una sola riga di codice.",
+    ctaPrimary: "Prenota una chiacchierata gratis di 15 minuti",
+    ctaSecondary: "Guarda come funziona",
+    label: "Questo è ciò che vivono i tuoi clienti.",
+  },
+  problem: {
+    kicker: "Ti suona familiare?",
+    title: "Mandare avanti un'attività locale è già abbastanza difficile.",
+    body: [
+      "Non dovresti anche preoccuparti di un sito lento, delle chiamate che restano senza risposta dopo l'orario, o di una prenotazione persa perché hai risposto troppo tardi.",
+      "Quasi nessuna piccola attività perde contro chi lavora meglio. Perde contro chi si presenta meglio, chi ha siti curati, risposte immediate e sistemi di prenotazione che lavorano giorno e notte.",
+    ],
+    stakePre: "Tu vali di più di così. Ti servono solo gli ",
+    stakeHi: "strumenti per dimostrarlo",
+    stakePost: ".",
+  },
+  guide: {
+    kicker: "Perché Kodable",
+    title: "Siamo passati anche noi da dove sei tu.",
+    body: [
+      "Siamo uno studio piccolo che ha aiutato ristoranti, cliniche, artigiani e negozi di quartiere a essere online curati quanto il lavoro che fanno di persona, usando l'IA per farlo più in fretta e a un costo più accessibile di quanto potrebbe mai un'agenzia tradizionale.",
+      "Niente gergo. Niente complicazioni inutili. E non spariamo dopo il lancio. Tu ci racconti la tua attività con parole semplici. A tutto il resto pensiamo noi.",
+    ],
+  },
+  plan: {
+    kicker: "Il piano",
+    title: "Per partire bastano 15 minuti. Al resto pensiamo noi.",
+    lead: "Quasi tutti rimandano il momento di migliorare la propria presenza online perché sembra complicato, costoso o lunghissimo. Non deve essere così.",
+    steps: [
+      { n: "1", title: "Raccontaci la tua attività", body: "Una chiacchierata rilassata di 15 minuti su cosa fai, chi servi e cosa al momento non funziona. Niente gergo, niente costi, nessun impegno." },
+      { n: "2", title: "Costruiamo e lanciamo", body: "Pensiamo a tutto noi: il sito, l'impostazione dell'IA, le integrazioni, l'hosting. Tu ricevi tempi chiari e un preventivo in parole semplici prima che iniziamo qualsiasi cosa." },
+      { n: "3", title: "Arrivano più clienti", body: "Il tuo sito intercetta chi cerca qui vicino. Il tuo agente IA risponde all'istante. L'agenda si riempie da sola. Tu pensi a mandare avanti la tua attività." },
+    ],
+    cta: "Prenota la tua chiacchierata gratis di 15 minuti",
+  },
+  vision: {
+    kicker: "Immagina",
+    title: "Immagina di chiudere un martedì così.",
+    body: [
+      "Stacchi alle 18. Guardi il telefono. In agenda ci sono tre nuove prenotazioni: persone che ti hanno trovato su Google, hanno avuto risposta dal tuo assistente IA e si sono prenotate da sole mentre eri con un altro cliente.",
+      "Nessuna chiamata persa. Nessuna richiesta da rincorrere. Nessuna domenica sera passata a recuperare i messaggi.",
+      "Questo è ciò che Kodable ti mette in piedi. E continua a funzionare anche dopo che abbiamo finito.",
+    ],
   },
   chat: {
     name: "Casa del Mar",
@@ -867,8 +1093,8 @@ const it: SiteContent = {
   },
   finalCta: {
     kicker: "Parliamone",
-    title: "Portiamo la tua attività online, fatto bene.",
-    body: "Raccontaci un po' di cosa fai. Ti rispondiamo con un preventivo gratuito e in parole semplici, senza gergo e senza pressioni. Di solito entro 24 ore.",
+    title: "Ogni settimana senza tutto questo è una prenotazione che sta prendendo qualcun altro.",
+    body: "Quando un cliente cerca qui vicino e prenota dal concorrente con il sito più veloce e le risposte immediate, non è perché era migliore, è perché era più facile da trovare e più rapido a rispondere. Si può risolvere, e parte da una chiacchierata di 15 minuti che non costa niente.",
     whatsapp: "Scrivici su WhatsApp",
     email: "Oppure mandaci un'email",
     labels: { whatsapp: "WhatsApp", call: "Chiamaci", email: "Email" },

@@ -31,7 +31,7 @@ const META: Record<Locale, { title: string; description: string }> = {
   en: {
     title: "AI websites, agents & automations for small businesses | Kodable.ai",
     description:
-      "AI websites, agents & automations that grow small businesses: fast sites, 24/7 customer chat, custom tools. Free consult, real people after launch.",
+      "Losing bookings to competitors with faster sites and instant replies? Kodable builds AI-powered websites, agents and automations for local businesses, so you get found, get booked, and never miss an enquiry again. Free 15-minute consultation.",
   },
   es: {
     title: "Webs, agentes de IA y automatizaciones para pequeños negocios | Kodable.ai",

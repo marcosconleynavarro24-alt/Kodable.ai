@@ -7,136 +7,116 @@ export interface FaqItem {
 
 const en: FaqItem[] = [
   {
-    q: "What exactly do you do?",
-    a: "We use AI to build the things a small business needs to grow: a fast website, an AI assistant that answers customers and takes bookings, custom tools like booking or ordering apps, and automations that connect the apps you already use. You can start with one and add the rest when you're ready.",
+    q: "Will the AI sound robotic?",
+    a: "No. We tune every assistant to your business, your tone, and the real answers you'd give yourself. Customers regularly don't realise they're talking to an AI, until they're already booked in.",
   },
   {
-    q: "Is the AI any good, or will it sound like a robot?",
-    a: "We tune each assistant to your business, your tone and your real answers, so it sounds like you, not a generic bot. It handles the routine questions and bookings, and the moment something needs a human, it hands the conversation straight to you.",
+    q: "I'm not technical. Is this going to be complicated?",
+    a: "Not at all. You tell us about your business in plain words. We handle the hosting, the AI setup, the domain, the lot. When it's live, we show you the two or three things you might ever want to change yourself, like your hours or photos. That's it.",
   },
   {
     q: "How long does it take?",
-    a: "Faster than you'd expect, because AI does the heavy lifting. Most websites are live within a couple of weeks; a simple AI assistant or automation can be ready in days. We'll give you a clear timeline after a quick chat.",
-  },
-  {
-    q: "Do I need to know anything technical?",
-    a: "Not a thing. You tell us about your business in plain words; we handle the hosting, the domain, the AI setup, the lot. When it's live, we show you the few simple bits you might want to change yourself, like your hours or photos.",
-  },
-  {
-    q: "What happens after launch?",
-    a: "We don't disappear. Every build ships with a care plan that keeps it online, safe, backed up and updated, and we actually answer when you need a change, usually within 24 hours. That's where hosting and maintenance live now.",
+    a: "Faster than you'd expect. Most websites are live within a couple of weeks. A simple AI assistant or automation can be ready in days. We'll give you a clear timeline after a quick chat, before anything is agreed.",
   },
   {
     q: "How much does it cost?",
-    a: "Every project is quoted individually, after a free consultation, so you only pay for what you actually need rather than a fixed package. Tell us about your business and we'll send back a clear, jargon-free price, free and with no pressure. No price lists, no surprises.",
+    a: "It depends on what you actually need, which is why we don't publish a price list. Most clients are surprised by how affordable it is. The consultation is free, the quote is plain-language, and there's no pressure to go ahead.",
+  },
+  {
+    q: "What happens after you build it?",
+    a: "We don't disappear. We offer a care plan that keeps everything running, updated and backed up. And if something ever needs changing, we're a WhatsApp message away.",
   },
 ];
 
 const es: FaqItem[] = [
   {
-    q: "¿Qué hacéis exactamente?",
-    a: "Usamos IA para construir lo que un pequeño negocio necesita para crecer: una web rápida, un asistente de IA que atiende a los clientes y coge reservas, herramientas a medida como apps de reservas o pedidos, y automatizaciones que conectan las apps que ya usas. Puedes empezar con una y añadir el resto cuando quieras.",
+    q: "¿La IA sonará a robot?",
+    a: "No. Afinamos cada asistente a tu negocio, tu tono y las respuestas reales que darías tú. Es habitual que los clientes ni se den cuenta de que hablan con una IA, hasta que ya tienen la reserva hecha.",
   },
   {
-    q: "¿La IA es buena? ¿No sonará a robot?",
-    a: "Ajustamos cada asistente a tu negocio, tu tono y tus respuestas reales, así que suena a ti, no a un bot genérico. Se ocupa de las preguntas y reservas de siempre, y en cuanto algo necesita a una persona, te pasa la conversación directamente.",
+    q: "No soy nada técnico. ¿Esto va a ser un lío?",
+    a: "Para nada. Tú nos cuentas tu negocio con palabras normales. Nosotros nos encargamos del hosting, de la IA, del dominio, de todo. Cuando esté online, te enseñamos las dos o tres cosas que quizá quieras cambiar tú mismo alguna vez, como el horario o las fotos. Y ya está.",
   },
   {
-    q: "¿Cuánto tarda?",
-    a: "Más rápido de lo que crees, porque la IA hace el trabajo pesado. La mayoría de webs están online en un par de semanas; un asistente de IA o una automatización sencilla pueden estar listos en días. Te damos un plazo claro tras una charla rápida.",
-  },
-  {
-    q: "¿Necesito saber de tecnología?",
-    a: "Nada de nada. Tú nos cuentas sobre tu negocio en palabras normales; nosotros nos ocupamos del hosting, el dominio, la configuración de la IA, todo. Cuando esté online, te enseñamos las pocas cosas sencillas que quizá quieras cambiar tú, como tus horarios o las fotos.",
-  },
-  {
-    q: "¿Qué pasa después del lanzamiento?",
-    a: "No desaparecemos. Cada proyecto incluye un plan de cuidado que lo mantiene online, seguro, con copias y actualizado, y respondemos de verdad cuando necesitas un cambio, normalmente en 24 horas. Ahí es donde viven ahora el hosting y el mantenimiento.",
+    q: "¿Cuánto se tarda?",
+    a: "Menos de lo que crees. La mayoría de webs están online en un par de semanas. Un asistente de IA sencillo o una automatización pueden estar listos en días. Te damos un plazo claro tras una charla rápida, antes de cerrar nada.",
   },
   {
     q: "¿Cuánto cuesta?",
-    a: "Cada proyecto se presupuesta de forma individual, tras una consulta gratis, así pagas solo por lo que de verdad necesitas en lugar de un paquete cerrado. Cuéntanos sobre tu negocio y te devolvemos un precio claro y en lenguaje sencillo, gratis y sin presión. Sin listas de precios, sin sorpresas.",
+    a: "Depende de lo que de verdad necesites, y por eso no publicamos lista de precios. A la mayoría de clientes les sorprende lo asequible que es. La consulta es gratis, el presupuesto va en lenguaje sencillo y no hay ninguna presión para seguir adelante.",
+  },
+  {
+    q: "¿Qué pasa después de construirla?",
+    a: "No desaparecemos. Tenemos un plan de cuidado que lo mantiene todo online, actualizado y con copias de seguridad. Y si alguna vez hay que cambiar algo, estamos a un mensaje de WhatsApp.",
   },
 ];
 
 const fr: FaqItem[] = [
   {
-    q: "Que faites-vous exactement ?",
-    a: "Nous utilisons l'IA pour construire ce dont un petit commerce a besoin pour grandir : un site web rapide, un assistant IA qui répond aux clients et prend les réservations, des outils sur mesure comme des applis de réservation ou de commande, et des automatisations qui connectent les applis que vous utilisez déjà. Vous pouvez commencer par l'un d'eux et ajouter le reste quand vous serez prêt.",
+    q: "Est-ce que l'IA aura l'air d'un robot ?",
+    a: "Non. Nous réglons chaque assistant sur votre entreprise, votre ton, et les vraies réponses que vous donneriez vous-même. Bien souvent, les clients ne se rendent même pas compte qu'ils parlent à une IA, jusqu'à ce qu'ils aient déjà réservé.",
   },
   {
-    q: "L'IA est-elle vraiment bonne, ou aura-t-elle l'air d'un robot ?",
-    a: "Nous ajustons chaque assistant à votre activité, à votre ton et à vos vraies réponses, pour qu'il sonne comme vous, pas comme un bot générique. Il gère les questions et les réservations de routine, et dès que quelque chose demande une personne, il vous passe la conversation directement.",
+    q: "Je ne suis pas du tout technique. Est-ce que ça va être compliqué ?",
+    a: "Pas du tout. Vous nous parlez de votre activité avec des mots simples. On s'occupe de l'hébergement, de la configuration de l'IA, du nom de domaine, de tout. Une fois en ligne, on vous montre les deux ou trois choses que vous voudriez éventuellement modifier vous-même, comme vos horaires ou vos photos. C'est tout.",
   },
   {
     q: "Combien de temps ça prend ?",
-    a: "Plus vite que vous ne le pensez, parce que l'IA fait le gros du travail. La plupart des sites web sont en ligne en deux semaines environ ; un assistant IA ou une automatisation simple peuvent être prêts en quelques jours. Nous vous donnons un calendrier clair après un échange rapide.",
-  },
-  {
-    q: "Dois-je m'y connaître en technique ?",
-    a: "Pas du tout. Vous nous parlez de votre activité avec des mots simples ; nous nous occupons de l'hébergement, du domaine, de la configuration de l'IA, de tout. Une fois en ligne, nous vous montrons les quelques petites choses que vous voudrez peut-être changer vous-même, comme vos horaires ou vos photos.",
-  },
-  {
-    q: "Que se passe-t-il après le lancement ?",
-    a: "Nous ne disparaissons pas. Chaque création est livrée avec un plan d'entretien qui la garde en ligne, sûre, sauvegardée et à jour, et nous répondons vraiment quand vous avez besoin d'un changement, généralement sous 24 heures. C'est là que vivent désormais l'hébergement et la maintenance.",
+    a: "Plus vite que vous ne le pensez. La plupart des sites sont en ligne en deux semaines environ. Un assistant IA ou une automatisation simple peut être prêt en quelques jours. On vous donne un calendrier clair après un court échange, avant que rien ne soit décidé.",
   },
   {
     q: "Combien ça coûte ?",
-    a: "Chaque projet fait l'objet d'un devis individuel, après une consultation gratuite, vous ne payez donc que ce dont vous avez vraiment besoin plutôt qu'un forfait figé. Parlez-nous de votre activité et nous vous renvoyons un prix clair, sans jargon, gratuit et sans pression. Pas de grille tarifaire, pas de surprises.",
+    a: "Ça dépend de ce dont vous avez réellement besoin, et c'est pour ça qu'on ne publie pas de grille tarifaire. La plupart de nos clients sont surpris de voir à quel point c'est abordable. La consultation est gratuite, le devis est en langage simple, et rien ne vous oblige à aller plus loin.",
+  },
+  {
+    q: "Que se passe-t-il une fois le site construit ?",
+    a: "On ne disparaît pas. Nous proposons un forfait de suivi qui garde tout en marche, à jour et sauvegardé. Et si quelque chose doit changer un jour, on est à un message WhatsApp de vous.",
   },
 ];
 
 const de: FaqItem[] = [
   {
-    q: "Was genau macht ihr?",
-    a: "Wir nutzen KI, um die Dinge zu bauen, die ein kleines Unternehmen zum Wachsen braucht: eine schnelle Website, einen KI-Assistenten, der Kunden antwortet und Buchungen entgegennimmt, maßgeschneiderte Tools wie Buchungs- oder Bestell-Apps und Automatisierungen, die die Apps verbinden, die du schon nutzt. Du kannst mit einem anfangen und den Rest hinzufügen, wenn du so weit bist.",
+    q: "Klingt die KI roboterhaft?",
+    a: "Nein. Wir stimmen jeden Assistenten auf dein Geschäft ab, auf deinen Ton und auf die echten Antworten, die du selbst geben würdest. Kunden merken oft gar nicht, dass sie mit einer KI sprechen, bis sie schon gebucht haben.",
   },
   {
-    q: "Taugt die KI was, oder klingt sie nach einem Roboter?",
-    a: "Wir stimmen jeden Assistenten auf dein Unternehmen, deinen Ton und deine echten Antworten ab, damit er nach dir klingt, nicht nach einem generischen Bot. Er erledigt die Routinefragen und Buchungen, und sobald etwas einen Menschen braucht, übergibt er das Gespräch direkt an dich.",
+    q: "Ich kenne mich mit Technik nicht aus. Wird das kompliziert?",
+    a: "Überhaupt nicht. Du erzählst uns mit einfachen Worten von deinem Geschäft. Wir kümmern uns um das Hosting, die KI-Einrichtung, die Domain, das ganze Drumherum. Wenn alles live ist, zeigen wir dir die zwei, drei Dinge, die du vielleicht mal selbst ändern willst, etwa deine Öffnungszeiten oder Fotos. Das war's.",
   },
   {
     q: "Wie lange dauert das?",
-    a: "Schneller, als du denkst, weil die KI die schwere Arbeit übernimmt. Die meisten Websites sind innerhalb von ein paar Wochen live; ein einfacher KI-Assistent oder eine Automatisierung kann in Tagen fertig sein. Nach einem kurzen Gespräch geben wir dir einen klaren Zeitplan.",
-  },
-  {
-    q: "Muss ich technisch was draufhaben?",
-    a: "Kein bisschen. Du erzählst uns in einfachen Worten von deinem Unternehmen; wir kümmern uns um das Hosting, die Domain, das KI-Setup, alles. Wenn es live ist, zeigen wir dir die paar einfachen Dinge, die du vielleicht selbst ändern willst, wie deine Öffnungszeiten oder Fotos.",
-  },
-  {
-    q: "Was passiert nach dem Launch?",
-    a: "Wir verschwinden nicht. Jedes Projekt kommt mit einem Care-Plan, der es online, sicher, gesichert und aktuell hält, und wir antworten tatsächlich, wenn du eine Änderung brauchst, meist innerhalb von 24 Stunden. Da leben jetzt Hosting und Wartung.",
+    a: "Schneller, als du denkst. Die meisten Websites sind innerhalb von ein, zwei Wochen live. Ein einfacher KI-Assistent oder eine Automatisierung kann in Tagen fertig sein. Nach einem kurzen Gespräch geben wir dir einen klaren Zeitplan, bevor irgendwas vereinbart ist.",
   },
   {
     q: "Was kostet das?",
-    a: "Jedes Projekt wird einzeln kalkuliert, nach einer kostenlosen Beratung, sodass du nur für das zahlst, was du wirklich brauchst, statt für ein festes Paket. Erzähl uns von deinem Unternehmen und wir schicken dir einen klaren Preis ohne Fachjargon zurück, kostenlos und ohne Druck. Keine Preislisten, keine Überraschungen.",
+    a: "Das hängt davon ab, was du wirklich brauchst, deshalb veröffentlichen wir keine Preisliste. Die meisten Kunden sind überrascht, wie bezahlbar es ist. Die Beratung ist kostenlos, das Angebot in verständlicher Sprache, und es gibt keinen Druck, mitzumachen.",
+  },
+  {
+    q: "Was passiert, nachdem ihr es gebaut habt?",
+    a: "Wir verschwinden nicht. Wir bieten einen Pflegeplan, der alles am Laufen, aktuell und gesichert hält. Und wenn mal etwas geändert werden muss, sind wir nur eine WhatsApp-Nachricht entfernt.",
   },
 ];
 
 const it: FaqItem[] = [
   {
-    q: "Cosa fate esattamente?",
-    a: "Usiamo l'IA per costruire ciò di cui una piccola attività ha bisogno per crescere: un sito veloce, un assistente IA che risponde ai clienti e prende le prenotazioni, strumenti su misura come app di prenotazione o di ordini, e automazioni che collegano le app che già usi. Puoi iniziare con una e aggiungere il resto quando vuoi.",
+    q: "L'IA suonerà come un robot?",
+    a: "No. Mettiamo a punto ogni assistente sulla tua attività, sul tuo tono e sulle risposte vere che daresti tu. Spesso i clienti non si accorgono nemmeno di parlare con un'IA, finché non hanno già prenotato.",
   },
   {
-    q: "L'IA è valida? Non suonerà come un robot?",
-    a: "Calibriamo ogni assistente sulla tua attività, sul tuo tono e sulle tue risposte reali, così suona come te, non come un bot generico. Gestisce le domande e le prenotazioni di routine, e nel momento in cui serve una persona, ti passa la conversazione direttamente.",
+    q: "Non me ne intendo di tecnologia. Sarà complicato?",
+    a: "Per niente. Tu ci racconti la tua attività con parole semplici. A hosting, impostazione dell'IA, dominio e tutto il resto pensiamo noi. Quando è online, ti mostriamo le due o tre cose che magari vorrai cambiare da solo, tipo gli orari o le foto. Tutto qui.",
   },
   {
     q: "Quanto tempo ci vuole?",
-    a: "Più in fretta di quanto ti aspetti, perché l'IA fa il lavoro pesante. La maggior parte dei siti è online in un paio di settimane; un semplice assistente IA o un'automazione possono essere pronti in giorni. Ti diamo un piano chiaro dopo una chiacchierata veloce.",
-  },
-  {
-    q: "Devo sapere qualcosa di tecnico?",
-    a: "Niente di niente. Tu ci racconti della tua attività in parole semplici; al resto pensiamo noi: l'hosting, il dominio, la configurazione dell'IA, tutto. Quando è online, ti mostriamo le poche cose semplici che magari vuoi cambiare da solo, come i tuoi orari o le foto.",
-  },
-  {
-    q: "Cosa succede dopo il lancio?",
-    a: "Non spariamo. Ogni progetto include un piano di assistenza che lo tiene online, sicuro, con backup e aggiornato, e rispondiamo davvero quando ti serve una modifica, di solito entro 24 ore. È lì che vivono ora l'hosting e la manutenzione.",
+    a: "Meno di quanto pensi. La maggior parte dei siti è online in un paio di settimane. Un assistente IA semplice o un'automazione possono essere pronti in pochi giorni. Ti diamo tempi chiari dopo una breve chiacchierata, prima di accordarci su qualsiasi cosa.",
   },
   {
     q: "Quanto costa?",
-    a: "Ogni progetto viene preventivato singolarmente, dopo una consulenza gratuita, così paghi solo per ciò che ti serve davvero invece di un pacchetto fisso. Raccontaci della tua attività e ti rispondiamo con un prezzo chiaro e senza gergo, gratis e senza pressioni. Niente listini, niente sorprese.",
+    a: "Dipende da cosa ti serve davvero, ed è per questo che non pubblichiamo un listino. Quasi tutti i clienti restano sorpresi da quanto sia accessibile. La consulenza è gratis, il preventivo è in parole semplici e non c'è nessuna pressione ad andare avanti.",
+  },
+  {
+    q: "Cosa succede dopo che lo avete costruito?",
+    a: "Non spariamo. Offriamo un piano di assistenza che tiene tutto funzionante, aggiornato e salvato. E se mai serve cambiare qualcosa, siamo a un messaggio WhatsApp di distanza.",
   },
 ];
 

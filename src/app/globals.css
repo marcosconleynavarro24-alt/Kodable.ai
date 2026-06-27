@@ -17,6 +17,7 @@
   --accent-deep: #0a6650;
   --accent-soft: #e3f3ed;
   --accent-ink: #0a4d3c;
+  --accent-red: #a32418;    /* parallel deep red to --accent-deep, same tone in red; AA on white */
   --bubble-them: #eef4f1;
   --bubble-you: #138063;
   --amber: #a85a12;         /* sun-baked terracotta-amber, readable on light */
@@ -188,15 +189,18 @@ section { position: relative; }
 }
 .place .pin { width: 16px; height: 16px; color: var(--accent); }
 h1.hero-h {
-  font-size: clamp(2.35rem, 1.5rem + 4.4vw, 4.3rem);
+  font-size: clamp(2.1rem, 1.4rem + 3.7vw, 3.7rem);
   letter-spacing: -0.045em;
   margin: 20px 0 0;
-  max-width: 14ch;
+  max-width: 18ch;
 }
 h1.hero-h .hi { color: var(--accent-deep); }
+h1.hero-h .hi-red { color: var(--accent-red); }
 .hero-sub { font-size: clamp(1.06rem, 1rem + 0.5vw, 1.28rem); color: var(--ink-mute); margin-top: 20px; max-width: 40ch; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 30px; }
 .hero-note { margin-top: 18px; font-size: .9rem; color: var(--ink-mute); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.hero-cap { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: .88rem; font-weight: 600; color: var(--ink-mute); }
+.hero-cap svg { width: 16px; height: 16px; color: var(--accent); flex: none; }
 .stars { color: var(--amber); letter-spacing: 2px; font-size: .95rem; }
 
 @media (min-width: 920px) {
@@ -275,6 +279,28 @@ h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0
 h2.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -0.04em; }
 .sec-lead { margin-top: 16px; font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); color: var(--ink-mute); max-width: 52ch; }
 .sec-head.center .sec-lead { margin-inline: auto; }
+
+/* ---------- storybrand narrative blocks (problem / guide / vision) ---------- */
+.lede { max-width: 62ch; }
+.lede > p { font-size: clamp(1.08rem, 1rem + 0.5vw, 1.34rem); color: var(--ink-soft); line-height: 1.5; margin-top: 18px; }
+.lede > p:first-child { margin-top: 0; }
+.problem-stake {
+  margin-top: 28px; font-family: var(--font-display); font-weight: 800; color: var(--ink);
+  font-size: clamp(1.35rem, 1.05rem + 1.4vw, 2.05rem); letter-spacing: -0.035em; line-height: 1.18;
+}
+.problem-stake .hi { color: var(--accent-deep); }
+
+.guide-lede { max-width: 64ch; }
+.guide-lede > p { color: var(--ink-mute); font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); margin-top: 16px; }
+.guide-lede > p:first-child { margin-top: 0; }
+
+.vision { max-width: 720px; margin: 0 auto; text-align: center; }
+.vision .sec-kicker { justify-content: center; }
+.vision .sec-title { font-size: clamp(1.8rem, 1.3rem + 2.2vw, 2.7rem); }
+.vision-body { margin-top: 20px; }
+.vision-body > p { font-size: clamp(1.08rem, 1rem + 0.5vw, 1.3rem); color: var(--ink-soft); line-height: 1.55; margin-top: 16px; }
+.vision-body > p:first-child { margin-top: 0; }
+.vision-body .vision-close { margin-top: 22px; font-family: var(--font-display); font-weight: 700; color: var(--accent-deep); font-size: clamp(1.12rem, 1rem + 0.6vw, 1.4rem); }
 
 /* ---------- promises (chat-thread layout, alternating) ---------- */
 .thread { display: flex; flex-direction: column; gap: 26px; max-width: 760px; margin: 0 auto; }
@@ -365,6 +391,26 @@ h2.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -
 .booking .btn { width: 100%; justify-content: center; }
 .booking .confirm { margin-top: 12px; display: flex; align-items: center; gap: 8px; font-size: .85rem; color: var(--accent-deep); justify-content: center; }
 .booking .confirm svg { width: 16px; height: 16px; }
+
+/* interactive booking widget (buttons reset + states) */
+button.day, button.slot { font: inherit; width: 100%; cursor: pointer; transition: border-color .15s var(--ease), background .15s var(--ease), color .15s var(--ease); }
+button.day:hover:not(.sel), button.slot:not(.taken):not(.pick):hover { border-color: var(--accent); color: var(--accent-deep); }
+button.slot.taken { cursor: not-allowed; }
+.booking button.day:focus-visible, .booking button.slot:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.book-form { margin: 16px 0 4px; }
+.book-form .field { margin-bottom: 10px; }
+.book-form .field label { font-size: .82rem; margin-bottom: 5px; }
+.book-form .field .opt { font-weight: 500; color: var(--ink-mute); }
+.book-form .field input, .book-form .field textarea { padding: 10px 12px; font-size: .95rem; border-radius: 10px; }
+.book-form .field textarea { min-height: 0; }
+.book-err { color: var(--danger); font-size: .85rem; margin: 2px 0 0; }
+.book-msg { color: var(--ink-mute); font-size: .94rem; text-align: center; padding: 22px 6px; }
+.book-done { text-align: center; padding: 18px 6px 8px; }
+.book-done-ico { width: 54px; height: 54px; border-radius: 50%; background: var(--accent-soft); color: var(--accent-deep); display: inline-flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+.book-done-ico svg { width: 28px; height: 28px; }
+.book-done h4 { font-size: 1.25rem; margin-bottom: 6px; }
+.book-done-when { font-family: var(--font-display); font-weight: 700; color: var(--accent-deep); font-size: 1.05rem; margin-bottom: 10px; }
+.book-done-body { color: var(--ink-mute); font-size: .95rem; max-width: 32ch; margin: 0 auto; }
 
 /* ---------- pricing ---------- */
 .price-group + .price-group { margin-top: clamp(40px, 5vw, 64px); }

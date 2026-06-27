@@ -11,6 +11,7 @@ export const EVENT_TYPES = [
   "call_click",
   "email_click",
   "lead_submitted",
+  "booking_submitted",
 ] as const;
 export type EventType = (typeof EVENT_TYPES)[number];
 
