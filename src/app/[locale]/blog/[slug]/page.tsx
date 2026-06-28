@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale, locales, localeHrefLang, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
@@ -7,35 +8,41 @@ import { getPost, getRelated, blogSlugs, type BlogPost, type BlogBlock } from "@
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
+import { CAT_LABELS } from "@/content/blog-cats";
 
 const COPY: Record<Locale, {
   home: string; blog: string; allArticles: string; takeaways: string;
-  related: string; minRead: string; source: string; bylineBio: string;
+  related: string; minRead: string; source: string; bylineBio: string; imageCredit: string;
 }> = {
   en: {
     home: "Home", blog: "Blog", allArticles: "All articles", takeaways: "Key takeaways",
     related: "Keep reading", minRead: "min read", source: "Source:",
     bylineBio: "A small studio using AI to help local businesses get found, get booked, and win back their week.",
+    imageCredit: "Photo:",
   },
   es: {
     home: "Inicio", blog: "Blog", allArticles: "Todos los artículos", takeaways: "Puntos clave",
     related: "Sigue leyendo", minRead: "min de lectura", source: "Fuente:",
     bylineBio: "Un pequeño estudio que usa IA para ayudar a negocios locales a que les encuentren, les reserven y recuperen su semana.",
+    imageCredit: "Foto:",
   },
   fr: {
     home: "Accueil", blog: "Blog", allArticles: "Tous les articles", takeaways: "À retenir",
     related: "À lire ensuite", minRead: "min de lecture", source: "Source :",
     bylineBio: "Un petit studio qui utilise l'IA pour aider les commerces de proximité à être trouvés, réservés, et à récupérer leur semaine.",
+    imageCredit: "Photo :",
   },
   de: {
     home: "Start", blog: "Blog", allArticles: "Alle Artikel", takeaways: "Das Wichtigste",
     related: "Weiterlesen", minRead: "Min. Lesezeit", source: "Quelle:",
     bylineBio: "Ein kleines Studio, das mit KI lokalen Unternehmen hilft, gefunden und gebucht zu werden und ihre Woche zurückzugewinnen.",
+    imageCredit: "Foto:",
   },
   it: {
     home: "Home", blog: "Blog", allArticles: "Tutti gli articoli", takeaways: "In sintesi",
     related: "Continua a leggere", minRead: "min di lettura", source: "Fonte:",
     bylineBio: "Un piccolo studio che usa l'IA per aiutare le attività locali a farsi trovare, riempire l'agenda e riprendersi la settimana.",
+    imageCredit: "Foto:",
   },
 };
 
@@ -50,12 +57,17 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, slug } = await params;
   if (!isLocale(locale)) return {};
-  const post = getPost(slug);
+  const post = getPost(locale, slug);
   if (!post) return {};
+  // Slugs are identical across locales, so every locale is a valid alternate.
+  const languages: Record<string, string> = Object.fromEntries(
+    locales.map((l) => [localeHrefLang[l], `/${l}/blog/${post.slug}`]),
+  );
+  languages["x-default"] = `/en/blog/${post.slug}`;
   return {
     title: post.title,
     description: post.description,
-    alternates: { canonical: `/${locale}/blog/${post.slug}` },
+    alternates: { canonical: `/${locale}/blog/${post.slug}`, languages },
     openGraph: {
       type: "article",
       title: post.title,
@@ -63,6 +75,9 @@ export async function generateMetadata({
       url: `${SITE_URL}/${locale}/blog/${post.slug}`,
       publishedTime: post.datePublished,
       authors: [post.author],
+      ...(post.image && {
+        images: [{ url: `${SITE_URL}/blog/${post.slug}.jpg`, width: 1024, alt: post.title }],
+      }),
     },
   };
 }
@@ -211,12 +226,12 @@ export default async function BlogPostPage({
   if (!isLocale(raw)) notFound();
   const locale: Locale = raw;
 
-  const post = getPost(slug);
+  const post = getPost(locale, slug);
   if (!post) notFound();
 
   const c = COPY[locale];
   const site = getSite(locale);
-  const related = getRelated(slug);
+  const related = getRelated(locale, slug);
   const ctaHref = post.cta.service
     ? `/${locale}/services/${post.cta.service}`
     : `/${locale}/contact`;
@@ -261,7 +276,7 @@ export default async function BlogPostPage({
 
           <span className="blog-cat">
             <Icon name={post.categoryIcon} />
-            {post.category}
+            {CAT_LABELS[locale][post.category]}
           </span>
 
           <h1 className="page-h" style={{ marginTop: "16px" }}>{post.title}</h1>
@@ -285,6 +300,19 @@ export default async function BlogPostPage({
           </div>
         </div>
       </section>
+
+      {post.image && (
+        <div className="blog-hero-img wrap-narrow" style={{ paddingTop: "clamp(20px, 3vw, 36px)" }}>
+          <Image
+            src={`/blog/${post.slug}.jpg`}
+            alt={post.title}
+            width={1024}
+            height={576}
+            style={{ width: "100%", height: "auto", borderRadius: "12px", display: "block" }}
+            priority
+          />
+        </div>
+      )}
 
       <section className="sec" style={{ paddingTop: "clamp(30px, 4vw, 48px)" }}>
         <div className="wrap-narrow">
@@ -322,6 +350,15 @@ export default async function BlogPostPage({
                 <div className="pb-bio">{c.bylineBio}</div>
               </div>
             </div>
+
+            {post.image && (
+              <p className="blog-img-credit" style={{ marginTop: "24px", fontSize: "0.78rem", color: "var(--ink-mute)" }}>
+                {c.imageCredit}{" "}
+                <a href={post.image.creditUrl} target="_blank" rel="noopener noreferrer">
+                  {post.image.credit}
+                </a>
+              </p>
+            )}
           </div>
         </div>
       </section>
@@ -342,7 +379,7 @@ export default async function BlogPostPage({
                   <article key={p.slug} className="post-card reveal">
                     <span className="blog-cat">
                       <Icon name={p.categoryIcon} />
-                      {p.category}
+                      {CAT_LABELS[locale][p.category]}
                     </span>
                     <h3>
                       <Link href={`/${locale}/blog/${p.slug}`}>{p.title}</Link>

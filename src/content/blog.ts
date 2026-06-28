@@ -1,6 +1,11 @@
 import type { IconName } from "@/components/Icon";
 import type { ServiceSlug } from "@/content/services";
-import data from "./blog-data.json";
+import type { Locale } from "@/i18n/config";
+import data_en from "./blog-data.json";
+import data_es from "./blog-data.es.json";
+import data_fr from "./blog-data.fr.json";
+import data_de from "./blog-data.de.json";
+import data_it from "./blog-data.it.json";
 
 // ── Types ────────────────────────────────────────────────────────────────
 export type BlogCategory = "AI Agents" | "Getting Found" | "Automation" | "AI Strategy";
@@ -33,30 +38,41 @@ export interface BlogPost {
   takeaways: string[];
   related: string[]; // other post slugs
   cta: { service: ServiceSlug | null; label: string };
+  image?: { credit: string; creditUrl: string };
   body: BlogBlock[];
 }
 
-// blog-data.json is generated content; the shape is guaranteed by the build
-// pipeline, so a single assertion here keeps the rest of the app fully typed.
-const posts = data as unknown as BlogPost[];
+// Per-locale generated content; the shape is guaranteed by the build pipeline
+// and the i18n assembly script (scripts/blog-i18n.cjs), which keeps slugs,
+// block structure and stats identical across locales. A single assertion per
+// file keeps the rest of the app fully typed.
+const byLocale: Record<Locale, BlogPost[]> = {
+  en: data_en as unknown as BlogPost[],
+  es: data_es as unknown as BlogPost[],
+  fr: data_fr as unknown as BlogPost[],
+  de: data_de as unknown as BlogPost[],
+  it: data_it as unknown as BlogPost[],
+};
 
 // ── Accessors ────────────────────────────────────────────────────────────
 // Newest first.
-export function getPosts(): BlogPost[] {
-  return [...posts].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
+export function getPosts(locale: Locale): BlogPost[] {
+  return [...byLocale[locale]].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 }
 
-export function getPost(slug: string): BlogPost | undefined {
-  return posts.find((p) => p.slug === slug);
+export function getPost(locale: Locale, slug: string): BlogPost | undefined {
+  return byLocale[locale].find((p) => p.slug === slug);
 }
 
 // Resolve a post's related slugs to real posts, dropping any that don't exist.
-export function getRelated(slug: string): BlogPost[] {
-  const post = getPost(slug);
+export function getRelated(locale: Locale, slug: string): BlogPost[] {
+  const post = getPost(locale, slug);
   if (!post) return [];
   return post.related
-    .map((s) => getPost(s))
+    .map((s) => getPost(locale, s))
     .filter((p): p is BlogPost => Boolean(p));
 }
 
-export const blogSlugs: string[] = posts.map((p) => p.slug);
+// Slugs are identical across locales, so the canonical English set drives
+// static params and routing.
+export const blogSlugs: string[] = byLocale.en.map((p) => p.slug);

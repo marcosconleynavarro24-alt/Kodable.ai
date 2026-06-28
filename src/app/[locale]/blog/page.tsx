@@ -7,51 +7,58 @@ import { getPosts, type BlogPost } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
+import { CAT_LABELS } from "@/content/blog-cats";
 
 const COPY: Record<Locale, {
   home: string; blog: string; kicker: string; title: string; dek: string;
   featured: string; latest: string; readMore: string; minRead: string;
   metaTitle: string; metaDesc: string;
+  chat: { them1: string; you: string; them2: string };
 }> = {
   en: {
     home: "Home", blog: "Blog", kicker: "Ideas & guides",
     title: "Plain-English ideas to get found, get booked, and win back your week.",
-    dek: "Practical guides on AI, getting found locally, and the automations that quietly grow a small business — no jargon, no hype.",
+    dek: "Practical guides on AI, getting found locally, and the automations that quietly grow a small business. No jargon, no hype.",
     featured: "Start here", latest: "Latest articles", readMore: "Read article", minRead: "min read",
-    metaTitle: "Blog — AI, local SEO & automation for small businesses",
+    metaTitle: "Blog: AI, local SEO & automation for small businesses",
     metaDesc: "Plain-English guides on AI agents, local SEO, website speed and automation for small local businesses. Practical, no jargon, no hype.",
+    chat: { them1: "Are you open on Sunday?", you: "Yes, Sundays 9am to 2pm. Shall I book you a table?", them2: "For 4, at 1pm please." },
   },
   es: {
     home: "Inicio", blog: "Blog", kicker: "Ideas y guías",
     title: "Ideas claras para que te encuentren, te reserven y recuperes tu semana.",
     dek: "Guías prácticas sobre IA, aparecer en tu zona y las automatizaciones que hacen crecer un pequeño negocio. Sin jerga, sin humo.",
     featured: "Empieza aquí", latest: "Últimos artículos", readMore: "Leer artículo", minRead: "min de lectura",
-    metaTitle: "Blog — IA, SEO local y automatización para pequeños negocios",
+    metaTitle: "Blog: IA, SEO local y automatización para pequeños negocios",
     metaDesc: "Guías claras sobre agentes de IA, SEO local, velocidad web y automatización para pequeños negocios locales. Prácticas, sin jerga.",
+    chat: { them1: "¿Abrís el domingo?", you: "Sí, los domingos de 9:00 a 14:00. ¿Te reservo mesa?", them2: "Para 4, a la 1." },
   },
   fr: {
     home: "Accueil", blog: "Blog", kicker: "Idées et guides",
     title: "Des idées claires pour être trouvé, être réservé et récupérer votre semaine.",
     dek: "Des guides concrets sur l'IA, la visibilité locale et les automatisations qui font grandir un petit commerce. Sans jargon, sans esbroufe.",
     featured: "Commencez ici", latest: "Derniers articles", readMore: "Lire l'article", minRead: "min de lecture",
-    metaTitle: "Blog — IA, SEO local et automatisation pour petits commerces",
+    metaTitle: "Blog: IA, SEO local et automatisation pour petits commerces",
     metaDesc: "Des guides clairs sur les agents IA, le SEO local, la vitesse des sites et l'automatisation pour les petits commerces. Concrets, sans jargon.",
+    chat: { them1: "Vous êtes ouverts le dimanche ?", you: "Oui, le dimanche de 9h à 14h. Je vous réserve une table ?", them2: "Pour 4, à 13h." },
   },
   de: {
     home: "Start", blog: "Blog", kicker: "Ideen & Leitfäden",
     title: "Klare Ideen, um gefunden und gebucht zu werden und deine Woche zurückzugewinnen.",
     dek: "Praktische Leitfäden zu KI, lokaler Sichtbarkeit und den Automatisierungen, die ein kleines Geschäft wachsen lassen. Kein Fachjargon, kein Hype.",
     featured: "Fang hier an", latest: "Neueste Artikel", readMore: "Artikel lesen", minRead: "Min. Lesezeit",
-    metaTitle: "Blog — KI, lokales SEO & Automatisierung für kleine Unternehmen",
+    metaTitle: "Blog: KI, lokales SEO & Automatisierung für kleine Unternehmen",
     metaDesc: "Klare Leitfäden zu KI-Agenten, lokalem SEO, Website-Tempo und Automatisierung für kleine lokale Unternehmen. Praktisch, kein Fachjargon.",
+    chat: { them1: "Habt ihr sonntags geöffnet?", you: "Ja, sonntags von 9 bis 14 Uhr. Soll ich einen Tisch reservieren?", them2: "Für 4, um 13 Uhr." },
   },
   it: {
     home: "Home", blog: "Blog", kicker: "Idee e guide",
     title: "Idee chiare per farti trovare, riempire l'agenda e riprenderti la settimana.",
     dek: "Guide pratiche su IA, farsi trovare in zona e le automazioni che fanno crescere una piccola attività. Niente gergo, niente fumo.",
     featured: "Inizia da qui", latest: "Ultimi articoli", readMore: "Leggi l'articolo", minRead: "min di lettura",
-    metaTitle: "Blog — IA, SEO locale e automazione per piccole attività",
+    metaTitle: "Blog: IA, SEO locale e automazione per piccole attività",
     metaDesc: "Guide chiare su agenti IA, SEO locale, velocità dei siti e automazione per le piccole attività locali. Pratiche, senza gergo.",
+    chat: { them1: "Siete aperti la domenica?", you: "Sì, la domenica dalle 9 alle 14. Ti prenoto un tavolo?", them2: "Per 4, all'una." },
   },
 };
 
@@ -102,7 +109,7 @@ export default async function BlogIndex({
   const c = COPY[locale];
   const site = getSite(locale);
 
-  const all = getPosts();
+  const all = getPosts(locale);
   // Lead with the cornerstone guide if it exists, else the newest post.
   const featured =
     all.find((p) => p.slug === "ai-for-small-business-2026-guide") ?? all[0];
@@ -155,7 +162,7 @@ export default async function BlogIndex({
               <div className="bf-body">
                 <span className="blog-cat">
                   <Icon name={featured.categoryIcon} />
-                  {featured.category}
+                  {CAT_LABELS[locale][featured.category]}
                 </span>
                 <span className="blog-cat" style={{ background: "transparent", color: "var(--ink-mute)", paddingLeft: 0 }}>
                   {c.featured}
@@ -171,9 +178,9 @@ export default async function BlogIndex({
                 </Link>
               </div>
               <div className="bf-visual" aria-hidden="true">
-                <div className="bubble them b1">¿Estáis abiertos el domingo? 🙏</div>
-                <div className="bubble you b2">Sí — domingos de 9:00 a 14:00. ¿Te reservo mesa?</div>
-                <div className="bubble them b3">Para 4, a la 1 👌</div>
+                <div className="bubble them b1">{c.chat.them1}</div>
+                <div className="bubble you b2">{c.chat.you}</div>
+                <div className="bubble them b3">{c.chat.them2}</div>
               </div>
             </article>
           </div>
@@ -195,7 +202,7 @@ export default async function BlogIndex({
                 <article key={p.slug} className="post-card reveal">
                   <span className="blog-cat">
                     <Icon name={p.categoryIcon} />
-                    {p.category}
+                    {CAT_LABELS[locale][p.category]}
                   </span>
                   <h3>
                     <Link href={`/${locale}/blog/${p.slug}`}>{p.title}</Link>

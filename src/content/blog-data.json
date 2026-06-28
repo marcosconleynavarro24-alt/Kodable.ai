@@ -120,7 +120,11 @@
         "type": "p",
         "text": "Getting started is smaller than you think. You don't need to learn anything or install anything complicated. The honest first step is just a conversation: we ask what people most often message you about, where those messages land, and how you like to sound. From there we train the agent, you check it talks like you, and it goes to work. You touch no code; the AI does the heavy lifting while you stay the face and the craft. If you've ever winced at a 9pm WhatsApp you only saw the next afternoon, that's the gap we're closing, and it starts with a free 15-minute chat to map your most common questions and see whether an agent earns its keep for your business."
       }
-    ]
+    ],
+    "image": {
+      "credit": "nSeika / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/33542052@N07/8880813114"
+    }
   },
   {
     "slug": "whatsapp-ai-assistant-restaurants",
@@ -182,12 +186,12 @@
       {
         "type": "list",
         "items": [
-          "\"Table for 4 tonight?\" — checks live availability and offers real times.",
-          "\"Terrace or inside?\" — knows your layout and what's free.",
-          "\"Do you have vegan options? Any nut-free dishes?\" — answers from your actual menu, not a guess.",
-          "\"What time do you open on Sundays? Is there parking nearby?\" — the basics, instantly.",
-          "\"Do you do a set menu? What's on it this week?\" — pulls the current one.",
-          "\"We're 12 for a birthday — can you take us?\" — flags large groups, your deposit policy, and takes the deposit if you ask it to."
+          "\"Table for 4 tonight?\", checks live availability and offers real times.",
+          "\"Terrace or inside?\", knows your layout and what's free.",
+          "\"Do you have vegan options? Any nut-free dishes?\", answers from your actual menu, not a guess.",
+          "\"What time do you open on Sundays? Is there parking nearby?\", the basics, instantly.",
+          "\"Do you do a set menu? What's on it this week?\", pulls the current one.",
+          "\"We're 12 for a birthday, can you take us?\", flags large groups, your deposit policy, and takes the deposit if you ask it to."
         ]
       },
       {
@@ -228,7 +232,11 @@
         "type": "p",
         "text": "Done well, a WhatsApp assistant is quietly one of the best things you can do for a busy restaurant: faster than any phone line, awake when you're not, and far cheaper than a missed booking every night. It pairs neatly with being easy to find in the first place, which is what our guide to [showing up in \"near me\" searches](~/blog/local-seo-near-me-2026) is all about. If you'd like to see what this would look like for your restaurant, on your number, in your voice, the easiest start is a free 15-minute chat, and you can read more about how we build them on our [AI agents page](~/services/ai-agents) first."
       }
-    ]
+    ],
+    "image": {
+      "credit": "Tim Sheerman-Chase / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/68932647@N00/28523922512"
+    }
   },
   {
     "slug": "reduce-no-shows-salon-clinic",
@@ -339,14 +347,18 @@
       {
         "type": "stat",
         "value": "~5 min",
-        "label": "respond to a new enquiry within about five minutes and you're far likelier to reach and qualify it than waiting 30+ minutes — the same speed that lets you fill a freed slot before the moment passes",
+        "label": "respond to a new enquiry within about five minutes and you're far likelier to reach and qualify it than waiting 30+ minutes, the same speed that lets you fill a freed slot before the moment passes",
         "source": "the Lead Response Management study (InsideSales / MIT)"
       },
       {
         "type": "p",
         "text": "You don't need to overhaul everything at once. Start with the single biggest win: a friendly 24-hour reminder with a one-tap reschedule. Watch your no-show rate for a few weeks. Then layer on the morning nudge, the waitlist, and deposits where they make sense for your bigger appointments. The lovely thing is that none of this asks anything more of you. No chasing, no awkward phone calls, no nagging. The reminders go out, the rescheduling sorts itself, and the freed slots fill themselves while you get on with the work you're actually good at. If you'd like to see how this would fit your salon or clinic, the best place to begin is a free 15-minute chat, where we'll look at your week, your no-shows, and exactly where the empty chairs are coming from."
       }
-    ]
+    ],
+    "image": {
+      "credit": "Sean MacEntee / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/18090920@N07/12697610163"
+    }
   },
   {
     "slug": "local-seo-near-me-2026",
@@ -472,7 +484,11 @@
         "type": "p",
         "text": "More people now start by asking an AI assistant straight out: \"where's a good vegan restaurant near the cathedral?\" The reassuring part is that the work above is exactly what gets you recommended there too, because these tools lean on the same foundations: an accurate, complete profile, consistent details, strong reviews and a clear website. Tidy up for Google's near-me results and you're tidying up for the AI answers at the same time. None of this is one big project: it's a complete profile, matching details, a steady habit of reviews, and a fast site that turns the tap into a booking. Work through the list and you'll already be ahead of most businesses around you. If you'd rather not wrestle with the technical bits, we're happy to look at where you stand and what's quickest to fix, starting with a [free 15-minute chat](~/contact), no jargon and no pressure."
       }
-    ]
+    ],
+    "image": {
+      "credit": "miss_hg / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/32615508@N02/3047982712"
+    }
   },
   {
     "slug": "website-speed-small-business",
@@ -590,7 +606,11 @@
         "type": "p",
         "text": "If that little test made you wince, take a breath. A slow site is one of the most fixable problems in your whole business. It is not like rebuilding a kitchen. Often it is optimising images, trimming the clutter and moving to better hosting, and the same page suddenly feels noticeably faster. That is exactly the kind of work we do, building [fast, modern websites](~/services/websites) that load before a customer loses patience and make booking effortless, so the impression people get matches the quality of what you actually do. If you're not sure how your site measures up, the easiest next step is a free 15-minute chat. Tell us your website address, we'll take a proper look, and we'll tell you honestly where you stand and what's worth fixing first."
       }
-    ]
+    ],
+    "image": {
+      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
+    }
   },
   {
     "slug": "get-recommended-by-ai-chatgpt",
@@ -714,22 +734,26 @@
         "type": "p",
         "text": "You don't have to do all of this at once, and you certainly don't have to understand the technical side. Start by making your site say, in plain words, what you do and for whom. Tidy up your Google Business Profile. Ask a few happy customers for a review. That alone puts you ahead of most of your street. The rest, the structured data, the speed, the consistent listings, is the kind of quiet groundwork we do for you so you can get back to the actual job. If you're not sure where your site stands today, the easiest next step is a free 15-minute chat: we'll take a quick look, tell you honestly what's helping and what's holding you back, and you can decide what to do with that, even if you never hire us."
       }
-    ]
+    ],
+    "image": {
+      "credit": "flexbox / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/53662163@N06/34995898035"
+    }
   },
   {
     "slug": "small-business-automation-ideas",
     "category": "Automation",
     "categoryIcon": "code",
     "title": "Stop Copy-Pasting Between Apps: 7 Small Business Automation Ideas",
-    "description": "7 small business automation ideas that get your tools talking to each other — booking to calendar, enquiries to one inbox, reminders, reviews and more.",
-    "dek": "Every little manual handoff — retyping a booking, chasing a payment, sending the same follow-up — quietly eats your week. Here are seven automations that hand those hours back.",
+    "description": "7 small business automation ideas that get your tools talking to each other, booking to calendar, enquiries to one inbox, reminders, reviews and more.",
+    "dek": "Every little manual handoff, retyping a booking, chasing a payment, sending the same follow-up, quietly eats your week. Here are seven automations that hand those hours back.",
     "keyword": "small business automation ideas",
     "author": "The Kodable team",
     "datePublished": "2026-04-22",
     "readMinutes": 6,
     "takeaways": [
       "The small manual jobs between your apps add up to a part-time role nobody is paying you for.",
-      "Seven concrete automations — from booking-to-calendar to a weekly summary — cover where most local businesses leak time.",
+      "Seven concrete automations, from booking-to-calendar to a weekly summary, cover where most local businesses leak time.",
       "Off-the-shelf tools cover the basics; a custom tool earns its keep when your workflow is genuinely your own.",
       "Start with the one job that annoys you most this week, not all seven at once."
     ],
@@ -745,7 +769,7 @@
     "body": [
       {
         "type": "p",
-        "text": "Add up the little jobs you do by hand each week. You copy a booking from your inbox into the calendar. You log a payment in a spreadsheet. You send the same \"thanks, see you Tuesday\" message for the tenth time. None of it is hard. None of it takes long on its own. But stitched together across a month, it's a part-time job nobody is paying you for — and it's stealing the hours you'd rather spend on the actual work."
+        "text": "Add up the little jobs you do by hand each week. You copy a booking from your inbox into the calendar. You log a payment in a spreadsheet. You send the same \"thanks, see you Tuesday\" message for the tenth time. None of it is hard. None of it takes long on its own. But stitched together across a month, it's a part-time job nobody is paying you for, and it's stealing the hours you'd rather spend on the actual work."
       },
       {
         "type": "p",
@@ -757,7 +781,7 @@
       },
       {
         "type": "p",
-        "text": "It's not really the five minutes. It's the switching — stopping mid-task to retype something, the risk of a typo in someone's phone number, the booking you meant to add and forgot. Every manual handoff is a chance for something to slip. And the thing most likely to slip is the one that costs you: a reply that comes too late."
+        "text": "It's not really the five minutes. It's the switching, stopping mid-task to retype something, the risk of a typo in someone's phone number, the booking you meant to add and forgot. Every manual handoff is a chance for something to slip. And the thing most likely to slip is the one that costs you: a reply that comes too late."
       },
       {
         "type": "stat",
@@ -767,7 +791,7 @@
       },
       {
         "type": "p",
-        "text": "That number is the whole argument for automation in one line. If an enquiry sits in an inbox you only check at lunch, you've already lost ground to the business down the road that replied in five minutes. Speed isn't about working harder — it's about your tools handing the message to you the moment it lands."
+        "text": "That number is the whole argument for automation in one line. If an enquiry sits in an inbox you only check at lunch, you've already lost ground to the business down the road that replied in five minutes. Speed isn't about working harder, it's about your tools handing the message to you the moment it lands."
       },
       {
         "type": "h2",
@@ -778,19 +802,19 @@
         "steps": [
           {
             "title": "Booking straight into your calendar",
-            "body": "The pain: someone books, and you retype the date, time and name into your calendar — or worse, you don't, and you double-book. The fix: the moment a booking comes in, it appears in your calendar with the details filled in. Rough time saved: a few minutes per booking, plus the no double-booking peace of mind."
+            "body": "The pain: someone books, and you retype the date, time and name into your calendar, or worse, you don't, and you double-book. The fix: the moment a booking comes in, it appears in your calendar with the details filled in. Rough time saved: a few minutes per booking, plus the no double-booking peace of mind."
           },
           {
             "title": "Every enquiry into one place you'll actually see",
-            "body": "The pain: messages arrive by web form, WhatsApp, Instagram and email, and you check each one when you remember. The fix: every new enquiry lands in a single inbox or pings your phone, so nothing waits in a corner you forgot to look in. Rough time saved: the lost enquiries you never knew you missed — for many owners, the fix that quietly earns the most."
+            "body": "The pain: messages arrive by web form, WhatsApp, Instagram and email, and you check each one when you remember. The fix: every new enquiry lands in a single inbox or pings your phone, so nothing waits in a corner you forgot to look in. Rough time saved: the lost enquiries you never knew you missed, for many owners, the fix that quietly earns the most."
           },
           {
             "title": "Payment to receipt and reconciliation, no logging in",
-            "body": "The pain: a deposit lands, and later you log into the payment app, find it, match it to the booking and note it down. The fix: the payment automatically generates a receipt for the customer and records itself against the right job. Rough time saved: count the minutes that little dance takes you, multiply by the payments you handle in a week — that's your figure, and a much calmer end of month on top."
+            "body": "The pain: a deposit lands, and later you log into the payment app, find it, match it to the booking and note it down. The fix: the payment automatically generates a receipt for the customer and records itself against the right job. Rough time saved: count the minutes that little dance takes you, multiply by the payments you handle in a week, that's your figure, and a much calmer end of month on top."
           },
           {
             "title": "Appointment reminders with a reschedule link",
-            "body": "The pain: you text reminders by hand, and people still forget — empty chairs you can't refill. The fix: an automatic reminder a day before, with a one-tap link to reschedule rather than ghost you. Rough time saved: the reminders themselves, plus the slots you'd otherwise lose. For most appointment-led businesses, this is one of the biggest levers on no-shows."
+            "body": "The pain: you text reminders by hand, and people still forget, empty chairs you can't refill. The fix: an automatic reminder a day before, with a one-tap link to reschedule rather than ghost you. Rough time saved: the reminders themselves, plus the slots you'd otherwise lose. For most appointment-led businesses, this is one of the biggest levers on no-shows."
           },
           {
             "title": "A review request after the job is done",
@@ -798,22 +822,22 @@
           },
           {
             "title": "Low-stock and supplier alerts",
-            "body": "The pain: you run out of something mid-week and only notice when you reach for it. The fix: when stock drops below a level you set, you get a nudge — or the reorder drafts itself. Rough time saved: the emergency dash to the wholesaler, and the sales you'd lose without the stock."
+            "body": "The pain: you run out of something mid-week and only notice when you reach for it. The fix: when stock drops below a level you set, you get a nudge, or the reorder drafts itself. Rough time saved: the emergency dash to the wholesaler, and the sales you'd lose without the stock."
           },
           {
             "title": "An end-of-day or weekly summary",
-            "body": "The pain: you have no clear picture of what actually came in without digging through four apps. The fix: one tidy summary — bookings, enquiries, payments, reviews — lands in your inbox each evening or every Friday. Rough time saved: the digging, plus the clarity to spot a quiet week before it bites."
+            "body": "The pain: you have no clear picture of what actually came in without digging through four apps. The fix: one tidy summary, bookings, enquiries, payments, reviews, lands in your inbox each evening or every Friday. Rough time saved: the digging, plus the clarity to spot a quiet week before it bites."
           }
         ]
       },
       {
         "type": "callout",
         "title": "A tip from Kodable",
-        "body": "Don't try to switch on all seven at once. Pick the one job that annoyed you most this week — probably the reminders or the missed enquiries — and automate just that. Once it's quietly working in the background, you'll happily reach for the next one."
+        "body": "Don't try to switch on all seven at once. Pick the one job that annoyed you most this week, probably the reminders or the missed enquiries, and automate just that. Once it's quietly working in the background, you'll happily reach for the next one."
       },
       {
         "type": "p",
-        "text": "Reminders and reschedule links deserve special attention because they protect money you've already half-earned. We go deeper on the timing and wording in [how to reduce no-shows at a salon or clinic](~/blog/reduce-no-shows-salon-clinic) — the same approach works for a garage, a barber or a physio."
+        "text": "Reminders and reschedule links deserve special attention because they protect money you've already half-earned. We go deeper on the timing and wording in [how to reduce no-shows at a salon or clinic](~/blog/reduce-no-shows-salon-clinic), the same approach works for a garage, a barber or a physio."
       },
       {
         "type": "h2",
@@ -821,16 +845,16 @@
       },
       {
         "type": "p",
-        "text": "For most of the seven above, off-the-shelf tools connected together — the \"glue\" approach — will do the job nicely and cheaply. The trouble starts when your workflow has a quirk the standard tools can't quite handle: a pricing rule that's yours alone, a booking flow with three steps no template expects, or data scattered across systems that refuse to speak the same language."
+        "text": "For most of the seven above, off-the-shelf tools connected together, the \"glue\" approach, will do the job nicely and cheaply. The trouble starts when your workflow has a quirk the standard tools can't quite handle: a pricing rule that's yours alone, a booking flow with three steps no template expects, or data scattered across systems that refuse to speak the same language."
       },
       {
         "type": "quote",
-        "text": "Glue works until your business stops looking like everyone else's — and good local businesses rarely look like everyone else's.",
+        "text": "Glue works until your business stops looking like everyone else's, and good local businesses rarely look like everyone else's.",
         "cite": "the Kodable team"
       },
       {
         "type": "p",
-        "text": "That's the point where a tool built around your actual process beats a stack of plugins held together with hope. We cover how to tell the difference in [custom software versus off-the-shelf](~/blog/custom-software-vs-off-the-shelf), so you spend on the bespoke build only where it genuinely earns its keep — and use the cheap, ready-made route everywhere else."
+        "text": "That's the point where a tool built around your actual process beats a stack of plugins held together with hope. We cover how to tell the difference in [custom software versus off-the-shelf](~/blog/custom-software-vs-off-the-shelf), so you spend on the bespoke build only where it genuinely earns its keep, and use the cheap, ready-made route everywhere else."
       },
       {
         "type": "h2",
@@ -840,16 +864,20 @@
         "type": "list",
         "items": [
           "Write down the three jobs you do by hand most often. Those are your first three automations.",
-          "Add up roughly what each one costs you — minutes per week times your hourly worth, or the value of one missed enquiry.",
+          "Add up roughly what each one costs you, minutes per week times your hourly worth, or the value of one missed enquiry.",
           "Start with the automation that either saves the most time or plugs the most expensive leak.",
           "Let it run for a fortnight before adding the next, so each one settles into your day."
         ]
       },
       {
         "type": "p",
-        "text": "You don't need to understand the wiring, and you certainly don't need to write any code. The whole idea is that your tools do the dull handoffs while you get on with the work you're actually good at. If you'd like a hand spotting which of these would save you the most, take a look at [what we do with automations](~/services/automations) — and the easiest first step is a free 15-minute chat where we map out your weekly handoffs together and pick the one worth automating first."
+        "text": "You don't need to understand the wiring, and you certainly don't need to write any code. The whole idea is that your tools do the dull handoffs while you get on with the work you're actually good at. If you'd like a hand spotting which of these would save you the most, take a look at [what we do with automations](~/services/automations), and the easiest first step is a free 15-minute chat where we map out your weekly handoffs together and pick the one worth automating first."
       }
-    ]
+    ],
+    "image": {
+      "credit": "homethods / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/146625745@N08/32251770783"
+    }
   },
   {
     "slug": "custom-software-vs-off-the-shelf",
@@ -977,7 +1005,11 @@
         "type": "p",
         "text": "So that's the honest version. Stick with off-the-shelf while it fits, and don't let anyone talk you out of a good, cheap app that does the job. Speed matters too, because a clunky custom tool helps no one. The same care that goes into a [fast-loading website](~/services/websites) belongs in any tool your team or customers touch. But when you're paying a daily tax in workarounds, a small [custom tool built around how you really work](~/services/custom-tools) can pay for itself faster than you'd expect. If you're not sure which side of the line you're on, that's exactly the kind of thing worth talking through. A free 15-minute chat is usually enough to point you the right way, with no obligation and no jargon."
       }
-    ]
+    ],
+    "image": {
+      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
+    }
   },
   {
     "slug": "ai-for-small-business-2026-guide",
@@ -1102,21 +1134,25 @@
         "type": "p",
         "text": "A fair word on cost and privacy too. Good tools should save you more than they cost, in time and in bookings won, or they're not worth keeping. Customer data should be handled carefully and kept to what's genuinely needed. And a human, you, should always be able to step in. If all of this still feels like a lot, that's exactly why we keep the first step tiny. The simplest way to find your biggest leak is to talk it through with someone who's plugged a hundred of them, and a free 15-minute chat, no jargon and no obligation, is usually enough to see clearly where AI would actually help your business, and where it honestly wouldn't."
       }
-    ]
+    ],
+    "image": {
+      "credit": "homethods / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/146625745@N08/33067431515"
+    }
   },
   {
     "slug": "cost-of-missed-calls",
     "category": "AI Strategy",
     "categoryIcon": "spark",
     "title": "The Real Cost of Missed Calls for a Small Business",
-    "description": "Work out the true cost of missed calls for your small business with a simple sum using your own numbers — then see the cheapest ways to plug the leak.",
-    "dek": "Every unanswered call or unread message is an average job walking next door. Here's a transparent way to put a yearly figure on it — using your numbers, not ours.",
+    "description": "Work out the true cost of missed calls for your small business with a simple sum using your own numbers, then see the cheapest ways to plug the leak.",
+    "dek": "Every unanswered call or unread message is an average job walking next door. Here's a transparent way to put a yearly figure on it, using your numbers, not ours.",
     "keyword": "cost of missed calls small business",
     "author": "The Kodable team",
     "datePublished": "2026-05-27",
     "readMinutes": 6,
     "takeaways": [
-      "A missed enquiry isn't zero — it's the value of an average job going to a competitor instead.",
+      "A missed enquiry isn't zero, it's the value of an average job going to a competitor instead.",
       "The sum is simple: enquiries missed per week × your close rate × average job value × 52.",
       "Most callers don't leave a voicemail or wait. They just ring the next business on Google.",
       "The cheapest fix is an instant reply; the better one is an assistant that actually handles the enquiry."
@@ -1133,11 +1169,11 @@
     "body": [
       {
         "type": "p",
-        "text": "Here's an uncomfortable thought. The phone rings while you're elbow-deep in a job, serving a table, or fast asleep at 11pm. It rings out. To you, that feels like nothing happened. But the person on the other end had money in their hand and a problem to solve — and they've just moved on to the next name on the list."
+        "text": "Here's an uncomfortable thought. The phone rings while you're elbow-deep in a job, serving a table, or fast asleep at 11pm. It rings out. To you, that feels like nothing happened. But the person on the other end had money in their hand and a problem to solve, and they've just moved on to the next name on the list."
       },
       {
         "type": "p",
-        "text": "Most owners never add this up. They assume a missed call is a zero. It isn't. The real **cost of missed calls for a small business** is the value of an average job, multiplied by how often it happens, multiplied by 52 weeks. Once you actually do that sum, the number tends to land like a cold glass of water. Let's do it together — honestly, with your figures."
+        "text": "Most owners never add this up. They assume a missed call is a zero. It isn't. The real **cost of missed calls for a small business** is the value of an average job, multiplied by how often it happens, multiplied by 52 weeks. Once you actually do that sum, the number tends to land like a cold glass of water. Let's do it together, honestly, with your figures."
       },
       {
         "type": "h2",
@@ -1145,7 +1181,7 @@
       },
       {
         "type": "p",
-        "text": "You don't need a spreadsheet or a consultant. You need four numbers you already know in your gut: how many enquiries you miss in a normal week (calls that ring out, messages you see hours later, the WhatsApp at 9pm you reply to at 9am); your close rate (of the people you do reach, how many turn into paying work — one in three is common); your average job value (what a typical customer is worth when they say yes); and 52, because we want the yearly picture, not a single quiet Tuesday. Now multiply: **enquiries missed per week × close rate × average job value × 52**. No clever maths, no inflated industry averages, just your own business reflected back at you."
+        "text": "You don't need a spreadsheet or a consultant. You need four numbers you already know in your gut: how many enquiries you miss in a normal week (calls that ring out, messages you see hours later, the WhatsApp at 9pm you reply to at 9am); your close rate (of the people you do reach, how many turn into paying work, one in three is common); your average job value (what a typical customer is worth when they say yes); and 52, because we want the yearly picture, not a single quiet Tuesday. Now multiply: **enquiries missed per week × close rate × average job value × 52**. No clever maths, no inflated industry averages, just your own business reflected back at you."
       },
       {
         "type": "h2",
@@ -1153,7 +1189,7 @@
       },
       {
         "type": "p",
-        "text": "Say you miss 6 enquiries in an average week. That's not a disaster of a business — that's a normal week for a busy plumber, a popular cafe, or a salon mid-appointment. You close one in three of the people you actually reach, and your average job is worth €90."
+        "text": "Say you miss 6 enquiries in an average week. That's not a disaster of a business, that's a normal week for a busy plumber, a popular cafe, or a salon mid-appointment. You close one in three of the people you actually reach, and your average job is worth €90."
       },
       {
         "type": "steps",
@@ -1174,7 +1210,7 @@
       },
       {
         "type": "p",
-        "text": "Roughly nine and a half thousand euros. From a leak you'd have sworn was nothing. And we were gentle with the figures — many owners miss more than six a week, and plenty have an average job worth far more than €90. Run your real numbers before you decide this doesn't apply to you."
+        "text": "Roughly nine and a half thousand euros. From a leak you'd have sworn was nothing. And we were gentle with the figures, many owners miss more than six a week, and plenty have an average job worth far more than €90. Run your real numbers before you decide this doesn't apply to you."
       },
       {
         "type": "quote",
@@ -1183,11 +1219,11 @@
       },
       {
         "type": "h2",
-        "text": "Why do calls get missed — and why callers don't wait"
+        "text": "Why do calls get missed, and why callers don't wait"
       },
       {
         "type": "p",
-        "text": "Not because you're careless. Because you're working. You were serving someone in front of you, who comes first. It was after hours, or the one evening you switched off. You were on a job with your hands full and your phone in the van. Or you were asleep, because you're a human being and not a 24-hour call centre. None of that is a failing — but the customer doesn't see your reason. They just see silence, and silence has a cost. People searching for a local business right now are ready to act, and they're impatient. They rarely leave a voicemail, and rarely try twice. They tap back to Google and ring the next result — your competitor, two streets over."
+        "text": "Not because you're careless. Because you're working. You were serving someone in front of you, who comes first. It was after hours, or the one evening you switched off. You were on a job with your hands full and your phone in the van. Or you were asleep, because you're a human being and not a 24-hour call centre. None of that is a failing, but the customer doesn't see your reason. They just see silence, and silence has a cost. People searching for a local business right now are ready to act, and they're impatient. They rarely leave a voicemail, and rarely try twice. They tap back to Google and ring the next result, your competitor, two streets over."
       },
       {
         "type": "p",
@@ -1208,27 +1244,31 @@
         "steps": [
           {
             "title": "An instant auto-reply",
-            "body": "The bare minimum, and nearly free. A missed call or message triggers an immediate text or WhatsApp: 'Thanks for getting in touch — we'll be right back with you.' It buys you time and tells the caller they've been heard, so they're far less likely to ring the next name. It doesn't book the job, but it stops the bleeding."
+            "body": "The bare minimum, and nearly free. A missed call or message triggers an immediate text or WhatsApp: 'Thanks for getting in touch, we'll be right back with you.' It buys you time and tells the caller they've been heard, so they're far less likely to ring the next name. It doesn't book the job, but it stops the bleeding."
           },
           {
             "title": "A trained assistant that actually handles it",
-            "body": "The real fix. Instead of just saying 'we'll get back to you', an AI assistant answers the question, gives the price range, checks availability and books the slot — in your voice, around the clock. The enquiry that came in at midnight is a confirmed booking by the time you wake up, not a missed call you'll never know about."
+            "body": "The real fix. Instead of just saying 'we'll get back to you', an AI assistant answers the question, gives the price range, checks availability and books the slot, in your voice, around the clock. The enquiry that came in at midnight is a confirmed booking by the time you wake up, not a missed call you'll never know about."
           }
         ]
       },
       {
         "type": "p",
-        "text": "If most of your missed enquiries land after you've closed, an assistant that captures and books [after-hours bookings while you sleep](~/blog/ai-agents-after-hours-bookings) is where the money is hiding. And if your customers reach you mainly on WhatsApp — as they increasingly do — a [WhatsApp assistant that replies instantly and takes bookings](~/blog/whatsapp-ai-assistant-restaurants) catches the enquiries a missed call never would."
+        "text": "If most of your missed enquiries land after you've closed, an assistant that captures and books [after-hours bookings while you sleep](~/blog/ai-agents-after-hours-bookings) is where the money is hiding. And if your customers reach you mainly on WhatsApp, as they increasingly do, a [WhatsApp assistant that replies instantly and takes bookings](~/blog/whatsapp-ai-assistant-restaurants) catches the enquiries a missed call never would."
       },
       {
         "type": "callout",
         "title": "A quick tip from Kodable",
-        "body": "Before you change anything, keep a tally for one week. Every call you don't reach and every message you reply to late — just a tick on a notepad by the till or in the van. Multiply it out at the weekend. That single honest number tends to decide the matter faster than any sales pitch ever could."
+        "body": "Before you change anything, keep a tally for one week. Every call you don't reach and every message you reply to late, just a tick on a notepad by the till or in the van. Multiply it out at the weekend. That single honest number tends to decide the matter faster than any sales pitch ever could."
       },
       {
         "type": "p",
-        "text": "The reassuring bit: you don't touch any code, and you don't need to understand how it works. The assistant sounds like you, not a generic robot, and it picks up the enquiries you simply can't — when your hands are full or your eyes are shut. The work it saves usually pays for itself against the very first jobs it rescues. If you've done the sum and the yearly figure stung a little, that sting is your business telling you where the easy money is, and the fix is smaller than the leak. The best place to start is a free 15-minute chat — we'll work through your real numbers together and show you exactly what an [assistant built for your business](~/services/ai-agents) would catch."
+        "text": "The reassuring bit: you don't touch any code, and you don't need to understand how it works. The assistant sounds like you, not a generic robot, and it picks up the enquiries you simply can't, when your hands are full or your eyes are shut. The work it saves usually pays for itself against the very first jobs it rescues. If you've done the sum and the yearly figure stung a little, that sting is your business telling you where the easy money is, and the fix is smaller than the leak. The best place to start is a free 15-minute chat, we'll work through your real numbers together and show you exactly what an [assistant built for your business](~/services/ai-agents) would catch."
       }
-    ]
+    ],
+    "image": {
+      "credit": "CoreForce / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/58441544@N00/413042340"
+    }
   }
 ]

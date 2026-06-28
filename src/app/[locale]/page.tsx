@@ -104,7 +104,6 @@ export default async function HomePage({
                 <span className="ti" aria-hidden="true">
                   <Icon name={c.icon === "star" ? "star" : c.icon === "clock" ? "clock" : "chat"} />
                 </span>
-                {c.stars ? <div className="trust-stars" aria-hidden="true">★★★★★</div> : null}
                 <h3>{c.title}</h3>
                 <p>{c.body}</p>
               </div>

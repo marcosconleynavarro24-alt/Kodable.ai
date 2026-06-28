@@ -289,7 +289,7 @@ const en: SiteContent = {
     title: "Real people who answer.",
     lead: "No faceless agency, no call centre. A small team that knows the market, and actually answers.",
     cards: [
-      { icon: "star", stars: true, title: "5-star rated", body: "Local businesses rate the work five stars: for results and for being easy to deal with." },
+      { icon: "star", title: "5-star rated", body: "Local businesses rate the work five stars: for results and for being easy to deal with." },
       { icon: "chat", title: "One tap to reach you", body: "WhatsApp and click-to-call built in, so a curious customer becomes a real one in seconds." },
       { icon: "clock", title: "Always on for your customers", body: "An AI assistant answers in seconds, day or night, so you never miss the late enquiry." },
     ],
@@ -487,7 +487,7 @@ const es: SiteContent = {
     title: "Personas reales que responden.",
     lead: "Sin agencia impersonal, sin call center. Un pequeño equipo que conoce el mercado y responde de verdad.",
     cards: [
-      { icon: "star", stars: true, title: "5 estrellas", body: "Los negocios locales valoran el trabajo con cinco estrellas: por resultados y por ser fácil de tratar." },
+      { icon: "star", title: "5 estrellas", body: "Los negocios locales valoran el trabajo con cinco estrellas: por resultados y por ser fácil de tratar." },
       { icon: "chat", title: "Te contactan con un toque", body: "WhatsApp y llamada directa integrados, para que un cliente curioso se convierta en real en segundos." },
       { icon: "clock", title: "Siempre disponible para tus clientes", body: "Un asistente de IA responde en segundos, de día o de noche, para que no pierdas la consulta de última hora." },
     ],
@@ -685,7 +685,7 @@ const fr: SiteContent = {
     title: "De vraies personnes qui répondent.",
     lead: "Pas d'agence sans visage, pas de centre d'appels. Une petite équipe qui connaît le marché et qui répond vraiment.",
     cards: [
-      { icon: "star", stars: true, title: "Noté 5 étoiles", body: "Les commerces de proximité notent notre travail cinq étoiles : pour les résultats et pour la facilité du contact." },
+      { icon: "star", title: "Noté 5 étoiles", body: "Les commerces de proximité notent notre travail cinq étoiles : pour les résultats et pour la facilité du contact." },
       { icon: "chat", title: "Un geste pour vous joindre", body: "WhatsApp et appel direct intégrés, pour qu'un client curieux devienne un vrai client en quelques secondes." },
       { icon: "clock", title: "Toujours disponible pour vos clients", body: "Un assistant IA répond en quelques secondes, de jour comme de nuit, pour que vous ne ratiez jamais une demande tardive." },
     ],
@@ -883,7 +883,7 @@ const de: SiteContent = {
     title: "Echte Menschen, die antworten.",
     lead: "Keine gesichtslose Agentur, kein Callcenter. Ein kleines Team, das den Markt kennt und tatsächlich antwortet.",
     cards: [
-      { icon: "star", stars: true, title: "5 Sterne", body: "Lokale Unternehmen bewerten die Arbeit mit fünf Sternen: für die Ergebnisse und weil wir unkompliziert sind." },
+      { icon: "star", title: "5 Sterne", body: "Lokale Unternehmen bewerten die Arbeit mit fünf Sternen: für die Ergebnisse und weil wir unkompliziert sind." },
       { icon: "chat", title: "Ein Tipp, um dich zu erreichen", body: "WhatsApp und Klick-zum-Anrufen direkt eingebaut, sodass ein neugieriger Kunde in Sekunden zum echten wird." },
       { icon: "clock", title: "Immer da für deine Kunden", body: "Ein KI-Assistent antwortet in Sekunden, Tag und Nacht, damit dir keine späte Anfrage entgeht." },
     ],
@@ -1081,7 +1081,7 @@ const it: SiteContent = {
     title: "Persone vere che rispondono.",
     lead: "Niente agenzia impersonale, niente call center. Un piccolo team che conosce il mercato e risponde davvero.",
     cards: [
-      { icon: "star", stars: true, title: "Valutati 5 stelle", body: "Le attività locali valutano il lavoro con cinque stelle: per i risultati e per la facilità di rapporto." },
+      { icon: "star", title: "Valutati 5 stelle", body: "Le attività locali valutano il lavoro con cinque stelle: per i risultati e per la facilità di rapporto." },
       { icon: "chat", title: "Ti raggiungono con un tocco", body: "WhatsApp e chiamata diretta integrati, così un cliente curioso diventa reale in pochi secondi." },
       { icon: "clock", title: "Sempre attivo per i tuoi clienti", body: "Un assistente IA risponde in pochi secondi, di giorno o di notte, così non perdi mai la richiesta dell'ultimo minuto." },
     ],
