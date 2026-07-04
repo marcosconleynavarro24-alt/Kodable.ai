@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
+import { hreflangs } from "@/lib/hreflang";
 
 export async function generateMetadata({
   params,
@@ -18,7 +19,7 @@ export async function generateMetadata({
     description: es
       ? "Los términos en lenguaje sencillo para trabajar con Kodable.ai: qué incluyen los servicios, cómo funcionan los presupuestos y proyectos, los planes de cuidado, la propiedad del trabajo y la ley aplicable."
       : "The plain-language terms for working with Kodable.ai: what the services cover, how quotes and projects work, care plans, who owns the work and which law applies.",
-    alternates: { canonical: `/${locale}/terms` },
+    alternates: { canonical: `/${locale}/terms`, languages: hreflangs("/terms") },
   };
 }
 

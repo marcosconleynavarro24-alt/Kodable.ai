@@ -6,8 +6,9 @@ import { getSite } from "@/content/site";
 import { getPosts, type BlogPost } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { CAT_LABELS } from "@/content/blog-cats";
+import { hreflangs } from "@/lib/hreflang";
 
 const COPY: Record<Locale, {
   home: string; blog: string; kicker: string; title: string; dek: string;
@@ -73,7 +74,7 @@ export async function generateMetadata({
   return {
     title: c.metaTitle,
     description: c.metaDesc,
-    alternates: { canonical: `/${locale}/blog` },
+    alternates: { canonical: `/${locale}/blog`, languages: hreflangs("/blog") },
   };
 }
 
@@ -112,7 +113,7 @@ export default async function BlogIndex({
   const all = getPosts(locale);
   // Lead with the cornerstone guide if it exists, else the newest post.
   const featured =
-    all.find((p) => p.slug === "ai-for-small-business-2026-guide") ?? all[0];
+    all.find((p) => p.slug === "kit-digital-2026") ?? all[0];
   const rest = featured ? all.filter((p) => p.slug !== featured.slug) : [];
 
   const jsonLd = jsonLdDoc(
@@ -177,11 +178,6 @@ export default async function BlogIndex({
                   <Icon name="arrow" />
                 </Link>
               </div>
-              <div className="bf-visual" aria-hidden="true">
-                <div className="bubble them b1">{c.chat.them1}</div>
-                <div className="bubble you b2">{c.chat.you}</div>
-                <div className="bubble them b3">{c.chat.them2}</div>
-              </div>
             </article>
           </div>
         </section>
@@ -230,7 +226,7 @@ export default async function BlogIndex({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

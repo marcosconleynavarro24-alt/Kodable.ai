@@ -6,7 +6,8 @@ import { getSite } from "@/content/site";
 import { getFaq } from "@/content/faq";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
+import { hreflangs } from "@/lib/hreflang";
 
 export async function generateMetadata({
   params,
@@ -45,7 +46,7 @@ export async function generateMetadata({
   return {
     title: meta[key].title,
     description: meta[key].description,
-    alternates: { canonical: `/${locale}/faq` },
+    alternates: { canonical: `/${locale}/faq`, languages: hreflangs("/faq") },
   };
 }
 
@@ -162,7 +163,7 @@ export default async function FaqPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

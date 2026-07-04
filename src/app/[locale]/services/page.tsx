@@ -7,7 +7,8 @@ import { getServices } from "@/content/services";
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
+import { hreflangs } from "@/lib/hreflang";
 
 export async function generateMetadata({
   params,
@@ -46,7 +47,7 @@ export async function generateMetadata({
   return {
     title: meta[key].title,
     description: meta[key].description,
-    alternates: { canonical: `/${locale}/services` },
+    alternates: { canonical: `/${locale}/services`, languages: hreflangs("/services") },
   };
 }
 
@@ -151,7 +152,7 @@ export default async function ServicesPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

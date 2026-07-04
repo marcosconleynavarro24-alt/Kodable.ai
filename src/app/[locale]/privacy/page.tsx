@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
+import { hreflangs } from "@/lib/hreflang";
 
 export async function generateMetadata({
   params,
@@ -16,7 +17,7 @@ export async function generateMetadata({
     description: es
       ? "Cómo recogemos, usamos y protegemos tus datos cuando nos escribes a través de esta web. Conforme al RGPD y la LOPDGDD."
       : "How we collect, use and protect your data when you get in touch through this site. GDPR and Spanish data law aware.",
-    alternates: { canonical: `/${locale}/privacy` },
+    alternates: { canonical: `/${locale}/privacy`, languages: hreflangs("/privacy") },
   };
 }
 

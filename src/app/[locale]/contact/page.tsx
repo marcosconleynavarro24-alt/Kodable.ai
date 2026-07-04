@@ -5,7 +5,8 @@ import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
 import Icon from "@/components/Icon";
 import ContactForm from "@/components/ContactForm";
-import { breadcrumbList, jsonLdDoc } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
+import { hreflangs } from "@/lib/hreflang";
 
 export async function generateMetadata({
   params,
@@ -44,7 +45,7 @@ export async function generateMetadata({
   return {
     title: meta[key].title,
     description: meta[key].description,
-    alternates: { canonical: `/${locale}/contact` },
+    alternates: { canonical: `/${locale}/contact`, languages: hreflangs("/contact") },
   };
 }
 
@@ -161,7 +162,7 @@ export default async function ContactPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

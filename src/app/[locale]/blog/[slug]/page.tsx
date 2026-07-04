@@ -7,8 +7,9 @@ import { getSite } from "@/content/site";
 import { getPost, getRelated, blogSlugs, type BlogPost, type BlogBlock } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { CAT_LABELS } from "@/content/blog-cats";
+import { hreflangs } from "@/lib/hreflang";
 
 const COPY: Record<Locale, {
   home: string; blog: string; allArticles: string; takeaways: string;
@@ -60,10 +61,15 @@ export async function generateMetadata({
   const post = getPost(locale, slug);
   if (!post) return {};
   // Slugs are identical across locales, so every locale is a valid alternate.
-  const languages: Record<string, string> = Object.fromEntries(
-    locales.map((l) => [localeHrefLang[l], `/${l}/blog/${post.slug}`]),
-  );
-  languages["x-default"] = `/en/blog/${post.slug}`;
+  const languages = hreflangs(`/blog/${post.slug}`);
+  // Social-card image: the hero photo if a post.image is set, otherwise an
+  // explicit per-post ogImage file. Lets a post lead with an inline figure (e.g.
+  // the EU emblem) yet still render a rich link-preview card on X / social.
+  const ogImg = post.image
+    ? `${SITE_URL}/blog/${post.slug}.jpg`
+    : post.ogImage
+      ? `${SITE_URL}/blog/${post.ogImage}`
+      : null;
   return {
     title: post.title,
     description: post.description,
@@ -75,10 +81,18 @@ export async function generateMetadata({
       url: `${SITE_URL}/${locale}/blog/${post.slug}`,
       publishedTime: post.datePublished,
       authors: [post.author],
-      ...(post.image && {
-        images: [{ url: `${SITE_URL}/blog/${post.slug}.jpg`, width: 1024, alt: post.title }],
+      ...(ogImg && {
+        images: [{ url: ogImg, width: 1200, height: 675, alt: post.title }],
       }),
     },
+    ...(ogImg && {
+      twitter: {
+        card: "summary_large_image" as const,
+        title: post.title,
+        description: post.description,
+        images: [ogImg],
+      },
+    }),
   };
 }
 
@@ -200,6 +214,14 @@ function Block({
           <p>{renderInline(block.text, locale)}</p>
           {block.cite ? <cite>{block.cite}</cite> : null}
         </blockquote>
+      );
+    case "figure":
+      return (
+        <figure className="blog-figure">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={block.src} alt={block.alt} loading="lazy" decoding="async" />
+          {block.caption ? <figcaption>{renderInline(block.caption, locale)}</figcaption> : null}
+        </figure>
       );
     case "cta":
       return (
@@ -406,7 +428,7 @@ export default async function BlogPostPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

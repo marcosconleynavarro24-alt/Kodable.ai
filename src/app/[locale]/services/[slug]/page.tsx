@@ -6,8 +6,10 @@ import { getSite } from "@/content/site";
 import { getServices, getService, serviceSlugs } from "@/content/services";
 import Icon from "@/components/Icon";
 import ServiceCard from "@/components/ServiceCard";
+import Pricing from "@/components/Pricing";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc, SITE_URL } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
+import { hreflangs } from "@/lib/hreflang";
 
 // Pre-render every service detail page for both locales.
 export async function generateStaticParams() {
@@ -33,7 +35,10 @@ export async function generateMetadata({
   return {
     title: `${service.title} ${suffix[locale]}`,
     description: service.tagline,
-    alternates: { canonical: `/${locale}/services/${service.slug}` },
+    alternates: {
+      canonical: `/${locale}/services/${service.slug}`,
+      languages: hreflangs(`/services/${service.slug}`),
+    },
   };
 }
 
@@ -172,20 +177,8 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* UNDER THE HOOD */}
-      <section className="sec-tight sec-warm">
-        <div className="wrap-narrow">
-          <div className="prose reveal">
-            <h3>{copy.underTheHood}</h3>
-            <p>{copy.underNote}</p>
-            <ul>
-              {service.underTheHood.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
+      {/* PRICING (replaces "Under the hood") */}
+      <Pricing locale={locale} slug={service.slug} />
 
       {/* OTHER SERVICES */}
       <section className="sec">
@@ -210,7 +203,7 @@ export default async function ServiceDetailPage({
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
       />
     </>
   );

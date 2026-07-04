@@ -10,6 +10,7 @@ import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import ConversionTracker from "@/components/ConversionTracker";
 import { Analytics } from "@vercel/analytics/next";
+import { jsonLdHtml } from "@/lib/jsonld";
 
 const hanken = Hanken_Grotesk({
   subsets: ["latin"],
@@ -76,7 +77,10 @@ export async function generateMetadata({
       canonical: `/${key}`,
       languages: {
         ...Object.fromEntries(locales.map((l) => [l, `/${l}`])),
-        "x-default": "/en",
+        // Matches the sitemap: the homepage cluster's x-default is the bare
+        // locale-redirecting root, not /en. Conflicting x-defaults between
+        // sitemap and <head> weaken the hreflang cluster.
+        "x-default": "/",
       },
     },
     openGraph: {
@@ -185,7 +189,7 @@ export default async function LocaleLayout({
         <Analytics />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: jsonLdHtml(jsonLd) }}
         />
       </body>
     </html>
