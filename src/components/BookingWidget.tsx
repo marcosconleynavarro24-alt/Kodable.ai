@@ -134,7 +134,8 @@ export default function BookingWidget({
       {avail && day ? (
         <>
           <div className="b-label">{copy.chooseDay}</div>
-          <div className="days" role="tablist" aria-label={copy.chooseDay}>
+          {/* role=group, not tablist: children are aria-pressed toggle buttons, not tabs */}
+          <div className="days" role="group" aria-label={copy.chooseDay}>
             {avail.days.map((d, i) => (
               <button
                 key={d.date}

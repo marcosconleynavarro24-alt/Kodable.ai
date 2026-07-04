@@ -248,7 +248,10 @@ h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0
 }
 .bubble.them { background: var(--bubble-them); color: var(--ink-soft); border-bottom-left-radius: 6px; align-self: flex-start; }
 .bubble.you { background: var(--bubble-you); color: #fff; border-bottom-right-radius: 6px; align-self: flex-end; }
-.bubble .time { display: block; font-size: .7rem; opacity: .65; margin-top: 4px; }
+/* explicit colors, no opacity: .65 failed WCAG contrast on both bubble backgrounds */
+.bubble .time { display: block; font-size: .7rem; margin-top: 4px; }
+.bubble.them .time { color: var(--ink-mute); }
+.bubble.you .time { color: #fff; }
 .bubble.them.b1 { animation-delay: .1s; }
 .bubble.you.b2 { animation-delay: .35s; }
 .bubble.them.b3 { animation-delay: .6s; }
@@ -344,6 +347,16 @@ h2.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -
 .svc li { display: flex; gap: 11px; align-items: flex-start; font-size: .98rem; color: var(--ink-soft); }
 .svc li svg { width: 19px; height: 19px; color: var(--accent); flex: none; margin-top: 2px; }
 .svc .btn { margin-top: auto; align-self: flex-start; }
+.svc-foot { margin-top: auto; display: flex; flex-direction: column; align-items: flex-start; gap: 13px; }
+.svc-foot .btn { margin-top: 0; }
+.svc-price-link {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--font-display); font-weight: 700; font-size: .92rem;
+  color: var(--accent-deep);
+}
+.svc-price-link svg { width: 16px; height: 16px; transition: transform .25s var(--ease); }
+.svc-price-link:hover { color: var(--accent-ink); }
+.svc-price-link:hover svg { transform: translateX(3px); }
 
 /* ---------- "is this you" ---------- */
 .you-grid { display: grid; gap: 18px; }
@@ -436,6 +449,9 @@ button.slot.taken { cursor: not-allowed; }
 .price li svg { width: 18px; height: 18px; color: var(--accent); flex: none; margin-top: 2px; }
 .price .btn { margin-top: auto; width: 100%; justify-content: center; }
 .price-foot { margin-top: 22px; text-align: center; color: var(--ink-mute); font-size: .92rem; }
+.price-disclaimer { margin-top: clamp(34px, 4vw, 52px); max-width: 60ch; margin-inline: auto; }
+.price-disclaimer a { color: var(--accent-deep); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+.price-disclaimer a:hover { color: var(--accent-ink); }
 
 /* ---------- trust ---------- */
 .trust-grid { display: grid; gap: 18px; }
@@ -533,7 +549,7 @@ button.slot.taken { cursor: not-allowed; }
 @media (min-width: 760px) { .footer-top { grid-template-columns: 1.4fr 1fr 1fr; } }
 .footer .brand { margin-bottom: 12px; }
 .footer p.fdesc { color: var(--ink-mute); font-size: .95rem; max-width: 34ch; }
-.footer h4 { font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-mute); margin-bottom: 14px; }
+.footer h3 { font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-mute); margin-bottom: 14px; }
 .footer-col a { display: block; padding: 6px 0; color: var(--ink-soft); font-size: .96rem; }
 .footer-col a:hover { color: var(--accent-deep); }
 .footer-bottom { display: flex; flex-wrap: wrap; gap: 12px 22px; align-items: center; justify-content: space-between; padding-top: 24px; border-top: 1px solid var(--line); font-size: .88rem; color: var(--ink-mute); }
@@ -674,6 +690,15 @@ button.slot.taken { cursor: not-allowed; }
 }
 .blog-quote p { font-family: var(--font-display); font-weight: 700; color: var(--ink); font-size: clamp(1.2rem, 1rem + 0.8vw, 1.55rem); letter-spacing: -0.02em; line-height: 1.35; }
 .blog-quote cite { display: block; font-style: normal; color: var(--ink-mute); font-size: .92rem; margin-top: 10px; font-weight: 500; }
+
+/* infographic / image figure (SVG diagrams + raster images) */
+.blog-figure { margin: 10px 0; }
+.blog-figure img {
+  width: 100%; height: auto; display: block;
+  border: 1px solid var(--line); border-radius: var(--radius-l);
+  background: var(--card); box-shadow: var(--shadow-s);
+}
+.blog-figure figcaption { color: var(--ink-mute); font-size: .86rem; margin-top: 12px; text-align: center; }
 
 /* "key takeaways" box, pinned near the top */
 .takeaways { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-l); box-shadow: var(--shadow-s); padding: 24px 26px; }

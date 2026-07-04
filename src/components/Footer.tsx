@@ -21,7 +21,8 @@ export default function Footer({
             <p className="fdesc">{footer.desc}</p>
           </div>
           <div className="footer-col">
-            <h4>{footer.exploreTitle}</h4>
+            {/* h3, not h4: page sections end at h2, so h4 broke heading order */}
+            <h3>{footer.exploreTitle}</h3>
             {nav.links.map((l) => (
               <Link key={l.key} href={`/${locale}${l.href}`}>
                 {l.label}
@@ -29,7 +30,7 @@ export default function Footer({
             ))}
           </div>
           <div className="footer-col">
-            <h4>{footer.contactTitle}</h4>
+            <h3>{footer.contactTitle}</h3>
             <a href={contactInfo.whatsappUrl} target="_blank" rel="noopener noreferrer" data-track="whatsapp">
               WhatsApp
             </a>
