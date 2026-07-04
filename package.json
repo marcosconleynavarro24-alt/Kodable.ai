@@ -23,5 +23,9 @@
     "eslint-config-next": "16.2.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "// overrides": "Force-patch the transitive postcss CVE (GHSA-qx2v-qp2m-jg93, XSS via unescaped </style>) without downgrading next; 8.5.x is a non-breaking patch within next's required 8.x range.",
+  "overrides": {
+    "postcss": "^8.5.10"
   }
 }

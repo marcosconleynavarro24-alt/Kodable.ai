@@ -1,1274 +1,259 @@
 [
   {
-    "slug": "ai-agents-after-hours-bookings",
-    "category": "AI Agents",
-    "categoryIcon": "chat",
-    "title": "Why You Lose Bookings After Hours (and How an AI Agent Fixes It)",
-    "description": "Your customers decide at 9pm, but you're closed. Here's how an AI agent for small business bookings answers instantly, books the slot, and sounds like you.",
-    "dek": "Most of your customers decide where to spend their money long after you've gone home. Here's where those quiet evening enquiries actually go, and how a well-trained AI agent keeps them yours.",
-    "keyword": "AI agent for small business bookings",
+    "slug": "kit-digital-2026",
+    "category": "Funding",
+    "categoryIcon": "card",
+    "title": "Kit Digital 2026: The Complete Guide for Spanish Businesses (€3,000–€29,000 in EU Grants)",
+    "description": "A plain-English guide to Spain's Kit Digital 2026 for freelancers and SMEs: what it is, how much you get per segment (€3,000–€29,000), the requirements, and how to apply for the digital voucher.",
+    "dek": "The EU is subsidising the digitalisation of Spanish businesses through the Kit Digital voucher. Here is the plain-English version: how much you get, who qualifies, and how to be ready so you don't miss out.",
+    "keyword": "Kit Digital 2026",
     "author": "The Kodable team",
-    "datePublished": "2026-02-04",
-    "readMinutes": 6,
+    "datePublished": "2026-06-28",
+    "ogImage": "kit-digital-2026.jpg",
+    "readMinutes": 11,
     "takeaways": [
-      "Enquiries arrive when you can't answer: evenings, weekends, and mid-shift while you're serving someone else.",
-      "An unanswered message rarely waits, it just moves to the next business in the search results.",
-      "An AI agent answers instantly in your voice, books the slot, and hands the tricky stuff to you.",
-      "Getting started is small: a 15-minute chat to map your most common questions, not a big tech project."
+      "Kit Digital is an EU grant (NextGenerationEU): it gives you a voucher to digitalise your business, and you never pay it back.",
+      "The amount ranges from €3,000 (freelancers) to €29,000 (companies up to 250 employees), depending on your segment.",
+      "Applying is four steps: register on Acelera Pyme, do the self-assessment test, submit the application, and choose a digitiser.",
+      "In 2026 the programme runs until the funds run out, get ready now, because it is handed out first-come, first-served."
     ],
-    "related": [
-      "whatsapp-ai-assistant-restaurants",
-      "reduce-no-shows-salon-clinic",
-      "cost-of-missed-calls"
-    ],
-    "cta": {
-      "service": "ai-agents",
-      "label": "See how AI agents work"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Here's the uncomfortable truth about a small local business: you're open far fewer hours than your customers are deciding where to spend their money. Someone is sitting on the sofa at 9pm, phone in hand, picking which salon to book, which plumber to call, which restaurant to try on Saturday. Your shutters are down. Their decision isn't."
-      },
-      {
-        "type": "p",
-        "text": "This isn't a story about you doing something wrong. You can't answer the phone while you're cutting hair, plating a dish, or up a ladder. The problem is simpler and more frustrating than that: **the enquiries that matter most often arrive at the exact moments you can't reach them.** An [AI agent for small business bookings](~/services/ai-agents) is built for precisely those moments, the evening message and the mid-shift ping you'd otherwise see hours too late."
-      },
-      {
-        "type": "h2",
-        "text": "When do enquiries actually arrive?"
-      },
-      {
-        "type": "p",
-        "text": "Not at 11am on a quiet Tuesday when you've got a spare minute. They arrive when life lets people think about themselves: after the kids are in bed, on a Sunday afternoon, during a lunch break, or right in the middle of your busiest shift. The worse your timing, the better theirs. And according to Google, most people who search for something nearby on their phone visit a related business within a day, so the window to win them is short."
-      },
-      {
-        "type": "list",
-        "items": [
-          "Evenings and late nights, when people finally sit down and plan their week",
-          "Weekends, when nobody's in the office to pick up the phone",
-          "While you're already serving another customer and physically can't reply",
-          "On a quick mobile search, where they expect an answer in seconds, not next morning"
-        ]
-      },
-      {
-        "type": "stat",
-        "value": "76%",
-        "label": "of people who search for something nearby on their phone visit a related business within a day",
-        "source": "Google (Think with Google)"
-      },
-      {
-        "type": "h2",
-        "text": "What happens to an unanswered WhatsApp, DM or form?"
-      },
-      {
-        "type": "p",
-        "text": "Nothing dramatic. That's the problem. It doesn't bounce, it doesn't complain, it doesn't sit politely in a queue waiting for you. The person just opens the next result and asks them instead. By the time you see the message the next morning, they've often already booked elsewhere, and they were never rude about it. They just moved on. This is where speed quietly decides everything. The Lead Response Management study (InsideSales / MIT) found that businesses replying to a new enquiry within about five minutes are dramatically more likely to actually reach and qualify that lead than those who wait half an hour or more, roughly a hundred times more likely to make contact. You don't lose to a better business. You lose to a faster one. We dug into the same pattern with phone calls in [the real cost of missed calls](~/blog/cost-of-missed-calls)."
-      },
-      {
-        "type": "quote",
-        "text": "You don't usually lose the booking to a better business. You lose it to whoever answered first.",
-        "cite": "the Kodable team"
-      },
-      {
-        "type": "h2",
-        "text": "So what is an AI agent, in plain terms?"
-      },
-      {
-        "type": "p",
-        "text": "Forget the phone-tree robots that ask you to press 1, then 2, then say your booking reference very slowly. That's not this. An AI agent is a trained assistant that lives wherever your customers already message you, WhatsApp, Instagram, your website, and replies instantly in your voice. It answers the everyday questions, takes the booking, and only pulls you in when something genuinely needs you. Think of it as the brilliant front-of-house person you'd hire if you could clone yourself and have that clone never sleep. We go deeper on this for hospitality in our piece on a [WhatsApp AI assistant for restaurants](~/blog/whatsapp-ai-assistant-restaurants)."
-      },
-      {
-        "type": "h2",
-        "text": "What it can and can't do, and what 'sounds like you' means"
-      },
-      {
-        "type": "p",
-        "text": "We're honest about this, because an agent that overpromises annoys your customers and embarrasses you. It handles the everyday brilliantly: answering the same twenty questions you get every week, taking a booking straight into your calendar, confirming and gently chasing (which helps with [no-shows at a salon or clinic](~/blog/reduce-no-shows-salon-clinic)), and replying at 2am so the enquiry is still warm by breakfast. What it leaves to you are the judgement calls: awkward complaints, quotes that need you to see the job in person, and squeezing in a favour for a regular. As for sounding like you, that's the part owners worry about most, and rightly so. We train the agent on your tone, so if you'd say \"no worries, pop in whenever,\" it doesn't say \"your request has been received.\" Your regulars shouldn't tell the difference; the new ones should feel they've already met you."
-      },
-      {
-        "type": "callout",
-        "title": "A quick word from us",
-        "body": "A good agent knows the limits of its own knowledge. When it isn't sure, it shouldn't guess, it should say it'll pass you on and then actually do it. That single habit is the difference between a helpful assistant and an embarrassing one."
-      },
-      {
-        "type": "h2",
-        "text": "How does a handoff work, and how do you get started?"
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "It answers and books the easy stuff",
-            "body": "The everyday questions and straightforward bookings get handled in seconds, day or night, without touching you."
-          },
-          {
-            "title": "It spots when it's out of its depth",
-            "body": "A tricky quote, a complaint, an unusual request, the agent recognises it can't (or shouldn't) decide that alone."
-          },
-          {
-            "title": "It hands over cleanly",
-            "body": "You get a clear nudge with the whole conversation attached, so you pick up exactly where it left off, no re-asking the customer everything."
-          },
-          {
-            "title": "You step in as yourself",
-            "body": "You reply when you're free, the customer feels looked after, and nothing slipped through the cracks overnight."
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "text": "Getting started is smaller than you think. You don't need to learn anything or install anything complicated. The honest first step is just a conversation: we ask what people most often message you about, where those messages land, and how you like to sound. From there we train the agent, you check it talks like you, and it goes to work. You touch no code; the AI does the heavy lifting while you stay the face and the craft. If you've ever winced at a 9pm WhatsApp you only saw the next afternoon, that's the gap we're closing, and it starts with a free 15-minute chat to map your most common questions and see whether an agent earns its keep for your business."
-      }
-    ],
-    "image": {
-      "credit": "nSeika / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/33542052@N07/8880813114"
-    }
-  },
-  {
-    "slug": "whatsapp-ai-assistant-restaurants",
-    "category": "AI Agents",
-    "categoryIcon": "chat",
-    "title": "WhatsApp AI Assistant for Restaurants: Take Bookings While You're Closed",
-    "description": "A WhatsApp AI assistant for restaurants books tables 24/7 and answers the same questions you get fifty times a day, so no enquiry goes cold.",
-    "dek": "Your diners already live on WhatsApp. A well-trained assistant turns that chat into a booking line that never sleeps, never gets the menu wrong, and still sounds like your place.",
-    "keyword": "WhatsApp AI assistant for restaurants",
-    "author": "The Kodable team",
-    "datePublished": "2026-02-18",
-    "readMinutes": 5,
-    "takeaways": [
-      "WhatsApp is where your diners already are, so a booking assistant meets them without an app to download or a form to fill in.",
-      "A good assistant handles the everyday questions on its own: table for tonight, terrace or inside, allergens, opening hours, parking, set menu.",
-      "It books straight into your system, knows your live menu, and hands the tricky stuff (big events, press) to a human.",
-      "When you're full, it offers a waitlist or a nearby slot instead of letting the diner drift to a competitor."
-    ],
-    "related": [
-      "ai-agents-after-hours-bookings",
-      "reduce-no-shows-salon-clinic",
-      "local-seo-near-me-2026"
-    ],
-    "cta": {
-      "service": "ai-agents",
-      "label": "Get a WhatsApp assistant"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "It's 22:40. The kitchen's shut, the chairs are up, and your phone buzzes: \"Table for 4 tomorrow at 8? Terrace if you have it.\" You see it in the morning. By then they've booked somewhere else. That message wasn't a nuisance. It was a booking, and it slipped away while you slept."
-      },
-      {
-        "type": "p",
-        "text": "A **WhatsApp AI assistant for restaurants** fixes exactly that gap. It's a trained assistant that lives on the number your diners already message, replies in seconds at any hour, and turns \"are you open Sunday?\" and \"table for two tonight?\" into confirmed bookings, without you touching your phone."
-      },
-      {
-        "type": "h2",
-        "text": "Why WhatsApp, and not another app or form?"
-      },
-      {
-        "type": "p",
-        "text": "Because your diners are already there. They message family on it, send voice notes, share their location. Asking them to download a booking app or fill in a clunky web form adds friction at the exact moment they're ready to commit. WhatsApp is the path of least resistance, and that matters when someone's deciding where to eat in the next ten minutes. So the channel isn't niche, it's where conversation already happens. If most of your missed enquiries land after the last service, our piece on [handling after-hours bookings](~/blog/ai-agents-after-hours-bookings) digs into where those lost tables actually come from."
-      },
-      {
-        "type": "stat",
-        "value": "2 billion+",
-        "label": "people use WhatsApp worldwide, and Meta reports well over 100 million people message a WhatsApp Business account every day",
-        "source": "Meta"
-      },
-      {
-        "type": "h2",
-        "text": "The questions it should handle without you"
-      },
-      {
-        "type": "p",
-        "text": "You answer the same handful of questions fifty times a week. A trained assistant takes them off your plate, accurately, every time:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "\"Table for 4 tonight?\", checks live availability and offers real times.",
-          "\"Terrace or inside?\", knows your layout and what's free.",
-          "\"Do you have vegan options? Any nut-free dishes?\", answers from your actual menu, not a guess.",
-          "\"What time do you open on Sundays? Is there parking nearby?\", the basics, instantly.",
-          "\"Do you do a set menu? What's on it this week?\", pulls the current one.",
-          "\"We're 12 for a birthday, can you take us?\", flags large groups, your deposit policy, and takes the deposit if you ask it to."
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "How it books a table, and knows your menu"
-      },
-      {
-        "type": "p",
-        "text": "This isn't a bot that says \"we'll get back to you.\" A proper assistant reads the request (\"table for 4, tomorrow, 8pm, terrace\"), checks live availability against your real calendar, and writes the booking straight into the system you already use. The diner gets a clear confirmation; your system gets the booking, the same moment, with no double-booking and no front-of-house surprise at 8pm."
-      },
-      {
-        "type": "p",
-        "text": "An assistant is only as good as what it's trained on. We feed it your real menu, opening hours, terrace and indoor layout, deposit and large-group rules, and set menu. When the menu changes, so does what it says, so it never promises a dish you've taken off. Just as important is the voice: a generic chatbot makes a warm local restaurant feel like a call centre, so we tune the assistant to the way your staff actually talk."
-      },
-      {
-        "type": "quote",
-        "text": "The best compliment a diner can give your assistant is not noticing it's an assistant.",
-        "cite": "What we aim for on every setup"
-      },
-      {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Spend ten minutes writing down the five questions you answer most and your honest answer to each, including the awkward ones (\"are dogs allowed on the terrace?\"). That short list is half the training your assistant needs, and you'll spot gaps in your own info while you do it."
-      },
-      {
-        "type": "h2",
-        "text": "What happens when you're fully booked, or need a human?"
-      },
-      {
-        "type": "p",
-        "text": "A full restaurant is a good problem, but \"sorry, we're full\" is still a lost diner if that's where the chat ends. A well-set-up assistant does what a sharp host would: it offers the next best thing, or adds them to a waitlist and messages the moment a table frees up. A diner messages La Parra (an illustrative name) at 9pm: \"4 people, 8:30 tomorrow?\" The reply: \"8:30's fully booked, but I have 8 or 8:45 on the terrace, both lovely this time of year. Want me to hold one?\" \"8:45, terrace.\" \"Done, table for 4, terrace, 8:45. See you then.\" All while the owner was at home, off the clock."
-      },
-      {
-        "type": "p",
-        "text": "Some things shouldn't be automated, though, and a good assistant knows it. A wedding rehearsal dinner, a press enquiry, a guest with a serious allergy who wants reassurance from a person, these get handed to you cleanly, with the conversation so far attached, so you pick up where it left off rather than starting cold. The aim is never to replace your judgement on the things that matter. It's to clear the fifty routine messages so you have time for the five that need a human touch."
-      },
-      {
-        "type": "p",
-        "text": "Done well, a WhatsApp assistant is quietly one of the best things you can do for a busy restaurant: faster than any phone line, awake when you're not, and far cheaper than a missed booking every night. It pairs neatly with being easy to find in the first place, which is what our guide to [showing up in \"near me\" searches](~/blog/local-seo-near-me-2026) is all about. If you'd like to see what this would look like for your restaurant, on your number, in your voice, the easiest start is a free 15-minute chat, and you can read more about how we build them on our [AI agents page](~/services/ai-agents) first."
-      }
-    ],
-    "image": {
-      "credit": "Tim Sheerman-Chase / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/68932647@N00/28523922512"
-    }
-  },
-  {
-    "slug": "reduce-no-shows-salon-clinic",
-    "category": "AI Agents",
-    "categoryIcon": "chat",
-    "title": "How to Reduce No-Shows at Your Salon or Clinic with Automated Reminders",
-    "description": "Reduce no-shows at your salon or clinic with friendly automated reminders, one-tap rescheduling, and a waitlist that fills empty chairs for you.",
-    "dek": "A no-show is an empty chair you've already paid for. Here's how a gentle reminder cadence and easy rescheduling close the gap, without you nagging a single client.",
-    "keyword": "reduce no-shows salon clinic automated reminders",
-    "author": "The Kodable team",
-    "datePublished": "2026-03-03",
-    "readMinutes": 6,
-    "takeaways": [
-      "Most no-shows are forgetfulness, not malice. Treat the cause, not the client.",
-      "The cadence that works: confirm at booking, remind 24 hours before, nudge on the morning.",
-      "Make rescheduling one tap so a cancellation becomes a rebooking, not a hole in your day.",
-      "An assistant can offer a freed slot to your waitlist automatically, while you're with a client."
-    ],
-    "related": [
-      "ai-agents-after-hours-bookings",
-      "small-business-automation-ideas",
-      "whatsapp-ai-assistant-restaurants"
-    ],
-    "cta": {
-      "service": "ai-agents",
-      "label": "Cut your no-shows"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "You blocked an hour. You prepped the station, mixed the colour, warmed up the room. And the chair sat empty. No call, no message, just a gap where a paying client should have been. If you run a salon, a beauty studio, a physio practice, a dental surgery or any clinic, you already know this sting. The good news: most no-shows aren't people being rude, they're people being busy, and that means you can fix it. This is a practical guide to **reduce no-shows at your salon or clinic with automated reminders** that feel warm, not naggy. We'll work out what a missed appointment actually costs you, why gentle reminders work, the right timing to send them, and how to turn a last-minute cancellation into a rebooking instead of a hole in your day."
-      },
-      {
-        "type": "h2",
-        "text": "What does a no-show really cost you?"
-      },
-      {
-        "type": "p",
-        "text": "It's easy to wave off one missed appointment, but the cost stacks up in ways you don't always see on the day. Think about the chair time you can't sell again, the products and prep already committed, the client who wanted that slot and booked elsewhere, and your team's wages ticking along whether the chair is full or empty. So put a figure on it. If your average appointment is €60 and you lose four to a week, that's €240 walking out the door. Over a year, that's north of €12,000 in chair time you'd already paid to staff and stock. Suddenly a few automated messages look like the cheapest insurance you'll ever buy."
-      },
-      {
-        "type": "quote",
-        "text": "A no-show isn't a client problem. It's a reminder problem, and reminders are the one thing you can automate completely.",
-        "cite": "The Kodable view"
-      },
-      {
-        "type": "h2",
-        "text": "Why do friendly reminders actually work?"
-      },
-      {
-        "type": "p",
-        "text": "Because the real enemy is forgetfulness, not malice. Your client booked three weeks ago, between picking up the kids and a hundred other things. They didn't write it down and they've genuinely lost track. A well-timed nudge brings the appointment back to the top of their mind at the moment they can still act on it. There's a second reason it helps: it gives an honest client an easy out. Someone who knows on Tuesday they can't make Thursday will often say nothing, because cancelling feels like a hassle. Give them a one-tap way to move the booking and they'll take it gladly, which frees the slot while there's still time to fill it. The same instant-reply thinking powers an [assistant that handles bookings even after you've closed for the night](~/services/ai-agents)."
-      },
-      {
-        "type": "h2",
-        "text": "What's the right reminder cadence?"
-      },
-      {
-        "type": "p",
-        "text": "More messages isn't better. Three well-placed touches do the job without ever feeling like pestering. Here's the cadence we'd set up for a salon or clinic."
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Confirm the moment they book",
-            "body": "As soon as the appointment is made, send an instant confirmation with the date, time, service and your address. It reassures the client, and it puts the details somewhere they can find them later."
-          },
-          {
-            "title": "Remind 24 hours before",
-            "body": "The day-before message is the workhorse. It catches people while they can still rearrange their day around you, and it's usually the most effective nudge against a no-show."
-          },
-          {
-            "title": "Nudge on the morning",
-            "body": "A short, friendly message on the day itself, with the time and a one-tap option to confirm, reschedule or get directions. This is the one that saves the slots that would otherwise quietly vanish."
-          }
-        ]
-      },
-      {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Send reminders the way your clients actually talk to you. For most salons and clinics in Spain that means WhatsApp, where messages get opened in minutes rather than sitting unread in an inbox. A reminder only works if it's seen."
-      },
-      {
-        "type": "h2",
-        "text": "How do you make rescheduling effortless?"
-      },
-      {
-        "type": "p",
-        "text": "This is where most reminder systems fall down. They tell the client about the appointment, then make them ring you to change it, so they don't. Every reminder should carry a simple choice: confirm, or reschedule. Tap reschedule and the client sees your real availability and picks a new slot themselves, in seconds, with no call and no waiting on hold. A cancellation stops being a loss and becomes a quiet little rebooking you didn't have to lift a finger for. And because it runs itself, it's one of the most satisfying [small automations a local business can put in place](~/services/automations)."
-      },
-      {
-        "type": "h2",
-        "text": "What about deposits and cards on file?"
-      },
-      {
-        "type": "p",
-        "text": "For longer or higher-value appointments, a small deposit or a card held on file does change behaviour. People treat a booking differently once they have a little skin in the game. The trick is to introduce it kindly, so it never feels like you're treating clients as suspects: keep it proportionate (a modest deposit on a two-hour colour, not a quick trim); explain it as fairness, not punishment, because it protects the slot for the next person; always pair it with an easy reschedule so an honest change of plan never costs the client their deposit; and apply it consistently so no one feels singled out."
-      },
-      {
-        "type": "h2",
-        "text": "Can a freed-up slot fill itself?"
-      },
-      {
-        "type": "p",
-        "text": "Here's the part that turns a reminder system into something that genuinely earns its keep. When a client reschedules and a Thursday-afternoon slot opens up, that gap doesn't have to stay empty. An assistant can hold a waitlist of clients who wanted an earlier appointment and, the moment a slot frees, message the next person to offer it, first come first served. You're with a client, hands full, completely unaware any of this is happening. By the time you glance at your phone, the hole in your afternoon has quietly filled itself. That's the difference between a tool that reminds people and an [assistant that actively protects your day](~/services/ai-agents)."
-      },
-      {
-        "type": "stat",
-        "value": "~5 min",
-        "label": "respond to a new enquiry within about five minutes and you're far likelier to reach and qualify it than waiting 30+ minutes, the same speed that lets you fill a freed slot before the moment passes",
-        "source": "the Lead Response Management study (InsideSales / MIT)"
-      },
-      {
-        "type": "p",
-        "text": "You don't need to overhaul everything at once. Start with the single biggest win: a friendly 24-hour reminder with a one-tap reschedule. Watch your no-show rate for a few weeks. Then layer on the morning nudge, the waitlist, and deposits where they make sense for your bigger appointments. The lovely thing is that none of this asks anything more of you. No chasing, no awkward phone calls, no nagging. The reminders go out, the rescheduling sorts itself, and the freed slots fill themselves while you get on with the work you're actually good at. If you'd like to see how this would fit your salon or clinic, the best place to begin is a free 15-minute chat, where we'll look at your week, your no-shows, and exactly where the empty chairs are coming from."
-      }
-    ],
-    "image": {
-      "credit": "Sean MacEntee / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/18090920@N07/12697610163"
-    }
-  },
-  {
-    "slug": "local-seo-near-me-2026",
-    "category": "Getting Found",
-    "categoryIcon": "search",
-    "title": "Local SEO Near Me in 2026: How to Be the Result People Tap",
-    "description": "Your do-it-today guide to local SEO near me 2026: a complete Google profile, consistent details, reviews and a fast site that wins nearby searches.",
-    "dek": "Most local buying decisions start with a quick phone search and end the same day. Here's how to make sure your business is the one people tap, call and visit.",
-    "keyword": "local SEO near me 2026",
-    "author": "The Kodable team",
-    "datePublished": "2026-01-21",
-    "readMinutes": 6,
-    "takeaways": [
-      "A complete, accurate Google Business Profile is the single biggest lever you control.",
-      "Google ranks nearby results on relevance, distance and prominence, and reviews feed all three.",
-      "Keep your name, address and phone identical everywhere, and reply to every review.",
-      "A fast, mobile-friendly site turns the tap into a booking, and helps AI tools recommend you too."
-    ],
-    "related": [
-      "website-speed-small-business",
-      "get-recommended-by-ai-chatgpt",
-      "ai-for-small-business-2026-guide"
-    ],
+    "related": [],
     "cta": {
       "service": "websites",
-      "label": "Get found in local search"
+      "label": "Get Kit Digital-ready"
     },
     "body": [
       {
+        "type": "figure",
+        "src": "/blog/eu-nextgen-emblem.svg",
+        "alt": "Official emblem: Funded by the European Union, NextGenerationEU",
+        "caption": "Kit Digital is financed by the European Union's NextGenerationEU funds."
+      },
+      {
         "type": "p",
-        "text": "Picture someone three streets away, standing on the pavement, thumbing **\"barber near me\"** or **\"plumber open now\"** into their phone. In the next few seconds they'll pick one business, and there's a very good chance they'll walk in or call before the day is out. Getting good at local SEO near me 2026 simply means being the result they tap. That's the whole game, and the good news is most of it is in your hands."
+        "text": "The European Union is putting money on the table so that Spanish businesses go digital. It is called **Kit Digital**, and since 2022 it has handed out billions in vouchers for websites, online shops, cybersecurity and more. Most of the freelancers and small businesses that could claim it... simply don't. This guide explains, without the jargon, what it is, how much you get, and how to be ready so you are not left out."
+      },
+      {
+        "type": "h2",
+        "text": "What Kit Digital actually is, in plain terms"
+      },
+      {
+        "type": "p",
+        "text": "Kit Digital is a public grant programme from the Government of Spain, managed by **Red.es** and financed by the European [NextGenerationEU](https://espanadigital.gob.es/lineas-de-actuacion/programa-kit-digital) funds under the Recovery Plan. Translated: the administration gives you a **digital voucher** (a fixed amount of money) so you can hire digital solutions (a website, an online shop, a CRM, cybersecurity) from approved companies called **agentes digitalizadores** (digitisers). You never touch the cash: the voucher pays the solution's invoice directly."
+      },
+      {
+        "type": "p",
+        "text": "It is not a loan. You do not pay it back. It is a subsidy, conditional on you genuinely digitalising your business."
+      },
+      {
+        "type": "h2",
+        "text": "How much you get: amounts by segment"
+      },
+      {
+        "type": "p",
+        "text": "What you can receive depends on the size of your workforce. The programme splits beneficiaries into **segments**:"
+      },
+      {
+        "type": "figure",
+        "src": "/blog/kit-digital-importes.svg",
+        "alt": "Chart of Kit Digital voucher amounts by company segment, from €3,000 to €29,000",
+        "caption": "Maximum voucher by headcount, from Segment III (freelancers) to Segment V (up to 250 employees)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Segment III** (0–2 employees, most freelancers): up to **€3,000**.",
+          "**Segment II** (3–9 employees): up to **€6,000**.",
+          "**Segment I** (10–49 employees): up to **€12,000**.",
+          "**Segment IV** (50–99 employees): up to **€25,000**.",
+          "**Segment V** (100–249 employees): up to **€29,000**."
+        ]
       },
       {
         "type": "stat",
-        "value": "76%",
-        "label": "of people who search for something nearby on their phone visit a related business within a day",
-        "source": "Google (Think with Google)"
+        "value": "€29,000",
+        "label": "the maximum voucher, for medium-sized companies of up to 250 employees (Segment V)",
+        "source": "espanadigital.gob.es / sede.red.gob.es"
       },
       {
         "type": "p",
-        "text": "That number from Google (Think with Google) is the reason this matters so much. These aren't browsers killing time. They're people with their wallet half-out, deciding now. And Google has said that **\"near me\"** mobile searches have grown dramatically over the last few years, so this isn't a passing habit, it's how people choose local businesses today."
+        "text": "The important shift of the last couple of years? The programme **raised the Segment III voucher to €3,000** and **widened its reach to companies of up to 250 employees** (Segments IV and V), which used to be reserved for the smallest businesses. More and more companies now qualify."
       },
       {
         "type": "h2",
-        "text": "How does Google decide who shows up for \"near me\"?"
+        "text": "Can you claim it? The basic requirements"
       },
       {
         "type": "p",
-        "text": "It's less of a mystery than it sounds. Google weighs three things when someone searches nearby, and once you know them, the whole to-do list makes sense. **Relevance**: does what you offer match what they typed? **Distance**: how close are you to the searcher or the area they named? **Prominence**: how well-known and trusted does your business look? You can't move your shop, but you can influence all three, so let's go through the checklist you can actually work through this week."
+        "text": "Kit Digital is aimed at freelancers, micro-businesses and SMEs with a tax address in Spain. Broadly, you need to:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Be a **registered autónomo** or an SME/micro-business with fewer than 250 employees.",
+          "Have a **minimum trading history** (usually 6 months registered in the RETA or as a company).",
+          "Be **up to date** with your tax (Hacienda) and Social Security obligations.",
+          "Not exceed the accumulated **de minimis aid** limits of recent years.",
+          "Complete the **self-assessment test** (it is mandatory)."
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "An honest note",
+        "body": "The exact requirements (trading history, de minimis amounts, deadlines) are set by each call (convocatoria) in its own rules. Before you take anything for granted, confirm it in the [official rules](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070) and on [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital). We give you the map; the fine print always lives at the official source."
       },
       {
         "type": "h2",
-        "text": "Step one: make your Google Business Profile complete and accurate"
+        "text": "How to apply, step by step"
       },
       {
-        "type": "p",
-        "text": "This is the single biggest lever you control. Your Google Business Profile is the little panel that pops up when someone searches your name or your trade nearby, and it often decides the click before anyone reaches your website. A half-finished one quietly loses you customers every week."
+        "type": "figure",
+        "src": "/blog/kit-digital-pasos.svg",
+        "alt": "The four steps to apply for Kit Digital: register, self-assessment, application, digitiser",
+        "caption": "The process end to end: registration, self-assessment, application, and choosing your digitiser."
       },
       {
         "type": "steps",
         "steps": [
           {
-            "title": "Pick the right categories",
-            "body": "Choose a primary category that matches your main trade exactly, then add the secondary ones that fit. \"Hair salon\" plus \"barber\" plus \"hairdresser\" if all three are true. This is your biggest relevance signal."
+            "title": "Register on Acelera Pyme",
+            "body": "Go to acelerapyme.gob.es and create your account with a digital certificate or Cl@ve. It is the front door to the whole process."
           },
           {
-            "title": "Get your hours right (including holidays)",
-            "body": "Nothing annoys a nearby searcher like turning up to a closed door. Set special hours for bank holidays so Google shows the truth."
+            "title": "Take the self-assessment test",
+            "body": "A short questionnaire (around 13 questions) that measures your digital maturity. There is no pass mark (you just have to do it) but it is mandatory in order to claim the voucher."
           },
           {
-            "title": "Add real photos",
-            "body": "The front of your shop, the inside, your team, your work. Profiles with genuine photos look trustworthy and get more taps than empty ones."
+            "title": "Apply for your digital voucher",
+            "body": "When your call is open, you submit the application on the Red.es electronic office, in the procedure for your segment."
           },
           {
-            "title": "List your services and products",
-            "body": "Spell out what you do and roughly what it covers. \"Boiler repair, bathroom installation, emergency call-outs\" tells Google exactly what to match you to."
-          },
-          {
-            "title": "Fill in the Q&A",
-            "body": "You can post and answer your own common questions. \"Do you take walk-ins?\" \"Is there parking?\" Answer them before a customer has to ask."
+            "title": "Choose your digitiser",
+            "body": "Once the voucher is granted, you pick a company from the official catalogue of agentes digitalizadores, who delivers the solution and invoices against your voucher."
           }
         ]
       },
       {
-        "type": "callout",
-        "title": "A quick tip from us",
-        "body": "Set a 10-minute reminder for the first Monday of every month to open your profile and check it's still accurate. Hours, photos, a new service you've started offering. Google rewards profiles that look alive, and it's the cheapest marketing you'll ever do."
-      },
-      {
         "type": "h2",
-        "text": "Step two: be consistent everywhere, and win your reviews"
+        "text": "What can you spend the voucher on?"
       },
       {
         "type": "p",
-        "text": "Two habits sit alongside your profile. The first is **NAP**: name, address, phone. Wherever your business appears online, those three details should match character for character, because \"Calle Mayor 12\" in one place and \"C/ Mayor, 12\" in another makes Google less sure you're a single, real business. The second is reviews, which feed all three of Google's signals at once."
+        "text": "The voucher is not free cash: it is spent on **categories of solutions** from the official catalogue. The most useful ones for a local business:"
+      },
+      {
+        "type": "figure",
+        "src": "/blog/kit-digital-soluciones.svg",
+        "alt": "Categories of digital solutions funded by Kit Digital, including website, e-commerce, CRM, cybersecurity and AI",
+        "caption": "Some of the eligible solutions from the official catalogue."
       },
       {
         "type": "list",
         "items": [
-          "Write your name, address and phone exactly the same on your website, Google profile, Facebook, Instagram and local directories, using one main phone number everywhere.",
-          "If you've moved or rebranded, hunt down the old listings and update them. Stale details are a quiet drag on your ranking.",
-          "Ask for a review every time. A short message with a direct link the same day works best, while the good feeling is still fresh.",
-          "Reply to all of them. Thank the good ones by name, and for a rough one stay calm, apologise where it's fair, and offer to put it right."
+          "**Website and online presence**: a professional site so people find you on Google.",
+          "**E-commerce**: selling online, with a catalogue and a payment gateway.",
+          "**Social media** and **marketing** management to win customers.",
+          "**Customer management (CRM)** so no opportunity slips through.",
+          "**Cybersecurity** and **secure workplace** to protect your data.",
+          "**E-invoicing**, **virtual office** and **process management** to save hours every week."
         ]
       },
       {
-        "type": "h2",
-        "text": "Step three: the website signals that actually move the needle"
-      },
-      {
         "type": "p",
-        "text": "Your Google profile gets you seen. Your website closes the deal, and it sends Google its own signals too. You need a **clear local page** that says plainly where you are and the areas you cover, a **mobile-friendly** layout because that's where these searches happen, a **fast load**, and **structured data** (a bit of hidden code that spells out your facts, your address, hours and reviews, in a format Google reads instantly). You don't need to understand the code. You just need a site built so it's there."
-      },
-      {
-        "type": "p",
-        "text": "That speed point isn't a small one. As a mobile page's load time creeps from one second to three, the chance a visitor gives up and bounces rises by about a third, and from one to five seconds it nearly doubles, according to Google. Do the maths on your own business for a second: if even five nearby searchers a week tap your result, find a sluggish page, and back out to a competitor, what's that worth over a year at your average job or basket size? That's the real cost of a slow, unclear [website](~/services/websites), and it's fixable."
+        "text": "And the direction of travel is clear: the programme keeps adding **artificial intelligence** and managed-cybersecurity solutions, exactly where a small business gains the most time."
       },
       {
         "type": "h2",
-        "text": "What about AI? Where ChatGPT and answer engines fit in"
+        "text": "The 2026 status: is it open right now?"
       },
       {
         "type": "p",
-        "text": "More people now start by asking an AI assistant straight out: \"where's a good vegan restaurant near the cathedral?\" The reassuring part is that the work above is exactly what gets you recommended there too, because these tools lean on the same foundations: an accurate, complete profile, consistent details, strong reviews and a clear website. Tidy up for Google's near-me results and you're tidying up for the AI answers at the same time. None of this is one big project: it's a complete profile, matching details, a steady habit of reviews, and a fast site that turns the tap into a booking. Work through the list and you'll already be ahead of most businesses around you. If you'd rather not wrestle with the technical bits, we're happy to look at where you stand and what's quickest to fix, starting with a [free 15-minute chat](~/contact), no jargon and no pressure."
-      }
-    ],
-    "image": {
-      "credit": "miss_hg / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/32615508@N02/3047982712"
-    }
-  },
-  {
-    "slug": "website-speed-small-business",
-    "category": "Getting Found",
-    "categoryIcon": "search",
-    "title": "Your Website Has 3 Seconds: Why Speed Wins the Customer",
-    "description": "Website speed quietly decides small business conversions. Learn what fast really means, why slow sites lose bookings, and how to test yours in two minutes.",
-    "dek": "A slow website loses customers before they ever see your work. Here's why speed is conversion, trust and search ranking all at once, and how to check yours today.",
-    "keyword": "website speed small business conversions",
-    "author": "The Kodable team",
-    "datePublished": "2026-03-19",
-    "readMinutes": 5,
-    "takeaways": [
-      "A fast site loads quickly and is usable straight away on a phone, on mobile data.",
-      "Google found bounce risk climbs about 90% as load time goes from 1 to 5 seconds, so every slow second costs you bookings.",
-      "Slow usually comes from bloated builders, huge images, too many plugins and cheap hosting, all of which are fixable.",
-      "Test your own site: open it on 4G, time it, and tap your booking button to see how it really feels."
-    ],
-    "related": [
-      "local-seo-near-me-2026",
-      "get-recommended-by-ai-chatgpt",
-      "custom-software-vs-off-the-shelf"
-    ],
-    "cta": {
-      "service": "websites",
-      "label": "Get a site that loads instantly"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Picture a customer standing outside your door, hand on the handle, deciding whether to come in. Now imagine the handle takes four seconds to turn. Most people would shrug and walk to the place next door. That is exactly what a slow website does, except you never see the person leave. **Website speed is one of the quietest decisions in small business conversions**, and it is happening on every phone, every day, before anyone ever sees how good you are at your craft."
+        "text": "Here we have to be straight, because there is a lot of confusing information out there. The original Kit Digital calls (Segments I, II and III) **closed in October 2025**. In January 2026, the official gazette published [Orden TDF/39/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070), which **reactivates the programme's legal framework** and allows the **leftover European funds** from earlier calls to be redistributed."
       },
       {
         "type": "p",
-        "text": "The frustrating part is that the work is brilliant. The food, the haircut, the wiring, the fix. None of it gets a look in if the site that introduces you keeps people waiting. Speed is not a technical nicety. It is the first impression you didn't know you were making."
-      },
-      {
-        "type": "h2",
-        "text": "What \"fast\" actually means"
-      },
-      {
-        "type": "p",
-        "text": "Forget stopwatches and jargon for a second. Here is the standard we'd aim for: someone taps your link while standing in the street, on mobile data, and your site is **there and usable in about a second**. They can read it, scroll it, and tap the booking button without anything jumping around or spinning. If your site only feels quick on your laptop at home on good wifi, you are testing it in the one place your customers almost never are. A large share of the people who find you are on a phone, often with a weak signal, often in a hurry, so \"usable immediately\" matters as much as \"loaded eventually\"."
-      },
-      {
-        "type": "stat",
-        "value": "~90%",
-        "label": "rise in the chance a visitor bounces as a mobile page goes from 1 to 5 seconds to load",
-        "source": "Google"
-      },
-      {
-        "type": "p",
-        "text": "That is the number worth sitting with. Google found that as a mobile page's load time goes from one second to three, the probability someone bounces rises by about 32%. Stretch it from one to five seconds and that risk climbs roughly 90%. You are not losing a fraction of a percent here and there. You are losing a meaningful slice of everyone who was curious enough to tap."
-      },
-      {
-        "type": "quote",
-        "text": "Every slow second is a customer quietly deciding you're not worth the wait, and you never even get the chance to change their mind."
-      },
-      {
-        "type": "h2",
-        "text": "Why slow happens (and it's rarely your fault)"
-      },
-      {
-        "type": "p",
-        "text": "If your site is sluggish, it usually isn't because you did something wrong. It is because somewhere along the way it picked up weight it never needed. The most common culprits are predictable, and that is good news, because predictable problems have clear fixes:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Bloated website builders that load mountains of code to show a simple page.",
-          "Huge, unoptimised images, the photo straight off the camera weighing several megabytes when it could weigh a fraction of that.",
-          "Too many plugins, trackers and pop-up tools, each one quietly adding to the load.",
-          "Cheap, overcrowded hosting where your site shares a tired server with hundreds of others."
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "What good looks like, and how it feeds local search"
-      },
-      {
-        "type": "p",
-        "text": "A fast site is not a fancy site. It is a *lightweight* one, and the best-performing small business websites share the same quiet habits: a modern, lightweight build rather than a heavy template; images optimised and sized for phones; only the scripts you genuinely need, with tracking and pop-up clutter stripped back; and good hosting with a CDN, which serves your site from a server near each visitor. Here is the part that catches owners by surprise, though. Speed doesn't just affect the people who reach your site, it can affect whether they find it at all. As a rule of thumb in search, a quick, smooth mobile experience tends to do better than a slow one, so speed compounds: it helps you show up, then helps you convert the people who showed up. We walk through the rest in our guide to [showing up for \"near me\" searches](~/blog/local-seo-near-me-2026), and because more people now ask AI assistants for recommendations, a clean, fast site helps there too, which we cover in [getting recommended by ChatGPT and other AI](~/blog/get-recommended-by-ai-chatgpt)."
+        "text": "What does that mean for you today? That the programme **drops the rigid closing date** and instead runs **until the funds are exhausted**. New calls are published as those remaining funds get reassigned. Which is why the real status changes from week to week: the only reliable answer is the official source."
       },
       {
         "type": "callout",
-        "title": "A quick tip from us",
-        "body": "Don't aim for a website that impresses other web designers. Aim for one that loads before your customer changes their mind. Lean and quick beats clever and slow every single time."
+        "title": "Where to check the real status",
+        "body": "Always look at the Red.es electronic office, [sede.red.gob.es](https://sede.red.gob.es), and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital) before acting. If your call is open, the deadline is shown there; if not, it appears as closed or coming soon."
       },
       {
         "type": "h2",
-        "text": "Sanity-check your own site in two minutes"
+        "text": "Why get ready TODAY, even if your call is not open"
       },
       {
         "type": "p",
-        "text": "You don't need a developer to find out where you stand. You need your phone and a minute of honesty. Try this now, the way a real customer would."
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Turn off wifi",
-            "body": "Switch your phone to mobile data, ideally 4G, not your fast home or shop wifi. This is the world your customers actually live in."
-          },
-          {
-            "title": "Open your site and count",
-            "body": "Tap your own link and count the seconds out loud until the page is fully there and you can scroll it. One-elephant, two-elephant. If you reach three before it settles, that is a problem worth fixing."
-          },
-          {
-            "title": "Tap the booking button",
-            "body": "Now do the thing a customer would do. Tap to book, to call, or to message. Does it respond instantly? Does it work first time? A fast page with a clunky booking step still loses the job."
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "text": "If that little test made you wince, take a breath. A slow site is one of the most fixable problems in your whole business. It is not like rebuilding a kitchen. Often it is optimising images, trimming the clutter and moving to better hosting, and the same page suddenly feels noticeably faster. That is exactly the kind of work we do, building [fast, modern websites](~/services/websites) that load before a customer loses patience and make booking effortless, so the impression people get matches the quality of what you actually do. If you're not sure how your site measures up, the easiest next step is a free 15-minute chat. Tell us your website address, we'll take a proper look, and we'll tell you honestly where you stand and what's worth fixing first."
-      }
-    ],
-    "image": {
-      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
-    }
-  },
-  {
-    "slug": "get-recommended-by-ai-chatgpt",
-    "category": "Getting Found",
-    "categoryIcon": "search",
-    "title": "How to Get Recommended by ChatGPT as a Local Business",
-    "description": "How to get recommended by ChatGPT as a local business: the honest signals AI answer engines use to pick which shops they name.",
-    "dek": "More people now ask an AI assistant for \"the best place near me\" instead of scrolling links. Being the business it names is a new channel, and one you can actually earn.",
-    "keyword": "how to get recommended by ChatGPT local business",
-    "author": "The Kodable team",
-    "datePublished": "2026-04-08",
-    "readMinutes": 6,
-    "takeaways": [
-      "AI assistants pick businesses using the same trustworthy public signals as search: your Google Business Profile, reviews, a clear fast website and consistent info.",
-      "Write your site in plain words: what you do, where, and for whom. Assistants quote pages that answer real questions, so an honest FAQ helps.",
-      "Nobody can buy a guaranteed spot. Anyone promising fixed ChatGPT rankings is selling something that does not exist.",
-      "Do the local-search basics well and the AI mentions tend to follow. Both channels draw from the same foundation."
-    ],
-    "related": [
-      "local-seo-near-me-2026",
-      "ai-for-small-business-2026-guide",
-      "website-speed-small-business"
-    ],
-    "cta": {
-      "service": "websites",
-      "label": "Get found by AI search"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Picture one of your regulars on the sofa. Instead of typing into Google and scrolling, they ask an assistant out loud: **\"best family-friendly restaurant near me in Valencia.\"** A short answer comes back naming three places. If yours is one of the three, you may have just won a booking. If it isn't, you never knew the conversation happened. This is a real shift, and it raises a fair question: how do you get recommended by ChatGPT as a local business? The honest answer is that you cannot pay for it, but you can earn it. And the way you earn it overlaps almost entirely with things that already make you easier to find."
-      },
-      {
-        "type": "h2",
-        "text": "How does an AI assistant decide who to mention?"
-      },
-      {
-        "type": "p",
-        "text": "When someone asks an assistant for a local recommendation, it doesn't have secret access to who the best plumber in town is. It leans on the same public, trustworthy signals that search engines have used for years, then summarises them into a short answer. In plain terms, it favours businesses that are clearly described, consistently listed, well reviewed and mentioned in places it already trusts:"
+        "text": "There is a lesson from the previous calls worth burning into memory: **the money is handed out in order of arrival, until it runs out.** The businesses that already had their registration done, their self-assessment passed and their digitiser chosen were able to apply the moment the window opened. The ones who started finding out that day arrived too late."
       },
       {
         "type": "list",
         "items": [
-          "A complete, accurate Google Business Profile, with your category, hours, address and phone all correct.",
-          "Genuine reviews from real customers, the more recent and specific the better.",
-          "A clear, fast website that states in plain words what you do, where you do it and who you do it for.",
-          "The same name, address and phone number everywhere online, with no stale numbers floating about.",
-          "Mentions on reputable local sites and directories, such as a tourism board, a local paper or a respected listings site."
-        ]
-      },
-      {
-        "type": "p",
-        "text": "None of that is exotic. If you have read our guide to [ranking for \"near me\" searches](~/blog/local-seo-near-me-2026), you'll notice it is the very same foundation. That's the good news: you don't need a separate strategy for the assistants. You need to do the basics properly, because the assistants and the search results drink from the same well."
-      },
-      {
-        "type": "quote",
-        "text": "You can't buy your way into an AI's answer. You earn it by being the clear, trusted, consistent option a human would also pick.",
-        "cite": "The Kodable view"
-      },
-      {
-        "type": "h2",
-        "text": "Say what you do in plain words"
-      },
-      {
-        "type": "p",
-        "text": "Assistants are good at reading, and bad at guessing. If your homepage is a slideshow of pretty photos with a one-word tagline, there is very little to grab. If a page clearly says, \"We're a family-run cafe in the centre of Valencia, open for breakfast and lunch, with high chairs, gluten-free options and a quiet corner for prams,\" you have just handed it the exact phrases someone might ask for. Write for a person, in your own voice, and the machine benefits too. Cover the obvious: what you offer, the area you serve, who you're a good fit for, and what makes you you."
-      },
-      {
-        "type": "h2",
-        "text": "Answer the questions people actually ask"
-      },
-      {
-        "type": "p",
-        "text": "Assistants love a clear answer to a clear question, because that is exactly the shape of what they're producing. A simple FAQ on your own site is one of the most useful things you can build: it saves you answering the same message ten times a week, and it gives the assistant clean, quotable text."
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "List the real questions",
-            "body": "Write down what customers actually ask before booking. Do you take cards? Is there parking? Are dogs welcome? Can you do gluten-free? Do you open on Sundays?"
-          },
-          {
-            "title": "Answer each one plainly",
-            "body": "One honest, specific answer per question. \"Yes, we have step-free access and a ground-floor toilet\" beats a vague \"we're accessible.\""
-          },
-          {
-            "title": "Keep it current",
-            "body": "When something changes, update it the same week. An assistant repeating last year's opening hours is worse than no answer at all."
-          }
-        ]
-      },
-      {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Read your own homepage out loud as if a stranger asked, \"So what is this place, exactly?\" If you can't answer in two plain sentences, neither can an assistant. Fix that first, before anything clever."
-      },
-      {
-        "type": "h2",
-        "text": "The plumbing that helps machines read you"
-      },
-      {
-        "type": "p",
-        "text": "There is one slightly technical piece worth knowing about, then we'll leave the tech alone. It's called structured data: a small, hidden label on your pages that spells out facts in a format machines read easily, like the business name, the opening hours, the address and the reviews. You don't write code for it. A well-built site simply includes it for you, the way good plumbing sits behind the wall but makes everything work. This is part of how we build every site at [Kodable's website service](~/services/websites), so the assistants get clean facts rather than guesswork. Speed matters here too: Google has found that as a mobile page's load time goes from one second to three seconds, the chance a visitor gives up and bounces rises by about 32%. If yours feels sluggish on a phone, our piece on [why website speed matters](~/blog/website-speed-small-business) walks through what to check."
-      },
-      {
-        "type": "stat",
-        "value": "+32%",
-        "label": "rise in the chance a mobile visitor bounces as load time goes from 1 to 3 seconds",
-        "source": "Google"
-      },
-      {
-        "type": "h2",
-        "text": "Be honest about what nobody can promise"
-      },
-      {
-        "type": "p",
-        "text": "Here is the part the sellers won't tell you. **Nobody can guarantee you a spot in ChatGPT's answers.** There is no ranking you can buy, no fee that pins your name to the top, no secret backdoor. The assistants change how they work, draw on different sources, and word things differently from one day to the next. So if someone emails you promising \"guaranteed ChatGPT rankings\" or a \"reserved place in AI search,\" treat it like a stranger guaranteeing you'll win the lottery. The honest work is unglamorous and it compounds: clear pages, real reviews, consistent listings, a fast site, genuine mentions. For the wider view of where AI fits into running a small business, our [practical AI guide](~/blog/ai-for-small-business-2026-guide) is a calmer place to start than most of the noise."
-      },
-      {
-        "type": "p",
-        "text": "You don't have to do all of this at once, and you certainly don't have to understand the technical side. Start by making your site say, in plain words, what you do and for whom. Tidy up your Google Business Profile. Ask a few happy customers for a review. That alone puts you ahead of most of your street. The rest, the structured data, the speed, the consistent listings, is the kind of quiet groundwork we do for you so you can get back to the actual job. If you're not sure where your site stands today, the easiest next step is a free 15-minute chat: we'll take a quick look, tell you honestly what's helping and what's holding you back, and you can decide what to do with that, even if you never hire us."
-      }
-    ],
-    "image": {
-      "credit": "flexbox / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/53662163@N06/34995898035"
-    }
-  },
-  {
-    "slug": "small-business-automation-ideas",
-    "category": "Automation",
-    "categoryIcon": "code",
-    "title": "Stop Copy-Pasting Between Apps: 7 Small Business Automation Ideas",
-    "description": "7 small business automation ideas that get your tools talking to each other, booking to calendar, enquiries to one inbox, reminders, reviews and more.",
-    "dek": "Every little manual handoff, retyping a booking, chasing a payment, sending the same follow-up, quietly eats your week. Here are seven automations that hand those hours back.",
-    "keyword": "small business automation ideas",
-    "author": "The Kodable team",
-    "datePublished": "2026-04-22",
-    "readMinutes": 6,
-    "takeaways": [
-      "The small manual jobs between your apps add up to a part-time role nobody is paying you for.",
-      "Seven concrete automations, from booking-to-calendar to a weekly summary, cover where most local businesses leak time.",
-      "Off-the-shelf tools cover the basics; a custom tool earns its keep when your workflow is genuinely your own.",
-      "Start with the one job that annoys you most this week, not all seven at once."
-    ],
-    "related": [
-      "custom-software-vs-off-the-shelf",
-      "reduce-no-shows-salon-clinic",
-      "ai-for-small-business-2026-guide"
-    ],
-    "cta": {
-      "service": "automations",
-      "label": "Automate the busywork"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Add up the little jobs you do by hand each week. You copy a booking from your inbox into the calendar. You log a payment in a spreadsheet. You send the same \"thanks, see you Tuesday\" message for the tenth time. None of it is hard. None of it takes long on its own. But stitched together across a month, it's a part-time job nobody is paying you for, and it's stealing the hours you'd rather spend on the actual work."
-      },
-      {
-        "type": "p",
-        "text": "Most of these small business automation ideas come down to one simple thing: getting your tools to talk to each other. Right now you're the cable between them, carrying every scrap of information from one app to the next. Automation just lays that cable for you, so the booking, the payment and the reminder all flow without you lifting a finger."
-      },
-      {
-        "type": "h2",
-        "text": "Why the copy-pasting hurts more than it looks"
-      },
-      {
-        "type": "p",
-        "text": "It's not really the five minutes. It's the switching, stopping mid-task to retype something, the risk of a typo in someone's phone number, the booking you meant to add and forgot. Every manual handoff is a chance for something to slip. And the thing most likely to slip is the one that costs you: a reply that comes too late."
-      },
-      {
-        "type": "stat",
-        "value": "~5 min",
-        "label": "respond to a new enquiry this fast and you're far likelier to reach and qualify the lead than if you wait 30 minutes",
-        "source": "the Lead Response Management study (InsideSales / MIT)"
-      },
-      {
-        "type": "p",
-        "text": "That number is the whole argument for automation in one line. If an enquiry sits in an inbox you only check at lunch, you've already lost ground to the business down the road that replied in five minutes. Speed isn't about working harder, it's about your tools handing the message to you the moment it lands."
-      },
-      {
-        "type": "h2",
-        "text": "The 7 automations worth setting up first"
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Booking straight into your calendar",
-            "body": "The pain: someone books, and you retype the date, time and name into your calendar, or worse, you don't, and you double-book. The fix: the moment a booking comes in, it appears in your calendar with the details filled in. Rough time saved: a few minutes per booking, plus the no double-booking peace of mind."
-          },
-          {
-            "title": "Every enquiry into one place you'll actually see",
-            "body": "The pain: messages arrive by web form, WhatsApp, Instagram and email, and you check each one when you remember. The fix: every new enquiry lands in a single inbox or pings your phone, so nothing waits in a corner you forgot to look in. Rough time saved: the lost enquiries you never knew you missed, for many owners, the fix that quietly earns the most."
-          },
-          {
-            "title": "Payment to receipt and reconciliation, no logging in",
-            "body": "The pain: a deposit lands, and later you log into the payment app, find it, match it to the booking and note it down. The fix: the payment automatically generates a receipt for the customer and records itself against the right job. Rough time saved: count the minutes that little dance takes you, multiply by the payments you handle in a week, that's your figure, and a much calmer end of month on top."
-          },
-          {
-            "title": "Appointment reminders with a reschedule link",
-            "body": "The pain: you text reminders by hand, and people still forget, empty chairs you can't refill. The fix: an automatic reminder a day before, with a one-tap link to reschedule rather than ghost you. Rough time saved: the reminders themselves, plus the slots you'd otherwise lose. For most appointment-led businesses, this is one of the biggest levers on no-shows."
-          },
-          {
-            "title": "A review request after the job is done",
-            "body": "The pain: you mean to ask happy customers for a review, then the moment passes. The fix: a short, friendly message goes out automatically a little after a completed visit, with the link right there. Rough time saved: minutes per customer, and a steady trickle of reviews instead of none."
-          },
-          {
-            "title": "Low-stock and supplier alerts",
-            "body": "The pain: you run out of something mid-week and only notice when you reach for it. The fix: when stock drops below a level you set, you get a nudge, or the reorder drafts itself. Rough time saved: the emergency dash to the wholesaler, and the sales you'd lose without the stock."
-          },
-          {
-            "title": "An end-of-day or weekly summary",
-            "body": "The pain: you have no clear picture of what actually came in without digging through four apps. The fix: one tidy summary, bookings, enquiries, payments, reviews, lands in your inbox each evening or every Friday. Rough time saved: the digging, plus the clarity to spot a quiet week before it bites."
-          }
-        ]
-      },
-      {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Don't try to switch on all seven at once. Pick the one job that annoyed you most this week, probably the reminders or the missed enquiries, and automate just that. Once it's quietly working in the background, you'll happily reach for the next one."
-      },
-      {
-        "type": "p",
-        "text": "Reminders and reschedule links deserve special attention because they protect money you've already half-earned. We go deeper on the timing and wording in [how to reduce no-shows at a salon or clinic](~/blog/reduce-no-shows-salon-clinic), the same approach works for a garage, a barber or a physio."
-      },
-      {
-        "type": "h2",
-        "text": "When glue is enough, and when you need a custom tool"
-      },
-      {
-        "type": "p",
-        "text": "For most of the seven above, off-the-shelf tools connected together, the \"glue\" approach, will do the job nicely and cheaply. The trouble starts when your workflow has a quirk the standard tools can't quite handle: a pricing rule that's yours alone, a booking flow with three steps no template expects, or data scattered across systems that refuse to speak the same language."
-      },
-      {
-        "type": "quote",
-        "text": "Glue works until your business stops looking like everyone else's, and good local businesses rarely look like everyone else's.",
-        "cite": "the Kodable team"
-      },
-      {
-        "type": "p",
-        "text": "That's the point where a tool built around your actual process beats a stack of plugins held together with hope. We cover how to tell the difference in [custom software versus off-the-shelf](~/blog/custom-software-vs-off-the-shelf), so you spend on the bespoke build only where it genuinely earns its keep, and use the cheap, ready-made route everywhere else."
-      },
-      {
-        "type": "h2",
-        "text": "Where to start without overthinking it"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Write down the three jobs you do by hand most often. Those are your first three automations.",
-          "Add up roughly what each one costs you, minutes per week times your hourly worth, or the value of one missed enquiry.",
-          "Start with the automation that either saves the most time or plugs the most expensive leak.",
-          "Let it run for a fortnight before adding the next, so each one settles into your day."
-        ]
-      },
-      {
-        "type": "p",
-        "text": "You don't need to understand the wiring, and you certainly don't need to write any code. The whole idea is that your tools do the dull handoffs while you get on with the work you're actually good at. If you'd like a hand spotting which of these would save you the most, take a look at [what we do with automations](~/services/automations), and the easiest first step is a free 15-minute chat where we map out your weekly handoffs together and pick the one worth automating first."
-      }
-    ],
-    "image": {
-      "credit": "homethods / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/146625745@N08/32251770783"
-    }
-  },
-  {
-    "slug": "custom-software-vs-off-the-shelf",
-    "category": "Automation",
-    "categoryIcon": "layers",
-    "title": "Custom Software vs Off-the-Shelf for a Small Business: How to Decide",
-    "description": "Custom software vs off-the-shelf for a small business: a plain-English guide to spotting when you've outgrown the app you pay for, and when to build instead.",
-    "dek": "Off-the-shelf apps are built for everyone, which means they fit no one perfectly. Here's an honest way to tell whether to keep adapting to your software, or finally build something that fits.",
-    "keyword": "custom software vs off the shelf small business",
-    "author": "The Kodable team",
-    "datePublished": "2026-05-13",
-    "readMinutes": 6,
-    "takeaways": [
-      "Off-the-shelf is the smart, cheap choice when your needs are standard and the app fits how you already work.",
-      "You've outgrown it when you're gluing tools together, exporting to spreadsheets for one number, or building a workaround for every customer.",
-      "AI has made custom tools far quicker and cheaper than the old agency model, so the build cost is no longer the wall it used to be.",
-      "Decide with simple maths: the cost of the workaround times how often you do it, weighed against what a custom tool costs to build."
-    ],
-    "related": [
-      "small-business-automation-ideas",
-      "website-speed-small-business",
-      "ai-for-small-business-2026-guide"
-    ],
-    "cta": {
-      "service": "custom-tools",
-      "label": "Talk through a custom tool"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Every small business hits the same quiet moment. You open the app you pay for every month, sigh, and do the workaround you always do. Export to a spreadsheet. Copy a number across. Tell a customer \"sorry, the system won't let me do that.\" It works, just about. So the question of **custom software vs off-the-shelf for a small business** never quite gets asked. Let's ask it properly, and honestly. The truth a lot of software sellers won't tell you: off-the-shelf is usually the right call. Cheap, ready today, maintained by someone else. The trick is knowing which side of the line you're on."
-      },
-      {
-        "type": "h2",
-        "text": "When off-the-shelf is the smart, cheap choice"
-      },
-      {
-        "type": "p",
-        "text": "Off-the-shelf software exists because most businesses need most of the same things. A booking calendar, a card reader, an email tool, an accounting package. These are well-trodden ground, and you'd be daft to pay to rebuild them. If a ready-made app covers what you need and you can adapt to it without much pain, that's the win. Take it. You're in good shape with off-the-shelf when:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "Your needs are standard, the way most businesses in your trade do it.",
-          "You can adapt to the app's way of working without it slowing you down.",
-          "You're using most of what you pay for, not a thin slice of a big tool.",
-          "It plays nicely with the one or two other tools you rely on.",
-          "Setup took an afternoon, not a fortnight of fighting it."
-        ]
-      },
-      {
-        "type": "p",
-        "text": "If that's you, stop reading and go enjoy your day. Genuinely. There's no prize for building something bespoke when a €15-a-month app already does the job."
-      },
-      {
-        "type": "h2",
-        "text": "The warning signs you've outgrown it"
-      },
-      {
-        "type": "p",
-        "text": "The problem with off-the-shelf is right there in the name. It's built for everyone, which means it's built for no one in particular. For a while you don't notice. Then one day you realise the software is making you work its way instead of yours, and the little frictions have quietly become a tax on your time. Watch for these signs. One on its own is fine. Three or four together, and you've outgrown the shelf:"
-      },
-      {
-        "type": "list",
-        "items": [
-          "You pay for seats, tiers or features you never touch, just to unlock the one thing you actually use.",
-          "You've glued three or four tools together, and they only half talk to each other.",
-          "Every time you want a simple number, you export to a spreadsheet and work it out by hand.",
-          "The workflow fights how you actually run things, so your team has unofficial \"the real way\" steps.",
-          "You keep a per-customer workaround in your head, because the app can't handle how you really quote or book.",
-          "New staff need a week to learn not the job, but your tangle of tools."
+          "Create your account and **do the self-assessment now**: it is free and does not expire.",
+          "Decide **which solutions** you want to fund (website, online shop, CRM, cybersecurity).",
+          "Have **your digitiser identified** so you are not improvising on opening day."
         ]
       },
       {
         "type": "quote",
-        "text": "Off-the-shelf software is built for everyone, which is another way of saying it's built for no one in particular."
+        "text": "The voucher does not go to whoever needs it most, but to whoever shows up ready on the day it opens.",
+        "cite": "The Kodable team"
       },
       {
         "type": "h2",
-        "text": "What \"custom\" actually means now"
+        "text": "How Kodable helps"
       },
       {
         "type": "p",
-        "text": "The word \"custom\" probably brings to mind a six-month project, a five-figure quote and an agency that goes quiet halfway through. That was the old model, and no wonder small businesses steered clear. It's not the model any more. AI has made building a small, sharp tool far faster and cheaper, so custom is now a sensible option for an ordinary local business, not a luxury for big companies. It rarely means rebuilding everything. It usually means one tool that does the thing the shelf can't, shaped around how you really work. For example: a booking flow that matches your real process rather than a generic calendar; a quote calculator your customer fills in themselves so the price lands in your inbox already worked out; or a simple dashboard with only your numbers on it, no exporting, just the figure you check each morning."
+        "text": "We build exactly the kind of solutions Kit Digital subsidises: **websites that sell, online shops, AI agents, automations and custom tools** for local businesses. We help you reach opening day with everything ready, the registration, the self-assessment, and a clear plan for what to build with your voucher."
       },
       {
         "type": "p",
-        "text": "It sits alongside your existing tools rather than replacing the lot. You keep the off-the-shelf accounting and the card reader, and build only the bit that's costing you. If automating the repetitive grind is on your mind too, our [automations and integrations](~/services/automations) work pairs neatly with this thinking."
+        "text": "An honest note on the fine print: for the voucher to pay the invoice, the solution must be delivered by an **agente digitalizador from the official catalogue**. We walk the whole path with you (design, build and launch) and guide you to the right digitiser when the moment comes. No promises we can't keep."
       },
       {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Before you build anything, spend a week noting every time you say \"the system won't let me\" or open a spreadsheet to fix something. That little list is your real spec. It's worth more than any feature wishlist."
+        "type": "cta",
+        "title": "Get ready for your Kit Digital",
+        "body": "Tell us about your business in a 15-minute call. We'll tell you what you can fund and leave your application ready for when your call opens.",
+        "button": "Talk to us"
       },
       {
         "type": "h2",
-        "text": "A simple way to decide: do the maths"
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Do you have to pay Kit Digital back?"
       },
       {
         "type": "p",
-        "text": "You don't need a consultant for this. You need a back-of-an-envelope sum. Weigh the cost of the workaround against the cost of building something that removes it."
+        "text": "No. It is a subsidy, not a loan. If you meet the conditions and justify the solution, there is nothing to repay."
       },
       {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Price the workaround",
-            "body": "How long does the manual faff take each time? Ten minutes of exporting and copying? Put a rough euro value on your time, say €30 an hour, so ten minutes is around €5."
-          },
-          {
-            "title": "Multiply by how often",
-            "body": "Do it twice a day, five days a week, and that's €50 a week. Over a year you're spending more than €2,500, and a lot of patience, on one workaround."
-          },
-          {
-            "title": "Compare to the build",
-            "body": "Now ask what a small custom tool to kill that task would cost to build and run. If the workaround costs more over a year than the tool costs to build, the maths makes the decision for you."
-          }
-        ]
+        "type": "h3",
+        "text": "How much can a freelancer with no employees claim?"
       },
       {
         "type": "p",
-        "text": "The same logic catches the other direction. If the workaround costs you €40 a year in mild annoyance, don't build a thing. Keep the spreadsheet. Honest maths protects you from over-engineering just as much as from putting up with a bad fit. Before you commit, run through a few questions: Is this a real, repeated cost or a one-off annoyance? Could a setting or a different plan fix it for free? What's the single most painful task I'd want gone first? Will it still fit how I work in a year? And who maintains it when my business changes?"
+        "text": "A freelancer in Segment III (0–2 employees) can receive up to **€3,000** in digital voucher."
+      },
+      {
+        "type": "h3",
+        "text": "Can I choose any company to build my website?"
       },
       {
         "type": "p",
-        "text": "So that's the honest version. Stick with off-the-shelf while it fits, and don't let anyone talk you out of a good, cheap app that does the job. Speed matters too, because a clunky custom tool helps no one. The same care that goes into a [fast-loading website](~/services/websites) belongs in any tool your team or customers touch. But when you're paying a daily tax in workarounds, a small [custom tool built around how you really work](~/services/custom-tools) can pay for itself faster than you'd expect. If you're not sure which side of the line you're on, that's exactly the kind of thing worth talking through. A free 15-minute chat is usually enough to point you the right way, with no obligation and no jargon."
+        "text": "Only if it is registered as an **agente digitalizador** in the official Red.es catalogue. The funded solution must be delivered by an approved digitiser."
+      },
+      {
+        "type": "h3",
+        "text": "Is the application window open right now?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on the call and the moment. The framework has been reactivated since 2026 and runs until funds are exhausted; check the status on [sede.red.gob.es](https://sede.red.gob.es) and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
       }
-    ],
-    "image": {
-      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
-    }
-  },
-  {
-    "slug": "ai-for-small-business-2026-guide",
-    "category": "AI Strategy",
-    "categoryIcon": "spark",
-    "title": "AI for Small Business 2026: A Plain-English Guide (No Hype)",
-    "description": "A calm AI for small business 2026 guide for local owners: what AI really means, the four places it pays off first, and how to start without risk.",
-    "dek": "Forget the hype and the doom. For a local business, AI is just a handful of practical tools that save you time and win you customers, and you can start with one small fix.",
-    "keyword": "AI for small business 2026 guide",
-    "author": "The Kodable team",
-    "datePublished": "2026-01-14",
-    "readMinutes": 6,
-    "takeaways": [
-      "AI for a corner business is not a robot takeover. It is a set of tools that get you found, answer people instantly, and clear the busywork off your desk.",
-      "Four places it pays off first: a fast modern site, an assistant that replies 24/7, automated admin, and custom tools when apps stop fitting.",
-      "AI will not replace your craft or your judgement. It needs your knowledge to sound like you, and it still makes mistakes, so keep a human in the loop.",
-      "Start with the one leak that costs you most. Fix that first, keep it simple, and grow from there."
-    ],
-    "related": [
-      "ai-agents-after-hours-bookings",
-      "local-seo-near-me-2026",
-      "small-business-automation-ideas"
-    ],
-    "cta": {
-      "service": null,
-      "label": "Book a free 15-minute chat"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "You have probably been told that AI will either save your business or end it. Both stories are exhausting, and neither is true for a café, a salon or a plumbing round. This **AI for small business 2026 guide** is the calm version: what these tools actually do for a local owner, where they pay off first, what they can't do, and how to start with one small step instead of a leap. No jargon, no doom, no promises about robots."
-      },
-      {
-        "type": "h2",
-        "text": "What does \"AI\" actually mean for a corner business?"
-      },
-      {
-        "type": "p",
-        "text": "Strip away the headlines and it comes down to one thing: software that can now read, write and answer in plain language, almost like a person would. A computer used to need a tidy form and an exact button. Now it can read a customer's messy late-night message, understand it, and reply sensibly in your tone of voice. For you, that turns into three everyday jobs. It can **help people find you**, **answer them instantly**, and **take the repetitive admin off your plate**. You don't operate \"an AI\". You use tools that happen to have it under the bonnet, the same way your card machine has chips inside it you never think about."
-      },
-      {
-        "type": "quote",
-        "text": "AI is not a thing you buy. It is a quiet assistant inside the tools you already wish worked better.",
-        "cite": "How we explain it to owners"
-      },
-      {
-        "type": "h2",
-        "text": "The four places it pays off first"
-      },
-      {
-        "type": "p",
-        "text": "You don't need all of this, and certainly not at once. These are simply the four spots where a local business usually feels the difference fastest, and most owners start with whichever one is leaking the most money right now. **First, getting found with a fast modern site.** When someone nearby reaches for their phone, you want to be the result they tap and the page that loads before they lose patience. As a mobile page goes from one second to three seconds to load, the chance a visitor gives up and bounces climbs by around 32%, according to Google. A modern site, well structured so search engines and AI tools can understand it, is the foundation everything else sits on. We go deeper in our guide to [showing up in \"near me\" searches](~/blog/local-seo-near-me-2026), and it's the heart of how we build [websites](~/services/websites)."
-      },
-      {
-        "type": "stat",
-        "value": "~32%",
-        "label": "more likely a visitor bounces as a mobile page goes from 1 to 3 seconds to load",
-        "source": "Google"
-      },
-      {
-        "type": "p",
-        "text": "**Second, answering everyone instantly, day or night.** This is where AI earns its keep most clearly. An assistant can reply to enquiries on your website or WhatsApp the moment they arrive, answer the same questions you're tired of typing, and book people in while you're elbow-deep in a job or fast asleep. Speed of reply matters enormously: businesses that respond to a new enquiry within about five minutes are dramatically more likely to actually reach and qualify that lead than those who wait half an hour, per the Lead Response Management study (InsideSales / MIT). A message missed at 9pm is often a booking your competitor picks up by morning. See how this works in our piece on [winning after-hours bookings](~/blog/ai-agents-after-hours-bookings) and our [AI assistants](~/services/ai-agents)."
-      },
-      {
-        "type": "stat",
-        "value": "~5 min",
-        "label": "reply window that makes you far likelier to reach and qualify a new enquiry than waiting 30 minutes",
-        "source": "the Lead Response Management study (InsideSales / MIT)"
-      },
-      {
-        "type": "p",
-        "text": "**Third, automating the busywork.** Think of the small jobs that eat your evenings: chasing a confirmation, sending the same booking reminder, copying details from an email into your calendar, following up on a quote. These chores can run themselves quietly in the background, and we collected practical starting points in our list of [automation ideas for small businesses](~/blog/small-business-automation-ideas), which is what our [automations](~/services/automations) are built around. **Fourth, custom tools when you outgrow the apps.** Eventually you may hit a different wall: paying for five subscriptions that don't talk to each other, or a daily copy-paste dance no app quite covers. That's when a simple, made-to-measure tool starts to make sense, built around how you actually work. If you've hit that wall, that's what [custom tools](~/services/custom-tools) are for."
-      },
-      {
-        "type": "callout",
-        "title": "A tip from Kodable",
-        "body": "Don't try to \"do AI\". Pick the single moment a customer slips through your fingers most often, the unanswered message, the slow page, the forgotten follow-up, and fix just that. One leak, plugged well, beats ten half-finished gadgets."
-      },
-      {
-        "type": "h2",
-        "text": "What AI is not (the honest part)"
-      },
-      {
-        "type": "p",
-        "text": "This matters as much as the upside, so we'll be straight with you. AI is genuinely useful, but it is not magic, and anyone selling it as magic is selling you something."
-      },
-      {
-        "type": "list",
-        "items": [
-          "It won't replace your craft. A tool can book the table; it can't cook the meal, cut the hair or fix the boiler. The thing you're actually good at is still entirely yours.",
-          "It won't replace your judgement. It can draft a reply or flag an odd booking, but the calls that matter, the awkward customer, the tricky quote, are yours to make.",
-          "It needs your knowledge to sound like you. An assistant only knows your prices, your hours and your way of speaking because you taught it. Out of the box it's a generic bot; with your input it sounds like your business.",
-          "It makes mistakes. Now and then it'll get something wrong or confidently say something daft. That's normal, and it's exactly why you keep a person in the loop on anything important."
-        ]
-      },
-      {
-        "type": "h2",
-        "text": "How to start, without the risk"
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Find your biggest leak",
-            "body": "Where do people most often slip away? Unanswered evening messages? A site that loads slowly on a phone? Quotes that never get followed up? Pick the one that costs you the most."
-          },
-          {
-            "title": "Fix that one thing first",
-            "body": "Resist the urge to overhaul everything. Solve a single, real problem properly. You'll feel the result and learn what's worth doing next."
-          },
-          {
-            "title": "Keep a human in the loop",
-            "body": "Let the tool handle the routine and the after-hours rush, but make sure anything sensitive, a complaint, an unusual request, lands with you."
-          },
-          {
-            "title": "Grow only when it earns it",
-            "body": "Add the next piece once the first has clearly paid for itself. Small, proven steps beat one expensive leap every time."
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "text": "A fair word on cost and privacy too. Good tools should save you more than they cost, in time and in bookings won, or they're not worth keeping. Customer data should be handled carefully and kept to what's genuinely needed. And a human, you, should always be able to step in. If all of this still feels like a lot, that's exactly why we keep the first step tiny. The simplest way to find your biggest leak is to talk it through with someone who's plugged a hundred of them, and a free 15-minute chat, no jargon and no obligation, is usually enough to see clearly where AI would actually help your business, and where it honestly wouldn't."
-      }
-    ],
-    "image": {
-      "credit": "homethods / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/146625745@N08/33067431515"
-    }
-  },
-  {
-    "slug": "cost-of-missed-calls",
-    "category": "AI Strategy",
-    "categoryIcon": "spark",
-    "title": "The Real Cost of Missed Calls for a Small Business",
-    "description": "Work out the true cost of missed calls for your small business with a simple sum using your own numbers, then see the cheapest ways to plug the leak.",
-    "dek": "Every unanswered call or unread message is an average job walking next door. Here's a transparent way to put a yearly figure on it, using your numbers, not ours.",
-    "keyword": "cost of missed calls small business",
-    "author": "The Kodable team",
-    "datePublished": "2026-05-27",
-    "readMinutes": 6,
-    "takeaways": [
-      "A missed enquiry isn't zero, it's the value of an average job going to a competitor instead.",
-      "The sum is simple: enquiries missed per week × your close rate × average job value × 52.",
-      "Most callers don't leave a voicemail or wait. They just ring the next business on Google.",
-      "The cheapest fix is an instant reply; the better one is an assistant that actually handles the enquiry."
-    ],
-    "related": [
-      "ai-agents-after-hours-bookings",
-      "whatsapp-ai-assistant-restaurants",
-      "local-seo-near-me-2026"
-    ],
-    "cta": {
-      "service": "ai-agents",
-      "label": "Stop missing enquiries"
-    },
-    "body": [
-      {
-        "type": "p",
-        "text": "Here's an uncomfortable thought. The phone rings while you're elbow-deep in a job, serving a table, or fast asleep at 11pm. It rings out. To you, that feels like nothing happened. But the person on the other end had money in their hand and a problem to solve, and they've just moved on to the next name on the list."
-      },
-      {
-        "type": "p",
-        "text": "Most owners never add this up. They assume a missed call is a zero. It isn't. The real **cost of missed calls for a small business** is the value of an average job, multiplied by how often it happens, multiplied by 52 weeks. Once you actually do that sum, the number tends to land like a cold glass of water. Let's do it together, honestly, with your figures."
-      },
-      {
-        "type": "h2",
-        "text": "What does a missed call actually cost a small business?"
-      },
-      {
-        "type": "p",
-        "text": "You don't need a spreadsheet or a consultant. You need four numbers you already know in your gut: how many enquiries you miss in a normal week (calls that ring out, messages you see hours later, the WhatsApp at 9pm you reply to at 9am); your close rate (of the people you do reach, how many turn into paying work, one in three is common); your average job value (what a typical customer is worth when they say yes); and 52, because we want the yearly picture, not a single quiet Tuesday. Now multiply: **enquiries missed per week × close rate × average job value × 52**. No clever maths, no inflated industry averages, just your own business reflected back at you."
-      },
-      {
-        "type": "h2",
-        "text": "A worked example (swap in your own numbers)"
-      },
-      {
-        "type": "p",
-        "text": "Say you miss 6 enquiries in an average week. That's not a disaster of a business, that's a normal week for a busy plumber, a popular cafe, or a salon mid-appointment. You close one in three of the people you actually reach, and your average job is worth €90."
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "Missed enquiries a year",
-            "body": "6 a week × 52 weeks = 312 enquiries you never properly answered."
-          },
-          {
-            "title": "How many would have said yes",
-            "body": "312 × one-in-three close rate = 104 jobs."
-          },
-          {
-            "title": "What those jobs were worth",
-            "body": "104 jobs × €90 = €9,360 a year, give or take, walking out the door."
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "text": "Roughly nine and a half thousand euros. From a leak you'd have sworn was nothing. And we were gentle with the figures, many owners miss more than six a week, and plenty have an average job worth far more than €90. Run your real numbers before you decide this doesn't apply to you."
-      },
-      {
-        "type": "quote",
-        "text": "A missed call isn't a quiet moment in your day. It's an average job, paid in full, going to the business that picked up.",
-        "cite": "The honest version most owners never calculate"
-      },
-      {
-        "type": "h2",
-        "text": "Why do calls get missed, and why callers don't wait"
-      },
-      {
-        "type": "p",
-        "text": "Not because you're careless. Because you're working. You were serving someone in front of you, who comes first. It was after hours, or the one evening you switched off. You were on a job with your hands full and your phone in the van. Or you were asleep, because you're a human being and not a 24-hour call centre. None of that is a failing, but the customer doesn't see your reason. They just see silence, and silence has a cost. People searching for a local business right now are ready to act, and they're impatient. They rarely leave a voicemail, and rarely try twice. They tap back to Google and ring the next result, your competitor, two streets over."
-      },
-      {
-        "type": "p",
-        "text": "Speed is the whole game, and the data is brutal about it. The Lead Response Management study (InsideSales / MIT) found that replying within about five minutes makes you roughly 100 times likelier to reach a new lead, and around 21 times likelier to qualify them, than waiting half an hour. So the missed enquiry and the slow reply are really the same problem wearing two hats. A call you return three hours later is, for most local buyers, a call you didn't return at all."
-      },
-      {
-        "type": "stat",
-        "value": "~5 min",
-        "label": "reply within five minutes and you're roughly 100x likelier to reach a new lead, and ~21x likelier to qualify them, than waiting 30 minutes",
-        "source": "the Lead Response Management study (InsideSales / MIT)"
-      },
-      {
-        "type": "h2",
-        "text": "The cheapest fixes, ranked honestly"
-      },
-      {
-        "type": "steps",
-        "steps": [
-          {
-            "title": "An instant auto-reply",
-            "body": "The bare minimum, and nearly free. A missed call or message triggers an immediate text or WhatsApp: 'Thanks for getting in touch, we'll be right back with you.' It buys you time and tells the caller they've been heard, so they're far less likely to ring the next name. It doesn't book the job, but it stops the bleeding."
-          },
-          {
-            "title": "A trained assistant that actually handles it",
-            "body": "The real fix. Instead of just saying 'we'll get back to you', an AI assistant answers the question, gives the price range, checks availability and books the slot, in your voice, around the clock. The enquiry that came in at midnight is a confirmed booking by the time you wake up, not a missed call you'll never know about."
-          }
-        ]
-      },
-      {
-        "type": "p",
-        "text": "If most of your missed enquiries land after you've closed, an assistant that captures and books [after-hours bookings while you sleep](~/blog/ai-agents-after-hours-bookings) is where the money is hiding. And if your customers reach you mainly on WhatsApp, as they increasingly do, a [WhatsApp assistant that replies instantly and takes bookings](~/blog/whatsapp-ai-assistant-restaurants) catches the enquiries a missed call never would."
-      },
-      {
-        "type": "callout",
-        "title": "A quick tip from Kodable",
-        "body": "Before you change anything, keep a tally for one week. Every call you don't reach and every message you reply to late, just a tick on a notepad by the till or in the van. Multiply it out at the weekend. That single honest number tends to decide the matter faster than any sales pitch ever could."
-      },
-      {
-        "type": "p",
-        "text": "The reassuring bit: you don't touch any code, and you don't need to understand how it works. The assistant sounds like you, not a generic robot, and it picks up the enquiries you simply can't, when your hands are full or your eyes are shut. The work it saves usually pays for itself against the very first jobs it rescues. If you've done the sum and the yearly figure stung a little, that sting is your business telling you where the easy money is, and the fix is smaller than the leak. The best place to start is a free 15-minute chat, we'll work through your real numbers together and show you exactly what an [assistant built for your business](~/services/ai-agents) would catch."
-      }
-    ],
-    "image": {
-      "credit": "CoreForce / Flickr (CC BY 2.0)",
-      "creditUrl": "https://www.flickr.com/photos/58441544@N00/413042340"
-    }
+    ]
   }
 ]

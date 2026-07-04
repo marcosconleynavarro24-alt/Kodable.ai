@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <text x="40" y="56" font-size="30" font-weight="800" fill="#16221f" letter-spacing="-1">En qué puedes invertir el bono digital</text>
+  <text x="40" y="90" font-size="19" fill="#4b5c56">Categorías de soluciones subvencionables del catálogo oficial.</text>
+
+  <!-- tiles: 3 cols x 4 rows -->
+  <g>
+    <!-- row 1 -->
+    <rect x="40" y="118" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="72" cy="170" r="8" fill="#0e8266"/>
+    <text x="96" y="164" font-size="18" font-weight="700" fill="#16221f">Sitio web y</text>
+    <text x="96" y="188" font-size="18" font-weight="700" fill="#16221f">presencia en internet</text>
+
+    <rect x="353" y="118" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="385" cy="170" r="8" fill="#0e8266"/>
+    <text x="409" y="176" font-size="18" font-weight="700" fill="#16221f">Comercio electrónico</text>
+
+    <rect x="666" y="118" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="698" cy="170" r="8" fill="#0e8266"/>
+    <text x="722" y="164" font-size="18" font-weight="700" fill="#16221f">Gestión de</text>
+    <text x="722" y="188" font-size="18" font-weight="700" fill="#16221f">redes sociales</text>
+
+    <!-- row 2 -->
+    <rect x="40" y="244" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="72" cy="296" r="8" fill="#0e8266"/>
+    <text x="96" y="290" font-size="18" font-weight="700" fill="#16221f">Cliente y ventas</text>
+    <text x="96" y="314" font-size="18" font-weight="700" fill="#16221f">(CRM)</text>
+
+    <rect x="353" y="244" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="385" cy="296" r="8" fill="#0e8266"/>
+    <text x="409" y="290" font-size="18" font-weight="700" fill="#16221f">Business Intelligence</text>
+    <text x="409" y="314" font-size="18" font-weight="700" fill="#16221f">y analítica</text>
+
+    <rect x="666" y="244" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="698" cy="296" r="8" fill="#0e8266"/>
+    <text x="722" y="290" font-size="18" font-weight="700" fill="#16221f">Gestión de procesos</text>
+
+    <!-- row 3 -->
+    <rect x="40" y="370" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="72" cy="422" r="8" fill="#0e8266"/>
+    <text x="96" y="416" font-size="18" font-weight="700" fill="#16221f">Factura</text>
+    <text x="96" y="440" font-size="18" font-weight="700" fill="#16221f">electrónica</text>
+
+    <rect x="353" y="370" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="385" cy="422" r="8" fill="#0e8266"/>
+    <text x="409" y="416" font-size="18" font-weight="700" fill="#16221f">Oficina virtual y</text>
+    <text x="409" y="440" font-size="18" font-weight="700" fill="#16221f">colaboración</text>
+
+    <rect x="666" y="370" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="698" cy="422" r="8" fill="#0e8266"/>
+    <text x="722" y="416" font-size="18" font-weight="700" fill="#16221f">Comunicaciones</text>
+    <text x="722" y="440" font-size="18" font-weight="700" fill="#16221f">seguras</text>
+
+    <!-- row 4 -->
+    <rect x="40" y="496" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="72" cy="548" r="8" fill="#0e8266"/>
+    <text x="96" y="554" font-size="18" font-weight="700" fill="#16221f">Ciberseguridad</text>
+
+    <rect x="353" y="496" width="293" height="104" rx="16" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="385" cy="548" r="8" fill="#0e8266"/>
+    <text x="409" y="542" font-size="18" font-weight="700" fill="#16221f">Puesto de</text>
+    <text x="409" y="566" font-size="18" font-weight="700" fill="#16221f">trabajo seguro</text>
+
+    <rect x="666" y="496" width="293" height="104" rx="16" fill="#fbf0e3" stroke="#eccfa6"/>
+    <circle cx="698" cy="548" r="8" fill="#a85a12"/>
+    <text x="722" y="542" font-size="18" font-weight="700" fill="#8a4a0f">Inteligencia Artificial</text>
+    <text x="722" y="566" font-size="15" font-weight="600" fill="#a85a12">próximamente en el catálogo</text>
+  </g>
+</svg>

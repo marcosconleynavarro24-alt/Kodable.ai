@@ -292,6 +292,15 @@ function emailAddress(from: string): string {
   const m = from.match(/<([^>]+)>/);
   return m ? m[1] : from;
 }
+// RFC 5545 parameter value (used for the ATTENDEE CN). Strip CR/LF so a crafted
+// booking name can't inject extra iCalendar lines/properties, and double-quote
+// the value if it contains : ; or , (the parameter delimiters).
+function icsParam(v: string): string {
+  const clean = v
+    .replace(/[\r\n]+/g, " ")
+    .replace(/"/g, "'");
+  return /[:;,]/.test(clean) ? `"${clean}"` : clean;
+}
 function fmtUtc(d: Date): string {
   return d.toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
 }
@@ -329,7 +338,7 @@ function buildIcs(b: Booking, fromAddr: string): string {
     `DESCRIPTION:${desc}`,
     "LOCATION:Online / WhatsApp",
     `ORGANIZER;CN=Kodable.ai:mailto:${emailAddress(fromAddr)}`,
-    b.email ? `ATTENDEE;CN=${b.name};RSVP=TRUE:mailto:${b.email}` : "",
+    b.email ? `ATTENDEE;CN=${icsParam(b.name)};RSVP=TRUE:mailto:${b.email}` : "",
     "STATUS:CONFIRMED",
     "BEGIN:VALARM",
     "TRIGGER:-P1D",

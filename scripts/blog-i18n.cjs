@@ -57,6 +57,10 @@ function extractSlots(post) {
       case "stat":
         add(["body", bi, "label"], b.label); // value + source stay English
         break;
+      case "figure":
+        add(["body", bi, "alt"], b.alt); // src stays language-neutral
+        if (b.caption != null) add(["body", bi, "caption"], b.caption);
+        break;
       case "quote":
         add(["body", bi, "text"], b.text);
         if (b.cite != null) add(["body", bi, "cite"], b.cite);

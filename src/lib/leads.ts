@@ -199,7 +199,15 @@ export async function readLeads(): Promise<Lead[]> {
 
 export function leadsToCsv(leads: Lead[]): string {
   const cols = ["receivedAt", "name", "business", "email", "phone", "services", "locale", "message"] as const;
-  const cell = (v: string) => `"${v.replace(/"/g, '""')}"`;
+  // Quote every cell and guard against CSV/formula injection: a value starting
+  // with = + - @ (or a control char a spreadsheet treats as a formula lead-in) is
+  // prefixed with a single quote so Excel/Sheets render it as text, not a formula.
+  // Without this, a lead could submit `=HYPERLINK(...)` / `=cmd|...` and have it
+  // execute on the owner's machine when they open the export.
+  const cell = (v: string) => {
+    const safe = /^[=+\-@\t\r\n]/.test(v) ? `'${v}` : v;
+    return `"${safe.replace(/"/g, '""')}"`;
+  };
   const head = cols.join(",");
   const rows = leads.map((l) =>
     cols

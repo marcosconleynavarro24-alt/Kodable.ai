@@ -8,7 +8,7 @@ import data_de from "./blog-data.de.json";
 import data_it from "./blog-data.it.json";
 
 // ── Types ────────────────────────────────────────────────────────────────
-export type BlogCategory = "AI Agents" | "Getting Found" | "Automation" | "AI Strategy" | "Funding";
+export type BlogCategory = "AI Agents" | "Getting Found" | "Automation" | "AI Strategy";
 
 // Article body is a list of typed blocks, rendered by the post page. Paragraph
 // text may contain **bold** and inline links written as [anchor](~/path), where
@@ -22,7 +22,6 @@ export type BlogBlock =
   | { type: "callout"; title: string; body: string }
   | { type: "stat"; value: string; label: string; source?: string }
   | { type: "quote"; text: string; cite?: string }
-  | { type: "figure"; src: string; alt: string; caption?: string }
   | { type: "cta"; title: string; body: string; button?: string };
 
 export interface BlogPost {
@@ -40,7 +39,6 @@ export interface BlogPost {
   related: string[]; // other post slugs
   cta: { service: ServiceSlug | null; label: string };
   image?: { credit: string; creditUrl: string };
-  ogImage?: string; // social-card image filename in /public/blog (use when the lead is a figure, not a hero)
   body: BlogBlock[];
 }
 

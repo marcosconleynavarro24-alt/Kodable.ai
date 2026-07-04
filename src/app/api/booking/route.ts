@@ -17,9 +17,18 @@ import { recordEvent } from "@/lib/events";
 export const dynamic = "force-dynamic";
 
 function clientIp(request: Request): string {
+  // Prefer x-real-ip: on Vercel the platform sets it to the true client IP and
+  // overwrites any client-supplied value, so it can't be spoofed to dodge the
+  // rate limiter. x-forwarded-for's LEFTMOST entry is attacker-controlled, so if
+  // we fall back to it we take the LAST hop (the one the proxy appended).
+  const real = request.headers.get("x-real-ip");
+  if (real) return real.trim();
   const fwd = request.headers.get("x-forwarded-for");
-  if (fwd) return fwd.split(",")[0].trim();
-  return request.headers.get("x-real-ip") ?? "unknown";
+  if (fwd) {
+    const hops = fwd.split(",").map((s) => s.trim()).filter(Boolean);
+    if (hops.length) return hops[hops.length - 1];
+  }
+  return "unknown";
 }
 
 export async function GET(request: Request) {

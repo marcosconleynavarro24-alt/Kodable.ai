@@ -34,6 +34,26 @@ const SERVICE_REDIRECT_RE = new RegExp(
   `^/(?:(${locales.join("|")})/)?services/([^/]+)/?$`,
 );
 
+// Blog posts removed in the Kit Digital relaunch (the original 10 launch posts).
+// Their URLs 301 to the blog index so any indexed equity / inbound links survive
+// instead of hitting a 404.
+const REMOVED_BLOG_SLUGS = new Set([
+  "ai-agents-after-hours-bookings",
+  "whatsapp-ai-assistant-restaurants",
+  "reduce-no-shows-salon-clinic",
+  "local-seo-near-me-2026",
+  "website-speed-small-business",
+  "get-recommended-by-ai-chatgpt",
+  "small-business-automation-ideas",
+  "custom-software-vs-off-the-shelf",
+  "ai-for-small-business-2026-guide",
+  "cost-of-missed-calls",
+]);
+
+const BLOG_REDIRECT_RE = new RegExp(
+  `^/(?:(${locales.join("|")})/)?blog/([^/]+)/?$`,
+);
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -46,6 +66,14 @@ export function proxy(request: NextRequest) {
       request.nextUrl.pathname = `/${locale}${target}`;
       return NextResponse.redirect(request.nextUrl, 301);
     }
+  }
+
+  // 1b) Removed blog post → blog index (301), preserving any link equity.
+  const blog = pathname.match(BLOG_REDIRECT_RE);
+  if (blog && REMOVED_BLOG_SLUGS.has(blog[2])) {
+    const locale = blog[1] ?? getLocale(request);
+    request.nextUrl.pathname = `/${locale}/blog`;
+    return NextResponse.redirect(request.nextUrl, 301);
   }
 
   // 2) Locale routing: prefix un-prefixed paths with the best-matching locale.

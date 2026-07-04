@@ -1,0 +1,1274 @@
+[
+  {
+    "slug": "ai-agents-after-hours-bookings",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Por qué pierdes reservas fuera de horario (y cómo lo soluciona un agente de IA)",
+    "description": "Tus clientes deciden a las 9 de la noche, pero tú ya has cerrado. Así es como un agente de IA para reservas de pequeños negocios responde al instante, reserva la cita y suena como tú.",
+    "dek": "La mayoría de tus clientes deciden dónde gastar su dinero mucho después de que tú te hayas ido a casa. Aquí te contamos a dónde van en realidad esas consultas tranquilas de la tarde, y cómo un agente de IA bien entrenado consigue que sigan siendo tuyas.",
+    "keyword": "AI agent for small business bookings",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-02-04",
+    "readMinutes": 6,
+    "takeaways": [
+      "Las consultas llegan cuando no puedes responder: por las tardes, los fines de semana y en plena jornada mientras atiendes a otra persona.",
+      "Un mensaje sin respuesta rara vez espera, simplemente se va al siguiente negocio de los resultados de búsqueda.",
+      "Un agente de IA responde al instante con tu voz, reserva la cita y te deja a ti lo más delicado.",
+      "Empezar es algo pequeño: una charla de 15 minutos para mapear tus preguntas más habituales, no un gran proyecto tecnológico."
+    ],
+    "related": [
+      "whatsapp-ai-assistant-restaurants",
+      "reduce-no-shows-salon-clinic",
+      "cost-of-missed-calls"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Mira cómo funcionan los agentes de IA"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Esta es la verdad incómoda sobre un pequeño negocio local: estás abierto muchas menos horas de las que tus clientes pasan decidiendo dónde gastar su dinero. Hay alguien sentado en el sofá a las 9 de la noche, móvil en mano, eligiendo qué peluquería reservar, a qué fontanero llamar, qué restaurante probar el sábado. Tú tienes la persiana bajada. Su decisión no."
+      },
+      {
+        "type": "p",
+        "text": "No es una historia sobre que estés haciendo algo mal. No puedes coger el teléfono mientras cortas el pelo, emplatas un plato o estás subido a una escalera. El problema es más sencillo y más frustrante que eso: **las consultas que más importan suelen llegar justo en los momentos en que no puedes atenderlas.** Un [agente de IA para reservas de pequeños negocios](~/services/ai-agents) está hecho precisamente para esos momentos: el mensaje de la tarde y el aviso en plena jornada que, de otra forma, verías horas demasiado tarde."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cuándo llegan en realidad las consultas?"
+      },
+      {
+        "type": "p",
+        "text": "No a las 11 de la mañana de un martes tranquilo, cuando tienes un minuto libre. Llegan cuando la vida deja a la gente pensar en sí misma: cuando los niños ya están acostados, un domingo por la tarde, en la pausa de la comida o justo en mitad de tu jornada más ajetreada. Cuanto peor es tu momento, mejor es el suyo. Y, según Google, la mayoría de las personas que buscan algo cerca desde el móvil visita un negocio relacionado en el plazo de un día, así que la ventana para ganártelas es corta."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Por las tardes y bien entrada la noche, cuando la gente por fin se sienta a planificar su semana",
+          "Los fines de semana, cuando no hay nadie en la oficina para coger el teléfono",
+          "Mientras ya estás atendiendo a otro cliente y, físicamente, no puedes contestar",
+          "En una búsqueda rápida desde el móvil, donde esperan respuesta en segundos, no a la mañana siguiente"
+        ]
+      },
+      {
+        "type": "stat",
+        "value": "76%",
+        "label": "de las personas que buscan algo cerca desde el móvil visita un negocio relacionado en el plazo de un día",
+        "source": "Google (Think with Google)"
+      },
+      {
+        "type": "h2",
+        "text": "¿Qué pasa con un WhatsApp, un DM o un formulario sin responder?"
+      },
+      {
+        "type": "p",
+        "text": "Nada dramático. Ese es el problema. No rebota, no se queja, no se queda educadamente en una cola esperándote. La persona simplemente abre el siguiente resultado y se lo pregunta a otro. Para cuando ves el mensaje a la mañana siguiente, muchas veces ya ha reservado en otro sitio, y nunca fue maleducada por ello. Sencillamente, siguió adelante. Aquí es donde la rapidez lo decide todo, sin hacer ruido. El estudio Lead Response Management (InsideSales / MIT) descubrió que los negocios que responden a una nueva consulta en unos cinco minutos tienen muchísimas más probabilidades de localizar y cualificar de verdad a ese cliente potencial que los que esperan media hora o más, alrededor de cien veces más probabilidades de establecer contacto. No pierdes ante un negocio mejor. Pierdes ante uno más rápido. Profundizamos en este mismo patrón con las llamadas de teléfono en [el coste real de las llamadas perdidas](~/blog/cost-of-missed-calls)."
+      },
+      {
+        "type": "quote",
+        "text": "Normalmente no pierdes la reserva ante un negocio mejor. La pierdes ante quien contestó primero.",
+        "cite": "el equipo de Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Entonces, ¿qué es un agente de IA, dicho en palabras sencillas?"
+      },
+      {
+        "type": "p",
+        "text": "Olvídate de esos robots tipo centralita que te piden pulsar el 1, luego el 2, y después decir tu número de reserva muy despacio. Esto no es eso. Un agente de IA es un asistente entrenado que vive allí donde tus clientes ya te escriben, WhatsApp, Instagram, tu web, y responde al instante con tu voz. Contesta las preguntas de cada día, recoge la reserva y solo te involucra cuando algo te necesita de verdad. Piénsalo como esa persona de sala estupenda que contratarías si pudieras clonarte, y que ese clon no durmiera nunca. Profundizamos en esto para la hostelería en nuestro artículo sobre un [asistente de IA por WhatsApp para restaurantes](~/blog/whatsapp-ai-assistant-restaurants)."
+      },
+      {
+        "type": "h2",
+        "text": "Qué puede y qué no puede hacer, y qué significa eso de 'sonar como tú'"
+      },
+      {
+        "type": "p",
+        "text": "Somos sinceros con esto, porque un agente que promete de más molesta a tus clientes y te deja en evidencia. Lo cotidiano lo borda: responder las mismas veinte preguntas que recibes cada semana, recoger una reserva directamente en tu calendario, confirmar y recordar con tacto (lo que ayuda con [las ausencias en una peluquería o clínica](~/blog/reduce-no-shows-salon-clinic)), y contestar a las 2 de la madrugada para que la consulta siga caliente a la hora del desayuno. Lo que te deja a ti son las decisiones de criterio: quejas delicadas, presupuestos que necesitan que veas el trabajo en persona y hacerle un hueco a un cliente de toda la vida. En cuanto a sonar como tú, esa es la parte que más preocupa a quien lleva un negocio, y con razón. Entrenamos al agente con tu tono, así que si tú dirías \"sin problema, pásate cuando quieras\", no dirá \"su solicitud ha sido recibida\". Tus clientes habituales no deberían notar la diferencia; los nuevos deberían sentir que ya te conocen."
+      },
+      {
+        "type": "callout",
+        "title": "Un apunte rápido de nuestra parte",
+        "body": "Un buen agente conoce los límites de su propio conocimiento. Cuando no está seguro, no debería adivinar, debería decir que te lo va a pasar a ti y luego hacerlo de verdad. Ese único hábito es lo que separa a un asistente útil de uno que te deja en evidencia."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cómo funciona un traspaso y cómo empiezas?"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Responde y reserva lo fácil",
+            "body": "Las preguntas de cada día y las reservas sencillas se resuelven en segundos, de día o de noche, sin que tú tengas que tocar nada."
+          },
+          {
+            "title": "Detecta cuándo se le queda grande",
+            "body": "Un presupuesto complicado, una queja, una petición fuera de lo común, el agente reconoce que no puede (o no debería) decidir eso por su cuenta."
+          },
+          {
+            "title": "Hace el traspaso de forma limpia",
+            "body": "Recibes un aviso claro con toda la conversación adjunta, así que retomas justo donde lo dejó, sin tener que volver a preguntarle todo al cliente."
+          },
+          {
+            "title": "Tú entras siendo tú mismo",
+            "body": "Respondes cuando tienes un momento, el cliente se siente bien atendido y nada se cuela por las grietas durante la noche."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Empezar es más pequeño de lo que crees. No necesitas aprender nada ni instalar nada complicado. El primer paso sincero es simplemente una conversación: te preguntamos sobre qué te escribe la gente más a menudo, dónde aterrizan esos mensajes y cómo te gusta sonar. A partir de ahí entrenamos al agente, tú compruebas que habla como tú, y se pone a trabajar. No tocas nada de código; la IA hace el trabajo pesado mientras tú sigues siendo la cara y el oficio. Si alguna vez has hecho una mueca al ver un WhatsApp de las 9 de la noche que no leíste hasta la tarde siguiente, ese es el hueco que estamos cerrando, y empieza con una charla gratuita de 15 minutos para mapear tus preguntas más habituales y ver si un agente se gana su sitio en tu negocio."
+      }
+    ],
+    "image": {
+      "credit": "nSeika / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/33542052@N07/8880813114"
+    }
+  },
+  {
+    "slug": "whatsapp-ai-assistant-restaurants",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Asistente de IA en WhatsApp para restaurantes: acepta reservas mientras tienes cerrado",
+    "description": "Un asistente de IA en WhatsApp para restaurantes reserva mesas las 24 horas y responde las mismas preguntas que te hacen cincuenta veces al día, así no se enfría ninguna consulta.",
+    "dek": "Tus comensales ya viven en WhatsApp. Un asistente bien entrenado convierte ese chat en una línea de reservas que nunca duerme, nunca se equivoca con la carta y sigue sonando como tu local.",
+    "keyword": "WhatsApp AI assistant for restaurants",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-02-18",
+    "readMinutes": 5,
+    "takeaways": [
+      "WhatsApp es donde ya están tus comensales, así que un asistente de reservas los encuentra sin una app que descargar ni un formulario que rellenar.",
+      "Un buen asistente se ocupa solo de las preguntas de cada día: mesa para esta noche, terraza o dentro, alérgenos, horario, aparcamiento, menú del día.",
+      "Reserva directamente en tu sistema, conoce tu carta en tiempo real y deja lo complicado (eventos grandes, prensa) en manos de una persona.",
+      "Cuando estás lleno, ofrece una lista de espera o un hueco cercano en vez de dejar que el comensal se vaya a la competencia."
+    ],
+    "related": [
+      "ai-agents-after-hours-bookings",
+      "reduce-no-shows-salon-clinic",
+      "local-seo-near-me-2026"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Consigue un asistente de WhatsApp"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Son las 22:40. La cocina está cerrada, las sillas recogidas, y te vibra el móvil: \"¿Mesa para 4 mañana a las 8? En la terraza si la tenéis.\" Lo ves por la mañana. Para entonces ya han reservado en otro sitio. Ese mensaje no era una molestia. Era una reserva, y se te escapó mientras dormías."
+      },
+      {
+        "type": "p",
+        "text": "Un **asistente de IA en WhatsApp para restaurantes** resuelve justo ese hueco. Es un asistente entrenado que vive en el número al que tus comensales ya escriben, responde en segundos a cualquier hora y convierte \"¿abrís el domingo?\" y \"¿mesa para dos esta noche?\" en reservas confirmadas, sin que toques el móvil."
+      },
+      {
+        "type": "h2",
+        "text": "¿Por qué WhatsApp, y no otra app u otro formulario?"
+      },
+      {
+        "type": "p",
+        "text": "Porque tus comensales ya están ahí. Escriben a la familia por ahí, mandan notas de voz, comparten su ubicación. Pedirles que descarguen una app de reservas o que rellenen un formulario web torpe añade fricción justo en el momento en que están listos para decidirse. WhatsApp es el camino que menos cuesta, y eso importa cuando alguien decide dónde comer en los próximos diez minutos. Así que el canal no es algo de nicho, es donde la conversación ya ocurre. Si la mayoría de tus consultas perdidas llegan después del último servicio, nuestro artículo sobre [gestionar reservas fuera de horario](~/blog/ai-agents-after-hours-bookings) profundiza en de dónde salen realmente esas mesas perdidas."
+      },
+      {
+        "type": "stat",
+        "value": "2 billion+",
+        "label": "personas usan WhatsApp en todo el mundo, y Meta informa de que bastante más de 100 millones de personas escriben a una cuenta de WhatsApp Business cada día",
+        "source": "Meta"
+      },
+      {
+        "type": "h2",
+        "text": "Las preguntas que debería resolver sin ti"
+      },
+      {
+        "type": "p",
+        "text": "Respondes el mismo puñado de preguntas cincuenta veces a la semana. Un asistente entrenado te las quita de encima, con precisión, siempre:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "\"¿Mesa para 4 esta noche?\", comprueba la disponibilidad en tiempo real y ofrece horas reales.",
+          "\"¿Terraza o dentro?\", conoce tu distribución y lo que está libre.",
+          "\"¿Tenéis opciones veganas? ¿Algún plato sin frutos secos?\", responde desde tu carta real, no a ojo.",
+          "\"¿A qué hora abrís los domingos? ¿Hay aparcamiento cerca?\", lo básico, al instante.",
+          "\"¿Tenéis menú del día? ¿Qué lleva esta semana?\", saca el que está vigente.",
+          "\"Somos 12 para un cumpleaños, ¿nos podéis coger?\", avisa de los grupos grandes, tu política de señal, y cobra la señal si se lo pides."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cómo reserva una mesa, y conoce tu carta"
+      },
+      {
+        "type": "p",
+        "text": "Esto no es un bot que dice \"ya te contestamos.\" Un asistente como Dios manda lee la petición (\"mesa para 4, mañana, 8 de la tarde, terraza\"), comprueba la disponibilidad en tiempo real contra tu calendario real y escribe la reserva directamente en el sistema que ya usas. El comensal recibe una confirmación clara; tu sistema recibe la reserva, en el mismo momento, sin reservas dobles ni sorpresas en sala a las 8."
+      },
+      {
+        "type": "p",
+        "text": "Un asistente vale lo que vale aquello con lo que se entrena. Le damos tu carta real, tu horario, la distribución de terraza y de dentro, las normas de señal y de grupos grandes, y el menú del día. Cuando cambia la carta, cambia lo que dice, así que nunca promete un plato que has quitado. Igual de importante es la voz: un chatbot genérico hace que un restaurante de barrio acogedor parezca un centro de llamadas, así que ajustamos el asistente a la forma en que realmente habla tu equipo."
+      },
+      {
+        "type": "quote",
+        "text": "El mejor cumplido que un comensal puede hacerle a tu asistente es no darse cuenta de que es un asistente.",
+        "cite": "Lo que buscamos en cada montaje"
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "Dedica diez minutos a apuntar las cinco preguntas que más respondes y tu respuesta sincera a cada una, incluidas las incómodas (\"¿se permiten perros en la terraza?\"). Esa lista corta es la mitad del entrenamiento que tu asistente necesita, y de paso detectarás huecos en tu propia información mientras la haces."
+      },
+      {
+        "type": "h2",
+        "text": "¿Qué pasa cuando tienes todo reservado, o hace falta una persona?"
+      },
+      {
+        "type": "p",
+        "text": "Un restaurante lleno es un buen problema, pero \"lo siento, estamos completos\" sigue siendo un comensal perdido si ahí termina el chat. Un asistente bien montado hace lo que haría un buen anfitrión: ofrece la siguiente mejor opción, o lo apunta en una lista de espera y le escribe en cuanto se libera una mesa. Un comensal escribe a La Parra (nombre a modo de ejemplo) a las 9 de la noche: \"¿4 personas, mañana a las 8:30?\" La respuesta: \"Las 8:30 están completas, pero tengo las 8 o las 8:45 en la terraza, las dos están preciosas en esta época. ¿Quieres que te guarde una?\" \"Las 8:45, terraza.\" \"Hecho, mesa para 4, terraza, 8:45. Nos vemos.\" Y todo mientras el dueño estaba en casa, desconectado."
+      },
+      {
+        "type": "p",
+        "text": "Hay cosas que no se deberían automatizar, eso sí, y un buen asistente lo sabe. Una cena de ensayo de boda, una consulta de prensa, un invitado con una alergia seria que quiere que una persona le tranquilice: todo eso te lo pasa con limpieza, con la conversación hasta ese punto adjunta, para que retomes donde se quedó en vez de empezar de cero. La idea nunca es sustituir tu criterio en lo que importa. Es despejar los cincuenta mensajes rutinarios para que tengas tiempo para los cinco que necesitan el toque de una persona."
+      },
+      {
+        "type": "p",
+        "text": "Bien hecho, un asistente de WhatsApp es, sin hacer ruido, una de las mejores cosas que puedes hacer por un restaurante con mucho movimiento: más rápido que cualquier línea de teléfono, despierto cuando tú no lo estás, y mucho más barato que una reserva perdida cada noche. Encaja a la perfección con que te encuentren fácilmente de entrada, que es de lo que va nuestra guía sobre [aparecer en las búsquedas \"cerca de mí\"](~/blog/local-seo-near-me-2026). Si quieres ver cómo sería esto para tu restaurante, en tu número, con tu voz, lo más fácil es empezar con una charla gratuita de 15 minutos, y antes puedes leer más sobre cómo los construimos en nuestra [página de agentes de IA](~/services/ai-agents)."
+      }
+    ],
+    "image": {
+      "credit": "Tim Sheerman-Chase / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/68932647@N00/28523922512"
+    }
+  },
+  {
+    "slug": "reduce-no-shows-salon-clinic",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Cómo reducir las ausencias en tu salón o clínica con recordatorios automáticos",
+    "description": "Reduce las ausencias en tu salón o clínica con recordatorios automáticos cercanos, reprogramación con un solo toque y una lista de espera que llena los huecos por ti.",
+    "dek": "Una ausencia es un sillón vacío que ya has pagado. Te contamos cómo una cadencia suave de recordatorios y una reprogramación fácil cierran ese hueco, sin que tengas que insistir a ningún cliente.",
+    "keyword": "reduce no-shows salon clinic automated reminders",
+    "author": "el equipo de Kodable",
+    "datePublished": "2026-03-03",
+    "readMinutes": 6,
+    "takeaways": [
+      "La mayoría de las ausencias son olvidos, no mala intención. Trata la causa, no al cliente.",
+      "La cadencia que funciona: confirma al reservar, recuerda 24 horas antes y avisa por la mañana.",
+      "Haz que reprogramar sea cuestión de un toque, así una cancelación se convierte en una nueva reserva y no en un hueco en tu día.",
+      "Un asistente puede ofrecer un hueco que se libera a tu lista de espera de forma automática, mientras tú estás con un cliente."
+    ],
+    "related": [
+      "ai-agents-after-hours-bookings",
+      "small-business-automation-ideas",
+      "whatsapp-ai-assistant-restaurants"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Reduce tus ausencias"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Habías bloqueado una hora. Preparaste la estación, mezclaste el tinte, templaste la sala. Y el sillón se quedó vacío. Ni una llamada, ni un mensaje, solo un hueco donde debería haber estado un cliente que paga. Si llevas un salón, un estudio de belleza, una consulta de fisioterapia, una clínica dental o cualquier clínica, ya conoces ese pellizco. La buena noticia: la mayoría de las ausencias no son gente siendo grosera, son personas que van con prisas, y eso significa que tiene solución. Esta es una guía práctica para **reducir las ausencias en tu salón o clínica con recordatorios automáticos** que resulten cercanos, no pesados. Vamos a ver lo que de verdad te cuesta una cita perdida, por qué funcionan los recordatorios amables, el momento adecuado para enviarlos y cómo convertir una cancelación de última hora en una nueva reserva en lugar de un hueco en tu día."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cuánto te cuesta de verdad una ausencia?"
+      },
+      {
+        "type": "p",
+        "text": "Es fácil quitarle importancia a una cita perdida, pero el coste se acumula de formas que no siempre ves en el momento. Piensa en el tiempo de sillón que no puedes volver a vender, en los productos y la preparación que ya has comprometido, en el cliente que quería ese hueco y reservó en otro sitio, y en los sueldos de tu equipo, que corren tanto si el sillón está lleno como si está vacío. Así que ponle una cifra. Si tu cita media es de 60 € y pierdes cuatro a la semana, son 240 € que se van por la puerta. A lo largo de un año, eso supone más de 12.000 € en tiempo de sillón que ya habías pagado en personal y material. De repente, unos cuantos mensajes automáticos parecen el seguro más barato que vas a contratar nunca."
+      },
+      {
+        "type": "quote",
+        "text": "Una ausencia no es un problema del cliente. Es un problema de recordatorios, y los recordatorios son lo único que puedes automatizar por completo.",
+        "cite": "La visión de Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "¿Por qué funcionan de verdad los recordatorios amables?"
+      },
+      {
+        "type": "p",
+        "text": "Porque el verdadero enemigo es el olvido, no la mala intención. Tu cliente reservó hace tres semanas, entre recoger a los niños y otras cien cosas. No lo apuntó y se le ha ido de la cabeza de verdad. Un aviso en el momento justo vuelve a poner la cita en su mente cuando todavía puede reaccionar. Hay un segundo motivo por el que ayuda: le da al cliente honesto una salida fácil. Quien sabe el martes que no podrá venir el jueves muchas veces no dice nada, porque cancelar le da pereza. Dale una forma de mover la reserva con un solo toque y lo hará encantado, lo que libera el hueco mientras aún hay tiempo de llenarlo. La misma idea de respuesta inmediata es la que hace funcionar a un [asistente que gestiona reservas incluso después de cerrar por la noche](~/services/ai-agents)."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cuál es la cadencia de recordatorios adecuada?"
+      },
+      {
+        "type": "p",
+        "text": "Más mensajes no es mejor. Tres avisos bien colocados hacen el trabajo sin llegar a resultar pesados. Esta es la cadencia que montaríamos para un salón o una clínica."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Confirma en el momento de reservar",
+            "body": "En cuanto se hace la cita, envía una confirmación al instante con la fecha, la hora, el servicio y tu dirección. Tranquiliza al cliente y deja los datos en un sitio donde podrá encontrarlos más tarde."
+          },
+          {
+            "title": "Recuerda 24 horas antes",
+            "body": "El mensaje del día anterior es el que más trabaja. Pilla a la gente cuando todavía puede reorganizar su día para venir y suele ser el aviso más eficaz contra una ausencia."
+          },
+          {
+            "title": "Avisa por la mañana",
+            "body": "Un mensaje breve y cercano el mismo día, con la hora y una opción de un solo toque para confirmar, reprogramar o ver cómo llegar. Este es el que salva los huecos que, si no, desaparecerían en silencio."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "Envía los recordatorios por donde tus clientes hablan contigo de verdad. Para la mayoría de salones y clínicas en España eso significa WhatsApp, donde los mensajes se abren en minutos en lugar de quedarse sin leer en una bandeja de entrada. Un recordatorio solo funciona si se ve."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cómo haces que reprogramar sea facilísimo?"
+      },
+      {
+        "type": "p",
+        "text": "Aquí es donde fallan la mayoría de los sistemas de recordatorios. Le cuentan al cliente lo de la cita y luego le hacen llamarte para cambiarla, así que no lo hace. Cada recordatorio debería llevar una opción sencilla: confirmar o reprogramar. Si toca reprogramar, el cliente ve tu disponibilidad real y elige un nuevo hueco él mismo, en segundos, sin llamadas ni esperas al teléfono. Una cancelación deja de ser una pérdida y se convierte en una nueva reserva discreta para la que no tuviste que mover un dedo. Y como se gestiona sola, es una de las [pequeñas automatizaciones más satisfactorias que un negocio local puede poner en marcha](~/services/automations)."
+      },
+      {
+        "type": "h2",
+        "text": "¿Y qué pasa con las señales y las tarjetas guardadas?"
+      },
+      {
+        "type": "p",
+        "text": "Para citas largas o de mayor valor, una pequeña señal o una tarjeta guardada sí que cambia el comportamiento. La gente se toma una reserva de otra manera cuando se juega algo. El truco está en introducirlo con tacto, para que nunca parezca que tratas a los clientes como sospechosos: mantenlo proporcionado (una señal modesta para un tinte de dos horas, no para un corte rápido); explícalo como algo justo, no como un castigo, porque protege el hueco para la siguiente persona; combínalo siempre con una reprogramación fácil, para que un cambio de planes honesto nunca le cueste al cliente su señal; y aplícalo de forma coherente, para que nadie se sienta señalado."
+      },
+      {
+        "type": "h2",
+        "text": "¿Puede un hueco que se libera llenarse solo?"
+      },
+      {
+        "type": "p",
+        "text": "Esta es la parte que convierte un sistema de recordatorios en algo que de verdad se gana su sueldo. Cuando un cliente reprograma y se abre un hueco un jueves por la tarde, esa franja no tiene por qué quedarse vacía. Un asistente puede mantener una lista de espera de clientes que querían una cita antes y, en cuanto se libera un hueco, escribir a la siguiente persona para ofrecérselo, por orden de llegada. Tú estás con un cliente, con las manos ocupadas, sin enterarte de nada de esto. Para cuando miras el móvil, el hueco de tu tarde se ha llenado solo en silencio. Esa es la diferencia entre una herramienta que avisa a la gente y un [asistente que protege tu día de forma activa](~/services/ai-agents)."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "responde a una nueva consulta en unos cinco minutos y tendrás muchas más probabilidades de localizarla y cualificarla que si esperas más de 30 minutos, la misma rapidez que te permite llenar un hueco recién liberado antes de que pase el momento",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "No necesitas darle la vuelta a todo de golpe. Empieza por la mayor victoria de todas: un recordatorio cercano 24 horas antes con reprogramación de un solo toque. Vigila tu tasa de ausencias durante unas semanas. Luego añade el aviso de por la mañana, la lista de espera y las señales donde tengan sentido para tus citas más grandes. Lo bonito es que nada de esto te pide más esfuerzo. Sin perseguir a nadie, sin llamadas incómodas, sin insistir. Los recordatorios salen solos, la reprogramación se resuelve sola y los huecos liberados se llenan solos mientras tú sigues con el trabajo que de verdad se te da bien. Si quieres ver cómo encajaría esto en tu salón o clínica, lo mejor es empezar con una charla gratuita de 15 minutos, donde miraremos tu semana, tus ausencias y de dónde vienen exactamente los sillones vacíos."
+      }
+    ],
+    "image": {
+      "credit": "Sean MacEntee / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/18090920@N07/12697610163"
+    }
+  },
+  {
+    "slug": "local-seo-near-me-2026",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "SEO local \"cerca de mí\" en 2026: cómo ser el resultado en el que la gente toca",
+    "description": "Tu guía para ponerte hoy mismo con el SEO local cerca de mí 2026: un perfil de Google completo, datos coherentes, reseñas y una web rápida que gana las búsquedas cercanas.",
+    "dek": "La mayoría de las decisiones de compra locales empiezan con una búsqueda rápida en el móvil y se cierran el mismo día. Así te aseguras de que tu negocio sea el que la gente toca, llama y visita.",
+    "keyword": "local SEO near me 2026",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-01-21",
+    "readMinutes": 6,
+    "takeaways": [
+      "Un perfil de empresa de Google completo y exacto es la mayor palanca que tienes bajo control.",
+      "Google ordena los resultados cercanos por relevancia, distancia y prominencia, y las reseñas alimentan las tres.",
+      "Mantén tu nombre, dirección y teléfono idénticos en todas partes, y responde a todas las reseñas.",
+      "Una web rápida y adaptada al móvil convierte el toque en una reserva, y también ayuda a que las herramientas de IA te recomienden."
+    ],
+    "related": [
+      "website-speed-small-business",
+      "get-recommended-by-ai-chatgpt",
+      "ai-for-small-business-2026-guide"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Aparece en las búsquedas locales"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Imagina a alguien tres calles más allá, de pie en la acera, tecleando **\"barbero cerca de mí\"** o **\"fontanero abierto ahora\"** en su móvil. En los próximos segundos elegirá un negocio, y hay muchísimas probabilidades de que entre o llame antes de que acabe el día. Manejarte bien con el SEO local cerca de mí 2026 significa simplemente ser el resultado en el que toca. De eso va todo, y la buena noticia es que casi todo está en tus manos."
+      },
+      {
+        "type": "stat",
+        "value": "76%",
+        "label": "de las personas que buscan algo cercano en el móvil visitan un negocio relacionado en menos de un día",
+        "source": "Google (Think with Google)"
+      },
+      {
+        "type": "p",
+        "text": "Ese dato de Google (Think with Google) es la razón por la que esto importa tanto. No son curiosos matando el tiempo. Son personas con la cartera medio fuera, decidiendo ahora mismo. Y Google ha dicho que las búsquedas móviles **\"cerca de mí\"** han crecido enormemente en los últimos años, así que esto no es una moda pasajera: es como la gente elige los negocios locales hoy."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cómo decide Google quién aparece en las búsquedas \"cerca de mí\"?"
+      },
+      {
+        "type": "p",
+        "text": "Tiene menos misterio del que parece. Google sopesa tres cosas cuando alguien busca algo cercano, y en cuanto las conoces, toda la lista de tareas cobra sentido. **Relevancia**: ¿lo que ofreces encaja con lo que han escrito? **Distancia**: ¿a qué distancia estás de quien busca o de la zona que ha nombrado? **Prominencia**: ¿cómo de conocido y de confiable parece tu negocio? No puedes mover tu local, pero sí puedes influir en las tres, así que vamos a repasar la lista que puedes ir completando esta misma semana."
+      },
+      {
+        "type": "h2",
+        "text": "Paso uno: haz que tu perfil de empresa de Google esté completo y sea exacto"
+      },
+      {
+        "type": "p",
+        "text": "Esta es la mayor palanca que tienes bajo control. Tu perfil de empresa de Google es ese panelito que aparece cuando alguien busca tu nombre o tu oficio cerca, y muchas veces decide el clic antes de que nadie llegue a tu web. Uno a medias te hace perder clientes cada semana sin que te enteres."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Elige las categorías correctas",
+            "body": "Elige una categoría principal que coincida exactamente con tu oficio principal, y añade después las secundarias que encajen. \"Peluquería\" más \"barbero\" más \"peluquero\" si las tres son ciertas. Esta es tu mayor señal de relevancia."
+          },
+          {
+            "title": "Pon bien tu horario (incluidos los festivos)",
+            "body": "Nada molesta más a quien busca algo cerca que plantarse ante una puerta cerrada. Configura horarios especiales para los festivos para que Google muestre la verdad."
+          },
+          {
+            "title": "Añade fotos de verdad",
+            "body": "La fachada de tu local, el interior, tu equipo, tu trabajo. Los perfiles con fotos auténticas dan más confianza y reciben más toques que los vacíos."
+          },
+          {
+            "title": "Enumera tus servicios y productos",
+            "body": "Detalla qué haces y, más o menos, qué incluye. \"Reparación de calderas, instalación de baños, avisos de urgencia\" le dice a Google exactamente con qué emparejarte."
+          },
+          {
+            "title": "Rellena las preguntas y respuestas",
+            "body": "Puedes publicar y responder tus propias preguntas frecuentes. \"¿Aceptáis clientes sin cita?\" \"¿Hay aparcamiento?\" Respóndelas antes de que un cliente tenga que preguntar."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo rápido de nuestra parte",
+        "body": "Pon un recordatorio de 10 minutos para el primer lunes de cada mes y abre tu perfil para comprobar que sigue siendo exacto. El horario, las fotos, un nuevo servicio que hayas empezado a ofrecer. Google premia los perfiles que parecen vivos, y es el marketing más barato que harás en tu vida."
+      },
+      {
+        "type": "h2",
+        "text": "Paso dos: sé coherente en todas partes y gánate tus reseñas"
+      },
+      {
+        "type": "p",
+        "text": "Hay dos hábitos que van de la mano con tu perfil. El primero es el **NAP**: nombre, dirección, teléfono (name, address, phone). Allí donde aparezca tu negocio en internet, esos tres datos deberían coincidir letra por letra, porque \"Calle Mayor 12\" en un sitio y \"C/ Mayor, 12\" en otro hace que Google dude de que seáis un único negocio real. El segundo son las reseñas, que alimentan las tres señales de Google a la vez."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Escribe tu nombre, dirección y teléfono exactamente igual en tu web, tu perfil de Google, Facebook, Instagram y los directorios locales, usando un mismo teléfono principal en todas partes.",
+          "Si te has mudado o has cambiado de marca, rastrea las fichas antiguas y actualízalas. Los datos desfasados son un lastre silencioso para tu posición.",
+          "Pide una reseña siempre. Un mensaje corto con un enlace directo el mismo día funciona mejor, mientras la buena sensación sigue fresca.",
+          "Responde a todas. Da las gracias por su nombre a las buenas, y ante una mala mantén la calma, pide disculpas cuando sea justo y ofrécete a solucionarlo."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Paso tres: las señales de la web que de verdad marcan la diferencia"
+      },
+      {
+        "type": "p",
+        "text": "Tu perfil de Google hace que te vean. Tu web cierra el trato, y además le manda a Google sus propias señales. Necesitas una **página local clara** que diga sin rodeos dónde estás y qué zonas cubres, un diseño **adaptado al móvil** porque ahí es donde ocurren estas búsquedas, una **carga rápida** y **datos estructurados** (un poco de código oculto que detalla tus datos, tu dirección, horario y reseñas en un formato que Google lee al instante). No necesitas entender el código. Solo necesitas una web construida para que esté ahí."
+      },
+      {
+        "type": "p",
+        "text": "Eso de la velocidad no es un detalle menor. A medida que el tiempo de carga de una página móvil pasa de un segundo a tres, la probabilidad de que un visitante se rinda y se marche sube alrededor de un tercio, y de uno a cinco segundos casi se duplica, según Google. Echa cuentas un momento sobre tu propio negocio: si tan solo cinco personas a la semana buscan algo cerca, tocan tu resultado, se encuentran una página lenta y se van a la competencia, ¿cuánto vale eso al cabo de un año según tu trabajo medio o tu ticket medio? Ese es el coste real de una [web](~/services/websites) lenta y poco clara, y tiene solución."
+      },
+      {
+        "type": "h2",
+        "text": "¿Y la IA? Dónde encajan ChatGPT y los motores de respuestas"
+      },
+      {
+        "type": "p",
+        "text": "Cada vez más gente empieza preguntándole directamente a un asistente de IA: \"¿dónde hay un buen restaurante vegano cerca de la catedral?\". Lo tranquilizador es que justo el trabajo de arriba es lo que también hace que te recomienden ahí, porque estas herramientas se apoyan en los mismos cimientos: un perfil exacto y completo, datos coherentes, buenas reseñas y una web clara. Pon en orden los resultados \"cerca de mí\" de Google y, a la vez, estarás poniendo en orden las respuestas de la IA. Nada de esto es un gran proyecto: es un perfil completo, datos que coinciden, el hábito constante de las reseñas y una web rápida que convierte el toque en una reserva. Repasa la lista y ya irás por delante de la mayoría de los negocios de tu alrededor. Si prefieres no pelearte con la parte técnica, encantados de mirar cómo estás y qué es lo más rápido de arreglar, empezando por una [charla gratuita de 15 minutos](~/contact), sin tecnicismos y sin presión."
+      }
+    ],
+    "image": {
+      "credit": "miss_hg / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/32615508@N02/3047982712"
+    }
+  },
+  {
+    "slug": "website-speed-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Tu web tiene 3 segundos: por qué la velocidad gana al cliente",
+    "description": "La velocidad de tu web decide sin hacer ruido las conversiones de tu negocio. Descubre qué significa de verdad ser rápido, por qué las webs lentas pierden reservas y cómo probar la tuya en dos minutos.",
+    "dek": "Una web lenta pierde clientes antes de que lleguen a ver tu trabajo. Aquí te contamos por qué la velocidad es conversión, confianza y posicionamiento en buscadores, todo a la vez, y cómo comprobar la tuya hoy mismo.",
+    "keyword": "website speed small business conversions",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-03-19",
+    "readMinutes": 5,
+    "takeaways": [
+      "Una web rápida carga deprisa y se puede usar de inmediato desde el móvil, con datos móviles.",
+      "Google descubrió que el riesgo de rebote sube alrededor de un 90% cuando el tiempo de carga pasa de 1 a 5 segundos, así que cada segundo lento te cuesta reservas.",
+      "La lentitud suele venir de constructores recargados, imágenes enormes, demasiados plugins y un alojamiento barato, y todo eso tiene solución.",
+      "Prueba tu propia web: ábrela con 4G, cronométrala y pulsa tu botón de reserva para ver cómo se siente de verdad."
+    ],
+    "related": [
+      "local-seo-near-me-2026",
+      "get-recommended-by-ai-chatgpt",
+      "custom-software-vs-off-the-shelf"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Consigue una web que carga al instante"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Imagina a un cliente plantado delante de tu puerta, con la mano en el pomo, decidiendo si entra. Ahora imagina que el pomo tarda cuatro segundos en girar. La mayoría se encogería de hombros y se iría al local de al lado. Eso es exactamente lo que hace una web lenta, solo que tú nunca ves a esa persona marcharse. **La velocidad de tu web es una de las decisiones más silenciosas en las conversiones de un negocio pequeño**, y está ocurriendo en cada móvil, cada día, antes de que nadie llegue a ver lo bueno que eres en lo tuyo."
+      },
+      {
+        "type": "p",
+        "text": "Lo frustrante es que el trabajo es estupendo. La comida, el corte de pelo, la instalación eléctrica, el arreglo. Nada de eso tiene la menor oportunidad si la web que te presenta deja a la gente esperando. La velocidad no es un capricho técnico. Es la primera impresión que estabas dando sin saberlo."
+      },
+      {
+        "type": "h2",
+        "text": "Qué significa \"rápida\" en realidad"
+      },
+      {
+        "type": "p",
+        "text": "Olvídate por un momento de cronómetros y tecnicismos. Este es el estándar al que apuntaríamos: alguien pulsa tu enlace mientras está de pie en la calle, con datos móviles, y tu web **está ahí y se puede usar en alrededor de un segundo**. Puede leerla, hacer scroll y pulsar el botón de reserva sin que nada se mueva de sitio ni se quede dando vueltas. Si tu web solo se siente rápida en tu portátil, en casa y con buen wifi, la estás probando en el único sitio donde tus clientes casi nunca están. Buena parte de la gente que te encuentra está en el móvil, muchas veces con poca cobertura, muchas veces con prisa, así que \"usable de inmediato\" importa tanto como \"acaba cargando\"."
+      },
+      {
+        "type": "stat",
+        "value": "~90%",
+        "label": "aumento de la probabilidad de que alguien se vaya cuando una página móvil pasa de cargar en 1 a 5 segundos",
+        "source": "Google"
+      },
+      {
+        "type": "p",
+        "text": "Ese es el dato sobre el que merece la pena pararse a pensar. Google descubrió que, cuando el tiempo de carga de una página móvil pasa de uno a tres segundos, la probabilidad de que alguien se vaya sube alrededor de un 32%. Estíralo de uno a cinco segundos y ese riesgo trepa hasta cerca del 90%. No estás perdiendo una fracción de porcentaje aquí y allá. Estás perdiendo una parte importante de todos los que tuvieron la curiosidad de pulsar."
+      },
+      {
+        "type": "quote",
+        "text": "Cada segundo lento es un cliente que decide en silencio que no mereces la espera, y tú ni siquiera tienes la oportunidad de hacerle cambiar de opinión."
+      },
+      {
+        "type": "h2",
+        "text": "Por qué pasa lo de la lentitud (y casi nunca es culpa tuya)"
+      },
+      {
+        "type": "p",
+        "text": "Si tu web va lenta, normalmente no es porque hayas hecho algo mal. Es porque en algún momento del camino fue cogiendo peso que nunca necesitó. Los culpables más habituales son predecibles, y eso es una buena noticia, porque los problemas predecibles tienen soluciones claras:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Constructores de webs recargados que cargan montañas de código para mostrar una página sencilla.",
+          "Imágenes enormes y sin optimizar, la foto recién salida de la cámara que pesa varios megabytes cuando podría pesar una fracción de eso.",
+          "Demasiados plugins, rastreadores y herramientas de ventanas emergentes, cada uno sumando peso sin que te des cuenta.",
+          "Alojamiento barato y saturado, donde tu web comparte un servidor agotado con cientos de otras."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cómo es una web buena y cómo ayuda al posicionamiento local"
+      },
+      {
+        "type": "p",
+        "text": "Una web rápida no es una web sofisticada. Es una web *ligera*, y las webs de negocios pequeños que mejor rinden comparten las mismas costumbres discretas: un desarrollo moderno y ligero en lugar de una plantilla pesada; imágenes optimizadas y dimensionadas para el móvil; solo los scripts que de verdad necesitas, recortando el ruido de rastreadores y ventanas emergentes; y un buen alojamiento con CDN, que sirve tu web desde un servidor cercano a cada visitante. Pero aquí viene la parte que pilla por sorpresa a los dueños. La velocidad no solo afecta a la gente que llega a tu web, también puede afectar a si la encuentran siquiera. Como regla general en los buscadores, una experiencia móvil rápida y fluida suele rendir mejor que una lenta, así que la velocidad se acumula: te ayuda a aparecer y luego te ayuda a convertir a quienes aparecieron. Vemos el resto en nuestra guía para [aparecer en las búsquedas \"cerca de mí\"](~/blog/local-seo-near-me-2026), y como cada vez más gente pide recomendaciones a los asistentes de IA, una web limpia y rápida también ayuda ahí, algo que tratamos en [que te recomiende ChatGPT y otras IA](~/blog/get-recommended-by-ai-chatgpt)."
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo rápido de nuestra parte",
+        "body": "No busques una web que impresione a otros diseñadores web. Busca una que cargue antes de que tu cliente cambie de opinión. Ligera y rápida le gana a ingeniosa y lenta cada vez, sin excepción."
+      },
+      {
+        "type": "h2",
+        "text": "Haz una comprobación rápida de tu web en dos minutos"
+      },
+      {
+        "type": "p",
+        "text": "No necesitas un desarrollador para saber cómo estás. Necesitas tu móvil y un minuto de sinceridad. Pruébalo ahora, tal como lo haría un cliente de verdad."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Apaga el wifi",
+            "body": "Pon el móvil en datos móviles, mejor 4G, no tu wifi rápido de casa o del local. Este es el mundo en el que viven de verdad tus clientes."
+          },
+          {
+            "title": "Abre tu web y cuenta",
+            "body": "Pulsa tu propio enlace y cuenta los segundos en voz alta hasta que la página esté del todo ahí y puedas hacer scroll. Mil uno, mil dos. Si llegas a tres antes de que se asiente, ahí tienes un problema que merece la pena arreglar."
+          },
+          {
+            "title": "Pulsa el botón de reserva",
+            "body": "Ahora haz lo que haría un cliente. Pulsa para reservar, para llamar o para escribir. ¿Responde al instante? ¿Funciona a la primera? Una página rápida con un paso de reserva torpe sigue perdiendo el trabajo."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Si esta pequeña prueba te ha hecho hacer una mueca, respira. Una web lenta es uno de los problemas más fáciles de arreglar de todo tu negocio. No es como rehacer una cocina. Muchas veces es optimizar imágenes, recortar el ruido y pasarse a un mejor alojamiento, y la misma página de repente se siente mucho más rápida. Eso es justo el tipo de trabajo que hacemos, crear [webs rápidas y modernas](~/services/websites) que cargan antes de que un cliente pierda la paciencia y hacen que reservar sea facilísimo, para que la impresión que se lleva la gente esté a la altura de lo bueno que es lo que haces. Si no estás seguro de cómo anda tu web, lo más fácil es una charla gratis de 15 minutos. Dinos la dirección de tu web, le echamos un buen vistazo y te decimos con sinceridad cómo estás y qué conviene arreglar primero."
+      }
+    ],
+    "image": {
+      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
+    }
+  },
+  {
+    "slug": "get-recommended-by-ai-chatgpt",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Cómo conseguir que ChatGPT recomiende tu negocio local",
+    "description": "Cómo conseguir que ChatGPT recomiende tu negocio local: las señales honestas que usan los buscadores con IA para decidir a qué comercios nombran.",
+    "dek": "Cada vez más gente le pregunta a un asistente de IA por \"el mejor sitio cerca de mí\" en lugar de ir deslizando enlaces. Ser el negocio al que nombra es un canal nuevo, y uno que de verdad puedes ganarte.",
+    "keyword": "how to get recommended by ChatGPT local business",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-04-08",
+    "readMinutes": 6,
+    "takeaways": [
+      "Los asistentes de IA eligen negocios usando las mismas señales públicas y fiables que la búsqueda: tu perfil de Google Business, las reseñas, una web clara y rápida y datos coherentes.",
+      "Escribe tu web con palabras sencillas: qué haces, dónde y para quién. Los asistentes citan páginas que responden a preguntas reales, así que unas buenas preguntas frecuentes ayudan.",
+      "Nadie puede comprar un puesto garantizado. Cualquiera que te prometa posiciones fijas en ChatGPT te está vendiendo algo que no existe.",
+      "Haz bien lo básico de la búsqueda local y las menciones de la IA suelen llegar solas. Los dos canales beben de la misma base."
+    ],
+    "related": [
+      "local-seo-near-me-2026",
+      "ai-for-small-business-2026-guide",
+      "website-speed-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Haz que la IA te encuentre"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Imagínate a uno de tus clientes habituales en el sofá. En lugar de escribir en Google e ir deslizando, le pregunta a un asistente en voz alta: **\"el mejor restaurante para ir con niños cerca de mí en Valencia.\"** Le llega una respuesta corta que nombra tres sitios. Si el tuyo es uno de los tres, quizá acabas de ganar una reserva. Si no lo es, ni te enteras de que la conversación ocurrió. Es un cambio de verdad, y plantea una pregunta justa: ¿cómo consigues que ChatGPT recomiende tu negocio local? La respuesta honesta es que no puedes pagar por ello, pero sí puedes ganártelo. Y la forma de ganártelo coincide casi por completo con cosas que ya te hacen más fácil de encontrar."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cómo decide un asistente de IA a quién mencionar?"
+      },
+      {
+        "type": "p",
+        "text": "Cuando alguien le pide a un asistente una recomendación local, no tiene acceso secreto a quién es el mejor fontanero del pueblo. Se apoya en las mismas señales públicas y fiables que los buscadores llevan años usando, y luego las resume en una respuesta corta. En pocas palabras, favorece a los negocios que están claramente descritos, listados de forma coherente, bien valorados y mencionados en sitios en los que ya confía:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Un perfil de Google Business completo y exacto, con la categoría, el horario, la dirección y el teléfono todo correcto.",
+          "Reseñas auténticas de clientes reales, cuanto más recientes y concretas, mejor.",
+          "Una web clara y rápida que diga con palabras sencillas qué haces, dónde lo haces y para quién lo haces.",
+          "El mismo nombre, dirección y teléfono en todas partes en internet, sin números antiguos dando vueltas.",
+          "Menciones en sitios y directorios locales de confianza, como una oficina de turismo, un periódico local o un portal de listados respetado."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nada de eso es raro. Si has leído nuestra guía sobre [cómo posicionar para búsquedas \"cerca de mí\"](~/blog/local-seo-near-me-2026), verás que es exactamente la misma base. Esa es la buena noticia: no necesitas una estrategia aparte para los asistentes. Necesitas hacer bien lo básico, porque los asistentes y los resultados de búsqueda beben del mismo pozo."
+      },
+      {
+        "type": "quote",
+        "text": "No puedes comprar tu sitio en la respuesta de una IA. Te lo ganas siendo la opción clara, fiable y coherente que también elegiría una persona.",
+        "cite": "La visión de Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Di lo que haces con palabras sencillas"
+      },
+      {
+        "type": "p",
+        "text": "Los asistentes son buenos leyendo y malos adivinando. Si tu página de inicio es un pase de fotos bonitas con un eslogan de una palabra, hay muy poco a lo que agarrarse. Si una página dice claramente: \"Somos una cafetería familiar en el centro de Valencia, abierta para desayunos y comidas, con tronas, opciones sin gluten y un rincón tranquilo para los carritos\", acabas de entregarle las frases exactas que alguien podría preguntar. Escribe para una persona, con tu propia voz, y la máquina también sale ganando. Cubre lo evidente: qué ofreces, la zona a la que das servicio, para quién encajas bien y qué te hace ser tú."
+      },
+      {
+        "type": "h2",
+        "text": "Responde a las preguntas que la gente hace de verdad"
+      },
+      {
+        "type": "p",
+        "text": "A los asistentes les encanta una respuesta clara a una pregunta clara, porque esa es justo la forma de lo que están produciendo. Unas preguntas frecuentes sencillas en tu propia web son una de las cosas más útiles que puedes montar: te ahorran contestar el mismo mensaje diez veces por semana y le dan al asistente un texto limpio y fácil de citar."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Haz una lista de las preguntas reales",
+            "body": "Apunta lo que los clientes preguntan de verdad antes de reservar. ¿Aceptáis tarjeta? ¿Hay aparcamiento? ¿Se admiten perros? ¿Tenéis opciones sin gluten? ¿Abrís los domingos?"
+          },
+          {
+            "title": "Responde a cada una con claridad",
+            "body": "Una respuesta honesta y concreta por pregunta. \"Sí, tenemos acceso sin escalones y un baño en la planta baja\" funciona mejor que un vago \"somos accesibles.\""
+          },
+          {
+            "title": "Mantenlo al día",
+            "body": "Cuando algo cambie, actualízalo esa misma semana. Un asistente repitiendo los horarios del año pasado es peor que no dar respuesta."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "Lee tu propia página de inicio en voz alta como si un desconocido preguntara: \"Entonces, ¿qué es este sitio, exactamente?\" Si no puedes contestar en dos frases sencillas, un asistente tampoco. Arregla eso primero, antes de nada más sofisticado."
+      },
+      {
+        "type": "h2",
+        "text": "La fontanería que ayuda a las máquinas a leerte"
+      },
+      {
+        "type": "p",
+        "text": "Hay una parte un poco técnica que conviene conocer, y luego dejamos la tecnología en paz. Se llama datos estructurados: una etiqueta pequeña y oculta en tus páginas que deja claros los datos en un formato que las máquinas leen con facilidad, como el nombre del negocio, el horario, la dirección y las reseñas. Tú no escribes código para eso. Una web bien hecha simplemente lo incluye por ti, igual que una buena fontanería va por detrás de la pared pero hace que todo funcione. Esto forma parte de cómo construimos cada web en [el servicio de webs de Kodable](~/services/websites), para que los asistentes reciban datos limpios y no conjeturas. Aquí la velocidad también importa: Google ha comprobado que cuando el tiempo de carga de una página móvil pasa de un segundo a tres segundos, la probabilidad de que un visitante se rinda y se marche sube un 32% aproximadamente. Si la tuya va lenta en el móvil, nuestro artículo sobre [por qué importa la velocidad de la web](~/blog/website-speed-small-business) repasa qué comprobar."
+      },
+      {
+        "type": "stat",
+        "value": "+32%",
+        "label": "de aumento en la probabilidad de que un visitante móvil se marche cuando el tiempo de carga pasa de 1 a 3 segundos",
+        "source": "Google"
+      },
+      {
+        "type": "h2",
+        "text": "Sé honesto sobre lo que nadie puede prometer"
+      },
+      {
+        "type": "p",
+        "text": "Aquí está la parte que los vendedores no te cuentan. **Nadie puede garantizarte un sitio en las respuestas de ChatGPT.** No hay ninguna posición que puedas comprar, ninguna tarifa que fije tu nombre arriba del todo, ninguna puerta trasera secreta. Los asistentes cambian su forma de funcionar, se nutren de fuentes distintas y dicen las cosas de manera diferente de un día para otro. Así que si alguien te escribe prometiéndote \"posiciones garantizadas en ChatGPT\" o un \"puesto reservado en la búsqueda con IA\", trátalo como a un desconocido que te garantiza que te tocará la lotería. El trabajo honesto es poco vistoso y va sumando: páginas claras, reseñas reales, listados coherentes, una web rápida, menciones auténticas. Para una visión más amplia de dónde encaja la IA en la gestión de un negocio pequeño, nuestra [guía práctica de IA](~/blog/ai-for-small-business-2026-guide) es un punto de partida más tranquilo que la mayoría del ruido."
+      },
+      {
+        "type": "p",
+        "text": "No tienes que hacer todo esto de golpe, y desde luego no tienes que entender la parte técnica. Empieza haciendo que tu web diga, con palabras sencillas, qué haces y para quién. Pon en orden tu perfil de Google Business. Pídeles una reseña a unos cuantos clientes contentos. Eso solo ya te pone por delante de casi toda tu calle. El resto, los datos estructurados, la velocidad, los listados coherentes, es el tipo de trabajo de fondo y discreto que hacemos por ti para que tú puedas volver a lo tuyo de verdad. Si no estás seguro de cómo está tu web hoy, el paso más fácil es una charla gratuita de 15 minutos: le echamos un vistazo rápido, te decimos con honestidad qué te ayuda y qué te está frenando, y tú decides qué hacer con eso, aunque nunca nos contrates."
+      }
+    ],
+    "image": {
+      "credit": "flexbox / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/53662163@N06/34995898035"
+    }
+  },
+  {
+    "slug": "small-business-automation-ideas",
+    "category": "Automation",
+    "categoryIcon": "code",
+    "title": "Deja de copiar y pegar entre aplicaciones: 7 ideas de automatización para tu negocio",
+    "description": "7 ideas de automatización para tu negocio que hacen que tus herramientas hablen entre sí: la reserva al calendario, las consultas a una sola bandeja, recordatorios, reseñas y más.",
+    "dek": "Cada pequeño traspaso manual, volver a escribir una reserva, perseguir un pago, enviar el mismo seguimiento, se come tu semana sin que te des cuenta. Aquí tienes siete automatizaciones que te devuelven esas horas.",
+    "keyword": "small business automation ideas",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-04-22",
+    "readMinutes": 6,
+    "takeaways": [
+      "Las pequeñas tareas manuales entre tus aplicaciones suman un trabajo a media jornada que nadie te está pagando.",
+      "Siete automatizaciones concretas, desde la reserva al calendario hasta un resumen semanal, cubren los puntos por donde la mayoría de los negocios locales pierde tiempo.",
+      "Las herramientas de serie cubren lo básico; una herramienta a medida vale la pena cuando tu forma de trabajar es realmente tuya.",
+      "Empieza por la tarea que más te molesta esta semana, no por las siete a la vez."
+    ],
+    "related": [
+      "custom-software-vs-off-the-shelf",
+      "reduce-no-shows-salon-clinic",
+      "ai-for-small-business-2026-guide"
+    ],
+    "cta": {
+      "service": "automations",
+      "label": "Automatiza el trabajo repetitivo"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Suma las pequeñas tareas que haces a mano cada semana. Copias una reserva de tu bandeja de entrada al calendario. Apuntas un pago en una hoja de cálculo. Envías el mismo mensaje de \"gracias, nos vemos el martes\" por décima vez. Nada de eso es difícil. Nada lleva mucho tiempo por sí solo. Pero todo junto a lo largo de un mes es un trabajo a media jornada que nadie te paga, y te roba las horas que preferirías dedicar al trabajo de verdad."
+      },
+      {
+        "type": "p",
+        "text": "La mayoría de estas ideas de automatización para tu negocio se reducen a una cosa muy sencilla: hacer que tus herramientas hablen entre sí. Ahora mismo el cable entre ellas eres tú, llevando cada pizca de información de una aplicación a la siguiente. La automatización tiende ese cable por ti, de modo que la reserva, el pago y el recordatorio fluyen sin que muevas un dedo."
+      },
+      {
+        "type": "h2",
+        "text": "Por qué copiar y pegar duele más de lo que parece"
+      },
+      {
+        "type": "p",
+        "text": "No son realmente los cinco minutos. Es el ir y venir, parar a media tarea para volver a escribir algo, el riesgo de una errata en el número de teléfono de alguien, la reserva que ibas a añadir y se te olvidó. Cada traspaso manual es una ocasión para que algo se escape. Y lo que más probablemente se escapa es lo que te cuesta dinero: una respuesta que llega demasiado tarde."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "responde así de rápido a una nueva consulta y tienes muchas más probabilidades de contactar y cualificar al cliente potencial que si esperas 30 minutos",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Ese dato es todo el argumento a favor de la automatización en una sola línea. Si una consulta se queda en una bandeja de entrada que solo revisas a la hora de comer, ya le has cedido terreno al negocio de la esquina que respondió en cinco minutos. La rapidez no va de trabajar más, va de que tus herramientas te pasen el mensaje en el momento en que llega."
+      },
+      {
+        "type": "h2",
+        "text": "Las 7 automatizaciones que vale la pena montar primero"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "La reserva directa a tu calendario",
+            "body": "El problema: alguien reserva y tú vuelves a teclear la fecha, la hora y el nombre en tu calendario, o peor aún, no lo haces y acabas con una reserva doble. La solución: en cuanto entra una reserva, aparece en tu calendario con los datos ya rellenados. Tiempo ahorrado aproximado: unos minutos por reserva, además de la tranquilidad de no duplicar reservas."
+          },
+          {
+            "title": "Cada consulta en un único sitio que de verdad vas a ver",
+            "body": "El problema: los mensajes llegan por formulario web, WhatsApp, Instagram y correo, y revisas cada uno cuando te acuerdas. La solución: cada consulta nueva aterriza en una sola bandeja de entrada o te avisa al móvil, así nada se queda esperando en un rincón que olvidaste mirar. Tiempo ahorrado aproximado: las consultas perdidas que ni sabías que se te escapaban; para muchos dueños, la solución que más rinde sin hacer ruido."
+          },
+          {
+            "title": "Del pago al recibo y a la conciliación, sin iniciar sesión",
+            "body": "El problema: entra una señal y, más tarde, inicias sesión en la aplicación de pagos, la buscas, la cuadras con la reserva y la apuntas. La solución: el pago genera automáticamente un recibo para el cliente y se registra solo en el trabajo correcto. Tiempo ahorrado aproximado: cuenta los minutos que te lleva ese baile, multiplícalos por los pagos que gestionas en una semana, esa es tu cifra, y un cierre de mes mucho más tranquilo encima."
+          },
+          {
+            "title": "Recordatorios de cita con enlace para cambiarla",
+            "body": "El problema: envías recordatorios a mano y la gente sigue olvidándose, sillas vacías que no puedes volver a llenar. La solución: un recordatorio automático un día antes, con un enlace de un solo toque para cambiar la cita en lugar de dejarte plantado. Tiempo ahorrado aproximado: los propios recordatorios, más los huecos que de otro modo perderías. Para la mayoría de los negocios que funcionan con cita, esta es una de las mayores palancas contra las ausencias."
+          },
+          {
+            "title": "Una petición de reseña cuando el trabajo está terminado",
+            "body": "El problema: tienes la intención de pedir una reseña a los clientes contentos y luego se pasa el momento. La solución: un mensaje breve y cercano sale automáticamente un poco después de una visita completada, con el enlace ahí mismo. Tiempo ahorrado aproximado: minutos por cliente, y un goteo constante de reseñas en lugar de ninguna."
+          },
+          {
+            "title": "Avisos de poco stock y de proveedores",
+            "body": "El problema: te quedas sin algo a media semana y solo te das cuenta cuando vas a usarlo. La solución: cuando el stock baja de un nivel que tú marcas, recibes un aviso, o el pedido se redacta solo. Tiempo ahorrado aproximado: la carrera de urgencia al mayorista, y las ventas que perderías sin la mercancía."
+          },
+          {
+            "title": "Un resumen de fin de día o semanal",
+            "body": "El problema: no tienes una imagen clara de lo que realmente ha entrado sin rebuscar en cuatro aplicaciones. La solución: un único resumen ordenado, reservas, consultas, pagos, reseñas, llega a tu bandeja de entrada cada tarde o todos los viernes. Tiempo ahorrado aproximado: el rebuscar, más la claridad para detectar una semana floja antes de que te pase factura."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "No intentes activar las siete a la vez. Elige la tarea que más te molestó esta semana, probablemente los recordatorios o las consultas perdidas, y automatiza solo esa. Una vez que esté funcionando en silencio en segundo plano, irás a por la siguiente encantado."
+      },
+      {
+        "type": "p",
+        "text": "Los recordatorios y los enlaces para cambiar de cita merecen una atención especial, porque protegen un dinero que ya tienes medio ganado. Profundizamos en el momento y las palabras en [cómo reducir las ausencias en una peluquería o una clínica](~/blog/reduce-no-shows-salon-clinic), el mismo enfoque funciona para un taller, un barbero o un fisio."
+      },
+      {
+        "type": "h2",
+        "text": "Cuándo basta con el pegamento y cuándo necesitas una herramienta a medida"
+      },
+      {
+        "type": "p",
+        "text": "Para la mayoría de las siete de arriba, herramientas de serie conectadas entre sí, el enfoque del \"pegamento\", harán el trabajo bien y barato. El lío empieza cuando tu forma de trabajar tiene una peculiaridad que las herramientas estándar no acaban de manejar: una regla de precios que solo es tuya, un proceso de reserva con tres pasos que ninguna plantilla espera, o datos repartidos por sistemas que se niegan a hablar el mismo idioma."
+      },
+      {
+        "type": "quote",
+        "text": "El pegamento funciona hasta que tu negocio deja de parecerse al de los demás, y los buenos negocios locales rara vez se parecen a los de los demás.",
+        "cite": "el equipo de Kodable"
+      },
+      {
+        "type": "p",
+        "text": "Ahí es donde una herramienta construida en torno a tu proceso real le gana a un montón de complementos sujetos con ilusión. Te contamos cómo distinguir la diferencia en [software a medida frente al de serie](~/blog/custom-software-vs-off-the-shelf), para que gastes en el desarrollo a medida solo donde de verdad vale la pena, y uses la vía barata y ya hecha en todo lo demás."
+      },
+      {
+        "type": "h2",
+        "text": "Por dónde empezar sin darle demasiadas vueltas"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Apunta las tres tareas que haces a mano más a menudo. Esas son tus tres primeras automatizaciones.",
+          "Suma a grandes rasgos lo que te cuesta cada una, los minutos por semana por lo que vale tu hora, o el valor de una consulta perdida.",
+          "Empieza por la automatización que más tiempo te ahorre o que tape la fuga más cara.",
+          "Déjala funcionar quince días antes de añadir la siguiente, para que cada una se asiente en tu día a día."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "No necesitas entender el cableado, y desde luego no necesitas escribir nada de código. La idea es que tus herramientas hagan los traspasos aburridos mientras tú te dedicas al trabajo en el que de verdad eres bueno. Si quieres que te echemos una mano para ver cuál de estas te ahorraría más, échale un vistazo a [lo que hacemos con las automatizaciones](~/services/automations), y el primer paso más fácil es una charla gratis de 15 minutos en la que dibujamos juntos tus traspasos semanales y elegimos cuál vale la pena automatizar primero."
+      }
+    ],
+    "image": {
+      "credit": "homethods / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/146625745@N08/32251770783"
+    }
+  },
+  {
+    "slug": "custom-software-vs-off-the-shelf",
+    "category": "Automation",
+    "categoryIcon": "layers",
+    "title": "Software a medida o software estándar para un pequeño negocio: cómo decidir",
+    "description": "Software a medida o software estándar para un pequeño negocio: una guía en lenguaje claro para saber cuándo te has quedado pequeño con la app que pagas, y cuándo conviene construir algo propio.",
+    "dek": "Las apps estándar están hechas para todo el mundo, lo que significa que no encajan a la perfección con nadie. Aquí tienes una forma honesta de saber si seguir adaptándote a tu software o, por fin, construir algo que encaje contigo.",
+    "keyword": "custom software vs off the shelf small business",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-05-13",
+    "readMinutes": 6,
+    "takeaways": [
+      "El software estándar es la opción lista y económica cuando tus necesidades son las habituales y la app encaja con tu forma de trabajar.",
+      "Te has quedado pequeño con él cuando andas pegando herramientas unas con otras, exportando a hojas de cálculo para sacar un solo número o montando un apaño para cada cliente.",
+      "La IA ha hecho que las herramientas a medida sean mucho más rápidas y baratas que con el viejo modelo de agencia, así que el coste de construir ya no es el muro que solía ser.",
+      "Decide con cuentas sencillas: el coste del apaño multiplicado por las veces que lo haces, frente a lo que cuesta construir una herramienta a medida."
+    ],
+    "related": [
+      "small-business-automation-ideas",
+      "website-speed-small-business",
+      "ai-for-small-business-2026-guide"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Hablemos de una herramienta a medida"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Todo pequeño negocio llega al mismo momento callado. Abres la app que pagas cada mes, suspiras y haces el apaño de siempre. Exportas a una hoja de cálculo. Copias un número de un lado a otro. Le dices a un cliente \"lo siento, el sistema no me deja hacer eso\". Funciona, a duras penas. Así que la pregunta sobre **software a medida o software estándar para un pequeño negocio** nunca llega a plantearse del todo. Vamos a planteárnosla bien, y con honestidad. La verdad que muchos vendedores de software no te cuentan: el software estándar suele ser la opción acertada. Barato, listo hoy mismo, mantenido por otra persona. El truco está en saber de qué lado de la raya estás."
+      },
+      {
+        "type": "h2",
+        "text": "Cuándo el software estándar es la opción lista y económica"
+      },
+      {
+        "type": "p",
+        "text": "El software estándar existe porque la mayoría de los negocios necesitan casi las mismas cosas. Un calendario de reservas, un datáfono, una herramienta de correo, un programa de contabilidad. Son terrenos más que trillados, y sería una tontería pagar por reconstruirlos. Si una app ya hecha cubre lo que necesitas y puedes adaptarte a ella sin demasiados dolores de cabeza, eso es ganar. Quédate con ella. Vas bien con el software estándar cuando:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tus necesidades son las habituales, como las hace la mayoría de los negocios de tu sector.",
+          "Puedes adaptarte a la forma de trabajar de la app sin que te frene.",
+          "Usas casi todo lo que pagas, no una mínima parte de una herramienta enorme.",
+          "Se lleva bien con la una o dos herramientas más en las que te apoyas.",
+          "Ponerla en marcha te llevó una tarde, no quince días de pelearte con ella."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Si ese eres tú, deja de leer y vete a disfrutar del día. De verdad. No hay premio por construir algo a medida cuando una app de 15 euros al mes ya hace el trabajo."
+      },
+      {
+        "type": "h2",
+        "text": "Las señales de alarma de que te has quedado pequeño"
+      },
+      {
+        "type": "p",
+        "text": "El problema del software estándar está ahí mismo, en el nombre. Está hecho para todo el mundo, lo que significa que no está hecho para nadie en particular. Durante un tiempo no te das cuenta. Y un día caes en que el software te está haciendo trabajar a su manera en lugar de a la tuya, y esas pequeñas fricciones se han convertido, sin hacer ruido, en un impuesto sobre tu tiempo. Atento a estas señales. Una sola no pasa nada. Tres o cuatro juntas, y se te ha quedado pequeño:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pagas por puestos, planes o funciones que nunca tocas, solo para desbloquear la única cosa que de verdad usas.",
+          "Has pegado tres o cuatro herramientas unas con otras, y solo se entienden a medias entre ellas.",
+          "Cada vez que quieres un número sencillo, exportas a una hoja de cálculo y lo calculas a mano.",
+          "El flujo de trabajo se pelea con tu forma real de llevar las cosas, así que tu equipo tiene pasos no oficiales \"de cómo se hace de verdad\".",
+          "Llevas en la cabeza un apaño por cada cliente, porque la app no sabe gestionar cómo presupuestas o reservas de verdad.",
+          "El personal nuevo necesita una semana para aprender, no el trabajo, sino tu enredo de herramientas."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "El software estándar está hecho para todo el mundo, que es otra forma de decir que no está hecho para nadie en particular."
+      },
+      {
+        "type": "h2",
+        "text": "Qué significa \"a medida\" ahora mismo"
+      },
+      {
+        "type": "p",
+        "text": "La palabra \"a medida\" seguramente te trae a la mente un proyecto de seis meses, un presupuesto de cinco cifras y una agencia que se queda muda a mitad de camino. Ese era el viejo modelo, y con razón los pequeños negocios se mantenían a distancia. Ya no es así. La IA ha hecho que construir una herramienta pequeña y afilada sea mucho más rápido y barato, así que lo de hacer algo a medida es ahora una opción sensata para un negocio local cualquiera, no un lujo para empresas grandes. Rara vez significa reconstruirlo todo. Suele significar una herramienta que hace eso que el software estándar no puede, moldeada en torno a tu forma real de trabajar. Por ejemplo: un proceso de reserva que sigue tu manera real de hacer las cosas en lugar de un calendario genérico; una calculadora de presupuestos que rellena tu propio cliente para que el precio te llegue al correo ya calculado; o un panel sencillo solo con tus números, sin exportar nada, solo la cifra que miras cada mañana."
+      },
+      {
+        "type": "p",
+        "text": "Convive con tus herramientas actuales en lugar de reemplazarlas todas. Te quedas con la contabilidad estándar y el datáfono, y construyes solo la parte que te está costando. Si automatizar el trabajo repetitivo también te ronda la cabeza, nuestro trabajo de [automatizaciones e integraciones](~/services/automations) encaja muy bien con esta forma de pensar."
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "Antes de construir nada, dedica una semana a apuntar cada vez que dices \"el sistema no me deja\" o abres una hoja de cálculo para arreglar algo. Esa pequeña lista es tu verdadera especificación. Vale más que cualquier lista de deseos de funciones."
+      },
+      {
+        "type": "h2",
+        "text": "Una forma sencilla de decidir: haz las cuentas"
+      },
+      {
+        "type": "p",
+        "text": "No necesitas un consultor para esto. Necesitas una cuenta de servilleta. Pon en la balanza el coste del apaño frente al coste de construir algo que lo elimine."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Pon precio al apaño",
+            "body": "¿Cuánto se tarda en el lío manual cada vez? ¿Diez minutos de exportar y copiar? Pon un valor aproximado en euros a tu tiempo, pongamos 30 euros la hora, así que diez minutos son alrededor de 5 euros."
+          },
+          {
+            "title": "Multiplica por las veces que lo haces",
+            "body": "Hazlo dos veces al día, cinco días a la semana, y eso son 50 euros a la semana. A lo largo de un año estás gastando más de 2.500 euros, y mucha paciencia, en un solo apaño."
+          },
+          {
+            "title": "Compáralo con construir la herramienta",
+            "body": "Ahora pregúntate cuánto costaría construir y mantener una pequeña herramienta a medida que acabe con esa tarea. Si el apaño cuesta más a lo largo de un año de lo que cuesta construir la herramienta, las cuentas toman la decisión por ti."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "La misma lógica te frena en la otra dirección. Si el apaño te cuesta 40 euros al año en leve fastidio, no construyas nada. Quédate con la hoja de cálculo. Hacer cuentas honestas te protege de pasarte de la raya construyendo de más, igual que de aguantar algo que no te encaja. Antes de comprometerte, repasa unas cuantas preguntas: ¿Es esto un coste real y repetido o un fastidio puntual? ¿Podría arreglarlo gratis un ajuste o un plan distinto? ¿Cuál es la única tarea más dolorosa que querría quitarme de encima primero? ¿Seguirá encajando con mi forma de trabajar dentro de un año? ¿Y quién la mantiene cuando mi negocio cambie?"
+      },
+      {
+        "type": "p",
+        "text": "Así que esa es la versión honesta. Quédate con el software estándar mientras te encaje, y no dejes que nadie te convenza de soltar una app buena y barata que hace el trabajo. La velocidad también importa, porque una herramienta a medida torpe no ayuda a nadie. El mismo cuidado que se pone en una [web que carga rápido](~/services/websites) cabe en cualquier herramienta que toquen tu equipo o tus clientes. Pero cuando pagas a diario un impuesto en apaños, una pequeña [herramienta a medida construida en torno a tu forma real de trabajar](~/services/custom-tools) puede amortizarse antes de lo que crees. Si no tienes claro de qué lado de la raya estás, eso es justo lo que vale la pena hablar. Una charla gratuita de 15 minutos suele bastar para apuntarte en la buena dirección, sin compromiso y sin jerga."
+      }
+    ],
+    "image": {
+      "credit": "WOCinTech Chat / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/wocintechchat/"
+    }
+  },
+  {
+    "slug": "ai-for-small-business-2026-guide",
+    "category": "AI Strategy",
+    "categoryIcon": "spark",
+    "title": "La IA para pequeños negocios en 2026: una guía clara y sin humo",
+    "description": "Una guía tranquila de IA para pequeños negocios en 2026 pensada para dueños de negocios locales: qué significa la IA de verdad, los cuatro sitios donde primero da resultados y cómo empezar sin riesgos.",
+    "dek": "Olvídate del bombo y del catastrofismo. Para un negocio local, la IA es solo un puñado de herramientas prácticas que te ahorran tiempo y te traen clientes, y puedes empezar con un solo arreglo pequeño.",
+    "keyword": "AI for small business 2026 guide",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-01-14",
+    "readMinutes": 6,
+    "takeaways": [
+      "La IA para un negocio de barrio no es una invasión de robots. Es un conjunto de herramientas que hacen que te encuentren, responden a la gente al instante y te quitan el papeleo de encima.",
+      "Cuatro sitios donde primero da resultados: una web rápida y moderna, un asistente que responde 24/7, la gestión automatizada y herramientas a medida cuando las apps dejan de encajar.",
+      "La IA no va a sustituir tu oficio ni tu criterio. Necesita tus conocimientos para sonar como tú, y aún comete errores, así que mantén siempre a una persona pendiente.",
+      "Empieza por la fuga que más te cuesta. Arregla eso primero, mantenlo sencillo y crece a partir de ahí."
+    ],
+    "related": [
+      "ai-agents-after-hours-bookings",
+      "local-seo-near-me-2026",
+      "small-business-automation-ideas"
+    ],
+    "cta": {
+      "service": null,
+      "label": "Reserva una charla gratuita de 15 minutos"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Seguramente te han dicho que la IA va a salvar tu negocio o a acabar con él. Las dos versiones agotan, y ninguna es cierta para una cafetería, una peluquería o un fontanero de barrio. Esta **guía de IA para pequeños negocios en 2026** es la versión tranquila: lo que estas herramientas hacen de verdad por un dueño de negocio local, dónde dan resultados primero, lo que no pueden hacer y cómo empezar con un solo paso pequeño en lugar de un salto. Sin jerga, sin catastrofismo y sin promesas de robots."
+      },
+      {
+        "type": "h2",
+        "text": "¿Qué significa de verdad la \"IA\" para un negocio de barrio?"
+      },
+      {
+        "type": "p",
+        "text": "Si quitas los titulares, todo se reduce a una cosa: software que ahora puede leer, escribir y responder en lenguaje normal, casi como lo haría una persona. Antes un ordenador necesitaba un formulario ordenado y un botón exacto. Ahora puede leer el mensaje desordenado que un cliente te manda a medianoche, entenderlo y responder con sentido en tu tono de voz. Para ti, eso se traduce en tres tareas del día a día. Puede **ayudar a que te encuentren**, **responder al instante** y **quitarte el papeleo repetitivo de encima**. Tú no manejas \"una IA\". Usas herramientas que la llevan dentro, igual que tu datáfono tiene chips por dentro en los que nunca piensas."
+      },
+      {
+        "type": "quote",
+        "text": "La IA no es algo que compras. Es un asistente discreto dentro de las herramientas que ya deseabas que funcionaran mejor.",
+        "cite": "Cómo se lo explicamos a los dueños de negocios"
+      },
+      {
+        "type": "h2",
+        "text": "Los cuatro sitios donde primero da resultados"
+      },
+      {
+        "type": "p",
+        "text": "No necesitas todo esto, y desde luego no de golpe. Estos son simplemente los cuatro sitios donde un negocio local suele notar la diferencia más rápido, y la mayoría de los dueños empiezan por el que ahora mismo deja escapar más dinero. **Primero, que te encuentren con una web rápida y moderna.** Cuando alguien cerca coge el móvil, quieres ser el resultado que toca y la página que carga antes de que pierda la paciencia. A medida que una página móvil pasa de uno a tres segundos en cargar, la probabilidad de que un visitante se rinda y se marche sube alrededor de un 32%, según Google. Una web moderna, bien estructurada para que los buscadores y las herramientas de IA la entiendan, es la base sobre la que se apoya todo lo demás. Lo vemos en profundidad en nuestra guía sobre [aparecer en las búsquedas \"cerca de mí\"](~/blog/local-seo-near-me-2026), y es el corazón de cómo construimos [webs](~/services/websites)."
+      },
+      {
+        "type": "stat",
+        "value": "~32%",
+        "label": "más probable que un visitante se marche a medida que una página móvil pasa de 1 a 3 segundos en cargar",
+        "source": "Google"
+      },
+      {
+        "type": "p",
+        "text": "**Segundo, responder a todo el mundo al instante, de día o de noche.** Aquí es donde la IA se gana el sueldo con más claridad. Un asistente puede responder a las consultas de tu web o de WhatsApp en cuanto llegan, contestar a las mismas preguntas que estás cansado de teclear y reservar a la gente mientras tú estás metido de lleno en un trabajo o durmiendo a pierna suelta. La rapidez al responder importa muchísimo: los negocios que responden a una consulta nueva en unos cinco minutos tienen muchísimas más probabilidades de llegar a ese cliente potencial y cualificarlo que los que esperan media hora, según el estudio Lead Response Management (InsideSales / MIT). Un mensaje que se pierde a las nueve de la noche es a menudo una reserva que tu competencia se lleva por la mañana. Mira cómo funciona en nuestro artículo sobre [ganar reservas fuera de horario](~/blog/ai-agents-after-hours-bookings) y nuestros [asistentes de IA](~/services/ai-agents)."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "ventana de respuesta que te hace mucho más probable llegar a una consulta nueva y cualificarla que esperar 30 minutos",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "**Tercero, automatizar el papeleo.** Piensa en las pequeñas tareas que te comen las tardes: perseguir una confirmación, mandar el mismo recordatorio de reserva, copiar datos de un correo a tu calendario, hacer seguimiento de un presupuesto. Estas tareas pueden funcionar solas, en silencio y en segundo plano, y reunimos puntos de partida prácticos en nuestra lista de [ideas de automatización para pequeños negocios](~/blog/small-business-automation-ideas), que es la base de nuestras [automatizaciones](~/services/automations). **Cuarto, herramientas a medida cuando se te quedan pequeñas las apps.** Con el tiempo puedes toparte con otro muro: pagar cinco suscripciones que no se hablan entre sí, o un baile diario de copiar y pegar que ninguna app termina de cubrir. Ahí es cuando una herramienta sencilla, hecha a tu medida, empieza a tener sentido, construida en torno a cómo trabajas de verdad. Si has llegado a ese muro, para eso están las [herramientas a medida](~/services/custom-tools)."
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo de Kodable",
+        "body": "No intentes \"hacer IA\". Elige el único momento en el que un cliente se te escapa más a menudo, el mensaje sin responder, la página lenta, el seguimiento olvidado, y arregla solo eso. Una fuga, bien tapada, vale más que diez cacharros a medio terminar."
+      },
+      {
+        "type": "h2",
+        "text": "Lo que la IA no es (la parte honesta)"
+      },
+      {
+        "type": "p",
+        "text": "Esto importa tanto como las ventajas, así que vamos a ser claros contigo. La IA es de verdad útil, pero no es magia, y quien te la vende como magia te está vendiendo algo."
+      },
+      {
+        "type": "list",
+        "items": [
+          "No va a sustituir tu oficio. Una herramienta puede reservar la mesa; no puede cocinar el plato, cortar el pelo ni arreglar la caldera. Eso en lo que de verdad eres bueno sigue siendo enteramente tuyo.",
+          "No va a sustituir tu criterio. Puede redactar una respuesta o avisarte de una reserva rara, pero las decisiones que importan, el cliente complicado, el presupuesto delicado, son tuyas.",
+          "Necesita tus conocimientos para sonar como tú. Un asistente solo conoce tus precios, tus horarios y tu forma de hablar porque tú se los enseñaste. Tal cual viene es un bot genérico; con lo que tú le aportas, suena como tu negocio.",
+          "Comete errores. De vez en cuando se equivocará en algo o dirá una tontería con mucho aplomo. Es normal, y es justo por eso que mantienes a una persona pendiente de cualquier cosa importante."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cómo empezar, sin riesgo"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Encuentra tu fuga más grande",
+            "body": "¿Por dónde se te escapa más a menudo la gente? ¿Mensajes de la tarde sin responder? ¿Una web que carga lenta en el móvil? ¿Presupuestos a los que nunca se les hace seguimiento? Elige el que más te cuesta."
+          },
+          {
+            "title": "Arregla primero esa única cosa",
+            "body": "Resiste las ganas de reformarlo todo. Resuelve bien un solo problema real. Notarás el resultado y aprenderás qué merece la pena hacer después."
+          },
+          {
+            "title": "Mantén a una persona pendiente",
+            "body": "Deja que la herramienta se encargue de la rutina y del alud de fuera de horario, pero asegúrate de que cualquier cosa delicada, una queja, una petición fuera de lo común, llegue a ti."
+          },
+          {
+            "title": "Crece solo cuando se lo gane",
+            "body": "Añade la siguiente pieza una vez que la primera se haya pagado claramente sola. Los pasos pequeños y probados ganan siempre a un único salto caro."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Una palabra justa sobre el coste y la privacidad también. Las buenas herramientas deberían ahorrarte más de lo que cuestan, en tiempo y en reservas ganadas, o no merece la pena conservarlas. Los datos de los clientes deberían tratarse con cuidado y limitarse a lo que de verdad hace falta. Y una persona, tú, siempre debería poder intervenir. Si todo esto aún te parece mucho, es justo por eso que mantenemos el primer paso muy pequeño. La forma más sencilla de encontrar tu fuga más grande es comentarlo con alguien que ya ha tapado un centenar de ellas, y una charla gratuita de 15 minutos, sin jerga y sin compromiso, suele bastar para ver con claridad dónde te ayudaría de verdad la IA en tu negocio, y dónde, sinceramente, no."
+      }
+    ],
+    "image": {
+      "credit": "homethods / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/146625745@N08/33067431515"
+    }
+  },
+  {
+    "slug": "cost-of-missed-calls",
+    "category": "AI Strategy",
+    "categoryIcon": "spark",
+    "title": "El coste real de las llamadas perdidas para un pequeño negocio",
+    "description": "Calcula el coste real de las llamadas perdidas para tu pequeño negocio con una cuenta sencilla usando tus propias cifras, y descubre las formas más baratas de tapar la fuga.",
+    "dek": "Cada llamada sin contestar o mensaje sin leer es un trabajo medio que se va al de al lado. Aquí tienes una forma transparente de ponerle una cifra anual, con tus números, no con los nuestros.",
+    "keyword": "cost of missed calls small business",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-05-27",
+    "readMinutes": 6,
+    "takeaways": [
+      "Una consulta perdida no es cero: es el valor de un trabajo medio que se va a la competencia.",
+      "La cuenta es sencilla: consultas perdidas por semana × tu tasa de cierre × valor medio del trabajo × 52.",
+      "La mayoría de quien llama no deja mensaje en el buzón ni espera. Simplemente llama al siguiente negocio en Google.",
+      "El arreglo más barato es una respuesta instantánea; el mejor es un asistente que de verdad se ocupa de la consulta."
+    ],
+    "related": [
+      "ai-agents-after-hours-bookings",
+      "whatsapp-ai-assistant-restaurants",
+      "local-seo-near-me-2026"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Deja de perder consultas"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Aquí va una idea incómoda. El teléfono suena mientras estás metido hasta el codo en un trabajo, atendiendo una mesa o profundamente dormido a las 11 de la noche. Suena y nadie contesta. Para ti, parece que no ha pasado nada. Pero la persona al otro lado tenía dinero en la mano y un problema que resolver, y acaba de pasar al siguiente nombre de la lista."
+      },
+      {
+        "type": "p",
+        "text": "La mayoría de los dueños nunca hace esta cuenta. Dan por hecho que una llamada perdida es un cero. No lo es. El verdadero **coste de las llamadas perdidas para un pequeño negocio** es el valor de un trabajo medio, multiplicado por la frecuencia con que ocurre, multiplicado por 52 semanas. Cuando de verdad haces esa cuenta, el número suele caer como un vaso de agua fría. Hagámosla juntos, con honestidad, con tus cifras."
+      },
+      {
+        "type": "h2",
+        "text": "¿Cuánto le cuesta realmente una llamada perdida a un pequeño negocio?"
+      },
+      {
+        "type": "p",
+        "text": "No necesitas una hoja de cálculo ni un consultor. Necesitas cuatro números que ya conoces de memoria: cuántas consultas pierdes en una semana normal (llamadas que suenan sin que las cojas, mensajes que ves horas después, el WhatsApp de las 9 de la noche que respondes a las 9 de la mañana); tu tasa de cierre (de la gente a la que sí llegas, cuántos se convierten en trabajo pagado, una de cada tres es lo habitual); el valor medio de tu trabajo (lo que vale un cliente típico cuando dice que sí); y 52, porque queremos la foto anual, no un martes tranquilo cualquiera. Ahora multiplica: **consultas perdidas por semana × tasa de cierre × valor medio del trabajo × 52**. Sin cuentas raras, sin medias del sector infladas, solo tu propio negocio reflejado."
+      },
+      {
+        "type": "h2",
+        "text": "Un ejemplo resuelto (mete tus propias cifras)"
+      },
+      {
+        "type": "p",
+        "text": "Pongamos que pierdes 6 consultas en una semana normal. Eso no es un desastre de negocio, es una semana normal para un fontanero con trabajo, una cafetería con clientela o una peluquería en plena cita. Cierras una de cada tres de las personas a las que sí llegas, y tu trabajo medio vale 90 €."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Consultas perdidas al año",
+            "body": "6 a la semana × 52 semanas = 312 consultas que nunca contestaste como es debido."
+          },
+          {
+            "title": "Cuántas habrían dicho que sí",
+            "body": "312 × una tasa de cierre de una de cada tres = 104 trabajos."
+          },
+          {
+            "title": "Cuánto valían esos trabajos",
+            "body": "104 trabajos × 90 € = 9.360 € al año, más o menos, saliendo por la puerta."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Unos nueve mil quinientos euros y pico. De una fuga que habrías jurado que no era nada. Y fuimos suaves con las cifras: muchos dueños pierden más de seis a la semana, y muchos tienen un trabajo medio que vale bastante más de 90 €. Haz tus cuentas reales antes de decidir que esto no va contigo."
+      },
+      {
+        "type": "quote",
+        "text": "Una llamada perdida no es un momento de calma en tu día. Es un trabajo medio, pagado entero, que se va al negocio que sí lo cogió.",
+        "cite": "La versión sincera que la mayoría de los dueños nunca calcula"
+      },
+      {
+        "type": "h2",
+        "text": "Por qué se pierden las llamadas, y por qué quien llama no espera"
+      },
+      {
+        "type": "p",
+        "text": "No porque seas un descuidado. Porque estás trabajando. Estabas atendiendo a alguien que tenías delante, que es lo primero. Era fuera de horario, o la única tarde que desconectaste. Estabas en un trabajo con las manos ocupadas y el teléfono en la furgoneta. O estabas dormido, porque eres una persona y no un centro de llamadas 24 horas. Nada de eso es un fallo, pero el cliente no ve tu motivo. Solo ve silencio, y el silencio tiene un coste. La gente que busca un negocio local ahora mismo está lista para actuar, y es impaciente. Rara vez deja mensaje en el buzón, y rara vez lo intenta dos veces. Vuelven a Google y llaman al siguiente resultado, tu competencia, a dos calles de ti."
+      },
+      {
+        "type": "p",
+        "text": "La rapidez lo es todo, y los datos son contundentes al respecto. El estudio Lead Response Management (InsideSales / MIT) descubrió que responder en unos cinco minutos te hace unas 100 veces más probable de contactar con un cliente potencial nuevo, y unas 21 veces más probable de cualificarlo, que esperar media hora. Así que la consulta perdida y la respuesta lenta son en realidad el mismo problema con dos caras. Una llamada que devuelves tres horas más tarde es, para la mayoría de los clientes locales, una llamada que no devolviste en absoluto."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "responde en cinco minutos y tienes unas 100x más probable de contactar con un cliente potencial nuevo, y unas 21x más probable de cualificarlo, que esperando 30 minutos",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "h2",
+        "text": "Los arreglos más baratos, ordenados con honestidad"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Una respuesta automática instantánea",
+            "body": "Lo mínimo imprescindible, y casi gratis. Una llamada o mensaje perdido dispara un SMS o WhatsApp inmediato: 'Gracias por escribirnos, enseguida te respondemos.' Te da tiempo y le dice a quien llama que se le ha escuchado, así que es mucho menos probable que llame al siguiente nombre. No reserva el trabajo, pero corta la hemorragia."
+          },
+          {
+            "title": "Un asistente entrenado que de verdad se ocupa",
+            "body": "El arreglo de verdad. En lugar de decir solo 'ya te responderemos', un asistente de IA contesta la pregunta, da el rango de precios, comprueba la disponibilidad y reserva el hueco, con tu voz, a cualquier hora. La consulta que llegó a medianoche es una reserva confirmada para cuando te despiertas, no una llamada perdida de la que nunca te enterarás."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Si la mayoría de tus consultas perdidas llegan después de cerrar, un asistente que recoge y reserva [reservas fuera de horario mientras duermes](~/blog/ai-agents-after-hours-bookings) es donde está escondido el dinero. Y si tus clientes te contactan sobre todo por WhatsApp, como cada vez más hacen, un [asistente de WhatsApp que responde al instante y coge reservas](~/blog/whatsapp-ai-assistant-restaurants) atrapa las consultas que una llamada perdida nunca pillaría."
+      },
+      {
+        "type": "callout",
+        "title": "Un consejo rápido de Kodable",
+        "body": "Antes de cambiar nada, lleva la cuenta durante una semana. Cada llamada que no cojas y cada mensaje que respondas tarde, solo una raya en una libreta junto a la caja o en la furgoneta. Multiplícalo el fin de semana. Ese único número sincero suele decidir el asunto más rápido que cualquier discurso de venta."
+      },
+      {
+        "type": "p",
+        "text": "La parte que tranquiliza: no tocas nada de código, y no necesitas entender cómo funciona. El asistente suena como tú, no como un robot genérico, y recoge las consultas que tú sencillamente no puedes, cuando tienes las manos ocupadas o los ojos cerrados. El trabajo que ahorra suele pagarse solo con los primeros trabajos que rescata. Si has hecho la cuenta y la cifra anual ha escocido un poco, ese escozor es tu negocio diciéndote dónde está el dinero fácil, y el arreglo es más pequeño que la fuga. El mejor sitio para empezar es una charla gratuita de 15 minutos: repasaremos juntos tus cifras reales y te enseñaremos exactamente qué pillaría un [asistente hecho para tu negocio](~/services/ai-agents)."
+      }
+    ],
+    "image": {
+      "credit": "CoreForce / Flickr (CC BY 2.0)",
+      "creditUrl": "https://www.flickr.com/photos/58441544@N00/413042340"
+    }
+  }
+]

@@ -6,7 +6,9 @@ import path from "path";
 // script/style because Next injects inline bootstrap scripts and the design uses
 // a few inline style attributes; no third-party origins are permitted, and the
 // only user-supplied text (a lead's message) is HTML-escaped before it ever
-// appears anywhere, so the inline-script allowance is low-risk here.
+// appears anywhere, and JSON-LD is serialized with jsonLdHtml() which escapes
+// < > & — so the inline-script allowance is an accepted, low-risk trade-off
+// (kept on purpose to preserve fully static rendering).
 const csp = [
   "default-src 'self'",
   "script-src 'self' 'unsafe-inline'",

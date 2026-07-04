@@ -1,0 +1,22 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [
+      "/Users/marcosconley/Documents/Kodable.ai/kodable-clones/04-swiss.html"
+    ],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "reason": "User confirmed Inter is intentional",
+        "createdAt": "2026-06-30T11:35:41.006Z"
+      },
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "reason": "User confirmed Space Grotesk is intentional",
+        "createdAt": "2026-06-30T11:35:47.752Z"
+      }
+    ]
+  }
+}

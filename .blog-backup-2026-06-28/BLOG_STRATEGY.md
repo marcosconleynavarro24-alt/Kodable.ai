@@ -1,12 +1,5 @@
 # Kodable.ai — Blog content strategy
 
-> **⚠ STATUS 2026-06-28 — SUPERSEDED.** The 10-post cluster described below was
-> **deleted** and replaced by a single customer-acquisition flagship,
-> `/blog/kit-digital-2026` (ES native + EN; FR/DE/IT English fallback). The old 10
-> posts are backed up at `.blog-backup-2026-06-28/` and their URLs 301-redirect to
-> `/blog`. This doc is kept for historical reference / if the cluster is ever
-> restored; it no longer reflects what is live.
-
 A data-grounded plan to grow organic + AI-search visibility, built around Kodable's
 four service pillars (websites · AI agents · custom tools · automations) and its
 audience: owners of small **local** businesses (restaurants, salons/clinics,

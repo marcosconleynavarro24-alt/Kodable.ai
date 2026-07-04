@@ -1,10 +1,12 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import type { Service } from "@/content/services";
+import { checkPricesLabel } from "@/content/pricing";
 import Icon from "./Icon";
 
 // One service card (used on the home grid and the services index). Links through
-// to the service's detail page.
+// to the service's detail page, with a secondary prompt to jump straight to that
+// service's pricing.
 export default function ServiceCard({
   locale,
   service,
@@ -32,12 +34,21 @@ export default function ServiceCard({
           </li>
         ))}
       </ul>
-      <Link
-        href={`/${locale}/services/${service.slug}`}
-        className="btn btn-ghost btn-sm"
-      >
-        {service.cta}
-      </Link>
+      <div className="svc-foot">
+        <Link
+          href={`/${locale}/services/${service.slug}`}
+          className="btn btn-ghost btn-sm"
+        >
+          {service.cta}
+        </Link>
+        <Link
+          href={`/${locale}/services/${service.slug}#pricing`}
+          className="svc-price-link"
+        >
+          {checkPricesLabel[locale]}
+          <Icon name="arrow" />
+        </Link>
+      </div>
     </article>
   );
 }

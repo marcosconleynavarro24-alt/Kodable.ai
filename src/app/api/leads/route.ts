@@ -1,5 +1,6 @@
 // GET /api/leads — owner-only export of stored leads + the conversion summary.
-// Guarded by ADMIN_TOKEN (env). Pass it as ?token=... or `Authorization: Bearer`.
+// Guarded by ADMIN_TOKEN (env). Send it in the header (NOT the query string,
+// which leaks into logs/history):  Authorization: Bearer <ADMIN_TOKEN>
 // Add ?format=csv for a spreadsheet download.
 //
 // Note: on serverless hosts the data/ files are per-instance and ephemeral, so
@@ -21,11 +22,11 @@ function safeEqual(a: string, b: string): boolean {
 function authorized(request: Request): boolean {
   const expected = process.env.ADMIN_TOKEN;
   if (!expected) return false;
-  const url = new URL(request.url);
-  const fromQuery = url.searchParams.get("token") ?? "";
+  // Header-only. A token in the query string (?token=) leaks into server/proxy/
+  // CDN access logs, browser history and Referer headers, so we require it in the
+  // Authorization header instead:  Authorization: Bearer <ADMIN_TOKEN>
   const auth = request.headers.get("authorization") ?? "";
-  const fromHeader = auth.startsWith("Bearer ") ? auth.slice(7) : "";
-  const provided = fromQuery || fromHeader;
+  const provided = auth.startsWith("Bearer ") ? auth.slice(7).trim() : "";
   return provided.length > 0 && safeEqual(provided, expected);
 }
 
