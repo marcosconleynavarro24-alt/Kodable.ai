@@ -25,22 +25,22 @@ export async function generateMetadata({
     es: {
       title: "Webs, agentes de IA, herramientas y automatización",
       description:
-        "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas ahora y añade el resto cuando quieras.",
+        "Cuatro formas de hacer crecer tu negocio con IA: webs, agentes de IA, herramientas a medida y automatizaciones. Coge lo que necesitas y añade el resto después.",
     },
     fr: {
       title: "Sites web, agents IA, outils sur mesure et automatisations",
       description:
-        "Quatre façons de faire grandir votre activité avec l'IA : sites web, agents IA, outils sur mesure et automatisations. Prenez ce dont vous avez besoin maintenant, ajoutez le reste quand vous serez prêt.",
+        "Quatre façons de faire grandir votre activité avec l'IA : sites web, agents IA, outils sur mesure et automatisations. À composer selon vos besoins.",
     },
     de: {
       title: "Websites, KI-Agenten, Tools & Automatisierung",
       description:
-        "Vier Wege, wie wir dein Unternehmen mit KI wachsen lassen: Websites, KI-Agenten, maßgeschneiderte Tools und Automatisierungen. Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist.",
+        "Vier Wege, dein Unternehmen mit KI wachsen zu lassen: Websites, KI-Agenten, Tools nach Maß und Automatisierungen. Nimm, was du jetzt brauchst.",
     },
     it: {
       title: "Siti web, agenti IA, strumenti e automazioni",
       description:
-        "Quattro modi per far crescere la tua attività con l'IA: siti web, agenti IA, strumenti su misura e automazioni. Scegli ciò che ti serve ora e aggiungi il resto quando vuoi.",
+        "Quattro modi per far crescere la tua attività con l'IA: siti web, agenti IA, strumenti su misura e automazioni. Scegli ciò che ti serve, il resto quando vuoi.",
     },
   };
   const key: Locale = isLocale(locale) ? locale : "en";

@@ -34,7 +34,7 @@ const en: Record<ServiceSlug, Service> = {
     title: "Websites",
     tagline: "Stop losing customers to a slow or invisible website.",
     intro:
-      "Right now, people nearby are searching for what you do. Whether they find you, or your competitor, comes down to your website. We build sites that load fast, show up in local search, and turn visitors into bookings before they scroll away.",
+      "Kodable builds AI-powered websites for small businesses across Spain: fast to load, easy to find in local search, and designed to turn visitors into bookings. Right now, people nearby are searching for what you do. Whether they find you, or your competitor, comes down to your website.",
     included: [
       "Shows up when nearby customers search for what you do",
       "Loads in under a second, because slow sites lose people",
@@ -57,7 +57,7 @@ const en: Record<ServiceSlug, Service> = {
     title: "AI Agents",
     tagline: "Never lose a customer to an unanswered message again.",
     intro:
-      "Every time a customer messages you after hours and doesn't hear back, there's a good chance they've already booked somewhere else. Our AI agents reply in seconds, answer your most common questions, and handle bookings, even at midnight, even when you're with another customer.",
+      "An AI agent is a virtual assistant that answers your customers instantly on WhatsApp and your website, 24 hours a day, in your tone, with your prices and your schedule. Every time a customer messages you after hours and doesn't hear back, there's a good chance they've already booked somewhere else. Ours reply in seconds and handle bookings, even at midnight, even when you're with another customer.",
     included: [
       "Replies in seconds, day or night, on WhatsApp and your site",
       "Books appointments and tables without you lifting a finger",
@@ -80,7 +80,7 @@ const en: Record<ServiceSlug, Service> = {
     title: "Custom Tools & Apps",
     tagline: "Stop running your business on tools that almost fit.",
     intro:
-      "Off-the-shelf software is built for everyone, which means it's built perfectly for no one. We build the specific thing you actually need: a booking app that works the way you work, a quote calculator your customers fill in themselves, a dashboard showing the only numbers that matter to you.",
+      "Custom tools are apps built around how your business actually works: booking apps, quote calculators and dashboards that fit you, not the other way round. Off-the-shelf software is built for everyone, which means it's built perfectly for no one. We build the specific thing you actually need, showing only the numbers that matter to you.",
     included: [
       "A booking or ordering app, branded and built for your business",
       "A quote calculator that turns enquiries into serious leads",
@@ -103,7 +103,7 @@ const en: Record<ServiceSlug, Service> = {
     title: "Automations & Integrations",
     tagline: "Win back the hours you spend on tasks that should run themselves.",
     intro:
-      "If you're manually copying bookings into your calendar, chasing payment confirmations, or sending the same follow-up message over and over, those hours add up. We connect the tools you already use so all of that happens automatically, in the background, without you.",
+      "Automations connect the tools you already use, bookings, payments, WhatsApp, email, so repetitive tasks happen by themselves. If you're manually copying bookings into your calendar, chasing payment confirmations, or sending the same follow-up message over and over, those hours add up. We make all of that happen automatically, in the background, without you.",
     included: [
       "Bookings land straight in your calendar the moment they're made",
       "Payments and receipts handled without you logging in",
@@ -129,7 +129,7 @@ const es: Record<ServiceSlug, Service> = {
     title: "Webs",
     tagline: "Deja de perder clientes por una web lenta o invisible.",
     intro:
-      "Ahora mismo hay gente cerca buscando lo que tú haces. Que te encuentren a ti, o a tu competencia, depende de tu web. Creamos webs que cargan rápido, aparecen en las búsquedas de tu zona y convierten a quien entra en una reserva antes de que se vaya.",
+      "En Kodable creamos webs con IA para pequeños negocios de toda España: rápidas, fáciles de encontrar en las búsquedas de tu zona y pensadas para convertir visitas en reservas. Ahora mismo hay gente cerca buscando lo que tú haces. Que te encuentren a ti, o a tu competencia, depende de tu web.",
     included: [
       "Apareces cuando la gente de tu zona busca lo que haces",
       "Carga en menos de un segundo, porque las webs lentas espantan a la gente",
@@ -152,7 +152,7 @@ const es: Record<ServiceSlug, Service> = {
     title: "Agentes IA",
     tagline: "No vuelvas a perder un cliente por un mensaje sin responder.",
     intro:
-      "Cada vez que un cliente te escribe fuera de horario y no recibe respuesta, hay muchas papeletas de que ya haya reservado en otro sitio. Nuestros agentes de IA responden en segundos, contestan las preguntas más frecuentes y gestionan reservas, aunque sea medianoche, aunque estés con otro cliente.",
+      "Un agente de IA es un asistente virtual que responde a tus clientes al instante en WhatsApp y en tu web, las 24 horas, con tu tono, tus precios y tus horarios. Cada vez que un cliente te escribe fuera de horario y no recibe respuesta, hay muchas papeletas de que ya haya reservado en otro sitio. Los nuestros responden en segundos y gestionan reservas, aunque sea medianoche, aunque estés con otro cliente.",
     included: [
       "Responde en segundos, de día o de noche, en WhatsApp y en tu web",
       "Reserva citas y mesas sin que tú muevas un dedo",
@@ -175,7 +175,7 @@ const es: Record<ServiceSlug, Service> = {
     title: "Herramientas y apps a medida",
     tagline: "Deja de llevar tu negocio con herramientas que casi te valen.",
     intro:
-      "El software estándar está hecho para todo el mundo, lo que significa que no está hecho a la perfección para nadie. Construimos justo lo que de verdad necesitas: una app de reservas que funciona como trabajas tú, una calculadora de presupuestos que rellenan tus propios clientes, un panel que muestra solo los números que te importan.",
+      "Las herramientas a medida son aplicaciones construidas alrededor de cómo funciona tu negocio de verdad: apps de reservas, calculadoras de presupuestos y paneles que se adaptan a ti, y no al revés. El software estándar está hecho para todo el mundo, lo que significa que no está hecho a la perfección para nadie. Construimos justo lo que de verdad necesitas, con solo los números que te importan.",
     included: [
       "Una app de reservas o pedidos, con tu marca y hecha para tu negocio",
       "Una calculadora de presupuestos que convierte consultas en clientes de verdad",
@@ -198,7 +198,7 @@ const es: Record<ServiceSlug, Service> = {
     title: "Automatizaciones e integraciones",
     tagline: "Recupera las horas que pierdes en tareas que deberían hacerse solas.",
     intro:
-      "Si estás copiando reservas a mano en tu agenda, persiguiendo confirmaciones de pago o mandando el mismo mensaje de seguimiento una y otra vez, esas horas suman. Conectamos las herramientas que ya usas para que todo eso pase de forma automática, en segundo plano, sin ti.",
+      "Las automatizaciones conectan las herramientas que ya usas, reservas, pagos, WhatsApp, email, para que las tareas repetitivas se hagan solas. Si estás copiando reservas a mano en tu agenda, persiguiendo confirmaciones de pago o mandando el mismo mensaje de seguimiento una y otra vez, esas horas suman. Hacemos que todo eso pase de forma automática, en segundo plano, sin ti.",
     included: [
       "Las reservas caen directas en tu agenda en cuanto se hacen",
       "Pagos y recibos gestionados sin que tengas que entrar a nada",
@@ -224,7 +224,7 @@ const fr: Record<ServiceSlug, Service> = {
     title: "Sites web",
     tagline: "Arrêtez de perdre des clients à cause d'un site lent ou invisible.",
     intro:
-      "En ce moment même, des gens près de chez vous cherchent ce que vous proposez. Qu'ils vous trouvent vous, ou votre concurrent, tout se joue sur votre site. Nous créons des sites qui se chargent vite, apparaissent dans les recherches locales, et transforment les visiteurs en réservations avant qu'ils ne fassent défiler la page.",
+      "Kodable crée des sites web propulsés par l'IA pour les petits commerces partout en Espagne : rapides à charger, faciles à trouver dans les recherches locales et pensés pour transformer les visites en réservations. En ce moment même, des gens près de chez vous cherchent ce que vous proposez. Qu'ils vous trouvent vous, ou votre concurrent, tout se joue sur votre site.",
     included: [
       "Apparaît quand des clients proches cherchent ce que vous proposez",
       "Se charge en moins d'une seconde, parce qu'un site lent fait fuir les gens",
@@ -247,7 +247,7 @@ const fr: Record<ServiceSlug, Service> = {
     title: "Agents IA",
     tagline: "Ne perdez plus jamais un client à cause d'un message sans réponse.",
     intro:
-      "Chaque fois qu'un client vous écrit après la fermeture sans recevoir de réponse, il y a de fortes chances qu'il ait déjà réservé ailleurs. Nos agents IA répondent en quelques secondes, traitent vos questions les plus fréquentes et gèrent les réservations, même à minuit, même quand vous êtes avec un autre client.",
+      "Un agent IA est un assistant virtuel qui répond instantanément à vos clients sur WhatsApp et sur votre site, 24h/24, avec votre ton, vos prix et vos horaires. Chaque fois qu'un client vous écrit après la fermeture sans recevoir de réponse, il y a de fortes chances qu'il ait déjà réservé ailleurs. Les nôtres répondent en quelques secondes et gèrent les réservations, même à minuit, même quand vous êtes avec un autre client.",
     included: [
       "Répond en quelques secondes, jour et nuit, sur WhatsApp et sur votre site",
       "Prend les rendez-vous et les tables sans que vous leviez le petit doigt",
@@ -270,7 +270,7 @@ const fr: Record<ServiceSlug, Service> = {
     title: "Outils et applis sur mesure",
     tagline: "Arrêtez de faire tourner votre entreprise avec des outils qui ne collent qu'à peu près.",
     intro:
-      "Les logiciels standards sont conçus pour tout le monde, ce qui veut dire qu'ils ne sont parfaits pour personne. Nous construisons exactement ce dont vous avez besoin, une appli de réservation qui fonctionne à votre façon, un calculateur de devis que vos clients remplissent eux-mêmes, un tableau de bord qui n'affiche que les chiffres qui comptent pour vous.",
+      "Les outils sur mesure sont des applications construites autour du fonctionnement réel de votre activité : applis de réservation, calculateurs de devis et tableaux de bord qui s'adaptent à vous, et non l'inverse. Les logiciels standards sont conçus pour tout le monde, ce qui veut dire qu'ils ne sont parfaits pour personne. Nous construisons exactement ce dont vous avez besoin, avec uniquement les chiffres qui comptent pour vous.",
     included: [
       "Une appli de réservation ou de commande, à votre image et pensée pour vous",
       "Un calculateur de devis qui transforme les demandes en prospects sérieux",
@@ -293,7 +293,7 @@ const fr: Record<ServiceSlug, Service> = {
     title: "Automatisations et intégrations",
     tagline: "Récupérez les heures perdues sur des tâches qui devraient se faire toutes seules.",
     intro:
-      "Si vous recopiez à la main des réservations dans votre agenda, relancez des confirmations de paiement, ou envoyez encore et encore le même message de suivi, ces heures s'accumulent. Nous connectons les outils que vous utilisez déjà pour que tout ça se fasse automatiquement, en arrière-plan, sans vous.",
+      "Les automatisations relient les outils que vous utilisez déjà, réservations, paiements, WhatsApp, email, pour que les tâches répétitives se fassent toutes seules. Si vous recopiez à la main des réservations dans votre agenda, relancez des confirmations de paiement, ou envoyez encore et encore le même message de suivi, ces heures s'accumulent. Nous faisons en sorte que tout ça se fasse automatiquement, en arrière-plan, sans vous.",
     included: [
       "Les réservations atterrissent directement dans votre agenda dès qu'elles sont faites",
       "Paiements et reçus gérés sans que vous ayez à vous connecter",
@@ -319,7 +319,7 @@ const de: Record<ServiceSlug, Service> = {
     title: "Websites",
     tagline: "Verlier keine Kunden mehr an eine langsame oder unsichtbare Website.",
     intro:
-      "Gerade jetzt suchen Leute in deiner Nähe nach dem, was du machst. Ob sie dich finden, oder deinen Mitbewerber, hängt an deiner Website. Wir bauen Seiten, die schnell laden, in der lokalen Suche auftauchen und Besucher zu Buchungen machen, bevor sie weiterscrollen.",
+      "Kodable baut KI-gestützte Websites für kleine Unternehmen in ganz Spanien: schnell geladen, leicht in der lokalen Suche zu finden und darauf ausgelegt, Besucher zu Buchungen zu machen. Gerade jetzt suchen Leute in deiner Nähe nach dem, was du machst. Ob sie dich finden, oder deinen Mitbewerber, hängt an deiner Website.",
     included: [
       "Taucht auf, wenn Kunden in der Nähe nach dem suchen, was du machst",
       "Lädt in unter einer Sekunde, denn lahme Seiten verlieren Leute",
@@ -342,7 +342,7 @@ const de: Record<ServiceSlug, Service> = {
     title: "KI-Agenten",
     tagline: "Verlier nie wieder einen Kunden an eine unbeantwortete Nachricht.",
     intro:
-      "Jedes Mal, wenn dir ein Kunde nach Feierabend schreibt und keine Antwort bekommt, hat er ziemlich sicher schon woanders gebucht. Unsere KI-Agenten antworten in Sekunden, beantworten deine häufigsten Fragen und übernehmen Buchungen, auch um Mitternacht, auch wenn du gerade bei einem anderen Kunden bist.",
+      "Ein KI-Agent ist ein virtueller Assistent, der deinen Kunden sofort auf WhatsApp und deiner Website antwortet, rund um die Uhr, in deinem Ton, mit deinen Preisen und deinen Zeiten. Jedes Mal, wenn dir ein Kunde nach Feierabend schreibt und keine Antwort bekommt, hat er ziemlich sicher schon woanders gebucht. Unsere antworten in Sekunden und übernehmen Buchungen, auch um Mitternacht, auch wenn du gerade bei einem anderen Kunden bist.",
     included: [
       "Antwortet in Sekunden, Tag und Nacht, auf WhatsApp und deiner Seite",
       "Bucht Termine und Tische, ohne dass du einen Finger rührst",
@@ -365,7 +365,7 @@ const de: Record<ServiceSlug, Service> = {
     title: "Maßgeschneiderte Tools & Apps",
     tagline: "Führ dein Geschäft nicht mehr mit Tools, die nur fast passen.",
     intro:
-      "Software von der Stange ist für alle gebaut, und damit für niemanden perfekt. Wir bauen genau das, was du wirklich brauchst: eine Buchungs-App, die so funktioniert wie du arbeitest, einen Angebotsrechner, den deine Kunden selbst ausfüllen, ein Dashboard mit genau den Zahlen, die für dich zählen.",
+      "Maßgeschneiderte Tools sind Apps, die um die tatsächliche Arbeitsweise deines Geschäfts herum gebaut werden: Buchungs-Apps, Angebotsrechner und Dashboards, die sich dir anpassen, nicht umgekehrt. Software von der Stange ist für alle gebaut, und damit für niemanden perfekt. Wir bauen genau das, was du wirklich brauchst, mit genau den Zahlen, die für dich zählen.",
     included: [
       "Eine Buchungs- oder Bestell-App, gebrandet und gebaut für dein Geschäft",
       "Ein Angebotsrechner, der aus Anfragen ernsthafte Leads macht",
@@ -388,7 +388,7 @@ const de: Record<ServiceSlug, Service> = {
     title: "Automatisierungen & Integrationen",
     tagline: "Hol dir die Stunden zurück, die du für Aufgaben verlierst, die sich von selbst erledigen sollten.",
     intro:
-      "Wenn du Buchungen von Hand in deinen Kalender überträgst, Zahlungsbestätigungen hinterherjagst oder dieselbe Nachricht immer und immer wieder schickst, diese Stunden summieren sich. Wir verbinden die Tools, die du schon nutzt, sodass all das automatisch im Hintergrund passiert, ganz ohne dich.",
+      "Automatisierungen verbinden die Tools, die du schon nutzt, Buchungen, Zahlungen, WhatsApp, Email, damit wiederkehrende Aufgaben von selbst passieren. Wenn du Buchungen von Hand in deinen Kalender überträgst, Zahlungsbestätigungen hinterherjagst oder dieselbe Nachricht immer und immer wieder schickst, diese Stunden summieren sich. Wir sorgen dafür, dass all das automatisch im Hintergrund passiert, ganz ohne dich.",
     included: [
       "Buchungen landen direkt in deinem Kalender, sobald eine Buchung reinkommt",
       "Zahlungen und Belege erledigt, ohne dass du dich einloggst",
@@ -414,7 +414,7 @@ const it: Record<ServiceSlug, Service> = {
     title: "Siti web",
     tagline: "Smetti di perdere clienti per un sito lento o invisibile.",
     intro:
-      "Proprio ora, qui vicino, c'è chi cerca quello che fai. Che trovi te, o il tuo concorrente, dipende dal tuo sito. Noi costruiamo siti che caricano veloci, compaiono nelle ricerche locali e trasformano i visitatori in prenotazioni prima che scrollino via.",
+      "Kodable costruisce siti web potenziati dall'IA per piccole attività in tutta la Spagna: veloci da caricare, facili da trovare nelle ricerche locali e pensati per trasformare le visite in prenotazioni. Proprio ora, qui vicino, c'è chi cerca quello che fai. Che trovi te, o il tuo concorrente, dipende dal tuo sito.",
     included: [
       "Compare quando i clienti qui vicino cercano quello che fai",
       "Carica in meno di un secondo, perché i siti lenti fanno perdere persone",
@@ -437,7 +437,7 @@ const it: Record<ServiceSlug, Service> = {
     title: "Agenti IA",
     tagline: "Non perdere mai più un cliente per un messaggio senza risposta.",
     intro:
-      "Ogni volta che un cliente ti scrive fuori orario e non riceve risposta, è molto probabile che abbia già prenotato altrove. I nostri agenti IA rispondono in pochi secondi, sciolgono i dubbi più comuni e gestiscono le prenotazioni, anche a mezzanotte, anche quando sei con un altro cliente.",
+      "Un agente IA è un assistente virtuale che risponde subito ai tuoi clienti su WhatsApp e sul tuo sito, 24 ore su 24, col tuo tono, i tuoi prezzi e i tuoi orari. Ogni volta che un cliente ti scrive fuori orario e non riceve risposta, è molto probabile che abbia già prenotato altrove. I nostri rispondono in pochi secondi e gestiscono le prenotazioni, anche a mezzanotte, anche quando sei con un altro cliente.",
     included: [
       "Risponde in pochi secondi, giorno e notte, su WhatsApp e sul tuo sito",
       "Prenota appuntamenti e tavoli senza che tu muova un dito",
@@ -460,7 +460,7 @@ const it: Record<ServiceSlug, Service> = {
     title: "Strumenti e app su misura",
     tagline: "Smetti di mandare avanti l'attività con strumenti che vanno quasi bene.",
     intro:
-      "Il software pronto all'uso è fatto per tutti, e quindi non è fatto su misura per nessuno. Noi costruiamo la cosa precisa che ti serve davvero: un'app di prenotazione che funziona come lavori tu, un calcolatore di preventivi che i clienti compilano da soli, una dashboard con solo i numeri che contano per te.",
+      "Gli strumenti su misura sono app costruite attorno a come funziona davvero la tua attività: app di prenotazione, calcolatori di preventivi e dashboard che si adattano a te, non il contrario. Il software pronto all'uso è fatto per tutti, e quindi non è fatto su misura per nessuno. Noi costruiamo la cosa precisa che ti serve davvero, con solo i numeri che contano per te.",
     included: [
       "Un'app di prenotazione o ordini, col tuo marchio e su misura per la tua attività",
       "Un calcolatore di preventivi che trasforma le richieste in contatti seri",
@@ -483,7 +483,7 @@ const it: Record<ServiceSlug, Service> = {
     title: "Automazioni e integrazioni",
     tagline: "Riprenditi le ore che spendi in attività che dovrebbero andare da sole.",
     intro:
-      "Se copi a mano le prenotazioni in agenda, rincorri le conferme di pagamento o invii sempre lo stesso messaggio di follow-up, quelle ore si sommano. Noi colleghiamo gli strumenti che già usi così tutto questo avviene in automatico, in sottofondo, senza di te.",
+      "Le automazioni collegano gli strumenti che già usi, prenotazioni, pagamenti, WhatsApp, email, così le attività ripetitive si fanno da sole. Se copi a mano le prenotazioni in agenda, rincorri le conferme di pagamento o invii sempre lo stesso messaggio di follow-up, quelle ore si sommano. Noi facciamo in modo che tutto questo avvenga in automatico, in sottofondo, senza di te.",
     included: [
       "Le prenotazioni finiscono in agenda nell'istante in cui arrivano",
       "Pagamenti e ricevute gestiti senza che tu faccia il login",

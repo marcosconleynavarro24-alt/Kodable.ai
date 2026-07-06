@@ -32,7 +32,7 @@ const META: Record<Locale, { title: string; description: string }> = {
   en: {
     title: "AI websites, agents & automations for small businesses | Kodable.ai",
     description:
-      "Losing bookings to competitors with faster sites and instant replies? Kodable builds AI-powered websites, agents and automations for local businesses, so you get found, get booked, and never miss an enquiry again. Free 15-minute consultation.",
+      "Kodable builds AI-powered websites, agents and automations for local businesses, so you get found, get booked and never miss an enquiry. Free consultation.",
   },
   es: {
     title: "Webs, agentes de IA y automatizaciones para pequeños negocios | Kodable.ai",
@@ -42,17 +42,17 @@ const META: Record<Locale, { title: string; description: string }> = {
   fr: {
     title: "Sites web, agents IA et automatisations pour petits commerces | Kodable.ai",
     description:
-      "Des sites web, agents IA et automatisations qui font grandir les petits commerces : sites rapides, accueil client 24h/24, outils sur mesure. Consultation gratuite, de vraies personnes après le lancement.",
+      "Sites web, agents IA et automatisations qui font grandir les petits commerces : sites rapides, accueil 24h/24, outils sur mesure. Consultation gratuite.",
   },
   de: {
     title: "KI-Websites, Agenten & Automatisierungen für kleine Unternehmen | Kodable.ai",
     description:
-      "KI-Websites, Agenten & Automatisierungen, die kleine Unternehmen wachsen lassen: schnelle Websites, Kundenchat rund um die Uhr, maßgeschneiderte Tools. Kostenlose Beratung, echte Menschen nach dem Launch.",
+      "KI-Websites, Agenten und Automatisierungen für kleine Unternehmen: schnelle Websites, Kundenchat rund um die Uhr, Tools nach Maß. Kostenlose Beratung.",
   },
   it: {
     title: "Siti web, agenti IA e automazioni per piccole attività | Kodable.ai",
     description:
-      "Siti web, agenti IA e automazioni che fanno crescere le piccole attività: siti veloci, assistenza 24/7, strumenti su misura. Consulenza gratuita e persone vere dopo il lancio.",
+      "Siti web, agenti IA e automazioni che fanno crescere le piccole attività: siti veloci, assistenza 24/7, strumenti su misura. Consulenza gratuita.",
   },
 };
 
@@ -127,6 +127,9 @@ export default async function LocaleLayout({
         telephone: contactInfo.phoneHref,
         description: site.brand.tagline,
         knowsLanguage: [...locales],
+        // Real, owned profile only (see x-ad-campaign playbook). Never add
+        // unverified URLs here.
+        sameAs: ["https://x.com/KodableAi"],
         logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
         contactPoint: [
           {
