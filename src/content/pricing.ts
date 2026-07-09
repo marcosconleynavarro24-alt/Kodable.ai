@@ -140,9 +140,9 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Websites",
         tiers: {
-          starter: { name: "Starter", features: ["1–5 pages", "Mobile, WhatsApp & click-to-call", "Google Business + basic SEO", "One language"] },
+          starter: { name: "Economy", features: ["1–5 pages", "Mobile, WhatsApp & click-to-call", "Google Business + basic SEO", "One language"] },
           business: { name: "Business", features: ["Up to ~8 pages, custom design", "Bilingual ES/EN", "Booking or online-order built in", "Local SEO, reviews & blog"] },
-          premium: { name: "Premium & Shop", features: ["Online shop or bespoke build", "Multilingual + payments", "Advanced integrations", "Priority delivery"] },
+          premium: { name: "Premium", features: ["Online shop or bespoke build", "Multilingual + payments", "Advanced integrations", "Priority delivery"] },
         },
       },
       chat: {
@@ -215,9 +215,9 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Webs",
         tiers: {
-          starter: { name: "Inicial", features: ["1–5 páginas", "Móvil, WhatsApp y clic para llamar", "Perfil de Empresa en Google + SEO básico", "Un idioma"] },
-          business: { name: "Negocio", features: ["Hasta ~8 páginas, diseño a medida", "Bilingüe ES/EN", "Reservas o pedidos integrados", "SEO local, reseñas y blog"] },
-          premium: { name: "Premium y Tienda", features: ["Tienda online o desarrollo a medida", "Multilingüe + pagos", "Integraciones avanzadas", "Entrega prioritaria"] },
+          starter: { name: "Economy", features: ["1–5 páginas", "Móvil, WhatsApp y clic para llamar", "Perfil de Empresa en Google + SEO básico", "Un idioma"] },
+          business: { name: "Business", features: ["Hasta ~8 páginas, diseño a medida", "Bilingüe ES/EN", "Reservas o pedidos integrados", "SEO local, reseñas y blog"] },
+          premium: { name: "Premium", features: ["Tienda online o desarrollo a medida", "Multilingüe + pagos", "Integraciones avanzadas", "Entrega prioritaria"] },
         },
       },
       chat: {
@@ -290,9 +290,9 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Sites web",
         tiers: {
-          starter: { name: "Essentiel", features: ["1 à 5 pages", "Mobile, WhatsApp et clic-pour-appeler", "Profil Google + SEO de base", "Une langue"] },
+          starter: { name: "Economy", features: ["1 à 5 pages", "Mobile, WhatsApp et clic-pour-appeler", "Profil Google + SEO de base", "Une langue"] },
           business: { name: "Business", features: ["Jusqu'à ~8 pages, design sur mesure", "Bilingue ES/EN", "Réservation ou commande intégrée", "SEO local, avis et blog"] },
-          premium: { name: "Premium & Boutique", features: ["Boutique en ligne ou sur-mesure", "Multilingue + paiements", "Intégrations avancées", "Livraison prioritaire"] },
+          premium: { name: "Premium", features: ["Boutique en ligne ou sur-mesure", "Multilingue + paiements", "Intégrations avancées", "Livraison prioritaire"] },
         },
       },
       chat: {
@@ -365,9 +365,9 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Websites",
         tiers: {
-          starter: { name: "Starter", features: ["1–5 Seiten", "Mobil, WhatsApp & Klick-zum-Anrufen", "Google-Profil + Basis-SEO", "Eine Sprache"] },
+          starter: { name: "Economy", features: ["1–5 Seiten", "Mobil, WhatsApp & Klick-zum-Anrufen", "Google-Profil + Basis-SEO", "Eine Sprache"] },
           business: { name: "Business", features: ["Bis ~8 Seiten, individuelles Design", "Zweisprachig ES/EN", "Buchung oder Bestellung integriert", "Lokales SEO, Bewertungen & Blog"] },
-          premium: { name: "Premium & Shop", features: ["Online-Shop oder Maßanfertigung", "Mehrsprachig + Zahlungen", "Erweiterte Integrationen", "Bevorzugte Lieferung"] },
+          premium: { name: "Premium", features: ["Online-Shop oder Maßanfertigung", "Mehrsprachig + Zahlungen", "Erweiterte Integrationen", "Bevorzugte Lieferung"] },
         },
       },
       chat: {
@@ -440,9 +440,9 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Siti web",
         tiers: {
-          starter: { name: "Base", features: ["1–5 pagine", "Mobile, WhatsApp e clic-per-chiamare", "Profilo Google + SEO di base", "Una lingua"] },
+          starter: { name: "Economy", features: ["1–5 pagine", "Mobile, WhatsApp e clic-per-chiamare", "Profilo Google + SEO di base", "Una lingua"] },
           business: { name: "Business", features: ["Fino a ~8 pagine, design su misura", "Bilingue ES/EN", "Prenotazioni o ordini integrati", "SEO locale, recensioni e blog"] },
-          premium: { name: "Premium e Shop", features: ["Negozio online o su misura", "Multilingue + pagamenti", "Integrazioni avanzate", "Consegna prioritaria"] },
+          premium: { name: "Premium", features: ["Negozio online o su misura", "Multilingue + pagamenti", "Integrazioni avanzate", "Consegna prioritaria"] },
         },
       },
       chat: {
