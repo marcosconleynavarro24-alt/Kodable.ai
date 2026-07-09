@@ -19,7 +19,34 @@ export const SLOTS = ["10:00", "11:30", "12:00", "16:00", "17:30", "18:00"] as c
 export const DAYS_SHOWN = 5; // business days offered in the picker
 const WINDOW_DAYS = 21; // how far ahead a date may be booked (server-side guard)
 const EVENT_MINUTES = 15; // a free 15-minute consultation
-const LEAD_MINUTES = 60; // can't book a slot starting within the next hour
+
+// ── Durable store (Supabase, optional) ───────────────────────────────────────
+// When SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY are set, bookings persist to
+// Postgres, so a taken slot stays taken across serverless invocations and can
+// never be double-booked: a UNIQUE(slot_date, slot_time) constraint enforces it
+// atomically at insert time. Without the env vars, we fall back to the local
+// file store (fine for dev / a single long-running host, best-effort otherwise).
+// The service-role key is read server-side only (this module is server-only) and
+// never reaches the browser; the table has no public RLS policies.
+const SB_URL = process.env.SUPABASE_URL;
+const SB_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
+const SB_TABLE = "kodable_bookings";
+function supabaseOn(): boolean {
+  return Boolean(SB_URL && SB_KEY);
+}
+function sbHeaders(extra?: Record<string, string>): Record<string, string> {
+  return { apikey: SB_KEY!, Authorization: `Bearer ${SB_KEY!}`, "Content-Type": "application/json", ...extra };
+}
+
+// Thrown when the slot was taken between the availability check and the insert
+// (the UNIQUE constraint fires). The API turns this into the friendly
+// "just taken, pick another" message and sends no confirmation.
+export class SlotTakenError extends Error {
+  constructor() {
+    super("slot_taken");
+    this.name = "SlotTakenError";
+  }
+}
 
 export type SlotState = "free" | "taken";
 export interface DaySlots {
@@ -94,11 +121,6 @@ function madridNow() {
   return { date: p.date, minutes: p.hh * 60 + p.mi };
 }
 
-function slotMinutes(t: string): number {
-  const [h, m] = t.split(":").map(Number);
-  return h * 60 + m;
-}
-
 // UTC offset (ms) for Madrid at a given instant.
 function offsetMs(d: Date): number {
   const p = partsInTz(d);
@@ -135,14 +157,6 @@ function weekdayShort(date: string, locale: BackendLocale): string {
   }).format(noon).replace(/\.$/, "");
 }
 
-// Is a slot bookable? Past/too-soon slots and already-booked slots are "taken".
-function slotIsPast(date: string, time: string): boolean {
-  const now = madridNow();
-  if (date < now.date) return true;
-  if (date === now.date) return slotMinutes(time) <= now.minutes + LEAD_MINUTES;
-  return false;
-}
-
 // ── Availability ─────────────────────────────────────────────────────────────
 export async function getAvailability(localeRaw: unknown): Promise<Availability> {
   const locale = backendLocale(localeRaw);
@@ -152,9 +166,10 @@ export async function getAvailability(localeRaw: unknown): Promise<Availability>
   for (const date of upcomingBusinessDays(now.date)) {
     const slots = SLOTS.map((t) => ({
       t,
-      state: (slotIsPast(date, t) || taken.get(date)?.has(t) ? "taken" : "free") as SlotState,
+      // Every time is offered; a slot is only unavailable once genuinely booked.
+      state: (taken.get(date)?.has(t) ? "taken" : "free") as SlotState,
     }));
-    if (!slots.some((s) => s.state === "free")) continue; // skip fully-unavailable days
+    if (!slots.some((s) => s.state === "free")) continue; // skip fully-booked days
     const dn = String(Number(date.split("-")[2]));
     days.push({ date, dn, dow: weekdayShort(date, locale), slots });
     if (days.length >= DAYS_SHOWN) break;
@@ -162,14 +177,38 @@ export async function getAvailability(localeRaw: unknown): Promise<Availability>
   return { tz: TZ, days };
 }
 
-// Best-effort taken map from the local store (reliable in dev / long-running
-// hosts; on serverless this is per-instance, so double-booking is prevented
-// best-effort and the owner reconciles from the notification emails).
+// Map of already-booked slots (date -> set of times). Backed by Supabase when
+// configured (durable across serverless), else by the local file store.
 async function takenSlots(): Promise<Map<string, Set<string>>> {
+  if (supabaseOn()) return takenSlotsFromSupabase();
   const map = new Map<string, Set<string>>();
   for (const b of await readBookings()) {
     if (!map.has(b.date)) map.set(b.date, new Set());
     map.get(b.date)!.add(b.time);
+  }
+  return map;
+}
+
+// Read future-dated bookings from Supabase. Fails open (empty map) on any error:
+// availability display degrades gracefully, and the atomic insert is still the
+// real guard against an actual double-booking.
+async function takenSlotsFromSupabase(): Promise<Map<string, Set<string>>> {
+  const map = new Map<string, Set<string>>();
+  try {
+    const today = madridNow().date;
+    const url = `${SB_URL}/rest/v1/${SB_TABLE}?select=slot_date,slot_time&slot_date=gte.${today}`;
+    const res = await fetch(url, { headers: sbHeaders(), cache: "no-store" });
+    if (!res.ok) {
+      console.error("[booking] supabase read", res.status, await res.text().catch(() => ""));
+      return map;
+    }
+    const rows = (await res.json()) as { slot_date: string; slot_time: string }[];
+    for (const r of rows) {
+      if (!map.has(r.slot_date)) map.set(r.slot_date, new Set());
+      map.get(r.slot_date)!.add(r.slot_time);
+    }
+  } catch (err) {
+    console.error("[booking] supabase read failed:", err);
   }
   return map;
 }
@@ -214,7 +253,7 @@ export async function validateBooking(input: BookingInput): Promise<BookingResul
   // Slot must be a real upcoming business-day slot, not in the past.
   const validDate = [...upcomingBusinessDays(madridNow().date)].includes(date);
   const validTime = (SLOTS as readonly string[]).includes(time);
-  if (!validDate || !validTime || slotIsPast(date, time)) {
+  if (!validDate || !validTime) {
     errors.slot = m.slot;
   } else {
     const taken = await takenSlots();
@@ -264,6 +303,10 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const BOOKINGS_FILE = path.join(DATA_DIR, "bookings.ndjson");
 
 export async function saveBooking(b: Booking): Promise<void> {
+  if (supabaseOn()) {
+    await saveBookingToSupabase(b); // throws SlotTakenError if the slot is gone
+    return;
+  }
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.appendFile(BOOKINGS_FILE, JSON.stringify(b) + "\n", "utf8");
@@ -271,6 +314,32 @@ export async function saveBooking(b: Booking): Promise<void> {
     console.error("[booking] could not write data/bookings.ndjson:", err);
   }
   console.info("[booking] received", { id: b.id, name: b.name, date: b.date, time: b.time, locale: b.locale });
+}
+
+// Insert into Supabase. A 409 means the UNIQUE(slot_date, slot_time) constraint
+// fired — the slot was just taken — which we surface as SlotTakenError so the
+// caller can tell the user and skip the confirmation emails.
+async function saveBookingToSupabase(b: Booking): Promise<void> {
+  const res = await fetch(`${SB_URL}/rest/v1/${SB_TABLE}`, {
+    method: "POST",
+    headers: sbHeaders({ Prefer: "return=minimal" }),
+    body: JSON.stringify({
+      id: b.id,
+      slot_date: b.date,
+      slot_time: b.time,
+      name: b.name,
+      email: b.email,
+      phone: b.phone,
+      note: b.note,
+      locale: b.locale,
+      created_at: b.createdAt,
+    }),
+  });
+  if (res.status === 409) throw new SlotTakenError();
+  if (!res.ok) {
+    throw new Error(`supabase insert ${res.status} ${(await res.text().catch(() => "")).slice(0, 200)}`);
+  }
+  console.info("[booking] saved to supabase", { id: b.id, date: b.date, time: b.time, locale: b.locale });
 }
 
 export async function readBookings(): Promise<Booking[]> {

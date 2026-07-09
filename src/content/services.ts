@@ -19,11 +19,15 @@ export interface Service {
   cta: string;
 }
 
+// "custom-tools" and "automations" are intentionally omitted for now (owner
+// directive 2026-07-08): those pillars are hidden from the homepage, the
+// /services listing, the sitemap, and static params. Their content + pricing
+// are left in place below so each can be restored by re-adding its slug here.
+// The old URLs /services/custom-tools and /services/automations 301 to
+// /services (see proxy.ts).
 export const serviceSlugs: ServiceSlug[] = [
   "websites",
   "ai-agents",
-  "custom-tools",
-  "automations",
 ];
 
 const en: Record<ServiceSlug, Service> = {

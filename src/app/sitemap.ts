@@ -16,10 +16,13 @@ const routes = [
   "",
   "/services",
   ...serviceSlugs.map((slug) => `/services/${slug}`),
+  "/pricing",
   "/blog",
   ...blogSlugs.map((slug) => `/blog/${slug}`),
   "/contact",
   "/faq",
+  "/comparativa",
+  "/casos",
   "/privacy",
   "/terms",
 ];
@@ -37,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority:
         route === ""
           ? 1
-          : route.startsWith("/services")
+          : route.startsWith("/services") || route === "/pricing"
             ? 0.8
             : route === "/blog"
               ? 0.7

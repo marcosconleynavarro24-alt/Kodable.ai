@@ -138,8 +138,6 @@ const COPY = {
 const INTEREST_KEYS = [
   "websites",
   "ai-agents",
-  "custom-tools",
-  "automations",
   "not-sure",
 ] as const;
 

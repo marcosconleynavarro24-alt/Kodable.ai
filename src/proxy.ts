@@ -28,6 +28,10 @@ const OLD_SERVICE_SLUGS: Record<string, string> = {
   "web-development": "/services/websites",
   "seo-optimization": "/services/websites",
   "hosting-maintenance": "/services",
+  // Custom Tools & Apps and Automations pulled for now (2026-07-08) — send any
+  // indexed/linked traffic to the services overview until they return.
+  "custom-tools": "/services",
+  "automations": "/services",
 };
 
 const SERVICE_REDIRECT_RE = new RegExp(

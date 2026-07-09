@@ -1,20 +1,24 @@
 # Kodable.ai
 
-> A small studio that uses AI to scale small local businesses across Spain. We build fast websites, AI agents that answer customers 24/7, custom tools and automations. Bilingual (English / Español). Free, no-pressure consultation; real people who answer after launch.
+> A small studio that uses AI to scale small local businesses across Spain. We build fast websites and AI agents that answer customers 24/7. Bilingual (English / Español). Free, no-pressure consultation; real people who answer after launch.
 
 ## Services
 - [Websites](https://kodable.ai/en/services/websites): Fast, AI-built sites that show up when people search nearby and turn a curious visitor into a booking.
 - [AI Agents](https://kodable.ai/en/services/ai-agents): A friendly assistant that answers customers, takes bookings and handles reception on WhatsApp and your site, 24/7.
-- [Custom Tools](https://kodable.ai/en/services/custom-tools): Software built around how you actually work.
-- [Automations](https://kodable.ai/en/services/automations): Hands-off workflows that remove the busywork.
 
 ## Key pages
 - [All services](https://kodable.ai/en/services)
+- [Pricing](https://kodable.ai/en/pricing): Clear prices for websites (pay once or all-in monthly) and AI agents, VAT included.
+- [Builder or agency? An honest comparison](https://kodable.ai/en/comparativa)
+- [Work samples](https://kodable.ai/en/casos)
 - [FAQ](https://kodable.ai/en/faq)
 - [Contact](https://kodable.ai/en/contact)
 
 ## En español
 - [Servicios](https://kodable.ai/es/services)
+- [Precios](https://kodable.ai/es/pricing)
+- [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
+- [Muestras de trabajo](https://kodable.ai/es/casos)
 - [Preguntas frecuentes](https://kodable.ai/es/faq)
 - [Contacto](https://kodable.ai/es/contact)
 

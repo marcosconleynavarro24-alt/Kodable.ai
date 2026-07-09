@@ -8,9 +8,13 @@ import { contactInfo } from "@/content/contact-info";
 
 const PRICES = {
   // display only — the amounts Stripe charges live server-side in lib/checkoutPlans.ts
-  web: { setup: 490, foundingSetup: 190, monthly: 39 },
-  agente: { setup: 475, monthly: 95 },
+  // (halved across the board 2026-07-08, in lockstep with checkoutPlans.ts)
+  web: { setup: 245, foundingSetup: 95, monthly: 19.5 },
+  agente: { setup: 118.75, monthly: 23.75 },
 };
+
+// Spanish-format an amount that may be fractional after the halving: 19.5 -> "19,50".
+const eur = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(2).replace(".", ","));
 
 export default function ContratarForm({ founding }: { founding: boolean }) {
   const [plan, setPlan] = useState<"web" | "web-agente">("web");
@@ -62,17 +66,17 @@ export default function ContratarForm({ founding }: { founding: boolean }) {
         <div className="chips">
           <label className={`chip${plan === "web" ? " on" : ""}`}>
             <input type="radio" name="plan" checked={plan === "web"} onChange={() => setPlan("web")} />
-            Web · €{webSetup} + €{PRICES.web.monthly}/mes
+            Web · €{eur(webSetup)} + €{eur(PRICES.web.monthly)}/mes
           </label>
           <label className={`chip${plan === "web-agente" ? " on" : ""}`}>
             <input type="radio" name="plan" checked={plan === "web-agente"} onChange={() => setPlan("web-agente")} />
-            Web + Agente IA · €{webSetup + PRICES.agente.setup} + €{PRICES.web.monthly + PRICES.agente.monthly}/mes
+            Web + Agente IA · €{eur(webSetup + PRICES.agente.setup)} + €{eur(PRICES.web.monthly + PRICES.agente.monthly)}/mes
           </label>
         </div>
         {founding ? (
           <p className="err" style={{ color: "var(--accent-deep)" }}>
-            Oferta fundadores aplicada: puesta en marcha de la web €{PRICES.web.foundingSetup} en
-            lugar de €{PRICES.web.setup}, a cambio de reseña en Google + caso de estudio + 1 referencia.
+            Oferta fundadores aplicada: puesta en marcha de la web €{eur(PRICES.web.foundingSetup)} en
+            lugar de €{eur(PRICES.web.setup)}, a cambio de reseña en Google + caso de estudio + 1 referencia.
           </p>
         ) : null}
       </div>
@@ -87,9 +91,9 @@ export default function ContratarForm({ founding }: { founding: boolean }) {
       </div>
 
       <div className="field" style={{ background: "var(--paper-warm)", borderRadius: 14, padding: "14px 16px", fontSize: ".88rem", color: "var(--ink-soft)" }}>
-        <b>Condiciones en corto</b> (versión 2026-07-05):
+        <b>Condiciones en corto</b> (versión 2026-07-08):
         <ul style={{ margin: "6px 0 0 18px", lineHeight: 1.6 }}>
-          <li>Hoy pagas la puesta en marcha (€{setupTotal}) + primera cuota (€{monthlyTotal}). IVA incluido.</li>
+          <li>Hoy pagas la puesta en marcha (€{eur(setupTotal)}) + primera cuota (€{eur(monthlyTotal)}). IVA incluido.</li>
           <li>Web publicada en tu dominio en un máximo de 7 días laborables desde que recibimos tus contenidos y fotos.</li>
           <li>Sin permanencia: cancelas cuando quieras con 30 días de aviso y la web deja de estar activa al final del período pagado.</li>
           <li>La cuota incluye hosting, dominio, mantenimiento y cambios razonables de textos y fotos.</li>
@@ -116,7 +120,7 @@ export default function ContratarForm({ founding }: { founding: boolean }) {
         disabled={busy}
         style={{ width: "100%", justifyContent: "center", marginTop: 12 }}
       >
-        {busy ? "Abriendo pago seguro…" : `Pagar €${setupTotal + monthlyTotal} y empezar`}
+        {busy ? "Abriendo pago seguro…" : `Pagar €${eur(setupTotal + monthlyTotal)} y empezar`}
         {busy ? null : <Icon name="send" />}
       </button>
       <p style={{ color: "var(--ink-mute)", fontSize: ".8rem", textAlign: "center", marginTop: 10 }}>

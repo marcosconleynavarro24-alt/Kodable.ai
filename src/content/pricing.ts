@@ -12,21 +12,29 @@ import type { ServiceSlug } from "./services";
    ========================================================================== */
 
 // ---- numbers (IVA incl.) ----
+// Halved across the board 2026-07-08 (owner directive). Previous values were
+// exactly 2x each figure below.
 const N = {
-  web: { starter: 490, business: 990, premium: 1990 },
+  web: { starter: 245, business: 495, premium: 995 },
+  // Installment alternative shown on the same card (owner directive
+  // 2026-07-10): "€245 one-off, or €25/mo for 10 months". Monthly × months ≈
+  // one-off + small rounding premium; it ENDS after `months` — not a
+  // subscription. Care plan stays separate.
+  webPlan: { months: 10, starter: 25, business: 50, premium: 100 },
   chat: {
-    essential: { m: 95, s: 475 },
-    pro: { m: 175, s: 595 },
-    premium: { m: 295, s: 835 },
+    // Halved 2026-07-08 (owner directive; previous values were 2x each).
+    essential: { m: 23.75, s: 118.75 },
+    pro: { m: 43.75, s: 148.75 },
+    premium: { m: 73.75, s: 208.75 },
   },
   voice: {
-    basic: { m: 299, s: 715, over: 0.42 },
-    pro: { m: 479, s: 1075, over: 0.36 },
-    premium: { m: 725, s: 1450, over: 0.3 },
+    basic: { m: 149.5, s: 357.5, over: 0.21 },
+    pro: { m: 239.5, s: 537.5, over: 0.18 },
+    premium: { m: 362.5, s: 725, over: 0.15 },
   },
-  tools: { quote: 1800, app: 3000, dash: 2400 },
-  auto: { single: 590, pack: 1500, bespoke: 2900 },
-  care: { basic: 39, plus: 79, pro: 149 },
+  tools: { quote: 900, app: 1500, dash: 1200 },
+  auto: { single: 295, pack: 750, bespoke: 1450 },
+  care: { basic: 19.5, plus: 39.5, pro: 74.5 },
 } as const;
 
 // Format locales: fr mapped to a dot-grouping locale to avoid the narrow-space
@@ -39,10 +47,13 @@ const fmtLocale: Record<Locale, string> = {
   it: "it-IT",
 };
 
-function euro(locale: Locale, n: number, decimals = 0): string {
+function euro(locale: Locale, n: number, decimals?: number): string {
+  // Fractional amounts (e.g. 47.5 after the across-the-board halving) must
+  // render as €47.50, never silently round to €48.
+  const d = decimals ?? (Number.isInteger(n) ? 0 : 2);
   const num = new Intl.NumberFormat(fmtLocale[locale], {
-    minimumFractionDigits: decimals,
-    maximumFractionDigits: decimals,
+    minimumFractionDigits: d,
+    maximumFractionDigits: d,
   }).format(n);
   return `€${num}`;
 }
@@ -56,6 +67,8 @@ export interface PriceTier {
   amount: string;
   unit?: string;
   meta: string;
+  /** Alternative payment line under the meta, e.g. "o €25/mes durante 10 meses". */
+  altPay?: string;
   features: string[];
   cta: string;
   ctaPrimary?: boolean;
@@ -91,6 +104,8 @@ interface Pack {
     popular: string;
     get: string;
   };
+  // "or €25/mo for 10 months" — installment line on website tiers.
+  orMonthly: (monthly: string, months: number) => string;
   perMin: string; // "/min"
   groups: {
     websites: { name: string; tiers: { starter: TierText; business: TierText; premium: TierText } };
@@ -119,6 +134,7 @@ const PACKS: Record<Locale, Pack> = {
         "Honest starting prices — VAT included. Pay once to set it up, then keep it monitored under a simple care plan.",
     },
     lbl: { from: "from", mo: "/mo", setup: "setup", vat: "VAT incl.", oneoff: "one-off", popular: "Most popular", get: "Get started" },
+    orMonthly: (m, n) => `or ${m}/mo for ${n} months`,
     perMin: "/min",
     groups: {
       websites: {
@@ -193,6 +209,7 @@ const PACKS: Record<Locale, Pack> = {
         "Precios de partida honestos, con IVA incluido. Pagas una vez la puesta en marcha y luego lo mantenemos vigilado con un plan de cuidado sencillo.",
     },
     lbl: { from: "desde", mo: "/mes", setup: "puesta en marcha", vat: "IVA incl.", oneoff: "pago único", popular: "El más elegido", get: "Empezar" },
+    orMonthly: (m, n) => `o ${m}/mes durante ${n} meses`,
     perMin: "/min",
     groups: {
       websites: {
@@ -267,6 +284,7 @@ const PACKS: Record<Locale, Pack> = {
         "Des prix de départ honnêtes — TVA incluse. Vous payez une fois la mise en place, puis tout est surveillé via un plan d'entretien simple.",
     },
     lbl: { from: "à partir de", mo: "/mois", setup: "mise en place", vat: "TVA incl.", oneoff: "paiement unique", popular: "Le plus choisi", get: "Commencer" },
+    orMonthly: (m, n) => `ou ${m}/mois pendant ${n} mois`,
     perMin: "/min",
     groups: {
       websites: {
@@ -341,6 +359,7 @@ const PACKS: Record<Locale, Pack> = {
         "Ehrliche Startpreise — inkl. MwSt. Einmal einrichten, danach via einfachem Care-Plan überwacht.",
     },
     lbl: { from: "ab", mo: "/Mon.", setup: "Einrichtung", vat: "inkl. MwSt.", oneoff: "einmalig", popular: "Am beliebtesten", get: "Loslegen" },
+    orMonthly: (m, n) => `oder ${m}/Mon. über ${n} Monate`,
     perMin: "/Min.",
     groups: {
       websites: {
@@ -415,6 +434,7 @@ const PACKS: Record<Locale, Pack> = {
         "Prezzi di partenza onesti — IVA inclusa. Paghi una volta l'attivazione, poi resta monitorato con un semplice piano di assistenza.",
     },
     lbl: { from: "da", mo: "/mese", setup: "attivazione", vat: "IVA incl.", oneoff: "una tantum", popular: "Il più scelto", get: "Inizia" },
+    orMonthly: (m, n) => `o ${m}/mese per ${n} mesi`,
     perMin: "/min",
     groups: {
       websites: {
@@ -504,15 +524,22 @@ function careGroup(p: Pack, locale: Locale): PriceGroup {
   };
 }
 
+// Care plan tiers for the post-checkout upsell (/contratar/gracias).
+export function getCareGroup(locale: Locale): PriceGroup {
+  return careGroup(PACKS[locale], locale);
+}
+
 export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
   const p = PACKS[locale];
 
+  const webAlt = (monthly: number) =>
+    p.orMonthly(euro(locale, monthly), N.webPlan.months);
   const websites: PriceGroup = {
     title: p.groups.websites.name,
     tiers: [
-      { name: p.groups.websites.tiers.starter.name, amount: euro(locale, N.web.starter), meta: oneoffMeta(p), features: p.groups.websites.tiers.starter.features, cta: p.lbl.get },
-      { name: p.groups.websites.tiers.business.name, featured: true, badge: p.lbl.popular, amount: euro(locale, N.web.business), meta: oneoffMeta(p), features: p.groups.websites.tiers.business.features, cta: p.lbl.get, ctaPrimary: true },
-      { name: p.groups.websites.tiers.premium.name, fromPrefix: p.lbl.from, amount: euro(locale, N.web.premium), meta: oneoffMeta(p), features: p.groups.websites.tiers.premium.features, cta: p.lbl.get },
+      { name: p.groups.websites.tiers.starter.name, amount: euro(locale, N.web.starter), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.starter), features: p.groups.websites.tiers.starter.features, cta: p.lbl.get },
+      { name: p.groups.websites.tiers.business.name, featured: true, badge: p.lbl.popular, amount: euro(locale, N.web.business), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.business), features: p.groups.websites.tiers.business.features, cta: p.lbl.get, ctaPrimary: true },
+      { name: p.groups.websites.tiers.premium.name, fromPrefix: p.lbl.from, amount: euro(locale, N.web.premium), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.premium), features: p.groups.websites.tiers.premium.features, cta: p.lbl.get },
     ],
   };
 
@@ -557,11 +584,15 @@ export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
     ],
   };
 
+  // Care plan groups removed from public service pages (owner directive
+  // 2026-07-10) — care is now upsold post-checkout on /contratar/gracias via
+  // getCareGroup(). One-off web buyers already get Care Basic bundled in the
+  // checkout monthly (see src/lib/checkoutPlans.ts).
   const groupsBySlug: Record<ServiceSlug, PriceGroup[]> = {
-    websites: [websites, careGroup(p, locale)],
+    websites: [websites],
     "ai-agents": [chat, voice],
-    "custom-tools": [tools, careGroup(p, locale)],
-    automations: [auto, careGroup(p, locale)],
+    "custom-tools": [tools],
+    automations: [auto],
   };
 
   return {

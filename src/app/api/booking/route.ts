@@ -10,6 +10,7 @@ import {
   saveBooking,
   deliverBooking,
   bookingMessages,
+  SlotTakenError,
   type BookingInput,
 } from "@/lib/bookings";
 import { recordEvent } from "@/lib/events";
@@ -66,8 +67,22 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, errors: result.errors }, { status: 400 });
   }
 
+  // Persist first. The UNIQUE(slot_date, slot_time) constraint is the real guard
+  // against double-booking: if it fires, tell the user the slot was just taken
+  // and send no confirmation.
   try {
     await saveBooking(result.booking);
+  } catch (err) {
+    if (err instanceof SlotTakenError) {
+      return Response.json({ ok: false, errors: { slot: m.taken } }, { status: 409 });
+    }
+    console.error("[booking] save error:", err);
+    return Response.json({ ok: false, errors: { slot: m.slot } }, { status: 500 });
+  }
+
+  // The slot is secured — delivery and analytics are best-effort and must never
+  // fail the booking now that it is stored.
+  try {
     await deliverBooking(result.booking);
     await recordEvent({
       type: "booking_submitted",
@@ -76,11 +91,7 @@ export async function POST(request: Request) {
       at: result.booking.createdAt,
     });
   } catch (err) {
-    console.error("[booking] handler error:", err);
-    return Response.json(
-      { ok: false, errors: { slot: m.slot } },
-      { status: 500 },
-    );
+    console.error("[booking] post-save delivery error:", err);
   }
 
   return Response.json({
