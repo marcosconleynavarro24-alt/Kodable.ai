@@ -52,7 +52,7 @@ export default function ContratarForm({ founding }: { founding: boolean }) {
       }
       setError((json.error as string) || "No se ha podido iniciar el pago.");
     } catch {
-      setError("No se ha podido iniciar el pago — inténtalo de nuevo.");
+      setError("No se ha podido iniciar el pago. Inténtalo de nuevo.");
     }
     setBusy(false);
   }

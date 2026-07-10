@@ -29,7 +29,7 @@ export default async function GraciasPage({
   return (
     <main className="wrap" style={{ maxWidth: 960, padding: "64px 20px 96px" }}>
       <div style={{ maxWidth: 640, margin: "0 auto", textAlign: "center" }}>
-        <h1 style={{ marginBottom: 12 }}>¡Pago recibido — bienvenido! 🎉</h1>
+        <h1 style={{ marginBottom: 12 }}>¡Pago recibido, bienvenido! 🎉</h1>
         <p style={{ color: "var(--ink-soft)", marginBottom: 8 }}>
           Te llega el recibo de Stripe por email. Ahora, el único paso que queda
           para que empecemos a construir:
@@ -50,7 +50,7 @@ export default async function GraciasPage({
           <p style={{ color: "var(--ink-soft)" }}>
             Tu cuota ya incluye el <b>Cuidado Básico</b>. Si quieres cambios de
             contenido cada mes o soporte prioritario, mejora tu plan cuando
-            quieras — escríbenos y lo activamos.
+            quieras. Escríbenos y lo activamos.
           </p>
         </div>
         <PriceGroupList groups={[care]} contactHref={`/${locale}/contact`} />

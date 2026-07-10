@@ -30,7 +30,7 @@ export default async function OnboardingPage({
         tengamos este formulario y las fotos.</b>
       </p>
       <p style={{ color: "var(--ink-mute)", fontSize: ".9rem", marginBottom: 28 }}>
-        No hace falta que quede perfecto — escribe rápido y natural, nosotros
+        No hace falta que quede perfecto: escribe rápido y natural, nosotros
         lo pulimos. Lo que no tengas, déjalo en blanco.
       </p>
       <OnboardingForm />

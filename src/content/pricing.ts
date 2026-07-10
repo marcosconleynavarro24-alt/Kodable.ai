@@ -121,17 +121,17 @@ const PACKS: Record<Locale, Pack> = {
   en: {
     title: "Pricing",
     disclaimer:
-      "All prices include VAT and are starting points — your exact quote is confirmed in a free consultation.",
+      "All prices include VAT and are starting points. Your exact quote is confirmed in a free consultation.",
     cta: "Book a free consultation",
     lead: {
       websites:
-        "Clear, fixed pricing — VAT included, no small print. Every site ships with a care plan to keep it fast, safe and up to date.",
+        "Clear, fixed pricing. VAT included, no small print. Every site ships with a care plan to keep it fast, safe and up to date.",
       "ai-agents":
-        "Simple monthly pricing — VAT included. The fee covers the assistant, hosting and support; a busy month is billed in clear bundles.",
+        "Simple monthly pricing. VAT included. The fee covers the assistant, hosting and support; a busy month is billed in clear bundles.",
       "custom-tools":
-        "Honest starting prices — VAT included. Custom work is scoped to exactly what you need, with a care plan to keep it running.",
+        "Honest starting prices. VAT included. Custom work is scoped to exactly what you need, with a care plan to keep it running.",
       automations:
-        "Honest starting prices — VAT included. Pay once to set it up, then keep it monitored under a simple care plan.",
+        "Honest starting prices. VAT included. Pay once to set it up, then keep it monitored under a simple care plan.",
     },
     lbl: { from: "from", mo: "/mo", setup: "setup", vat: "VAT incl.", oneoff: "one-off", popular: "Most popular", get: "Get started" },
     orMonthly: (m, n) => `or ${m}/mo for ${n} months`,
@@ -146,7 +146,7 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       chat: {
-        name: "Chat agent — WhatsApp & web",
+        name: "Chat agent: WhatsApp & web",
         foot: "Busy month? Extra conversations are billed in clear, fixed bundles.",
         tiers: {
           essential: { name: "Essential", features: ["~150 conversations/mo", "One channel: WhatsApp or web", "FAQs + handoff to you"] },
@@ -155,8 +155,8 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       voice: {
-        name: "Voice agent — phone",
-        foot: (b, p, pr) => `Extra minutes after your allowance: ${b} / ${p} / ${pr} by tier. A receptionist costs €1,100+/mo — this does much of the job for a fraction, and never sleeps.`,
+        name: "Voice agent: phone",
+        foot: (b, p, pr) => `Extra minutes after your allowance: ${b} / ${p} / ${pr} by tier. A receptionist costs €1,100+/mo. This does much of the job for a fraction, and never sleeps.`,
         tiers: {
           basic: { name: "Reception Basic", features: ["~500 min/mo included", "Answers, books & transfers to you", "Handles your usual questions"] },
           pro: { name: "Reception Pro", features: ["~1,500 min/mo included", "Multilingual, fuller booking", "Higher call volume"] },
@@ -165,7 +165,7 @@ const PACKS: Record<Locale, Pack> = {
       },
       tools: {
         name: "Custom tools & apps",
-        foot: "Custom work is scoped to you — these are starting points, with the final quote after a free chat.",
+        foot: "Custom work is scoped to you. These are starting points, with the final quote after a free chat.",
         tiers: {
           quote: { name: "Quote calculator", features: ["Customers price themselves", "Turns enquiries into qualified leads", "Branded to your business"] },
           app: { name: "Booking / ordering app", features: ["Built around how you work", "Takes bookings or orders directly", "Logins, roles & secure data"] },
@@ -221,7 +221,7 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       chat: {
-        name: "Agente de chat — WhatsApp y web",
+        name: "Agente de chat: WhatsApp y web",
         foot: "¿Mes con mucho movimiento? Las conversaciones extra se facturan en tramos claros y fijos.",
         tiers: {
           essential: { name: "Esencial", features: ["~150 conversaciones/mes", "Un canal: WhatsApp o web", "Preguntas frecuentes + paso a ti"] },
@@ -230,8 +230,8 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       voice: {
-        name: "Agente de voz — teléfono",
-        foot: (b, p, pr) => `Minutos extra al superar tu cuota: ${b} / ${p} / ${pr} según plan. Una recepcionista cuesta más de 1.100 €/mes — esto hace gran parte del trabajo por una fracción, y nunca descansa.`,
+        name: "Agente de voz: teléfono",
+        foot: (b, p, pr) => `Minutos extra al superar tu cuota: ${b} / ${p} / ${pr} según plan. Una recepcionista cuesta más de 1.100 €/mes. Esto hace gran parte del trabajo por una fracción, y nunca descansa.`,
         tiers: {
           basic: { name: "Recepción Básica", features: ["~500 min/mes incluidos", "Atiende, reserva y te transfiere", "Responde lo de siempre"] },
           pro: { name: "Recepción Pro", features: ["~1.500 min/mes incluidos", "Multilingüe, reservas más completas", "Más volumen de llamadas"] },
@@ -275,13 +275,13 @@ const PACKS: Record<Locale, Pack> = {
     cta: "Réservez une consultation gratuite",
     lead: {
       websites:
-        "Des prix clairs et fixes — TVA incluse, sans petites lignes. Chaque site est livré avec un plan d'entretien pour le garder rapide, sûr et à jour.",
+        "Des prix clairs et fixes. TVA incluse, sans petites lignes. Chaque site est livré avec un plan d'entretien pour le garder rapide, sûr et à jour.",
       "ai-agents":
-        "Un tarif mensuel simple — TVA incluse. L'abonnement couvre l'assistant, l'hébergement et le support ; un mois chargé est facturé par paliers clairs.",
+        "Un tarif mensuel simple. TVA incluse. L'abonnement couvre l'assistant, l'hébergement et le support ; un mois chargé est facturé par paliers clairs.",
       "custom-tools":
-        "Des prix de départ honnêtes — TVA incluse. Le sur-mesure est calibré exactement sur vos besoins, avec un plan d'entretien pour le faire tourner.",
+        "Des prix de départ honnêtes. TVA incluse. Le sur-mesure est calibré exactement sur vos besoins, avec un plan d'entretien pour le faire tourner.",
       automations:
-        "Des prix de départ honnêtes — TVA incluse. Vous payez une fois la mise en place, puis tout est surveillé via un plan d'entretien simple.",
+        "Des prix de départ honnêtes. TVA incluse. Vous payez une fois la mise en place, puis tout est surveillé via un plan d'entretien simple.",
     },
     lbl: { from: "à partir de", mo: "/mois", setup: "mise en place", vat: "TVA incl.", oneoff: "paiement unique", popular: "Le plus choisi", get: "Commencer" },
     orMonthly: (m, n) => `ou ${m}/mois pendant ${n} mois`,
@@ -296,7 +296,7 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       chat: {
-        name: "Agent de chat — WhatsApp et web",
+        name: "Agent de chat : WhatsApp et web",
         foot: "Mois chargé ? Les conversations supplémentaires sont facturées par paliers clairs et fixes.",
         tiers: {
           essential: { name: "Essentiel", features: ["~150 conversations/mois", "Un canal : WhatsApp ou web", "FAQ + passage à vous"] },
@@ -305,8 +305,8 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       voice: {
-        name: "Agent vocal — téléphone",
-        foot: (b, p, pr) => `Minutes au-delà du forfait : ${b} / ${p} / ${pr} selon l'offre. Une réceptionniste coûte plus de 1 100 €/mois — ceci en fait une grande partie pour une fraction, et ne dort jamais.`,
+        name: "Agent vocal : téléphone",
+        foot: (b, p, pr) => `Minutes au-delà du forfait : ${b} / ${p} / ${pr} selon l'offre. Une réceptionniste coûte plus de 1 100 €/mois. Ceci en fait une grande partie pour une fraction, et ne dort jamais.`,
         tiers: {
           basic: { name: "Réception Basic", features: ["~500 min/mois incluses", "Répond, réserve et vous transfère", "Gère les questions habituelles"] },
           pro: { name: "Réception Pro", features: ["~1 500 min/mois incluses", "Multilingue, réservation complète", "Plus de volume d'appels"] },
@@ -346,17 +346,17 @@ const PACKS: Record<Locale, Pack> = {
   de: {
     title: "Preise",
     disclaimer:
-      "Alle Preise inkl. MwSt. und Richtwerte — dein genaues Angebot bestätigen wir in einem kostenlosen Gespräch.",
+      "Alle Preise inkl. MwSt. und Richtwerte. Dein genaues Angebot bestätigen wir in einem kostenlosen Gespräch.",
     cta: "Kostenlose Beratung buchen",
     lead: {
       websites:
-        "Klare, feste Preise — inkl. MwSt., kein Kleingedrucktes. Jede Website kommt mit einem Care-Plan, der sie schnell, sicher und aktuell hält.",
+        "Klare, feste Preise. Inkl. MwSt., kein Kleingedrucktes. Jede Website kommt mit einem Care-Plan, der sie schnell, sicher und aktuell hält.",
       "ai-agents":
-        "Einfacher Monatspreis — inkl. MwSt. Die Gebühr deckt Assistent, Hosting und Support; ein arbeitsreicher Monat wird in klaren Paketen abgerechnet.",
+        "Einfacher Monatspreis. Inkl. MwSt. Die Gebühr deckt Assistent, Hosting und Support; ein arbeitsreicher Monat wird in klaren Paketen abgerechnet.",
       "custom-tools":
-        "Ehrliche Startpreise — inkl. MwSt. Maßarbeit wird genau auf deinen Bedarf zugeschnitten, mit einem Care-Plan, der sie am Laufen hält.",
+        "Ehrliche Startpreise. Inkl. MwSt. Maßarbeit wird genau auf deinen Bedarf zugeschnitten, mit einem Care-Plan, der sie am Laufen hält.",
       automations:
-        "Ehrliche Startpreise — inkl. MwSt. Einmal einrichten, danach via einfachem Care-Plan überwacht.",
+        "Ehrliche Startpreise. Inkl. MwSt. Einmal einrichten, danach via einfachem Care-Plan überwacht.",
     },
     lbl: { from: "ab", mo: "/Mon.", setup: "Einrichtung", vat: "inkl. MwSt.", oneoff: "einmalig", popular: "Am beliebtesten", get: "Loslegen" },
     orMonthly: (m, n) => `oder ${m}/Mon. über ${n} Monate`,
@@ -371,7 +371,7 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       chat: {
-        name: "Chat-Agent — WhatsApp & Web",
+        name: "Chat-Agent: WhatsApp & Web",
         foot: "Viel los? Zusätzliche Konversationen werden in klaren, festen Paketen abgerechnet.",
         tiers: {
           essential: { name: "Basis", features: ["~150 Konversationen/Mon.", "Ein Kanal: WhatsApp oder Web", "FAQ + Übergabe an dich"] },
@@ -380,8 +380,8 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       voice: {
-        name: "Voice-Agent — Telefon",
-        foot: (b, p, pr) => `Zusätzliche Minuten über dem Kontingent: ${b} / ${p} / ${pr} je Stufe. Eine Empfangskraft kostet über 1.100 €/Mon. — das übernimmt einen Großteil zum Bruchteil und schläft nie.`,
+        name: "Voice-Agent: Telefon",
+        foot: (b, p, pr) => `Zusätzliche Minuten über dem Kontingent: ${b} / ${p} / ${pr} je Stufe. Eine Empfangskraft kostet über 1.100 €/Mon. Das übernimmt einen Großteil zum Bruchteil und schläft nie.`,
         tiers: {
           basic: { name: "Empfang Basic", features: ["~500 Min./Mon. inklusive", "Antwortet, bucht & stellt durch", "Beantwortet die üblichen Fragen"] },
           pro: { name: "Empfang Pro", features: ["~1.500 Min./Mon. inklusive", "Mehrsprachig, vollere Buchung", "Höheres Anrufvolumen"] },
@@ -425,13 +425,13 @@ const PACKS: Record<Locale, Pack> = {
     cta: "Prenota una consulenza gratuita",
     lead: {
       websites:
-        "Prezzi chiari e fissi — IVA inclusa, senza sorprese. Ogni sito include un piano di assistenza per tenerlo veloce, sicuro e aggiornato.",
+        "Prezzi chiari e fissi. IVA inclusa, senza sorprese. Ogni sito include un piano di assistenza per tenerlo veloce, sicuro e aggiornato.",
       "ai-agents":
-        "Prezzo mensile semplice — IVA inclusa. Il canone copre l'assistente, l'hosting e il supporto; un mese intenso si fattura a fasce chiare.",
+        "Prezzo mensile semplice. IVA inclusa. Il canone copre l'assistente, l'hosting e il supporto; un mese intenso si fattura a fasce chiare.",
       "custom-tools":
-        "Prezzi di partenza onesti — IVA inclusa. Il lavoro su misura è calibrato esattamente su ciò che ti serve, con un piano di assistenza che lo tiene attivo.",
+        "Prezzi di partenza onesti. IVA inclusa. Il lavoro su misura è calibrato esattamente su ciò che ti serve, con un piano di assistenza che lo tiene attivo.",
       automations:
-        "Prezzi di partenza onesti — IVA inclusa. Paghi una volta l'attivazione, poi resta monitorato con un semplice piano di assistenza.",
+        "Prezzi di partenza onesti. IVA inclusa. Paghi una volta l'attivazione, poi resta monitorato con un semplice piano di assistenza.",
     },
     lbl: { from: "da", mo: "/mese", setup: "attivazione", vat: "IVA incl.", oneoff: "una tantum", popular: "Il più scelto", get: "Inizia" },
     orMonthly: (m, n) => `o ${m}/mese per ${n} mesi`,
@@ -446,7 +446,7 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       chat: {
-        name: "Agente di chat — WhatsApp e web",
+        name: "Agente di chat: WhatsApp e web",
         foot: "Mese intenso? Le conversazioni extra si fatturano a fasce chiare e fisse.",
         tiers: {
           essential: { name: "Essenziale", features: ["~150 conversazioni/mese", "Un canale: WhatsApp o web", "FAQ + passaggio a te"] },
@@ -455,8 +455,8 @@ const PACKS: Record<Locale, Pack> = {
         },
       },
       voice: {
-        name: "Agente vocale — telefono",
-        foot: (b, p, pr) => `Minuti extra oltre la soglia: ${b} / ${p} / ${pr} per fascia. Una receptionist costa oltre 1.100 €/mese — questo fa gran parte del lavoro a una frazione, e non dorme mai.`,
+        name: "Agente vocale: telefono",
+        foot: (b, p, pr) => `Minuti extra oltre la soglia: ${b} / ${p} / ${pr} per fascia. Una receptionist costa oltre 1.100 €/mese. Questo fa gran parte del lavoro a una frazione, e non dorme mai.`,
         tiers: {
           basic: { name: "Reception Base", features: ["~500 min/mese inclusi", "Risponde, prenota e ti trasferisce", "Gestisce le domande di sempre"] },
           pro: { name: "Reception Pro", features: ["~1.500 min/mese inclusi", "Multilingue, prenotazioni complete", "Più volume di chiamate"] },

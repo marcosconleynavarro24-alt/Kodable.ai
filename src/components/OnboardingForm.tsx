@@ -21,7 +21,7 @@ const FIELDS = [
   { name: "description", label: "Vuestro negocio en 2–3 líneas", type: "textarea", req: true,
     ph: "Qué hacéis, desde cuándo, qué os hace especiales…" },
   { name: "services", label: "Carta / servicios y precios", type: "textarea", req: false,
-    ph: "Pegad la carta o lista de servicios aquí — vale copiar de un PDF o escribirlo rápido" },
+    ph: "Pegad la carta o lista de servicios aquí. Vale copiar de un PDF o escribirlo rápido" },
   { name: "style", label: "Estilo que os gusta", type: "textarea", req: false,
     ph: "Colores, alguna web que os guste, cómo NO la queréis…" },
   { name: "domain", label: "Dominio actual (si tenéis)", type: "input", req: false, ph: "minegocio.es" },
@@ -63,7 +63,7 @@ export default function OnboardingForm() {
       setFormError(e2.form ?? "Revisa los campos marcados.");
       setStatus("error");
     } catch {
-      setFormError("No se ha enviado — prueba de nuevo o escríbenos por WhatsApp.");
+      setFormError("No se ha enviado. Prueba de nuevo o escríbenos por WhatsApp.");
       setStatus("error");
     }
   }
