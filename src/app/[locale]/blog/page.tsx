@@ -111,9 +111,9 @@ export default async function BlogIndex({
   const site = getSite(locale);
 
   const all = getPosts(locale);
-  // Lead with the cornerstone guide if it exists, else the newest post.
-  const featured =
-    all.find((p) => p.slug === "kit-digital-2026") ?? all[0];
+  // Lead with the newest post (getPosts sorts newest-first), so each new
+  // article automatically becomes the featured one on publish.
+  const featured = all[0];
   const rest = featured ? all.filter((p) => p.slug !== featured.slug) : [];
 
   const jsonLd = jsonLdDoc(
