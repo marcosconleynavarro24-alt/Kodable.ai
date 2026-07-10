@@ -17,7 +17,9 @@
       "Fare domanda richiede quattro passi: registrarsi su Acelera Pyme, svolgere il test di autovalutazione, presentare la domanda e scegliere un digitalizzatore.",
       "Nel 2026 il programma resta attivo finché ci sono fondi disponibili, preparati ora, perché viene assegnato in ordine di arrivo."
     ],
-    "related": [],
+    "related": [
+      "get-found-in-ai-search"
+    ],
     "cta": {
       "service": "websites",
       "label": "Preparati al Kit Digital"
@@ -253,6 +255,203 @@
       {
         "type": "p",
         "text": "Dipende dal bando e dal momento. Il quadro è stato riattivato dal 2026 e resta attivo fino a esaurimento dei fondi; verifica la situazione su [sede.red.gob.es](https://sede.red.gob.es) e [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
+      }
+    ]
+  },
+  {
+    "slug": "get-found-in-ai-search",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Farsi trovare quando l'IA risponde per prima: guida 2026 per le attività locali",
+    "description": "Google ora scrive una risposta con l'IA in cima alla pagina, così sempre meno ricerche finiscono in un clic. Ecco cosa cambiano le risposte IA (AI Overviews) e l'AI Mode per un'attività locale, e un piano chiaro per continuare a farti trovare: risposte chiare, recensioni, Profilo dell'attività su Google e velocità.",
+    "dek": "Google scrive sempre più spesso la risposta in cima alla pagina, e meno persone cliccano. Ecco cosa è davvero cambiato per un'attività locale, e il piano onesto per farti trovare quando l'IA risponde per prima.",
+    "keyword": "get found in AI search",
+    "author": "Il team di Kodable",
+    "datePublished": "2026-07-10",
+    "ogImage": "get-found-in-ai-search.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Google risponde sempre più spesso alla domanda da solo, in un riquadro IA in cima alla pagina. Quando compare quel riquadro, i clic verso i siti quasi si dimezzano, e la maggior parte delle ricerche finisce già senza alcun clic.",
+      "Le ricerche che riempiono un'attività locale, vicino a me, aperto ora, migliore X nella tua città, e Google Maps, sono vivissime. L'IA non le ha sostituite.",
+      "L'obiettivo è cambiato: non più essere il numero uno, ma essere la risposta chiara e affidabile che l'IA cita. Lo chiamano GEO o AEO, e farsi citare è ormai un gioco diverso dal posizionamento.",
+      "Ciò che funziona davvero è poco glamour e sostenuto dai dati: rispondi con chiarezza a domande vere, sostienilo con dettagli reali, cura il tuo Profilo dell'attività su Google e le recensioni, guadagnati menzioni oneste e tieni il sito veloce."
+    ],
+    "related": [
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Voglio un sito che l'IA consiglia"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-serp.svg",
+        "alt": "Una pagina dei risultati di Google nel 2026: una risposta scritta dall'IA occupa la cima, sopra la solita lista di link ai siti",
+        "caption": "La pagina dei risultati nel 2026: Google scrive una risposta in alto, e la solita lista di link comincia più in basso."
+      },
+      {
+        "type": "p",
+        "text": "Scrivi una domanda su Google oggi e, sempre più spesso, non ottieni un elenco ordinato di dieci link blu. Ottieni una **risposta**, scritta dall'IA, proprio in cima alla pagina, con qualche fonte di fianco. Si chiama **AI Overview**, e sta cambiando in silenzio il modo in cui i clienti trovano le attività locali, più in fretta di quanto la maggior parte dei titolari abbia notato."
+      },
+      {
+        "type": "h2",
+        "text": "Cosa è cambiato davvero"
+      },
+      {
+        "type": "p",
+        "text": "Negli ultimi due anni su Google sono arrivate due cose. **AI Overviews**: il riassunto scritto dall'IA che ora compare sopra i risultati normali per molte ricerche. E **AI Mode**: un modo di cercare del tutto conversazionale, in cui fai domande di approfondimento come le faresti a una persona. E Google non è sola, la gente ora chiede a **ChatGPT, Gemini e Perplexity** il tipo di cose che prima scriveva nella barra di ricerca. E sì, [in Spagna è già attivo, in spagnolo](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "persone al mese usano ormai gli AI Overviews di Google, e l'AI Mode ha superato il miliardo. È semplicemente così che cerca molta gente adesso.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "p",
+        "text": "L'effetto è semplice: la risposta spesso soddisfa la persona lì, sulla pagina di Google, senza un clic. Gli analisti la chiamano **ricerca a zero clic**, ed era già la norma prima dell'IA, [quasi 6 ricerche su 10 nell'UE](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) finivano senza un clic verso alcun sito nel 2024. Gli AI Overviews gettano benzina su quel fuoco."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 100",
+        "label": "persone cliccano su una fonte dentro una risposta IA di Google. E quando quella risposta compare, i clic verso qualsiasi sito quasi si dimezzano, dal 15% all'8% delle ricerche.",
+        "source": "Pew Research Center, 2025"
+      },
+      {
+        "type": "h2",
+        "text": "Sono brutte notizie per una piccola attività?"
+      },
+      {
+        "type": "p",
+        "text": "Sì e no, e chi ti mostra solo una metà ti sta vendendo qualcosa. I clic che gli AI Overviews assorbono sono soprattutto **informativi**: le domande cos'è e come-faccio, i generici articoli how-to. Quel traffico è calato davvero. Ma le ricerche che portano clienti veri a un'attività locale sono altre: **vicino a me, aperto ora, prenotare, migliore [quello che fai] nella [tua città]**. Quelle portano ancora a una telefonata, a una prenotazione, a una visita, e a **Google Maps**, che il riquadro IA non ha sostituito."
+      },
+      {
+        "type": "callout",
+        "title": "Una nota onesta",
+        "body": "Non faremo finta che il vecchio manuale sia intatto. I clic sugli articoli informativi generici sono davvero crollati. Ciò che funziona ancora, e meglio che mai, è essere davvero la risposta più chiara e affidabile, ed essere visibile dove guarda l'IA. Non è un trucco che si compra; è qualcosa che si costruisce."
+      },
+      {
+        "type": "stat",
+        "value": "38%",
+        "label": "delle attività citate in una risposta IA di Google arriva dai primi dieci risultati, contro circa il 76% un anno prima. Essere la risposta è ormai un gioco diverso dall'essere primi.",
+        "source": "Ahrefs, 2026"
+      },
+      {
+        "type": "h2",
+        "text": "Il cambiamento: dal posizionarsi all'essere la risposta"
+      },
+      {
+        "type": "p",
+        "text": "Per vent'anni farsi trovare voleva dire **posizionare una pagina**, salire in cima alla lista. Il nuovo gioco, lo chiamano **GEO** (generative engine optimization) o **AEO** (answer engine optimization), è essere la fonte che l'IA **cita**. L'obiettivo non è davvero cambiato: essere l'attività di cui la macchina, e il cliente, decidono di fidarsi. Si è solo spostata la superficie."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-signals.svg",
+        "alt": "Quattro segnali che portano un'attività dentro una risposta IA: risposte chiare, recensioni e menzioni, dati strutturati e una forte presenza locale",
+        "caption": "Cosa porta un'attività dentro la risposta: risposte chiare a domande vere, recensioni e menzioni, un sito leggibile dalle macchine e una forte presenza locale."
+      },
+      {
+        "type": "h2",
+        "text": "Cosa fare davvero (e che funziona oggi)"
+      },
+      {
+        "type": "p",
+        "text": "Non c'è un pulsante magico, e chi te lo vende sta tirando a indovinare. Ma ci sono prove reali di ciò che aiuta. Il dato più sorprendente: in uno [studio con revisione tra pari](https://arxiv.org/abs/2311.09735), le pagine che rispondevano con chiarezza e lo sostenevano con **statistiche reali, citazioni e fonti citate** erano fino al 30-40 per cento più visibili nelle risposte IA. Riempire di parole chiave non è servito a niente. In parole povere: il modo per vincere è essere davvero la risposta migliore."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Rispondi alle domande vere, con chiarezza",
+            "body": "Scrivi le risposte chiare a ciò che i clienti chiedono davvero: fasce di prezzo, orari, parcheggio, se fai X. Le risposte IA sono brevi e a forma di domanda, quindi una pagina che risponde a una domanda vera in poche frasi chiare è esattamente la forma che cita."
+          },
+          {
+            "title": "Meritati davvero di essere citato",
+            "body": "Sostieni le tue risposte con elementi concreti: un numero vero, un esempio reale, una fonte con un nome. È l'unica leva con prove solide dietro. Il testo debole, vago e sfornato in serie è proprio ciò che i nuovi sistemi filtrano."
+          },
+          {
+            "title": "Cura il tuo Profilo dell'attività su Google",
+            "body": "Nelle ricerche locali, Maps e i risultati locali decidono ancora chi riceve la telefonata. Un profilo completo, foto vere, orari aggiornati e recensioni a cui rispondi fanno per un'attività locale più della maggior parte della SEO tecnica."
+          },
+          {
+            "title": "Guadagnati menzioni altrove",
+            "body": "L'IA fa controlli incrociati. Poiché essere citati non dipende più solo dal tuo posizionamento, recensioni oneste, una presenza nelle giuste directory locali e una menzione sulla stampa locale aiutano tutte la macchina a fidarsi del tuo nome e a ripeterlo."
+          },
+          {
+            "title": "Tieni a posto le basi",
+            "body": "Un sito veloce, pulito e ben strutturato aiuta allo stesso modo persone e macchine. Aggiungi dati strutturati (schema) perché Google possa mostrare i rich result, ma sii onesto: nel miglior test finora, lo schema da solo non ha ottenuto più citazioni dall'IA. È igiene, non un trucco magico."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cosa ignorare"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Chiunque **garantisca il primo posto su Google**, o adesso il **primo posto in ChatGPT**. Nessuno controlla quelle posizioni, e nessuno può prometterle.",
+          "Il **riempimento di parole chiave** e i deboli articoli riempitivi sputati dall'IA, esattamente ciò che i nuovi sistemi sono fatti per filtrare.",
+          "**Comprare recensioni.** Contro le regole, sempre più facile da rilevare, e un modo rapido per perdere la fiducia di clienti e Google.",
+          "L'idea che **lo schema da solo ti porti nelle risposte IA.** Fallo per i rich result, ma il [miglior test che abbiamo visto](https://ahrefs.com/blog/schema-ai-citations/) ha rilevato che da solo non muoveva le citazioni dell'IA.",
+          "Il panico. I fondamentali, farsi trovare, essere affidabili, essere la risposta migliore, non sono cambiati. È cambiata solo la superficie."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "L'IA non ha ucciso il farsi trovare. Ha spostato il traguardo: dall'essere primi all'essere abbastanza affidabili da essere citati.",
+        "cite": "Il team di Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Come aiuta Kodable"
+      },
+      {
+        "type": "p",
+        "text": "Costruiamo siti fatti esattamente per questo: veloci, puliti e ben strutturati, con il tuo Profilo dell'attività su Google e i tuoi segnali locali a posto, e le risposte chiare e davvero utili che cercano i tuoi clienti, e l'IA. Niente trucchi, e nessuna promessa che non possiamo mantenere, solo essere la risposta più chiara e affidabile della tua zona, in una forma che capiscono sia le persone sia le macchine."
+      },
+      {
+        "type": "cta",
+        "title": "Voglio un sito che l'IA può trovare e consigliare",
+        "body": "Raccontaci della tua attività in una chiamata di 15 minuti. Ti mostreremo dove oggi sei invisibile alla ricerca con IA, e cosa vale la pena sistemare per primo.",
+        "button": "Parla con noi"
+      },
+      {
+        "type": "h2",
+        "text": "Domande frequenti"
+      },
+      {
+        "type": "h3",
+        "text": "La SEO è morta?"
+      },
+      {
+        "type": "p",
+        "text": "No, è cambiata. Farsi trovare ed essere affidabili conta più che mai; la meccanica è passata da dieci link blu alle risposte IA e a Maps. Il lavoro è diverso, non è sparito."
+      },
+      {
+        "type": "h3",
+        "text": "Che differenza c'è tra SEO, GEO e AEO?"
+      },
+      {
+        "type": "p",
+        "text": "La SEO è posizionarsi nella classica lista di risultati. GEO e AEO riguardano l'essere la fonte che una risposta IA cita. In pratica si sovrappongono quasi del tutto: lo stesso sito chiaro, affidabile e ben strutturato tende a vincere tutti e tre insieme."
+      },
+      {
+        "type": "h3",
+        "text": "Un AI Overview citerà davvero la mia attività?"
+      },
+      {
+        "type": "p",
+        "text": "Può, soprattutto per domande locali e specifiche, quando le tue informazioni sono chiare, coerenti su tutto il web e davvero utili. Non c'è garanzia, e chi te ne promette una sta tirando a indovinare."
+      },
+      {
+        "type": "h3",
+        "text": "Devo essere su ChatGPT per farmi trovare?"
+      },
+      {
+        "type": "p",
+        "text": "Non pubblichi dentro ChatGPT. Questi strumenti attingono dal web aperto, il tuo sito, il tuo profilo Google, le tue recensioni, le tue menzioni. Fai bene questo e comparirai nella risposta, ovunque venga posta la domanda."
       }
     ]
   }

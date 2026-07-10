@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e8266"/>
+      <stop offset="1" stop-color="#0a4d3c"/>
+    </linearGradient>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8aa79d"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="40" y="56" font-size="31" font-weight="800" fill="#16221f" letter-spacing="-1">What gets a business into the answer</text>
+  <text x="40" y="90" font-size="19" fill="#4b5c56">AI cross-checks several signals before it names you as the answer.</text>
+
+  <!-- connectors (drawn first, behind cards) -->
+  <path d="M512 165 C 590 165, 590 270, 636 278" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <path d="M512 261 C 590 261, 596 280, 636 286" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <path d="M512 357 C 590 357, 596 292, 636 292" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <path d="M512 453 C 592 453, 592 300, 636 300" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+
+  <!-- signal cards -->
+  <g>
+    <rect x="40" y="128" width="472" height="74" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="80" cy="165" r="16" fill="#e3f3ed"/>
+    <text x="80" y="171" font-size="18" font-weight="800" fill="#0a4d3c" text-anchor="middle">?</text>
+    <text x="116" y="171" font-size="21" font-weight="700" fill="#16221f">Clear answers to real questions</text>
+  </g>
+  <g>
+    <rect x="40" y="224" width="472" height="74" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="80" cy="261" r="16" fill="#e3f3ed"/>
+    <path d="M80 252 l2.6 5.3 5.9 0.9 -4.3 4.2 1 5.9 -5.2 -2.8 -5.2 2.8 1 -5.9 -4.3 -4.2 5.9 -0.9 z" fill="#0a4d3c"/>
+    <text x="116" y="267" font-size="21" font-weight="700" fill="#16221f">Reviews &amp; mentions across the web</text>
+  </g>
+  <g>
+    <rect x="40" y="320" width="472" height="74" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="80" cy="357" r="16" fill="#e3f3ed"/>
+    <text x="80" y="363" font-size="17" font-weight="800" fill="#0a4d3c" text-anchor="middle" font-family="Courier New, monospace">&lt;/&gt;</text>
+    <text x="116" y="363" font-size="21" font-weight="700" fill="#16221f">Structured data (schema)</text>
+  </g>
+  <g>
+    <rect x="40" y="416" width="472" height="74" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <circle cx="80" cy="453" r="16" fill="#e3f3ed"/>
+    <path d="M80 444 c-6 0 -10 4 -10 10 c0 7 10 15 10 15 c0 0 10 -8 10 -15 c0 -6 -4 -10 -10 -10 z" fill="#0a4d3c"/>
+    <circle cx="80" cy="454" r="3.4" fill="#e3f3ed"/>
+    <text x="116" y="459" font-size="21" font-weight="700" fill="#16221f">Strong local presence (Maps &amp; profile)</text>
+  </g>
+
+  <!-- center node -->
+  <rect x="636" y="236" width="324" height="108" rx="20" fill="url(#node)"/>
+  <path d="M686 276 l4 8 8 3 -8 3 -4 8 -4 -8 -8 -3 8 -3 z" fill="#ffffff"/>
+  <text x="708" y="283" font-size="13.5" font-weight="700" fill="#bfe0d3" letter-spacing="0.5">GOOGLE · CHATGPT · GEMINI</text>
+  <text x="686" y="318" font-size="26" font-weight="800" fill="#ffffff">In the AI answer</text>
+</svg>

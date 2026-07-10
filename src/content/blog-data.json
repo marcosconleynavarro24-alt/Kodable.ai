@@ -17,7 +17,7 @@
       "Applying is four steps: register on Acelera Pyme, do the self-assessment test, submit the application, and choose a digitiser.",
       "In 2026 the programme runs until the funds run out, get ready now, because it is handed out first-come, first-served."
     ],
-    "related": [],
+    "related": ["get-found-in-ai-search"],
     "cta": {
       "service": "websites",
       "label": "Get Kit Digital-ready"
@@ -253,6 +253,201 @@
       {
         "type": "p",
         "text": "It depends on the call and the moment. The framework has been reactivated since 2026 and runs until funds are exhausted; check the status on [sede.red.gob.es](https://sede.red.gob.es) and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
+      }
+    ]
+  },
+  {
+    "slug": "get-found-in-ai-search",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Getting Found When AI Answers First: A 2026 Guide for Local Businesses",
+    "description": "Google now writes an AI answer at the top of the page, so fewer searches end in a click. Here is what AI Overviews and AI Mode change for a local business, and a plain-English playbook to still get found: clear answers, reviews, Google Business Profile and speed.",
+    "dek": "Google increasingly writes the answer at the top of the page, and fewer people click through. Here is what actually changed for a local business, and the honest playbook for getting found when AI answers first.",
+    "keyword": "get found in AI search",
+    "author": "The Kodable team",
+    "datePublished": "2026-07-10",
+    "ogImage": "get-found-in-ai-search.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Google increasingly answers the question itself, in an AI box at the top of the page. When that box appears, clicks to websites roughly halve, and most searches already end with no click at all.",
+      "The customer-rich searches for a local business, near me, open now, best X in your town, and Google Maps, are still very much alive. AI has not replaced them.",
+      "The goal shifted from ranking number one to being the clear, trustworthy answer the AI quotes. People call it GEO or AEO, and being cited is now a different game from ranking.",
+      "What actually works is unglamorous and evidence-backed: answer real questions clearly, back it with real detail, own your Google Business Profile and reviews, earn honest mentions, and keep the site fast."
+    ],
+    "related": ["kit-digital-2026"],
+    "cta": {
+      "service": "websites",
+      "label": "Get a site AI can recommend"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-serp.svg",
+        "alt": "A Google results page in 2026: an AI-written answer sits at the top, above the familiar list of website links",
+        "caption": "The results page in 2026: Google writes an answer at the top, and the familiar list of links starts further down."
+      },
+      {
+        "type": "p",
+        "text": "Type a question into Google today and, more and more often, you do not get a tidy list of ten blue links. You get an **answer**, written by AI, sitting at the very top of the page, with a handful of sources beside it. It is called an **AI Overview**, and it is quietly changing how customers find local businesses, faster than most owners have noticed."
+      },
+      {
+        "type": "h2",
+        "text": "What actually changed"
+      },
+      {
+        "type": "p",
+        "text": "Two things landed on Google in the last couple of years. **AI Overviews**: the AI-written summary that now appears above the normal results for many searches. And **AI Mode**: a full conversational way to search, where you ask follow-up questions like you would a person. Google is not alone either, people now ask **ChatGPT, Gemini and Perplexity** the kind of questions they used to type into a search bar. And yes, [this is already live in Spain, in Spanish](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "people a month now use Google's AI Overviews, and AI Mode has passed 1 billion. This is simply how a lot of people search now.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "p",
+        "text": "The effect is simple: the answer often satisfies the person right there, on Google's page, without a click. Analysts call it a **zero-click search**, and it was already the norm before AI, [nearly 6 in 10 searches in the EU](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) ended without a click to any website back in 2024. AI Overviews are pouring fuel on that fire."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 100",
+        "label": "people click a source inside a Google AI answer. And when that answer shows, clicks through to any website roughly halve, from 15% to 8% of searches.",
+        "source": "Pew Research Center, 2025"
+      },
+      {
+        "type": "h2",
+        "text": "So is this bad news for a small business?"
+      },
+      {
+        "type": "p",
+        "text": "Yes and no, and anyone who tells you only one half is selling something. The clicks AI Overviews absorb are mostly **informational**: the what-is and how-do-I questions, the general how-to articles. That traffic is genuinely down. But the searches that bring a local business actual customers are different: **near me, open now, book, best [what you do] in [your town]**. Those still lead to a phone call, a booking, a visit, and to **Google Maps**, which the AI box has not replaced."
+      },
+      {
+        "type": "callout",
+        "title": "An honest note",
+        "body": "We are not going to pretend the old playbook is untouched. Clicks on general informational articles really have dropped. What still works, and works better than ever, is being genuinely the clearest, most trustworthy answer, and being visible where the AI looks. That is not a trick you buy; it is something you build."
+      },
+      {
+        "type": "stat",
+        "value": "38%",
+        "label": "of the businesses quoted in a Google AI answer come from the top-10 results, down from about 76% a year earlier. Being the answer is now a different game from ranking first.",
+        "source": "Ahrefs, 2026"
+      },
+      {
+        "type": "h2",
+        "text": "The shift: from ranking to being the answer"
+      },
+      {
+        "type": "p",
+        "text": "For twenty years, getting found meant **ranking a page**, climbing to the top of the list. The new game, people call it **GEO** (generative engine optimization) or **AEO** (answer engine optimization), is about being the source the AI **quotes**. The goal has not really changed: be the business the machine, and the customer, decide to trust. The surface just moved."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-signals.svg",
+        "alt": "Four signals that push a business into an AI answer: clear answers, reviews and mentions, structured data, and a strong local presence",
+        "caption": "What pushes a business into the answer: clear answers to real questions, reviews and mentions, a machine-readable site, and a strong local presence."
+      },
+      {
+        "type": "h2",
+        "text": "What to actually do (that works today)"
+      },
+      {
+        "type": "p",
+        "text": "There is no magic switch, and anyone selling one is guessing. But there is real evidence about what helps. The most striking finding: in a [peer-reviewed study](https://arxiv.org/abs/2311.09735), pages that answered clearly and backed it up with **real statistics, quotes and cited sources** were up to 30 to 40 percent more visible in AI answers. Keyword-stuffing did nothing. In plain terms, the way to win is to genuinely be the best answer."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Answer the real questions, clearly",
+            "body": "Write the plain answers to what customers actually ask: price ranges, opening hours, parking, whether you do X. AI answers are short and question-shaped, so a page that answers one real question in a few clear sentences is exactly the shape it quotes."
+          },
+          {
+            "title": "Be genuinely worth quoting",
+            "body": "Back your answers with real specifics: an actual number, a real example, a named source. This is the one lever with hard evidence behind it. Thin, vague, spun-up text is precisely what the new systems filter out."
+          },
+          {
+            "title": "Own your Google Business Profile",
+            "body": "For local searches, Maps and the local results still decide who gets the call. A complete profile, real photos, current hours and answered reviews do more for a local business than most technical SEO ever did."
+          },
+          {
+            "title": "Earn mentions elsewhere",
+            "body": "AI cross-checks. Because being quoted no longer depends only on your own ranking, honest reviews, a listing in the right local directories and a mention in the local press all help the machine trust and repeat your name."
+          },
+          {
+            "title": "Keep the basics right",
+            "body": "A fast, clean, well-structured site helps people and machines alike. Add structured data (schema) so Google can show rich results, but be honest about it: in the best test to date, schema on its own did not win more AI citations. It is hygiene, not a magic trick."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What to ignore"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Anyone **guaranteeing number one on Google**, or now **number one in ChatGPT**. Nobody controls those rankings, and nobody can promise them.",
+          "**Keyword-stuffing** and thin, AI-spun filler articles, the exact thing the new systems are built to filter out.",
+          "**Buying reviews.** Against the rules, increasingly easy to detect, and a fast way to lose trust with customers and Google alike.",
+          "The claim that **schema markup alone gets you into AI answers.** Do it for rich results, but the [best test we have seen](https://ahrefs.com/blog/schema-ai-citations/) found it did not move AI citations by itself.",
+          "Panic. The fundamentals, be findable, be trustworthy, be the best answer, did not change. Only the surface did."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "AI did not kill getting found. It moved the finish line from ranked first to trusted enough to be quoted.",
+        "cite": "The Kodable team"
+      },
+      {
+        "type": "h2",
+        "text": "How Kodable helps"
+      },
+      {
+        "type": "p",
+        "text": "We build sites made for exactly this: fast, cleanly structured, with your Google Business Profile and local signals set up, and the plain, genuinely useful answers your customers, and the AI, are looking for. No tricks, and no guarantees we cannot keep, just being the clearest, most trustworthy answer in your area, in a form both people and machines understand."
+      },
+      {
+        "type": "cta",
+        "title": "Get a site AI can find and recommend",
+        "body": "Tell us about your business in a 15-minute call. We will show you where you are invisible to AI search today, and what is worth fixing first.",
+        "button": "Talk to us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is SEO dead?"
+      },
+      {
+        "type": "p",
+        "text": "No, it changed. Being findable and trustworthy matters more than ever; the mechanics moved from ten blue links to AI answers and Maps. The work is different, not gone."
+      },
+      {
+        "type": "h3",
+        "text": "What is the difference between SEO, GEO and AEO?"
+      },
+      {
+        "type": "p",
+        "text": "SEO is ranking in the classic list of results. GEO and AEO are about being the source an AI answer quotes. In practice they overlap almost completely: the same clear, trustworthy, well-structured site tends to win all three at once."
+      },
+      {
+        "type": "h3",
+        "text": "Will an AI Overview actually mention my business?"
+      },
+      {
+        "type": "p",
+        "text": "It can, especially for local and specific questions, when your information is clear, consistent across the web, and genuinely useful. There is no guarantee, and anyone promising one is guessing."
+      },
+      {
+        "type": "h3",
+        "text": "Do I need to be on ChatGPT to get found?"
+      },
+      {
+        "type": "p",
+        "text": "You do not publish onto ChatGPT. These tools pull from the open web, your site, your Google profile, your reviews, your mentions. Get those right and you turn up in the answer, wherever the question is asked."
       }
     ]
   }

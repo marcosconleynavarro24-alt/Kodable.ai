@@ -17,7 +17,9 @@
       "Die Beantragung erfolgt in vier Schritten: Registrierung bei Acelera Pyme, Durchführung des Selbsteinschätzungstests, Einreichung des Antrags und Auswahl eines Digitalisierers.",
       "2026 läuft das Programm, bis die Mittel aufgebraucht sind, machen Sie sich jetzt bereit, denn es wird nach dem Windhundprinzip vergeben."
     ],
-    "related": [],
+    "related": [
+      "get-found-in-ai-search"
+    ],
     "cta": {
       "service": "websites",
       "label": "Machen Sie sich bereit für Kit Digital"
@@ -253,6 +255,203 @@
       {
         "type": "p",
         "text": "Das hängt vom Aufruf und vom Moment ab. Der Rahmen wurde seit 2026 reaktiviert und läuft, bis die Mittel aufgebraucht sind; prüfen Sie den Stand auf [sede.red.gob.es](https://sede.red.gob.es) und [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
+      }
+    ]
+  },
+  {
+    "slug": "get-found-in-ai-search",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Gefunden werden, wenn die KI zuerst antwortet: ein Leitfaden 2026 für lokale Unternehmen",
+    "description": "Google schreibt jetzt eine KI-Antwort oben auf der Seite, sodass immer weniger Suchen mit einem Klick enden. Das ändern KI-Antworten (AI Overviews) und der AI Mode für ein lokales Unternehmen, plus ein klarer Plan, um weiter gefunden zu werden: klare Antworten, Bewertungen, Google-Unternehmensprofil und Tempo.",
+    "dek": "Google schreibt die Antwort immer öfter oben auf die Seite, und weniger Leute klicken. Das hat sich für ein lokales Unternehmen wirklich geändert, plus der ehrliche Plan, um gefunden zu werden, wenn die KI zuerst antwortet.",
+    "keyword": "get found in AI search",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-07-10",
+    "ogImage": "get-found-in-ai-search.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Google beantwortet die Frage immer öfter selbst, in einem KI-Kasten oben auf der Seite. Wenn dieser Kasten erscheint, halbieren sich die Klicks auf Websites fast, und die meisten Suchen enden schon ganz ohne Klick.",
+      "Die Suchen, die ein lokales Unternehmen füllen, in meiner Nähe, jetzt geöffnet, bestes X in deiner Stadt, und Google Maps, sind sehr lebendig. Die KI hat sie nicht ersetzt.",
+      "Das Ziel hat sich verschoben, weg von Platz eins, hin zur klaren, vertrauenswürdigen Antwort, die die KI zitiert. Man nennt es GEO oder AEO, und zitiert zu werden ist jetzt ein anderes Spiel als Ranking.",
+      "Was wirklich funktioniert, ist unglamourös und durch Daten belegt: beantworte echte Fragen klar, untermauere es mit echtem Detail, pflege dein Google-Unternehmensprofil und deine Bewertungen, verdiene dir ehrliche Erwähnungen und halte die Seite schnell."
+    ],
+    "related": [
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Hol dir eine Seite, die die KI empfiehlt"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-serp.svg",
+        "alt": "Eine Google-Ergebnisseite 2026: eine von KI geschriebene Antwort steht oben, über der gewohnten Liste von Website-Links",
+        "caption": "Die Ergebnisseite 2026: Google schreibt oben eine Antwort, und die gewohnte Liste von Links beginnt weiter unten."
+      },
+      {
+        "type": "p",
+        "text": "Tipp heute eine Frage in Google ein, und immer öfter bekommst du keine ordentliche Liste aus zehn blauen Links. Du bekommst eine **Antwort**, von KI geschrieben, ganz oben auf der Seite, mit ein paar Quellen daneben. Das nennt sich **AI Overview**, und es verändert leise, wie Kunden lokale Unternehmen finden, schneller, als die meisten Inhaber gemerkt haben."
+      },
+      {
+        "type": "h2",
+        "text": "Was sich wirklich geändert hat"
+      },
+      {
+        "type": "p",
+        "text": "Zwei Dinge sind in den letzten Jahren bei Google gelandet. **AI Overviews**: die von KI geschriebene Zusammenfassung, die jetzt bei vielen Suchen über den normalen Ergebnissen steht. Und **AI Mode**: eine völlig dialogische Art zu suchen, bei der du Rückfragen stellst wie an einen Menschen. Und Google ist nicht allein, die Leute fragen jetzt **ChatGPT, Gemini und Perplexity** die Art von Fragen, die sie früher in die Suchleiste getippt haben. Und ja, [das ist in Spanien schon aktiv, auf Spanisch](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "Menschen im Monat nutzen inzwischen Googles AI Overviews, und der AI Mode hat 1 Milliarde überschritten. So suchen viele Menschen jetzt einfach.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "p",
+        "text": "Der Effekt ist einfach: Die Antwort stellt die Person oft direkt zufrieden, auf Googles Seite, ohne Klick. Analysten nennen es **Zero-Click-Suche**, und das war schon vor der KI die Norm, [fast 6 von 10 Suchen in der EU](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) endeten 2024 ohne einen Klick auf irgendeine Website. Die AI Overviews gießen Öl in dieses Feuer."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 100",
+        "label": "Menschen klicken auf eine Quelle innerhalb einer Google-KI-Antwort. Und wenn diese Antwort erscheint, halbieren sich die Klicks auf Websites fast, von 15% auf 8% der Suchen.",
+        "source": "Pew Research Center, 2025"
+      },
+      {
+        "type": "h2",
+        "text": "Sind das schlechte Nachrichten für ein kleines Unternehmen?"
+      },
+      {
+        "type": "p",
+        "text": "Ja und nein, und wer dir nur eine Hälfte zeigt, will dir etwas verkaufen. Die Klicks, die AI Overviews aufsaugen, sind vor allem **informativ**: die Was-ist- und Wie-mache-ich-Fragen, die allgemeinen How-to-Artikel. Dieser Traffic ist wirklich gesunken. Aber die Suchen, die einem lokalen Unternehmen echte Kunden bringen, sind andere: **in meiner Nähe, jetzt geöffnet, buchen, bestes [was du machst] in [deiner Stadt]**. Die führen weiter zu einem Anruf, einer Buchung, einem Besuch, und zu **Google Maps**, das der KI-Kasten nicht ersetzt hat."
+      },
+      {
+        "type": "callout",
+        "title": "Eine ehrliche Anmerkung",
+        "body": "Wir tun nicht so, als wäre das alte Handbuch unberührt. Die Klicks auf allgemeine Info-Artikel sind wirklich eingebrochen. Was weiter funktioniert, und besser denn je, ist, wirklich die klarste, vertrauenswürdigste Antwort zu sein, und dort sichtbar zu sein, wo die KI hinschaut. Das kaufst du nicht als Trick; das baust du auf."
+      },
+      {
+        "type": "stat",
+        "value": "38%",
+        "label": "der in einer Google-KI-Antwort zitierten Unternehmen kommen aus den Top-10-Ergebnissen, gegenüber rund 76% ein Jahr zuvor. Die Antwort zu sein, ist jetzt ein anderes Spiel, als Erster zu sein.",
+        "source": "Ahrefs, 2026"
+      },
+      {
+        "type": "h2",
+        "text": "Der Wandel: vom Ranking zum Sein-der-Antwort"
+      },
+      {
+        "type": "p",
+        "text": "Zwanzig Jahre lang hieß Gefundenwerden, **eine Seite zu ranken**, an die Spitze der Liste zu klettern. Das neue Spiel, man nennt es **GEO** (generative engine optimization) oder **AEO** (answer engine optimization), heißt, die Quelle zu sein, die die KI **zitiert**. Das Ziel hat sich nicht wirklich geändert: das Unternehmen zu sein, dem die Maschine, und der Kunde, zu vertrauen beschließen. Nur die Oberfläche hat sich verschoben."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-signals.svg",
+        "alt": "Vier Signale, die ein Unternehmen in eine KI-Antwort bringen: klare Antworten, Bewertungen und Erwähnungen, strukturierte Daten und eine starke lokale Präsenz",
+        "caption": "Was ein Unternehmen in die Antwort bringt: klare Antworten auf echte Fragen, Bewertungen und Erwähnungen, eine maschinenlesbare Seite und eine starke lokale Präsenz."
+      },
+      {
+        "type": "h2",
+        "text": "Was du konkret tun solltest (und was heute funktioniert)"
+      },
+      {
+        "type": "p",
+        "text": "Es gibt keinen Zauberknopf, und wer dir einen verkauft, rät. Aber es gibt echte Belege dafür, was hilft. Der auffälligste Befund: In einer [begutachteten Studie](https://arxiv.org/abs/2311.09735) waren Seiten, die klar antworteten und es mit **echten Statistiken, Zitaten und genannten Quellen** untermauerten, bis zu 30 bis 40 Prozent sichtbarer in KI-Antworten. Keyword-Stuffing brachte nichts. Kurz gesagt: Der Weg zum Gewinnen ist, wirklich die beste Antwort zu sein."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Beantworte die echten Fragen, klar",
+            "body": "Schreib die klaren Antworten auf das, was Kunden wirklich fragen: Preisspannen, Öffnungszeiten, Parken, ob du X machst. KI-Antworten sind kurz und frageförmig, also ist eine Seite, die eine echte Frage in ein paar klaren Sätzen beantwortet, genau die Form, die sie zitiert."
+          },
+          {
+            "title": "Sei es wirklich wert, zitiert zu werden",
+            "body": "Untermauere deine Antworten mit echtem Konkretem: eine echte Zahl, ein echtes Beispiel, eine genannte Quelle. Das ist der eine Hebel mit harten Belegen dahinter. Dünner, vager, in Serie erzeugter Text ist genau das, was die neuen Systeme herausfiltern."
+          },
+          {
+            "title": "Pflege dein Google-Unternehmensprofil",
+            "body": "Bei lokalen Suchen entscheiden Maps und die lokalen Ergebnisse weiter, wer den Anruf bekommt. Ein vollständiges Profil, echte Fotos, aktuelle Öffnungszeiten und beantwortete Bewertungen tun für ein lokales Unternehmen mehr als das meiste technische SEO."
+          },
+          {
+            "title": "Verdien dir Erwähnungen anderswo",
+            "body": "Die KI gleicht ab. Weil Zitiertwerden nicht mehr nur von deinem Ranking abhängt, helfen ehrliche Bewertungen, ein Eintrag in den richtigen lokalen Verzeichnissen und eine Erwähnung in der Lokalpresse alle mit, dass die Maschine deinem Namen vertraut und ihn wiederholt."
+          },
+          {
+            "title": "Halt die Basics in Ordnung",
+            "body": "Eine schnelle, saubere, gut strukturierte Seite hilft Menschen und Maschinen gleichermaßen. Füg strukturierte Daten (schema) hinzu, damit Google Rich Results zeigen kann, aber sei ehrlich: Im besten bisherigen Test brachte schema allein keine zusätzlichen KI-Zitate. Das ist Hygiene, kein Zaubertrick."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was du ignorieren solltest"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Jeden, der **Platz eins bei Google garantiert**, oder jetzt **Platz eins in ChatGPT**. Niemand kontrolliert diese Platzierungen, und niemand kann sie versprechen.",
+          "**Keyword-Stuffing** und dünne, von KI hingespuckte Füllartikel, genau das, wofür die neuen Systeme gebaut sind, um es herauszufiltern.",
+          "**Bewertungen kaufen.** Gegen die Regeln, immer leichter zu erkennen, und ein schneller Weg, das Vertrauen von Kunden und Google zu verlieren.",
+          "Die Behauptung, dass **schema allein dich in die KI-Antworten bringt.** Mach es für Rich Results, aber der [beste Test, den wir gesehen haben](https://ahrefs.com/blog/schema-ai-citations/) fand, dass es die KI-Zitate für sich genommen nicht bewegte.",
+          "Panik. Die Grundlagen, auffindbar sein, vertrauenswürdig sein, die beste Antwort sein, haben sich nicht geändert. Nur die Oberfläche."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Die KI hat das Gefundenwerden nicht getötet. Sie hat die Ziellinie verschoben, von Erster zu vertrauenswürdig genug, um zitiert zu werden.",
+        "cite": "Das Kodable-Team"
+      },
+      {
+        "type": "h2",
+        "text": "Wie Kodable hilft"
+      },
+      {
+        "type": "p",
+        "text": "Wir bauen Seiten, die genau dafür gemacht sind: schnell, sauber strukturiert, mit deinem Google-Unternehmensprofil und deinen lokalen Signalen eingerichtet, und den klaren, wirklich nützlichen Antworten, die deine Kunden, und die KI, suchen. Keine Tricks, und keine Versprechen, die wir nicht halten können, einfach die klarste, vertrauenswürdigste Antwort in deiner Gegend, in einer Form, die Menschen und Maschinen verstehen."
+      },
+      {
+        "type": "cta",
+        "title": "Hol dir eine Seite, die die KI finden und empfehlen kann",
+        "body": "Erzähl uns in einem 15-minütigen Anruf von deinem Unternehmen. Wir zeigen dir, wo du heute für die KI-Suche unsichtbar bist, und was sich zuerst zu beheben lohnt.",
+        "button": "Sprich mit uns"
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Ist SEO tot?"
+      },
+      {
+        "type": "p",
+        "text": "Nein, es hat sich geändert. Auffindbar und vertrauenswürdig zu sein, zählt mehr denn je; die Mechanik ist von zehn blauen Links zu KI-Antworten und Maps gewandert. Die Arbeit ist anders, nicht weg."
+      },
+      {
+        "type": "h3",
+        "text": "Was ist der Unterschied zwischen SEO, GEO und AEO?"
+      },
+      {
+        "type": "p",
+        "text": "SEO ist das Ranking in der klassischen Ergebnisliste. GEO und AEO drehen sich darum, die Quelle zu sein, die eine KI-Antwort zitiert. In der Praxis überschneiden sie sich fast völlig: dieselbe klare, vertrauenswürdige, gut strukturierte Seite gewinnt meist alle drei auf einmal."
+      },
+      {
+        "type": "h3",
+        "text": "Wird ein AI Overview mein Unternehmen wirklich nennen?"
+      },
+      {
+        "type": "p",
+        "text": "Kann es, besonders bei lokalen und konkreten Fragen, wenn deine Informationen klar, im ganzen Web konsistent und wirklich nützlich sind. Es gibt keine Garantie, und wer eine verspricht, rät."
+      },
+      {
+        "type": "h3",
+        "text": "Muss ich auf ChatGPT sein, um gefunden zu werden?"
+      },
+      {
+        "type": "p",
+        "text": "Du veröffentlichst nicht in ChatGPT. Diese Werkzeuge schöpfen aus dem offenen Web, deiner Seite, deinem Google-Profil, deinen Bewertungen, deinen Erwähnungen. Mach das richtig, und du tauchst in der Antwort auf, egal wo die Frage gestellt wird."
       }
     ]
   }

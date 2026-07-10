@@ -17,7 +17,9 @@
       "Se pide en 4 pasos: registro en Acelera Pyme, test de autodiagnóstico, solicitud y elección del agente digitalizador.",
       "En 2026 el programa funciona hasta agotar los fondos: prepárate ya, porque se reparte por orden de llegada."
     ],
-    "related": [],
+    "related": [
+      "get-found-in-ai-search"
+    ],
     "cta": {
       "service": "websites",
       "label": "Prepárate para el Kit Digital"
@@ -253,6 +255,203 @@
       {
         "type": "p",
         "text": "Depende de la convocatoria y del momento. El marco está reactivado desde 2026 y funciona hasta agotar fondos; comprueba el estado en [sede.red.gob.es](https://sede.red.gob.es) y [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
+      }
+    ]
+  },
+  {
+    "slug": "get-found-in-ai-search",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Cómo hacer que te encuentren cuando la IA responde primero: guía 2026 para negocios locales",
+    "description": "Google ya escribe una respuesta con IA en lo alto de la página, así que cada vez menos búsquedas acaban en un clic. Esto es lo que cambian las respuestas de IA (AI Overviews) y el AI Mode para un negocio local, y un plan claro para que te sigan encontrando: respuestas claras, reseñas, Perfil de Empresa en Google y velocidad.",
+    "dek": "Google escribe cada vez más la respuesta en lo alto de la página, y menos gente hace clic. Esto es lo que de verdad ha cambiado para un negocio local, y el plan honesto para que te encuentren cuando la IA responde primero.",
+    "keyword": "get found in AI search",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-07-10",
+    "ogImage": "get-found-in-ai-search.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Google responde cada vez más a la pregunta él mismo, en una caja de IA en lo alto de la página. Cuando aparece esa caja, los clics a las webs se reducen casi a la mitad, y la mayoría de búsquedas ya terminan sin ningún clic.",
+      "Las búsquedas que llenan un negocio local, cerca de mí, abierto ahora, mejor X en tu ciudad, y Google Maps, siguen muy vivas. La IA no las ha sustituido.",
+      "El objetivo ha cambiado: ya no es salir el número uno, sino ser la respuesta clara y fiable que la IA cita. Lo llaman GEO o AEO, y que te citen es ahora un juego distinto al de posicionar.",
+      "Lo que de verdad funciona es poco glamuroso y está respaldado por datos: responde a preguntas reales con claridad, respáldalo con detalle real, cuida tu Perfil de Empresa en Google y tus reseñas, gánate menciones honestas y mantén la web rápida."
+    ],
+    "related": [
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Consigue una web que la IA recomiende"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-serp.svg",
+        "alt": "Una página de resultados de Google en 2026: una respuesta escrita por IA ocupa lo alto, por encima de la lista habitual de enlaces a webs",
+        "caption": "La página de resultados en 2026: Google escribe una respuesta arriba, y la lista habitual de enlaces empieza más abajo."
+      },
+      {
+        "type": "p",
+        "text": "Escribe una pregunta en Google hoy y, cada vez más, no obtienes una lista ordenada de diez enlaces azules. Obtienes una **respuesta**, escrita por IA, en lo más alto de la página, con un puñado de fuentes al lado. Se llama **AI Overview**, y está cambiando en silencio cómo los clientes encuentran a los negocios locales, más rápido de lo que la mayoría de dueños ha notado."
+      },
+      {
+        "type": "h2",
+        "text": "Qué ha cambiado en realidad"
+      },
+      {
+        "type": "p",
+        "text": "En los últimos dos años han aterrizado dos cosas en Google. **AI Overviews**: el resumen escrito por IA que ahora aparece por encima de los resultados normales en muchas búsquedas. Y **AI Mode**: una forma de buscar totalmente conversacional, donde haces preguntas de seguimiento como se las harías a una persona. Y Google no está solo, la gente ahora le pregunta a **ChatGPT, Gemini y Perplexity** el tipo de cosas que antes escribía en el buscador. Y sí, [esto ya está activo en España, en español](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "personas al mes usan ya los AI Overviews de Google, y el AI Mode ha superado los 1.000 millones. Es simplemente cómo busca mucha gente ahora.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "p",
+        "text": "El efecto es sencillo: la respuesta a menudo satisface a la persona ahí mismo, en la página de Google, sin un clic. Los analistas lo llaman **búsqueda de cero clics**, y ya era lo normal antes de la IA, [casi 6 de cada 10 búsquedas en la UE](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) terminaban sin un clic a ninguna web en 2024. Los AI Overviews echan más leña a ese fuego."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 100",
+        "label": "personas hacen clic en una fuente dentro de una respuesta de IA de Google. Y cuando aparece esa respuesta, los clics a cualquier web se reducen casi a la mitad, del 15% al 8% de las búsquedas.",
+        "source": "Pew Research Center, 2025"
+      },
+      {
+        "type": "h2",
+        "text": "¿Son malas noticias para un pequeño negocio?"
+      },
+      {
+        "type": "p",
+        "text": "Sí y no, y quien te cuente solo una mitad te está vendiendo algo. Los clics que absorben los AI Overviews son sobre todo **informativos**: las preguntas de qué-es y cómo-hago, los artículos generales de tipo how-to. Ese tráfico ha bajado de verdad. Pero las búsquedas que traen clientes reales a un negocio local son otras: **cerca de mí, abierto ahora, reservar, mejor [lo que haces] en [tu ciudad]**. Esas siguen llevando a una llamada, a una reserva, a una visita, y a **Google Maps**, que la caja de IA no ha sustituido."
+      },
+      {
+        "type": "callout",
+        "title": "Una nota honesta",
+        "body": "No vamos a fingir que el manual de siempre está intacto. Los clics en los artículos informativos generales han caído de verdad. Lo que sigue funcionando, y mejor que nunca, es ser de verdad la respuesta más clara y fiable, y estar visible donde la IA mira. Eso no es un truco que se compra; es algo que se construye."
+      },
+      {
+        "type": "stat",
+        "value": "38%",
+        "label": "de los negocios citados en una respuesta de IA de Google salen de los diez primeros resultados, frente a cerca del 76% un año antes. Ser la respuesta es ahora un juego distinto al de salir primero.",
+        "source": "Ahrefs, 2026"
+      },
+      {
+        "type": "h2",
+        "text": "El cambio: de posicionar a ser la respuesta"
+      },
+      {
+        "type": "p",
+        "text": "Durante veinte años, que te encontraran significaba **posicionar una página**, subir a lo alto de la lista. El nuevo juego, lo llaman **GEO** (optimización para motores generativos) o **AEO** (optimización para motores de respuesta), consiste en ser la fuente que la IA **cita**. El objetivo no ha cambiado en realidad: ser el negocio en el que la máquina, y el cliente, deciden confiar. Solo se ha movido la superficie."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-signals.svg",
+        "alt": "Cuatro señales que meten a un negocio en una respuesta de IA: respuestas claras, reseñas y menciones, datos estructurados y una presencia local fuerte",
+        "caption": "Lo que mete a un negocio en la respuesta: respuestas claras a preguntas reales, reseñas y menciones, una web legible por máquinas y una presencia local fuerte."
+      },
+      {
+        "type": "h2",
+        "text": "Qué hacer de verdad (y que funciona hoy)"
+      },
+      {
+        "type": "p",
+        "text": "No hay un botón mágico, y quien te lo venda está adivinando. Pero sí hay pruebas reales de lo que ayuda. El hallazgo más llamativo: en un [estudio con revisión por pares](https://arxiv.org/abs/2311.09735), las páginas que respondían con claridad y lo respaldaban con **estadísticas reales, citas y fuentes citadas** eran hasta un 30 o 40 por ciento más visibles en las respuestas de IA. Rellenar de palabras clave no sirvió de nada. En pocas palabras: la forma de ganar es ser de verdad la mejor respuesta."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Responde a las preguntas reales, con claridad",
+            "body": "Escribe las respuestas claras a lo que los clientes preguntan de verdad: rangos de precio, horarios, aparcamiento, si haces X. Las respuestas de IA son cortas y con forma de pregunta, así que una página que responde a una pregunta real en unas pocas frases claras es justo la forma que la IA cita."
+          },
+          {
+            "title": "Merece de verdad que te citen",
+            "body": "Respalda tus respuestas con datos concretos: un número real, un ejemplo real, una fuente con nombre. Esta es la única palanca con pruebas sólidas detrás. El texto flojo, vago y generado en serie es justo lo que los nuevos sistemas filtran."
+          },
+          {
+            "title": "Cuida tu Perfil de Empresa en Google",
+            "body": "En las búsquedas locales, Maps y los resultados locales siguen decidiendo quién se lleva la llamada. Un perfil completo, fotos reales, horarios al día y reseñas respondidas hacen más por un negocio local que casi todo el SEO técnico."
+          },
+          {
+            "title": "Gánate menciones en otros sitios",
+            "body": "La IA hace comprobaciones cruzadas. Como que te citen ya no depende solo de tu posición, unas reseñas honestas, aparecer en los directorios locales adecuados y una mención en la prensa local ayudan a que la máquina confíe en tu nombre y lo repita."
+          },
+          {
+            "title": "Ten bien lo básico",
+            "body": "Una web rápida, limpia y bien estructurada ayuda por igual a personas y a máquinas. Añade datos estructurados (schema) para que Google pueda mostrar resultados enriquecidos, pero sé honesto: en la mejor prueba hasta la fecha, el schema por sí solo no consiguió más citas de IA. Es higiene, no un truco mágico."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Qué ignorar"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A cualquiera que **garantice el número uno en Google**, o ahora el **número uno en ChatGPT**. Nadie controla esas posiciones, y nadie puede prometerlas.",
+          "El **relleno de palabras clave** y los artículos de relleno flojos generados por IA, justo lo que los nuevos sistemas están hechos para filtrar.",
+          "**Comprar reseñas.** Va contra las normas, cada vez es más fácil de detectar y es una forma rápida de perder la confianza de clientes y de Google.",
+          "La idea de que **el schema por sí solo te mete en las respuestas de IA.** Hazlo por los resultados enriquecidos, pero la [mejor prueba que hemos visto](https://ahrefs.com/blog/schema-ai-citations/) vio que no movía las citas de IA por sí mismo.",
+          "El pánico. Los fundamentos, que te encuentren, ser fiable, ser la mejor respuesta, no han cambiado. Solo ha cambiado la superficie."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "La IA no ha matado el que te encuentren. Ha movido la meta de salir primero a ser lo bastante fiable como para que te citen.",
+        "cite": "El equipo de Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Cómo ayuda Kodable"
+      },
+      {
+        "type": "p",
+        "text": "Construimos webs hechas justo para esto: rápidas, bien estructuradas, con tu Perfil de Empresa en Google y tus señales locales listas, y las respuestas claras y de verdad útiles que buscan tus clientes, y la IA. Sin trucos, y sin promesas que no podamos cumplir, solo ser la respuesta más clara y fiable de tu zona, en una forma que entiendan tanto las personas como las máquinas."
+      },
+      {
+        "type": "cta",
+        "title": "Consigue una web que la IA pueda encontrar y recomendar",
+        "body": "Cuéntanos sobre tu negocio en una llamada de 15 minutos. Te enseñaremos dónde eres invisible para la búsqueda con IA hoy, y qué merece la pena arreglar primero.",
+        "button": "Habla con nosotros"
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿Ha muerto el SEO?"
+      },
+      {
+        "type": "p",
+        "text": "No, ha cambiado. Que te encuentren y ser fiable importa más que nunca; la mecánica ha pasado de diez enlaces azules a las respuestas de IA y a Maps. El trabajo es distinto, no ha desaparecido."
+      },
+      {
+        "type": "h3",
+        "text": "¿Qué diferencia hay entre SEO, GEO y AEO?"
+      },
+      {
+        "type": "p",
+        "text": "El SEO es posicionar en la lista clásica de resultados. GEO y AEO van de ser la fuente que cita una respuesta de IA. En la práctica se solapan casi por completo: la misma web clara, fiable y bien estructurada suele ganar en los tres a la vez."
+      },
+      {
+        "type": "h3",
+        "text": "¿Un AI Overview mencionará de verdad a mi negocio?"
+      },
+      {
+        "type": "p",
+        "text": "Puede, sobre todo en preguntas locales y concretas, cuando tu información es clara, coherente por toda la web y de verdad útil. No hay garantía, y quien te la prometa está adivinando."
+      },
+      {
+        "type": "h3",
+        "text": "¿Necesito estar en ChatGPT para que me encuentren?"
+      },
+      {
+        "type": "p",
+        "text": "No publicas dentro de ChatGPT. Estas herramientas beben de la web abierta, tu sitio, tu perfil de Google, tus reseñas, tus menciones. Ten eso bien y aparecerás en la respuesta, se pregunte donde se pregunte."
       }
     ]
   }
