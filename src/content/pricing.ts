@@ -215,8 +215,8 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Webs",
         tiers: {
-          starter: { name: "Economy", features: ["1–5 páginas", "Móvil, WhatsApp y clic para llamar", "Perfil de Empresa en Google + SEO básico", "Un idioma"] },
-          business: { name: "Business", features: ["Hasta ~8 páginas, diseño a medida", "Bilingüe ES/EN", "Reservas o pedidos integrados", "SEO local, reseñas y blog"] },
+          starter: { name: "Económica", features: ["1–5 páginas", "Móvil, WhatsApp y clic para llamar", "Perfil de Empresa en Google + SEO básico", "Un idioma"] },
+          business: { name: "Negocio", features: ["Hasta ~8 páginas, diseño a medida", "Bilingüe ES/EN", "Reservas o pedidos integrados", "SEO local, reseñas y blog"] },
           premium: { name: "Premium", features: ["Tienda online o desarrollo a medida", "Multilingüe + pagos", "Integraciones avanzadas", "Entrega prioritaria"] },
         },
       },
@@ -290,7 +290,7 @@ const PACKS: Record<Locale, Pack> = {
       websites: {
         name: "Sites web",
         tiers: {
-          starter: { name: "Economy", features: ["1 à 5 pages", "Mobile, WhatsApp et clic-pour-appeler", "Profil Google + SEO de base", "Une langue"] },
+          starter: { name: "Économique", features: ["1 à 5 pages", "Mobile, WhatsApp et clic-pour-appeler", "Profil Google + SEO de base", "Une langue"] },
           business: { name: "Business", features: ["Jusqu'à ~8 pages, design sur mesure", "Bilingue ES/EN", "Réservation ou commande intégrée", "SEO local, avis et blog"] },
           premium: { name: "Premium", features: ["Boutique en ligne ou sur-mesure", "Multilingue + paiements", "Intégrations avancées", "Livraison prioritaire"] },
         },
