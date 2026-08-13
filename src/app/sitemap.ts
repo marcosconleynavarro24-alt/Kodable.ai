@@ -27,10 +27,17 @@ const routes = [
   "/terms",
 ];
 
+// Legal copy exists only in EN/ES; fr/de/it serve the EN text and canonicalize
+// to /en (see legalHreflangs). Keep those duplicate URLs out of the sitemap.
+const legalRoutes = new Set(["/privacy", "/terms"]);
+const legalLocales = new Set(["en", "es"]);
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const localeRoutes = locales.flatMap((locale) =>
-    routes.map((route) => ({
+    routes
+      .filter((route) => !legalRoutes.has(route) || legalLocales.has(locale))
+      .map((route) => ({
       url: `${SITE_URL}/${locale}${route}`,
       lastModified: route.startsWith("/blog/")
         ? (blogDates.get(route.slice("/blog/".length)) ?? now)
@@ -49,7 +56,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 : 0.6,
       alternates: {
         languages: {
-          ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}${route}`])),
+          ...Object.fromEntries(
+            (legalRoutes.has(route) ? [...legalLocales] : [...locales]).map((l) => [
+              l,
+              `${SITE_URL}/${l}${route}`,
+            ]),
+          ),
           // x-default: the homepage cluster's default is the locale-redirecting
           // bare root; sub-pages fall back to the English page. Must match the
           // page-level hreflangs() output exactly — conflicting sets between

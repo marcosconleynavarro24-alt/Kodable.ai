@@ -13,3 +13,19 @@ export function hreflangs(path: string): Record<string, string> {
     "x-default": `/en${path}`,
   };
 }
+
+// Legal copy (privacy/terms) exists only in EN and ES; fr/de/it render the EN
+// text, so listing them as alternates makes Google flag "duplicate, different
+// canonical" (seen in GSC 2026-08). Legal pages canonicalize to the en/es
+// pair and advertise only those two variants.
+export function legalHreflangs(path: string): Record<string, string> {
+  return {
+    en: `/en${path}`,
+    es: `/es${path}`,
+    "x-default": `/en${path}`,
+  };
+}
+
+export function legalCanonical(locale: string, path: string): string {
+  return locale === "es" ? `/es${path}` : `/en${path}`;
+}
