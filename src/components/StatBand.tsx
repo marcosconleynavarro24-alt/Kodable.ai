@@ -1,0 +1,104 @@
+"use client";
+
+// SaaS-style count-up stat band (/casos). The server render carries the FINAL
+// figures, so crawlers and no-JS visitors always see the real numbers; on the
+// first scroll into view the values animate 0 → final. prefers-reduced-motion
+// users keep the static figures (matching the site-wide .reveal rule).
+import { useEffect, useRef, useState } from "react";
+
+export interface StatItem {
+  /** Final numeric value (visitors, pageviews, seconds, percent…). */
+  target: number;
+  /** "number" renders via Intl; "duration" renders as "N min N s". */
+  kind: "number" | "duration";
+  /** Appended verbatim after number values, e.g. "%" / " %". */
+  suffix?: string;
+  label: string;
+}
+
+const COUNT_MS = 1400;
+const easeOut = (p: number) => 1 - Math.pow(1 - p, 3);
+
+function fmt(item: StatItem, v: number, numLocale: string): string {
+  if (item.kind === "duration") {
+    const s = Math.round(v);
+    return `${Math.floor(s / 60)} min ${s % 60} s`;
+  }
+  return new Intl.NumberFormat(numLocale).format(Math.round(v)) + (item.suffix ?? "");
+}
+
+export default function StatBand({ items, numLocale }: { items: StatItem[]; numLocale: string }) {
+  const ref = useRef<HTMLDivElement>(null);
+  // 1 = final values: what the server renders and what no-JS keeps.
+  const [progress, setProgress] = useState(1);
+
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let raf = 0;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (!entries.some((e) => e.isIntersecting)) return;
+        io.disconnect();
+        const t0 = performance.now();
+        const tick = (now: number) => {
+          const p = Math.min(1, (now - t0) / COUNT_MS);
+          setProgress(easeOut(p));
+          if (p < 1) raf = requestAnimationFrame(tick);
+        };
+        setProgress(0);
+        raf = requestAnimationFrame(tick);
+      },
+      { threshold: 0.35 },
+    );
+    io.observe(el);
+    return () => {
+      io.disconnect();
+      cancelAnimationFrame(raf);
+    };
+  }, []);
+
+  return (
+    <div
+      ref={ref}
+      className="reveal"
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+        gap: "30px 20px",
+        textAlign: "center",
+        padding: "6px 0",
+      }}
+    >
+      {items.map((m) => (
+        <div key={m.label}>
+          <div
+            style={{
+              fontFamily: "var(--font-display)",
+              fontWeight: 800,
+              fontSize: "clamp(2.2rem, 4.5vw, 3.2rem)",
+              letterSpacing: "-0.03em",
+              lineHeight: 1.1,
+              color: "var(--accent-deep)",
+              fontVariantNumeric: "tabular-nums",
+            }}
+          >
+            {fmt(m, m.target * progress, numLocale)}
+          </div>
+          <div
+            style={{
+              marginTop: "8px",
+              fontSize: ".78rem",
+              fontWeight: 600,
+              textTransform: "uppercase",
+              letterSpacing: ".07em",
+              color: "var(--ink-mute)",
+            }}
+          >
+            {m.label}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}

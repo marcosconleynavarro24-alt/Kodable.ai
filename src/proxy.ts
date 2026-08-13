@@ -58,6 +58,11 @@ const BLOG_REDIRECT_RE = new RegExp(
   `^/(?:(${locales.join("|")})/)?blog/([^/]+)/?$`,
 );
 
+// /about pulled (2026-08-11) — 301 any indexed/linked traffic to the homepage.
+const ABOUT_REDIRECT_RE = new RegExp(
+  `^/(?:(${locales.join("|")})/)?about/?$`,
+);
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -77,6 +82,14 @@ export function proxy(request: NextRequest) {
   if (blog && REMOVED_BLOG_SLUGS.has(blog[2])) {
     const locale = blog[1] ?? getLocale(request);
     request.nextUrl.pathname = `/${locale}/blog`;
+    return NextResponse.redirect(request.nextUrl, 301);
+  }
+
+  // 1c) Removed /about page → homepage (301).
+  const about = pathname.match(ABOUT_REDIRECT_RE);
+  if (about) {
+    const locale = about[1] ?? getLocale(request);
+    request.nextUrl.pathname = `/${locale}`;
     return NextResponse.redirect(request.nextUrl, 301);
   }
 

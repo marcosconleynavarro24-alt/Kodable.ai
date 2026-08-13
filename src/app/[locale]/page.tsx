@@ -7,10 +7,12 @@ import { getFaq } from "@/content/faq";
 import Icon from "@/components/Icon";
 import SectionHead from "@/components/SectionHead";
 import ServiceCard from "@/components/ServiceCard";
-import ChatMockup from "@/components/ChatMockup";
 import BookingWidget from "@/components/BookingWidget";
 import FinalCta from "@/components/FinalCta";
 import { getBooking } from "@/content/booking";
+import { getClientStats } from "@/lib/clientStats";
+import { getStatBand } from "@/content/statBand";
+import StatBand from "@/components/StatBand";
 
 export default async function HomePage({
   params,
@@ -25,19 +27,21 @@ export default async function HomePage({
   const services = getServices(locale);
   const faq = getFaq(locale).slice(0, 4);
   const booking = getBooking(locale);
+  const band = getStatBand(locale, await getClientStats("valenciacamperpark"));
 
   return (
     <>
-      {/* HERO — problem-led headline, single CTA */}
+      {/* HERO — problem-led headline, single CTA (chat mockup removed,
+          owner directive 2026-08-12) */}
       <section className="hero">
-        <div className="wrap hero-grid">
+        <div className="wrap">
           <div>
             <h1 className="hero-h">
               {site.hero.headingPre}
               <span className="hi">{site.hero.headingHi}</span>
               {site.hero.headingMid}
               {site.hero.headingHi2 ? (
-                <span className="hi-red">{site.hero.headingHi2}</span>
+                <span className="hi">{site.hero.headingHi2}</span>
               ) : null}
               {site.hero.headingPost}
             </h1>
@@ -52,13 +56,20 @@ export default async function HomePage({
               </a>
             </div>
           </div>
-          <div>
-            <ChatMockup chat={site.chat} />
-            <p className="hero-cap">
-              <Icon name="spark" />
-              {site.hero.label}
-            </p>
+        </div>
+      </section>
+
+      {/* REAL RESULTS BAND — count-up figures from client-site analytics
+          (anonymous, shared with /casos via getStatBand) */}
+      <section className="sec" id="resultados">
+        <div className="wrap">
+          <div className="sec-head center" style={{ maxWidth: "none" }}>
+            <h2 className="sec-title">{band.title}</h2>
           </div>
+          <StatBand items={band.items} numLocale={band.numLocale} />
+          <p className="center" style={{ marginTop: "26px", fontSize: ".8rem", color: "var(--ink-mute)" }}>
+            {band.source}
+          </p>
         </div>
       </section>
 

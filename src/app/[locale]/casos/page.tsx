@@ -8,11 +8,19 @@ import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { getClientStats } from "@/lib/clientStats";
+import StatBand from "@/components/StatBand";
+import { getStatBand } from "@/content/statBand";
 
-// Honest pre-revenue portfolio: the three cards below are DEMO sites we built
-// ourselves as outreach samples, not client work. The screenshots are cropped
-// to the menu section so no real business name, rating or neighbourhood shows
-// (we never publish a business's name without consent). Keep it that way.
+// Honest portfolio, two layers:
+// 1. REAL RESULTS BAND — SaaS-style flat aggregate stats (owner directive
+//    2026-08-12: no per-client case framing, no name/screenshot/link; big
+//    numbers only). Figures come from the analytics of client sites we manage
+//    via getClientStats() (Supabase overlay when configured, baked snapshot
+//    otherwise) and must stay verbatim-checkable against the dashboard.
+// 2. DEMO sites we built ourselves as outreach samples, not client work. The
+//    screenshots are cropped to the menu section so no real business name,
+//    rating or neighbourhood shows (we never publish a name without consent).
 
 export async function generateMetadata({
   params,
@@ -23,29 +31,29 @@ export async function generateMetadata({
   const key: Locale = isLocale(locale) ? locale : defaultLocale;
   const meta: Record<Locale, { title: string; description: string }> = {
     en: {
-      title: "Work samples",
+      title: "Client cases & work samples",
       description:
-        "Demo websites we built in 48 hours for real hospitality and local businesses: menu, bookings and multiple languages. No client names, just honest samples of what we do.",
+        "Real traffic figures from the client websites we build and manage — visitors, pageviews, visit time — plus demo websites built in 48 hours for hospitality and local businesses.",
     },
     es: {
-      title: "Muestras de trabajo",
+      title: "Casos y muestras de trabajo",
       description:
-        "Webs de demostración que construimos en 48 horas para negocios reales de hostelería y comercio local: carta, reservas y varios idiomas. Sin nombres de clientes, solo muestras honestas.",
+        "Cifras reales de tráfico de las webs de clientes que construimos y gestionamos — visitantes, páginas vistas, tiempo de visita — más webs de demostración construidas en 48 horas.",
     },
     fr: {
-      title: "Exemples de travail",
+      title: "Cas clients et exemples de travail",
       description:
-        "Sites web de démonstration que nous construisons en 48 heures pour de vrais restaurants et commerces de proximité : carte, réservations et plusieurs langues. Sans noms de clients, juste des exemples honnêtes de ce que nous faisons.",
+        "De vrais chiffres de trafic des sites clients que nous construisons et gérons — visiteurs, pages vues, durée de visite — plus des sites de démonstration construits en 48 heures.",
     },
     de: {
-      title: "Arbeitsbeispiele",
+      title: "Kundenprojekte & Arbeitsbeispiele",
       description:
-        "Demo-Websites, die wir in 48 Stunden für echte Gastronomie- und lokale Geschäfte bauen: Speisekarte, Reservierungen und mehrere Sprachen. Ohne Kundennamen, nur ehrliche Beispiele unserer Arbeit.",
+        "Echte Besucherzahlen der Kunden-Websites, die wir bauen und betreiben — Besucher, Seitenaufrufe, Besuchsdauer — plus Demo-Websites, in 48 Stunden gebaut.",
     },
     it: {
-      title: "Esempi di lavoro",
+      title: "Casi e esempi di lavoro",
       description:
-        "Siti web dimostrativi che costruiamo in 48 ore per veri ristoranti e attività locali: menu, prenotazioni e più lingue. Senza nomi di clienti, solo esempi onesti di ciò che facciamo.",
+        "Numeri di traffico reali dei siti dei clienti che costruiamo e gestiamo — visitatori, pagine viste, durata della visita — più siti dimostrativi costruiti in 48 ore.",
     },
   };
   return {
@@ -83,13 +91,13 @@ type Copy = {
 const copy: Record<Locale, Copy> = {
   en: {
     crumbHome: "Home",
-    crumbHere: "Work samples",
-    h1: "Work samples",
-    sub: "We build complete websites for hospitality and local businesses: menu, bookings, several languages and technical SEO groundwork, in 48 hours. The samples below are demo sites we built for real businesses as examples of our work, not client projects.",
+    crumbHere: "Cases & samples",
+    h1: "Client cases & work samples",
+    sub: "We build complete websites for hospitality and local businesses: menu, bookings, several languages and technical SEO groundwork, in 48 hours. Below: real traffic figures from client sites we manage, plus demo sites we built as honest examples of our work.",
     honestKicker: "Being upfront",
-    honestTitle: "Demos, not client cases. Here's why.",
+    honestTitle: "And below: demos, clearly labelled as demos.",
     honestLead:
-      "We're a new studio, so we don't yet have client projects we can publish. Instead of inventing logos or results, we show the next best thing: real demo websites we built in 48 hours for real hospitality and local businesses. We removed the business names because we never publish anyone's name without permission. When we have client work we can share, you'll see it here.",
+      "The three sites below are demo websites we built in 48 hours for real hospitality and local businesses: samples of our work, not client projects. You won't see business names anywhere on this page because we never publish anyone's name without permission. The figures above come from the analytics of real client websites we manage.",
     samples: [
       {
         img: "/casos/demo-mediterraneo.png",
@@ -144,13 +152,13 @@ const copy: Record<Locale, Copy> = {
   },
   es: {
     crumbHome: "Inicio",
-    crumbHere: "Muestras de trabajo",
-    h1: "Muestras de trabajo",
-    sub: "Construimos webs completas para hostelería y comercio local: carta, reservas, varios idiomas y SEO técnico de base, en 48 horas. Las muestras de abajo son webs de demostración que construimos para negocios reales como ejemplo de nuestro trabajo, no proyectos de clientes.",
+    crumbHere: "Casos y muestras",
+    h1: "Casos y muestras de trabajo",
+    sub: "Construimos webs completas para hostelería y comercio local: carta, reservas, varios idiomas y SEO técnico de base, en 48 horas. Abajo: cifras reales de tráfico de webs de clientes que gestionamos, y webs de demostración como muestra honesta de nuestro trabajo.",
     honestKicker: "Con transparencia",
-    honestTitle: "Demos, no casos de clientes. Te explicamos por qué.",
+    honestTitle: "Y debajo: demos, señaladas claramente como demos.",
     honestLead:
-      "Somos un estudio nuevo, así que todavía no tenemos proyectos de clientes que podamos publicar. En vez de inventar logos o resultados, enseñamos lo siguiente mejor: webs de demostración que construimos en 48 horas para negocios reales de hostelería y comercio local. Retiramos los nombres porque nunca publicamos el nombre de nadie sin su permiso. Cuando tengamos trabajo de clientes que podamos compartir, lo verás aquí.",
+      "Las tres webs de abajo son demos que construimos en 48 horas para negocios reales de hostelería y comercio local: muestras de nuestro trabajo, no proyectos de clientes. No verás nombres de negocios en esta página porque nunca publicamos el nombre de nadie sin su permiso. Las cifras de arriba salen de la analítica de webs reales de clientes que gestionamos.",
     samples: [
       {
         img: "/casos/demo-mediterraneo.png",
@@ -205,13 +213,13 @@ const copy: Record<Locale, Copy> = {
   },
   fr: {
     crumbHome: "Accueil",
-    crumbHere: "Exemples de travail",
-    h1: "Exemples de travail",
-    sub: "Nous construisons des sites web complets pour la restauration et les commerces de proximité : carte, réservations, plusieurs langues et bases de SEO technique, en 48 heures. Les exemples ci-dessous sont des sites de démonstration que nous avons construits pour de vrais commerces comme exemples de notre travail, et non des projets de clients.",
+    crumbHere: "Cas et exemples",
+    h1: "Cas clients et exemples de travail",
+    sub: "Nous construisons des sites web complets pour la restauration et les commerces de proximité : carte, réservations, plusieurs langues et bases de SEO technique, en 48 heures. Ci-dessous : de vrais chiffres de trafic des sites clients que nous gérons, et des sites de démonstration comme exemples honnêtes de notre travail.",
     honestKicker: "En toute transparence",
-    honestTitle: "Des démos, pas des cas clients. Voici pourquoi.",
+    honestTitle: "Et en dessous : des démos, clairement signalées comme telles.",
     honestLead:
-      "Nous sommes un studio récent, nous n'avons donc pas encore de projets clients que nous pouvons publier. Plutôt que d'inventer des logos ou des résultats, nous montrons la meilleure alternative : de vrais sites de démonstration que nous avons construits en 48 heures pour de vrais restaurants et commerces de proximité. Nous avons retiré les noms des établissements car nous ne publions jamais le nom de personne sans autorisation. Lorsque nous aurons des travaux de clients à partager, vous les verrez ici.",
+      "Les trois sites ci-dessous sont des démos construites en 48 heures pour de vrais restaurants et commerces de proximité : des exemples de notre travail, pas des projets clients. Vous ne verrez aucun nom d'établissement sur cette page car nous ne publions jamais le nom de personne sans autorisation. Les chiffres ci-dessus proviennent des statistiques de vrais sites clients que nous gérons.",
     samples: [
       {
         img: "/casos/demo-mediterraneo.png",
@@ -266,13 +274,13 @@ const copy: Record<Locale, Copy> = {
   },
   de: {
     crumbHome: "Startseite",
-    crumbHere: "Arbeitsbeispiele",
-    h1: "Arbeitsbeispiele",
-    sub: "Wir bauen komplette Websites für Gastronomie und lokale Geschäfte: Speisekarte, Reservierungen, mehrere Sprachen und eine technische SEO-Grundlage, in 48 Stunden. Die Beispiele unten sind Demo-Websites, die wir für echte Geschäfte als Beispiele unserer Arbeit gebaut haben, keine Kundenprojekte.",
+    crumbHere: "Projekte & Beispiele",
+    h1: "Kundenprojekte & Arbeitsbeispiele",
+    sub: "Wir bauen komplette Websites für Gastronomie und lokale Geschäfte: Speisekarte, Reservierungen, mehrere Sprachen und eine technische SEO-Grundlage, in 48 Stunden. Unten: echte Besucherzahlen der Kunden-Websites, die wir betreiben, plus Demo-Websites als ehrliche Beispiele unserer Arbeit.",
     honestKicker: "Ehrlich gesagt",
-    honestTitle: "Demos, keine Kundenfälle. Hier ist der Grund.",
+    honestTitle: "Und darunter: Demos, klar als Demos gekennzeichnet.",
     honestLead:
-      "Wir sind ein junges Studio, deshalb haben wir noch keine Kundenprojekte, die wir veröffentlichen können. Statt Logos oder Ergebnisse zu erfinden, zeigen wir das Nächstbeste: echte Demo-Websites, die wir in 48 Stunden für echte Gastronomie- und lokale Geschäfte gebaut haben. Wir haben die Namen der Geschäfte entfernt, weil wir niemals den Namen von jemandem ohne Erlaubnis veröffentlichen. Sobald wir Kundenarbeit haben, die wir teilen können, siehst du sie hier.",
+      "Die drei Websites unten sind Demos, die wir in 48 Stunden für echte Gastronomie- und lokale Geschäfte gebaut haben: Beispiele unserer Arbeit, keine Kundenprojekte. Auf dieser Seite siehst du nirgendwo Geschäftsnamen, weil wir niemals den Namen von jemandem ohne Erlaubnis veröffentlichen. Die Zahlen oben stammen aus der Analyse echter Kunden-Websites, die wir betreiben.",
     samples: [
       {
         img: "/casos/demo-mediterraneo.png",
@@ -327,13 +335,13 @@ const copy: Record<Locale, Copy> = {
   },
   it: {
     crumbHome: "Home",
-    crumbHere: "Esempi di lavoro",
-    h1: "Esempi di lavoro",
-    sub: "Costruiamo siti web completi per la ristorazione e le attività locali: menu, prenotazioni, più lingue e basi di SEO tecnica, in 48 ore. Gli esempi qui sotto sono siti dimostrativi che abbiamo costruito per attività reali come esempi del nostro lavoro, non progetti di clienti.",
+    crumbHere: "Casi ed esempi",
+    h1: "Casi e esempi di lavoro",
+    sub: "Costruiamo siti web completi per la ristorazione e le attività locali: menu, prenotazioni, più lingue e basi di SEO tecnica, in 48 ore. Qui sotto: numeri di traffico reali dei siti dei clienti che gestiamo, più siti dimostrativi come esempi onesti del nostro lavoro.",
     honestKicker: "In tutta trasparenza",
-    honestTitle: "Demo, non casi di clienti. Ecco perché.",
+    honestTitle: "E qui sotto: demo, chiaramente indicate come demo.",
     honestLead:
-      "Siamo uno studio nuovo, quindi non abbiamo ancora progetti di clienti che possiamo pubblicare. Invece di inventare loghi o risultati, mostriamo la cosa migliore che possiamo: veri siti dimostrativi che abbiamo costruito in 48 ore per veri ristoranti e attività locali. Abbiamo rimosso i nomi delle attività perché non pubblichiamo mai il nome di nessuno senza permesso. Quando avremo lavori di clienti da condividere, li vedrai qui.",
+      "I tre siti qui sotto sono demo costruite in 48 ore per veri ristoranti e attività locali: esempi del nostro lavoro, non progetti di clienti. In questa pagina non vedrai nomi di attività perché non pubblichiamo mai il nome di nessuno senza permesso. I numeri qui sopra arrivano dalle statistiche di veri siti di clienti che gestiamo.",
     samples: [
       {
         img: "/casos/demo-mediterraneo.png",
@@ -400,6 +408,11 @@ export default async function CasosPage({
   const t = copy[locale];
   const site = getSite(locale);
 
+  // Real client figures (Supabase overlay when configured, baked snapshot
+  // otherwise — see src/lib/clientStats.ts). Formatting mirrors pricing.ts:
+  // numbers via Intl so amounts never drift between languages.
+  const band = getStatBand(locale, await getClientStats("valenciacamperpark"));
+
   const jsonLd = jsonLdDoc(
     breadcrumbList([
       { name: t.crumbHome, path: `/${locale}` },
@@ -421,6 +434,20 @@ export default async function CasosPage({
           </nav>
           <h1 className="page-h">{t.h1}</h1>
           <p className="page-sub">{t.sub}</p>
+        </div>
+      </section>
+
+      {/* REAL RESULTS BAND — SaaS-style figures from client-site analytics,
+          headerless, counting up from zero on first view (StatBand). */}
+      <section className="sec sec-warm" id="resultados" style={{ scrollMarginTop: "84px" }}>
+        <div className="wrap">
+          <div className="sec-head center" style={{ maxWidth: "none" }}>
+            <h2 className="sec-title">{band.title}</h2>
+          </div>
+          <StatBand items={band.items} numLocale={band.numLocale} />
+          <p className="center" style={{ marginTop: "26px", fontSize: ".8rem", color: "var(--ink-mute)" }}>
+            {band.source}
+          </p>
         </div>
       </section>
 

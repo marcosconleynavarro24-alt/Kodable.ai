@@ -17,10 +17,14 @@ import type { ServiceSlug } from "./services";
 const N = {
   web: { starter: 245, business: 495, premium: 995 },
   // Installment alternative shown on the same card (owner directive
-  // 2026-07-10): "€245 one-off, or €25/mo for 10 months". Monthly × months ≈
-  // one-off + small rounding premium; it ENDS after `months` — not a
-  // subscription. Care plan stays separate.
-  webPlan: { months: 10, starter: 25, business: 50, premium: 100 },
+  // 2026-07-10; starter retuned to €19.99 2026-08-12): "€245 one-off, or
+  // €19.99/mo for 12 months". Monthly × months ≈ one-off; it ENDS after
+  // `months` — not a subscription. Care plan stays separate.
+  webPlan: {
+    starter: { m: 19.99, months: 12 },
+    business: { m: 50, months: 10 },
+    premium: { m: 100, months: 10 },
+  },
   chat: {
     // Halved 2026-07-08 (owner directive; previous values were 2x each).
     essential: { m: 23.75, s: 118.75 },
@@ -532,8 +536,8 @@ export function getCareGroup(locale: Locale): PriceGroup {
 export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
   const p = PACKS[locale];
 
-  const webAlt = (monthly: number) =>
-    p.orMonthly(euro(locale, monthly), N.webPlan.months);
+  const webAlt = (plan: { m: number; months: number }) =>
+    p.orMonthly(euro(locale, plan.m), plan.months);
   const websites: PriceGroup = {
     title: p.groups.websites.name,
     tiers: [
