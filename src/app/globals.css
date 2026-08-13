@@ -177,10 +177,14 @@ section { position: relative; }
 .mobile-menu .btn { margin: 10px 22px 0; }
 
 /* ---------- hero ---------- */
-.hero { padding: clamp(40px, 6vw, 78px) 0 clamp(48px, 6vw, 86px); background:
-    radial-gradient(120% 90% at 88% -10%, var(--accent-soft) 0%, rgba(227,243,237,0) 52%),
+.hero { padding: clamp(56px, 8vw, 104px) 0 clamp(56px, 7vw, 96px); background:
+    radial-gradient(105% 78% at 50% -18%, var(--accent-soft) 0%, rgba(227,243,237,0) 60%),
     var(--paper); }
 .hero-grid { display: grid; gap: clamp(34px, 5vw, 56px); align-items: center; }
+/* Single-column hero (chat mockup removed 2026-08-12): centre the copy and let
+   it use the full measure, otherwise it keeps the half-width column it was
+   sized for and leaves the right side of the section empty. */
+.hero-copy { max-width: 62ch; margin-inline: auto; text-align: center; }
 .place {
   display: inline-flex; align-items: center; gap: 8px;
   background: var(--card); border: 1px solid var(--line); border-radius: 999px;
@@ -189,15 +193,25 @@ section { position: relative; }
 }
 .place .pin { width: 16px; height: 16px; color: var(--accent); }
 h1.hero-h {
-  font-size: clamp(2.1rem, 1.4rem + 3.7vw, 3.7rem);
+  font-size: clamp(2.1rem, 1.3rem + 4.2vw, 4.2rem);
+  line-height: 1.04;
   letter-spacing: -0.045em;
-  margin: 20px 0 0;
-  max-width: 18ch;
+  margin: 0;
+  max-width: 20ch;
+  text-wrap: balance;
 }
+.hero-copy h1.hero-h { margin-inline: auto; }
 h1.hero-h .hi { color: var(--accent-deep); }
 h1.hero-h .hi-red { color: var(--accent-red); }
 .hero-sub { font-size: clamp(1.06rem, 1rem + 0.5vw, 1.28rem); color: var(--ink-mute); margin-top: 20px; max-width: 40ch; }
+.hero-copy .hero-sub { max-width: 52ch; margin-inline: auto; margin-top: clamp(20px, 2.2vw, 28px); text-wrap: pretty; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 30px; }
+.hero-copy .hero-cta { justify-content: center; margin-top: clamp(30px, 3.4vw, 42px); }
+/* Stacked CTAs read as one pair only if they share a width. */
+@media (max-width: 560px) {
+  .hero-copy .hero-cta { flex-direction: column; align-items: center; }
+  .hero-copy .hero-cta .btn { width: min(100%, 320px); justify-content: center; }
+}
 .hero-note { margin-top: 18px; font-size: .9rem; color: var(--ink-mute); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .hero-cap { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: .88rem; font-weight: 600; color: var(--ink-mute); }
 .hero-cap svg { width: 16px; height: 16px; color: var(--accent); flex: none; }

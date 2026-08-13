@@ -35,7 +35,7 @@ export default async function HomePage({
           owner directive 2026-08-12) */}
       <section className="hero">
         <div className="wrap">
-          <div>
+          <div className="hero-copy">
             <h1 className="hero-h">
               {site.hero.headingPre}
               <span className="hi">{site.hero.headingHi}</span>
