@@ -17,11 +17,14 @@ import type { ServiceSlug } from "./services";
 const N = {
   web: { starter: 245, business: 495, premium: 995 },
   // Installment alternative shown on the same card (owner directive
-  // 2026-07-10; starter retuned to €19.99 2026-08-12): "€245 one-off, or
-  // €19.99/mo for 12 months". Monthly × months ≈ one-off; it ENDS after
-  // `months` — not a subscription. Care plan stays separate.
+  // 2026-07-10): pay the build monthly, then it ENDS — not a subscription.
+  // Monthly × months ≈ the one-off. Care plan stays separate.
+  // The starter differs by market (owner directive 2026-08-12): the US offer
+  // running in the trades campaign is $24.99 × 10, the euro markets keep
+  // €19,99 × 12, so `starter` is resolved per locale in getPricing().
   webPlan: {
-    starter: { m: 19.99, months: 12 },
+    starterUs: { m: 24.99, months: 10 },
+    starterEu: { m: 19.99, months: 12 },
     business: { m: 50, months: 10 },
     premium: { m: 100, months: 10 },
   },
@@ -51,6 +54,13 @@ const fmtLocale: Record<Locale, string> = {
   it: "it-IT",
 };
 
+/* The English locale is the US-facing one (the trades campaign points there),
+   so it prices in dollars; every other locale stays in euros. The figures are
+   US list prices, NOT a converted euro amount: the same numeral is charged in
+   the local currency, which is why no exchange rate appears anywhere here.
+   Owner directive 2026-08-12. */
+const CURRENCY: Record<Locale, string> = { en: "$", es: "€", fr: "€", de: "€", it: "€" };
+
 function euro(locale: Locale, n: number, decimals?: number): string {
   // Fractional amounts (e.g. 47.5 after the across-the-board halving) must
   // render as €47.50, never silently round to €48.
@@ -59,7 +69,7 @@ function euro(locale: Locale, n: number, decimals?: number): string {
     minimumFractionDigits: d,
     maximumFractionDigits: d,
   }).format(n);
-  return `€${num}`;
+  return `${CURRENCY[locale]}${num}`;
 }
 
 // ---- display types consumed by the Pricing component ----
@@ -160,7 +170,7 @@ const PACKS: Record<Locale, Pack> = {
       },
       voice: {
         name: "Voice agent: phone",
-        foot: (b, p, pr) => `Extra minutes after your allowance: ${b} / ${p} / ${pr} by tier. A receptionist costs €1,100+/mo. This does much of the job for a fraction, and never sleeps.`,
+        foot: (b, p, pr) => `Extra minutes after your allowance: ${b} / ${p} / ${pr} by tier. A receptionist costs $1,100+/mo. This does much of the job for a fraction, and never sleeps.`,
         tiers: {
           basic: { name: "Reception Basic", features: ["~500 min/mo included", "Answers, books & transfers to you", "Handles your usual questions"] },
           pro: { name: "Reception Pro", features: ["~1,500 min/mo included", "Multilingual, fuller booking", "Higher call volume"] },
@@ -541,7 +551,7 @@ export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
   const websites: PriceGroup = {
     title: p.groups.websites.name,
     tiers: [
-      { name: p.groups.websites.tiers.starter.name, amount: euro(locale, N.web.starter), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.starter), features: p.groups.websites.tiers.starter.features, cta: p.lbl.get },
+      { name: p.groups.websites.tiers.starter.name, amount: euro(locale, N.web.starter), meta: oneoffMeta(p), altPay: webAlt(locale === "en" ? N.webPlan.starterUs : N.webPlan.starterEu), features: p.groups.websites.tiers.starter.features, cta: p.lbl.get },
       { name: p.groups.websites.tiers.business.name, featured: true, badge: p.lbl.popular, amount: euro(locale, N.web.business), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.business), features: p.groups.websites.tiers.business.features, cta: p.lbl.get, ctaPrimary: true },
       { name: p.groups.websites.tiers.premium.name, fromPrefix: p.lbl.from, amount: euro(locale, N.web.premium), meta: oneoffMeta(p), altPay: webAlt(N.webPlan.premium), features: p.groups.websites.tiers.premium.features, cta: p.lbl.get },
     ],
