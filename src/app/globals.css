@@ -157,6 +157,10 @@ section { position: relative; }
 .mobile-lang .mobile-lang-opt:hover { background: var(--accent-soft); }
 .mobile-lang .mobile-lang-opt.on { border-color: var(--accent); color: var(--accent-deep); }
 .menu-btn { display: inline-flex; background: var(--card); border: 1.5px solid var(--line); border-radius: 12px; width: 44px; height: 44px; align-items: center; justify-content: center; cursor: pointer; color: var(--ink); }
+/* Icon.tsx emits no width/height attributes — every other icon is sized by CSS,
+   this one was not, so it fell back to UA intrinsic sizing (29px, bars bleeding
+   into the button border in Chrome; unsized flex SVGs collapse in WebKit). */
+.menu-btn svg { width: 22px; height: 22px; flex: none; }
 .nav .btn-primary.desktop-cta { display: none; }
 
 @media (min-width: 920px) {

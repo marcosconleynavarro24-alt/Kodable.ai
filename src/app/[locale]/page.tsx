@@ -73,6 +73,59 @@ export default async function HomePage({
         </div>
       </section>
 
+      {/* SERVICES — "What we do" first after the results band (owner directive 2026-08-13) */}
+      <section className="sec sec-warm" id="services">
+        <div className="wrap">
+          <SectionHead
+            kicker={site.home.servicesKicker}
+            kickerIcon="list"
+            title={site.home.servicesTitle}
+            lead={site.home.servicesLead}
+          />
+          <div className="svc-grid">
+            {services.map((service) => (
+              <ServiceCard key={service.slug} locale={locale} service={service} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* THE PLAN — second after the results band */}
+      <section className="sec" id="plan">
+        <div className="wrap">
+          <SectionHead
+            kicker={site.plan.kicker}
+            kickerIcon="calendar"
+            title={site.plan.title}
+            lead={site.plan.lead}
+          />
+          <div className="how-wrap">
+            <div>
+              <div className="steps">
+                {site.plan.steps.map((s) => (
+                  <div key={s.n} className="step reveal">
+                    <span className="step-n" aria-hidden="true">
+                      {s.n}
+                    </span>
+                    <div>
+                      <h3>{s.title}</h3>
+                      <p>{s.body}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <div className="mt-cta">
+                <Link href={`/${locale}/contact`} className="btn btn-primary">
+                  {site.plan.cta}
+                  <Icon name="arrow" />
+                </Link>
+              </div>
+            </div>
+            <BookingWidget locale={locale} copy={booking} />
+          </div>
+        </div>
+      </section>
+
       {/* THE PROBLEM */}
       <section className="sec sec-warm" id="problem">
         <div className="wrap">
@@ -119,59 +172,6 @@ export default async function HomePage({
                 <p>{c.body}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* SERVICES */}
-      <section className="sec sec-warm" id="services">
-        <div className="wrap">
-          <SectionHead
-            kicker={site.home.servicesKicker}
-            kickerIcon="list"
-            title={site.home.servicesTitle}
-            lead={site.home.servicesLead}
-          />
-          <div className="svc-grid">
-            {services.map((service) => (
-              <ServiceCard key={service.slug} locale={locale} service={service} />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* THE PLAN */}
-      <section className="sec" id="plan">
-        <div className="wrap">
-          <SectionHead
-            kicker={site.plan.kicker}
-            kickerIcon="calendar"
-            title={site.plan.title}
-            lead={site.plan.lead}
-          />
-          <div className="how-wrap">
-            <div>
-              <div className="steps">
-                {site.plan.steps.map((s) => (
-                  <div key={s.n} className="step reveal">
-                    <span className="step-n" aria-hidden="true">
-                      {s.n}
-                    </span>
-                    <div>
-                      <h3>{s.title}</h3>
-                      <p>{s.body}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-cta">
-                <Link href={`/${locale}/contact`} className="btn btn-primary">
-                  {site.plan.cta}
-                  <Icon name="arrow" />
-                </Link>
-              </div>
-            </div>
-            <BookingWidget locale={locale} copy={booking} />
           </div>
         </div>
       </section>
