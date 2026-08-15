@@ -9,6 +9,7 @@ import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import ConversionTracker from "@/components/ConversionTracker";
+import CookieNotice from "@/components/CookieNotice";
 import { Analytics } from "@vercel/analytics/next";
 import { jsonLdHtml } from "@/lib/jsonld";
 
@@ -189,6 +190,7 @@ export default async function LocaleLayout({
         <ConversionTracker locale={locale} />
         <main id="main">{children}</main>
         <Footer locale={locale} site={site} />
+        <CookieNotice locale={locale} />
         <Analytics />
         <script
           type="application/ld+json"

@@ -1,4 +1,4 @@
-// Operational page: contract + payment. Spanish-only, noindex — the owner
+// Operational page: contract + payment. Spanish-only, noindex, the owner
 // shares this link with a prospect who said yes (add ?fundador=1 for the
 // first-5 founding offer). Payment happens on Stripe Checkout; this page's
 // job is plan choice + contract acceptance.

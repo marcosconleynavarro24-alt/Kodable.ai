@@ -41,12 +41,15 @@ export default function Footer({
         <div className="footer-bottom">
           <span>{footer.copyright}</span>
           <span>
+            <Link href={`/${locale}/legal`}>{footer.legal}</Link>
+            {" · "}
             <Link href={`/${locale}/privacy`}>{footer.privacy}</Link>
+            {" · "}
+            <Link href={`/${locale}/cookies`}>{footer.cookies}</Link>
             {" · "}
             <Link href={`/${locale}/terms`}>{footer.terms}</Link>
           </span>
         </div>
-        <p className="footnote">{footer.footnote}</p>
       </div>
     </footer>
   );

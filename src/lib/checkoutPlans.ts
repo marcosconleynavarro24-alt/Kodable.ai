@@ -1,4 +1,4 @@
-// Checkout amounts in euro CENTS — the server-side source of truth for what
+// Checkout amounts in euro CENTS - the server-side source of truth for what
 // Stripe actually charges. KEEP IN SYNC with the display prices in
 // src/content/pricing.ts (web Starter / Care Basic / Chat Essential) and with
 // leads/proposal/pricing.json in the ops repo. All amounts IVA included.

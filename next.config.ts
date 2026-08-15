@@ -43,7 +43,34 @@ const nextConfig: NextConfig = {
     root: path.resolve(__dirname),
   },
   async headers() {
-    return [{ source: "/:path*", headers: securityHeaders }];
+    return [
+      { source: "/:path*", headers: securityHeaders },
+      // Portfolio snapshots: self-contained HTML mirrors of client sites,
+      // embedded in sandboxed same-origin iframes on /portfolio. They need
+      // frame-ancestors 'self' (the global set denies all framing) and data:
+      // fonts/images since every asset is inlined. Scripts are stripped at
+      // snapshot time, so script-src 'none'.
+      {
+        source: "/portfolio/:file*.html",
+        headers: [
+          {
+            key: "Content-Security-Policy",
+            value: [
+              "default-src 'none'",
+              "img-src 'self' data:",
+              "style-src 'unsafe-inline'",
+              "font-src data:",
+              "frame-ancestors 'self'",
+              "form-action 'none'",
+              "base-uri 'none'",
+            ].join("; "),
+          },
+          { key: "X-Frame-Options", value: "SAMEORIGIN" },
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "Referrer-Policy", value: "no-referrer" },
+        ],
+      },
+    ];
   },
 };
 

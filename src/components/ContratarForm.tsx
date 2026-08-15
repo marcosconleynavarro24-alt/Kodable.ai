@@ -7,7 +7,7 @@ import Icon from "./Icon";
 import { contactInfo } from "@/content/contact-info";
 
 const PRICES = {
-  // display only — the amounts Stripe charges live server-side in lib/checkoutPlans.ts
+  // display only, the amounts Stripe charges live server-side in lib/checkoutPlans.ts
   // (halved across the board 2026-07-08, in lockstep with checkoutPlans.ts)
   web: { setup: 245, foundingSetup: 95, monthly: 19.5 },
   agente: { setup: 118.75, monthly: 23.75 },

@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { PriceGroup } from "@/content/pricing";
 import Icon from "./Icon";
 
-// Pure presentational renderer for pricing groups — shared by the server-side
+// Pure presentational renderer for pricing groups, shared by the server-side
 // Pricing section (service pages), the client-side PricingTabs (/pricing) and
 // the post-checkout care upsell (/contratar/gracias).
 export default function PriceGroupList({

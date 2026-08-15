@@ -6,7 +6,7 @@ import { blogSlugs, getPosts } from "@/content/blog";
 const SITE_URL = "https://kodable.ai";
 
 // Real publish dates for blog posts. Stamping every URL with the build time
-// teaches Google the lastmod is unreliable and it stops trusting it — which
+// teaches Google the lastmod is unreliable and it stops trusting it - which
 // slows recrawls. Posts get their true date; evergreen pages keep build time
 // only because they genuinely change with each content deploy.
 const blogDates = new Map(getPosts("en").map((p) => [p.slug, new Date(p.datePublished)]));
@@ -22,14 +22,16 @@ const routes = [
   "/contact",
   "/faq",
   "/comparativa",
-  "/casos",
+  "/portfolio",
   "/privacy",
   "/terms",
+  "/legal",
+  "/cookies",
 ];
 
 // Legal copy exists only in EN/ES; fr/de/it serve the EN text and canonicalize
 // to /en (see legalHreflangs). Keep those duplicate URLs out of the sitemap.
-const legalRoutes = new Set(["/privacy", "/terms"]);
+const legalRoutes = new Set(["/privacy", "/terms", "/legal", "/cookies"]);
 const legalLocales = new Set(["en", "es"]);
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -64,7 +66,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           ),
           // x-default: the homepage cluster's default is the locale-redirecting
           // bare root; sub-pages fall back to the English page. Must match the
-          // page-level hreflangs() output exactly — conflicting sets between
+          // page-level hreflangs() output exactly - conflicting sets between
           // sitemap and <head> weaken the whole cluster.
           "x-default": route === "" ? `${SITE_URL}/` : `${SITE_URL}/en${route}`,
         },
@@ -74,7 +76,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Bare root (/) auto-redirects to each visitor's best locale. Listing it here
   // gives Google an explicit reason to (re)crawl and consolidate it to the
-  // localized homepages — without it, the redirect-source root lingers in the
+  // localized homepages - without it, the redirect-source root lingers in the
   // index on a stale crawl (old snippet + favicon). x-default → root is the
   // standard hreflang for a locale-selecting homepage.
   return [

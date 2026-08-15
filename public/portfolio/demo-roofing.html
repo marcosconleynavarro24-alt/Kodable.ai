@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Roofing Company · Over Your Head, On Our Watch</title>
+<meta name="description" content="Demo website by Kodable.ai. Residential roof replacement, repair and storm response. This could be your roofing company's website.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Roofing Company · Over Your Head, On Our Watch">
+<meta property="og:description" content="Demo website by Kodable.ai. Roof replacement, repair and storm response. This could be your roofing company's website.">
+<meta property="og:image" content="/portfolio/demo-assets/roofing/og.jpg"><!-- swap to absolute URL on deploy -->
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f8f7f4'/%3E%3Cpath d='M4 18 16 7l12 11' fill='none' stroke='%23c25b3a' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M9 16v10h14V16' fill='none' stroke='%2322384e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<!--
+  DEMO SITE by Kodable.ai - "Your Roofing Company" is a placeholder brand.
+  Techniques: pitched clip-path hero + section seams, parallax photo, line-mask
+  headline, shingle-card stagger, storm band, inspection form CTA.
+  Native scroll only - no pinning, no scroll-jacking.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --snow:#f8f7f4;
+    --cloud:#eceae4;
+    --slate:#22384e;
+    --slate-deep:#182838;
+    --clay:#c25b3a;
+    --clay-deep:#a34526;
+    --mist:#5f6d7c;
+    --hairline:#d9d5cb;
+    --pitch:5.2vw; /* roof-pitch seam height */
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Public Sans',system-ui,sans-serif;
+    background:var(--snow);color:var(--slate-deep);
+    line-height:1.65;overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:'DM Serif Display',Georgia,serif;font-weight:400;letter-spacing:.005em}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 26px}
+
+  /* header */
+  header{
+    position:sticky;top:0;z-index:60;
+    background:rgba(248,247,244,.9);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--hairline);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+  .logo{display:flex;align-items:center;gap:11px;font-weight:700;font-size:1.02rem;letter-spacing:.02em}
+  .logo svg{width:34px;height:34px}
+  .logo span b{color:var(--clay)}
+  nav.links{display:flex;gap:28px;font-size:.88rem;font-weight:600}
+  nav.links a{color:var(--mist)}
+  nav.links a:hover{color:var(--clay-deep)}
+  .btn{
+    display:inline-block;padding:13px 26px;border-radius:999px;
+    background:var(--clay);color:var(--snow);font-weight:700;font-size:.92rem;
+    transition:background .15s ease, transform .12s ease;
+  }
+  .btn:hover{background:var(--clay-deep);transform:translateY(-1px)}
+  .btn.dark{background:var(--slate)}
+  .btn.dark:hover{background:var(--slate-deep)}
+  .btn.ghost{background:transparent;color:var(--slate);box-shadow:inset 0 0 0 2px var(--slate)}
+  .btn.ghost:hover{color:var(--clay-deep);box-shadow:inset 0 0 0 2px var(--clay)}
+
+  /* hero - photo clipped by a roof pitch */
+  .hero{position:relative}
+  .hero-media{
+    position:relative;height:78vh;min-height:480px;overflow:hidden;
+    clip-path:polygon(0 0, 100% 0, 100% calc(100% - var(--pitch)), 50% 100%, 0 calc(100% - var(--pitch)));
+  }
+  .hero-media img{width:100%;height:112%;object-fit:cover}
+  .hero-media::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to bottom, rgba(24,40,56,.42), rgba(24,40,56,.05) 55%);
+  }
+  .hero-copy{
+    position:absolute;inset:0;z-index:2;display:flex;align-items:flex-start;
+    padding-top:11vh;
+  }
+  .hero-copy .card{
+    max-width:560px;color:var(--snow);
+  }
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;background:rgba(24,40,56,.72);
+    border:1px solid rgba(248,247,244,.35);border-radius:999px;
+    padding:7px 16px;font-size:.78rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+    margin-bottom:20px;
+  }
+  .hero h1{font-size:clamp(2.5rem,5.6vw,4.3rem);line-height:1.05;text-shadow:0 2px 24px rgba(24,40,56,.45)}
+  .hero h1 .ln{display:block;overflow:hidden}
+  .hero h1 .ln span{display:inline-block;transform:translateY(108%)}
+  .hero h1 em{font-style:italic;color:#f4b79e}
+  .hero p{margin:20px 0 30px;font-size:1.08rem;max-width:30rem;text-shadow:0 1px 12px rgba(24,40,56,.5)}
+  .btn-row{display:flex;gap:14px;flex-wrap:wrap}
+
+  /* trust chips floating over the pitch seam */
+  .chips{position:relative;z-index:5;margin-top:calc(var(--pitch) * -1.2)}
+  .chips-inner{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+  }
+  .chip{
+    background:#fff;border:1px solid var(--hairline);border-radius:14px;
+    padding:22px 24px;display:flex;gap:14px;align-items:flex-start;
+    box-shadow:0 18px 40px rgba(24,40,56,.09);
+    opacity:0;transform:translateY(30px);
+  }
+  .chip svg{width:30px;height:30px;flex:0 0 auto;stroke:var(--clay);fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+  .chip b{display:block;font-size:.98rem}
+  .chip small{color:var(--mist);font-size:.85rem;line-height:1.45;display:block;margin-top:2px}
+
+  /* sections */
+  section{padding:96px 0}
+  .sec-head{max-width:46rem;margin:0 auto 56px;text-align:center}
+  .sec-head .tag{color:var(--clay-deep);font-weight:700;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase}
+  .sec-head h2{font-size:clamp(1.9rem,3.4vw,2.7rem);margin-top:10px}
+  .sec-head p{color:var(--mist);margin-top:12px}
+  .reveal{opacity:0;transform:translateY(40px)}
+
+  /* services - shingle overlap cards */
+  .roof-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:24px}
+  .shingle{
+    background:#fff;border:1px solid var(--hairline);border-radius:16px;padding:30px 28px;
+    position:relative;opacity:0;transform:translateY(38px);
+    transition:box-shadow .2s ease, transform .2s ease;
+  }
+  .shingle:hover{box-shadow:0 22px 44px rgba(24,40,56,.12);transform:translateY(-4px) !important}
+  .shingle .roofline{
+    width:44px;height:26px;margin-bottom:18px;
+    background:var(--slate);
+    clip-path:polygon(0 100%, 50% 0, 100% 100%, 78% 100%, 50% 42%, 22% 100%);
+  }
+  .shingle h3{font-size:1.28rem}
+  .shingle p{color:var(--mist);font-size:.94rem;margin-top:10px}
+  .shingle .go{display:inline-block;margin-top:16px;color:var(--clay-deep);font-weight:700;font-size:.9rem}
+
+  /* storm band - dark, pitched top seam */
+  .storm{
+    background:var(--slate-deep);color:var(--snow);
+    padding:calc(96px + var(--pitch)) 0 96px;
+    clip-path:polygon(0 var(--pitch), 50% 0, 100% var(--pitch), 100% 100%, 0 100%);
+    margin-top:20px;
+  }
+  .storm-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+  .storm h2{font-size:clamp(1.9rem,3.4vw,2.7rem)}
+  .storm h2 em{font-style:italic;color:#f4b79e}
+  .storm p{color:#b9c4cf;margin-top:14px}
+  .storm-list{margin-top:26px;display:grid;gap:14px}
+  .storm-list li{
+    list-style:none;display:flex;gap:12px;align-items:flex-start;font-size:.97rem;
+  }
+  .storm-list svg{width:22px;height:22px;flex:0 0 auto;stroke:#f4b79e;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;margin-top:2px}
+  .hotline{
+    background:rgba(248,247,244,.06);border:1px solid rgba(248,247,244,.18);
+    border-radius:20px;padding:38px;text-align:center;
+  }
+  .hotline .lbl{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:#b9c4cf}
+  .hotline .num{font-family:'DM Serif Display',serif;font-size:clamp(1.9rem,3.4vw,2.6rem);margin:10px 0 6px}
+  .hotline small{color:#b9c4cf;display:block;margin-bottom:22px}
+
+  /* inspection form */
+  .inspect{background:var(--cloud)}
+  .form-card{
+    max-width:720px;margin:0 auto;background:#fff;border:1px solid var(--hairline);
+    border-radius:22px;padding:44px;box-shadow:0 24px 60px rgba(24,40,56,.08);
+  }
+  .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .form-grid .full{grid-column:1/-1}
+  .form-card label{font-size:.82rem;font-weight:700;display:block;margin-bottom:6px}
+  .form-card input,.form-card select{
+    width:100%;padding:13px 15px;border-radius:10px;border:1.5px solid var(--hairline);
+    font-family:inherit;font-size:.95rem;background:var(--snow);color:inherit;
+  }
+  .form-card input:focus,.form-card select:focus{outline:2px solid var(--clay);outline-offset:1px}
+  .form-card button{
+    margin-top:20px;width:100%;padding:15px;border:none;border-radius:999px;cursor:pointer;
+    background:var(--clay);color:#fff;font-family:inherit;font-weight:700;font-size:1rem;
+  }
+  .form-card button:hover{background:var(--clay-deep)}
+
+  /* footer */
+  footer{background:var(--slate-deep);color:#b9c4cf;padding:60px 0 34px;font-size:.92rem}
+  .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px;margin-bottom:40px}
+  footer h4{color:var(--snow);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px;font-family:'Public Sans';font-weight:700}
+  footer li{list-style:none;margin-bottom:9px}
+  footer a:hover{color:#f4b79e}
+  .foot-note{border-top:1px solid rgba(248,247,244,.15);padding-top:24px;font-size:.8rem;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .foot-note b{color:#f4b79e}
+
+  @media(max-width:900px){
+    nav.links{display:none}
+    .chips-inner{grid-template-columns:1fr}
+    .chips{margin-top:18px}
+    .storm-inner{grid-template-columns:1fr}
+    .form-grid{grid-template-columns:1fr}
+    .hero-media{height:88vh}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+    .reveal,.chip,.shingle{opacity:1 !important;transform:none !important}
+    .hero h1 .ln span{transform:none !important}
+  }
+</style>
+<style>
+  .reveal,.card,.why-item,.rev,.proj,.step,.chip,.shingle,.leafcard,.plan,
+  .hero-copy h1 .w span,.hero h1 .row span,.hero h1 .ln span,.hero-badge-wrap,.arch
+  {opacity:1 !important;transform:none !important}
+  .birth,.process,.quote{clip-path:none !important}
+  .story-word,.creed .w{color:inherit !important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M3 19 17 6l14 13" fill="none" stroke="#c25b3a" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 17v11h18V17" fill="none" stroke="#22384e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Your <b>Roofing</b> Company</span>
+    </a>
+    <nav class="links">
+      <a href="#services">Services</a>
+      <a href="#storm">Storm Response</a>
+      <a href="#inspect">Free Inspection</a>
+    </nav>
+    <a href="#inspect" class="btn">Book Inspection</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-media" aria-hidden="true"><img src="/portfolio/demo-assets/roofing/hero.jpg" alt=""></div>
+  <div class="hero-copy">
+    <div class="wrap"><div class="card">
+      <span class="eyebrow">Licensed · Bonded · Insured</span>
+      <h1 aria-label="The last roof your house will ever argue with.">
+        <span class="ln"><span>The Last Roof</span></span>
+        <span class="ln"><span>Your House Will</span></span>
+        <span class="ln"><span>Ever <em>Argue With.</em></span></span>
+      </h1>
+      <p>Replacement, repair and storm response from crews who treat your home like the biggest thing you own. Because it is.</p>
+      <div class="btn-row">
+        <a href="#inspect" class="btn">Get A Free Inspection</a>
+        <a href="#services" class="btn dark">Our Services</a>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<div class="chips">
+  <div class="wrap chips-inner">
+    <div class="chip">
+      <svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6Z"/><path d="M9 12l2 2 4-4.5"/></svg>
+      <div><b>50-Year Shingle Warranty</b><small>Manufacturer-backed, transferable if you sell the house.</small></div>
+    </div>
+    <div class="chip">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+      <div><b>Most Roofs Done In A Day</b><small>Tear-off at sunrise, magnet-swept yard by dinner.</small></div>
+    </div>
+    <div class="chip">
+      <svg viewBox="0 0 24 24"><path d="M4 17l4-8 4 5 3.5-6L20 17Z"/><path d="M3 20h18"/></svg>
+      <div><b>Photo-Documented Work</b><small>Drone photos before, during and after. You see everything.</small></div>
+    </div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">What We Do</span>
+      <h2>Four ways we keep the weather outside.</h2>
+      <p>Every job starts with an honest inspection. If a $400 repair fixes it, we won't sell you a $14,000 roof.</p>
+    </div>
+    <div class="roof-grid">
+      <article class="shingle">
+        <div class="roofline" aria-hidden="true"></div>
+        <h3>Roof Replacement</h3>
+        <p>Full tear-off and re-deck with architectural shingles, synthetic underlayment and proper ridge venting.</p>
+        <span class="go">What's included →</span>
+      </article>
+      <article class="shingle">
+        <div class="roofline" aria-hidden="true"></div>
+        <h3>Repair &amp; Leak Hunting</h3>
+        <p>Flashing, valleys, pipe boots and the leak that only shows up when the wind blows from the east.</p>
+        <span class="go">Common fixes →</span>
+      </article>
+      <article class="shingle">
+        <div class="roofline" aria-hidden="true"></div>
+        <h3>Gutters &amp; Guards</h3>
+        <p>Seamless gutters sized to your roof plan, with guards that end the ladder-every-October ritual.</p>
+        <span class="go">See options →</span>
+      </article>
+      <article class="shingle">
+        <div class="roofline" aria-hidden="true"></div>
+        <h3>Insurance Claims</h3>
+        <p>Hail and wind documentation your adjuster actually accepts. We meet them on the roof, not the porch.</p>
+        <span class="go">How it works →</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="storm" id="storm">
+  <div class="wrap storm-inner">
+    <div class="reveal">
+      <h2>Storm Came Through? <em>We're Already Rolling.</em></h2>
+      <p>After hail or high wind, the first trucks in your neighborhood are usually the ones you should trust least. We're local, we're licensed, and we'll still be here next spring.</p>
+      <ul class="storm-list">
+        <li><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6Z"/></svg>Emergency tarping within 24 hours</li>
+        <li><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4.5"/><circle cx="12" cy="12" r="9"/></svg>Free hail-damage documentation with photos</li>
+        <li><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg>We handle the adjuster meeting for you</li>
+      </ul>
+    </div>
+    <div class="hotline reveal">
+      <span class="lbl">24/7 Storm Line</span>
+      <div class="num">(555) 000-ROOF</div>
+      <small>Real person, not a call center.</small>
+      <a href="#inspect" class="btn">Request Emergency Tarp</a>
+    </div>
+  </div>
+</section>
+
+<section class="inspect" id="inspect">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="tag">No Cost, No Pressure</span>
+      <h2>Book your free roof inspection.</h2>
+      <p>Twenty minutes on your roof, ten minutes at your kitchen table, and a written report you keep either way.</p>
+    </div>
+    <form class="form-card reveal">
+      <div class="form-grid">
+        <div><label for="fn">Name</label><input id="fn" type="text" placeholder="Jane Homeowner" required></div>
+        <div><label for="ph">Phone</label><input id="ph" type="tel" placeholder="(555) 000-0000" required></div>
+        <div class="full"><label for="ad">Property address</label><input id="ad" type="text" placeholder="123 Maple St" required></div>
+        <div class="full"><label for="why">What's going on up there?</label>
+          <select id="why">
+            <option>Just want a health check</option>
+            <option>Leak or water stain</option>
+            <option>Storm / hail damage</option>
+            <option>Roof is 15+ years old</option>
+          </select>
+        </div>
+      </div>
+      <button type="submit">Schedule My Free Inspection</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:12px;color:#f8f7f4">
+          <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M3 19 17 6l14 13" fill="none" stroke="#f4b79e" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 17v11h18V17" fill="none" stroke="#f8f7f4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span>Your <b>Roofing</b> Company</span>
+        </div>
+        <p>Placeholder brand. This is a demo website: your company name, photos and service area go here.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul><li><a href="#services">Replacement</a></li><li><a href="#services">Repair</a></li><li><a href="#services">Gutters</a></li><li><a href="#storm">Storm Response</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul><li>(555) 000-ROOF</li><li>hello@yourroofingco.com</li><li>Serving your metro area</li></ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      <span>© 2026 Your Roofing Company.</span>
+      <span>Demo website by <b>Kodable.ai</b>: this could be yours in 48 hours.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

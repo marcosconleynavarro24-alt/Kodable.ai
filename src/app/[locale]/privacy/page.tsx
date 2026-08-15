@@ -38,13 +38,16 @@ export default async function PrivacyPage({
       crumbHome: "Home",
       crumbHere: "Privacy",
       h1: "Privacy",
-      updated: "Last updated: June 2026",
+      updated: "Last updated: August 2026",
       intro:
         "We keep this simple. This site belongs to a small studio. The only way you share personal data with us here is by choosing to contact us, through the contact form, by email, by phone or on WhatsApp. This page explains what we collect, why, and what you can ask us to do with it.",
       whoTitle: "Who is responsible for your data",
       whoBody: (
         <>
-          Kodable, a small studio. For anything about your data, write to{" "}
+          Kodable, a small studio established in Spain. Full legal
+          identification is on the{" "}
+          <Link href={`/${locale}/legal`}>legal notice</Link>. For anything
+          about your data, write to{" "}
           <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>. We are
           the ones who read it. There is no big team behind the scenes.
         </>
@@ -84,14 +87,32 @@ export default async function PrivacyPage({
       thirdIntro:
         "To run this site and reply to you, we use a small number of trusted providers who process data on our behalf:",
       thirdItems: [
-        "A web hosting provider that serves this site and passes your contact-form message to us.",
+        "A web hosting provider (Vercel) that serves this site and passes your contact-form message to us.",
         "An email provider, where we receive and store your message and reply to you.",
+        "A database provider (Supabase) that stores consultation-booking slots, so we don't double-book you.",
+        "A CRM (HubSpot), where we keep the contact details of people and businesses we're talking to, so follow-ups don't fall through the cracks.",
       ],
       thirdNote:
-        "These providers only process your data to provide their service to us, under their own data-protection terms. Some may store data outside the EU; where that happens, it's covered by standard safeguards. We'll tell you the specific providers on request.",
-      cookiesTitle: "Cookies",
-      cookiesBody:
-        "This site does not use tracking or advertising cookies, and we don't run analytics that profile you. If that ever changes (for example if we add a booking tool or basic analytics), we'll update this page and ask for your consent first where the law requires it.",
+        "These providers only process your data to provide their service to us, under their own data-protection terms. Some are based in the United States; those transfers are covered by the EU standard contractual clauses or the EU-US Data Privacy Framework. We'll give you the full current list on request.",
+      cookiesTitle: "Cookies and analytics",
+      cookiesBody: (
+        <>
+          This site sets no cookies. The banner you see is informational: with
+          nothing to consent to, it only stores one anonymous flag so it
+          doesn&apos;t reappear once you close it. We measure visits only in
+          aggregate, with cookieless tools that can&apos;t recognise you across
+          visits. The details are on the{" "}
+          <Link href={`/${locale}/cookies`}>cookies page</Link>.
+        </>
+      ),
+      outreachTitle: "If we contacted you first (business outreach)",
+      outreachBody:
+        "Besides replying to people who write to us, we sometimes reach out to businesses we think we can help. For that we collect business contact details from public sources, such as a business's own website or public listings like Google Maps: trade name, category, address, publicly listed phone and email, and sometimes the owner's name where the business publishes it. We use this only to show the business what we could build for it (often a personalised demo page) and to follow up; we keep it organised in our CRM. When we send a demo link, we can see that the page was opened (time, approximate city and device type), so we know whether to follow up or leave you alone.",
+      outreachRights:
+        "If you're on the receiving end and want none of this: one email or reply is enough. We'll delete your details from our pipeline and not contact you again.",
+      usTitle: "Visitors and clients in the United States",
+      usBody:
+        "We also work with businesses in the US. Everything above applies to you too: we treat the GDPR standard as our floor for everyone, wherever you are. In US terms: we do not sell or share your personal information (as those words are defined in state privacy laws like the California CPRA), we don't use it for targeted advertising, and we honour access, correction and deletion requests from anyone, in any state, without needing to check whether a local law obliges us to. Our commercial emails always identify us and include a working way to opt out (CAN-SPAM); one reply is enough to never hear from us again.",
       rightsTitle: "Your rights",
       rightsIntro:
         "Under the GDPR you can ask us, at any time, to:",
@@ -112,20 +133,23 @@ export default async function PrivacyPage({
       ),
       noteTitle: "A note in plain language",
       noteBody:
-        "This is a plain-language privacy notice for a small studio with a contact form and a care relationship, nothing more complicated than that. It's a template we should have reviewed by a professional and tailored before launch. If you're reading this on a live site, that review should already be done.",
+        "This is a plain-language privacy notice for a small studio. We wrote it to be read, not to hide behind. If anything here is unclear, or you want the formal version of any point (legal bases, retention tables, provider list), email us and we'll send it.",
       back: "Back home",
     },
     es: {
       crumbHome: "Inicio",
       crumbHere: "Privacidad",
       h1: "Privacidad",
-      updated: "Última actualización: junio de 2026",
+      updated: "Última actualización: agosto de 2026",
       intro:
         "Lo mantenemos sencillo. Esta web es de un pequeño estudio. La única forma de compartir datos personales con nosotros aquí es decidiendo escribirnos: con el formulario de contacto, por correo, por teléfono o por WhatsApp. Esta página explica qué recogemos, por qué, y qué puedes pedirnos que hagamos con ello.",
       whoTitle: "Quién es responsable de tus datos",
       whoBody: (
         <>
-          Kodable, un pequeño estudio. Para cualquier cosa sobre tus datos, escribe a{" "}
+          Kodable, un pequeño estudio establecido en España. La identificación
+          legal completa está en el{" "}
+          <Link href={`/${locale}/legal`}>aviso legal</Link>. Para cualquier
+          cosa sobre tus datos, escribe a{" "}
           <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>. Somos
           quienes lo leemos. No hay un gran equipo detrás.
         </>
@@ -165,14 +189,32 @@ export default async function PrivacyPage({
       thirdIntro:
         "Para mantener esta web y responderte, usamos unos pocos proveedores de confianza que tratan datos por encargo nuestro:",
       thirdItems: [
-        "Un proveedor de hosting que sirve esta web y nos hace llegar tu mensaje del formulario.",
+        "Un proveedor de hosting (Vercel) que sirve esta web y nos hace llegar tu mensaje del formulario.",
         "Un proveedor de correo, donde recibimos y guardamos tu mensaje y te respondemos.",
+        "Un proveedor de base de datos (Supabase) que guarda las franjas reservadas de consulta, para no darte una cita duplicada.",
+        "Un CRM (HubSpot), donde guardamos los datos de contacto de las personas y negocios con los que hablamos, para que ningún seguimiento se nos pase.",
       ],
       thirdNote:
-        "Estos proveedores solo tratan tus datos para darnos su servicio, bajo sus propias condiciones de protección de datos. Algunos pueden guardar datos fuera de la UE; cuando ocurre, está cubierto por garantías estándar. Te decimos los proveedores concretos si nos lo pides.",
-      cookiesTitle: "Cookies",
-      cookiesBody:
-        "Esta web no usa cookies de seguimiento ni de publicidad, y no tenemos analíticas que te perfilen. Si eso cambia algún día (por ejemplo si añadimos una herramienta de reservas o analítica básica), actualizaremos esta página y te pediremos el consentimiento antes, cuando la ley lo exija.",
+        "Estos proveedores solo tratan tus datos para darnos su servicio, bajo sus propias condiciones de protección de datos. Algunos tienen sede en Estados Unidos; esas transferencias están cubiertas por las cláusulas contractuales tipo de la UE o por el Marco de Privacidad de Datos UE-EE. UU. Te damos la lista completa y actualizada si nos la pides.",
+      cookiesTitle: "Cookies y analítica",
+      cookiesBody: (
+        <>
+          Esta web no instala cookies. El aviso que ves es informativo: como no
+          hay nada que consentir, solo guarda una marca anónima para no
+          reaparecer cuando lo cierras. Medimos las visitas solo de forma
+          agregada, con herramientas sin cookies que no pueden reconocerte entre
+          visitas. Los detalles están en la{" "}
+          <Link href={`/${locale}/cookies`}>página de cookies</Link>.
+        </>
+      ),
+      outreachTitle: "Si te contactamos nosotros primero (prospección)",
+      outreachBody:
+        "Además de responder a quien nos escribe, a veces contactamos con negocios a los que creemos que podemos ayudar. Para eso recogemos datos de contacto de fuentes públicas, como la propia web del negocio o los listados públicos tipo Google Maps: nombre comercial, categoría, dirección, teléfono y correo publicados y, a veces, el nombre del titular si el negocio lo publica. Lo usamos solo para enseñarle al negocio lo que podríamos construirle (a menudo una demo personalizada) y hacer seguimiento; lo organizamos en nuestro CRM. Cuando enviamos un enlace de demo, podemos ver que la página se abrió (hora, ciudad aproximada y tipo de dispositivo), para saber si seguir o dejarte en paz.",
+      outreachRights:
+        "Si estás al otro lado y no quieres nada de esto: basta un correo o una respuesta. Borramos tus datos de nuestro pipeline y no volvemos a contactarte.",
+      usTitle: "Visitantes y clientes en Estados Unidos",
+      usBody:
+        "También trabajamos con negocios en EE. UU. Todo lo anterior te aplica igualmente: tratamos el estándar del RGPD como nuestro mínimo para todo el mundo, estés donde estés. En términos estadounidenses: no vendemos ni compartimos tu información personal (según definen esas palabras leyes estatales como la CPRA de California), no la usamos para publicidad dirigida, y atendemos solicitudes de acceso, corrección y supresión de cualquier persona, en cualquier estado, sin mirar antes si una ley local nos obliga. Nuestros correos comerciales siempre nos identifican e incluyen una forma real de darse de baja (CAN-SPAM); una respuesta basta para no volver a saber de nosotros.",
       rightsTitle: "Tus derechos",
       rightsIntro: "Según el RGPD, puedes pedirnos en cualquier momento:",
       rightsItems: [
@@ -192,7 +234,7 @@ export default async function PrivacyPage({
       ),
       noteTitle: "Una nota en lenguaje claro",
       noteBody:
-        "Este es un aviso de privacidad en lenguaje sencillo para un estudio pequeño con un formulario de contacto y una relación de cuidado, nada más complicado que eso. Es una plantilla que debería revisar y adaptar un profesional antes del lanzamiento. Si lees esto en una web ya publicada, esa revisión ya debería estar hecha.",
+        "Este es un aviso de privacidad en lenguaje claro para un estudio pequeño. Lo escribimos para que se lea, no para escondernos detrás. Si algo no queda claro, o quieres la versión formal de cualquier punto (bases jurídicas, tablas de conservación, lista de proveedores), escríbenos y te la enviamos.",
       back: "Volver al inicio",
     },
     // Legal copy is maintained in EN/ES only; other locales fall back to EN.
@@ -254,6 +296,13 @@ export default async function PrivacyPage({
 
             <h2>{copy.cookiesTitle}</h2>
             <p>{copy.cookiesBody}</p>
+
+            <h2>{copy.outreachTitle}</h2>
+            <p>{copy.outreachBody}</p>
+            <p>{copy.outreachRights}</p>
+
+            <h2>{copy.usTitle}</h2>
+            <p>{copy.usBody}</p>
 
             <h2>{copy.rightsTitle}</h2>
             <p>{copy.rightsIntro}</p>

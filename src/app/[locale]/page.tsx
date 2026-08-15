@@ -31,7 +31,7 @@ export default async function HomePage({
 
   return (
     <>
-      {/* HERO — problem-led headline, single CTA (chat mockup removed,
+      {/* HERO, problem-led headline, single CTA (chat mockup removed,
           owner directive 2026-08-12) */}
       <section className="hero">
         <div className="wrap">
@@ -59,7 +59,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* REAL RESULTS BAND — count-up figures from client-site analytics
+      {/* REAL RESULTS BAND, count-up figures from client-site analytics
           (anonymous, shared with /casos via getStatBand) */}
       <section className="sec" id="resultados">
         <div className="wrap">
@@ -73,7 +73,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* SERVICES — "What we do" first after the results band (owner directive 2026-08-13) */}
+      {/* SERVICES, "What we do" first after the results band (owner directive 2026-08-13) */}
       <section className="sec sec-warm" id="services">
         <div className="wrap">
           <SectionHead
@@ -90,7 +90,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* THE PLAN — second after the results band */}
+      {/* THE PLAN, second after the results band */}
       <section className="sec" id="plan">
         <div className="wrap">
           <SectionHead

@@ -1,4 +1,4 @@
-// /api/booking — the booking widget backend.
+// /api/booking - the booking widget backend.
 //   GET  → availability (upcoming business days + slot states) for the picker
 //   POST → validate → anti-spam → persist → email owner + client (with .ics)
 import {
@@ -80,7 +80,7 @@ export async function POST(request: Request) {
     return Response.json({ ok: false, errors: { slot: m.slot } }, { status: 500 });
   }
 
-  // The slot is secured — delivery and analytics are best-effort and must never
+  // The slot is secured - delivery and analytics are best-effort and must never
   // fail the booking now that it is stored.
   try {
     await deliverBooking(result.booking);

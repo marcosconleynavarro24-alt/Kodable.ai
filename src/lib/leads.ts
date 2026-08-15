@@ -1,6 +1,6 @@
 // Lead handling for the contact form. Self-contained and dependency-free:
 // validates input, blocks spam (honeypot + time-trap + rate limit), persists to
-// data/leads.ndjson, and delivers two emails — a notification to the owner and a
+// data/leads.ndjson, and delivers two emails - a notification to the owner and a
 // friendly auto-reply to the customer. With no RESEND_API_KEY set it writes the
 // rendered emails to data/outbox/ so you can preview them; set the key to send.
 import "server-only";
@@ -26,7 +26,7 @@ export interface LeadInput {
   services?: unknown;
   locale?: unknown;
   t0?: unknown; // form-render timestamp (ms), for the time-trap
-  companyUrl?: unknown; // honeypot — must stay empty
+  companyUrl?: unknown; // honeypot - must stay empty
 }
 
 export interface Lead {
@@ -252,12 +252,12 @@ interface RenderedEmail {
 }
 
 function ownerEmail(lead: Lead, to: string): RenderedEmail {
-  const interests = lead.services.map((s) => SERVICE_LABELS.en[s]).join(", ") || "—";
+  const interests = lead.services.map((s) => SERVICE_LABELS.en[s]).join(", ") || "-";
   const lines = [
     `Name: ${lead.name}`,
-    `Business: ${lead.business || "—"}`,
-    `Email: ${lead.email || "—"}`,
-    `Phone: ${lead.phone || "—"}`,
+    `Business: ${lead.business || "-"}`,
+    `Email: ${lead.email || "-"}`,
+    `Phone: ${lead.phone || "-"}`,
     `Interested in: ${interests}`,
     `Language: ${lead.locale.toUpperCase()}`,
     `Received: ${lead.receivedAt}`,
@@ -272,9 +272,9 @@ function ownerEmail(lead: Lead, to: string): RenderedEmail {
     <p style="color:#4b5c56;margin:0 0 18px">via kodable.ai contact form</p>
     <table style="border-collapse:collapse;font-size:15px">
       ${row("Name", lead.name)}
-      ${row("Business", lead.business || "—")}
-      ${row("Email", lead.email || "—")}
-      ${row("Phone", lead.phone || "—")}
+      ${row("Business", lead.business || "-")}
+      ${row("Email", lead.email || "-")}
+      ${row("Phone", lead.phone || "-")}
       ${row("Interested in", interests)}
       ${row("Language", lead.locale.toUpperCase())}
     </table>

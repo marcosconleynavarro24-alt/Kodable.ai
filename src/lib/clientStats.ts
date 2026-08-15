@@ -2,7 +2,7 @@
 // (src/lib/bookings.ts): with SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY set,
 // figures come from the `kodable_client_stats` row for the slug (cached via
 // ISR for an hour), so refreshed analytics show up WITHOUT a redeploy. Without
-// the env vars — or on any fetch/shape problem — the baked snapshot renders,
+// the env vars - or on any fetch/shape problem - the baked snapshot renders,
 // so the page can never show an empty or broken stats block.
 import "server-only";
 import { type ClientStats, VCP_STATS } from "@/content/clientStats";

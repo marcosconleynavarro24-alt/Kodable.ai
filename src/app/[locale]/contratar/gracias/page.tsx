@@ -1,5 +1,5 @@
 // Post-payment landing: confirm + route straight into onboarding so the
-// 7-day clock can start immediately. Kept static and dumb on purpose — the
+// 7-day clock can start immediately. Kept static and dumb on purpose, the
 // payment record lives in Stripe; no session lookup needed to say thanks.
 // Also the only place care plans are pitched (removed from public service
 // pages 2026-07-10): checkout already bundles Care Básico, so this is the
@@ -43,7 +43,7 @@ export default async function GraciasPage({
         </Link>
       </div>
 
-      {/* Care plan upsell — Care Básico ya viene incluido en tu cuota. */}
+      {/* Care plan upsell, Care Básico ya viene incluido en tu cuota. */}
       <div style={{ marginTop: 72 }}>
         <div style={{ maxWidth: 640, margin: "0 auto 28px", textAlign: "center" }}>
           <h2 style={{ marginBottom: 10 }}>Protege tu inversión</h2>

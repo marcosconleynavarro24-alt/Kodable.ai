@@ -1,4 +1,4 @@
-// POST /api/lead — the contact form backend.
+// POST /api/lead - the contact form backend.
 // Validates, rate-limits, persists, and best-effort notifies. Returns plain JSON
 // the client form renders into a friendly success / error state.
 import {

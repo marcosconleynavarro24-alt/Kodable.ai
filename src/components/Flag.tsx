@@ -1,7 +1,7 @@
 import type { Locale } from "@/i18n/config";
 
 // Inline SVG flags, matching the language switcher used across the demo sites
-// (viewBox 0 0 60 40, wrapped in a rounded .flag chip — no emoji).
+// (viewBox 0 0 60 40, wrapped in a rounded .flag chip, no emoji).
 const flags: Record<Locale, React.ReactNode> = {
   en: (
     <svg viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">

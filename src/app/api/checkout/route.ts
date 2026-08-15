@@ -1,10 +1,10 @@
-// POST /api/checkout — creates a Stripe Checkout Session (subscription mode:
+// POST /api/checkout - creates a Stripe Checkout Session (subscription mode:
 // monthly quota as recurring line items + setup as a one-time line item on the
 // first invoice). Card + SEPA Direct Debit, Spanish checkout.
 //
 // Stripe is called over its REST API with fetch (no SDK dep, same pattern as
 // every other external call in this codebase). Without STRIPE_SECRET_KEY the
-// route answers 503 and the page shows a "not yet enabled" message — see
+// route answers 503 and the page shows a "not yet enabled" message - see
 // cloud-ops/STRIPE_SETUP_RUNBOOK.md in the ops repo.
 import { rateLimited } from "@/lib/leads";
 import { PLANS, planLines, CONTRACT_VERSION } from "@/lib/checkoutPlans";
@@ -34,13 +34,13 @@ export async function POST(request: Request) {
   const key = process.env.STRIPE_SECRET_KEY;
   if (!key) {
     return Response.json(
-      { ok: false, error: "Los pagos online aún no están activados — escríbenos por WhatsApp y lo hacemos en persona." },
+      { ok: false, error: "Los pagos online aún no están activados - escríbenos por WhatsApp y lo hacemos en persona." },
       { status: 503 },
     );
   }
   if (rateLimited(clientIp(request))) {
     return Response.json(
-      { ok: false, error: "Demasiados intentos — prueba en unos minutos." },
+      { ok: false, error: "Demasiados intentos - prueba en unos minutos." },
       { status: 429 },
     );
   }
@@ -83,14 +83,14 @@ export async function POST(request: Request) {
   for (const line of planLines(plan, founding)) {
     // recurring quota
     p.set(`line_items[${i}][price_data][currency]`, "eur");
-    p.set(`line_items[${i}][price_data][product_data][name]`, `${line.name} — cuota mensual`);
+    p.set(`line_items[${i}][price_data][product_data][name]`, `${line.name} - cuota mensual`);
     p.set(`line_items[${i}][price_data][recurring][interval]`, "month");
     p.set(`line_items[${i}][price_data][unit_amount]`, String(line.monthlyCents));
     p.set(`line_items[${i}][quantity]`, "1");
     i++;
     // one-time setup, charged on the first invoice
     p.set(`line_items[${i}][price_data][currency]`, "eur");
-    p.set(`line_items[${i}][price_data][product_data][name]`, `${line.name} — puesta en marcha`);
+    p.set(`line_items[${i}][price_data][product_data][name]`, `${line.name} - puesta en marcha`);
     p.set(`line_items[${i}][price_data][unit_amount]`, String(line.setupCents));
     p.set(`line_items[${i}][quantity]`, "1");
     i++;
@@ -122,7 +122,7 @@ export async function POST(request: Request) {
     if (!res.ok || !json.url) {
       console.error("[checkout] stripe refused:", json.error?.message);
       return Response.json(
-        { ok: false, error: "No hemos podido iniciar el pago — inténtalo de nuevo o escríbenos." },
+        { ok: false, error: "No hemos podido iniciar el pago - inténtalo de nuevo o escríbenos." },
         { status: 502 },
       );
     }
@@ -130,7 +130,7 @@ export async function POST(request: Request) {
   } catch (err) {
     console.error("[checkout] stripe error:", err);
     return Response.json(
-      { ok: false, error: "No hemos podido iniciar el pago — inténtalo de nuevo o escríbenos." },
+      { ok: false, error: "No hemos podido iniciar el pago - inténtalo de nuevo o escríbenos." },
       { status: 502 },
     );
   }

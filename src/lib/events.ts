@@ -1,5 +1,5 @@
 // Privacy-first conversion analytics. No cookies, no third parties, no IPs, no
-// fingerprinting — just a count of the actions that turn a visitor into a lead
+// fingerprinting - just a count of the actions that turn a visitor into a lead
 // (WhatsApp taps, call taps, email taps, form submits) so the owner can see what
 // actually works. Stored as NDJSON in data/events.ndjson.
 import "server-only";

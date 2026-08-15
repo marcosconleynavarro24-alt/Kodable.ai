@@ -28,7 +28,7 @@ const OLD_SERVICE_SLUGS: Record<string, string> = {
   "web-development": "/services/websites",
   "seo-optimization": "/services/websites",
   "hosting-maintenance": "/services",
-  // Custom Tools & Apps and Automations pulled for now (2026-07-08) — send any
+  // Custom Tools & Apps and Automations pulled for now (2026-07-08) - send any
   // indexed/linked traffic to the services overview until they return.
   "custom-tools": "/services",
   "automations": "/services",
@@ -58,9 +58,14 @@ const BLOG_REDIRECT_RE = new RegExp(
   `^/(?:(${locales.join("|")})/)?blog/([^/]+)/?$`,
 );
 
-// /about pulled (2026-08-11) — 301 any indexed/linked traffic to the homepage.
+// /about pulled (2026-08-11) - 301 any indexed/linked traffic to the homepage.
 const ABOUT_REDIRECT_RE = new RegExp(
   `^/(?:(${locales.join("|")})/)?about/?$`,
+);
+
+// /casos pulled (2026-08-13, owner: portfolio replaces it) - 301 to /portfolio.
+const CASOS_REDIRECT_RE = new RegExp(
+  `^/(?:(${locales.join("|")})/)?casos/?$`,
 );
 
 export function proxy(request: NextRequest) {
@@ -90,6 +95,14 @@ export function proxy(request: NextRequest) {
   if (about) {
     const locale = about[1] ?? getLocale(request);
     request.nextUrl.pathname = `/${locale}`;
+    return NextResponse.redirect(request.nextUrl, 301);
+  }
+
+  // 1d) Removed /casos page → portfolio (301).
+  const casos = pathname.match(CASOS_REDIRECT_RE);
+  if (casos) {
+    const locale = casos[1] ?? getLocale(request);
+    request.nextUrl.pathname = `/${locale}/portfolio`;
     return NextResponse.redirect(request.nextUrl, 301);
   }
 

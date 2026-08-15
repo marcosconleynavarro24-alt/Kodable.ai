@@ -1,4 +1,4 @@
-// GET /api/leads — owner-only export of stored leads + the conversion summary.
+// GET /api/leads - owner-only export of stored leads + the conversion summary.
 // Guarded by ADMIN_TOKEN (env). Send it in the header (NOT the query string,
 // which leaks into logs/history):  Authorization: Bearer <ADMIN_TOKEN>
 // Add ?format=csv for a spreadsheet download.

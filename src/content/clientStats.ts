@@ -3,7 +3,7 @@
 
    Source of truth: the client site's own Lovable analytics (owner workspace,
    project `valencia-camp-revamp` → valenciacamperpark.com). NO-FABRICATION
-   RULE: every number here must be copied verbatim from that dashboard — never
+   RULE: every number here must be copied verbatim from that dashboard, never
    estimated, never rounded up. Percentages may round to the nearest integer.
 
    This snapshot is the baked fallback. When SUPABASE_URL +
@@ -27,17 +27,17 @@ export interface ClientStats {
   mobilePct: number;
 }
 
-// Pulled 2026-08-12 from Lovable analytics, window 2026-07-13 → 2026-08-12:
-// visitors 10,333 · pageviews 26,338 · avg session 148 s · devices mobile
-// 7,651 / desktop 3,197 / tablet 46 → 70% mobile.
+// Pulled 2026-08-15 from Lovable analytics, window 2026-07-16 → 2026-08-15:
+// visitors 10,451 · pageviews 26,498 · avg session 149 s · devices mobile
+// 7,797 / desktop 3,264 / tablet 49 → 70% mobile.
 export const VCP_STATS: ClientStats = {
   slug: "valenciacamperpark",
   name: "Valencia Camper Park",
   url: "https://valenciacamperpark.com",
   periodDays: 30,
-  updatedAt: "2026-08-12",
-  visitors: 10333,
-  pageviews: 26338,
-  avgSessionSec: 148,
+  updatedAt: "2026-08-15",
+  visitors: 10451,
+  pageviews: 26498,
+  avgSessionSec: 149,
   mobilePct: 70,
 };

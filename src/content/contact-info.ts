@@ -1,4 +1,4 @@
-// Single source of truth for contact details — the live production number and
+// Single source of truth for contact details, the live production number and
 // email. Also emitted in public JSON-LD (Organization / ProfessionalService
 // telephone + contactPoint), so keep these accurate. Used by the contact card,
 // final CTA, footer, and the lead API confirmation copy.

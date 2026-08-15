@@ -1,4 +1,4 @@
-// GET /api/health — a tiny uptime/health endpoint. Useful for the monitoring
+// GET /api/health - a tiny uptime/health endpoint. Useful for the monitoring
 // Kodable offers clients (point an uptime checker here) and for deploy smoke checks.
 export const dynamic = "force-dynamic";
 

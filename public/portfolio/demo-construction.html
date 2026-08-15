@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Construction Company · Built To Outlast</title>
+<meta name="description" content="Demo website by Kodable.ai. Commercial and residential construction: pre-construction, ground-up builds, renovations. This could be your company's website.">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Construction Company · Built To Outlast">
+<meta property="og:description" content="Demo website by Kodable.ai. Ground-up builds, design-build and renovations. This could be your company's website.">
+<meta property="og:image" content="/portfolio/demo-assets/construction/og.jpg"><!-- swap to absolute URL on deploy -->
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23141619'/%3E%3Cpath d='M16 7 27 25H5Z' fill='%23f0a41c'/%3E%3C/svg%3E">
+<!--
+  DEMO SITE by Kodable.ai - "Your Construction Company" is a placeholder brand.
+  Techniques: layered hero w/ parallax photo, masked headline reveal, counter
+  stats, project card cascade, blueprint grid atmosphere, clip-path band births.
+  Native scroll only - no pinning, no scroll-jacking.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --coal:#141619;
+    --coal-2:#1d2024;
+    --steel:#2c3138;
+    --smoke:#9aa3ad;
+    --paper:#f2f0ec;
+    --amber:#f0a41c;
+    --amber-dark:#c98508;
+    --line:rgba(255,255,255,.09);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Barlow',system-ui,sans-serif;
+    background:var(--coal);color:var(--paper);
+    line-height:1.65;overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3,.disp{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.03em;font-weight:600}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 26px}
+
+  /* blueprint grid atmosphere */
+  .grid-bg{
+    position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:72px 72px;
+    mask-image:linear-gradient(to bottom, transparent, #000 12%, #000 88%, transparent);
+  }
+  main{position:relative;z-index:1}
+
+  /* header */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(20,22,25,.88);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+  .logo{display:flex;align-items:center;gap:12px;font-family:'Oswald';font-size:1.05rem;letter-spacing:.14em;text-transform:uppercase}
+  .logo .mark{
+    width:34px;height:34px;background:var(--amber);
+    clip-path:polygon(50% 0, 100% 100%, 0 100%);
+  }
+  .logo b{color:var(--amber)}
+  nav.links{display:flex;gap:30px;font-size:.82rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+  nav.links a{color:var(--smoke);padding:4px 0;border-bottom:2px solid transparent}
+  nav.links a:hover{color:var(--paper);border-color:var(--amber)}
+  .btn{
+    display:inline-block;padding:14px 30px;font-family:'Oswald';font-size:.9rem;
+    letter-spacing:.14em;text-transform:uppercase;font-weight:600;
+    background:var(--amber);color:var(--coal);
+    clip-path:polygon(0 0, calc(100% - 14px) 0, 100% 100%, 14px 100%);
+    transition:background .15s ease;
+  }
+  .btn:hover{background:#ffbe3d}
+  .btn.line{background:transparent;color:var(--paper);box-shadow:inset 0 0 0 2px var(--paper)}
+  .btn.line:hover{box-shadow:inset 0 0 0 2px var(--amber);color:var(--amber)}
+
+  /* hero */
+  .hero{position:relative;min-height:94vh;display:flex;align-items:flex-end;overflow:hidden}
+  .hero-img{position:absolute;inset:-8% 0;z-index:0}
+  .hero-img img{width:100%;height:100%;object-fit:cover}
+  .hero-img::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to top, var(--coal) 4%, rgba(20,22,25,.55) 40%, rgba(20,22,25,.25));
+  }
+  .hero-inner{position:relative;z-index:2;padding:0 0 90px;width:100%}
+  .kicker{
+    display:inline-flex;align-items:center;gap:10px;
+    font-size:.78rem;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);
+    margin-bottom:22px;
+  }
+  .kicker::before{content:"";width:44px;height:2px;background:var(--amber)}
+  .hero h1{font-size:clamp(2.8rem,7.5vw,6rem);line-height:.98;font-weight:700}
+  .hero h1 .row{display:block;overflow:hidden}
+  .hero h1 .row span{display:inline-block;transform:translateY(110%)}
+  .hero h1 .hollow{
+    color:transparent;-webkit-text-stroke:2px var(--paper);
+  }
+  .hero p{max-width:34rem;margin:26px 0 34px;color:#cfd4da;font-size:1.06rem}
+  .btn-row{display:flex;gap:18px;flex-wrap:wrap}
+  .scroll-cue{position:absolute;right:40px;bottom:40px;z-index:2;font-size:.7rem;letter-spacing:.3em;text-transform:uppercase;color:var(--smoke);writing-mode:vertical-rl}
+
+  /* stats band */
+  .stats{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--coal-2)}
+  .stats-inner{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+  .stat{padding:44px 20px;text-align:center;border-left:1px solid var(--line)}
+  .stat:first-child{border-left:none}
+  .stat .num{font-family:'Oswald';font-size:clamp(2rem,3.6vw,3rem);font-weight:700;color:var(--amber)}
+  .stat .lbl{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;color:var(--smoke);margin-top:6px}
+
+  /* sections */
+  section{padding:100px 0;position:relative}
+  .sec-head{max-width:52rem;margin-bottom:60px}
+  .sec-head h2{font-size:clamp(1.9rem,3.6vw,2.8rem);line-height:1.1}
+  .sec-head h2 em{font-style:normal;color:var(--amber)}
+  .sec-head p{color:var(--smoke);margin-top:14px;max-width:38rem}
+  .reveal{opacity:0;transform:translateY(44px)}
+
+  /* services */
+  .svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:2px;background:var(--line)}
+  .svc{
+    background:var(--coal-2);padding:40px 34px;position:relative;overflow:hidden;
+    transition:background .2s ease;
+  }
+  .svc:hover{background:var(--steel)}
+  .svc .idx{display:block;width:26px;height:4px;background:var(--amber)}
+  .svc h3{font-size:1.25rem;margin:16px 0 12px}
+  .svc p{color:var(--smoke);font-size:.95rem}
+  .svc::after{
+    content:"";position:absolute;left:0;bottom:0;height:3px;width:100%;background:var(--amber);
+    transform:scaleX(0);transform-origin:left;transition:transform .25s ease;
+  }
+  .svc:hover::after{transform:scaleX(1)}
+
+  /* projects */
+  .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px}
+  .proj{
+    position:relative;min-height:340px;display:flex;align-items:flex-end;
+    padding:28px;overflow:hidden;opacity:0;transform:translateY(46px);
+  }
+  .proj .ph{
+    position:absolute;inset:0;background:var(--steel);
+    display:flex;align-items:center;justify-content:center;
+  }
+  .proj .ph::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to top, rgba(20,22,25,.92), rgba(20,22,25,.1) 60%);
+  }
+  .proj .ph svg{width:38%;opacity:.24}
+  .proj .meta{position:relative;z-index:2}
+  .proj .cat{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--amber)}
+  .proj h3{font-size:1.3rem;margin-top:8px}
+  .proj .sz{color:var(--smoke);font-size:.85rem;margin-top:4px}
+
+  /* process */
+  .process{background:var(--paper);color:var(--coal);clip-path:inset(0 0 100% 0)}
+  .process .sec-head h2 em{color:var(--amber-dark)}
+  .process .sec-head p{color:#5a5f66}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:40px;counter-reset:step}
+  .step{position:relative;padding-top:26px;opacity:0;transform:translateY(36px)}
+  .step::before{
+    counter-increment:step;content:counter(step,decimal-leading-zero);
+    font-family:'Oswald';font-size:3.4rem;font-weight:700;line-height:1;
+    color:transparent;-webkit-text-stroke:1.5px var(--amber-dark);
+    position:absolute;top:-14px;left:0;
+  }
+  .step h3{font-size:1.05rem;margin:26px 0 10px;color:var(--coal)}
+  .step p{font-size:.93rem;color:#5a5f66}
+
+  /* quote band */
+  .quote{background:var(--amber);color:var(--coal);padding:84px 0;clip-path:inset(0 0 100% 0)}
+  .quote-inner{display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap}
+  .quote h2{font-size:clamp(1.8rem,3.4vw,2.6rem);max-width:34rem;line-height:1.1}
+  .quote .btn{background:var(--coal);color:var(--paper)}
+  .quote .btn:hover{background:#000}
+
+  /* footer */
+  footer{border-top:1px solid var(--line);padding:64px 0 36px;color:var(--smoke);font-size:.9rem}
+  .foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:44px;margin-bottom:44px}
+  footer h4{font-family:'Oswald';font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--paper);margin-bottom:16px}
+  footer li{list-style:none;margin-bottom:10px}
+  footer a:hover{color:var(--amber)}
+  .foot-note{border-top:1px solid var(--line);padding-top:26px;font-size:.78rem;letter-spacing:.06em;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .foot-note b{color:var(--amber)}
+
+  @media(max-width:900px){
+    nav.links{display:none}
+    .stats-inner{grid-template-columns:repeat(2,1fr)}
+    .stat{border-left:none;border-top:1px solid var(--line)}
+    .scroll-cue{display:none}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{animation-duration:.01ms !important;transition-duration:.01ms !important;scroll-behavior:auto !important}
+    .reveal,.proj,.step{opacity:1 !important;transform:none !important}
+    .process,.quote{clip-path:none !important}
+    .hero h1 .row span{transform:none !important}
+  }
+</style>
+<style>
+  .reveal,.card,.why-item,.rev,.proj,.step,.chip,.shingle,.leafcard,.plan,
+  .hero-copy h1 .w span,.hero h1 .row span,.hero h1 .ln span,.hero-badge-wrap,.arch
+  {opacity:1 !important;transform:none !important}
+  .birth,.process,.quote{clip-path:none !important}
+  .story-word,.creed .w{color:inherit !important}
+</style>
+</head>
+<body>
+<div class="grid-bg" aria-hidden="true"></div>
+<main>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo"><span class="mark" aria-hidden="true"></span>Your <b>Construction</b> Co.</a>
+    <nav class="links">
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="btn">Get A Bid</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-img" aria-hidden="true"><img src="/portfolio/demo-assets/construction/hero.jpg" alt=""></div>
+  <div class="wrap hero-inner">
+    <span class="kicker">General Contractor · Licensed &amp; Insured</span>
+    <h1 aria-label="We build what your city stands on.">
+      <span class="row"><span>We Build What</span></span>
+      <span class="row"><span class="hollow">Your City</span></span>
+      <span class="row"><span>Stands On.</span></span>
+    </h1>
+    <p>Ground-up commercial builds, tenant improvements and design-build partnerships. On schedule, on budget, and built to outlast the loan.</p>
+    <div class="btn-row">
+      <a href="#contact" class="btn">Start Your Project</a>
+      <a href="#projects" class="btn line">See Our Work</a>
+    </div>
+  </div>
+  <span class="scroll-cue" aria-hidden="true">Scroll</span>
+</section>
+
+<div class="stats">
+  <div class="wrap stats-inner">
+    <div class="stat"><div class="num" data-count="120">0</div><div class="lbl">Projects Delivered</div></div>
+    <div class="stat"><div class="num" data-count="28">0</div><div class="lbl">Years In Business</div></div>
+    <div class="stat"><div class="num" data-count="97">0</div><div class="lbl">% Repeat Clients</div></div>
+    <div class="stat"><div class="num" data-count="0">0</div><div class="lbl">Lost-Time Incidents ’25</div></div>
+  </div>
+</div>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Every Phase. <em>One Team.</em></h2>
+      <p>From the first feasibility number to the final punch list, your project stays under one roof: ours.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc reveal"><span class="idx">/01</span><h3>Pre-Construction</h3><p>Budgeting, value engineering and scheduling before a shovel hits dirt, so surprises stay on paper.</p></div>
+      <div class="svc reveal"><span class="idx">/02</span><h3>Ground-Up Construction</h3><p>Commercial, industrial and multi-family builds delivered by crews we employ, not subs we hope show up.</p></div>
+      <div class="svc reveal"><span class="idx">/03</span><h3>Design-Build</h3><p>Architect, engineer and builder at one table. One contract, one point of accountability, zero finger-pointing.</p></div>
+      <div class="svc reveal"><span class="idx">/04</span><h3>Renovation &amp; TI</h3><p>Occupied-space remodels and tenant improvements phased around your business hours, not ours.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Recent <em>Work.</em></h2>
+      <p>A sample of what leaves our yard. Real project photography drops straight into these slots.</p>
+    </div>
+    <div class="proj-grid">
+      <article class="proj">
+        <div class="ph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#f2f0ec" stroke-width="1"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6M9 11h.5M14.5 11h.5"/></svg></div>
+        <div class="meta"><span class="cat">Commercial · Office</span><h3>Riverside Business Park</h3><div class="sz">64,000 sq ft · Design-build</div></div>
+      </article>
+      <article class="proj">
+        <div class="ph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#f2f0ec" stroke-width="1"><path d="M2 20h20M4 20V9h16v11M4 13h16M8 9V5h8v4M11 16h2"/></svg></div>
+        <div class="meta"><span class="cat">Industrial · Warehouse</span><h3>Northgate Logistics Hub</h3><div class="sz">110,000 sq ft · Ground-up</div></div>
+      </article>
+      <article class="proj">
+        <div class="ph" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#f2f0ec" stroke-width="1"><path d="M3 21h18M6 21V11l6-4 6 4v10M10 21v-4h4v4M4 11h16"/></svg></div>
+        <div class="meta"><span class="cat">Multi-Family · Residential</span><h3>The Foundry Lofts</h3><div class="sz">48 units · Renovation</div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>How A Bid Becomes A <em>Building.</em></h2>
+      <p>No mystery, no maybes. This is the path every project walks with us.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><h3>Site Walk &amp; Scope</h3><p>We walk the site with you, define the scope and flag the risks other bids skip past.</p></div>
+      <div class="step"><h3>Fixed Bid</h3><p>A line-item budget you can actually read, with allowances called out, not buried.</p></div>
+      <div class="step"><h3>Build &amp; Report</h3><p>Weekly photo reports and a schedule that updates when reality does. You're never guessing.</p></div>
+      <div class="step"><h3>Punch &amp; Warranty</h3><p>We close out our own punch list and back the work with a written warranty.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="quote" id="contact">
+  <div class="wrap quote-inner">
+    <h2 class="reveal">Have A Set Of Plans? Get A Number This Week.</h2>
+    <a href="#" class="btn">Request A Bid →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px"><span class="mark" aria-hidden="true"></span>Your <b>Construction</b> Co.</div>
+        <p>Placeholder brand. This is a demo website: your company name, projects and photography go here.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul><li><a href="#services">Services</a></li><li><a href="#projects">Projects</a></li><li><a href="#process">Process</a></li></ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul><li>(555) 000-0000</li><li>bids@yourcompany.com</li><li>Mon–Fri · 7am–5pm</li></ul>
+      </div>
+    </div>
+    <div class="foot-note">
+      <span>© 2026 Your Construction Company.</span>
+      <span>Demo website by <b>Kodable.ai</b>: this could be yours in 48 hours.</span>
+    </div>
+  </div>
+</footer>
+
+</main>
+
+
+
+</body>
+</html>

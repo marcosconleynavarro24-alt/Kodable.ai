@@ -1,11 +1,11 @@
 // Booking handling for the "Reserva tu cita" widget. Self-contained and
 // dependency-free, mirroring src/lib/leads.ts: validates input, blocks spam
 // (honeypot + time-trap + rate limit), persists to data/bookings.ndjson, and
-// delivers two emails — an owner notification and a client confirmation that
+// delivers two emails - an owner notification and a client confirmation that
 // carries an .ics calendar invite with a reminder 1 day before. With no
 // RESEND_API_KEY set it writes the rendered emails to data/outbox/ to preview.
 //
-// On serverless (Vercel) data/ is ephemeral, so — like leads — email is the
+// On serverless (Vercel) data/ is ephemeral, so - like leads - email is the
 // durable record. The day-before reminder is delivered by the .ics VALARM in the
 // client's own calendar (no server cron needed). The DB seam (saveBooking /
 // readBookings) is isolated for wiring durable storage later.
@@ -69,7 +69,7 @@ export interface BookingInput {
   time?: unknown;
   locale?: unknown;
   t0?: unknown; // widget-render timestamp (ms), for the time-trap
-  companyUrl?: unknown; // honeypot — must stay empty
+  companyUrl?: unknown; // honeypot - must stay empty
 }
 
 export interface Booking {
@@ -317,7 +317,7 @@ export async function saveBooking(b: Booking): Promise<void> {
 }
 
 // Insert into Supabase. A 409 means the UNIQUE(slot_date, slot_time) constraint
-// fired — the slot was just taken — which we surface as SlotTakenError so the
+// fired - the slot was just taken - which we surface as SlotTakenError so the
 // caller can tell the user and skip the confirmation emails.
 async function saveBookingToSupabase(b: Booking): Promise<void> {
   const res = await fetch(`${SB_URL}/rest/v1/${SB_TABLE}`, {

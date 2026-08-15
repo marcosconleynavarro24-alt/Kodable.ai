@@ -2,7 +2,7 @@ import type { Locale } from "@/i18n/config";
 import type { ServiceSlug } from "./services";
 
 /* ============================================================================
-   Pricing data — shown on each service detail page (replaces "Under the hood").
+   Pricing data, shown on each service detail page (replaces "Under the hood").
 
    Numbers are the single source of truth in `N` (all IVA INCLUDED, the figure
    the owner actually pays). Only words are translated, so the euro amounts can
@@ -17,7 +17,7 @@ import type { ServiceSlug } from "./services";
 const N = {
   web: { starter: 245, business: 495, premium: 995 },
   // Installment alternative shown on the same card (owner directive
-  // 2026-07-10): pay the build monthly, then it ENDS — not a subscription.
+  // 2026-07-10): pay the build monthly, then it ENDS, not a subscription.
   // Monthly × months ≈ the one-off. Care plan stays separate.
   // The starter differs by market (owner directive 2026-08-12): the US offer
   // running in the trades campaign is $24.99 × 10, the euro markets keep
@@ -118,7 +118,7 @@ interface Pack {
     popular: string;
     get: string;
   };
-  // "or €25/mo for 10 months" — installment line on website tiers.
+  // "or €25/mo for 10 months", installment line on website tiers.
   orMonthly: (monthly: string, months: number) => string;
   perMin: string; // "/min"
   groups: {
@@ -599,7 +599,7 @@ export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
   };
 
   // Care plan groups removed from public service pages (owner directive
-  // 2026-07-10) — care is now upsold post-checkout on /contratar/gracias via
+  // 2026-07-10), care is now upsold post-checkout on /contratar/gracias via
   // getCareGroup(). One-off web buyers already get Care Basic bundled in the
   // checkout monthly (see src/lib/checkoutPlans.ts).
   const groupsBySlug: Record<ServiceSlug, PriceGroup[]> = {

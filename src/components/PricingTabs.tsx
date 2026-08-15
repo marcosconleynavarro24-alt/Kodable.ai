@@ -11,7 +11,7 @@ export interface PricingTab {
   pricing: ServicePricing;
 }
 
-// Tab switcher for the combined /pricing page — flips between the websites
+// Tab switcher for the combined /pricing page, flips between the websites
 // and AI-agents price tables without leaving the page.
 export default function PricingTabs({
   tabs,
@@ -23,7 +23,7 @@ export default function PricingTabs({
   const [active, setActive] = useState(tabs[0].key);
 
   // Every panel is server-rendered and stays in the DOM (inactive ones get the
-  // `hidden` attribute) so all prices are crawlable in the initial HTML —
+  // `hidden` attribute) so all prices are crawlable in the initial HTML -
   // don't switch this to conditional rendering.
   return (
     <div>

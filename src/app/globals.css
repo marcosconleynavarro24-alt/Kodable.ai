@@ -1,5 +1,5 @@
 /* ============================================================================
-   Kodable.ai — Conversational / Chat-native design system
+   Kodable.ai - Conversational / Chat-native design system
    Ported from the draft-08 concept. Plain CSS + semantic classes (no Tailwind
    utilities in markup). Fonts come from next/font as CSS variables:
    --font-hanken (Hanken Grotesk, display) and --font-spline (Spline Sans, body).
@@ -157,7 +157,7 @@ section { position: relative; }
 .mobile-lang .mobile-lang-opt:hover { background: var(--accent-soft); }
 .mobile-lang .mobile-lang-opt.on { border-color: var(--accent); color: var(--accent-deep); }
 .menu-btn { display: inline-flex; background: var(--card); border: 1.5px solid var(--line); border-radius: 12px; width: 44px; height: 44px; align-items: center; justify-content: center; cursor: pointer; color: var(--ink); }
-/* Icon.tsx emits no width/height attributes — every other icon is sized by CSS,
+/* Icon.tsx emits no width/height attributes - every other icon is sized by CSS,
    this one was not, so it fell back to UA intrinsic sizing (29px, bars bleeding
    into the button border in Chrome; unsized flex SVGs collapse in WebKit). */
 .menu-btn svg { width: 22px; height: 22px; flex: none; }
@@ -593,7 +593,7 @@ button.slot.taken { cursor: not-allowed; }
 }
 
 /* ============================================================================
-   Blog — chat-native article + index. Built on the same tokens, fonts and
+   Blog - chat-native article + index. Built on the same tokens, fonts and
    card language as the rest of the site (no new colours, no Tailwind in markup).
    ========================================================================== */
 
@@ -626,6 +626,26 @@ button.slot.taken { cursor: not-allowed; }
 }
 .bf-visual .bubble { margin-bottom: 10px; }
 .bf-visual .bubble:last-child { margin-bottom: 0; }
+
+/* ---------- portfolio: two wide client cards ---------- */
+.pf-grid { display: grid; gap: 22px; }
+@media (min-width: 860px) { .pf-grid { grid-template-columns: 1fr 1fr; } }
+.pf-frame {
+  width: 100%; height: 420px; display: block; border: 1px solid var(--line);
+  border-radius: 12px; background: var(--card);
+}
+.pf-hint { margin: 8px 0 18px; font-size: .78rem; color: var(--ink-mute); }
+/* Scaled desktop snapshot: the iframe renders at 3x the card width so the
+   page lays out like a desktop screen, then scales to a third to fit the
+   card. Wheel and touch scrolling inside the frame still work. */
+.pf-scale {
+  position: relative; width: 100%; height: 420px; overflow: hidden;
+  border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+}
+.pf-scale iframe {
+  width: 300%; height: 300%; border: 0; display: block;
+  transform: scale(0.33334); transform-origin: top left;
+}
 
 /* ---------- index: post grid ---------- */
 .blog-grid { display: grid; gap: 22px; }
@@ -675,7 +695,7 @@ button.slot.taken { cursor: not-allowed; }
 .blog-steps { display: flex; flex-direction: column; gap: 14px; }
 .blog-steps .step h3 { margin: 0 0 3px; }
 
-/* chat-bubble "tip" callout — the signature on-brand flourish */
+/* chat-bubble "tip" callout - the signature on-brand flourish */
 .blog-callout { display: flex; gap: 14px; align-items: flex-start; }
 .blog-callout .bc-ava {
   width: 44px; height: 44px; border-radius: 14px; flex: none;
@@ -699,7 +719,7 @@ button.slot.taken { cursor: not-allowed; }
 .blog-stat .bs-label { color: var(--ink-soft); font-size: 1.04rem; margin-top: 10px; }
 .blog-stat .bs-source { color: var(--ink-mute); font-size: .82rem; margin-top: 8px; }
 
-/* pull quote — leading oversized accent glyph instead of a side bar */
+/* pull quote - leading oversized accent glyph instead of a side bar */
 .blog-quote { position: relative; padding: 8px 0 4px 52px; }
 .blog-quote::before {
   content: "\201C"; position: absolute; left: 0; top: 0;
@@ -744,3 +764,18 @@ button.slot.taken { cursor: not-allowed; }
 
 /* related strip */
 .blog-related { border-top: 1px solid var(--line); padding-top: clamp(34px, 4vw, 52px); }
+
+/* cookie notice (informational - this site sets no cookies) */
+.cookie-notice {
+  position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 60;
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  max-width: 720px; margin: 0 auto; padding: 14px 18px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+  box-shadow: 0 8px 30px rgba(16,34,31,.14);
+}
+.cookie-notice p { margin: 0; font-size: .92rem; color: var(--ink-soft); }
+.cookie-notice a { color: var(--accent-deep); font-weight: 600; text-decoration: underline; }
+.cookie-notice .btn { flex-shrink: 0; }
+@media (max-width: 560px) {
+  .cookie-notice { flex-direction: column; align-items: stretch; text-align: center; }
+}

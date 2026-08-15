@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Papi's 5-Star Beef Jerky · Small-Batch, Big Flavor</title>
+<meta name="description" content="Papi's 5-Star Beef Jerky. Small-batch flank steak jerky, marinated overnight and slow-smoked. Free shipping over $49.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Papi's 5-Star Beef Jerky · Small-Batch, Big Flavor">
+<meta property="og:description" content="Small-batch flank steak jerky, marinated overnight and slow-smoked. Free shipping over $49.">
+<meta property="og:image" content="/portfolio/demo-assets/papis/og.jpg"><!-- swap to absolute URL on deploy -->
+<meta name="twitter:card" content="summary_large_image">
+<!--
+  Techniques applied (epic-design): 6-layer parallax hero, float-loop hero badge,
+  masked line reveal + word lighting headline, clip-path top-down section births,
+  cascading card stagger, marquee ticker, atmospheric glow blobs, grain overlay,
+  scatter-on-scroll companions. Native scroll only - no pinning, no scroll-jacking.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bitter:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="icon" href="/portfolio/demo-assets/papis/logo-s.jpg">
+<style>
+  :root{
+    --paper:#f7f1e3;
+    --paper-2:#efe6d0;
+    --card:#fbf7ec;
+    --ink:#43301c;
+    --ink-dark:#33240f;
+    --rust:#b5502f;
+    --rust-dark:#96401f;
+    --gold:#c98a3d;
+    --tan:#a98a5d;
+    --line:#d8cdb4;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Bitter',Georgia,serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.6;
+    overflow-x:hidden;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3,.slab{font-family:'Alfa Slab One',Georgia,serif;font-weight:400;letter-spacing:.02em}
+  .icon{
+    width:1em;height:1em;display:inline-block;vertical-align:-.12em;
+    fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+
+  /* ---------- grain overlay (depth-5, whole page) ---------- */
+  .grain{
+    position:fixed;inset:-50%;z-index:90;pointer-events:none;opacity:.06;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    animation:grain 8s steps(10) infinite;
+  }
+  @keyframes grain{
+    0%,100%{transform:translate(0,0)}10%{transform:translate(-5%,-5%)}20%{transform:translate(-10%,5%)}
+    30%{transform:translate(5%,-10%)}40%{transform:translate(-5%,15%)}50%{transform:translate(-10%,5%)}
+    60%{transform:translate(15%,0)}70%{transform:translate(0,10%)}80%{transform:translate(-15%,0)}90%{transform:translate(10%,5%)}
+  }
+
+  /* ---------- promo + header ---------- */
+  .promo{
+    background:var(--ink-dark);color:var(--paper);
+    text-align:center;font-size:.82rem;padding:9px 16px;letter-spacing:.06em;position:relative;z-index:60;
+  }
+  .promo b{color:var(--gold)}
+  header{
+    background:rgba(247,241,227,.92);backdrop-filter:blur(8px);
+    border-bottom:3px solid var(--ink-dark);
+    position:sticky;top:0;z-index:80;
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0;gap:24px}
+  .brand{display:flex;align-items:center;gap:12px;line-height:1.05}
+  .brand img{width:54px;height:54px;border-radius:50%;border:2px solid var(--ink-dark);object-fit:cover;transform:scale(1.0)}
+  .brand .bt{font-family:'Alfa Slab One',serif;font-size:1.15rem;color:var(--ink-dark)}
+  .brand .stars{color:var(--rust);font-size:.72rem;letter-spacing:.28em;display:block}
+  nav.links{display:flex;gap:26px;font-weight:600;font-size:.92rem;text-transform:uppercase;letter-spacing:.08em}
+  nav.links a{padding:6px 2px;border-bottom:3px solid transparent}
+  nav.links a:hover{border-color:var(--rust);color:var(--rust-dark)}
+  .cart{
+    background:var(--rust);color:var(--card);font-weight:700;
+    padding:10px 18px;border-radius:6px;border:2px solid var(--ink-dark);
+    box-shadow:3px 3px 0 var(--ink-dark);font-size:.9rem;letter-spacing:.05em;
+    transition:transform .1s ease, box-shadow .1s ease;
+  }
+  .cart:hover{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink-dark)}
+
+  /* ---------- hero scene ---------- */
+  .scene-hero{
+    position:relative;min-height:92vh;display:flex;align-items:center;
+    border-bottom:3px solid var(--ink-dark);overflow:hidden;
+    background:var(--paper-2);
+  }
+  .layer{position:absolute;inset:0;pointer-events:none}
+  .depth-4,.hero-copy{pointer-events:auto}
+  /* depth-0: warm radial wash */
+  .hero-bg{
+    background:
+      radial-gradient(ellipse at 75% 30%, rgba(201,138,61,.28), transparent 55%),
+      radial-gradient(ellipse at 15% 85%, rgba(181,80,47,.18), transparent 50%),
+      var(--paper-2);
+    transform:scale(1.06);
+  }
+  /* depth-1: glow blobs */
+  .blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55}
+  .blob.b1{width:44vw;height:44vw;right:-8vw;top:-10vw;background:#e6c893}
+  .blob.b2{width:30vw;height:30vw;left:-10vw;bottom:-8vw;background:#dfa07f}
+  /* depth-2: companion flecks (pepper / smoke) */
+  .fleck{position:absolute;font-size:1.9rem;opacity:.6;color:#8a6a45}
+  /* depth-3: hero badge */
+  .hero-badge-wrap{position:absolute;right:6vw;top:50%;transform:translateY(-50%);pointer-events:none}
+  .hero-badge{
+    width:min(44vw,520px);aspect-ratio:1;border-radius:50%;
+    border:none;object-fit:cover;transform:scale(1.02);
+    filter:drop-shadow(0 30px 50px rgba(51,36,15,.35));
+  }
+  .badge-ring{
+    position:absolute;inset:-26px;border:2px dashed rgba(67,48,28,.35);border-radius:50%;
+    animation:spin 40s linear infinite;
+  }
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .float-loop{animation:floaty 9s ease-in-out infinite}
+  @keyframes floaty{0%,100%{transform:translateY(0) rotate(-1.2deg)}50%{transform:translateY(-18px) rotate(1.2deg)}}
+  /* depth-4: copy */
+  .hero-copy{position:relative;z-index:5;max-width:560px;padding:80px 0}
+  .kicker{
+    display:inline-block;background:var(--ink-dark);color:var(--paper);
+    font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.22em;
+    padding:6px 14px;border-radius:4px;margin-bottom:22px;
+  }
+  .hero-copy h1{font-size:clamp(2.3rem,4.8vw,3.8rem);line-height:1.06;color:var(--ink-dark);margin-bottom:20px}
+  .hero-copy h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom}
+  .hero-copy h1 .w span{display:inline-block;transform:translateY(110%)}
+  .hero-copy h1 em{font-style:normal;color:var(--rust)}
+  .lead{font-size:1.1rem;max-width:32rem;margin-bottom:30px}
+  .btn-row{display:flex;gap:16px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;padding:14px 28px;font-weight:700;font-size:1rem;
+    border-radius:6px;border:2px solid var(--ink-dark);letter-spacing:.04em;
+    box-shadow:4px 4px 0 var(--ink-dark);transition:transform .1s ease, box-shadow .1s ease;
+  }
+  .btn:hover{transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink-dark)}
+  .btn.primary{background:var(--rust);color:var(--card)}
+  .btn.ghost{background:var(--card);color:var(--ink-dark)}
+
+  /* ---------- marquee ticker ---------- */
+  .ticker{background:var(--ink-dark);color:var(--paper);overflow:hidden;border-bottom:3px solid var(--ink-dark)}
+  .ticker-track{display:flex;gap:0;white-space:nowrap;width:max-content;animation:tick 26s linear infinite}
+  .ticker span{display:inline-block;padding:13px 28px;font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+  .ticker .st{color:var(--gold)}
+  @keyframes tick{to{transform:translateX(-50%)}}
+
+  /* ---------- sections ---------- */
+  section.block{padding:88px 0;position:relative}
+  .sec-head{text-align:center;max-width:44rem;margin:0 auto 52px}
+  .sec-head h2{font-size:clamp(1.7rem,3vw,2.5rem);color:var(--ink-dark);margin-bottom:12px}
+  .sec-head .rule{width:90px;height:4px;background:var(--rust);margin:16px auto 0;border-radius:2px}
+  .reveal{opacity:0;transform:translateY(40px)}
+  .birth{clip-path:inset(0 0 100% 0)}
+
+  /* ---------- product grid ---------- */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:28px}
+  .card{
+    position:relative;background:var(--card);border:2px solid var(--ink-dark);border-radius:10px;
+    overflow:hidden;box-shadow:5px 5px 0 rgba(51,36,15,.85);
+    display:flex;flex-direction:column;
+    transition:transform .15s ease, box-shadow .15s ease;
+    opacity:0;transform:translateY(46px) rotate(.4deg);
+  }
+  .card:hover{transform:translate(-2px,-4px) !important;box-shadow:9px 9px 0 rgba(51,36,15,.85)}
+  .card .art{
+    height:170px;display:flex;align-items:center;justify-content:center;
+    font-size:3.4rem;border-bottom:2px solid var(--ink-dark);
+    background:repeating-linear-gradient(-45deg,rgba(51,36,15,.05) 0 10px,transparent 10px 20px);
+  }
+  .art.a1{background-color:#e8d9b8}.art.a2{background-color:#e3c9a4}.art.a3{background-color:#e9cfc0}
+  .art.a4{background-color:#dfd4ae}.art.a5{background-color:#e6c7ae}.art.a6{background-color:#e2d0c2}
+  .card .body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .card h3{font-size:1.05rem;color:var(--ink-dark)}
+  .card .flav{font-size:.9rem;color:#6b5638;flex:1}
+  .card .meta{display:flex;align-items:center;justify-content:space-between;margin-top:8px}
+  .price{font-weight:700;font-size:1.1rem;color:var(--rust-dark)}
+  .stars-s{color:var(--rust);font-size:.8rem;letter-spacing:.15em}
+  .add{
+    margin-top:12px;text-align:center;background:var(--ink-dark);color:var(--paper);
+    font-weight:700;padding:11px 0;border-radius:6px;font-size:.9rem;letter-spacing:.06em;
+    border:2px solid var(--ink-dark);
+  }
+  .add:hover{background:var(--rust)}
+  .badge-tag{
+    position:absolute;top:12px;left:-2px;background:var(--rust);color:var(--card);
+    font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;
+    padding:5px 12px;border:2px solid var(--ink-dark);border-left:none;border-radius:0 4px 4px 0;z-index:2;
+  }
+
+  /* ---------- why ---------- */
+  .why{background:var(--paper-2);border-top:3px solid var(--ink-dark);border-bottom:3px solid var(--ink-dark)}
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;text-align:center}
+  .why-item{opacity:0;transform:translateY(36px)}
+  .why-grid .ico{
+    width:78px;height:78px;margin:0 auto 16px;border-radius:50%;
+    background:var(--card);border:3px solid var(--ink-dark);display:flex;align-items:center;justify-content:center;
+    font-size:2rem;box-shadow:4px 4px 0 rgba(51,36,15,.8);
+  }
+  .why-grid h3{font-size:1.05rem;color:var(--ink-dark);margin-bottom:8px}
+  .why-grid p{font-size:.92rem}
+
+  /* ---------- story ---------- */
+  .story-scene{position:relative;overflow:hidden}
+  .story-inner{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;position:relative;z-index:2}
+  .story-logo{
+    width:min(360px,80%);margin:0 auto;border-radius:50%;
+    box-shadow:10px 10px 0 rgba(51,36,15,.85);border:3px solid var(--ink-dark);
+  }
+  .story h2{font-size:clamp(1.7rem,3vw,2.3rem);color:var(--ink-dark);margin-bottom:16px}
+  .story p{margin-bottom:14px}
+  .ingredients{
+    margin-top:18px;background:var(--paper-2);border:2px dashed var(--ink-dark);
+    border-radius:8px;padding:16px 20px;font-size:.92rem;font-style:italic;
+  }
+  .story-word{color:rgba(67,48,28,.28);transition:color .3s ease}
+  .story-word.lit{color:var(--ink)}
+
+  /* ---------- reviews ---------- */
+  .reviews{background:var(--ink-dark);color:var(--paper)}
+  .reviews .sec-head h2{color:var(--paper)}
+  .rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+  .rev{
+    background:rgba(251,247,236,.06);border:2px solid rgba(251,247,236,.25);
+    border-radius:10px;padding:26px;opacity:0;transform:translateY(36px);
+  }
+  .rev .stars-s{color:var(--gold);margin-bottom:12px;display:block}
+  .rev p{font-size:.98rem;margin-bottom:16px;font-style:italic}
+  .rev .who{font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.1em;color:var(--gold)}
+
+  /* ---------- signup ---------- */
+  .signup{background:var(--rust);border-top:3px solid var(--ink-dark);border-bottom:3px solid var(--ink-dark);color:var(--card)}
+  .signup-inner{text-align:center;max-width:40rem;margin:0 auto}
+  .signup h2{font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:12px}
+  .signup p{margin-bottom:26px}
+  .sign-form{display:flex;gap:12px;max-width:30rem;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .sign-form input{
+    flex:1;min-width:220px;padding:14px 18px;border-radius:6px;border:2px solid var(--ink-dark);
+    font-family:'Bitter',serif;font-size:1rem;background:var(--card);color:var(--ink);
+  }
+  .sign-form button{
+    padding:14px 26px;border-radius:6px;border:2px solid var(--ink-dark);cursor:pointer;
+    background:var(--ink-dark);color:var(--paper);font-family:'Bitter',serif;font-weight:700;font-size:1rem;
+    box-shadow:3px 3px 0 rgba(0,0,0,.35);
+  }
+  .sign-form button:hover{background:#241905}
+
+  /* ---------- footer ---------- */
+  footer{background:var(--ink-dark);color:#cfc3a8;padding:56px 0 32px;font-size:.92rem}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+  footer h4{color:var(--paper);font-size:.85rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:14px}
+  footer li{list-style:none;margin-bottom:9px}
+  footer a:hover{color:var(--gold)}
+  .foot-brand{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .foot-brand img{width:56px;height:56px;border-radius:50%;border:2px solid var(--gold);object-fit:cover}
+  .foot-brand span{font-family:'Alfa Slab One',serif;color:var(--paper);font-size:1.15rem}
+  .foot-bottom{border-top:1px solid rgba(251,247,236,.2);padding-top:24px;text-align:center;font-size:.8rem;letter-spacing:.05em}
+
+  /* ---------- responsive ---------- */
+  @media(max-width:960px){
+    nav.links{display:none}
+    .scene-hero{min-height:auto}
+    .hero-copy{padding:56px 0 40px;max-width:100%;text-align:center}
+    .lead{margin-left:auto;margin-right:auto}
+    .btn-row{justify-content:center}
+    .hero-badge-wrap{position:relative;right:auto;top:auto;transform:none;margin:48px auto 0;display:flex;justify-content:center}
+    .hero-badge{width:min(70vw,340px)}
+    .hero-flex{flex-direction:column;padding-bottom:56px}
+    .story-inner{grid-template-columns:1fr}
+    .foot-grid{grid-template-columns:1fr 1fr}
+  }
+
+  /* ---------- reduced motion (mandatory) ---------- */
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{
+      animation-duration:.01ms !important;
+      animation-iteration-count:1 !important;
+      transition-duration:.01ms !important;
+      scroll-behavior:auto !important;
+    }
+    .reveal,.card,.why-item,.rev{opacity:1 !important;transform:none !important}
+    .birth{clip-path:none !important}
+    .hero-copy h1 .w span{transform:none !important}
+    .story-word{color:var(--ink) !important}
+    .grain{display:none}
+  }
+</style>
+<style>
+  .reveal,.card,.why-item,.rev,.proj,.step,.chip,.shingle,.leafcard,.plan,
+  .hero-copy h1 .w span,.hero h1 .row span,.hero h1 .ln span,.hero-badge-wrap,.arch
+  {opacity:1 !important;transform:none !important}
+  .birth,.process,.quote{clip-path:none !important}
+  .story-word,.creed .w{color:inherit !important}
+</style>
+</head>
+<body>
+
+<!-- icon sprite: monoline, matches badge engraving -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-steak" viewBox="0 0 24 24">
+    <path d="M4.5 13.5C3 11.5 3.2 8.6 5.2 7c2.2-1.8 5.4-2 8.3-1.2 2.9.8 5.6 2.4 6.3 4.8.7 2.4-.6 4.9-3 5.9-2.3 1-5 .6-7.4-.2-2-.7-3.9-1.3-4.9-2.8Z"/>
+    <path d="M8.6 11.2c.9-1 2.5-1.3 4-.9 1.5.4 2.8 1.2 3.1 2.3"/>
+    <circle cx="6.9" cy="10.2" r=".4"/>
+    <circle cx="15.5" cy="15" r=".4"/>
+  </symbol>
+  <symbol id="i-chili" viewBox="0 0 24 24">
+    <path d="M14.5 6.5c.3-1.5 1.5-2.5 3-2.7"/>
+    <path d="M14.5 6.5c4 .6 6 3.6 5 7.2-1.1 3.9-5.2 6.6-9.9 7.1-3.1.3-5.8-.6-6.6-1.5-.4-.5.2-.7.9-.8 3.5-.6 6.4-2.4 7.8-5.2.9-1.8 1.2-4.3 2.8-6.8Z"/>
+  </symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24">
+    <path d="M12 3c.5 3-1.5 4.6-2.9 6.2C7.7 10.8 7 12.3 7 14a5 5 0 0 0 10 0c0-1.9-.8-3.5-1.8-4.9-.3 1-.9 1.8-1.7 2.3.3-2.9-.3-6.2-1.5-8.4Z"/>
+    <path d="M12 21a3.2 3.2 0 0 1-1.6-6c-.1 1 .3 1.7 1 2.2.2-1.3.7-2.4 1.6-3.2.9 1.1 2.2 2.5 2.2 3.8A3.2 3.2 0 0 1 12 21Z"/>
+  </symbol>
+  <symbol id="i-salt" viewBox="0 0 24 24">
+    <path d="M9 8h6l1.5 11a1.5 1.5 0 0 1-1.5 1.7H9A1.5 1.5 0 0 1 7.5 19Z"/>
+    <path d="M9.5 8V6a2.5 2.5 0 0 1 5 0v2"/>
+    <circle cx="11" cy="12.5" r=".4"/><circle cx="13.4" cy="14.5" r=".4"/><circle cx="10.6" cy="16.8" r=".4"/>
+  </symbol>
+  <symbol id="i-honey" viewBox="0 0 24 24">
+    <path d="M8 8.5h8M9 8.5c-1.8 1-3 2.8-3 4.9 0 3.4 2.7 6.1 6 6.1s6-2.7 6-6.1c0-2.1-1.2-3.9-3-4.9"/>
+    <path d="M9.5 8.5v-2A1.5 1.5 0 0 1 11 5h2a1.5 1.5 0 0 1 1.5 1.5v2"/>
+    <path d="M9.5 13.2c1.6 1.2 3.4 1.2 5 0"/>
+  </symbol>
+  <symbol id="i-wood" viewBox="0 0 24 24">
+    <ellipse cx="6.5" cy="14.5" rx="3" ry="4"/>
+    <path d="M6.5 10.5h11c1.7 0 3 1.8 3 4s-1.3 4-3 4h-11"/>
+    <ellipse cx="6.5" cy="14.5" rx="1.2" ry="1.7"/>
+  </symbol>
+  <symbol id="i-skull" viewBox="0 0 24 24">
+    <path d="M12 3a7.5 7.5 0 0 0-7.5 7.5c0 2.6 1.3 4.8 3.3 6.1V19a2 2 0 0 0 2 2h4.4a2 2 0 0 0 2-2v-2.4c2-1.3 3.3-3.5 3.3-6.1A7.5 7.5 0 0 0 12 3Z"/>
+    <circle cx="9.2" cy="11" r="1.6"/>
+    <circle cx="14.8" cy="11" r="1.6"/>
+    <path d="M12 14.2l-.9 1.8h1.8Z"/>
+  </symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24">
+    <rect x="4" y="9" width="16" height="4"/>
+    <path d="M5.5 13v6.5a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V13M12 9v12"/>
+    <path d="M12 9C10 9 7.6 8.6 7.6 6.8 7.6 5 9.6 4.5 10.7 5.6 11.6 6.5 12 9 12 9Zm0 0c2 0 4.4-.4 4.4-2.2C16.4 5 14.4 4.5 13.3 5.6 12.4 6.5 12 9 12 9Z"/>
+  </symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24">
+    <path d="M2.5 6.5h11v10h-11ZM13.5 9.5h4l3 3.5v3.5h-7"/>
+    <circle cx="6.5" cy="17.5" r="1.8"/>
+    <circle cx="16.5" cy="17.5" r="1.8"/>
+  </symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24">
+    <path d="M12 20.5S4 15.5 4 9.8C4 7 6 5 8.5 5c1.6 0 2.9.8 3.5 2 .6-1.2 1.9-2 3.5-2C18 5 20 7 20 9.8c0 5.7-8 10.7-8 10.7Z"/>
+  </symbol>
+  <symbol id="i-hourglass" viewBox="0 0 24 24">
+    <path d="M6.5 3.5h11M6.5 20.5h11M8 3.5v3c0 2.5 4 4 4 5.5s-4 3-4 5.5v3M16 3.5v3c0 2.5-4 4-4 5.5s4 3 4 5.5v3"/>
+  </symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24">
+    <path d="M3 4.5h2.5l2.2 11h10.6l2.2-8H6.1"/>
+    <circle cx="9" cy="19.5" r="1.6"/>
+    <circle cx="16.8" cy="19.5" r="1.6"/>
+  </symbol>
+</svg>
+
+<div class="grain" aria-hidden="true"></div>
+
+<div class="promo">FREE SHIPPING ON ORDERS OVER <b>$49</b> &nbsp;•&nbsp; SMALL-BATCH SMOKED WEEKLY &nbsp;•&nbsp; MADE OF LOVE (AND FLANK STEAK)</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="brand">
+      <img src="/portfolio/demo-assets/papis/logo-s.jpg" alt="Papi's 5-Star Beef Jerky badge logo">
+      <span><span class="bt">PAPI'S 5-STAR</span><span class="stars">★★★★★</span></span>
+    </a>
+    <nav class="links">
+      <a href="#shop">Shop</a>
+      <a href="#why">Why Papi's</a>
+      <a href="#story">Our Story</a>
+      <a href="#reviews">Reviews</a>
+    </nav>
+    <a href="#shop" class="cart"><svg class="icon"><use href="#i-cart"/></svg> Cart (0)</a>
+  </div>
+</header>
+
+<!-- ================= HERO (6 depth layers, native scroll parallax) ================= -->
+<section class="scene-hero" data-scene="hero">
+  <div class="layer hero-bg" data-depth="0" aria-hidden="true"></div>
+  <div class="layer" data-depth="1" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+  </div>
+  <div class="layer" data-depth="2" aria-hidden="true">
+    <span class="fleck" style="left:8%;top:18%"><svg class="icon"><use href="#i-chili"/></svg></span>
+    <span class="fleck" style="left:46%;top:10%"><svg class="icon"><use href="#i-flame"/></svg></span>
+    <span class="fleck" style="left:12%;bottom:16%"><svg class="icon"><use href="#i-steak"/></svg></span>
+    <span class="fleck" style="right:40%;bottom:12%"><svg class="icon"><use href="#i-salt"/></svg></span>
+  </div>
+
+  <div class="wrap hero-flex" style="display:flex;align-items:center;width:100%;position:relative;z-index:4">
+    <div class="hero-copy" data-depth="4">
+      <span class="kicker reveal">Small-Batch • Hand-Sliced • Slow-Smoked</span>
+      <h1 aria-label="Jerky So Good, Papi Put His Name On It.">
+        <span class="w"><span>Jerky&nbsp;So&nbsp;Good,</span></span>
+        <span class="w"><span><em>Papi</em>&nbsp;Put&nbsp;His</span></span>
+        <span class="w"><span>Name&nbsp;On&nbsp;It.</span></span>
+      </h1>
+      <p class="lead reveal">Real flank steak, marinated overnight and smoked low &amp; slow in small batches. No shortcuts, no mystery meat: just the five-star chew Papi's been perfecting for years.</p>
+      <div class="btn-row reveal">
+        <a href="#shop" class="btn primary">Shop All Flavors</a>
+        <a href="#story" class="btn ghost">Read Our Story</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-badge-wrap" data-depth="3" aria-hidden="false">
+    <div style="position:relative">
+      <div class="badge-ring" aria-hidden="true"></div>
+      <img class="hero-badge float-loop" src="/portfolio/demo-assets/papis/logo-s.jpg" alt="Papi's 5-Star Beef Jerky vintage badge with engraved bull">
+    </div>
+  </div>
+</section>
+
+<!-- ================= TICKER ================= -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span><span class="st">★★★★★</span> 4.9 FROM 2,300+ JERKY LOVERS</span><span><svg class="icon"><use href="#i-steak"/></svg> 100% FLANK STEAK</span><span><svg class="icon"><use href="#i-flame"/></svg> SMOKED IN SMALL BATCHES</span><span><svg class="icon"><use href="#i-truck"/></svg> SHIPS FRESH WEEKLY</span><span><svg class="icon"><use href="#i-heart"/></svg> MADE OF LOVE</span>
+    <span><span class="st">★★★★★</span> 4.9 FROM 2,300+ JERKY LOVERS</span><span><svg class="icon"><use href="#i-steak"/></svg> 100% FLANK STEAK</span><span><svg class="icon"><use href="#i-flame"/></svg> SMOKED IN SMALL BATCHES</span><span><svg class="icon"><use href="#i-truck"/></svg> SHIPS FRESH WEEKLY</span><span><svg class="icon"><use href="#i-heart"/></svg> MADE OF LOVE</span>
+  </div>
+</div>
+
+<!-- ================= SHOP ================= -->
+<section class="block" id="shop">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Shop The Lineup</h2>
+      <p>Six flavors. Zero fillers. Every bag hand-sliced, marinated overnight and smoked until it hits that perfect five-star chew.</p>
+      <div class="rule"></div>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <span class="badge-tag">Best Seller</span>
+        <div class="art a1" aria-hidden="true"><svg class="icon"><use href="#i-steak"/></svg></div>
+        <div class="body">
+          <h3>Papi's Original</h3>
+          <p class="flav">The one that started it all. Salt, sugar, pepper and real smoke. Nothing to hide behind.</p>
+          <div class="meta"><span class="price">$11.99</span><span class="stars-s">★★★★★</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="art a2" aria-hidden="true"><svg class="icon"><use href="#i-chili"/></svg></div>
+        <div class="body">
+          <h3>Cracked Pepper</h3>
+          <p class="flav">Coarse-ground black pepper pressed into every slice. Bold bite, slow burn, big respect.</p>
+          <div class="meta"><span class="price">$11.99</span><span class="stars-s">★★★★★</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="art a3" aria-hidden="true"><svg class="icon"><use href="#i-honey"/></svg></div>
+        <div class="body">
+          <h3>Sweet Heat</h3>
+          <p class="flav">Brown sugar up front, chili finish out back. The flavor that turns first-timers into regulars.</p>
+          <div class="meta"><span class="price">$12.99</span><span class="stars-s">★★★★★</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="art a4" aria-hidden="true"><svg class="icon"><use href="#i-wood"/></svg></div>
+        <div class="body">
+          <h3>Hickory Smoke</h3>
+          <p class="flav">Double-smoked over hickory for the campfire crowd. Tastes like the good part of the weekend.</p>
+          <div class="meta"><span class="price">$11.99</span><span class="stars-s">★★★★☆</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card">
+        <span class="badge-tag"><svg class="icon"><use href="#i-flame"/></svg> Hot</span>
+        <div class="art a5" aria-hidden="true"><svg class="icon"><use href="#i-skull"/></svg></div>
+        <div class="body">
+          <h3>El Fuego de Papi</h3>
+          <p class="flav">Habanero-forward and unapologetic. Papi dares you. Papi also keeps milk in the fridge.</p>
+          <div class="meta"><span class="price">$12.99</span><span class="stars-s">★★★★★</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="art a6" aria-hidden="true"><svg class="icon"><use href="#i-gift"/></svg></div>
+        <div class="body">
+          <h3>The 5-Star Sampler</h3>
+          <p class="flav">All five flavors in one box. The right answer to "which one should I get?"</p>
+          <div class="meta"><span class="price">$49.99</span><span class="stars-s">★★★★★</span></div>
+          <a href="#" class="add">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHY ================= -->
+<section class="block why birth" id="why">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Why Papi's Earns The Five Stars</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="ico" aria-hidden="true"><svg class="icon"><use href="#i-steak"/></svg></div>
+        <h3>Real Flank Steak</h3>
+        <p>Whole-muscle cuts, hand-sliced against the grain. No ground-and-formed anything.</p>
+      </div>
+      <div class="why-item">
+        <div class="ico" aria-hidden="true"><svg class="icon"><use href="#i-hourglass"/></svg></div>
+        <h3>Marinated Overnight</h3>
+        <p>Every batch soaks a full night so the flavor goes all the way through, not just on top.</p>
+      </div>
+      <div class="why-item">
+        <div class="ico" aria-hidden="true"><svg class="icon"><use href="#i-flame"/></svg></div>
+        <h3>Slow-Smoked</h3>
+        <p>Low and slow with natural smoke until it reaches the perfect five-star chew.</p>
+      </div>
+      <div class="why-item">
+        <div class="ico" aria-hidden="true"><svg class="icon"><use href="#i-heart"/></svg></div>
+        <h3>Made Of Love</h3>
+        <p>It's literally the first ingredient on the label. Papi doesn't cut corners. He trims them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= STORY ================= -->
+<section class="block story-scene" id="story">
+  <div class="wrap story-inner">
+    <div class="reveal" data-depth="3">
+      <img class="story-logo float-loop" src="/portfolio/demo-assets/papis/logo-s.jpg" alt="Papi's 5-Star badge logo">
+    </div>
+    <div class="story" data-depth="4">
+      <h2 class="reveal">It Started In Papi's Backyard.</h2>
+      <p id="storyLight">Before the bags and the labels, there was just Papi, a smoker, and a flank steak marinade he refused to write down. Family cookouts turned into neighbors "just stopping by," which turned into a waiting list held together by sticky notes.</p>
+      <p class="reveal">Papi's 5-Star is that same recipe, made the same slow way, just in slightly bigger batches. Every bag is still sliced by hand, marinated overnight, and smoked until Papi himself would rate it five stars.</p>
+      <div class="ingredients reveal">
+        <b>On every label:</b> (made of) Love, Flank Steak, Salt, White Sugar, Brown Sugar, Pepper, Natural Smoke Flavor, Sodium Nitrite.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="block reviews birth" id="reviews">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>The Five Stars Aren't Just In The Name</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="rev-grid">
+      <div class="rev">
+        <span class="stars-s">★★★★★</span>
+        <p>"Ordered the sampler 'to share.' I did not share. The Sweet Heat didn't survive the drive home."</p>
+        <span class="who">Marcus T., Verified Buyer</span>
+      </div>
+      <div class="rev">
+        <span class="stars-s">★★★★★</span>
+        <p>"You can actually tell it's real steak. Great chew, not that cardboard gas-station stuff. Original is my go-to."</p>
+        <span class="who">Dana R., Verified Buyer</span>
+      </div>
+      <div class="rev">
+        <span class="stars-s">★★★★★</span>
+        <p>"El Fuego is no joke. Cried a little, ordered two more bags. Papi knows exactly what he's doing."</p>
+        <span class="who">Chris V., Verified Buyer</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SIGNUP ================= -->
+<section class="block signup">
+  <div class="wrap signup-inner reveal">
+    <h2>Join The Jerky List</h2>
+    <p>New flavors, small-batch drops, and the occasional word from Papi. Plus <b>10% off</b> your first order.</p>
+    <form class="sign-form">
+      <input type="email" placeholder="you@example.com" required aria-label="Email address">
+      <button type="submit">Sign Me Up</button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <img src="/portfolio/demo-assets/papis/logo-s.jpg" alt="">
+          <span>PAPI'S 5-STAR</span>
+        </div>
+        <p>Small-batch beef jerky made of love, flank steak, and everything the label says. Smoked weekly, shipped fresh.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#shop">All Flavors</a></li>
+          <li><a href="#shop">Best Sellers</a></li>
+          <li><a href="#shop">The Sampler</a></li>
+          <li><a href="#shop">Gift Boxes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#story">Our Story</a></li>
+          <li><a href="#why">Why Papi's</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#">Wholesale</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">Shipping &amp; Returns</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Papi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 Papi's 5-Star Beef Jerky. All rights reserved. Five stars or it doesn't leave the smoker.</div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

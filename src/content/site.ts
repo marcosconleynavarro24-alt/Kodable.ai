@@ -114,7 +114,8 @@ export interface SiteContent {
     copyright: string;
     privacy: string;
     terms: string;
-    footnote: string;
+    legal: string;
+    cookies: string;
     call: string;
   };
   common: {
@@ -132,7 +133,7 @@ export interface SiteContent {
 const navHrefs = [
   { key: "services", href: "/services" },
   { key: "pricing", href: "/pricing" },
-  { key: "casos", href: "/casos" },
+  { key: "portfolio", href: "/portfolio" },
   { key: "blog", href: "/blog" },
   { key: "faq", href: "/faq" },
   { key: "contact", href: "/contact" },
@@ -146,7 +147,7 @@ const en: SiteContent = {
       label: {
         services: "Services",
         pricing: "Pricing",
-        casos: "Cases",
+        portfolio: "Portfolio",
         blog: "Blog",
         faq: "FAQ",
         contact: "Contact",
@@ -323,8 +324,8 @@ const en: SiteContent = {
     copyright: "© 2026 Kodable.ai",
     privacy: "Privacy",
     terms: "Terms",
-    footnote:
-      "Under the hood: AI-assisted builds, local SEO and schema, app integrations, automatic backups, SSL and a care plan that keeps everything online and updated. You'll never need to think about any of it. That's the point.",
+    legal: "Legal notice",
+    cookies: "Cookies",
     call: "Call",
   },
   common: {
@@ -345,7 +346,7 @@ const es: SiteContent = {
       label: {
         services: "Servicios",
         pricing: "Precios",
-        casos: "Casos",
+        portfolio: "Portfolio",
         blog: "Blog",
         faq: "Preguntas",
         contact: "Contacto",
@@ -522,8 +523,8 @@ const es: SiteContent = {
     copyright: "© 2026 Kodable.ai",
     privacy: "Privacidad",
     terms: "Términos",
-    footnote:
-      "Por dentro: construcción asistida por IA, SEO local y schema, integraciones, copias de seguridad automáticas, SSL y un plan de cuidado que lo mantiene todo online y al día. No tendrás que pensar en nada de eso. Esa es la idea.",
+    legal: "Aviso legal",
+    cookies: "Cookies",
     call: "Llamar",
   },
   common: {
@@ -544,7 +545,7 @@ const fr: SiteContent = {
       label: {
         services: "Services",
         pricing: "Tarifs",
-        casos: "Cas clients",
+        portfolio: "Portfolio",
         blog: "Blog",
         faq: "FAQ",
         contact: "Contact",
@@ -721,8 +722,8 @@ const fr: SiteContent = {
     copyright: "© 2026 Kodable.ai",
     privacy: "Confidentialité",
     terms: "Conditions",
-    footnote:
-      "Sous le capot : des créations assistées par IA, du SEO local et du schema, des intégrations d'applications, des sauvegardes automatiques, le SSL et un plan d'entretien qui garde tout en ligne et à jour. Vous n'aurez jamais à y penser. C'est tout l'intérêt.",
+    legal: "Mentions légales",
+    cookies: "Cookies",
     call: "Appeler",
   },
   common: {
@@ -743,7 +744,7 @@ const de: SiteContent = {
       label: {
         services: "Leistungen",
         pricing: "Preise",
-        casos: "Projekte",
+        portfolio: "Portfolio",
         blog: "Blog",
         faq: "Fragen",
         contact: "Kontakt",
@@ -920,8 +921,8 @@ const de: SiteContent = {
     copyright: "© 2026 Kodable.ai",
     privacy: "Datenschutz",
     terms: "AGB",
-    footnote:
-      "Unter der Haube: KI-gestützte Entwicklung, lokales SEO und schema, App-Integrationen, automatische Backups, SSL und ein Care-Plan, der alles online und aktuell hält. Du musst nie an irgendwas davon denken. Genau das ist der Punkt.",
+    legal: "Impressum",
+    cookies: "Cookies",
     call: "Anrufen",
   },
   common: {
@@ -942,7 +943,7 @@ const it: SiteContent = {
       label: {
         services: "Servizi",
         pricing: "Prezzi",
-        casos: "Casi",
+        portfolio: "Portfolio",
         blog: "Blog",
         faq: "Domande",
         contact: "Contatti",
@@ -1119,8 +1120,8 @@ const it: SiteContent = {
     copyright: "© 2026 Kodable.ai",
     privacy: "Privacy",
     terms: "Termini",
-    footnote:
-      "Dietro le quinte: realizzazione assistita dall'IA, SEO locale e schema, integrazioni, backup automatici, SSL e un piano di assistenza che tiene tutto online e aggiornato. Non dovrai pensare a nulla di tutto questo. È proprio questo il punto.",
+    legal: "Note legali",
+    cookies: "Cookie",
     call: "Chiama",
   },
   common: {

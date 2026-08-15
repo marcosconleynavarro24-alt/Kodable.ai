@@ -1,5 +1,5 @@
 // Client-onboarding intake: everything we need to build the site in 7 days,
-// collected in one shot. Validation is deliberately light — this is a paying
+// collected in one shot. Validation is deliberately light - this is a paying
 // (or about-to-pay) client, not a cold lead; the enemy is friction, not spam.
 // Spam traps (honeypot/time/rate) are still applied at the route level via
 // the shared helpers in lib/leads.
@@ -19,7 +19,7 @@ export interface OnboardingInput {
   domain?: unknown;
   social?: unknown;
   notes?: unknown;
-  companyUrl?: unknown; // honeypot — must stay empty
+  companyUrl?: unknown; // honeypot - must stay empty
   t0?: unknown; // time-trap
 }
 
@@ -54,7 +54,7 @@ export function validateOnboarding(
   if (!business) errors.business = "Necesitamos el nombre del negocio.";
   if (!name) errors.name = "¿Con quién hablamos?";
   if (!phone) errors.phone = "Sin teléfono no podemos avanzar (usamos WhatsApp).";
-  if (!hours) errors.hours = "Los horarios van en la web — los necesitamos.";
+  if (!hours) errors.hours = "Los horarios van en la web - los necesitamos.";
   if (!description) errors.description = "Dos líneas bastan.";
   if (Object.keys(errors).length) return { ok: false, errors };
   return {

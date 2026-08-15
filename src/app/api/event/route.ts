@@ -1,4 +1,4 @@
-// POST /api/event — record a privacy-first conversion event (WhatsApp/call/email
+// POST /api/event - record a privacy-first conversion event (WhatsApp/call/email
 // tap, or a lead submit). No cookies, no PII. Fire-and-forget from the client.
 import { recordEvent, isEventType } from "@/lib/events";
 

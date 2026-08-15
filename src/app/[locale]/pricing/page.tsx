@@ -11,7 +11,7 @@ import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
 
 // Combined pricing page: switch between websites and AI-agents price tables
-// only (owner directive 2026-07-10: no custom-tools / automations here — those
+// only (owner directive 2026-07-10: no custom-tools / automations here, those
 // stay quote-led on their service pages).
 
 const COPY: Record<

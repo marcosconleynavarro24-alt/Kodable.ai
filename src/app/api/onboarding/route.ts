@@ -1,4 +1,4 @@
-// POST /api/onboarding — the new-client intake form backend.
+// POST /api/onboarding - the new-client intake form backend.
 // Same defensive shape as /api/lead (honeypot, time-trap, rate limit, last-hop
 // IP), lighter validation: the sender is a client, not a cold visitor.
 import { isSpam, tooFast, rateLimited, type LeadInput } from "@/lib/leads";
@@ -39,7 +39,7 @@ export async function POST(request: Request) {
   }
   if (rateLimited(clientIp(request))) {
     return Response.json(
-      { ok: false, errors: { form: "Demasiados intentos — prueba en unos minutos." } },
+      { ok: false, errors: { form: "Demasiados intentos - prueba en unos minutos." } },
       { status: 429 },
     );
   }
