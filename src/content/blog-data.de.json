@@ -18,6 +18,7 @@
       "2026 läuft das Programm, bis die Mittel aufgebraucht sind, machen Sie sich jetzt bereit, denn es wird nach dem Windhundprinzip vergeben."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "get-found-in-ai-search"
     ],
     "cta": {
@@ -277,6 +278,7 @@
       "Was wirklich funktioniert, ist unglamourös und durch Daten belegt: beantworte echte Fragen klar, untermauere es mit echtem Detail, pflege dein Google-Unternehmensprofil und deine Bewertungen, verdiene dir ehrliche Erwähnungen und halte die Seite schnell."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "kit-digital-2026"
     ],
     "cta": {
@@ -452,6 +454,177 @@
       {
         "type": "p",
         "text": "Du veröffentlichst nicht in ChatGPT. Diese Werkzeuge schöpfen aus dem offenen Web, deiner Seite, deinem Google-Profil, deinen Bewertungen, deinen Erwähnungen. Mach das richtig, und du tauchst in der Antwort auf, egal wo die Frage gestellt wird."
+      }
+    ]
+  },
+  {
+    "slug": "ai-agent-for-small-business",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Was ein KI-Agent für ein kleines Unternehmen wirklich tut",
+    "description": "KI-Agent ist das Buzzword von 2026, aber was tut so einer wirklich für ein kleines Unternehmen? Ein Rundgang in klarer Sprache: Kunden rund um die Uhr antworten, Leads einfangen, während du arbeitest, Termine buchen, und wissen, wann ein Mensch übernehmen muss.",
+    "dek": "Jede Anfrage, die du nach Feierabend verpasst, ist ein Kunde, dem jemand anderes geantwortet hat. Hier ist, was ein KI-Agent für ein kleines Unternehmen wirklich tut, in klarer Sprache, und was er nie für dich tun wird.",
+    "keyword": "AI agent for small business",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-08-15",
+    "ogImage": "ai-agent-for-small-business.jpg",
+    "readMinutes": 9,
+    "takeaways": [
+      "Ein KI-Agent ist kein Pop-up-Chatbot mit vorgefertigten Antworten. Er versteht Fragen in normaler Sprache, antwortet aus deinen echten Unternehmensinformationen und handelt: buchen, Daten aufnehmen, an dich übergeben.",
+      "Seine Hauptaufgabe ist brutal einfach: da sein, wenn du es nicht kannst. Abende, Wochenenden und die Stunden, in denen du mit der eigentlichen Arbeit beschäftigt bist, sind genau die Zeiten, in denen Anfragen verloren gehen.",
+      "Bei neuen Leads entscheidet allein das Tempo. Die Daten zeigen: Die ersten Minuten entscheiden, ob du diese Person je erreichst, und ein Agent antwortet in Sekunden, jedes Mal.",
+      "Ein Agent verwandelt die Nachfrage, die du schon hast; er erfindet keine neue. Er braucht außerdem deine echten Antworten als Grundlage und eine klare Übergabe an einen Menschen für alles, was er nicht entscheiden sollte."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Sieh, was ein Agent für dich übernehmen könnte"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-agent-day.svg",
+        "alt": "Zeitleiste eines Tages in einem kleinen Unternehmen: Anfragen kommen zu jeder Uhrzeit, und ein KI-Agent beantwortet jede in Sekunden, bucht Termine und reicht die schwierigen an den Inhaber weiter",
+        "caption": "Ein ganz normaler Tag: Anfragen halten sich nicht an Öffnungszeiten. Ein Agent beantwortet jede in Sekunden, bucht, was er kann, und übergibt den Rest an dich."
+      },
+      {
+        "type": "p",
+        "text": "Jemand findet dein Unternehmen um 21:40 Uhr an einem Dienstagabend. Die Person hat eine Frage, vielleicht zwei, und ist bereit zu buchen. Du schläfst, sitzt beim Abendessen oder steckst bis zu den Ellbogen in der Arbeit, für die du bezahlt wirst. Am nächsten Morgen hat diese Person jemand anderen gefragt. **KI-Agent** ist das Buzzword, das an der Lösung dieses Problems klebt, und wie die meisten Buzzwords wird es benutzt, um alles Mögliche zu verkaufen. Also lass uns präzise sein, was so einer wirklich tut."
+      },
+      {
+        "type": "h2",
+        "text": "Zuerst: Was ein KI-Agent wirklich ist"
+      },
+      {
+        "type": "p",
+        "text": "Du kennst den alten Website-Chatbot: ein Widget mit fünf Buttons und vorgefertigten Antworten, hilfreich genau bis zu dem Moment, in dem du eine echte Frage stellst. Ein **KI-Agent** ist ein anderes Tier. Er läuft auf derselben Art von KI wie ChatGPT, ist aber mit **deinen** Informationen eingerichtet: deine Leistungen, deine Öffnungszeiten, deine Regeln, deine Preise, wenn du willst, dein Ton. Frag ihn etwas in normaler Sprache, mitten in der Nacht, mit Tippfehlern, und er antwortet wie ein gut eingearbeiteter Mitarbeiter."
+      },
+      {
+        "type": "p",
+        "text": "Das Wort **Agent** ist wichtig, denn Antworten ist nur die halbe Arbeit. Ein richtiger Agent kann auch **handeln**: eine Buchung annehmen, die Daten und das Anliegen einer Person aufnehmen, eine Bestätigung senden und das Gespräch für einen Menschen markieren, wenn es nötig ist. Das ist die Grenze zwischen einem Chatbot, der redet, und einem Agenten, der arbeitet."
+      },
+      {
+        "type": "h2",
+        "text": "Das echte Problem, das er löst: Du kannst nicht alles beantworten"
+      },
+      {
+        "type": "p",
+        "text": "Ein kleines Unternehmen verpasst Anfragen aus dem ehrlichsten Grund, den es gibt: Alle sind mit der Arbeit beschäftigt. Der Installateur liegt unter der Spüle. Die Praxis ist beim Patienten. Das Restaurant steckt mitten im Service. Und viel Nachfrage kommt sowieso außerhalb der Öffnungszeiten, weil Leute dann suchen, wenn **sie** frei haben, nicht wenn du es hast. Keine dieser Anfragen meldet sich zweimal."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "Antworte innerhalb von etwa fünf Minuten, und deine Chancen, einen neuen Lead zu erreichen und zu qualifizieren, sind dramatisch höher, als wenn du auch nur eine halbe Stunde wartest. Die Geschwindigkeit der ersten Antwort ist der am besten untersuchte Hebel im Lead-Response.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Das ist die unbequeme Rechnung: Es ist selten die Qualität deiner Arbeit, die den Lead verliert, es ist die **Lücke zwischen ihrer Frage und deiner Antwort**. Ein Agent schließt diese Lücke auf Sekunden, um 14 Uhr und um 2 Uhr nachts, am Tag vor einem Feiertag und an dem Samstag, den du dir endlich freigenommen hast."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein gut gebauter Agent in einer normalen Woche erledigt"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Beantwortet die Fragen, die sich wiederholen",
+            "body": "Jedes Unternehmen hat dieselben zehn Fragen in Dauerschleife: Macht ihr X, was kostet das ungefähr, wo seid ihr, kann ich Samstag kommen. Der Agent beantwortet sie sofort und korrekt, aus Informationen, die du freigegeben hast, was dich außerdem davon befreit, dieselbe Antwort zum hundertsten Mal zu tippen."
+          },
+          {
+            "title": "Fängt den Lead ein, solange das Interesse heiß ist",
+            "body": "Wenn der Besucher ein potenzieller Kunde ist, tut der Agent, was eine gute Empfangskraft tut: Er holt Name, Kontaktdaten und Anliegen ein, direkt im Gespräch. Selbst wenn bis zum Morgen nichts weiter passiert, ist der Lead eingefangen statt verloren."
+          },
+          {
+            "title": "Bucht, bestätigt und erinnert",
+            "body": "Mit deinem Kalender verbunden, bietet der Agent echte freie Termine an, bucht den Termin und sendet die Bestätigung. Erinnerungen senken die No-Shows, die einem Dienstleistungsbetrieb leise die Woche auffressen."
+          },
+          {
+            "title": "Übergibt im richtigen Moment an einen Menschen",
+            "body": "Eine Beschwerde, eine Verhandlung, eine ungewöhnliche Anfrage, alles Sensible: Ein gut konfigurierter Agent erkennt die Grenze, sagt es ehrlich und reicht das Gespräch mit dem vollen Kontext an dich weiter, statt zu improvisieren."
+          },
+          {
+            "title": "Schreibt alles mit",
+            "body": "Jedes Gespräch wird protokolliert: wer gefragt hat, was gewünscht war, was danach passiert ist. Nach ein paar Wochen siehst du, nach welchen Fragen und Leistungen die Leute wirklich fragen, und das sind Marketinginformationen, die die meisten kleinen Unternehmen nie hatten."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Eine ehrliche Anmerkung",
+        "body": "Ein Agent ist nur so gut wie das, was du ihm gibst. Füttere ihn mit vagen oder veralteten Informationen, und er gibt vage oder veraltete Antworten, nur schneller. Die Einrichtungsarbeit, also zu entscheiden, was er sagen soll, was er nie versprechen darf und wann er übergibt, ist der Ort, an dem der echte Wert entsteht. Diesen Teil machen Menschen, einmal, und dann wiederholt ihn der Agent perfekt."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein KI-Agent nicht ist"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Ein Ersatz für dich.** Er übernimmt die repetitive Eingangstür, damit deine Zeit in die Arbeit und die Gespräche fließt, die wirklich einen Menschen brauchen.",
+          "**Ein generisches Widget zum Einschalten.** Der Wert kommt aus der Konfiguration: deine Leistungen, deine Regeln, dein Ton, dein Kalender. Ein Agent, der nichts über dein Unternehmen weiß, ist nur ein Chatbot mit besserer Grammatik.",
+          "**Einrichten und vergessen.** Preise ändern sich, Öffnungszeiten ändern sich, Leistungen ändern sich. Ein Agent braucht dieselbe gelegentliche Pflege wie deine Website, sonst erzählt er den Leuten irgendwann selbstbewusst die Wahrheit vom letzten Jahr.",
+          "**Eine Quelle neuer Nachfrage.** Er verwandelt die Anfragen, die du schon bekommst und sonst verpassen würdest. Wenn dich gar niemand findet, kümmere dich zuerst ums [Gefundenwerden](~/blog/get-found-in-ai-search)."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Die Unternehmen, die mit KI-Agenten gewinnen, machen nichts Raffiniertes. Sie sind einfach die, die antworten, jedes Mal, in Sekunden.",
+        "cite": "Das Kodable-Team"
+      },
+      {
+        "type": "h2",
+        "text": "Wie Kodable hilft"
+      },
+      {
+        "type": "p",
+        "text": "Wir bauen [KI-Agenten](~/services/ai-agents), die für ein bestimmtes Unternehmen konfiguriert sind: deins. Deine Leistungen, deine Regeln, dein Kalender, dein Ton, in deiner Sprache und der Sprache deiner Kunden, mit klaren Grenzen und einer sauberen Übergabe an dich. Kein generisches Widget und keine Versprechen, die ein Agent nicht halten kann."
+      },
+      {
+        "type": "cta",
+        "title": "Sieh, was ein Agent dir abnehmen könnte",
+        "body": "Erzähl uns in einem 15-minütigen Gespräch, wie Anfragen heute bei dir ankommen. Wir zeigen dir, was ein Agent für dein Unternehmen beantworten, buchen und einfangen könnte, und was menschlich bleiben sollte.",
+        "button": "Sprich mit uns"
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Ist das einfach ChatGPT auf meiner Website?"
+      },
+      {
+        "type": "p",
+        "text": "Dieselbe Technologiefamilie, ein sehr anderes Setup. ChatGPT kennt das Internet; ein Agent kennt dein Unternehmen und sagt nur, was du freigegeben hast. Er verbindet sich außerdem mit echten Dingen wie deinem Kalender und deinem Posteingang, was ein einfaches Chatfenster nicht kann."
+      },
+      {
+        "type": "h3",
+        "text": "Nervt es Kunden, mit einer KI zu sprechen?"
+      },
+      {
+        "type": "p",
+        "text": "Menschen nerven Sackgassen, nicht Software. Ein Agent, der um 23 Uhr die eigentliche Frage beantwortet, schlägt ein Kontaktformular, das in zwei Tagen antwortet. Offen zu sagen, dass es ein Assistent ist, und sauber an einen Menschen zu übergeben, gehört dazu, wenn man es richtig macht."
+      },
+      {
+        "type": "h3",
+        "text": "Was passiert, wenn er die Antwort nicht kennt?"
+      },
+      {
+        "type": "p",
+        "text": "Ein gut gebauter Agent sagt es, nimmt die Daten der Person auf und reicht das Gespräch mit Kontext an dich weiter. Der Fehlermodus, den es zu vermeiden gilt, ist ein Agent, der rät; das ist eine Konfigurationsentscheidung, und wir stellen unsere so ein, dass sie es nie tun."
+      },
+      {
+        "type": "h3",
+        "text": "Funktioniert das auf WhatsApp oder nur auf meiner Website?"
+      },
+      {
+        "type": "p",
+        "text": "Derselbe Agent kann hinter mehreren Türen sitzen: dein Website-Chat, WhatsApp, sogar die Nachfassnachricht nach einem verpassten Anruf. Wo er lebt, hängt davon ab, wo deine Kunden dir heute schon schreiben."
       }
     ]
   }

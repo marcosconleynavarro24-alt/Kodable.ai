@@ -18,6 +18,7 @@
       "En 2026 el programa funciona hasta agotar los fondos: prepárate ya, porque se reparte por orden de llegada."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "get-found-in-ai-search"
     ],
     "cta": {
@@ -277,6 +278,7 @@
       "Lo que de verdad funciona es poco glamuroso y está respaldado por datos: responde a preguntas reales con claridad, respáldalo con detalle real, cuida tu Perfil de Empresa en Google y tus reseñas, gánate menciones honestas y mantén la web rápida."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "kit-digital-2026"
     ],
     "cta": {
@@ -452,6 +454,177 @@
       {
         "type": "p",
         "text": "No publicas dentro de ChatGPT. Estas herramientas beben de la web abierta, tu sitio, tu perfil de Google, tus reseñas, tus menciones. Ten eso bien y aparecerás en la respuesta, se pregunte donde se pregunte."
+      }
+    ]
+  },
+  {
+    "slug": "ai-agent-for-small-business",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Qué hace de verdad un agente de IA por un pequeño negocio",
+    "description": "Agente de IA es la palabra de moda de 2026, pero ¿qué hace uno realmente por un pequeño negocio? Un recorrido en lenguaje claro: responder a clientes 24/7, captar leads mientras trabajas, reservar citas y saber cuándo pasar la conversación a una persona.",
+    "dek": "Cada consulta que se te escapa fuera de horario es un cliente al que respondió otro. Esto es lo que hace de verdad un agente de IA por un pequeño negocio, en lenguaje claro, y lo que nunca hará por ti.",
+    "keyword": "AI agent for small business",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-08-15",
+    "ogImage": "ai-agent-for-small-business.jpg",
+    "readMinutes": 9,
+    "takeaways": [
+      "Un agente de IA no es un chatbot emergente con respuestas enlatadas. Entiende preguntas en lenguaje normal, responde con la información real de tu negocio y actúa: reserva, recoge datos, te pasa la conversación.",
+      "Su trabajo principal es brutalmente simple: estar ahí cuando tú no puedes. Las tardes, los fines de semana y las horas en que estás ocupado con el trabajo de verdad son justo cuando se escapan las consultas.",
+      "Con los leads nuevos, la velocidad lo es todo. Los datos dicen que los primeros minutos deciden si llegarás a hablar con esa persona, y un agente responde en segundos, siempre.",
+      "Un agente convierte la demanda que ya tienes; no inventa demanda nueva. También necesita tus respuestas reales para trabajar, y un traspaso claro a una persona para todo lo que no debe decidir."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Descubre lo que un agente podría gestionar por ti"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-agent-day.svg",
+        "alt": "Cronología de un día en un pequeño negocio: las consultas llegan a cualquier hora, y un agente de IA responde a cada una en segundos, reserva citas y pasa las difíciles al dueño",
+        "caption": "Un día cualquiera: las consultas no respetan el horario comercial. Un agente responde a cada una en segundos, reserva lo que puede y te pasa el resto."
+      },
+      {
+        "type": "p",
+        "text": "Alguien encuentra tu negocio un martes a las 21:40. Tiene una pregunta, quizá dos, y está listo para reservar. Tú estás durmiendo, o cenando, o metido de lleno en el trabajo por el que te pagan. Por la mañana, esa persona ya le ha preguntado a otro. **Agente de IA** es la palabra de moda asociada a resolver esto y, como casi todas las palabras de moda, se usa para vender de todo. Así que seamos precisos sobre lo que uno hace realmente."
+      },
+      {
+        "type": "h2",
+        "text": "Primero, qué es realmente un agente de IA"
+      },
+      {
+        "type": "p",
+        "text": "Ya conoces el chatbot de web de toda la vida: un widget con cinco botones y respuestas enlatadas, útil hasta que haces una pregunta de verdad. Un **agente de IA** es otra cosa. Funciona con el mismo tipo de IA que hay detrás de ChatGPT, pero está configurado con **tu** información: tus servicios, tus horarios, tus políticas, tus precios si quieres, tu tono. Pregúntale algo en lenguaje normal, en plena madrugada, con faltas de ortografía, y responde como lo haría un empleado bien informado."
+      },
+      {
+        "type": "p",
+        "text": "La palabra **agente** importa, porque responder es solo la mitad del trabajo. Un agente de verdad también puede **actuar**: tomar una reserva, recoger los datos de quien escribe y lo que necesita, enviar una confirmación y marcar la conversación para una persona cuando toca. Esa es la línea entre un chatbot que habla y un agente que trabaja."
+      },
+      {
+        "type": "h2",
+        "text": "El problema real que resuelve: no puedes responder a todo"
+      },
+      {
+        "type": "p",
+        "text": "Un pequeño negocio pierde consultas por la razón más honesta que existe: todo el mundo está ocupado haciendo el trabajo. El fontanero está debajo de un fregadero. La clínica está con un paciente. El restaurante está en pleno servicio. Y mucha demanda llega de todos modos fuera del horario, porque la gente busca cuando **ellos** pueden, no cuando puedes tú. Ninguna de esas consultas se anuncia dos veces."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "responde en unos cinco minutos y tendrás muchas más probabilidades de contactar y cualificar a un lead nuevo que si esperas aunque sea media hora. La velocidad de la primera respuesta es la palanca más estudiada en la gestión de leads.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Esa es la aritmética incómoda: rara vez es la calidad de tu trabajo lo que pierde el lead, es el **hueco entre su pregunta y tu respuesta**. Un agente reduce ese hueco a segundos, a las 2 de la tarde y a las 2 de la madrugada, la víspera de un festivo y el sábado que por fin te tomaste libre."
+      },
+      {
+        "type": "h2",
+        "text": "Lo que un agente bien construido gestiona en una semana normal"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Responde a las preguntas que se repiten",
+            "body": "Todos los negocios tienen las mismas diez preguntas en bucle: hacéis X, cuánto cuesta más o menos, dónde estáis, puedo ir el sábado. El agente las responde al instante y con precisión, a partir de información que tú has aprobado, lo que además te libra de escribir la misma respuesta por centésima vez."
+          },
+          {
+            "title": "Capta el lead mientras el interés está caliente",
+            "body": "Cuando el visitante es un cliente potencial, el agente hace lo que haría una buena recepcionista: consigue su nombre, sus datos de contacto y lo que necesita, ahí mismo, en la conversación. Aunque no pase nada más hasta la mañana siguiente, el lead queda captado en vez de perdido."
+          },
+          {
+            "title": "Reserva, confirma y recuerda",
+            "body": "Conectado a tu calendario, el agente ofrece huecos realmente disponibles, reserva la cita y envía la confirmación. Los recordatorios reducen las ausencias que, sin hacer ruido, se comen la semana de un negocio de servicios."
+          },
+          {
+            "title": "Pasa la conversación a una persona en el momento justo",
+            "body": "Una queja, una negociación, una petición inusual, cualquier tema delicado: un agente bien configurado reconoce el límite, lo dice con honestidad y te pasa la conversación con todo el contexto, en lugar de improvisar."
+          },
+          {
+            "title": "Lo deja todo por escrito",
+            "body": "Cada conversación queda registrada: quién preguntó, qué quería, qué pasó después. Al cabo de unas semanas puedes ver qué preguntas y servicios interesan de verdad a la gente, una información de marketing que la mayoría de pequeños negocios nunca ha tenido."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Una nota honesta",
+        "body": "Un agente es tan bueno como lo que le das. Aliméntalo con información vaga o desactualizada y dará respuestas vagas o desactualizadas, más rápido. El trabajo de configuración, decidir qué debe decir, qué no debe prometer nunca y cuándo pasa la conversación, es donde se construye el valor real. Esa parte la hacen personas, una vez, y después el agente la repite a la perfección."
+      },
+      {
+        "type": "h2",
+        "text": "Lo que un agente de IA no es"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Un sustituto de ti.** Se encarga de la puerta de entrada repetitiva para que tu tiempo vaya al trabajo y a las conversaciones que de verdad necesitan a una persona.",
+          "**Un widget genérico que se enciende y ya.** El valor está en la configuración: tus servicios, tus reglas, tu tono, tu calendario. Un agente que no sabe nada de tu negocio es solo un chatbot con mejor gramática.",
+          "**Algo que configuras y olvidas.** Los precios cambian, los horarios cambian, los servicios cambian. Un agente necesita el mismo mantenimiento ocasional que tu web, o empezará a contarle a la gente, con total seguridad, la verdad del año pasado.",
+          "**Una fuente de demanda nueva.** Convierte las consultas que ya recibes y que de otro modo perderías. Si nadie te está encontrando, arregla primero [que te encuentren](~/blog/get-found-in-ai-search)."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Los negocios que están ganando con agentes de IA no hacen nada ingenioso. Simplemente son los que responden, siempre, en segundos.",
+        "cite": "El equipo de Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Cómo ayuda Kodable"
+      },
+      {
+        "type": "p",
+        "text": "Construimos [agentes de IA](~/services/ai-agents) configurados para un negocio concreto: el tuyo. Tus servicios, tus reglas, tu calendario, tu tono, en tu idioma y en el de tus clientes, con límites claros y un traspaso limpio hacia ti. Sin widgets genéricos y sin promesas que un agente no puede cumplir."
+      },
+      {
+        "type": "cta",
+        "title": "Descubre lo que un agente podría quitarte de encima",
+        "body": "Cuéntanos cómo te llegan las consultas hoy, en una llamada de 15 minutos. Te diremos qué podría responder, reservar y captar un agente para tu negocio, y qué debería seguir en manos humanas.",
+        "button": "Habla con nosotros"
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿Esto es solo ChatGPT en mi web?"
+      },
+      {
+        "type": "p",
+        "text": "La misma familia de tecnología, una configuración muy distinta. ChatGPT conoce internet; un agente conoce tu negocio, y solo dice lo que tú has aprobado. Además se conecta a cosas reales, como tu calendario y tu correo, algo que una simple ventana de chat no puede hacer."
+      },
+      {
+        "type": "h3",
+        "text": "¿Les molestará a los clientes hablar con una IA?"
+      },
+      {
+        "type": "p",
+        "text": "A la gente le molestan los callejones sin salida, no el software. Un agente que responde a la pregunta concreta a las 23:00 gana a un formulario de contacto que contesta en dos días. Ser transparente con que es un asistente, y pasar la conversación a una persona con naturalidad, es parte de hacerlo bien."
+      },
+      {
+        "type": "h3",
+        "text": "¿Qué pasa cuando no sabe la respuesta?"
+      },
+      {
+        "type": "p",
+        "text": "Un agente bien construido lo dice, toma los datos de la persona y te pasa la conversación con contexto. El modo de fallo que hay que evitar es un agente que se inventa cosas; eso es una decisión de configuración, y los nuestros están ajustados para no hacerlo nunca."
+      },
+      {
+        "type": "h3",
+        "text": "¿Funciona en WhatsApp o solo en mi web?"
+      },
+      {
+        "type": "p",
+        "text": "El mismo agente puede estar detrás de varias puertas: el chat de tu web, WhatsApp, incluso el seguimiento de una llamada perdida. Dónde vive depende de dónde te escriben ya tus clientes."
       }
     ]
   }

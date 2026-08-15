@@ -18,6 +18,7 @@
       "En 2026, le programme reste ouvert jusqu'à épuisement des fonds : préparez-vous dès maintenant, car les aides sont attribuées par ordre d'arrivée."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "get-found-in-ai-search"
     ],
     "cta": {
@@ -277,6 +278,7 @@
       "Ce qui marche vraiment est peu glamour et étayé par des données : répondez clairement à de vraies questions, appuyez-le sur du concret, soignez votre fiche d'établissement Google et vos avis, gagnez des mentions honnêtes et gardez le site rapide."
     ],
     "related": [
+      "ai-agent-for-small-business",
       "kit-digital-2026"
     ],
     "cta": {
@@ -452,6 +454,177 @@
       {
         "type": "p",
         "text": "Vous ne publiez pas dans ChatGPT. Ces outils puisent dans le web ouvert, votre site, votre profil Google, vos avis, vos mentions. Faites ça bien et vous apparaîtrez dans la réponse, où que la question soit posée."
+      }
+    ]
+  },
+  {
+    "slug": "ai-agent-for-small-business",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "Ce qu'un agent IA fait vraiment pour une petite entreprise",
+    "description": "Agent IA, c'est le mot à la mode de 2026, mais qu'est-ce qu'un agent fait vraiment pour une petite entreprise ? Un tour d'horizon en langage clair : répondre aux clients 24h/24 et 7j/7, capter les prospects pendant que vous travaillez, prendre les rendez-vous et savoir quand passer la main à un humain.",
+    "dek": "Chaque demande manquée après la fermeture est un client à qui quelqu'un d'autre a répondu. Voici ce qu'un agent IA fait vraiment pour une petite entreprise, en langage clair, et ce qu'il ne fera jamais pour vous.",
+    "keyword": "AI agent for small business",
+    "author": "L'équipe Kodable",
+    "datePublished": "2026-08-15",
+    "ogImage": "ai-agent-for-small-business.jpg",
+    "readMinutes": 9,
+    "takeaways": [
+      "Un agent IA n'est pas un chatbot en pop-up aux réponses toutes faites. Il comprend les questions en langage courant, répond à partir des vraies informations de votre entreprise et agit : réserver, recueillir des coordonnées, vous passer la main.",
+      "Sa mission principale est d'une simplicité brutale : être là quand vous ne pouvez pas l'être. Les soirées, les week-ends et les heures où vous êtes occupé à faire le vrai travail sont exactement les moments où les demandes s'échappent.",
+      "La rapidité, c'est tout l'enjeu avec les nouveaux prospects. Les données montrent que les premières minutes décident si vous joindrez un jour cette personne, et un agent répond en quelques secondes, à chaque fois.",
+      "Un agent convertit la demande que vous avez déjà ; il n'en invente pas de nouvelle. Il a aussi besoin de vos vraies réponses pour travailler, et d'un passage de relais clair vers un humain pour tout ce qu'il ne doit pas décider."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "kit-digital-2026"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "Voyez ce qu'un agent pourrait gérer pour vous"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-agent-day.svg",
+        "alt": "La chronologie d'une journée dans une petite entreprise : les demandes arrivent à toute heure, et un agent IA répond à chacune en quelques secondes, prend les rendez-vous et transmet les cas difficiles au patron",
+        "caption": "Une journée ordinaire : les demandes ne respectent pas les horaires d'ouverture. Un agent répond à chacune en quelques secondes, réserve ce qu'il peut et vous transmet le reste."
+      },
+      {
+        "type": "p",
+        "text": "Quelqu'un trouve votre entreprise à 21 h 40 un mardi soir. Il a une question, peut-être deux, et il est prêt à réserver. Vous dormez, ou vous dînez, ou vous êtes plongé jusqu'aux coudes dans le vrai travail pour lequel on vous paie. Au matin, cette personne a demandé à quelqu'un d'autre. **Agent IA**, c'est le mot à la mode accolé à ce problème, et comme la plupart des mots à la mode, il sert à vendre tout et n'importe quoi. Alors soyons précis sur ce qu'un agent fait vraiment."
+      },
+      {
+        "type": "h2",
+        "text": "D'abord, ce qu'est vraiment un agent IA"
+      },
+      {
+        "type": "p",
+        "text": "Vous avez déjà croisé le vieux chatbot de site web : un widget avec cinq boutons et des réponses toutes faites, utile jusqu'au moment où vous posez une vraie question. Un **agent IA** est un tout autre animal. Il fonctionne avec le même type d'IA que ChatGPT, mais il est configuré avec **vos** informations : vos services, vos horaires, vos règles, vos prix si vous le souhaitez, votre ton. Posez-lui une question en langage courant, en pleine nuit, avec des fautes de frappe, et il répond comme le ferait un employé bien briefé."
+      },
+      {
+        "type": "p",
+        "text": "Le mot **agent** compte, car répondre n'est que la moitié du travail. Un vrai agent peut aussi **agir** : prendre une réservation, recueillir les coordonnées d'un client et ce dont il a besoin, envoyer une confirmation et signaler la conversation à un humain quand il le faut. C'est la frontière entre un chatbot qui parle et un agent qui travaille."
+      },
+      {
+        "type": "h2",
+        "text": "Le vrai problème qu'il résout : vous ne pouvez pas répondre à tout"
+      },
+      {
+        "type": "p",
+        "text": "Une petite entreprise manque des demandes pour la raison la plus honnête qui soit : tout le monde est occupé à faire le travail. Le plombier est sous un évier. La clinique est avec un patient. Le restaurant est en plein service. Et une grande partie de la demande arrive de toute façon en dehors des heures d'ouverture, parce que les gens cherchent quand **eux** sont libres, pas quand vous l'êtes. Aucune de ces demandes ne se présente deux fois."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "répondez dans les cinq minutes environ et vous avez nettement plus de chances de joindre et de qualifier un nouveau prospect que si vous attendez ne serait-ce qu'une demi-heure. La rapidité de la première réponse est le levier le plus étudié de la gestion des prospects.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Voilà l'arithmétique inconfortable : ce n'est presque jamais la qualité de votre travail qui fait perdre le prospect, c'est **l'écart entre sa question et votre réponse**. Un agent réduit cet écart à quelques secondes, à 14 h comme à 2 h du matin, la veille d'un jour férié, et le samedi où vous avez enfin pris congé."
+      },
+      {
+        "type": "h2",
+        "text": "Ce qu'un agent bien construit gère au cours d'une semaine normale"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Répond aux questions qui se répètent",
+            "body": "Chaque entreprise a les mêmes dix questions en boucle : faites-vous X, combien environ, où êtes-vous, puis-je venir samedi. L'agent y répond instantanément et avec précision, à partir d'informations que vous avez validées, ce qui vous libère aussi de taper la même réponse pour la centième fois."
+          },
+          {
+            "title": "Capte le prospect quand l'intérêt est encore chaud",
+            "body": "Quand le visiteur est un client potentiel, l'agent fait ce que ferait une bonne réceptionniste : il note son nom, ses coordonnées et ce dont il a besoin, directement dans la conversation. Même si rien d'autre ne se passe avant le matin, le prospect est capté au lieu d'être perdu."
+          },
+          {
+            "title": "Réserve, confirme et rappelle",
+            "body": "Connecté à votre agenda, l'agent propose de vrais créneaux disponibles, prend le rendez-vous et envoie la confirmation. Les rappels réduisent les absences qui grignotent en silence la semaine d'une entreprise de services."
+          },
+          {
+            "title": "Passe la main à un humain au bon moment",
+            "body": "Une réclamation, une négociation, une demande inhabituelle, tout ce qui est sensible : un agent bien configuré reconnaît la limite, le dit honnêtement et vous transmet la conversation avec tout le contexte, au lieu d'improviser."
+          },
+          {
+            "title": "Note tout par écrit",
+            "body": "Chaque conversation est enregistrée : qui a demandé, ce qu'il voulait, ce qui s'est passé ensuite. Au bout de quelques semaines, vous voyez quelles questions et quels services les gens demandent vraiment, une information marketing que la plupart des petites entreprises n'ont jamais eue."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "Une note honnête",
+        "body": "Un agent ne vaut que ce que vous lui donnez. Nourrissez-le d'informations vagues ou périmées et il donnera des réponses vagues ou périmées, plus vite. Le travail de configuration, décider ce qu'il doit dire, ce qu'il ne doit jamais promettre et quand il passe la main, c'est là que la vraie valeur se construit. Cette partie est faite par des humains, une fois, puis l'agent la répète parfaitement."
+      },
+      {
+        "type": "h2",
+        "text": "Ce qu'un agent IA n'est pas"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Un remplaçant pour vous.** Il gère la porte d'entrée répétitive pour que votre temps aille au travail et aux conversations qui ont vraiment besoin d'une personne.",
+          "**Un widget générique qu'on allume.** La valeur vient de la configuration : vos services, vos règles, votre ton, votre agenda. Un agent qui ne sait rien de votre entreprise n'est qu'un chatbot avec une meilleure grammaire.",
+          "**Un outil à installer puis oublier.** Les prix changent, les horaires changent, les services changent. Un agent demande le même entretien occasionnel que votre site web, sinon il se met à raconter avec assurance la vérité de l'an dernier.",
+          "**Une source de nouvelle demande.** Il convertit les demandes que vous recevez déjà et que vous auriez autrement manquées. Si personne ne vous trouve au départ, commencez par régler [le fait d'être trouvé](~/blog/get-found-in-ai-search)."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Les entreprises qui gagnent avec les agents IA ne font rien d'extraordinaire. Ce sont simplement celles qui répondent, à chaque fois, en quelques secondes.",
+        "cite": "L'équipe Kodable"
+      },
+      {
+        "type": "h2",
+        "text": "Comment Kodable aide"
+      },
+      {
+        "type": "p",
+        "text": "Nous construisons des [agents IA](~/services/ai-agents) configurés pour une entreprise précise : la vôtre. Vos services, vos règles, votre agenda, votre ton, dans votre langue et celle de vos clients, avec des limites claires et un passage de relais propre vers vous. Pas de widget générique, et pas de promesses qu'un agent ne peut pas tenir."
+      },
+      {
+        "type": "cta",
+        "title": "Voyez ce qu'un agent pourrait vous enlever des épaules",
+        "body": "Racontez-nous comment les demandes vous arrivent aujourd'hui, lors d'un appel de 15 minutes. Nous cartographierons ce qu'un agent pourrait répondre, réserver et capter pour votre entreprise, et ce qui doit rester humain.",
+        "button": "Parlons-en"
+      },
+      {
+        "type": "h2",
+        "text": "Questions fréquentes"
+      },
+      {
+        "type": "h3",
+        "text": "Est-ce juste ChatGPT sur mon site ?"
+      },
+      {
+        "type": "p",
+        "text": "Même famille de technologie, configuration très différente. ChatGPT connaît internet ; un agent connaît votre entreprise, et ne dit que ce que vous avez validé. Il se connecte aussi à de vraies choses, comme votre agenda et votre boîte mail, ce qu'une simple fenêtre de chat ne peut pas faire."
+      },
+      {
+        "type": "h3",
+        "text": "Les clients seront-ils agacés de parler à une IA ?"
+      },
+      {
+        "type": "p",
+        "text": "Les gens sont agacés par les impasses, pas par les logiciels. Un agent qui répond à la vraie question à 23 h bat un formulaire de contact qui répond en deux jours. Annoncer clairement qu'il s'agit d'un assistant, et passer la main à un humain en douceur, fait partie du travail bien fait."
+      },
+      {
+        "type": "h3",
+        "text": "Que se passe-t-il quand il ne connaît pas la réponse ?"
+      },
+      {
+        "type": "p",
+        "text": "Un agent bien construit le dit, prend les coordonnées de la personne et vous transmet la conversation avec le contexte. Le piège à éviter, c'est un agent qui devine ; c'est un choix de configuration, et nous réglons les nôtres pour ne jamais le faire."
+      },
+      {
+        "type": "h3",
+        "text": "Ça marche sur WhatsApp ou seulement sur mon site ?"
+      },
+      {
+        "type": "p",
+        "text": "Le même agent peut se tenir derrière plusieurs portes : le chat de votre site, WhatsApp, même la relance après un appel manqué. Où il vit dépend d'où vos clients vous écrivent déjà."
       }
     ]
   }

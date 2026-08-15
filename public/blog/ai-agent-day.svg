@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8aa79d"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="620" fill="#ffffff"/>
+  <text x="40" y="56" font-size="31" font-weight="800" fill="#16221f" letter-spacing="-1">Enquiries do not keep business hours</text>
+  <text x="40" y="90" font-size="19" fill="#4b5c56">One ordinary day. The agent answers in seconds; the difficult ones go to you.</text>
+
+  <!-- timeline spine -->
+  <line x1="120" y1="140" x2="120" y2="560" stroke="#dde6e1" stroke-width="3"/>
+
+  <!-- 09:12 -->
+  <circle cx="120" cy="170" r="9" fill="#0e8266"/>
+  <text x="52" y="176" font-size="18" font-weight="700" fill="#4b5c56">09:12</text>
+  <g>
+    <rect x="150" y="140" width="380" height="62" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <text x="172" y="166" font-size="19" font-weight="700" fill="#16221f">Call while you are on a job</text>
+    <text x="172" y="190" font-size="16" fill="#4b5c56">&#8220;Do you do bathroom refits?&#8221;</text>
+  </g>
+  <path d="M530 171 C 570 171, 580 171, 616 171" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <g>
+    <rect x="620" y="146" width="340" height="50" rx="25" fill="#e3f3ed"/>
+    <text x="644" y="177" font-size="18" font-weight="700" fill="#0a4d3c">Answered, details captured</text>
+  </g>
+
+  <!-- 14:30 -->
+  <circle cx="120" cy="280" r="9" fill="#0e8266"/>
+  <text x="52" y="286" font-size="18" font-weight="700" fill="#4b5c56">14:30</text>
+  <g>
+    <rect x="150" y="250" width="380" height="62" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <text x="172" y="276" font-size="19" font-weight="700" fill="#16221f">Website chat, mid-service rush</text>
+    <text x="172" y="300" font-size="16" fill="#4b5c56">&#8220;Are you open Saturday? Parking?&#8221;</text>
+  </g>
+  <path d="M530 281 C 570 281, 580 281, 616 281" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <g>
+    <rect x="620" y="256" width="340" height="50" rx="25" fill="#e3f3ed"/>
+    <text x="644" y="287" font-size="18" font-weight="700" fill="#0a4d3c">Answered in seconds</text>
+  </g>
+
+  <!-- 21:47 -->
+  <circle cx="120" cy="390" r="9" fill="#0e8266"/>
+  <text x="52" y="396" font-size="18" font-weight="700" fill="#4b5c56">21:47</text>
+  <g>
+    <rect x="150" y="360" width="380" height="62" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <text x="172" y="386" font-size="19" font-weight="700" fill="#16221f">Evening, you are off the clock</text>
+    <text x="172" y="410" font-size="16" fill="#4b5c56">&#8220;Can I book for Thursday?&#8221;</text>
+  </g>
+  <path d="M530 391 C 570 391, 580 391, 616 391" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <g>
+    <rect x="620" y="366" width="340" height="50" rx="25" fill="#e3f3ed"/>
+    <text x="644" y="397" font-size="18" font-weight="700" fill="#0a4d3c">Booked, confirmation sent</text>
+  </g>
+
+  <!-- 02:05 -->
+  <circle cx="120" cy="500" r="9" fill="#16221f"/>
+  <text x="52" y="506" font-size="18" font-weight="700" fill="#4b5c56">02:05</text>
+  <g>
+    <rect x="150" y="470" width="380" height="62" rx="14" fill="#f4f7f4" stroke="#dde6e1"/>
+    <text x="172" y="496" font-size="19" font-weight="700" fill="#16221f">Complaint, needs a person</text>
+    <text x="172" y="520" font-size="16" fill="#4b5c56">Sensitive: not for a machine to decide</text>
+  </g>
+  <path d="M530 501 C 570 501, 580 501, 616 501" fill="none" stroke="#8aa79d" stroke-width="2.5" marker-end="url(#ah)"/>
+  <g>
+    <rect x="620" y="476" width="340" height="50" rx="25" fill="#fdf3e7"/>
+    <text x="644" y="507" font-size="18" font-weight="700" fill="#8a5a1e">Handed to you, with context</text>
+  </g>
+
+  <text x="40" y="596" font-size="16" fill="#8aa79d">Every conversation is logged: who asked, what they wanted, what happened next.</text>
+</svg>
