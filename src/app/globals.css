@@ -111,7 +111,7 @@ section { position: relative; }
 .nav-in { display: flex; align-items: center; gap: 18px; height: 70px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; font-family: var(--font-display); font-weight: 800; font-size: 1.22rem; color: var(--ink); letter-spacing: -0.04em; }
 .brand .dot-ai { color: var(--accent); }
-.bolt { width: 30px; height: 30px; flex: none; }
+.mark { width: 30px; height: 30px; flex: none; }
 .nav-links { display: none; gap: 26px; margin-left: 14px; }
 .nav-links a { font-weight: 500; color: var(--ink-soft); font-size: .98rem; transition: color .2s var(--ease); }
 .nav-links a:hover, .nav-links a.active { color: var(--accent-deep); }
@@ -181,7 +181,7 @@ section { position: relative; }
 .mobile-menu .btn { margin: 10px 22px 0; }
 
 /* ---------- hero ---------- */
-.hero { padding: clamp(56px, 8vw, 104px) 0 clamp(56px, 7vw, 96px); background:
+.hero { padding: clamp(40px, 5.4vw, 72px) 0 clamp(48px, 6vw, 80px); background:
     radial-gradient(105% 78% at 50% -18%, var(--accent-soft) 0%, rgba(227,243,237,0) 60%),
     var(--paper); }
 .hero-grid { display: grid; gap: clamp(34px, 5vw, 56px); align-items: center; }
@@ -197,7 +197,7 @@ section { position: relative; }
 }
 .place .pin { width: 16px; height: 16px; color: var(--accent); }
 h1.hero-h {
-  font-size: clamp(2.1rem, 1.3rem + 4.2vw, 4.2rem);
+  font-size: clamp(2rem, 1.2rem + 3.6vw, 3.5rem);
   line-height: 1.04;
   letter-spacing: -0.045em;
   margin: 0;
@@ -208,14 +208,33 @@ h1.hero-h {
 h1.hero-h .hi { color: var(--accent-deep); }
 h1.hero-h .hi-red { color: var(--accent-red); }
 .hero-sub { font-size: clamp(1.06rem, 1rem + 0.5vw, 1.28rem); color: var(--ink-mute); margin-top: 20px; max-width: 40ch; }
-.hero-copy .hero-sub { max-width: 52ch; margin-inline: auto; margin-top: clamp(20px, 2.2vw, 28px); text-wrap: pretty; }
+.hero-copy .hero-sub { max-width: 60ch; margin-inline: auto; margin-top: clamp(16px, 1.8vw, 22px); text-wrap: pretty; }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 13px; margin-top: 30px; }
-.hero-copy .hero-cta { justify-content: center; margin-top: clamp(30px, 3.4vw, 42px); }
+.hero-copy .hero-cta { justify-content: center; margin-top: clamp(22px, 2.4vw, 30px); }
 /* Stacked CTAs read as one pair only if they share a width. */
 @media (max-width: 560px) {
   .hero-copy .hero-cta { flex-direction: column; align-items: center; }
   .hero-copy .hero-cta .btn { width: min(100%, 320px); justify-content: center; }
 }
+/* Client-results band inside the hero: sits under the CTA, separated by a
+   hairline rule so it reads as evidence for the claim above, not as a second
+   headline. Sized to stay inside the first screen on a laptop. */
+.hero-stats {
+  margin-top: clamp(16px, 1.8vw, 22px);
+  padding-top: clamp(14px, 1.5vw, 18px);
+  border-top: 1px solid var(--line);
+  max-width: 46rem;
+  margin-inline: auto;
+}
+.hero-stats-title {
+  margin: 0 0 clamp(14px, 1.6vw, 20px);
+  font-size: .82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  color: var(--ink-soft);
+}
+.hero-stats-src { margin: 10px 0 0; font-size: .74rem; color: var(--ink-mute); }
 .hero-note { margin-top: 18px; font-size: .9rem; color: var(--ink-mute); display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .hero-cap { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: .88rem; font-weight: 600; color: var(--ink-mute); }
 .hero-cap svg { width: 16px; height: 16px; color: var(--accent); flex: none; }
@@ -297,7 +316,7 @@ h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0
 .sec-kicker { display: inline-flex; align-items: center; gap: 8px; color: var(--accent-deep); font-family: var(--font-display); font-weight: 700; font-size: .96rem; margin-bottom: 14px; }
 .sec-head.center .sec-kicker { justify-content: center; }
 .sec-kicker svg { width: 18px; height: 18px; }
-h2.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -0.04em; }
+h2.sec-title, h1.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -0.04em; }
 .sec-lead { margin-top: 16px; font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); color: var(--ink-mute); max-width: 52ch; }
 .sec-head.center .sec-lead { margin-inline: auto; }
 

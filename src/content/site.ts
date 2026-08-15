@@ -176,7 +176,7 @@ const en: SiteContent = {
     headingPost: " your business.",
     sub: "When someone nearby searches for what you do, they pick the business with a fast site, instant replies, and easy booking. We make sure that business is yours, without you touching a line of code.",
     ctaPrimary: "Book a free 15-minute chat",
-    ctaSecondary: "See how it works",
+    ctaSecondary: "Chat with us",
     label: "This is what your customers experience.",
   },
   problem: {
@@ -375,7 +375,7 @@ const es: SiteContent = {
     headingPost: " tu negocio.",
     sub: "Cuando alguien cerca busca lo que tú haces, elige al negocio con una web rápida, respuestas al instante y reserva fácil. Nos aseguramos de que ese negocio seas tú, sin que toques una sola línea de código.",
     ctaPrimary: "Reserva una charla gratis de 15 minutos",
-    ctaSecondary: "Mira cómo funciona",
+    ctaSecondary: "Habla con nosotros",
     label: "Esto es lo que viven tus clientes.",
   },
   problem: {
@@ -574,7 +574,7 @@ const fr: SiteContent = {
     headingPost: " votre entreprise.",
     sub: "Quand quelqu'un près de chez vous cherche ce que vous proposez, il choisit l'entreprise au site rapide, aux réponses instantanées et à la réservation facile. Nous faisons en sorte que cette entreprise, ce soit la vôtre, sans que vous touchiez la moindre ligne de code.",
     ctaPrimary: "Réservez un échange gratuit de 15 minutes",
-    ctaSecondary: "Voir comment ça marche",
+    ctaSecondary: "Parlez-nous",
     label: "Voilà ce que vivent vos clients.",
   },
   problem: {
@@ -773,7 +773,7 @@ const de: SiteContent = {
     headingPost: ".",
     sub: "Wenn jemand in deiner Nähe nach dem sucht, was du machst, wählt er das Geschäft mit der schnellen Seite, sofortigen Antworten und einfacher Buchung. Wir sorgen dafür, dass das dein Geschäft ist, ohne dass du auch nur eine Zeile Code anfassen musst.",
     ctaPrimary: "Buch dir ein kostenloses 15-Minuten-Gespräch",
-    ctaSecondary: "So funktioniert's",
+    ctaSecondary: "Sprich mit uns",
     label: "Genau das erleben deine Kunden.",
   },
   problem: {
@@ -972,7 +972,7 @@ const it: SiteContent = {
     headingPost: " la tua attività.",
     sub: "Quando qualcuno qui vicino cerca quello che fai, sceglie l'attività con il sito veloce, le risposte immediate e la prenotazione facile. Noi facciamo in modo che quell'attività sia la tua, senza che tu tocchi una sola riga di codice.",
     ctaPrimary: "Prenota una chiacchierata gratis di 15 minuti",
-    ctaSecondary: "Guarda come funziona",
+    ctaSecondary: "Parla con noi",
     label: "Questo è ciò che vivono i tuoi clienti.",
   },
   problem: {

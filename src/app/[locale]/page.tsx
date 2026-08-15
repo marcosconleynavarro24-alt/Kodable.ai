@@ -51,25 +51,21 @@ export default async function HomePage({
                 {site.hero.ctaPrimary}
                 <Icon name="arrow" />
               </Link>
-              <a href="#plan" className="btn btn-ghost">
+              <Link href={`/${locale}/contact`} className="btn btn-ghost">
                 {site.hero.ctaSecondary}
-              </a>
+              </Link>
+            </div>
+
+            {/* REAL RESULTS BAND, count-up figures from client-site analytics
+                (anonymous, shared with /casos via getStatBand). Lives inside
+                the hero so visitors see the numbers on landing, with no
+                scrolling (owner directive 2026-08-15). */}
+            <div className="hero-stats" id="resultados">
+              <p className="hero-stats-title">{band.title}</p>
+              <StatBand items={band.items} numLocale={band.numLocale} compact />
+              <p className="hero-stats-src">{band.source}</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* REAL RESULTS BAND, count-up figures from client-site analytics
-          (anonymous, shared with /casos via getStatBand) */}
-      <section className="sec" id="resultados">
-        <div className="wrap">
-          <div className="sec-head center" style={{ maxWidth: "none" }}>
-            <h2 className="sec-title">{band.title}</h2>
-          </div>
-          <StatBand items={band.items} numLocale={band.numLocale} />
-          <p className="center" style={{ marginTop: "26px", fontSize: ".8rem", color: "var(--ink-mute)" }}>
-            {band.source}
-          </p>
         </div>
       </section>
 
@@ -149,32 +145,9 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* THE GUIDE */}
-      <section className="sec" id="about">
-        <div className="wrap">
-          <SectionHead
-            kicker={site.guide.kicker}
-            kickerIcon="shield"
-            title={site.guide.title}
-          />
-          <div className="guide-lede reveal">
-            {site.guide.body.map((p) => (
-              <p key={p}>{p}</p>
-            ))}
-          </div>
-          <div className="trust-grid" style={{ marginTop: "clamp(28px, 4vw, 44px)" }}>
-            {site.trust.cards.map((c) => (
-              <div key={c.title} className="trust-card reveal">
-                <span className="ti" aria-hidden="true">
-                  <Icon name={c.icon === "star" ? "star" : c.icon === "clock" ? "clock" : "chat"} />
-                </span>
-                <h3>{c.title}</h3>
-                <p>{c.body}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* THE GUIDE + TRUST CARDS: removed 2026-08-15 (owner, temporary).
+          Copy still lives in site.ts under `guide` and `trust` for all 5 locales.
+          To restore, re-add the <section id="about"> block from git history. */}
 
       {/* SUCCESS VISION */}
       <section className="sec sec-warm" id="vision">

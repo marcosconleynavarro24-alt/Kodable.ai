@@ -79,8 +79,6 @@ type DemoSample = {
 type Copy = {
   crumbHome: string;
   crumbHere: string;
-  h1: string;
-  sub: string;
   clientsKicker: string;
   clientsTitle: string;
   clientsLead: string;
@@ -109,8 +107,6 @@ const copy: Record<Locale, Copy> = {
   en: {
     crumbHome: "Home",
     crumbHere: "Portfolio",
-    h1: "Websites we've built",
-    sub: "Real projects for real clients, live on the internet today, plus demo sites that show what we could build for your business.",
     clientsKicker: "Client work",
     clientsTitle: "Just 2 of many: built, shipped, and running for real businesses.",
     clientsLead:
@@ -194,8 +190,6 @@ const copy: Record<Locale, Copy> = {
   es: {
     crumbHome: "Inicio",
     crumbHere: "Portfolio",
-    h1: "Webs que hemos construido",
-    sub: "Proyectos reales para clientes reales, en internet hoy mismo, más webs de demostración que enseñan lo que podríamos construir para tu negocio.",
     clientsKicker: "Trabajo para clientes",
     clientsTitle: "Solo 2 de muchas: construidas, entregadas y funcionando para negocios reales.",
     clientsLead:
@@ -279,8 +273,6 @@ const copy: Record<Locale, Copy> = {
   fr: {
     crumbHome: "Accueil",
     crumbHere: "Portfolio",
-    h1: "Les sites que nous avons créés",
-    sub: "De vrais projets pour de vrais clients, en ligne aujourd'hui, plus des sites de démonstration qui montrent ce que nous pourrions créer pour votre entreprise.",
     clientsKicker: "Projets clients",
     clientsTitle: "Seulement 2 parmi tant d'autres: conçus, livrés et en service pour de vraies entreprises.",
     clientsLead:
@@ -364,8 +356,6 @@ const copy: Record<Locale, Copy> = {
   de: {
     crumbHome: "Startseite",
     crumbHere: "Portfolio",
-    h1: "Websites, die wir gebaut haben",
-    sub: "Echte Projekte für echte Kunden, heute live im Netz, plus Demo-Websites, die zeigen, was wir für dein Geschäft bauen könnten.",
     clientsKicker: "Kundenprojekte",
     clientsTitle: "Nur 2 von vielen: gebaut, geliefert und im Einsatz für echte Unternehmen.",
     clientsLead:
@@ -449,8 +439,6 @@ const copy: Record<Locale, Copy> = {
   it: {
     crumbHome: "Home",
     crumbHere: "Portfolio",
-    h1: "I siti che abbiamo costruito",
-    sub: "Progetti reali per clienti reali, online oggi stesso, più siti dimostrativi che mostrano cosa potremmo costruire per la tua attività.",
     clientsKicker: "Lavori per clienti",
     clientsTitle: "Solo 2 di tanti: costruiti, consegnati e in funzione per attività reali.",
     clientsLead:
@@ -554,22 +542,9 @@ export default async function PortfolioPage({
 
   return (
     <>
-      {/* HERO */}
-      <section className="page-hero">
-        <div className="wrap">
-          <nav className="breadcrumb" aria-label="Breadcrumb">
-            <Link href={`/${locale}`}>{t.crumbHome}</Link>
-            <span className="sep" aria-hidden="true">
-              /
-            </span>
-            <span aria-current="page">{t.crumbHere}</span>
-          </nav>
-          <h1 className="page-h">{t.h1}</h1>
-          <p className="page-sub">{t.sub}</p>
-        </div>
-      </section>
-
-      {/* CLIENT WORK */}
+      {/* CLIENT WORK (doubles as the page opener; the old page hero was
+          removed on owner directive 2026-08-15, so this section's heading is
+          the page's h1) */}
       <section className="sec">
         <div className="wrap">
           <div className="sec-head center" style={{ maxWidth: "44rem" }}>
@@ -577,7 +552,7 @@ export default async function PortfolioPage({
               <Icon name="check" />
               {t.clientsKicker}
             </div>
-            <h2 className="sec-title">{t.clientsTitle}</h2>
+            <h1 className="sec-title">{t.clientsTitle}</h1>
             <p className="sec-lead">{t.clientsLead}</p>
           </div>
 
