@@ -22,19 +22,35 @@ export default function Image() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="#0e8266">
-            <path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" />
+          <svg width="44" height="44" viewBox="0 0 64 64">
+            <circle
+              cx="32"
+              cy="32"
+              r="20"
+              fill="none"
+              stroke="#16221f"
+              strokeWidth="5"
+              strokeLinecap="round"
+            />
+            <path
+              d="M44 16a20 20 0 0 1 0 32"
+              fill="none"
+              stroke="#0e8266"
+              strokeWidth="5"
+              strokeLinecap="round"
+            />
           </svg>
           <div
             style={{
-              fontSize: "30px",
+              display: "flex",
+              fontSize: "32px",
               color: "#16221f",
-              letterSpacing: "0.18em",
-              textTransform: "uppercase",
-              fontWeight: 600,
+              letterSpacing: "-0.02em",
+              fontWeight: 700,
             }}
           >
-            Kodable.ai
+            <span>kodable</span>
+            <span style={{ color: "#0e8266" }}>.ai</span>
           </div>
         </div>
 

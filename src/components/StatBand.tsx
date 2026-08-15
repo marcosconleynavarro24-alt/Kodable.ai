@@ -27,7 +27,17 @@ function fmt(item: StatItem, v: number, numLocale: string): string {
   return new Intl.NumberFormat(numLocale).format(Math.round(v)) + (item.suffix ?? "");
 }
 
-export default function StatBand({ items, numLocale }: { items: StatItem[]; numLocale: string }) {
+export default function StatBand({
+  items,
+  numLocale,
+  compact = false,
+}: {
+  items: StatItem[];
+  numLocale: string;
+  /** Hero placement: smaller numerals, always one row, so the figures fit in
+      the first screen without pushing the CTA out of view. */
+  compact?: boolean;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   // 1 = final values: what the server renders and what no-JS keeps.
   const [progress, setProgress] = useState(1);
@@ -64,10 +74,10 @@ export default function StatBand({ items, numLocale }: { items: StatItem[]; numL
       className="reveal"
       style={{
         display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-        gap: "30px 20px",
+        gridTemplateColumns: compact ? "repeat(3, 1fr)" : "repeat(auto-fit, minmax(180px, 1fr))",
+        gap: compact ? "16px 12px" : "30px 20px",
         textAlign: "center",
-        padding: "6px 0",
+        padding: compact ? 0 : "6px 0",
       }}
     >
       {items.map((m) => (
@@ -76,7 +86,7 @@ export default function StatBand({ items, numLocale }: { items: StatItem[]; numL
             style={{
               fontFamily: "var(--font-display)",
               fontWeight: 800,
-              fontSize: "clamp(2.2rem, 4.5vw, 3.2rem)",
+              fontSize: compact ? "clamp(1.3rem, 4.2vw, 2.15rem)" : "clamp(2.2rem, 4.5vw, 3.2rem)",
               letterSpacing: "-0.03em",
               lineHeight: 1.1,
               color: "var(--accent-deep)",
@@ -87,8 +97,8 @@ export default function StatBand({ items, numLocale }: { items: StatItem[]; numL
           </div>
           <div
             style={{
-              marginTop: "8px",
-              fontSize: ".78rem",
+              marginTop: compact ? "5px" : "8px",
+              fontSize: compact ? ".67rem" : ".78rem",
               fontWeight: 600,
               textTransform: "uppercase",
               letterSpacing: ".07em",
