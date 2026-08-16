@@ -14,36 +14,42 @@ import { hreflangs } from "@/lib/hreflang";
 const COPY: Record<Locale, {
   home: string; blog: string; allArticles: string; takeaways: string;
   related: string; minRead: string; source: string; bylineBio: string; imageCredit: string;
+  pricingLine: string; pricingCta: string;
 }> = {
   en: {
     home: "Home", blog: "Blog", allArticles: "All articles", takeaways: "Key takeaways",
     related: "Keep reading", minRead: "min read", source: "Source:",
     bylineBio: "A small studio using AI to help local businesses get found, get booked, and win back their week.",
     imageCredit: "Photo:",
+    pricingLine: "Curious what something like this costs?", pricingCta: "See plans and prices",
   },
   es: {
     home: "Inicio", blog: "Blog", allArticles: "Todos los artículos", takeaways: "Puntos clave",
     related: "Sigue leyendo", minRead: "min de lectura", source: "Fuente:",
     bylineBio: "Un pequeño estudio que usa IA para ayudar a negocios locales a que les encuentren, les reserven y recuperen su semana.",
     imageCredit: "Foto:",
+    pricingLine: "¿Quieres saber cuánto cuesta algo así?", pricingCta: "Ver planes y precios",
   },
   fr: {
     home: "Accueil", blog: "Blog", allArticles: "Tous les articles", takeaways: "À retenir",
     related: "À lire ensuite", minRead: "min de lecture", source: "Source :",
     bylineBio: "Un petit studio qui utilise l'IA pour aider les commerces de proximité à être trouvés, réservés, et à récupérer leur semaine.",
     imageCredit: "Photo :",
+    pricingLine: "Envie de savoir combien ça coûte ?", pricingCta: "Voir les offres et les tarifs",
   },
   de: {
     home: "Start", blog: "Blog", allArticles: "Alle Artikel", takeaways: "Das Wichtigste",
     related: "Weiterlesen", minRead: "Min. Lesezeit", source: "Quelle:",
     bylineBio: "Ein kleines Studio, das mit KI lokalen Unternehmen hilft, gefunden und gebucht zu werden und ihre Woche zurückzugewinnen.",
     imageCredit: "Foto:",
+    pricingLine: "Neugierig, was so etwas kostet?", pricingCta: "Pläne und Preise ansehen",
   },
   it: {
     home: "Home", blog: "Blog", allArticles: "Tutti gli articoli", takeaways: "In sintesi",
     related: "Continua a leggere", minRead: "min di lettura", source: "Fonte:",
     bylineBio: "Un piccolo studio che usa l'IA per aiutare le attività locali a farsi trovare, riempire l'agenda e riprendersi la settimana.",
     imageCredit: "Foto:",
+    pricingLine: "Vuoi sapere quanto costa?", pricingCta: "Vedi piani e prezzi",
   },
 };
 
@@ -378,6 +384,12 @@ export default async function BlogPostPage({
                 sourceLabel={c.source}
               />
             ))}
+
+            {/* Pricing link: no blog post linked /pricing before this. */}
+            <p className="reveal" style={{ marginTop: "36px" }}>
+              {c.pricingLine}{" "}
+              <Link href={`/${locale}/pricing`}>{c.pricingCta}</Link>.
+            </p>
 
             <div className="post-byline" style={{ marginTop: "44px" }}>
               <span className="post-ava" aria-hidden="true">K</span>

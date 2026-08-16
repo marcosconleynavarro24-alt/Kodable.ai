@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { isLocale, locales, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
 import { getServices, getService, serviceSlugs } from "@/content/services";
+import { getPost, type BlogPost } from "@/content/blog";
 import Icon from "@/components/Icon";
 import ServiceCard from "@/components/ServiceCard";
 import Pricing from "@/components/Pricing";
@@ -65,6 +66,17 @@ export default async function ServiceDetailPage({
   const site = getSite(locale);
   const others = getServices(locale).filter((s) => s.slug !== service.slug);
 
+  // Editorial links into the blog (the blog had zero inbound links from
+  // service pages). Anchor text is the live post title via getPost, so a
+  // retitled or removed post can never leave a stale link.
+  const RELATED_POSTS: Record<string, string[]> = {
+    websites: ["get-found-in-ai-search", "kit-digital-2026"],
+    "ai-agents": ["ai-agent-for-small-business"],
+  };
+  const relatedPosts = (RELATED_POSTS[service.slug] ?? [])
+    .map((s) => getPost(locale, s))
+    .filter((p): p is BlogPost => Boolean(p));
+
   const copy = {
     en: {
       home: "Home",
@@ -76,6 +88,7 @@ export default async function ServiceDetailPage({
       underNote: "The technical bits, for the curious. You don't need to know any of this.",
       others: "Other services",
       othersLead: "Pick what you need now, then add the rest when you're ready.",
+      fromBlog: "From the blog",
     },
     es: {
       home: "Inicio",
@@ -87,10 +100,11 @@ export default async function ServiceDetailPage({
       underNote: "La parte técnica, por curiosidad. No necesitas saber nada de esto.",
       others: "Otros servicios",
       othersLead: "Coge lo que necesitas ahora y añade el resto cuando quieras.",
+      fromBlog: "Del blog",
     },
-    fr: { home: "Accueil", services: "Services", allServices: "Tous les services", included: "Ce qui est inclus", whoFor: "Pour qui c'est", underTheHood: "Sous le capot", underNote: "La partie technique, pour les curieux. Vous n'avez besoin de rien savoir de tout ça.", others: "Autres services", othersLead: "Prenez ce dont vous avez besoin maintenant, puis ajoutez le reste quand vous serez prêt." },
-    de: { home: "Start", services: "Leistungen", allServices: "Alle Leistungen", included: "Was enthalten ist", whoFor: "Für wen es ist", underTheHood: "Unter der Haube", underNote: "Die technischen Details, für die Neugierigen. Du musst nichts davon wissen.", others: "Weitere Leistungen", othersLead: "Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist." },
-    it: { home: "Home", services: "Servizi", allServices: "Tutti i servizi", included: "Cosa include", whoFor: "Per chi è", underTheHood: "Dietro le quinte", underNote: "La parte tecnica, per i curiosi. Non hai bisogno di sapere nulla di tutto questo.", others: "Altri servizi", othersLead: "Scegli ciò che ti serve ora e aggiungi il resto quando vuoi." },
+    fr: { home: "Accueil", services: "Services", allServices: "Tous les services", included: "Ce qui est inclus", whoFor: "Pour qui c'est", underTheHood: "Sous le capot", underNote: "La partie technique, pour les curieux. Vous n'avez besoin de rien savoir de tout ça.", others: "Autres services", othersLead: "Prenez ce dont vous avez besoin maintenant, puis ajoutez le reste quand vous serez prêt.", fromBlog: "Sur le blog" },
+    de: { home: "Start", services: "Leistungen", allServices: "Alle Leistungen", included: "Was enthalten ist", whoFor: "Für wen es ist", underTheHood: "Unter der Haube", underNote: "Die technischen Details, für die Neugierigen. Du musst nichts davon wissen.", others: "Weitere Leistungen", othersLead: "Nimm, was du jetzt brauchst, und füge den Rest hinzu, wenn du so weit bist.", fromBlog: "Aus dem Blog" },
+    it: { home: "Home", services: "Servizi", allServices: "Tutti i servizi", included: "Cosa include", whoFor: "Per chi è", underTheHood: "Dietro le quinte", underNote: "La parte tecnica, per i curiosi. Non hai bisogno di sapere nulla di tutto questo.", others: "Altri servizi", othersLead: "Scegli ciò che ti serve ora e aggiungi il resto quando vuoi.", fromBlog: "Dal blog" },
   }[locale];
 
   // serviceType mirrors the array on the #service node in layout.tsx.
@@ -206,6 +220,25 @@ export default async function ServiceDetailPage({
           </div>
         </div>
       </section>
+
+      {/* FROM THE BLOG */}
+      {relatedPosts.length > 0 && (
+        <section className="sec">
+          <div className="wrap-narrow">
+            <h2 className="sec-title center">{copy.fromBlog}</h2>
+            <div className="svc reveal" style={{ marginTop: "20px" }}>
+              <ul>
+                {relatedPosts.map((p) => (
+                  <li key={p.slug}>
+                    <Icon name="spark" />
+                    <Link href={`/${locale}/blog/${p.slug}`}>{p.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
 
       <FinalCta finalCta={site.finalCta} />
 

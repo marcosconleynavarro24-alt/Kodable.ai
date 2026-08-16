@@ -17,6 +17,8 @@ export interface SiteContent {
     faqKicker: string;
     faqTitle: string;
     faqSeeAll: string;
+    pricingLink: string;
+    compareLink: string;
   };
   hero: {
     headingPre: string;
@@ -117,6 +119,7 @@ export interface SiteContent {
     legal: string;
     cookies: string;
     call: string;
+    compare: string;
   };
   common: {
     backHome: string;
@@ -167,6 +170,8 @@ const en: SiteContent = {
     faqKicker: "Common questions",
     faqTitle: "Still not sure? Here's what most people want to know first.",
     faqSeeAll: "See all questions",
+    pricingLink: "See plans and prices",
+    compareLink: "Builder or agency? Compare",
   },
   hero: {
     headingPre: "",
@@ -176,7 +181,7 @@ const en: SiteContent = {
     headingPost: " your business.",
     sub: "When someone nearby searches for what you do, they pick the business with a fast site, instant replies, and easy booking. We make sure that business is yours, without you touching a line of code.",
     ctaPrimary: "Book a free 15-minute chat",
-    ctaSecondary: "Chat with us",
+    ctaSecondary: "Portfolio",
     label: "This is what your customers experience.",
   },
   problem: {
@@ -327,6 +332,7 @@ const en: SiteContent = {
     legal: "Legal notice",
     cookies: "Cookies",
     call: "Call",
+    compare: "Builder vs agency",
   },
   common: {
     backHome: "Home",
@@ -366,6 +372,8 @@ const es: SiteContent = {
     faqKicker: "Preguntas frecuentes",
     faqTitle: "¿Aún con dudas? Esto es lo que casi todo el mundo quiere saber primero.",
     faqSeeAll: "Ver todas las preguntas",
+    pricingLink: "Ver planes y precios",
+    compareLink: "¿Creador de webs o agencia? Compara",
   },
   hero: {
     headingPre: "Desarrollo con ",
@@ -375,7 +383,7 @@ const es: SiteContent = {
     headingPost: " tu negocio.",
     sub: "Cuando alguien cerca busca lo que tú haces, elige al negocio con una web rápida, respuestas al instante y reserva fácil. Nos aseguramos de que ese negocio seas tú, sin que toques una sola línea de código.",
     ctaPrimary: "Reserva una charla gratis de 15 minutos",
-    ctaSecondary: "Habla con nosotros",
+    ctaSecondary: "Portfolio",
     label: "Esto es lo que viven tus clientes.",
   },
   problem: {
@@ -526,6 +534,7 @@ const es: SiteContent = {
     legal: "Aviso legal",
     cookies: "Cookies",
     call: "Llamar",
+    compare: "Comparativa",
   },
   common: {
     backHome: "Inicio",
@@ -565,6 +574,8 @@ const fr: SiteContent = {
     faqKicker: "Questions fréquentes",
     faqTitle: "Encore un doute ? Voici ce que la plupart des gens veulent savoir en premier.",
     faqSeeAll: "Voir toutes les questions",
+    pricingLink: "Voir les offres et les tarifs",
+    compareLink: "Créateur de site ou agence ? Comparez",
   },
   hero: {
     headingPre: "Développement propulsé par l'",
@@ -574,7 +585,7 @@ const fr: SiteContent = {
     headingPost: " votre entreprise.",
     sub: "Quand quelqu'un près de chez vous cherche ce que vous proposez, il choisit l'entreprise au site rapide, aux réponses instantanées et à la réservation facile. Nous faisons en sorte que cette entreprise, ce soit la vôtre, sans que vous touchiez la moindre ligne de code.",
     ctaPrimary: "Réservez un échange gratuit de 15 minutes",
-    ctaSecondary: "Parlez-nous",
+    ctaSecondary: "Portfolio",
     label: "Voilà ce que vivent vos clients.",
   },
   problem: {
@@ -725,6 +736,7 @@ const fr: SiteContent = {
     legal: "Mentions légales",
     cookies: "Cookies",
     call: "Appeler",
+    compare: "Comparatif",
   },
   common: {
     backHome: "Accueil",
@@ -764,6 +776,8 @@ const de: SiteContent = {
     faqKicker: "Häufige Fragen",
     faqTitle: "Noch unsicher? Das wollen die meisten zuerst wissen.",
     faqSeeAll: "Alle Fragen ansehen",
+    pricingLink: "Pläne und Preise ansehen",
+    compareLink: "Baukasten oder Agentur? Zum Vergleich",
   },
   hero: {
     headingPre: "",
@@ -773,7 +787,7 @@ const de: SiteContent = {
     headingPost: ".",
     sub: "Wenn jemand in deiner Nähe nach dem sucht, was du machst, wählt er das Geschäft mit der schnellen Seite, sofortigen Antworten und einfacher Buchung. Wir sorgen dafür, dass das dein Geschäft ist, ohne dass du auch nur eine Zeile Code anfassen musst.",
     ctaPrimary: "Buch dir ein kostenloses 15-Minuten-Gespräch",
-    ctaSecondary: "Sprich mit uns",
+    ctaSecondary: "Portfolio",
     label: "Genau das erleben deine Kunden.",
   },
   problem: {
@@ -924,6 +938,7 @@ const de: SiteContent = {
     legal: "Impressum",
     cookies: "Cookies",
     call: "Anrufen",
+    compare: "Vergleich",
   },
   common: {
     backHome: "Start",
@@ -963,6 +978,8 @@ const it: SiteContent = {
     faqKicker: "Domande frequenti",
     faqTitle: "Hai ancora dei dubbi? Ecco cosa vogliono sapere quasi tutti, prima di tutto.",
     faqSeeAll: "Vedi tutte le domande",
+    pricingLink: "Vedi piani e prezzi",
+    compareLink: "Website builder o agenzia? Confronta",
   },
   hero: {
     headingPre: "Sviluppo potenziato dall'",
@@ -972,7 +989,7 @@ const it: SiteContent = {
     headingPost: " la tua attività.",
     sub: "Quando qualcuno qui vicino cerca quello che fai, sceglie l'attività con il sito veloce, le risposte immediate e la prenotazione facile. Noi facciamo in modo che quell'attività sia la tua, senza che tu tocchi una sola riga di codice.",
     ctaPrimary: "Prenota una chiacchierata gratis di 15 minuti",
-    ctaSecondary: "Parla con noi",
+    ctaSecondary: "Portfolio",
     label: "Questo è ciò che vivono i tuoi clienti.",
   },
   problem: {
@@ -1123,6 +1140,7 @@ const it: SiteContent = {
     legal: "Note legali",
     cookies: "Cookie",
     call: "Chiama",
+    compare: "Confronto",
   },
   common: {
     backHome: "Home",

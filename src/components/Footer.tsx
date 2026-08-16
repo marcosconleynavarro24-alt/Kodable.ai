@@ -41,6 +41,10 @@ export default function Footer({
         <div className="footer-bottom">
           <span>{footer.copyright}</span>
           <span>
+            {/* /comparativa lives here, not in the nav: site-wide inbound link
+                without widening the header (it had zero internal links). */}
+            <Link href={`/${locale}/comparativa`}>{footer.compare}</Link>
+            {" · "}
             <Link href={`/${locale}/legal`}>{footer.legal}</Link>
             {" · "}
             <Link href={`/${locale}/privacy`}>{footer.privacy}</Link>

@@ -51,7 +51,7 @@ export default async function HomePage({
                 {site.hero.ctaPrimary}
                 <Icon name="arrow" />
               </Link>
-              <Link href={`/${locale}/contact`} className="btn btn-ghost">
+              <Link href={`/${locale}/portfolio`} className="btn btn-ghost">
                 {site.hero.ctaSecondary}
               </Link>
             </div>
@@ -82,6 +82,11 @@ export default async function HomePage({
             {services.map((service) => (
               <ServiceCard key={service.slug} locale={locale} service={service} />
             ))}
+          </div>
+          <div className="mt-cta center">
+            <Link href={`/${locale}/pricing`} className="btn btn-ghost">
+              {site.home.pricingLink}
+            </Link>
           </div>
         </div>
       </section>
@@ -192,6 +197,9 @@ export default async function HomePage({
           <div className="mt-cta center">
             <Link href={`/${locale}/faq`} className="btn btn-ghost">
               {site.home.faqSeeAll}
+            </Link>
+            <Link href={`/${locale}/comparativa`} className="btn btn-ghost">
+              {site.home.compareLink}
             </Link>
           </div>
         </div>
