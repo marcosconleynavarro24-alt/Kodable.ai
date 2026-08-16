@@ -11,7 +11,7 @@ export interface StatItem {
   target: number;
   /** "number" renders via Intl; "duration" renders as "N min N s". */
   kind: "number" | "duration";
-  /** Appended verbatim after number values, e.g. "%" / " %". */
+  /** Appended verbatim after the formatted value, e.g. "%" / "+". */
   suffix?: string;
   label: string;
 }
@@ -22,7 +22,10 @@ const easeOut = (p: number) => 1 - Math.pow(1 - p, 3);
 function fmt(item: StatItem, v: number, numLocale: string): string {
   if (item.kind === "duration") {
     const s = Math.round(v);
-    return `${Math.floor(s / 60)} min ${s % 60} s`;
+    const min = Math.floor(s / 60);
+    const sec = s % 60;
+    const base = min === 0 ? `${sec} s` : sec === 0 ? `${min} min` : `${min} min ${sec} s`;
+    return base + (item.suffix ?? "");
   }
   return new Intl.NumberFormat(numLocale).format(Math.round(v)) + (item.suffix ?? "");
 }

@@ -13,6 +13,22 @@ import type { ClientStats } from "@/content/clientStats";
 const numLocale: Record<Locale, string> = { en: "en-GB", es: "es-ES", fr: "de-DE", de: "de-DE", it: "it-IT" };
 const dateLocale: Record<Locale, string> = { en: "en-GB", es: "es-ES", fr: "fr-FR", de: "de-DE", it: "it-IT" };
 
+/* Displayed figures are rounded DOWN to one significant figure and shown with a
+   "+" (10,481 -> "10,000+", 26,575 -> "20,000+"). Rounding down keeps the claim
+   literally true whatever the daily refresh brings in: "over X" can never
+   overstate the analytics. Never switch these to Math.round (no-fabrication
+   rule, see clientStats.ts). */
+function floorToLeadingDigit(n: number): number {
+  if (n < 10) return Math.floor(n);
+  const mag = 10 ** Math.floor(Math.log10(n));
+  return Math.floor(n / mag) * mag;
+}
+
+/** Durations floor to a whole minute (149 s -> "2 min+"), or to 10 s under a minute. */
+function floorDuration(sec: number): number {
+  return sec >= 60 ? Math.floor(sec / 60) * 60 : Math.floor(sec / 10) * 10;
+}
+
 interface BandCopy {
   title: string;
   labels: { visitors: string; pageviews: string; session: string };
@@ -23,7 +39,7 @@ const COPY: Record<Locale, BandCopy> = {
   en: {
     title: "Our clients' numbers:",
     labels: {
-      visitors: "visitors a month",
+      visitors: "unique visitors a month",
       pageviews: "pages viewed a month",
       session: "average visit time",
     },
@@ -32,7 +48,7 @@ const COPY: Record<Locale, BandCopy> = {
   es: {
     title: "Los números de nuestros clientes:",
     labels: {
-      visitors: "visitantes al mes",
+      visitors: "visitantes únicos al mes",
       pageviews: "páginas vistas al mes",
       session: "duración media de visita",
     },
@@ -41,7 +57,7 @@ const COPY: Record<Locale, BandCopy> = {
   fr: {
     title: "Les chiffres de nos clients :",
     labels: {
-      visitors: "visiteurs par mois",
+      visitors: "visiteurs uniques par mois",
       pageviews: "pages vues par mois",
       session: "durée moyenne de visite",
     },
@@ -50,7 +66,7 @@ const COPY: Record<Locale, BandCopy> = {
   de: {
     title: "Die Zahlen unserer Kunden:",
     labels: {
-      visitors: "Besucher pro Monat",
+      visitors: "Einzelbesucher pro Monat",
       pageviews: "Seitenaufrufe pro Monat",
       session: "durchschnittliche Besuchsdauer",
     },
@@ -59,7 +75,7 @@ const COPY: Record<Locale, BandCopy> = {
   it: {
     title: "I numeri dei nostri clienti:",
     labels: {
-      visitors: "visitatori al mese",
+      visitors: "visitatori unici al mese",
       pageviews: "pagine viste al mese",
       session: "durata media della visita",
     },
@@ -82,9 +98,9 @@ export function getStatBand(
     numLocale: numLocale[locale],
     source: c.source(updated),
     items: [
-      { target: stats.visitors, kind: "number", label: c.labels.visitors },
-      { target: stats.pageviews, kind: "number", label: c.labels.pageviews },
-      { target: stats.avgSessionSec, kind: "duration", label: c.labels.session },
+      { target: floorToLeadingDigit(stats.visitors), kind: "number", suffix: "+", label: c.labels.visitors },
+      { target: floorToLeadingDigit(stats.pageviews), kind: "number", suffix: "+", label: c.labels.pageviews },
+      { target: floorDuration(stats.avgSessionSec), kind: "duration", suffix: "+", label: c.labels.session },
     ],
   };
 }
