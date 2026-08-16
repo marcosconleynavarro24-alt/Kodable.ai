@@ -244,15 +244,28 @@ h1.hero-h .hi-red { color: var(--accent-red); }
   .hero-grid { grid-template-columns: 1.05fr 0.95fr; }
 }
 
-/* ---------- sub-page hero (smaller, for inner pages) ---------- */
+/* ---------- sub-page hero (smaller, for inner pages) ----------
+   Sub-page heroes follow the home hero: one centred column on the page axis,
+   glow centred overhead, so every page opens the same way instead of hugging
+   the left edge (owner directive 2026-08-16). */
 .page-hero { padding: clamp(34px, 5vw, 64px) 0 clamp(28px, 4vw, 44px); background:
-    radial-gradient(120% 80% at 92% -20%, var(--accent-soft) 0%, rgba(227,243,237,0) 55%),
+    radial-gradient(105% 78% at 50% -18%, var(--accent-soft) 0%, rgba(227,243,237,0) 60%),
     var(--paper); }
-.breadcrumb { display: flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--ink-mute); margin-bottom: 16px; flex-wrap: wrap; }
+.page-hero .wrap { text-align: center; }
+.breadcrumb { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: .9rem; color: var(--ink-mute); margin-bottom: 16px; flex-wrap: wrap; }
 .breadcrumb a:hover { color: var(--accent-deep); }
 .breadcrumb .sep { opacity: .5; }
-h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0.045em; max-width: 16ch; }
-.page-sub { font-size: clamp(1.04rem, 1rem + 0.4vw, 1.22rem); color: var(--ink-mute); margin-top: 18px; max-width: 54ch; }
+h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0.045em; max-width: 20ch; margin-inline: auto; text-wrap: balance; }
+.page-sub { font-size: clamp(1.04rem, 1rem + 0.4vw, 1.22rem); color: var(--ink-mute); margin-top: 18px; max-width: 56ch; margin-inline: auto; text-wrap: pretty; }
+/* rows that default to flex-start inside a hero (CTAs, article byline, the
+   service icon + bucket) ride the same centre line */
+.page-hero .hero-cta,
+.page-hero .post-meta { justify-content: center; }
+.page-hero .svc-top { display: inline-flex; }
+@media (max-width: 560px) {
+  .page-hero .hero-cta { flex-direction: column; align-items: center; }
+  .page-hero .hero-cta .btn { width: min(100%, 320px); justify-content: center; }
+}
 
 /* ---------- chat mockup (hero visual) ---------- */
 .phone {
@@ -311,17 +324,22 @@ h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0
 .sec { padding: clamp(56px, 7vw, 100px) 0; }
 .sec-tight { padding: clamp(36px, 4vw, 60px) 0; }
 .sec-warm { background: var(--paper-warm); }
-.sec-head { max-width: 30ch; margin-bottom: clamp(34px, 4vw, 52px); }
+/* Section heads centre by default, matching the hero axis. `.sec-head.left`
+   is the escape hatch for a head that must sit over a left-anchored column. */
+.sec-head { max-width: 44rem; margin: 0 auto clamp(34px, 4vw, 52px); text-align: center; }
 .sec-head.center { margin-inline: auto; text-align: center; }
+.sec-head.left { margin-inline: 0; text-align: left; }
 .sec-kicker { display: inline-flex; align-items: center; gap: 8px; color: var(--accent-deep); font-family: var(--font-display); font-weight: 700; font-size: .96rem; margin-bottom: 14px; }
 .sec-head.center .sec-kicker { justify-content: center; }
 .sec-kicker svg { width: 18px; height: 18px; }
 h2.sec-title, h1.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); letter-spacing: -0.04em; }
-.sec-lead { margin-top: 16px; font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); color: var(--ink-mute); max-width: 52ch; }
+.sec-lead { margin-top: 16px; font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); color: var(--ink-mute); max-width: 52ch; margin-inline: auto; text-wrap: pretty; }
 .sec-head.center .sec-lead { margin-inline: auto; }
+.sec-head.left .sec-lead { margin-inline: 0; }
+h2.sec-title, h1.sec-title { text-wrap: balance; }
 
 /* ---------- storybrand narrative blocks (problem / guide / vision) ---------- */
-.lede { max-width: 62ch; }
+.lede { max-width: 62ch; margin-inline: auto; text-align: center; text-wrap: pretty; }
 .lede > p { font-size: clamp(1.08rem, 1rem + 0.5vw, 1.34rem); color: var(--ink-soft); line-height: 1.5; margin-top: 18px; }
 .lede > p:first-child { margin-top: 0; }
 .problem-stake {
@@ -330,7 +348,7 @@ h2.sec-title, h1.sec-title { font-size: clamp(1.9rem, 1.3rem + 2.6vw, 3rem); let
 }
 .problem-stake .hi { color: var(--accent-deep); }
 
-.guide-lede { max-width: 64ch; }
+.guide-lede { max-width: 64ch; margin-inline: auto; text-align: center; text-wrap: pretty; }
 .guide-lede > p { color: var(--ink-mute); font-size: clamp(1.02rem, 1rem + 0.3vw, 1.18rem); margin-top: 16px; }
 .guide-lede > p:first-child { margin-top: 0; }
 
@@ -464,7 +482,7 @@ button.slot.taken { cursor: not-allowed; }
 
 /* ---------- pricing ---------- */
 .price-group + .price-group { margin-top: clamp(40px, 5vw, 64px); }
-.price-group-h { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.price-group-h { display: flex; align-items: baseline; justify-content: center; text-align: center; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
 .price-group-h h3 { font-size: clamp(1.4rem, 1.1rem + 1.2vw, 1.9rem); }
 .price-group-h span { color: var(--ink-mute); font-size: .98rem; }
 .price-grid { display: grid; gap: 20px; margin-top: 24px; }
@@ -519,7 +537,9 @@ button.slot.taken { cursor: not-allowed; }
 .faq-item .faq-a { padding: 0 22px 20px; color: var(--ink-mute); }
 
 /* ---------- prose (legal / about) ---------- */
-.prose { max-width: 720px; color: var(--ink-soft); }
+/* Legal / long-form documents: the column is centred on the page, but the text
+   inside stays left-aligned (centred body copy is unreadable at this length). */
+.prose { max-width: 720px; margin-inline: auto; color: var(--ink-soft); }
 .prose h2 { font-size: clamp(1.4rem, 1.1rem + 1.2vw, 1.9rem); margin: 38px 0 12px; }
 .prose h3 { font-size: 1.2rem; margin: 26px 0 8px; }
 .prose p { margin: 0 0 16px; color: var(--ink-mute); }
@@ -596,8 +616,11 @@ button.slot.taken { cursor: not-allowed; }
 
 /* ---------- utilities ---------- */
 .center { text-align: center; }
-.mt-cta { margin-top: clamp(30px, 4vw, 48px); display: flex; flex-wrap: wrap; gap: 13px; }
+.mt-cta { margin-top: clamp(30px, 4vw, 48px); display: flex; flex-wrap: wrap; gap: 13px; justify-content: center; }
 .mt-cta.center { justify-content: center; }
+.mt-cta.left { justify-content: flex-start; }
+/* the plan section CTA belongs to its left-anchored steps column, not the page */
+.how-wrap .mt-cta { justify-content: flex-start; }
 
 /* ---------- reveal ---------- */
 .reveal { opacity: 1; }
@@ -633,9 +656,14 @@ button.slot.taken { cursor: not-allowed; }
   border-radius: var(--radius-xl); box-shadow: var(--shadow-m);
   padding: clamp(24px, 3.5vw, 44px); margin-bottom: clamp(34px, 5vw, 56px);
 }
-@media (min-width: 900px) { .blog-feature { grid-template-columns: 1.1fr 0.9fr; } }
-.blog-feature .bf-body h2 { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.5rem); margin: 16px 0 0; }
-.blog-feature .bf-dek { color: var(--ink-mute); font-size: clamp(1.02rem, 1rem + 0.3vw, 1.16rem); margin-top: 16px; max-width: 46ch; }
+/* two columns only when the card actually carries a visual; with copy alone the
+   old 1.1fr/0.9fr grid left half the card empty and the text glued to the left */
+@media (min-width: 900px) { .blog-feature:has(.bf-visual) { grid-template-columns: 1.1fr 0.9fr; } }
+.blog-feature:not(:has(.bf-visual)) .bf-body { max-width: 62ch; margin-inline: auto; text-align: center; }
+.blog-feature:not(:has(.bf-visual)) .bf-dek { margin-inline: auto; }
+.blog-feature:not(:has(.bf-visual)) .post-meta { justify-content: center; }
+.blog-feature .bf-body h2 { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.5rem); margin: 16px 0 0; text-wrap: balance; }
+.blog-feature .bf-dek { color: var(--ink-mute); font-size: clamp(1.02rem, 1rem + 0.3vw, 1.16rem); margin-top: 16px; max-width: 46ch; text-wrap: pretty; }
 .blog-feature .post-meta { margin-top: 20px; }
 .blog-feature .btn { margin-top: 24px; }
 /* the featured "card" visual: a stylised mini chat, echoing the hero */
