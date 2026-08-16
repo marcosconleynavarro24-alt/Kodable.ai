@@ -9,7 +9,9 @@ const SITE_URL = "https://kodable.ai";
 // teaches Google the lastmod is unreliable and it stops trusting it - which
 // slows recrawls. Posts get their true date; evergreen pages keep build time
 // only because they genuinely change with each content deploy.
-const blogDates = new Map(getPosts("en").map((p) => [p.slug, new Date(p.datePublished)]));
+const blogDates = new Map(
+  getPosts("en").map((p) => [p.slug, new Date(p.dateModified ?? p.datePublished)]),
+);
 
 // Static route suffixes (locale prefix added per-locale below).
 const routes = [

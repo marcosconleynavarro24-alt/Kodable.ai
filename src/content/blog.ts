@@ -1,6 +1,7 @@
 import type { IconName } from "@/components/Icon";
 import type { ServiceSlug } from "@/content/services";
 import type { Locale } from "@/i18n/config";
+import { SITE_URL } from "@/lib/jsonld";
 import data_en from "./blog-data.json";
 import data_es from "./blog-data.es.json";
 import data_fr from "./blog-data.fr.json";
@@ -35,6 +36,7 @@ export interface BlogPost {
   keyword: string; // primary target keyword (internal note)
   author: string;
   datePublished: string; // ISO YYYY-MM-DD
+  dateModified?: string; // ISO YYYY-MM-DD; set only on real content updates
   readMinutes: number;
   takeaways: string[];
   related: string[]; // other post slugs
@@ -78,3 +80,39 @@ export function getRelated(locale: Locale, slug: string): BlogPost[] {
 // Slugs are identical across locales, so the canonical English set drives
 // static params and routing.
 export const blogSlugs: string[] = byLocale.en.map((p) => p.slug);
+
+// Social-card image for a post: the hero photo if post.image is set, otherwise
+// an explicit per-post ogImage file. Shared by generateMetadata and the
+// BlogPosting JSON-LD so the two can never disagree about the article image.
+export function postOgImage(post: BlogPost): string | null {
+  if (post.image) return `${SITE_URL}/blog/${post.slug}.jpg`;
+  if (post.ogImage) return `${SITE_URL}/blog/${post.ogImage}`;
+  return null;
+}
+
+// Strip the inline [anchor](path) and **bold** markup that paragraph text may
+// carry, for plain-text consumers (JSON-LD).
+function stripInline(text: string): string {
+  return text
+    .replace(/\[([^\]]+)\]\(([^)]*)\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1");
+}
+
+// Extract the FAQ section every post ends with: the last h2 is the FAQ
+// heading, followed by (h3 question, p answer) pairs to the end of the body.
+// Structure-based rather than text-based so it works in every locale
+// (scripts/blog-i18n.cjs keeps block structure identical across locales).
+// Returns [] when a post doesn't follow the shape, so the FAQPage node is
+// simply omitted rather than emitted half-empty.
+export function getPostFaq(post: BlogPost): { q: string; a: string }[] {
+  const lastH2 = post.body.map((b) => b.type).lastIndexOf("h2");
+  if (lastH2 === -1) return [];
+  const pairs: { q: string; a: string }[] = [];
+  for (let i = lastH2 + 1; i + 1 < post.body.length; i += 2) {
+    const qb = post.body[i];
+    const ab = post.body[i + 1];
+    if (qb.type !== "h3" || ab.type !== "p") break;
+    pairs.push({ q: stripInline(qb.text), a: stripInline(ab.text) });
+  }
+  return pairs.length >= 2 ? pairs : [];
+}

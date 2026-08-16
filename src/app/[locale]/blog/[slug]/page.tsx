@@ -4,7 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale, locales, localeHrefLang, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
-import { getPost, getRelated, blogSlugs, type BlogPost, type BlogBlock } from "@/content/blog";
+import { getPost, getRelated, getPostFaq, postOgImage, blogSlugs, type BlogPost, type BlogBlock } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
@@ -65,11 +65,7 @@ export async function generateMetadata({
   // Social-card image: the hero photo if a post.image is set, otherwise an
   // explicit per-post ogImage file. Lets a post lead with an inline figure (e.g.
   // the EU emblem) yet still render a rich link-preview card on X / social.
-  const ogImg = post.image
-    ? `${SITE_URL}/blog/${post.slug}.jpg`
-    : post.ogImage
-      ? `${SITE_URL}/blog/${post.ogImage}`
-      : null;
+  const ogImg = postOgImage(post);
   return {
     title: post.title,
     description: post.description,
@@ -80,6 +76,7 @@ export async function generateMetadata({
       description: post.description,
       url: `${SITE_URL}/${locale}/blog/${post.slug}`,
       publishedTime: post.datePublished,
+      modifiedTime: post.dateModified ?? post.datePublished,
       authors: [post.author],
       ...(ogImg && {
         images: [{ url: ogImg, width: 1200, height: 675, alt: post.title }],
@@ -260,6 +257,10 @@ export default async function BlogPostPage({
 
   const firstParaIndex = post.body.findIndex((b) => b.type === "p");
 
+  // The FAQ section every post closes with, surfaced as structured Q&A next
+  // to the article node. Empty when a post doesn't follow the shape.
+  const faq = getPostFaq(post);
+
   const jsonLd = jsonLdDoc(
     {
       "@type": "BlogPosting",
@@ -267,16 +268,29 @@ export default async function BlogPostPage({
       headline: post.title,
       description: post.description,
       datePublished: post.datePublished,
-      dateModified: post.datePublished,
+      dateModified: post.dateModified ?? post.datePublished,
       inLanguage: locale,
       articleSection: post.category,
       keywords: post.keyword,
       url: `${SITE_URL}/${locale}/blog/${post.slug}`,
       mainEntityOfPage: `${SITE_URL}/${locale}/blog/${post.slug}`,
-      image: [`${SITE_URL}/opengraph-image`],
+      image: [postOgImage(post) ?? `${SITE_URL}/opengraph-image`],
       author: { "@type": "Organization", name: post.author, url: SITE_URL },
       publisher: { "@id": `${SITE_URL}/#organization` },
     },
+    ...(faq.length
+      ? [
+          {
+            "@type": "FAQPage",
+            "@id": `${SITE_URL}/${locale}/blog/${post.slug}#faq`,
+            mainEntity: faq.map((f) => ({
+              "@type": "Question",
+              name: f.q,
+              acceptedAnswer: { "@type": "Answer", text: f.a },
+            })),
+          },
+        ]
+      : []),
     breadcrumbList([
       { name: c.home, path: `/${locale}` },
       { name: c.blog, path: `/${locale}/blog` },
