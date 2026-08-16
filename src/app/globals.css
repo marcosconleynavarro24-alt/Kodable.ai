@@ -112,10 +112,12 @@ section { position: relative; }
 .brand { display: inline-flex; align-items: center; gap: 9px; font-family: var(--font-display); font-weight: 800; font-size: 1.22rem; color: var(--ink); letter-spacing: -0.04em; }
 .brand .dot-ai { color: var(--accent); }
 .mark { width: 30px; height: 30px; flex: none; }
-.nav-links { display: none; gap: 26px; margin-left: 14px; }
+/* Fluid gap: 26px at wide desktop, tightening near the 920px breakpoint where
+   the longest locale (DE) would otherwise crowd the right-hand actions. */
+.nav-links { display: none; gap: clamp(16px, 1.8vw, 26px); }
 .nav-links a { font-weight: 500; color: var(--ink-soft); font-size: .98rem; transition: color .2s var(--ease); }
 .nav-links a:hover, .nav-links a.active { color: var(--accent-deep); }
-.nav-right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.nav-right { margin-left: auto; display: flex; align-items: center; justify-content: flex-end; gap: 12px; }
 .lang-switch { position: relative; }
 .lang {
   display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
@@ -164,7 +166,15 @@ section { position: relative; }
 .nav .btn-primary.desktop-cta { display: none; }
 
 @media (min-width: 920px) {
-  .nav-links { display: flex; }
+  /* Symmetric 3-column header: the link row sits on the page's centre axis,
+     matching the centred sections below it (flex + margin-left:auto pushed the
+     whole cluster left and left a gap in the middle). Equal 1fr side tracks
+     keep the centre column centred whatever the logo / actions widths are. */
+  .nav-in { display: grid; grid-template-columns: 1fr auto 1fr; gap: 30px; }
+  .nav-links { display: flex; justify-content: center; }
+  /* Keep the brand's hit area on the logo itself, not the whole 1fr track. */
+  .nav-in > .brand { justify-self: start; }
+  .nav-right { margin-left: 0; }
   .menu-btn { display: none; }
   .nav .btn-primary.desktop-cta { display: inline-flex; }
 }
