@@ -3,8 +3,8 @@ import type { StatItem } from "@/components/StatBand";
 import type { ClientStats } from "@/content/clientStats";
 
 /* ============================================================================
-   Copy + assembly for the client-results StatBand, shared by the home page and
-   /casos so the figures and wording can never drift between the two. Numbers
+   Copy + assembly for the client-results StatBand in the home hero (it once
+   also fed the retired /casos page, now /portfolio). Numbers
    come from getClientStats() (Supabase overlay, baked snapshot fallback) and
    must stay verbatim-checkable against the analytics dashboard. The band is
    deliberately anonymous: no client names anywhere (owner directive 2026-08-12).

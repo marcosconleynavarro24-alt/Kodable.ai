@@ -1,4 +1,4 @@
-// Live-ish client stats for /casos. Mirrors the bookings Supabase seam
+// Live-ish client stats for the home stat band. Mirrors the bookings Supabase seam
 // (src/lib/bookings.ts): with SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY set,
 // figures come from the `kodable_client_stats` row for the slug (cached via
 // ISR for an hour), so refreshed analytics show up WITHOUT a redeploy. Without

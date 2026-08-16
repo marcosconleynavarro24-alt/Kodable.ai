@@ -1,6 +1,6 @@
 "use client";
 
-// SaaS-style count-up stat band (/casos). The server render carries the FINAL
+// SaaS-style count-up stat band (home hero). The server render carries the FINAL
 // figures, so crawlers and no-JS visitors always see the real numbers; on the
 // first scroll into view the values animate 0 → final. prefers-reduced-motion
 // users keep the static figures (matching the site-wide .reveal rule).

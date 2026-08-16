@@ -57,9 +57,9 @@ export default async function HomePage({
             </div>
 
             {/* REAL RESULTS BAND, count-up figures from client-site analytics
-                (anonymous, shared with /casos via getStatBand). Lives inside
-                the hero so visitors see the numbers on landing, with no
-                scrolling (owner directive 2026-08-15). */}
+                (anonymous, assembled via getStatBand). Lives inside the hero
+                so visitors see the numbers on landing, with no scrolling
+                (owner directive 2026-08-15). */}
             <div className="hero-stats" id="resultados">
               <p className="hero-stats-title">{band.title}</p>
               <StatBand items={band.items} numLocale={band.numLocale} compact />
