@@ -81,6 +81,15 @@ export function getRelated(locale: Locale, slug: string): BlogPost[] {
 // static params and routing.
 export const blogSlugs: string[] = byLocale.en.map((p) => p.slug);
 
+// Post dates are authored as plain YYYY-MM-DD. Google's Rich Results Test
+// flags a bare date on datePublished/dateModified ("missing a timezone"), so
+// schema and OG metadata get a full ISO 8601 stamp. UTC rather than a Madrid
+// offset: publishing time of day is not tracked anyway, and a hardcoded
+// +02:00 would be wrong for anything published outside summer time.
+export function postDateISO(date: string): string {
+  return `${date}T00:00:00Z`;
+}
+
 // Social-card image for a post: the hero photo if post.image is set, otherwise
 // an explicit per-post ogImage file. Shared by generateMetadata and the
 // BlogPosting JSON-LD so the two can never disagree about the article image.

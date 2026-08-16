@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, localeHrefLang, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
-import { getPosts, type BlogPost } from "@/content/blog";
+import { getPosts, postDateISO, type BlogPost } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
@@ -136,7 +136,7 @@ export default async function BlogIndex({
         "@type": "BlogPosting",
         headline: p.title,
         url: `${SITE_URL}/${locale}/blog/${p.slug}`,
-        datePublished: p.datePublished,
+        datePublished: postDateISO(p.datePublished),
       })),
     },
     breadcrumbList([

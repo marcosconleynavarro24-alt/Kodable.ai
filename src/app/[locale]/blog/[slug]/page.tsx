@@ -4,7 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { isLocale, locales, localeHrefLang, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
-import { getPost, getRelated, getPostFaq, postOgImage, blogSlugs, type BlogPost, type BlogBlock } from "@/content/blog";
+import { getPost, getRelated, getPostFaq, postOgImage, postDateISO, blogSlugs, type BlogPost, type BlogBlock } from "@/content/blog";
 import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
@@ -81,8 +81,8 @@ export async function generateMetadata({
       title: post.title,
       description: post.description,
       url: `${SITE_URL}/${locale}/blog/${post.slug}`,
-      publishedTime: post.datePublished,
-      modifiedTime: post.dateModified ?? post.datePublished,
+      publishedTime: postDateISO(post.datePublished),
+      modifiedTime: postDateISO(post.dateModified ?? post.datePublished),
       authors: [post.author],
       ...(ogImg && {
         images: [{ url: ogImg, width: 1200, height: 675, alt: post.title }],
@@ -273,8 +273,8 @@ export default async function BlogPostPage({
       "@id": `${SITE_URL}/${locale}/blog/${post.slug}#article`,
       headline: post.title,
       description: post.description,
-      datePublished: post.datePublished,
-      dateModified: post.dateModified ?? post.datePublished,
+      datePublished: postDateISO(post.datePublished),
+      dateModified: postDateISO(post.dateModified ?? post.datePublished),
       inLanguage: locale,
       articleSection: post.category,
       keywords: post.keyword,

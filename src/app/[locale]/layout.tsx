@@ -33,27 +33,27 @@ const META: Record<Locale, { title: string; description: string }> = {
   en: {
     title: "AI websites, agents & automations for small businesses | Kodable.ai",
     description:
-      "Kodable builds AI-powered websites, agents and automations for local businesses, so you get found, get booked and never miss an enquiry. Free consultation.",
+      "Scaling business through AI.",
   },
   es: {
     title: "Webs, agentes de IA y automatizaciones para pequeños negocios | Kodable.ai",
     description:
-      "Webs, agentes de IA y automatizaciones que hacen crecer pequeños negocios: webs rápidas, atención 24/7, herramientas a medida. Consulta gratis y sin compromiso.",
+      "Hacemos crecer negocios con IA.",
   },
   fr: {
     title: "Sites web, agents IA et automatisations pour petits commerces | Kodable.ai",
     description:
-      "Sites web, agents IA et automatisations qui font grandir les petits commerces : sites rapides, accueil 24h/24, outils sur mesure. Consultation gratuite.",
+      "Faire grandir les entreprises grâce à l'IA.",
   },
   de: {
     title: "KI-Websites, Agenten & Automatisierungen für kleine Unternehmen | Kodable.ai",
     description:
-      "KI-Websites, Agenten und Automatisierungen für kleine Unternehmen: schnelle Websites, Kundenchat rund um die Uhr, Tools nach Maß. Kostenlose Beratung.",
+      "Unternehmen mit KI wachsen lassen.",
   },
   it: {
     title: "Siti web, agenti IA e automazioni per piccole attività | Kodable.ai",
     description:
-      "Siti web, agenti IA e automazioni che fanno crescere le piccole attività: siti veloci, assistenza 24/7, strumenti su misura. Consulenza gratuita.",
+      "Far crescere le imprese con l'IA.",
   },
 };
 
@@ -163,8 +163,17 @@ export default async function LocaleLayout({
         // No areaServed on purpose: the studio is Spain-based but sells
         // location-agnostic (EN prices the US trades campaign in USD), and a
         // wrong country claim reads worse to answer engines than no claim.
-        serviceType: ["Website Development", "AI Agents", "Custom Software", "Automation & Integrations"],
-        provider: { "@id": `${SITE_URL}/#organization` },
+        // ProfessionalService is a LocalBusiness, not a Service: schema.org
+        // defines neither `serviceType` nor `provider` on it (both were
+        // flagged by the validator, and `provider` was self-referential
+        // anyway). The four pillars ride on `makesOffer`, which IS valid on
+        // Organization, with the service type on the offered Service node.
+        makesOffer: ["Website Development", "AI Agents", "Custom Software", "Automation & Integrations"].map(
+          (name) => ({
+            "@type": "Offer",
+            itemOffered: { "@type": "Service", name, serviceType: name },
+          }),
+        ),
         priceRange: "€€",
       },
     ],
