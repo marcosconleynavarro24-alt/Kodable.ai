@@ -157,7 +157,7 @@ const en: SiteContent = {
       }[l.key]!,
     })),
     cta: "Free consultation",
-    langAria: "Language: English and Spanish available",
+    langAria: "Language: available in English, Spanish, French, German and Italian",
   },
   brand: {
     tagline:
@@ -359,7 +359,7 @@ const es: SiteContent = {
       }[l.key]!,
     })),
     cta: "Consulta gratis",
-    langAria: "Idioma: disponible en español e inglés",
+    langAria: "Idioma: disponible en español, inglés, francés, alemán e italiano",
   },
   brand: {
     tagline:
@@ -561,7 +561,7 @@ const fr: SiteContent = {
       }[l.key]!,
     })),
     cta: "Consultation gratuite",
-    langAria: "Langue : disponible en français, anglais et espagnol",
+    langAria: "Langue : disponible en français, anglais, espagnol, allemand et italien",
   },
   brand: {
     tagline:
@@ -763,7 +763,7 @@ const de: SiteContent = {
       }[l.key]!,
     })),
     cta: "Kostenlose Beratung",
-    langAria: "Sprache: auf Deutsch und Englisch verfügbar",
+    langAria: "Sprache: verfügbar auf Deutsch, Englisch, Spanisch, Französisch und Italienisch",
   },
   brand: {
     tagline:
@@ -965,7 +965,7 @@ const it: SiteContent = {
       }[l.key]!,
     })),
     cta: "Consulenza gratuita",
-    langAria: "Lingua: disponibile in italiano e inglese",
+    langAria: "Lingua: disponibile in italiano, inglese, spagnolo, francese e tedesco",
   },
   brand: {
     tagline:

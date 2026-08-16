@@ -305,7 +305,7 @@ const PACKS: Record<Locale, Pack> = {
         name: "Sites web",
         tiers: {
           starter: { name: "Économique", features: ["1 à 5 pages", "Mobile, WhatsApp et clic-pour-appeler", "Profil Google + SEO de base", "Une langue"] },
-          business: { name: "Business", features: ["Jusqu'à ~8 pages, design sur mesure", "Bilingue ES/EN", "Réservation ou commande intégrée", "SEO local, avis et blog"] },
+          business: { name: "Business", features: ["Jusqu'à ~8 pages, design sur mesure", "Bilingue FR/EN", "Réservation ou commande intégrée", "SEO local, avis et blog"] },
           premium: { name: "Premium", features: ["Boutique en ligne ou sur-mesure", "Multilingue + paiements", "Intégrations avancées", "Livraison prioritaire"] },
         },
       },
@@ -380,7 +380,7 @@ const PACKS: Record<Locale, Pack> = {
         name: "Websites",
         tiers: {
           starter: { name: "Economy", features: ["1–5 Seiten", "Mobil, WhatsApp & Klick-zum-Anrufen", "Google-Profil + Basis-SEO", "Eine Sprache"] },
-          business: { name: "Business", features: ["Bis ~8 Seiten, individuelles Design", "Zweisprachig ES/EN", "Buchung oder Bestellung integriert", "Lokales SEO, Bewertungen & Blog"] },
+          business: { name: "Business", features: ["Bis ~8 Seiten, individuelles Design", "Zweisprachig DE/EN", "Buchung oder Bestellung integriert", "Lokales SEO, Bewertungen & Blog"] },
           premium: { name: "Premium", features: ["Online-Shop oder Maßanfertigung", "Mehrsprachig + Zahlungen", "Erweiterte Integrationen", "Bevorzugte Lieferung"] },
         },
       },
@@ -455,7 +455,7 @@ const PACKS: Record<Locale, Pack> = {
         name: "Siti web",
         tiers: {
           starter: { name: "Economy", features: ["1–5 pagine", "Mobile, WhatsApp e clic-per-chiamare", "Profilo Google + SEO di base", "Una lingua"] },
-          business: { name: "Business", features: ["Fino a ~8 pagine, design su misura", "Bilingue ES/EN", "Prenotazioni o ordini integrati", "SEO locale, recensioni e blog"] },
+          business: { name: "Business", features: ["Fino a ~8 pagine, design su misura", "Bilingue IT/EN", "Prenotazioni o ordini integrati", "SEO locale, recensioni e blog"] },
           premium: { name: "Premium", features: ["Negozio online o su misura", "Multilingue + pagamenti", "Integrazioni avanzate", "Consegna prioritaria"] },
         },
       },
