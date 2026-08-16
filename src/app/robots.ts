@@ -16,6 +16,12 @@ const AI_AND_SEARCH_BOTS = [
   "Google-Extended", // Gemini / AI Overviews
   "Applebot-Extended", // Apple Intelligence
   "Bingbot", // Bing index → Copilot & ChatGPT search retrieval
+  "CCBot", // Common Crawl, feeds many LLM training sets
+  "Amazonbot", // Alexa / Amazon AI answers
+  "meta-externalagent", // Meta AI training/crawl
+  "Google-CloudVertexBot", // Vertex AI grounding retrieval
+  // Bytespider (ByteDance) intentionally not listed: it ignores robots.txt,
+  // so naming it signals nothing.
 ];
 
 export default function robots(): MetadataRoute.Robots {

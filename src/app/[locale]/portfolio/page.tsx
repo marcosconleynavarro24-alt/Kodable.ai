@@ -5,7 +5,7 @@ import { isLocale, defaultLocale, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
 import Icon, { type IconName } from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
-import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
+import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
 import { pageOg } from "@/lib/og";
 
@@ -540,7 +540,23 @@ export default async function PortfolioPage({
   const t = copy[locale];
   const site = getSite(locale);
 
+  // The page's work as an ItemList of CreativeWorks: the two named client
+  // projects first, then the sector demos. Names and descriptions come from
+  // the same copy[locale] the cards render. Snapshots are served from our own
+  // origin, so no external URLs are claimed.
   const jsonLd = jsonLdDoc(
+    {
+      "@type": "ItemList",
+      "@id": `${SITE_URL}/${locale}/portfolio#work`,
+      name: t.crumbHere,
+      itemListElement: [...t.projects.map((p) => ({ name: p.name, description: p.tagline })),
+        ...t.samples.map((s) => ({ name: s.sector, description: s.tagline })),
+      ].map((w, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: { "@type": "CreativeWork", name: w.name, description: w.description },
+      })),
+    },
     breadcrumbList([
       { name: t.crumbHome, path: `/${locale}` },
       { name: t.crumbHere },

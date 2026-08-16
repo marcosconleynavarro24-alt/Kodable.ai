@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Contratar tu web",
   description: "Contratación online para clientes de Kodable.ai.",
   robots: { index: false, follow: false },
+  // Suppress the layout's inherited canonical/hreflangs (false homepage
+  // canonical on a noindex page). See onboarding/page.tsx.
+  alternates: { canonical: null },
 };
 
 export default async function ContratarPage({

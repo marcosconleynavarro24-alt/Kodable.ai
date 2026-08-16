@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: "Puesta en marcha de tu web",
   description: "Formulario de alta para nuevos clientes de Kodable.ai.",
   robots: { index: false, follow: false },
+  // Without this, the page inherits the layout's alternates wholesale and
+  // claims the homepage as its canonical (plus five hreflangs) while being
+  // noindexed. canonical: null suppresses the inherited block entirely.
+  alternates: { canonical: null },
 };
 
 export default async function OnboardingPage({
