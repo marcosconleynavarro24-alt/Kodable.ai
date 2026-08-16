@@ -161,7 +161,7 @@ const en: SiteContent = {
   },
   brand: {
     tagline:
-      "A small studio that uses AI to scale small local businesses.",
+      "A studio that uses AI to scale local businesses.",
   },
   home: {
     servicesKicker: "What we do",
@@ -323,7 +323,7 @@ const en: SiteContent = {
     labels: { whatsapp: "WhatsApp", call: "Call us", email: "Email" },
   },
   footer: {
-    desc: "A small studio that uses AI to scale small local businesses.",
+    desc: "A studio that uses AI to scale local businesses.",
     exploreTitle: "Explore",
     contactTitle: "Get in touch",
     copyright: "© 2026 Kodable.ai",
@@ -363,7 +363,7 @@ const es: SiteContent = {
   },
   brand: {
     tagline:
-      "Un pequeño estudio que usa IA para hacer crecer pequeños negocios locales.",
+      "Un estudio que usa IA para hacer crecer negocios locales.",
   },
   home: {
     servicesKicker: "Lo que hacemos",
@@ -525,7 +525,7 @@ const es: SiteContent = {
     labels: { whatsapp: "WhatsApp", call: "Llámanos", email: "Email" },
   },
   footer: {
-    desc: "Un pequeño estudio que usa IA para hacer crecer pequeños negocios locales.",
+    desc: "Un estudio que usa IA para hacer crecer negocios locales.",
     exploreTitle: "Explora",
     contactTitle: "Contacto",
     copyright: "© 2026 Kodable.ai",
@@ -565,7 +565,7 @@ const fr: SiteContent = {
   },
   brand: {
     tagline:
-      "Un petit studio qui utilise l'IA pour faire grandir les petits commerces de proximité.",
+      "Un studio qui utilise l'IA pour faire grandir les commerces de proximité.",
   },
   home: {
     servicesKicker: "Ce que nous faisons",
@@ -727,7 +727,7 @@ const fr: SiteContent = {
     labels: { whatsapp: "WhatsApp", call: "Appelez-nous", email: "Email" },
   },
   footer: {
-    desc: "Un petit studio qui utilise l'IA pour faire grandir les petits commerces de proximité.",
+    desc: "Un studio qui utilise l'IA pour faire grandir les commerces de proximité.",
     exploreTitle: "Explorer",
     contactTitle: "Nous contacter",
     copyright: "© 2026 Kodable.ai",
@@ -767,7 +767,7 @@ const de: SiteContent = {
   },
   brand: {
     tagline:
-      "Ein kleines Studio, das KI nutzt, um kleine lokale Unternehmen wachsen zu lassen.",
+      "Ein Studio, das KI nutzt, um lokale Unternehmen wachsen zu lassen.",
   },
   home: {
     servicesKicker: "Was wir machen",
@@ -929,7 +929,7 @@ const de: SiteContent = {
     labels: { whatsapp: "WhatsApp", call: "Ruf uns an", email: "Email" },
   },
   footer: {
-    desc: "Ein kleines Studio, das KI nutzt, um kleine lokale Unternehmen wachsen zu lassen.",
+    desc: "Ein Studio, das KI nutzt, um lokale Unternehmen wachsen zu lassen.",
     exploreTitle: "Entdecken",
     contactTitle: "Kontakt aufnehmen",
     copyright: "© 2026 Kodable.ai",
@@ -969,7 +969,7 @@ const it: SiteContent = {
   },
   brand: {
     tagline:
-      "Un piccolo studio che usa l'IA per far crescere le piccole attività locali.",
+      "Uno studio che usa l'IA per far crescere le attività locali.",
   },
   home: {
     servicesKicker: "Cosa facciamo",
@@ -1131,7 +1131,7 @@ const it: SiteContent = {
     labels: { whatsapp: "WhatsApp", call: "Chiamaci", email: "Email" },
   },
   footer: {
-    desc: "Un piccolo studio che usa l'IA per far crescere le piccole attività locali.",
+    desc: "Uno studio che usa l'IA per far crescere le attività locali.",
     exploreTitle: "Esplora",
     contactTitle: "Mettiti in contatto",
     copyright: "© 2026 Kodable.ai",
