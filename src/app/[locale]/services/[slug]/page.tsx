@@ -123,7 +123,6 @@ export default async function ServiceDetailPage({
       serviceType: serviceTypeBySlug[service.slug],
       url: `${SITE_URL}/${locale}/services/${service.slug}`,
       provider: { "@id": `${SITE_URL}/#organization` },
-      areaServed: { "@type": "Country", name: "Spain" },
       availableLanguage: [...locales],
     },
     breadcrumbList([

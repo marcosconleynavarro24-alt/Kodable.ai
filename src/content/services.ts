@@ -38,7 +38,7 @@ const en: Record<ServiceSlug, Service> = {
     title: "Websites",
     tagline: "Stop losing customers to a slow or invisible website.",
     intro:
-      "Kodable builds AI-powered websites for small businesses across Spain: fast to load, easy to find in local search, and designed to turn visitors into bookings. Right now, people nearby are searching for what you do. Whether they find you, or your competitor, comes down to your website.",
+      "Kodable builds AI-powered websites for small businesses: fast to load, easy to find in local search, and designed to turn visitors into bookings. Right now, people nearby are searching for what you do. Whether they find you, or your competitor, comes down to your website.",
     included: [
       "Shows up when nearby customers search for what you do",
       "Loads in under a second, because slow sites lose people",
@@ -133,7 +133,7 @@ const es: Record<ServiceSlug, Service> = {
     title: "Webs",
     tagline: "Deja de perder clientes por una web lenta o invisible.",
     intro:
-      "En Kodable creamos webs con IA para pequeños negocios de toda España: rápidas, fáciles de encontrar en las búsquedas de tu zona y pensadas para convertir visitas en reservas. Ahora mismo hay gente cerca buscando lo que tú haces. Que te encuentren a ti, o a tu competencia, depende de tu web.",
+      "En Kodable creamos webs con IA para pequeños negocios: rápidas, fáciles de encontrar en las búsquedas de tu zona y pensadas para convertir visitas en reservas. Ahora mismo hay gente cerca buscando lo que tú haces. Que te encuentren a ti, o a tu competencia, depende de tu web.",
     included: [
       "Apareces cuando la gente de tu zona busca lo que haces",
       "Carga en menos de un segundo, porque las webs lentas espantan a la gente",
@@ -228,7 +228,7 @@ const fr: Record<ServiceSlug, Service> = {
     title: "Sites web",
     tagline: "Arrêtez de perdre des clients à cause d'un site lent ou invisible.",
     intro:
-      "Kodable crée des sites web propulsés par l'IA pour les petits commerces partout en Espagne : rapides à charger, faciles à trouver dans les recherches locales et pensés pour transformer les visites en réservations. En ce moment même, des gens près de chez vous cherchent ce que vous proposez. Qu'ils vous trouvent vous, ou votre concurrent, tout se joue sur votre site.",
+      "Kodable crée des sites web propulsés par l'IA pour les petits commerces : rapides à charger, faciles à trouver dans les recherches locales et pensés pour transformer les visites en réservations. En ce moment même, des gens près de chez vous cherchent ce que vous proposez. Qu'ils vous trouvent vous, ou votre concurrent, tout se joue sur votre site.",
     included: [
       "Apparaît quand des clients proches cherchent ce que vous proposez",
       "Se charge en moins d'une seconde, parce qu'un site lent fait fuir les gens",
@@ -323,7 +323,7 @@ const de: Record<ServiceSlug, Service> = {
     title: "Websites",
     tagline: "Verlier keine Kunden mehr an eine langsame oder unsichtbare Website.",
     intro:
-      "Kodable baut KI-gestützte Websites für kleine Unternehmen in ganz Spanien: schnell geladen, leicht in der lokalen Suche zu finden und darauf ausgelegt, Besucher zu Buchungen zu machen. Gerade jetzt suchen Leute in deiner Nähe nach dem, was du machst. Ob sie dich finden, oder deinen Mitbewerber, hängt an deiner Website.",
+      "Kodable baut KI-gestützte Websites für kleine Unternehmen: schnell geladen, leicht in der lokalen Suche zu finden und darauf ausgelegt, Besucher zu Buchungen zu machen. Gerade jetzt suchen Leute in deiner Nähe nach dem, was du machst. Ob sie dich finden, oder deinen Mitbewerber, hängt an deiner Website.",
     included: [
       "Taucht auf, wenn Kunden in der Nähe nach dem suchen, was du machst",
       "Lädt in unter einer Sekunde, denn lahme Seiten verlieren Leute",
@@ -418,7 +418,7 @@ const it: Record<ServiceSlug, Service> = {
     title: "Siti web",
     tagline: "Smetti di perdere clienti per un sito lento o invisibile.",
     intro:
-      "Kodable costruisce siti web potenziati dall'IA per piccole attività in tutta la Spagna: veloci da caricare, facili da trovare nelle ricerche locali e pensati per trasformare le visite in prenotazioni. Proprio ora, qui vicino, c'è chi cerca quello che fai. Che trovi te, o il tuo concorrente, dipende dal tuo sito.",
+      "Kodable costruisce siti web potenziati dall'IA per piccole attività: veloci da caricare, facili da trovare nelle ricerche locali e pensati per trasformare le visite in prenotazioni. Proprio ora, qui vicino, c'è chi cerca quello che fai. Che trovi te, o il tuo concorrente, dipende dal tuo sito.",
     included: [
       "Compare quando i clienti qui vicino cercano quello che fai",
       "Carica in meno di un secondo, perché i siti lenti fanno perdere persone",

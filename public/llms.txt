@@ -1,6 +1,6 @@
 # Kodable.ai
 
-> A small studio that uses AI to scale small local businesses across Spain. We build fast websites and AI agents that answer customers 24/7. Site available in five languages: English, Español, Français, Deutsch and Italiano. Free, no-pressure consultation; real people who answer after launch.
+> A small Spain-based studio that uses AI to scale small local businesses, wherever they are. We build fast websites and AI agents that answer customers 24/7. Site available in five languages: English, Español, Français, Deutsch and Italiano. Free, no-pressure consultation; real people who answer after launch.
 
 ## Services
 - [All services](https://kodable.ai/en/services): Websites, AI agents, custom tools and automations.

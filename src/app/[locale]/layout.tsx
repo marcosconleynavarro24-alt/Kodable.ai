@@ -160,7 +160,9 @@ export default async function LocaleLayout({
         email: contactInfo.email,
         telephone: contactInfo.phoneHref,
         knowsLanguage: [...locales],
-        areaServed: { "@type": "Country", name: "Spain" },
+        // No areaServed on purpose: the studio is Spain-based but sells
+        // location-agnostic (EN prices the US trades campaign in USD), and a
+        // wrong country claim reads worse to answer engines than no claim.
         serviceType: ["Website Development", "AI Agents", "Custom Software", "Automation & Integrations"],
         provider: { "@id": `${SITE_URL}/#organization` },
         priceRange: "€€",
