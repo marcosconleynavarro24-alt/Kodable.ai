@@ -1,26 +1,44 @@
 # Kodable.ai
 
-> A small studio that uses AI to scale small local businesses across Spain. We build fast websites and AI agents that answer customers 24/7. Bilingual (English / Español). Free, no-pressure consultation; real people who answer after launch.
+> A small studio that uses AI to scale small local businesses across Spain. We build fast websites and AI agents that answer customers 24/7. Site available in five languages: English, Español, Français, Deutsch and Italiano. Free, no-pressure consultation; real people who answer after launch.
 
 ## Services
+- [All services](https://kodable.ai/en/services): Websites, AI agents, custom tools and automations.
 - [Websites](https://kodable.ai/en/services/websites): Fast, AI-built sites that show up when people search nearby and turn a curious visitor into a booking.
 - [AI Agents](https://kodable.ai/en/services/ai-agents): A friendly assistant that answers customers, takes bookings and handles reception on WhatsApp and your site, 24/7.
 
 ## Key pages
-- [All services](https://kodable.ai/en/services)
 - [Pricing](https://kodable.ai/en/pricing): Clear prices for websites (pay once or all-in monthly) and AI agents, VAT included.
-- [Builder or agency? An honest comparison](https://kodable.ai/en/comparativa)
-- [Work samples](https://kodable.ai/en/casos)
+- [Portfolio](https://kodable.ai/en/portfolio): Real client sites and sector demos we have built.
+- [Builder or agency? An honest comparison](https://kodable.ai/en/comparativa): DIY website builders vs a done-for-you studio, including when the builder is the better choice.
 - [FAQ](https://kodable.ai/en/faq)
 - [Contact](https://kodable.ai/en/contact)
+
+## Blog
+- [Blog index](https://kodable.ai/en/blog)
+- [Kit Digital 2026: The Complete Guide for Spanish Businesses (€3,000–€29,000 in EU Grants)](https://kodable.ai/en/blog/kit-digital-2026)
+- [Getting Found When AI Answers First: A 2026 Guide for Local Businesses](https://kodable.ai/en/blog/get-found-in-ai-search)
+- [What an AI Agent Actually Does for a Small Business](https://kodable.ai/en/blog/ai-agent-for-small-business)
 
 ## En español
 - [Servicios](https://kodable.ai/es/services)
 - [Precios](https://kodable.ai/es/pricing)
+- [Portfolio](https://kodable.ai/es/portfolio)
 - [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
-- [Muestras de trabajo](https://kodable.ai/es/casos)
+- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, y qué hace un agente de IA por un pequeño negocio.
 - [Preguntas frecuentes](https://kodable.ai/es/faq)
 - [Contacto](https://kodable.ai/es/contact)
+
+## Other languages
+- [Français](https://kodable.ai/fr)
+- [Deutsch](https://kodable.ai/de)
+- [Italiano](https://kodable.ai/it)
+
+## Legal
+- [Legal notice](https://kodable.ai/en/legal)
+- [Privacy](https://kodable.ai/en/privacy)
+- [Terms](https://kodable.ai/en/terms)
+- [Cookies](https://kodable.ai/en/cookies): This site uses no cookies.
 
 ## Contact
 - Email: info@kodable.ai
