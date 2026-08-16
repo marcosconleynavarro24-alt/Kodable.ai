@@ -9,6 +9,7 @@ import FinalCta from "@/components/FinalCta";
 import Icon from "@/components/Icon";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 // Combined pricing page: switch between websites and AI-agents price tables
 // only (owner directive 2026-07-10: no custom-tools / automations here, those
@@ -86,6 +87,12 @@ export async function generateMetadata({
       canonical: `/${locale}/pricing`,
       languages: hreflangs("/pricing"),
     },
+    ...pageOg({
+      locale,
+      path: `/${locale}/pricing`,
+      title: c.title,
+      description: c.sub,
+    }),
   };
 }
 

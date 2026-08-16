@@ -8,6 +8,7 @@ import Icon from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -47,6 +48,12 @@ export async function generateMetadata({
     title: meta[key].title,
     description: meta[key].description,
     alternates: { canonical: `/${locale}/faq`, languages: hreflangs("/faq") },
+    ...pageOg({
+      locale: key,
+      path: `/${key}/faq`,
+      title: meta[key].title,
+      description: meta[key].description,
+    }),
   };
 }
 

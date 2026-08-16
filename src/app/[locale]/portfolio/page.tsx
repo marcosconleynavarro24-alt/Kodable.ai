@@ -7,6 +7,7 @@ import Icon, { type IconName } from "@/components/Icon";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 // Portfolio, two layers:
 // 1. CLIENT WORK, real websites built for real clients, shown by name with
@@ -55,6 +56,12 @@ export async function generateMetadata({
     title: meta[key].title,
     description: meta[key].description,
     alternates: { canonical: `/${locale}/portfolio`, languages: hreflangs("/portfolio") },
+    ...pageOg({
+      locale: key,
+      path: `/${key}/portfolio`,
+      title: meta[key].title,
+      description: meta[key].description,
+    }),
   };
 }
 

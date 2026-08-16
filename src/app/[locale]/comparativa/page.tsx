@@ -9,6 +9,7 @@ import FinalCta from "@/components/FinalCta";
 import SectionHead from "@/components/SectionHead";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -43,7 +44,8 @@ export async function generateMetadata({
         "Confrontiamo i website builder fai-da-te con uno studio che lo fa per te: tempo, testi, SEO tecnica, manutenzione e automazioni. Inclusi i casi in cui il builder è la scelta migliore.",
     },
   };
-  const chosen = isLocale(locale) ? meta[locale] : meta.en;
+  const key: Locale = isLocale(locale) ? locale : "en";
+  const chosen = meta[key];
   return {
     title: chosen.title,
     description: chosen.description,
@@ -51,6 +53,12 @@ export async function generateMetadata({
       canonical: `/${locale}/comparativa`,
       languages: hreflangs("/comparativa"),
     },
+    ...pageOg({
+      locale: key,
+      path: `/${key}/comparativa`,
+      title: chosen.title,
+      description: chosen.description,
+    }),
   };
 }
 

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { legalInfo } from "@/content/legal-info";
 import { legalCanonical, legalHreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,15 +13,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const es = locale === "es";
+  const title = es ? "Aviso legal" : "Legal notice";
+  const description = es
+    ? "Identificación del titular de kodable.ai conforme al artículo 10 de la LSSI-CE, condiciones de uso del sitio y propiedad intelectual."
+    : "Operator identification for kodable.ai under Spain's LSSI-CE (art. 10), site terms of use and intellectual property.";
   return {
-    title: es ? "Aviso legal" : "Legal notice",
-    description: es
-      ? "Identificación del titular de kodable.ai conforme al artículo 10 de la LSSI-CE, condiciones de uso del sitio y propiedad intelectual."
-      : "Operator identification for kodable.ai under Spain's LSSI-CE (art. 10), site terms of use and intellectual property.",
+    title,
+    description,
     alternates: {
       canonical: legalCanonical(locale, "/legal"),
       languages: legalHreflangs("/legal"),
     },
+    ...pageOg({
+      locale: es ? "es" : "en",
+      path: legalCanonical(locale, "/legal"),
+      title,
+      description,
+      altLocales: ["en", "es"],
+    }),
   };
 }
 

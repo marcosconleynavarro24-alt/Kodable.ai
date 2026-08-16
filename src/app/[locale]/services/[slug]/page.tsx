@@ -10,6 +10,7 @@ import Pricing from "@/components/Pricing";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 // Pre-render every service detail page for both locales.
 export async function generateStaticParams() {
@@ -32,13 +33,20 @@ export async function generateMetadata({
     de: "für dein Unternehmen",
     it: "per la tua attività",
   };
+  const title = `${service.title} ${suffix[locale]}`;
   return {
-    title: `${service.title} ${suffix[locale]}`,
+    title,
     description: service.tagline,
     alternates: {
       canonical: `/${locale}/services/${service.slug}`,
       languages: hreflangs(`/services/${service.slug}`),
     },
+    ...pageOg({
+      locale,
+      path: `/${locale}/services/${service.slug}`,
+      title,
+      description: service.tagline,
+    }),
   };
 }
 
@@ -153,9 +161,9 @@ export default async function ServiceDetailPage({
       {/* INTRO + WHAT'S INCLUDED */}
       <section className="sec">
         <div className="wrap-narrow">
-          <p className="sec-lead reveal">{service.intro}</p>
+          <p className="sec-lead reveal center">{service.intro}</p>
 
-          <h2 className="sec-title" style={{ marginTop: "36px" }}>
+          <h2 className="sec-title center" style={{ marginTop: "36px" }}>
             {copy.included}
           </h2>
           <div className="svc reveal" style={{ marginTop: "20px" }}>

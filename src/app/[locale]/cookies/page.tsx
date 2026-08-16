@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { legalCanonical, legalHreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -11,15 +12,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const es = locale === "es";
+  const title = "Cookies";
+  const description = es
+    ? "Esta web no usa cookies. Explicamos qué medimos (de forma anónima y sin identificadores) y por qué no verás un banner de consentimiento."
+    : "This site uses no cookies. We explain what we measure (anonymously, with no identifiers) and why you won't see a consent banner.";
   return {
-    title: es ? "Cookies" : "Cookies",
-    description: es
-      ? "Esta web no usa cookies. Explicamos qué medimos (de forma anónima y sin identificadores) y por qué no verás un banner de consentimiento."
-      : "This site uses no cookies. We explain what we measure (anonymously, with no identifiers) and why you won't see a consent banner.",
+    title,
+    description,
     alternates: {
       canonical: legalCanonical(locale, "/cookies"),
       languages: legalHreflangs("/cookies"),
     },
+    ...pageOg({
+      locale: es ? "es" : "en",
+      path: legalCanonical(locale, "/cookies"),
+      title,
+      description,
+      altLocales: ["en", "es"],
+    }),
   };
 }
 

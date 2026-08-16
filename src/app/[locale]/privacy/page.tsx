@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
 import { legalCanonical, legalHreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,15 +13,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const es = locale === "es";
+  const title = es ? "Privacidad" : "Privacy";
+  const description = es
+    ? "Cómo recogemos, usamos y protegemos tus datos cuando nos escribes a través de esta web. Conforme al RGPD y la LOPDGDD."
+    : "How we collect, use and protect your data when you get in touch through this site. GDPR and Spanish data law aware.";
   return {
-    title: es ? "Privacidad" : "Privacy",
-    description: es
-      ? "Cómo recogemos, usamos y protegemos tus datos cuando nos escribes a través de esta web. Conforme al RGPD y la LOPDGDD."
-      : "How we collect, use and protect your data when you get in touch through this site. GDPR and Spanish data law aware.",
+    title,
+    description,
     alternates: {
       canonical: legalCanonical(locale, "/privacy"),
       languages: legalHreflangs("/privacy"),
     },
+    ...pageOg({
+      locale: es ? "es" : "en",
+      path: legalCanonical(locale, "/privacy"),
+      title,
+      description,
+      altLocales: ["en", "es"],
+    }),
   };
 }
 

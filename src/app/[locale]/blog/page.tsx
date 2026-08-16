@@ -9,6 +9,7 @@ import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { CAT_LABELS } from "@/content/blog-cats";
 import { hreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 const COPY: Record<Locale, {
   home: string; blog: string; kicker: string; title: string; dek: string;
@@ -75,6 +76,12 @@ export async function generateMetadata({
     title: c.metaTitle,
     description: c.metaDesc,
     alternates: { canonical: `/${locale}/blog`, languages: hreflangs("/blog") },
+    ...pageOg({
+      locale,
+      path: `/${locale}/blog`,
+      title: c.metaTitle,
+      description: c.metaDesc,
+    }),
   };
 }
 

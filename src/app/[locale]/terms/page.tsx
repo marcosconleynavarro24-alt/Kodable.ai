@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/i18n/config";
 import { contactInfo } from "@/content/contact-info";
 import { legalCanonical, legalHreflangs } from "@/lib/hreflang";
+import { pageOg } from "@/lib/og";
 
 export async function generateMetadata({
   params,
@@ -12,17 +13,24 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const es = locale === "es";
+  const title = es ? "Términos y condiciones" : "Terms and conditions";
+  const description = es
+    ? "Los términos en lenguaje sencillo para trabajar con Kodable.ai: qué incluyen los servicios, cómo funcionan los presupuestos y proyectos, los planes de cuidado, la propiedad del trabajo y la ley aplicable."
+    : "The plain-language terms for working with Kodable.ai: what the services cover, how quotes and projects work, care plans, who owns the work and which law applies.";
   return {
-    title: es
-      ? "Términos y condiciones"
-      : "Terms and conditions",
-    description: es
-      ? "Los términos en lenguaje sencillo para trabajar con Kodable.ai: qué incluyen los servicios, cómo funcionan los presupuestos y proyectos, los planes de cuidado, la propiedad del trabajo y la ley aplicable."
-      : "The plain-language terms for working with Kodable.ai: what the services cover, how quotes and projects work, care plans, who owns the work and which law applies.",
+    title,
+    description,
     alternates: {
       canonical: legalCanonical(locale, "/terms"),
       languages: legalHreflangs("/terms"),
     },
+    ...pageOg({
+      locale: es ? "es" : "en",
+      path: legalCanonical(locale, "/terms"),
+      title,
+      description,
+      altLocales: ["en", "es"],
+    }),
   };
 }
 
