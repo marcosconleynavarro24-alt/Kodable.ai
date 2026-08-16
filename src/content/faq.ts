@@ -20,11 +20,19 @@ const en: FaqItem[] = [
   },
   {
     q: "How much does it cost?",
-    a: "It depends on what you actually need, which is why we don't publish a price list. Most clients are surprised by how affordable it is. The consultation is free, the quote is plain-language, and there's no pressure to go ahead.",
+    a: "Our prices are published, so you don't have to guess. Websites are a one-off: $245 Economy, $495 Business, $995 and up for Premium, VAT included. AI chat agents start at $23.75 a month plus setup, phone agents at $149.50 a month plus setup, and care plans at $19.50 a month. The pricing page lists every tier. The consultation is still free and the final quote is confirmed there, in plain language, with no pressure to go ahead.",
+  },
+  {
+    q: "Do I have to pay for the whole website up front?",
+    a: "No. You can pay the build monthly instead: $24.99 a month for 10 months on Economy, $50 a month for 10 months on Business, $100 a month for 10 months on Premium. Those are instalments, not a subscription: when the term ends the payments end and the site is yours. The care plan is separate. You pay by card through a secure checkout link we send you.",
+  },
+  {
+    q: "Can I see it before I commit?",
+    a: "Yes. Before you pay anything we build a real demo of your own site, usually within 48 hours, on a live link you can open on your phone and share with whoever you want. If it isn't for you, you walk away and it has cost you nothing.",
   },
   {
     q: "What happens after you build it?",
-    a: "We don't disappear. We offer a care plan that keeps everything running, updated and backed up. And if something ever needs changing, we're a WhatsApp message away.",
+    a: "We don't disappear. Every build includes 30 days of free support. After that a care plan keeps everything hosted, updated, backed up and monitored, from $19.50 a month. And if something ever needs changing, we're a WhatsApp message away.",
   },
   {
     q: "Who builds AI-powered websites in Spain?",
@@ -59,11 +67,19 @@ const es: FaqItem[] = [
   },
   {
     q: "¿Cuánto cuesta?",
-    a: "Depende de lo que de verdad necesites, y por eso no publicamos lista de precios. A la mayoría de clientes les sorprende lo asequible que es. La consulta es gratis, el presupuesto va en lenguaje sencillo y no hay ninguna presión para seguir adelante.",
+    a: "Publicamos los precios, así no tienes que adivinar nada. Las webs son pago único: €245 la Económica, €495 la de Negocio y desde €995 la Premium, IVA incluido. Los agentes de chat con IA arrancan en €23,75 al mes más puesta en marcha, los agentes de teléfono en €149,50 al mes más puesta en marcha, y los planes de cuidado en €19,50 al mes. En la página de precios está cada plan. La consulta sigue siendo gratis y ahí confirmamos el presupuesto final, en lenguaje sencillo y sin ninguna presión para seguir adelante.",
+  },
+  {
+    q: "¿Tengo que pagar la web entera de golpe?",
+    a: "No. Puedes pagar la construcción a plazos: €19,99 al mes durante 12 meses la Económica, €50 al mes durante 10 meses la de Negocio y €100 al mes durante 10 meses la Premium. Son plazos, no una suscripción: cuando termina el plazo se acaban los pagos y la web es tuya. El plan de cuidado va aparte. Se paga con tarjeta, por un enlace de pago seguro que te enviamos.",
+  },
+  {
+    q: "¿Puedo verla antes de comprometerme?",
+    a: "Sí. Antes de pagar nada te montamos una demo real de tu propia web, normalmente en 48 horas, en un enlace que puedes abrir en el móvil y enseñar a quien quieras. Si no te convence, lo dejas ahí y no te ha costado nada.",
   },
   {
     q: "¿Qué pasa después de construirla?",
-    a: "No desaparecemos. Tenemos un plan de cuidado que lo mantiene todo online, actualizado y con copias de seguridad. Y si alguna vez hay que cambiar algo, estamos a un mensaje de WhatsApp.",
+    a: "No desaparecemos. Cada proyecto incluye 30 días de soporte gratis. Después, un plan de cuidado lo mantiene alojado, actualizado, con copias de seguridad y vigilado, desde €19,50 al mes. Y si alguna vez hay que cambiar algo, estamos a un mensaje de WhatsApp.",
   },
   {
     q: "¿Quién hace páginas web con IA en España?",
@@ -98,11 +114,19 @@ const fr: FaqItem[] = [
   },
   {
     q: "Combien ça coûte ?",
-    a: "Ça dépend de ce dont vous avez réellement besoin, et c'est pour ça qu'on ne publie pas de grille tarifaire. La plupart de nos clients sont surpris de voir à quel point c'est abordable. La consultation est gratuite, le devis est en langage simple, et rien ne vous oblige à aller plus loin.",
+    a: "Nos prix sont publiés, vous n'avez rien à deviner. Les sites sont en paiement unique : €245 l'offre Économique, €495 la Business, à partir de €995 la Premium, TVA incluse. Les agents de chat IA démarrent à €23,75 par mois plus la mise en place, les agents téléphoniques à €149,50 par mois plus la mise en place, et les plans d'entretien à €19,50 par mois. La page des tarifs détaille chaque offre. La consultation reste gratuite : c'est là qu'on confirme le devis final, en langage simple et sans aucune obligation.",
+  },
+  {
+    q: "Dois-je payer tout le site d'avance ?",
+    a: "Non. Vous pouvez régler la création par mensualités : €19,99 par mois pendant 12 mois pour l'Économique, €50 par mois pendant 10 mois pour la Business, €100 par mois pendant 10 mois pour la Premium. Ce sont des mensualités, pas un abonnement : à la fin du terme, les paiements s'arrêtent et le site est à vous. Le plan d'entretien est séparé. Le paiement se fait par carte, via un lien sécurisé que nous vous envoyons.",
+  },
+  {
+    q: "Puis-je le voir avant de m'engager ?",
+    a: "Oui. Avant tout paiement, nous construisons une vraie démo de votre propre site, généralement en 48 heures, sur un lien que vous pouvez ouvrir sur votre téléphone et partager à qui vous voulez. Si ça ne vous convient pas, vous en restez là et ça ne vous a rien coûté.",
   },
   {
     q: "Que se passe-t-il une fois le site construit ?",
-    a: "On ne disparaît pas. Nous proposons un forfait de suivi qui garde tout en marche, à jour et sauvegardé. Et si quelque chose doit changer un jour, on est à un message WhatsApp de vous.",
+    a: "On ne disparaît pas. Chaque création inclut 30 jours d'accompagnement gratuit. Ensuite, un forfait de suivi garde tout hébergé, à jour, sauvegardé et surveillé, à partir de €19,50 par mois. Et si quelque chose doit changer un jour, on est à un message WhatsApp de vous.",
   },
   {
     q: "Qui crée des sites web avec l'IA en Espagne ?",
@@ -137,11 +161,19 @@ const de: FaqItem[] = [
   },
   {
     q: "Was kostet das?",
-    a: "Das hängt davon ab, was du wirklich brauchst, deshalb veröffentlichen wir keine Preisliste. Die meisten Kunden sind überrascht, wie bezahlbar es ist. Die Beratung ist kostenlos, das Angebot in verständlicher Sprache, und es gibt keinen Druck, mitzumachen.",
+    a: "Unsere Preise stehen öffentlich, du musst nichts raten. Websites sind einmalig: €245 Economy, €495 Business, ab €995 Premium, inkl. MwSt. KI-Chat-Agenten starten bei €23,75 im Monat plus Einrichtung, Telefon-Agenten bei €149,50 im Monat plus Einrichtung, Care-Pläne bei €19,50 im Monat. Auf der Preisseite steht jede Stufe. Die Beratung bleibt kostenlos: dort bestätigen wir das endgültige Angebot, in verständlicher Sprache und ohne Druck.",
+  },
+  {
+    q: "Muss ich die Website komplett im Voraus bezahlen?",
+    a: "Nein. Du kannst den Aufbau monatlich zahlen: €19,99 im Monat über 12 Monate bei Economy, €50 im Monat über 10 Monate bei Business, €100 im Monat über 10 Monate bei Premium. Das sind Raten, kein Abo: Wenn die Laufzeit endet, enden die Zahlungen und die Website gehört dir. Der Care-Plan läuft getrennt. Bezahlt wird per Karte, über einen sicheren Zahlungslink, den wir dir schicken.",
+  },
+  {
+    q: "Kann ich es sehen, bevor ich mich festlege?",
+    a: "Ja. Bevor du irgendwas bezahlst, bauen wir eine echte Demo deiner eigenen Website, meist innerhalb von 48 Stunden, auf einem Link, den du am Handy öffnen und beliebig weitergeben kannst. Wenn es nichts für dich ist, lässt du es und es hat dich nichts gekostet.",
   },
   {
     q: "Was passiert, nachdem ihr es gebaut habt?",
-    a: "Wir verschwinden nicht. Wir bieten einen Pflegeplan, der alles am Laufen, aktuell und gesichert hält. Und wenn mal etwas geändert werden muss, sind wir nur eine WhatsApp-Nachricht entfernt.",
+    a: "Wir verschwinden nicht. Jedes Projekt enthält 30 Tage kostenlosen Support. Danach hält ein Care-Plan alles gehostet, aktuell, gesichert und überwacht, ab €19,50 im Monat. Und wenn mal etwas geändert werden muss, sind wir nur eine WhatsApp-Nachricht entfernt.",
   },
   {
     q: "Wer baut KI-gestützte Websites in Spanien?",
@@ -176,11 +208,19 @@ const it: FaqItem[] = [
   },
   {
     q: "Quanto costa?",
-    a: "Dipende da cosa ti serve davvero, ed è per questo che non pubblichiamo un listino. Quasi tutti i clienti restano sorpresi da quanto sia accessibile. La consulenza è gratis, il preventivo è in parole semplici e non c'è nessuna pressione ad andare avanti.",
+    a: "I nostri prezzi sono pubblici, non devi indovinare niente. I siti sono a pagamento unico: €245 l'Economy, €495 la Business, da €995 la Premium, IVA inclusa. Gli agenti di chat con IA partono da €23,75 al mese più attivazione, gli agenti telefonici da €149,50 al mese più attivazione, i piani di assistenza da €19,50 al mese. Nella pagina dei prezzi trovi ogni fascia. La consulenza resta gratuita: lì confermiamo il preventivo finale, in parole semplici e senza nessuna pressione.",
+  },
+  {
+    q: "Devo pagare tutto il sito in anticipo?",
+    a: "No. Puoi pagare la realizzazione a rate: €19,99 al mese per 12 mesi con l'Economy, €50 al mese per 10 mesi con la Business, €100 al mese per 10 mesi con la Premium. Sono rate, non un abbonamento: finito il periodo i pagamenti si fermano e il sito è tuo. Il piano di assistenza è a parte. Si paga con carta, tramite un link di pagamento sicuro che ti inviamo.",
+  },
+  {
+    q: "Posso vederlo prima di impegnarmi?",
+    a: "Sì. Prima di pagare qualsiasi cosa costruiamo una demo vera del tuo sito, di solito in 48 ore, su un link che puoi aprire dal telefono e mostrare a chi vuoi. Se non fa per te, ti fermi lì e non ti è costato nulla.",
   },
   {
     q: "Cosa succede dopo che lo avete costruito?",
-    a: "Non spariamo. Offriamo un piano di assistenza che tiene tutto funzionante, aggiornato e salvato. E se mai serve cambiare qualcosa, siamo a un messaggio WhatsApp di distanza.",
+    a: "Non spariamo. Ogni progetto include 30 giorni di supporto gratuito. Poi un piano di assistenza tiene tutto ospitato, aggiornato, salvato e monitorato, da €19,50 al mese. E se mai serve cambiare qualcosa, siamo a un messaggio WhatsApp di distanza.",
   },
   {
     q: "Chi realizza siti web con l'IA in Spagna?",
