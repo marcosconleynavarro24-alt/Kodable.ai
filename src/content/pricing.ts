@@ -543,6 +543,66 @@ export function getCareGroup(locale: Locale): PriceGroup {
   return careGroup(PACKS[locale], locale);
 }
 
+// Localized price formatter for copy that quotes figures outside the price
+// cards (e.g. the /pricing intro), so numbers always come from N and render
+// with the same currency/format rules as the cards.
+export const formatPrice = euro;
+
+/* Machine-readable offers for the /pricing JSON-LD, generated from the same
+   `N` numbers and PACKS tier names as the visible cards so schema and page
+   can never disagree. `en` prices in USD (the trades campaign, see CURRENCY
+   above); every other locale is EUR. Installment alternatives are NOT
+   modelled: same price on a payment schedule, not a second offer. */
+export interface SchemaOffer {
+  name: string;
+  price: number;
+  priceCurrency: "USD" | "EUR";
+  oneOff: boolean;
+  setup?: { price: number; label: string };
+}
+export interface SchemaOfferGroup {
+  name: string;
+  offers: SchemaOffer[];
+}
+
+export function getSchemaOffers(locale: Locale): SchemaOfferGroup[] {
+  const p = PACKS[locale];
+  const priceCurrency = locale === "en" ? ("USD" as const) : ("EUR" as const);
+  const off = (name: string, price: number, oneOff: boolean, setup?: number): SchemaOffer => ({
+    name,
+    price,
+    priceCurrency,
+    oneOff,
+    ...(setup !== undefined ? { setup: { price: setup, label: p.lbl.setup } } : {}),
+  });
+  return [
+    {
+      name: p.groups.websites.name,
+      offers: [
+        off(p.groups.websites.tiers.starter.name, N.web.starter, true),
+        off(p.groups.websites.tiers.business.name, N.web.business, true),
+        off(p.groups.websites.tiers.premium.name, N.web.premium, true),
+      ],
+    },
+    {
+      name: p.groups.chat.name,
+      offers: [
+        off(p.groups.chat.tiers.essential.name, N.chat.essential.m, false, N.chat.essential.s),
+        off(p.groups.chat.tiers.pro.name, N.chat.pro.m, false, N.chat.pro.s),
+        off(p.groups.chat.tiers.premium.name, N.chat.premium.m, false, N.chat.premium.s),
+      ],
+    },
+    {
+      name: p.groups.voice.name,
+      offers: [
+        off(p.groups.voice.tiers.basic.name, N.voice.basic.m, false, N.voice.basic.s),
+        off(p.groups.voice.tiers.pro.name, N.voice.pro.m, false, N.voice.pro.s),
+        off(p.groups.voice.tiers.premium.name, N.voice.premium.m, false, N.voice.premium.s),
+      ],
+    },
+  ];
+}
+
 export function getPricing(locale: Locale, slug: ServiceSlug): ServicePricing {
   const p = PACKS[locale];
 
