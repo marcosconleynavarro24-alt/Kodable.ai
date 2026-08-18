@@ -445,11 +445,11 @@ function ownerEmail(b: Booking, to: string | string[]): Rendered {
     b.note ? `\nNote:\n${b.note}` : "",
   ];
   const row = (l: string, v: string) =>
-    `<tr><td style="padding:4px 14px 4px 0;color:#4b5c56;white-space:nowrap">${l}</td><td style="padding:4px 0;color:#16221f;font-weight:600">${escapeHtml(v)}</td></tr>`;
+    `<tr><td style="padding:4px 14px 4px 0;color:#4b5266;white-space:nowrap">${l}</td><td style="padding:4px 0;color:#16182b;font-weight:600">${escapeHtml(v)}</td></tr>`;
   const html = `
-  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16221f">
-    <h2 style="color:#0a6650;margin:0 0 4px">New booking</h2>
-    <p style="color:#4b5c56;margin:0 0 18px">a consultation was booked via kodable.ai</p>
+  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16182b">
+    <h2 style="color:#000063;margin:0 0 4px">New booking</h2>
+    <p style="color:#4b5266;margin:0 0 18px">a consultation was booked via kodable.ai</p>
     <table style="border-collapse:collapse;font-size:15px">
       ${row("When", when)}
       ${row("Name", b.name)}
@@ -457,9 +457,9 @@ function ownerEmail(b: Booking, to: string | string[]): Rendered {
       ${row("Phone", b.phone || "-")}
       ${row("Language", b.locale.toUpperCase())}
     </table>
-    ${b.note ? `<div style="margin-top:18px;padding:16px;background:#f4f7f4;border-radius:12px;white-space:pre-wrap;font-size:15px;line-height:1.5">${escapeHtml(b.note)}</div>` : ""}
-    ${b.email ? `<p style="margin-top:18px"><a href="mailto:${escapeHtml(b.email)}" style="color:#0a6650;font-weight:600">Reply to ${escapeHtml(b.name)} →</a></p>` : ""}
-    <p style="color:#4b5c56;font-size:13px;margin-top:14px">Calendar invite attached.</p>
+    ${b.note ? `<div style="margin-top:18px;padding:16px;background:#f4f5fa;border-radius:12px;white-space:pre-wrap;font-size:15px;line-height:1.5">${escapeHtml(b.note)}</div>` : ""}
+    ${b.email ? `<p style="margin-top:18px"><a href="mailto:${escapeHtml(b.email)}" style="color:#000063;font-weight:600">Reply to ${escapeHtml(b.name)} →</a></p>` : ""}
+    <p style="color:#4b5266;font-size:13px;margin-top:14px">Calendar invite attached.</p>
   </div>`;
   return {
     to,
@@ -493,13 +493,13 @@ function clientEmail(b: Booking, from: string): Rendered | null {
       };
   const text = `${t.hi}\n\n${t.body}\n\n${t.change}\n\n${t.sign}`;
   const html = `
-  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16221f">
+  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16182b">
     <p style="font-size:17px;margin:0 0 12px">${escapeHtml(t.hi)}</p>
-    <div style="padding:14px 16px;background:#e3f3ed;border-radius:12px;color:#0a4d3c;font-weight:700;font-size:16px;margin:0 0 16px">📅 ${escapeHtml(when)}</div>
-    <p style="color:#33433e;line-height:1.6;margin:0 0 16px">${escapeHtml(t.body)}</p>
-    <p style="color:#33433e;line-height:1.6;margin:0 0 18px">${escapeHtml(t.change)}</p>
-    <p style="margin:0 0 22px"><a href="${wa}" style="display:inline-block;background:#0e8266;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
-    <p style="color:#4b5c56;white-space:pre-line;font-size:14px">${escapeHtml(t.sign)}</p>
+    <div style="padding:14px 16px;background:#e5e6f5;border-radius:12px;color:#08083f;font-weight:700;font-size:16px;margin:0 0 16px">📅 ${escapeHtml(when)}</div>
+    <p style="color:#333a4d;line-height:1.6;margin:0 0 16px">${escapeHtml(t.body)}</p>
+    <p style="color:#333a4d;line-height:1.6;margin:0 0 18px">${escapeHtml(t.change)}</p>
+    <p style="margin:0 0 22px"><a href="${wa}" style="display:inline-block;background:#000080;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
+    <p style="color:#4b5266;white-space:pre-line;font-size:14px">${escapeHtml(t.sign)}</p>
   </div>`;
   return { to: b.email, subject: t.subject, text, html, replyTo: emailAddress(from) };
 }

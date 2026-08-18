@@ -11,8 +11,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "AI websites, agents & automations for small businesses",
     start_url: "/",
     display: "standalone",
-    background_color: "#fbfcfb",
-    theme_color: "#0e8266",
+    background_color: "#fbfbfd",
+    theme_color: "#000080",
     icons: [
       { src: "/icon.svg", sizes: "any", type: "image/svg+xml" },
       { src: "/logo.png", sizes: "512x512", type: "image/png" },

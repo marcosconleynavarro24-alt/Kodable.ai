@@ -265,11 +265,11 @@ function ownerEmail(lead: Lead, to: string): RenderedEmail {
     lead.message,
   ];
   const row = (label: string, value: string) =>
-    `<tr><td style="padding:4px 14px 4px 0;color:#4b5c56;white-space:nowrap">${label}</td><td style="padding:4px 0;color:#16221f;font-weight:600">${escapeHtml(value)}</td></tr>`;
+    `<tr><td style="padding:4px 14px 4px 0;color:#4b5266;white-space:nowrap">${label}</td><td style="padding:4px 0;color:#16182b;font-weight:600">${escapeHtml(value)}</td></tr>`;
   const html = `
-  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16221f">
-    <h2 style="color:#0a6650;margin:0 0 4px">New enquiry${lead.business ? ` · ${escapeHtml(lead.business)}` : ""}</h2>
-    <p style="color:#4b5c56;margin:0 0 18px">via kodable.ai contact form</p>
+  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16182b">
+    <h2 style="color:#000063;margin:0 0 4px">New enquiry${lead.business ? ` · ${escapeHtml(lead.business)}` : ""}</h2>
+    <p style="color:#4b5266;margin:0 0 18px">via kodable.ai contact form</p>
     <table style="border-collapse:collapse;font-size:15px">
       ${row("Name", lead.name)}
       ${row("Business", lead.business || "-")}
@@ -278,8 +278,8 @@ function ownerEmail(lead: Lead, to: string): RenderedEmail {
       ${row("Interested in", interests)}
       ${row("Language", lead.locale.toUpperCase())}
     </table>
-    <div style="margin-top:18px;padding:16px;background:#f4f7f4;border-radius:12px;white-space:pre-wrap;font-size:15px;line-height:1.5">${escapeHtml(lead.message)}</div>
-    ${lead.email ? `<p style="margin-top:18px"><a href="mailto:${escapeHtml(lead.email)}" style="color:#0a6650;font-weight:600">Reply to ${escapeHtml(lead.name)} →</a></p>` : ""}
+    <div style="margin-top:18px;padding:16px;background:#f4f5fa;border-radius:12px;white-space:pre-wrap;font-size:15px;line-height:1.5">${escapeHtml(lead.message)}</div>
+    ${lead.email ? `<p style="margin-top:18px"><a href="mailto:${escapeHtml(lead.email)}" style="color:#000063;font-weight:600">Reply to ${escapeHtml(lead.name)} →</a></p>` : ""}
   </div>`;
   return {
     to,
@@ -313,13 +313,13 @@ function customerEmail(lead: Lead, from: string): RenderedEmail | null {
         };
   const text = `${t.hi}\n\n${t.body}\n\n${t.yours}\n"${lead.message}"\n\n${t.sign}`;
   const html = `
-  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16221f">
+  <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16182b">
     <p style="font-size:17px;margin:0 0 12px">${escapeHtml(t.hi)}</p>
-    <p style="color:#33433e;line-height:1.6;margin:0 0 18px">${escapeHtml(t.body)}</p>
-    <p style="color:#4b5c56;margin:0 0 6px">${escapeHtml(t.yours)}</p>
-    <div style="padding:14px 16px;background:#f4f7f4;border-radius:12px;white-space:pre-wrap;color:#33433e">${escapeHtml(lead.message)}</div>
-    <p style="margin:22px 0"><a href="${wa}" style="display:inline-block;background:#0e8266;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
-    <p style="color:#4b5c56;white-space:pre-line;font-size:14px">${escapeHtml(t.sign)}</p>
+    <p style="color:#333a4d;line-height:1.6;margin:0 0 18px">${escapeHtml(t.body)}</p>
+    <p style="color:#4b5266;margin:0 0 6px">${escapeHtml(t.yours)}</p>
+    <div style="padding:14px 16px;background:#f4f5fa;border-radius:12px;white-space:pre-wrap;color:#333a4d">${escapeHtml(lead.message)}</div>
+    <p style="margin:22px 0"><a href="${wa}" style="display:inline-block;background:#000080;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
+    <p style="color:#4b5266;white-space:pre-line;font-size:14px">${escapeHtml(t.sign)}</p>
   </div>`;
   return { to: lead.email, subject: t.subject, text, html, replyTo: from };
 }

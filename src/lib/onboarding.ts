@@ -94,8 +94,8 @@ const esc = (x: string) =>
 export async function deliverOnboarding(o: Onboarding): Promise<void> {
   const key = process.env.RESEND_API_KEY;
   const row = (label: string, v: string) =>
-    v ? `<tr><td style="padding:4px 10px 4px 0;color:#4b5c56;vertical-align:top">${label}</td><td style="padding:4px 0">${esc(v)}</td></tr>` : "";
-  const html = `<div style="font-family:system-ui,sans-serif;font-size:15px;color:#16221f;line-height:1.5">
+    v ? `<tr><td style="padding:4px 10px 4px 0;color:#4b5266;vertical-align:top">${label}</td><td style="padding:4px 0">${esc(v)}</td></tr>` : "";
+  const html = `<div style="font-family:system-ui,sans-serif;font-size:15px;color:#16182b;line-height:1.5">
     <h2 style="margin:0 0 12px">📋 Onboarding: ${esc(o.business)}</h2>
     <table style="border-collapse:collapse;font-size:14px">
       ${row("Contacto", o.name)}${row("Teléfono", o.phone)}${row("Email", o.email)}
@@ -104,7 +104,7 @@ export async function deliverOnboarding(o: Onboarding): Promise<void> {
       ${row("Estilo", o.style)}${row("Dominio", o.domain)}${row("Redes", o.social)}
       ${row("Notas", o.notes)}
     </table>
-    <p style="margin:14px 0 0;color:#4b5c56;font-size:13px">Recibido ${esc(o.receivedAt)} ·
+    <p style="margin:14px 0 0;color:#4b5266;font-size:13px">Recibido ${esc(o.receivedAt)} ·
     el reloj de los 7 días empieza cuando lleguen las fotos por WhatsApp.</p>
   </div>`;
   if (!key) {

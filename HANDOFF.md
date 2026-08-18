@@ -44,8 +44,10 @@ first. The live site is the Next.js app in **`kodable-site/`**.
   `Icon` (inline SVG set), `SectionHead`, `ServiceCard`, `ChatMockup`,
   `BookingMockup`, `ContactForm` (client), `FinalCta`, `PricingTables` is GONE,
   `ConversionTracker` (client analytics).
-- **Design system:** `src/app/globals.css`. Tokens: emerald accent `--accent
-  #0e8266`, paper `--paper`, ink, etc. Fonts via `next/font`: **Hanken Grotesk**
+- **Design system:** `src/app/globals.css`. Tokens: navy accent `--accent
+  #000080` (owner directive 2026-08-16, replaced the emerald `#0e8266`; the
+  neutrals were re-tinted from green-grey to navy-grey in the same pass),
+  paper `--paper`, ink, etc. Fonts via `next/font`: **Hanken Grotesk**
   (display) + **Spline Sans** (body). Semantic classes (`.btn`, `.sec`,
   `.svc`, `.msg`, `.you-card`, `.price`/dead, `.consult-card`, etc.). Reveal
   animation = add class `reveal`.
@@ -68,8 +70,9 @@ first. The live site is the Next.js app in **`kodable-site/`**.
    needs are left for the consultation conversation.
 5. **No emojis** in UI — use the stroke icons in `Icon.tsx` (added restaurant /
    salon / trades / shop). The ★ star‑rating glyph is allowed (it's a rating).
-6. **Logo = solid emerald bolt** (`Logo.tsx`) + matching favicon `app/icon.svg`.
-   No outline/sparks.
+6. **Logo = ink ring + navy arc** (`Logo.tsx`, KodableNewLogo since 2026-08-15)
+   + matching favicon `app/icon.svg` and `app/favicon.ico`
+   (`node scripts/gen-favicon.mjs`). No outline/sparks, no bolt.
 7. Voice is plain, warm, owner‑facing; tech terms only in an "under the hood"
    footnote. `../PRODUCT.md` is the impeccable design‑context doc (kept current).
 

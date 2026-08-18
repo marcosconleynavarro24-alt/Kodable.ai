@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 // Branded social-share image, generated at build time. Applies to every route
-// that doesn't define its own. Uses the site palette (warm paper / ink / emerald).
+// that doesn't define its own. Uses the site palette (cool paper / ink / navy).
 export const alt =
   "Kodable.ai: AI websites, agents and automations for small businesses";
 export const size = { width: 1200, height: 630 };
@@ -17,26 +17,26 @@ export default function Image() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          backgroundColor: "#fbfcfb",
+          backgroundColor: "#fbfbfd",
           padding: "80px",
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
-          <svg width="44" height="44" viewBox="0 0 64 64">
-            <circle
-              cx="32"
-              cy="32"
-              r="20"
+          <svg width="52" height="52" viewBox="0 0 64 64">
+            <path d="M32 32 11.22 20 32 8 52.78 20Z" fill="#000080" />
+            <path
+              d="M32 8 52.78 20V44L32 56 11.22 44V20Z"
               fill="none"
-              stroke="#16221f"
+              stroke="#16182b"
               strokeWidth="5"
-              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
-              d="M44 16a20 20 0 0 1 0 32"
+              d="M11.22 20 32 32 52.78 20M32 32v24"
               fill="none"
-              stroke="#0e8266"
+              stroke="#16182b"
               strokeWidth="5"
+              strokeLinejoin="round"
               strokeLinecap="round"
             />
           </svg>
@@ -44,13 +44,13 @@ export default function Image() {
             style={{
               display: "flex",
               fontSize: "32px",
-              color: "#16221f",
+              color: "#16182b",
               letterSpacing: "-0.02em",
               fontWeight: 700,
             }}
           >
             <span>kodable</span>
-            <span style={{ color: "#0e8266" }}>.ai</span>
+            <span style={{ color: "#000080" }}>.ai</span>
           </div>
         </div>
 
@@ -61,18 +61,18 @@ export default function Image() {
               flexWrap: "wrap",
               fontSize: "76px",
               lineHeight: 1.05,
-              color: "#16221f",
+              color: "#16182b",
               maxWidth: "1000px",
             }}
           >
             <span>We use AI to scale&nbsp;</span>
-            <span style={{ color: "#0e8266" }}>small businesses.</span>
+            <span style={{ color: "#000080" }}>small businesses.</span>
           </div>
           <div
             style={{
               marginTop: "28px",
               fontSize: "30px",
-              color: "#4b5c56",
+              color: "#4b5266",
               maxWidth: "920px",
             }}
           >
@@ -86,7 +86,7 @@ export default function Image() {
             display: "flex",
             alignItems: "center",
             fontSize: "24px",
-            color: "#4b5c56",
+            color: "#4b5266",
             letterSpacing: "0.04em",
           }}
         >
