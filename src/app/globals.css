@@ -191,7 +191,12 @@ section { position: relative; }
 .mobile-menu .btn { margin: 10px 22px 0; }
 
 /* ---------- hero ---------- */
+/* Hero backdrop: a field of isometric cubes echoing the KodableNewLogo mark.
+   The artwork's centre is deliberately empty, so the headline, CTA and stat
+   band sit on flat paper at full contrast. The radial gradient stays beneath
+   it as the fallback if the image fails to load. */
 .hero { padding: clamp(40px, 5.4vw, 72px) 0 clamp(48px, 6vw, 80px); background:
+    url("/bg/hero-cubes.webp") top center / 100% auto no-repeat,
     radial-gradient(105% 78% at 50% -18%, var(--accent-soft) 0%, rgba(229,230,245,0) 60%),
     var(--paper); }
 .hero-grid { display: grid; gap: clamp(34px, 5vw, 56px); align-items: center; }
@@ -258,7 +263,11 @@ h1.hero-h .hi-red { color: var(--accent-red); }
    Sub-page heroes follow the home hero: one centred column on the page axis,
    glow centred overhead, so every page opens the same way instead of hugging
    the left edge (owner directive 2026-08-16). */
+/* Inner-page header: the same cube motif as the home hero, cropped to the
+   short header band. Sized with cover so it always fills the section exactly,
+   whatever the title wraps to, which leaves no cut edge at the boundary. */
 .page-hero { padding: clamp(34px, 5vw, 64px) 0 clamp(28px, 4vw, 44px); background:
+    url("/bg/hero-cubes.webp") center / cover no-repeat,
     radial-gradient(105% 78% at 50% -18%, var(--accent-soft) 0%, rgba(229,230,245,0) 60%),
     var(--paper); }
 .page-hero .wrap { text-align: center; }
@@ -333,7 +342,10 @@ h1.page-h { font-size: clamp(2.1rem, 1.4rem + 3.4vw, 3.5rem); letter-spacing: -0
 /* ---------- section heads ---------- */
 .sec { padding: clamp(56px, 7vw, 100px) 0; }
 .sec-tight { padding: clamp(36px, 4vw, 60px) 0; }
-.sec-warm { background: var(--paper-warm); }
+/* Alternating warm band: a whisper-faint isometric lattice, tinted to match
+   --paper-warm so the tonal alternation between .sec and .sec-warm still does
+   the work of separating sections. */
+.sec-warm { background: url("/bg/sec-warm-lattice.webp") center / cover no-repeat, var(--paper-warm); }
 /* Section heads centre by default, matching the hero axis. `.sec-head.left`
    is the escape hatch for a head that must sit over a left-anchored column. */
 .sec-head { max-width: 44rem; margin: 0 auto clamp(34px, 4vw, 52px); text-align: center; }
@@ -586,7 +598,10 @@ button.slot.taken { cursor: not-allowed; }
 .form-status svg { width: 20px; height: 20px; flex: none; margin-top: 1px; }
 
 /* ---------- final cta + contact card ---------- */
-.final { background: var(--accent-ink); color: #edeefb; border-radius: var(--radius-xl); padding: clamp(34px, 5vw, 60px); position: relative; overflow: hidden; }
+/* Dark CTA card: luminous cubes in the corners only. Highlights are crushed
+   in the asset itself so the white copy and the translucent contact card keep
+   their contrast over the glow. */
+.final { background: url("/bg/final-cta-navy.webp") center / cover no-repeat, var(--accent-ink); color: #edeefb; border-radius: var(--radius-xl); padding: clamp(34px, 5vw, 60px); position: relative; overflow: hidden; }
 .final::after { content: ""; position: absolute; right: -60px; bottom: -80px; width: 280px; height: 280px; border-radius: 50%; background: rgba(255,255,255,.05); }
 .final-grid { display: grid; gap: 32px; align-items: center; position: relative; z-index: var(--z-raised); }
 @media (min-width: 880px) { .final-grid { grid-template-columns: 1.1fr 0.9fr; } }
