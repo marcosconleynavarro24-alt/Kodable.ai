@@ -10,6 +10,7 @@ import Icon from "@/components/Icon";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
 import { pageOg } from "@/lib/og";
+import { SHOW_PRICING } from "@/content/flags";
 
 // Combined pricing page: switch between websites and AI-agents price tables
 // only (owner directive 2026-07-10: no custom-tools / automations here, those
@@ -97,7 +98,11 @@ const COPY: Record<
   },
 };
 
+// While SHOW_PRICING is off the page is gone from the site: no static params,
+// no metadata, and the route 404s for anyone holding the old URL. The whole
+// page below stays intact and comes back the moment the flag flips.
 export async function generateStaticParams() {
+  if (!SHOW_PRICING) return [];
   return locales.map((locale) => ({ locale }));
 }
 
@@ -107,7 +112,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  if (!isLocale(locale)) return {};
+  if (!isLocale(locale) || !SHOW_PRICING) return {};
   const c = COPY[locale];
   return {
     title: c.title,
@@ -131,7 +136,7 @@ export default async function PricingPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale: raw } = await params;
-  if (!isLocale(raw)) notFound();
+  if (!isLocale(raw) || !SHOW_PRICING) notFound();
   const locale: Locale = raw;
 
   const c = COPY[locale];

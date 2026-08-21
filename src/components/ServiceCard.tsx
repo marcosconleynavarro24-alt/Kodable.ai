@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import type { Service } from "@/content/services";
 import { checkPricesLabel } from "@/content/pricing";
+import { SHOW_PRICING } from "@/content/flags";
 import Icon from "./Icon";
 
 // One service card (used on the home grid and the services index). Links through
@@ -41,13 +42,15 @@ export default function ServiceCard({
         >
           {service.cta}
         </Link>
-        <Link
-          href={`/${locale}/services/${service.slug}#pricing`}
-          className="svc-price-link"
-        >
-          {checkPricesLabel[locale]}
-          <Icon name="arrow" />
-        </Link>
+        {SHOW_PRICING && (
+          <Link
+            href={`/${locale}/services/${service.slug}#pricing`}
+            className="svc-price-link"
+          >
+            {checkPricesLabel[locale]}
+            <Icon name="arrow" />
+          </Link>
+        )}
       </div>
     </article>
   );

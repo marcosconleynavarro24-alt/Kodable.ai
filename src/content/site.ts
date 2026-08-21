@@ -1,4 +1,5 @@
 import type { Locale } from "@/i18n/config";
+import { SHOW_PRICING } from "./flags";
 
 // ── Types ────────────────────────────────────────────────────────────────
 export type NavLink = { key: string; href: string; label: string };
@@ -133,9 +134,12 @@ export interface SiteContent {
 }
 
 // ── Shared structural data (locale-independent) ──────────────────────────
+// The pricing entry drops out of every locale's nav while SHOW_PRICING is off
+// (see content/flags.ts). Filtering here keeps the labels below untouched, so
+// turning prices back on needs no copy work in any language.
 const navHrefs = [
   { key: "services", href: "/services" },
-  { key: "pricing", href: "/pricing" },
+  ...(SHOW_PRICING ? [{ key: "pricing", href: "/pricing" }] : []),
   { key: "portfolio", href: "/portfolio" },
   { key: "blog", href: "/blog" },
   { key: "faq", href: "/faq" },

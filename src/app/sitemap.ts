@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { locales } from "@/i18n/config";
 import { serviceSlugs } from "@/content/services";
 import { blogSlugs, getPosts } from "@/content/blog";
+import { SHOW_PRICING } from "@/content/flags";
 
 const SITE_URL = "https://kodable.ai";
 
@@ -18,7 +19,7 @@ const routes = [
   "",
   "/services",
   ...serviceSlugs.map((slug) => `/services/${slug}`),
-  "/pricing",
+  ...(SHOW_PRICING ? ["/pricing"] : []),
   "/blog",
   ...blogSlugs.map((slug) => `/blog/${slug}`),
   "/contact",
@@ -51,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority:
         route === ""
           ? 1
-          : route.startsWith("/services") || route === "/pricing"
+          : route.startsWith("/services") || route === "/pricing" // no-op while pricing is off
             ? 0.8
             : route === "/blog"
               ? 0.7

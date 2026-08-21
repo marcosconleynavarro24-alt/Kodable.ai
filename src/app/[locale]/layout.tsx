@@ -6,6 +6,7 @@ import { locales, isLocale, localeOg, type Locale } from "@/i18n/config";
 import { getSite } from "@/content/site";
 import { contactInfo } from "@/content/contact-info";
 import Nav from "@/components/Nav";
+import { SHOW_PRICING } from "@/content/flags";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
 import ConversionTracker from "@/components/ConversionTracker";
@@ -174,7 +175,8 @@ export default async function LocaleLayout({
             itemOffered: { "@type": "Service", name, serviceType: name },
           }),
         ),
-        priceRange: "€€",
+        // priceRange is a price claim, so it goes when the public prices go.
+        ...(SHOW_PRICING ? { priceRange: "€€" } : {}),
       },
     ],
   };

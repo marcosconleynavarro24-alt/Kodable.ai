@@ -13,6 +13,7 @@ import { getBooking } from "@/content/booking";
 import { getClientStats } from "@/lib/clientStats";
 import { getStatBand } from "@/content/statBand";
 import StatBand from "@/components/StatBand";
+import { SHOW_PRICING } from "@/content/flags";
 
 export default async function HomePage({
   params,
@@ -83,11 +84,13 @@ export default async function HomePage({
               <ServiceCard key={service.slug} locale={locale} service={service} />
             ))}
           </div>
-          <div className="mt-cta center">
-            <Link href={`/${locale}/pricing`} className="btn btn-ghost">
-              {site.home.pricingLink}
-            </Link>
-          </div>
+          {SHOW_PRICING && (
+            <div className="mt-cta center">
+              <Link href={`/${locale}/pricing`} className="btn btn-ghost">
+                {site.home.pricingLink}
+              </Link>
+            </div>
+          )}
         </div>
       </section>
 

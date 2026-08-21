@@ -8,6 +8,7 @@ import { getPost, type BlogPost } from "@/content/blog";
 import Icon from "@/components/Icon";
 import ServiceCard from "@/components/ServiceCard";
 import Pricing from "@/components/Pricing";
+import { SHOW_PRICING } from "@/content/flags";
 import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { hreflangs } from "@/lib/hreflang";
@@ -198,8 +199,8 @@ export default async function ServiceDetailPage({
         </div>
       </section>
 
-      {/* PRICING (replaces "Under the hood") */}
-      <Pricing locale={locale} slug={service.slug} />
+      {/* PRICING (replaces "Under the hood"), hidden while SHOW_PRICING is off */}
+      {SHOW_PRICING && <Pricing locale={locale} slug={service.slug} />}
 
       {/* OTHER SERVICES */}
       <section className="sec">

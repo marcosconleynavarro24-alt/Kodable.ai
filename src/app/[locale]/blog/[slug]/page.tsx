@@ -10,6 +10,7 @@ import FinalCta from "@/components/FinalCta";
 import { breadcrumbList, jsonLdDoc, jsonLdHtml, SITE_URL } from "@/lib/jsonld";
 import { CAT_LABELS } from "@/content/blog-cats";
 import { hreflangs } from "@/lib/hreflang";
+import { SHOW_PRICING } from "@/content/flags";
 
 const COPY: Record<Locale, {
   home: string; blog: string; allArticles: string; takeaways: string;
@@ -385,11 +386,13 @@ export default async function BlogPostPage({
               />
             ))}
 
-            {/* Pricing link: no blog post linked /pricing before this. */}
-            <p className="reveal" style={{ marginTop: "36px" }}>
-              {c.pricingLine}{" "}
-              <Link href={`/${locale}/pricing`}>{c.pricingCta}</Link>.
-            </p>
+            {/* Pricing link, hidden with the prices themselves (content/flags.ts). */}
+            {SHOW_PRICING && (
+              <p className="reveal" style={{ marginTop: "36px" }}>
+                {c.pricingLine}{" "}
+                <Link href={`/${locale}/pricing`}>{c.pricingCta}</Link>.
+              </p>
+            )}
 
             <div className="post-byline" style={{ marginTop: "44px" }}>
               <span className="post-ava" aria-hidden="true">K</span>

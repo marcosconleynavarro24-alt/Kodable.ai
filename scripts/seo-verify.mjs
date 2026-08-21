@@ -4,6 +4,8 @@
 // Default base http://localhost:3111. Exits non-zero on any FAIL. Also used
 // by the recurring AI-visibility sweep (SEO_AI_VISIBILITY_SWEEP.md) against
 // production: node scripts/seo-verify.mjs https://kodable.ai
+import { readFileSync } from "node:fs";
+
 const BASE = process.argv[2] ?? "http://localhost:3111";
 const SITE = "https://kodable.ai";
 
@@ -48,6 +50,14 @@ async function page(path) {
   return { status: res.status, html: res.ok ? await res.text() : "" };
 }
 
+// Pricing surfaces are gated by SHOW_PRICING in src/content/flags.ts. Read the
+// flag rather than duplicating it, so this suite follows the site instead of
+// failing every run while prices are off.
+const SHOW_PRICING = /export const SHOW_PRICING = true/.test(
+  readFileSync(new URL("../src/content/flags.ts", import.meta.url), "utf8"),
+);
+if (!SHOW_PRICING) console.log("note: SHOW_PRICING is off, pricing checks skipped\n");
+
 const homeTitles = {};
 for (const loc of ["en", "es", "fr", "de", "it"]) {
   const { html } = await page(`/${loc}`);
@@ -56,7 +66,8 @@ for (const loc of ["en", "es", "fr", "de", "it"]) {
 
 // og:url must equal the canonical, og:title must be page-specific.
 const OG_PAGES = [
-  "/en/pricing", "/es/pricing", "/en/services", "/en/services/websites",
+  ...(SHOW_PRICING ? ["/en/pricing", "/es/pricing"] : []),
+  "/en/services", "/en/services/websites",
   "/fr/services/ai-agents", "/en/portfolio", "/it/portfolio", "/en/faq",
   "/en/contact", "/de/comparativa", "/en/blog", "/en/legal", "/es/privacy",
 ];
@@ -78,7 +89,7 @@ for (const p of OG_PAGES) {
 
 console.log("structured data:");
 {
-  for (const loc of ["en", "es"]) {
+  for (const loc of SHOW_PRICING ? ["en", "es"] : []) {
     const { html } = await page(`/${loc}/pricing`);
     const nodes = jsonLdNodes(html);
     const svc = nodes.find((n) => n["@type"] === "Service" && n.hasOfferCatalog);
@@ -95,7 +106,7 @@ console.log("structured data:");
     const h2s = (html.match(/<h2[\s>]/g) ?? []).length;
     check(`/${loc}/pricing has >=2 h2`, h2s >= 2, `h2=${h2s}`);
   }
-  for (const post of ["kit-digital-2026", "get-found-in-ai-search", "ai-agent-for-small-business"]) {
+  for (const post of ["kit-digital-2026", "get-found-in-ai-search", "ai-agent-for-small-business", "automations-for-small-business", "ai-strategy-for-small-business"]) {
     const { html } = await page(`/en/blog/${post}`);
     const nodes = jsonLdNodes(html);
     const bp = nodes.find((n) => n["@type"] === "BlogPosting");
@@ -125,7 +136,15 @@ console.log("links:");
 {
   const { html } = await page("/en");
   check("footer links /en/comparativa", html.includes('href="/en/comparativa"'));
-  check("home links /en/pricing", html.includes('href="/en/pricing"'));
+  if (SHOW_PRICING) {
+    check("home links /en/pricing", html.includes('href="/en/pricing"'));
+  } else {
+    check("home does NOT link /en/pricing", !html.includes('href="/en/pricing"'));
+    const sm = await fetch(`${SITE}/sitemap.xml`).then((r) => r.text());
+    check("sitemap has no /pricing", !sm.includes("/pricing"));
+    const st = await fetch(`${SITE}/en/pricing`).then((r) => r.status);
+    check("/en/pricing returns 404", st === 404, `status=${st}`);
+  }
 }
 
 console.log(failures ? `\n${failures} FAILURE(S)` : "\nALL PASS");

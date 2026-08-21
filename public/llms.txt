@@ -8,7 +8,6 @@
 - [AI Agents](https://kodable.ai/en/services/ai-agents): A friendly assistant that answers customers, takes bookings and handles reception on WhatsApp and your site, 24/7.
 
 ## Key pages
-- [Pricing](https://kodable.ai/en/pricing): Clear prices for websites (pay once or all-in monthly) and AI agents, VAT included.
 - [Portfolio](https://kodable.ai/en/portfolio): Real client sites and sector demos we have built.
 - [Builder or agency? An honest comparison](https://kodable.ai/en/comparativa): DIY website builders vs a done-for-you studio, including when the builder is the better choice.
 - [FAQ](https://kodable.ai/en/faq)
@@ -22,7 +21,6 @@
 
 ## En español
 - [Servicios](https://kodable.ai/es/services)
-- [Precios](https://kodable.ai/es/pricing)
 - [Portfolio](https://kodable.ai/es/portfolio)
 - [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
 - [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, y qué hace un agente de IA por un pequeño negocio.
