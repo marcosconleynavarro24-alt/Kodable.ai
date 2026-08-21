@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="40" y="54" font-size="31" font-weight="800" fill="#16182b" letter-spacing="-1">Ninety days, three moves</text>
+  <text x="40" y="88" font-size="19" fill="#4b5266">Long enough to show up in the numbers, short enough to remember why you started.</text>
+
+  <line x1="70" y1="180" x2="930" y2="180" stroke="#dfe1ec" stroke-width="4"/>
+  <circle cx="70" cy="180" r="11" fill="#000080"/>
+  <circle cx="356" cy="180" r="11" fill="#000080"/>
+  <circle cx="643" cy="180" r="11" fill="#000080"/>
+  <circle cx="930" cy="180" r="11" fill="#000080"/>
+  <text x="70" y="152" font-size="16" font-weight="700" fill="#8f93b0">DAY 1</text>
+  <text x="356" y="152" font-size="16" font-weight="700" fill="#8f93b0" text-anchor="middle">DAY 30</text>
+  <text x="643" y="152" font-size="16" font-weight="700" fill="#8f93b0" text-anchor="middle">DAY 60</text>
+  <text x="930" y="152" font-size="16" font-weight="700" fill="#8f93b0" text-anchor="end">DAY 90</text>
+
+  <rect x="70" y="222" width="270" height="220" rx="18" fill="#f4f5fa"/>
+  <text x="98" y="272" font-size="20" font-weight="800" fill="#000080">1. Choose it</text>
+  <text x="98" y="312" font-size="17" fill="#4b5266">Audit one ordinary week.</text>
+  <text x="98" y="340" font-size="17" fill="#4b5266">Pick a single job.</text>
+  <text x="98" y="368" font-size="17" fill="#4b5266">Count how it works</text>
+  <text x="98" y="396" font-size="17" fill="#4b5266">today, before you</text>
+  <text x="98" y="424" font-size="17" fill="#4b5266">change anything.</text>
+
+  <rect x="366" y="222" width="270" height="220" rx="18" fill="#f4f5fa"/>
+  <text x="394" y="272" font-size="20" font-weight="800" fill="#000080">2. Build small</text>
+  <text x="394" y="312" font-size="17" fill="#4b5266">The narrowest slice</text>
+  <text x="394" y="340" font-size="17" fill="#4b5266">that touches a real</text>
+  <text x="394" y="368" font-size="17" fill="#4b5266">customer. Live, watched</text>
+  <text x="394" y="396" font-size="17" fill="#4b5266">daily, and switchable</text>
+  <text x="394" y="424" font-size="17" fill="#4b5266">off in a minute.</text>
+
+  <rect x="662" y="222" width="270" height="220" rx="18" fill="#e5e6f5"/>
+  <text x="690" y="272" font-size="20" font-weight="800" fill="#000080">3. Decide</text>
+  <text x="690" y="312" font-size="17" fill="#4b5266">New numbers next to</text>
+  <text x="690" y="340" font-size="17" fill="#4b5266">old ones, then one</text>
+  <text x="690" y="368" font-size="17" fill="#4b5266">call out loud:</text>
+  <text x="690" y="400" font-size="17" font-weight="700" fill="#08083f">widen, fix or drop.</text>
+
+  <rect x="70" y="486" width="862" height="66" rx="16" fill="#ffffff" stroke="#dfe1ec" stroke-width="2"/>
+  <circle cx="106" cy="519" r="13" fill="#000080"/>
+  <path d="M100 519 l4.5 4.5 8-9" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="136" y="526" font-size="18" fill="#4b5266">Write down what would count as failure on day one, or month three becomes a matter of opinion.</text>
+</svg>

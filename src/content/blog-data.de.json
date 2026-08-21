@@ -18,8 +18,8 @@
       "2026 läuft das Programm, bis die Mittel aufgebraucht sind, machen Sie sich jetzt bereit, denn es wird nach dem Windhundprinzip vergeben."
     ],
     "related": [
-      "ai-agent-for-small-business",
-      "get-found-in-ai-search"
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -278,8 +278,8 @@
       "Was wirklich funktioniert, ist unglamourös und durch Daten belegt: beantworte echte Fragen klar, untermauere es mit echtem Detail, pflege dein Google-Unternehmensprofil und deine Bewertungen, verdiene dir ehrliche Erwähnungen und halte die Seite schnell."
     ],
     "related": [
-      "ai-agent-for-small-business",
-      "kit-digital-2026"
+      "ai-strategy-for-small-business",
+      "ai-agent-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -476,8 +476,8 @@
       "Ein Agent verwandelt die Nachfrage, die du schon hast; er erfindet keine neue. Er braucht außerdem deine echten Antworten als Grundlage und eine klare Übergabe an einen Menschen für alles, was er nicht entscheiden sollte."
     ],
     "related": [
-      "get-found-in-ai-search",
-      "kit-digital-2026"
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
     ],
     "cta": {
       "service": "ai-agents",
@@ -625,6 +625,555 @@
       {
         "type": "p",
         "text": "Derselbe Agent kann hinter mehreren Türen sitzen: dein Website-Chat, WhatsApp, sogar die Nachfassnachricht nach einem verpassten Anruf. Wo er lebt, hängt davon ab, wo deine Kunden dir heute schon schreiben."
+      }
+    ]
+  },
+  {
+    "slug": "automations-for-small-business",
+    "category": "Automation",
+    "categoryIcon": "layers",
+    "title": "Automatisierung für kleine Unternehmen: Welche Aufgaben du zuerst nicht mehr von Hand machst",
+    "description": "Ein praktischer Leitfaden zur Automatisierung für kleine Unternehmen: die sieben Aufgaben, die sich zuerst lohnen, wie du die mit der schnellsten Amortisation findest, und die Fehler, die Automatisierung teurer machen, als sie einspart.",
+    "dek": "Die meisten kleinen Unternehmen laufen auf einem zweiten, unbezahlten Job: kopieren, hinterherlaufen, neu tippen, all das, was die Lücken zwischen der echten Arbeit füllt. Hier steht, welche Teile du zuerst abgibst und wie du wählst, ohne sechs Abos zu buchen, die du nicht brauchst.",
+    "keyword": "small business automation",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-08-20",
+    "ogImage": "automations-for-small-business.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Automatisierung ist kein Roboter, der dein Unternehmen übernimmt. Es ist eine Reihe kleiner Übergaben: dieselbe Aufgabe, jede Woche gleich erledigt, weg von deinem Schreibtisch.",
+      "Zuerst lohnen sich die Aufgaben, die am nächsten am Geld sitzen: die erste Antwort auf eine Anfrage, die Terminerinnerung, das Angebot, dem nie jemand nachgegangen ist, die Bewertung, um die nie jemand gebeten hat.",
+      "Entscheide mit Rechnen, nicht mit Begeisterung. Häufigkeit mal Minuten mal Nervfaktor schlägt jede Funktionsliste.",
+      "Automatisierung scheitert aus langweiligen Gründen: ein kaputter Ablauf wird unverändert automatisiert, niemand ist zuständig, oder sie bricht leise und einen Monat lang merkt es keiner. Alle drei sind vermeidbar."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "ai-agent-for-small-business"
+    ],
+    "cta": {
+      "service": "automations",
+      "label": "Sieh, was wir für dich automatisieren könnten"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/automation-handoffs.svg",
+        "alt": "Zwei Versionen derselben Anfrage: links läuft sie durch ein Postfach, eine Notiz-App und ein Telefon, bevor jemand antwortet; rechts antwortet eine Automatisierung, erfasst die Angaben und bucht den Termin in Sekunden",
+        "caption": "Dieselbe Anfrage, zweimal. Links wartet sie, bis ein Mensch Zeit hat. Rechts passiert der Routineteil sofort, und der Mensch bekommt, was übrig bleibt."
+      },
+      {
+        "type": "p",
+        "text": "Es gibt die Arbeit, für die du bezahlt wirst, und dann gibt es den zweiten Job. Eine Telefonnummer aus WhatsApp in eine Notiz-App kopieren. Dieselbe Antwort zum neunten Mal in dieser Woche tippen. Dir um 22:40 einfallen, dass das Angebot von Dienstag nie rausging. Diesen Job stellt niemand in Rechnung, und er kostet trotzdem jede Woche Stunden. **Automatisierung für kleine Unternehmen** heißt schlicht, die repetitivsten Teile davon an Software abzugeben, damit die Teile, die dich brauchen, dich auch bekommen."
+      },
+      {
+        "type": "p",
+        "text": "Das Wort trägt mehr Drama, als es verdient. Das ist kein Fabrikarm und kein Algorithmus, der deine Firma führt. Es ist eine Reihe kleiner, unglamouröser Übergaben, und die nützliche Frage lautet nie „soll ich automatisieren“, sondern „welche drei Dinge zuerst“."
+      },
+      {
+        "type": "h2",
+        "text": "Was Automatisierung in deiner Größenordnung wirklich bedeutet"
+      },
+      {
+        "type": "p",
+        "text": "Eine Automatisierung ist eine Regel mit Auslöser und Folge. Wenn ein Formular abgeschickt wird, sende diese Antwort und trage die Person in diese Liste ein. Wenn ein Termin in 24 Stunden ansteht, sende eine Erinnerung. Wenn eine Rechnung 15 Tage überschreitet, erinnere höflich. Das ist die ganze Idee. Alles andere ist Verrohrung zwischen den Werkzeugen, die du ohnehin nutzt."
+      },
+      {
+        "type": "p",
+        "text": "Deshalb ist der ehrliche Test gar nicht technisch. Stelle drei Fragen zur Aufgabe: passiert sie **regelmäßig**, läuft sie jedes Mal **gleich** ab, und braucht sie ein **Urteil**, das nur du fällen kannst? Regelmäßig und wiederholbar ohne echtes Urteil: automatisieren. Urteil mittendrin: automatisiere alles rundherum und behalte die Entscheidung."
+      },
+      {
+        "type": "callout",
+        "title": "Ein schneller Selbsttest",
+        "body": "Wenn du genau aufschreiben könntest, wie du die Aufgabe erledigst, und eine fähige neue Kraft könnte das am ersten Tag befolgen, ohne dich etwas zu fragen, ist es eine gute Kandidatin. Wenn deine Anleitung mit „kommt darauf an“ endet, ist sie es nicht, jedenfalls noch nicht."
+      },
+      {
+        "type": "h2",
+        "text": "Warum bei der ersten Antwort das Geld verloren geht"
+      },
+      {
+        "type": "p",
+        "text": "Vor der Liste eine Rechnung, die die Reihenfolge bestimmt. Die meisten kleinen Unternehmen verlieren im Abstand zwischen dem Eingang einer Anfrage und der Antwort mehr Umsatz als irgendwo sonst in ihrer Verwaltung. Nicht weil die Antwort schwer wäre, sondern weil sie spät kommt."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "Antworte innerhalb von etwa fünf Minuten, und deine Chancen, einen neuen Lead zu erreichen und zu qualifizieren, sind dramatisch höher, als wenn du auch nur eine halbe Stunde wartest. Die Geschwindigkeit der ersten Antwort ist der am besten untersuchte Hebel im Lead-Response.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Diese Uhr schlägst du nicht, indem du dich mehr anstrengst, denn der Grund, warum du sie verpasst, ist, dass du gerade deine Arbeit gemacht hast. Software hat dieses Problem nicht. Deshalb ist fast die ganze Liste unten eine Variation desselben Themas: den Abstand schließen zwischen dem Moment, in dem etwas passiert, und dem Moment, in dem jemand eine Antwort bekommt."
+      },
+      {
+        "type": "h2",
+        "text": "Sieben Automatisierungen, die sich zuerst lohnen"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Eine sofortige, nützliche Antwort auf jede Anfrage",
+            "body": "Keine automatische Nachricht, die sagt „wir haben Ihre Nachricht erhalten“. Eine echte: danke, so geht es weiter, ungefähr dann melden wir uns, und diese zwei Dinge helfen vorab. Das kauft dir Stunden an Wohlwollen und hält die Person davon ab, sich beim Warten woanders umzusehen."
+          },
+          {
+            "title": "Terminbestätigungen und Erinnerungen",
+            "body": "Eine Bestätigung im Moment der Buchung und eine Erinnerung am Vortag. Das ist die billigste Automatisierung überhaupt und sie schützt das Teuerste, was du hast: einen Kalenderplatz, den jemand vergessen hat. Baue eine Möglichkeit ein, den Termin mit einem Tipp zu verschieben, denn ein verschobener Platz ist weit mehr wert als ein leerer."
+          },
+          {
+            "title": "Nachfassen bei Angeboten und Rechnungen",
+            "body": "Die meisten Angebote werden nicht abgelehnt, sie werden vergessen, von beiden Seiten. Ein kurzes Nachfassen an Tag drei und Tag zehn und eine höfliche Erinnerung, wenn eine Rechnung überfällig wird, holen Arbeit zurück, deren schweren Teil du längst erledigt hast. Niemand fasst gern nach, und genau deshalb sollte es nicht davon abhängen, ob dir danach ist."
+          },
+          {
+            "title": "Ein Ort, an dem jeder Lead landet",
+            "body": "Anfragen kommen über das Webformular, WhatsApp, Telefon, Instagram und über jemanden, der dich auf der Straße anspricht. Wenn sie an fünf Orten leben, leben sie nirgends. Leite sie alle in eine Liste mit denselben Feldern: Name, Kontakt, Anliegen, Herkunft. Diese hier ist langweilig, und sie verändert alles andere, was du messen kannst."
+          },
+          {
+            "title": "Die Bewertungsanfrage, an die du nie denkst",
+            "body": "Bewertungen sind das stärkste Signal, das du hast, sowohl für die lokale Suche als auch für die KI-Antworten, die zunehmend darüber stehen. Das Fragen ist der schwere Teil, also frage nicht mehr von Hand: löse die Anfrage ein bis zwei Tage nach Abschluss der Arbeit aus, solange die Kundschaft die Zufriedenheit noch erinnert. Mehr dazu in [gefunden werden, wenn die KI zuerst antwortet](~/blog/get-found-in-ai-search)."
+          },
+          {
+            "title": "Die Wochenzahlen, die du von Hand zusammenstellst",
+            "body": "Was auch immer du jeden Montagmorgen exportierst, einfügst und summierst: Buchungen, Umsätze, Stunden, Bestand. Wenn du die Schritte beschreiben kannst, können sie von selbst laufen und in deinem Postfach liegen, bevor du den Laptop aufklappst. Der Wert ist nicht die gesparte Zeit, sondern dass du die Zahlen tatsächlich anschaust, wenn sie von allein kommen."
+          },
+          {
+            "title": "Der Start mit neuen Kunden",
+            "body": "Das Paket, das du jedem neuen Kunden schickst: das Formular, die Adresse und die Parksituation, das Dokument, das du immer brauchst, was als Nächstes passiert und wann. Automatisch und in der richtigen Reihenfolge verschickt, lässt es ein Zwei-Personen-Unternehmen organisierter wirken als die Konkurrenz, und es spart das Hin und Her, das pro Kunde einen ganzen Tag frisst."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie du die erste auswählst"
+      },
+      {
+        "type": "p",
+        "text": "Widerstehe dem Drang, mit der interessantesten anzufangen. Fang mit der an, die sich am schnellsten rechnet, und die findest du in etwa zwanzig Minuten mit einem Stift."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Schreibe auf, was du diese Woche zweimal gleich gemacht hast",
+            "body": "Nicht, was du zu tun glaubst. Was du wirklich wiederholt hast: die Antwort, die du neu getippt hast, die Nummer, die du kopiert hast, das, was du zweimal nachgeschlagen hast. Notiere fünf."
+          },
+          {
+            "title": "Multipliziere Häufigkeit mit Minuten",
+            "body": "Sechsmal pro Woche zu vier Minuten sind rund siebzehn Stunden im Jahr, für eine einzige kleine Aufgabe. Zwei davon und du hast eine Arbeitswoche gefunden. Diese Zahl ist meistens die Überraschung."
+          },
+          {
+            "title": "Markiere die, die ans Geld reichen",
+            "body": "Eine erste Antwort, eine Erinnerung, das Nachfassen bei einem Angebot. Die sparen nicht nur Zeit, sie verändern das Ergebnis. Sie rücken nach vorn, auch wenn sie nicht die größten Zeitfresser sind."
+          },
+          {
+            "title": "Bring eine live und lass sie einen Monat in Ruhe",
+            "body": "Eine Automatisierung, die sauber läuft, ist mehr wert als fünf halbfertige. Gib ihr einen Monat, prüfe, ob sie wirklich jedes Mal ausgelöst hat, und wähle dann die nächste."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/automation-priority.svg",
+        "alt": "Ein Raster, das aufträgt, wie oft sich eine Aufgabe wiederholt und wie nah sie am Umsatz liegt; Sofortantworten, Erinnerungen und das Nachfassen bei Angeboten landen in der Ecke mit der höchsten Priorität",
+        "caption": "Zwei Achsen genügen: wie oft es sich wiederholt und wie nah es am Geld sitzt. Die Ecke oben rechts ist deine erste Automatisierung."
+      },
+      {
+        "type": "h2",
+        "text": "Wo Automatisierung schiefgeht"
+      },
+      {
+        "type": "p",
+        "text": "Es lohnt sich, die Fehlerbilder zu benennen, denn sie sind vorhersehbar und keines davon ist ein exotisches Technikproblem."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Ein kaputter Ablauf wird unverändert automatisiert.** Automatisierung sorgt dafür, dass ein schlechter Ablauf schneller und öfter passiert. Erst die Schritte reparieren, dann verdrahten.",
+          "**Sie fällt lautlos aus.** Die Integration hört im März auf zu arbeiten und niemand merkt es bis Juni, weil Erfolg genauso aussieht wie nichts tun. Alles Automatisierte braucht eine Möglichkeit zu schreien, wenn es bricht.",
+          "**Sie klingt für deine eigenen Kunden nach Roboter.** Automatisiert muss nicht unpersönlich heißen. Wenn dir die Nachricht peinlich wäre, sie von Hand zu schicken, verschicke sie nicht hundertmal.",
+          "**Werkzeug-Wildwuchs.** Sechs Abos, jedes macht eine Scheibe derselben Aufgabe, keines spricht mit dem anderen. Die Monatssumme übersteigt leise, was ein einziger passender Aufbau gekostet hätte.",
+          "**Niemand ist zuständig.** Jede Automatisierung braucht eine Person, die einmal im Monat prüft, ob sie noch tut, wofür sie gebaut wurde. In einem kleinen Unternehmen bist das meistens du, und es dauert zehn Minuten."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Automatisierungen, KI-Agenten und maßgeschneiderte Tools sind nicht dasselbe"
+      },
+      {
+        "type": "p",
+        "text": "Diese drei werden als ein verschwommenes Produkt verkauft, und falsch zu wählen ist teuer. Der Unterschied ist einfach:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Eine Automatisierung** folgt einer festen Regel. Gleicher Auslöser, gleiche Schritte, jedes Mal. Ideal für alles Vorhersehbare: Erinnerungen, Nachfassen, Weiterleiten, Berichte. Das sind [Automatisierungen und Integrationen](~/services/automations).",
+          "**Ein KI-Agent** übernimmt die unvorhersehbare Hälfte: ein echtes Gespräch, in normaler Sprache, zu jeder Uhrzeit, das Fragen beantworten und buchen kann. Den willst du, wenn das Eingehende eine Person mit einer Frage ist und kein Ereignis mit einer Regel. Wir haben einen Rundgang in klarer Sprache geschrieben: [was ein KI-Agent wirklich tut](~/blog/ai-agent-for-small-business).",
+          "**Ein maßgeschneidertes Tool** ist für den Fall, dass dein Unternehmen einen Ablauf hat, zu dem kein Standardprodukt passt, und die Tabelle zum Risiko geworden ist. Das sind [maßgeschneiderte Tools und Apps](~/services/custom-tools)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Die meisten kleinen Unternehmen brauchen das Erste, profitieren schnell vom Zweiten und brauchen das Dritte erst wirklich, wenn die ersten beiden laufen."
+      },
+      {
+        "type": "callout",
+        "title": "Wenn du in Spanien bist, kann das gefördert sein",
+        "body": "Automatisierungs- und Integrationsarbeit fällt in mehrere der geförderten Lösungskategorien des Programms Kit Digital, das heißt, ein Teil kann gedeckt statt bezahlt werden. Regeln, Beträge und Fristen stehen in unserem [vollständigen Leitfaden zum Kit Digital 2026](~/blog/kit-digital-2026)."
+      },
+      {
+        "type": "h2",
+        "text": "Wie Kodable hilft"
+      },
+      {
+        "type": "p",
+        "text": "Wir beginnen mit dem Zettel-und-Stift-Teil: was sich in deiner Woche wirklich wiederholt, was es dich kostet und welche zwei oder drei Übergaben sich zuerst lohnen. Dann bauen wir sie in die Werkzeuge, die du ohnehin nutzt, mit einer Möglichkeit, dich zu warnen, wenn etwas bricht. Kein neuer Stack zum Lernen, keine sechs Abos. Sieh dir [Automatisierungen und Integrationen](~/services/automations) an, wie das in der Praxis aussieht."
+      },
+      {
+        "type": "cta",
+        "title": "Finde deine ersten drei Automatisierungen",
+        "body": "Bring uns eine ganz normale Woche: wie Anfragen zu dir kommen, was du neu tippst, wem du hinterherläufst. In 15 Minuten sagen wir dir, welche Teile sich zuerst zum Abgeben lohnen und welche du noch nicht anfassen solltest.",
+        "button": "Sprich mit uns"
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Muss ich die Werkzeuge ersetzen, die ich schon nutze?"
+      },
+      {
+        "type": "p",
+        "text": "Meistens nicht, und sei misstrauisch, wenn jemand sofort das Gegenteil sagt. Nützliche Automatisierung ist überwiegend verbindend: dein Buchungssystem, dein Postfach, deine Tabelle und WhatsApp, so verdrahtet, dass Informationen wandern, ohne dass du sie trägst. Ein Werkzeug zu ersetzen ist eine Entscheidung für den Fall, dass das Werkzeug selbst das Problem ist, nicht der voreingestellte erste Schritt."
+      },
+      {
+        "type": "h3",
+        "text": "Ab wann ist ein Betrieb zu klein dafür?"
+      },
+      {
+        "type": "p",
+        "text": "Ein Ein-Personen-Betrieb ist oft der Ort, an dem sich Automatisierung am schnellsten rechnet, weil es niemanden zum Delegieren gibt. Die Schwelle ist nicht die Mitarbeiterzahl, sondern die Wiederholung. Wenn eine Aufgabe wöchentlich vorkommt und länger als ein paar Minuten dauert, lohnt sich die Rechnung schon."
+      },
+      {
+        "type": "h3",
+        "text": "Werden meine Kunden das merken?"
+      },
+      {
+        "type": "p",
+        "text": "Sie werden merken, dass du schnell antwortest, sauber bestätigst und niemanden aus den Augen verlierst, und das lesen die meisten als „gut geführt“, nicht als „automatisiert“. Verräterisch sind generische Formulierungen und Nachrichten, die an der Frage vorbeigehen. Beides sind Schreibprobleme, keine Technikprobleme."
+      },
+      {
+        "type": "h3",
+        "text": "Was passiert, wenn sich in meinem Betrieb etwas ändert?"
+      },
+      {
+        "type": "p",
+        "text": "Preise ändern sich, Öffnungszeiten ändern sich, Leistungen kommen dazu. Eine Automatisierung, die um ein fest verdrahtetes Detail herum gebaut ist, wird leise falsch, und das ist die schlechteste Art, falsch zu sein. Alles, was sich ändern kann, sollte an einer Stelle liegen, die du bearbeiten kannst, und einmal im Quartal sollte jemand das Ganze durchsehen. Das ist kurz, wenn es passiert; es ist ein Chaos, wenn es nie passiert."
+      },
+      {
+        "type": "h3",
+        "text": "Ist Automatisierung dasselbe wie künstliche Intelligenz?"
+      },
+      {
+        "type": "p",
+        "text": "Nein, und die beiden zu verwechseln führt dazu, zu viel zu bezahlen. Klassische Automatisierung ist deterministisch: eine feste Regel, keine Interpretation, und für den größten Teil der Verwaltung ist genau das die richtige Antwort. KI kommt dort ins Spiel, wo Sprache und Urteil im Spiel sind, etwa beim Verstehen einer Frage, die ein Kunde um Mitternacht getippt hat. Ein guter Aufbau nutzt beides für das, wofür es wirklich taugt."
+      }
+    ]
+  },
+  {
+    "slug": "ai-strategy-for-small-business",
+    "category": "AI Strategy",
+    "categoryIcon": "spark",
+    "title": "KI-Strategie für kleine Unternehmen: Wie Sie die drei Dinge auswählen, die sich lohnen",
+    "description": "Eine KI-Strategie für kleine Unternehmen ohne Marketinggerede: wie Sie die wenigen Aufgaben finden, die Software übernehmen sollte, wie Sie die erste auswählen, und ein 90-Tage-Plan als Nachweis.",
+    "dek": "Jede Woche kommt ein weiteres Werkzeug, das Sie angeblich längst nutzen sollten. Hier ist ein Weg, an einem Nachmittag zu entscheiden, was Ihr Betrieb wirklich braucht, mit nichts Teurerem als einer Liste der Arbeit, die Sie ohnehin tun.",
+    "keyword": "AI strategy for small business",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-08-21",
+    "ogImage": "ai-strategy-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Eine KI-Strategie in Ihrer Größe ist kein Dokument. Sie ist eine kurze, geordnete Liste von Aufgaben, die Sie nicht mehr von Hand erledigen wollen, und eine, mit der Sie anfangen.",
+      "Wählen Sie aus Ihrer eigenen Woche, nicht aus einer Werkzeugliste. Die Arbeit, die sich wiederholt, jedes Mal dieselbe Form hat und nah am Geld sitzt, bringt den Rückfluss.",
+      "Es gibt vier Stellen, an denen sich KI in einem kleinen Betrieb verlässlich rechnet: gefunden werden, antworten, nachfassen und die eigenen Zahlen kennen. Fast alles andere ist Ablenkung, solange diese vier nicht laufen.",
+      "Neunzig Tage reichen, um jede einzelne Idee zu belegen oder zu beerdigen. Wenn Sie vorher nicht sagen können, was als Scheitern gälte, testen Sie gar nichts."
+    ],
+    "related": [
+      "ai-agent-for-small-business",
+      "automations-for-small-business",
+      "get-found-in-ai-search"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Sprechen wir darüber, was Ihr Betrieb wirklich braucht"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-map.jpg",
+        "alt": "Ein isometrisches Raster aus blassgrauen Blöcken, das die gesamte Arbeit eines kleinen Betriebs darstellt, mit einer Handvoll marineblau hervorgehobener und durch Pfeile verbundener Blöcke für die wenigen Aufgaben, die für KI ausgewählt wurden",
+        "caption": "Eine Strategie ist nicht das ganze Raster. Sie sind die drei Blöcke, die Sie gewählt haben, und die Reihenfolge, in der Sie sie gewählt haben."
+      },
+      {
+        "type": "p",
+        "text": "Man hat Ihnen dieses Jahr vermutlich mehrfach gesagt, Ihr Betrieb brauche KI. Selten von jemandem, der sagen konnte, welcher Teil Ihres Betriebs, was sie ersetzen würde oder woran Sie hinterher erkennen würden, ob es funktioniert hat. Das ist keine Strategie, das ist eine Stimmung. Eine **KI-Strategie für kleine Unternehmen** ist etwas viel Kleineres und viel Nützlicheres: eine kurze Liste von Aufgaben, die Sie nicht mehr von Hand erledigen wollen, in der Reihenfolge, in der Sie damit aufhören."
+      },
+      {
+        "type": "p",
+        "text": "Diese Anleitung ist die Methode, die wir mit Inhabern von zwei bis dreißig Mitarbeitenden nutzen, ohne eigenes Technikteam und ohne Lust auf ein Sechsmonatsprojekt. Sie dauert einen Nachmittag, kostet nichts und endet meist mit drei Kandidaten und einer Entscheidung."
+      },
+      {
+        "type": "h2",
+        "text": "Was eine Strategie bedeutet, wenn Sie zu fünft sind und nicht zu fünfhundert"
+      },
+      {
+        "type": "p",
+        "text": "Große Unternehmen schreiben KI-Strategien, weil sie Hunderte Menschen auf eine gemeinsame Wette einschwören müssen. Dieses Problem haben Sie nicht. Ihre Grenze ist nicht Abstimmung, sondern Aufmerksamkeit: Sie können ernsthaft eine Sache nach der anderen ändern, und nur dann, wenn die Woche dabei nicht zusammenbricht."
+      },
+      {
+        "type": "p",
+        "text": "Die brauchbare Fassung des Dokuments ist deshalb vier Zeilen lang. Was ist die Aufgabe. Wer macht sie heute. Was tritt an die Stelle dieser Person. Woran erkennen wir es in neunzig Tagen. Alles Längere ist ein Plan, den Sie nie wieder lesen, und Pläne, die man nicht wieder liest, ändern nichts."
+      },
+      {
+        "type": "callout",
+        "title": "Die Ein-Satz-Fassung",
+        "body": "Wenn sich Ihre Strategie nicht in einem Atemzug aussprechen lässt, in Worten, die eine neue Mitarbeiterin versteht, ist es noch keine Strategie. \"Wir tippen die erste Antwort auf jede Anfrage nicht mehr selbst\" ist eine Strategie. \"Wir setzen KI entlang der Customer Journey ein\" ist ein Wunsch."
+      },
+      {
+        "type": "h2",
+        "text": "Fangen Sie bei Ihrer Woche an, nicht bei der Werkzeugliste"
+      },
+      {
+        "type": "p",
+        "text": "Der häufigste Fehler ist der falsche Anfang: lesen, was ein Werkzeug kann, und dann den Betrieb danach absuchen, wo es hineinpasst. Das ergibt ein Abonnement und keine Veränderung im Ablauf der Woche. Drehen Sie es um. Die Woche, die Sie ohnehin haben, ist das Briefing."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Notieren Sie, was die Woche wirklich gefüllt hat",
+            "body": "Nicht die Version aus der Stellenbeschreibung. Die echte: die zwanzig Minuten am Telefon zur Terminbestätigung, die zum neunten Mal getippte Antwort, die von einer App in die andere kopierte Nummer, die Montagstabelle. Machen Sie das eine gewöhnliche Woche lang, auf Papier, im Moment selbst. Später erinnert man sich stets zu freundlich."
+          },
+          {
+            "title": "Markieren Sie alles, was sich wiederholt hat",
+            "body": "Setzen Sie ein Zeichen neben alles, was mehr als zweimal in derselben Form vorkam. Die Wiederholung ist das ganze Signal. Eine Aufgabe, die jedes Mal anders aussieht, braucht Urteilsvermögen und ist ein schlechter erster Kandidat. Eine Aufgabe, die Sie einer neuen Kraft am ersten Tag erklären könnten, ist ein ausgezeichneter."
+          },
+          {
+            "title": "Kreisen Sie ein, was Geld berührt",
+            "body": "Ein Teil dieser wiederholten Arbeit sitzt direkt zwischen einem Fremden und einem zahlenden Kunden: die erste Antwort, das Angebot, die Buchung, das Nachfassen, die Bitte um eine Bewertung. Ein anderer Teil nicht: ablegen, aufräumen, formatieren. Beides lohnt sich irgendwann. Nur das Erste zahlt sich schnell genug zurück, um den Rest zu finanzieren."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Was nach diesen drei Durchgängen übrig bleibt, ist Ihre echte Auswahlliste, und sie überrascht meist. Inhaber kommen überzeugt an, die Antwort sei ein Chatbot auf der Website, und gehen mit der Erkenntnis, dass das teure Problem war: Angebote gehen zwei Tage zu spät raus."
+      },
+      {
+        "type": "h2",
+        "text": "Die vier Stellen, an denen sich KI im kleinen Betrieb bezahlt macht"
+      },
+      {
+        "type": "p",
+        "text": "Bei den Betrieben, mit denen wir arbeiten, fällt fast alles Lohnende in einen von vier Bereichen. Sie stehen hier ungefähr in der Reihenfolge, in der wir sie angehen würden, denn jeder macht den nächsten wertvoller."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Gefunden werden, auch von den Maschinen, die zuerst antworten",
+            "body": "Antworten zu automatisieren nützt nichts, wenn nichts ankommt, worauf man antworten könnte. Ein wachsender Teil der Leute erreicht nie eine Linkliste: Sie fragen, bekommen eine Antwort, handeln. Ihren Betrieb für diese Systeme lesbar zu machen, gehört inzwischen zum Sichtbarsein dazu, was wir in [gefunden werden, wenn die KI zuerst antwortet](~/blog/get-found-in-ai-search) behandeln."
+          },
+          {
+            "title": "Antworten, in dem Moment, in dem jemand fragt",
+            "body": "Die Stunden zwischen Anfrage und Antwort sind die Stelle, an der die meisten kleinen Betriebe still Aufträge verlieren, und keine Disziplin behebt das, denn Sie waren mit Verdienen beschäftigt. Ein [KI-Agent, der das erste Gespräch übernimmt](~/blog/ai-agent-for-small-business), beantwortet die üblichen Fragen, nimmt die Angaben auf und übergibt Ihnen jemanden, der schon halb qualifiziert ist."
+          },
+          {
+            "title": "Nachfassen, ohne dass Sie daran denken müssen",
+            "body": "Bestätigungen, Erinnerungen, das Angebot, dem niemand nachging, die Rechnung, die verstummte, die Bewertung, um die Sie nie gebeten haben. Einzeln Kleinkram, zusammen eine halbe Stelle. Das ist gewöhnliche [Automatisierung für kleine Unternehmen](~/blog/automations-for-small-business), und meist das billigste Geld auf dem Tisch."
+          },
+          {
+            "title": "Die eigenen Zahlen kennen, ohne sie zusammenzubauen",
+            "body": "Das Montagmorgenritual aus Exportieren, Einfügen, Summieren, oder schlimmer: die Zahlen, die Sie nie ansehen, weil das Zusammenbauen lästig ist. Ein kleines [maßgeschneidertes Werkzeug](~/services/custom-tools), das jede Woche dieselben Kennzahlen in dieselbe Form bringt, verändert Entscheidungen, weil Sie endlich den Verlauf sehen und nicht nur das zuletzt Geschehene."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Beachten Sie, dass nichts davon \"KI ins Produkt einbauen\" heißt. In Ihrer Größe liegt der Ertrag im Betrieb, nicht im Angebot. Das ist kein kleinerer Anspruch, sondern der Ort, an dem die Stunden und der entgangene Umsatz tatsächlich stecken."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "Menschen pro Monat nutzen inzwischen die KI-Übersichten von Google. Falls Ihr erster Impuls ist, KI passiere anderen Betrieben, ist dies die Zahl, die widerspricht: Sie steht bereits zwischen Ihnen und den Leuten, die Sie suchen.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "h2",
+        "text": "Wie Sie die erste auswählen"
+      },
+      {
+        "type": "p",
+        "text": "Sie haben jetzt eine Auswahlliste und vier Bereiche. Um daraus eine einzige Entscheidung zu machen, bewerten Sie jeden Kandidaten mit bis zu fünf Punkten in vier Fragen. Keine Tabelle nötig und, ehrlich gesagt, auch keine große Genauigkeit: der Sieger ist meist offensichtlich, sobald die Fragen laut gestellt werden."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Wie oft passiert es?** Täglich schlägt wöchentlich schlägt monatlich, und zwar deutlich. Häufigkeit mal Minuten ist die einzige Zeitersparnis, die echt ist.",
+          "**Wie nah ist es am Geld?** Gewinnt die Behebung Aufträge, hält sie Aufträge oder sorgt sie für schnellere Zahlung? Lautet die ehrliche Antwort keines davon, ist es ein Wohlfühlprojekt.",
+          "**Wie gut können Sie es beschreiben?** Wenn Sie die Regeln aufschreiben können und eine neue Kraft ihnen ohne Rückfragen folgen könnte, ist es reif. Enden Ihre Anweisungen mit \"kommt darauf an\", behalten Sie das Urteil und automatisieren Sie darum herum.",
+          "**Was passiert bei einem Fehler?** Bevorzugen Sie, was sichtbar und billig scheitert. Eine verpasste Erinnerung ist ärgerlich. Ein falscher Preis an einen Kunden ist eine andere Kategorie und braucht einen Menschen dazwischen."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nehmen Sie die höchste Punktzahl. Und dann, das ist der Teil, den alle überspringen, schreiben Sie auf, was Sie ein Scheitern nennen würden. \"Im November immer noch Handarbeit\" ist eine gute Definition. Ohne sie halten Sie eine mittelmäßige Änderung aus Höflichkeit gegenüber Ihrer eigenen Entscheidung am Leben."
+      },
+      {
+        "type": "callout",
+        "title": "Zwei Dinge für später",
+        "body": "Alles, was verlangt, dass die gesamte Belegschaft am ersten Tag ihre Arbeitsweise ändert, und alles, dessen Nutzen von Daten abhängt, die Sie heute nicht erheben. Beides lohnt sich manchmal. Keines ist ein erster Zug, denn beide scheitern aus Gründen, die nichts damit zu tun haben, ob die Idee gut war."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-90-days.svg",
+        "alt": "Ein Zeitstrahl über neunzig Tage in drei Blöcken zu dreißig Tagen: auswählen und messen, die kleinste Version bauen, dann vergleichen und entscheiden, ob behalten, korrigieren oder verwerfen",
+        "caption": "Neunzig Tage, drei Züge. Das letzte Feld ist das, was die ersten beiden lohnend macht."
+      },
+      {
+        "type": "h2",
+        "text": "Ein 90-Tage-Plan, der keine Budgetsitzung braucht"
+      },
+      {
+        "type": "p",
+        "text": "Neunzig Tage sind lang genug, damit eine echte Änderung in den Zahlen sichtbar wird, und kurz genug, dass Sie sich noch erinnern, warum Sie angefangen haben. Teilen Sie sie in drei."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Tag 1 bis 30: auswählen und den Ist-Zustand messen",
+            "body": "Machen Sie die Wochenaufnahme, wählen Sie die eine Aufgabe, und messen Sie dann den heutigen Stand, bevor Sie irgendetwas ändern. Wie viele Anfragen kamen, wie lange dauerte die erste Antwort, wie viele Angebote gingen raus, bei wie vielen wurde nachgefasst. Grobe Striche auf Papier genügen. Diesen Schritt zu überspringen ist der häufigste Grund, warum hinterher niemand sagen kann, ob es gewirkt hat."
+          },
+          {
+            "title": "Tag 31 bis 60: die kleinste Version bauen, die funktionieren könnte",
+            "body": "Nicht das ganze System. Der schmalste Ausschnitt, der einen echten Kunden berührt: ein Kanal, eine Art von Anfrage, eine Erinnerung. Klein genug, um ihn binnen einer Minute abzuschalten, wenn er sich danebenbenimmt. Live betreiben, in der ersten Woche täglich beobachten und jeden Fall notieren, in dem Sie eingreifen mussten."
+          },
+          {
+            "title": "Tag 61 bis 90: vergleichen und laut entscheiden",
+            "body": "Legen Sie die neuen Zahlen neben die alten und treffen Sie eine von drei Entscheidungen: behalten und ausweiten, die eine Bremse beheben, oder verwerfen und den nächsten Kandidaten nehmen. Laut zu entscheiden zählt. Eine Sache, über die nie entschieden wurde, verbraucht ewig Aufmerksamkeit."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was fest in Menschenhand bleibt"
+      },
+      {
+        "type": "p",
+        "text": "Eine gute Strategie ist genauso klar darin, was sie nicht anfasst. In einem kleinen Betrieb ist Ihr Vorteil gegenüber größeren Wettbewerbern, dass ein Kunde jemanden erreicht, der die Antwort kennt und entscheiden darf. Das wegzuautomatisieren, um Minuten zu sparen, ist zu jedem Preis ein schlechtes Geschäft."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Alles mit einem unzufriedenen Kunden. Das Gespräch zur Wiedergutmachung ist mehr wert als der ursprüngliche Verkauf und braucht jemanden, der sich glaubwürdig entschuldigen kann.",
+          "Preisausnahmen, Verhandlungen und Zusagen zu Terminen. Das sind Zusagen, und Zusagen macht jemand, der für ihre Einhaltung geradesteht.",
+          "Das letzte Wort über alles, was öffentlich unter Ihrem Namen erscheint. Entwerfen mit Software, unterschreiben als Sie selbst.",
+          "Das erste Gespräch mit genau der Art Kunde, von der Sie mehr wollen. Das ist Forschung, nicht Verwaltung, und die eigene Marktforschung sollte man nicht auslagern."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Fünf Arten, das zu vermasseln"
+      },
+      {
+        "type": "p",
+        "text": "Die Fehlschläge sind langweilig gleichförmig, was gute Nachrichten sind, denn dadurch lassen sie sich leicht vermeiden."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Einen kaputten Ablauf automatisieren",
+            "body": "Software macht einen bestehenden Ablauf schneller und gleichmäßiger, auch einen schlechten. Wenn die heutige Fassung Kunden verwirrt, verwirren Sie sie gleich in großem Maßstab. Bringen Sie erst die Form auf Papier in Ordnung, dann geben Sie sie ab."
+          },
+          {
+            "title": "Fünf Werkzeuge kaufen, bevor eines fertig ist",
+            "body": "Begeisterung gibt leicht Geld aus. Fünf halb eingerichtete Abos ergeben fünf Monatsbeträge und keine Veränderung in der Woche. Machen Sie eines vollständig fertig, bevor das zweite überhaupt existieren darf."
+          },
+          {
+            "title": "Niemand ist zuständig",
+            "body": "Jede automatisierte Sache braucht eine namentlich benannte Person, die merkt, wenn sie stehen bleibt. Kein Gremium, und nicht \"wir achten alle darauf\", was zuverlässig heißt, dass es niemand tut."
+          },
+          {
+            "title": "Lautlos ausfallen",
+            "body": "Das schlimmste Ergebnis ist nicht eine Automatisierung, die kaputtgeht. Es ist eine, die im Juni leise ausfällt und im August auffällt. Alles, was in Ihrem Namen läuft, sollte Ihnen sagen, wenn es nicht lief, oder Ihnen wenigstens wöchentlich sagen, dass es lief."
+          },
+          {
+            "title": "Kein Vorher, mit dem sich das Nachher vergleichen lässt",
+            "body": "Ohne groben Ausgangswert ist jedes Ergebnis Ansichtssache, und Ansichten über die eigenen Entscheidungen fallen großzügig aus. Zehn Minuten Zählen in Woche eins beenden die Diskussionen in Monat drei."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Wie es sich nach einem Jahr anfühlen sollte"
+      },
+      {
+        "type": "p",
+        "text": "Wenn es wirkt, ist die Veränderung unspektakulär und sieht nicht aus wie im Prospekt. Anfragen werden beantwortet, während Sie noch die Bohrmaschine halten. Angebote gehen am selben Tag raus und werden nachgefasst, ohne dass Sie sich lästig fühlen. Die Montagszahlen liegen im Postfach, bevor Sie den Laptop öffnen. Bewertungen kommen, weil jemand im richtigen Moment gefragt hat, und empfohlen werden die Betriebe, die Bewertungen vorzuweisen haben."
+      },
+      {
+        "type": "p",
+        "text": "Nichts davon ist ein Roboter, der Ihren Betrieb führt. Es sind drei oder vier kleine Übergaben, in der richtigen Reihenfolge gewählt, von denen jede Ihnen ein Stück der Woche zurückgegeben hat, das Sie für Arbeit aufwendeten, die niemand bezahlt hat. Das ist die ganze KI-Strategie in Ihrer Größe, und ehrlich gesagt der größte Teil des verfügbaren Nutzens."
+      },
+      {
+        "type": "cta",
+        "title": "Unsicher, welche drei Ihre sind?",
+        "body": "Das ist meist ein Gespräch von vierzig Minuten, kein Projekt. Erzählen Sie uns, wie Ihre Woche aussieht, und wir sagen Ihnen ehrlich, welche Teile sich zum Abgeben lohnen, welche nicht, und wie die kleinste sinnvolle erste Fassung aussähe.",
+        "button": "Lassen Sie uns darüber sprechen"
+      },
+      {
+        "type": "h2",
+        "text": "Häufige Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Brauche ich zuerst jemanden mit Technikkenntnissen?"
+      },
+      {
+        "type": "p",
+        "text": "Für den Entscheidungsteil nicht, und der ist der wichtigste und der, den Ihnen niemand abnehmen kann. Wochenaufnahme, Auswahlliste und Entscheidung sind betriebliche Entscheidungen, keine technischen. Technische Hilfe brauchen Sie zum Bauen, und deutlich weniger davon als erwartet, sobald die Aufgabe genau beschrieben ist."
+      },
+      {
+        "type": "h3",
+        "text": "Wie viel sollte ein kleiner Betrieb im ersten Jahr dafür ausgeben?"
+      },
+      {
+        "type": "p",
+        "text": "Weniger, als das Bauchgefühl sagt, und in Etappen. Der Sinn des Neunzig-Tage-Rahmens ist, dass Sie für eine einzige schmale Sache Geld ausgeben, sehen, ob sie eine Zahl bewegt hat, die Sie ohnehin verfolgt haben, und erst dann über eine Ausweitung entscheiden. Alles, was ein Jahresbudget vor dem Beleg verlangt, ist ein schlechteres Geschäft, als es aussieht."
+      },
+      {
+        "type": "h3",
+        "text": "Was, wenn mein Betrieb zu klein oder zu traditionell für KI ist?"
+      },
+      {
+        "type": "p",
+        "text": "Klein hilft meistens, denn es gibt niemanden zu befragen und nichts zu migrieren. Traditionell hilft auch: je mehr Ihrer Verwaltung noch über Telefon, Papier und Gedächtnis läuft, desto mehr wiederholte Arbeit mit offensichtlicher Form haben Sie. Am wenigsten holen die Betriebe heraus, die bereits überall aufgeräumte Software einsetzen."
+      },
+      {
+        "type": "h3",
+        "text": "Ist eine Strategie nur die Wahl des richtigen KI-Abos?"
+      },
+      {
+        "type": "p",
+        "text": "Nein, und beim Abo anzufangen ist genau der Fehler, den diese Methode vermeiden soll. Das Werkzeug ist die letzte Entscheidung, nicht die erste. Ist die Aufgabe präzise genug beschrieben, um sie abzugeben, ist die Werkzeugwahl meist eng und entpuppt sich gelegentlich als etwas, wofür Sie schon zahlen."
+      },
+      {
+        "type": "h3",
+        "text": "Was passiert, wenn ich das erste Projekt falsch wähle?"
+      },
+      {
+        "type": "p",
+        "text": "Sie verlieren neunzig Tage und lernen, wo die echte Engstelle liegt, weshalb das erste klein und abschaltbar sein sollte. Der teure Fehler ist nicht die falsche Wahl, sondern etwas so Großes zu wählen, dass Sie weder erkennen können, ob es gewirkt hat, noch es stoppen können, wenn Sie zweifeln."
       }
     ]
   }

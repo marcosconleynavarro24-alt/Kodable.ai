@@ -18,8 +18,8 @@
       "Nel 2026 il programma resta attivo finché ci sono fondi disponibili, preparati ora, perché viene assegnato in ordine di arrivo."
     ],
     "related": [
-      "ai-agent-for-small-business",
-      "get-found-in-ai-search"
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -278,8 +278,8 @@
       "Ciò che funziona davvero è poco glamour e sostenuto dai dati: rispondi con chiarezza a domande vere, sostienilo con dettagli reali, cura il tuo Profilo dell'attività su Google e le recensioni, guadagnati menzioni oneste e tieni il sito veloce."
     ],
     "related": [
-      "ai-agent-for-small-business",
-      "kit-digital-2026"
+      "ai-strategy-for-small-business",
+      "ai-agent-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -476,8 +476,8 @@
       "Un agente converte la domanda che hai già; non ne inventa di nuova. Ha anche bisogno delle tue risposte reali per lavorare, e di un passaggio chiaro a una persona per tutto ciò che non deve decidere."
     ],
     "related": [
-      "get-found-in-ai-search",
-      "kit-digital-2026"
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
     ],
     "cta": {
       "service": "ai-agents",
@@ -625,6 +625,555 @@
       {
         "type": "p",
         "text": "Lo stesso agente può stare dietro più porte: la chat del tuo sito, WhatsApp, perfino il follow-up di una chiamata persa. Dove vive dipende da dove ti scrivono già i tuoi clienti."
+      }
+    ]
+  },
+  {
+    "slug": "automations-for-small-business",
+    "category": "Automation",
+    "categoryIcon": "layers",
+    "title": "Automazione per piccole attività: quali compiti smettere di fare a mano per primi",
+    "description": "Una guida pratica all'automazione per le piccole attività: i sette compiti da automatizzare per primi, come scegliere quello che si ripaga più in fretta e gli errori che rendono l'automazione più costosa di quanto faccia risparmiare.",
+    "dek": "Quasi tutte le piccole attività vanno avanti grazie a un secondo lavoro non pagato: copiare, sollecitare e ribattere, tutto ciò che riempie i vuoti tra il lavoro vero. Ecco quali parti cedere per prime e come sceglierle senza attivare sei abbonamenti che non ti servono.",
+    "keyword": "small business automation",
+    "author": "Il team di Kodable",
+    "datePublished": "2026-08-20",
+    "ogImage": "automations-for-small-business.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Automatizzare non è un robot che prende il controllo della tua attività. È una serie di piccoli passaggi di consegne: lo stesso compito, fatto allo stesso modo ogni settimana, tolto dalla tua scrivania.",
+      "I compiti da automatizzare per primi sono quelli più vicini ai soldi: la prima risposta a una richiesta, il promemoria dell'appuntamento, il preventivo che nessuno ha più ripreso, la recensione che nessuno ha mai chiesto.",
+      "Scegli con l'aritmetica, non con l'entusiasmo. Frequenza per minuti per quanto ti infastidisce batte qualsiasi elenco di funzioni.",
+      "L'automazione fallisce per motivi noiosi: si automatizza un processo rotto così com'è, nessuno se ne occupa, oppure si rompe in silenzio e per un mese non se ne accorge nessuno. Tutti e tre si possono evitare."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "ai-agent-for-small-business"
+    ],
+    "cta": {
+      "service": "automations",
+      "label": "Scopri cosa potremmo automatizzare per te"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/automation-handoffs.svg",
+        "alt": "Due versioni della stessa richiesta: a sinistra passa da una casella di posta, un'app per appunti e un telefono prima che qualcuno risponda; a destra un'automazione risponde, registra i dati e prenota lo slot in pochi secondi",
+        "caption": "La stessa richiesta, due volte. A sinistra aspetta che un umano sia libero. A destra la parte di routine avviene subito e all'umano arriva quello che resta."
+      },
+      {
+        "type": "p",
+        "text": "C'è il lavoro per cui ti pagano e poi c'è il secondo lavoro. Copiare un numero da WhatsApp a un'app di appunti. Scrivere la stessa risposta per la nona volta questa settimana. Ricordarti, alle 22:40, che il preventivo di martedì non è mai partito. Nessuno fattura quel lavoro, e si prende comunque ore ogni settimana. L'**automazione per le piccole attività** è semplicemente la pratica di cedere al software le parti più ripetitive, così che quelle che hanno bisogno di te ti abbiano davvero."
+      },
+      {
+        "type": "p",
+        "text": "La parola porta più dramma di quanto meriti. Non è un braccio di fabbrica né un algoritmo che guida la tua azienda. È una serie di piccoli passaggi poco affascinanti, e la domanda utile non è mai «devo automatizzare», ma «quali tre cose per prime»."
+      },
+      {
+        "type": "h2",
+        "text": "Cosa significa davvero automatizzare alla tua dimensione"
+      },
+      {
+        "type": "p",
+        "text": "Un'automazione è una regola con un innesco e una conseguenza. Quando arriva un modulo, invia questa risposta e aggiungi la persona a questa lista. Quando mancano 24 ore a un appuntamento, invia un promemoria. Quando una fattura supera i 15 giorni, sollecita con garbo. L'idea è tutta qui. Il resto è idraulica tra gli strumenti che già usi."
+      },
+      {
+        "type": "p",
+        "text": "Per questo il test onesto non è affatto tecnico. Fatti tre domande sul compito: succede con **regolarità**, succede **allo stesso modo** ogni volta, e richiede un **giudizio** che solo tu puoi dare? Regolare e ripetibile senza vero giudizio: automatizzalo. Con il giudizio in mezzo: automatizza ciò che sta intorno alla decisione e tieniti la decisione."
+      },
+      {
+        "type": "callout",
+        "title": "Una verifica veloce",
+        "body": "Se potessi scrivere esattamente come fai il compito, e una persona nuova e capace potesse seguirlo il primo giorno senza chiederti nulla, è una buona candidata. Se le tue istruzioni finiscono con «dipende», non lo è, almeno non ancora."
+      },
+      {
+        "type": "h2",
+        "text": "Perché è sulla prima risposta che perdi i soldi"
+      },
+      {
+        "type": "p",
+        "text": "Prima dell'elenco, un conto che decide l'ordine. La maggior parte delle piccole attività perde più fatturato nello spazio tra l'arrivo di una richiesta e la risposta che in qualsiasi altro punto della propria amministrazione. Non perché la risposta sia difficile, ma perché arriva tardi."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "rispondi entro circa cinque minuti e le probabilità di raggiungere e qualificare un nuovo contatto sono drasticamente più alte rispetto ad aspettare anche solo mezz'ora. La velocità della prima risposta è la leva più studiata nella gestione dei contatti.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "Quell'orologio non lo batti impegnandoti di più, perché il motivo per cui lo perdi è che stavi facendo il tuo lavoro. Il software non ha questo problema. Per questo quasi tutto l'elenco qui sotto è una variazione sullo stesso tema: chiudere lo spazio tra qualcosa che succede e qualcuno che riceve risposta."
+      },
+      {
+        "type": "h2",
+        "text": "Sette automazioni da mettere in piedi per prime"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Una risposta immediata e utile a ogni richiesta",
+            "body": "Non un messaggio automatico che dice «abbiamo ricevuto il tuo messaggio». Uno vero: grazie, ecco cosa succede adesso, ecco più o meno quando ti chiamiamo, ed ecco le due cose utili da sapere prima. Ti compra ore di buona disposizione ed evita che la persona guardi altrove mentre aspetta."
+          },
+          {
+            "title": "Conferme e promemoria degli appuntamenti",
+            "body": "Una conferma al momento della prenotazione e un promemoria il giorno prima. È l'automazione più economica che esista e protegge la cosa più cara che hai: uno slot in agenda che qualcuno ha dimenticato. Aggiungi un modo per spostare l'appuntamento con un tocco, perché uno slot spostato vale molto più di uno vuoto."
+          },
+          {
+            "title": "Solleciti su preventivi e fatture",
+            "body": "La maggior parte dei preventivi non viene rifiutata, viene dimenticata, da entrambe le parti. Un breve sollecito al terzo e al decimo giorno, e un promemoria gentile quando una fattura supera la scadenza, recuperano lavoro di cui hai già fatto la parte difficile. A nessuno piace sollecitare, ed è proprio per questo che non dovrebbe dipendere dalla voglia."
+          },
+          {
+            "title": "Un unico posto dove atterrano tutti i contatti",
+            "body": "Le richieste arrivano da modulo web, WhatsApp, telefono, Instagram e da qualcuno che ti ferma per strada. Se vivono in cinque posti, non vivono da nessuna parte. Falle confluire tutte in una lista con gli stessi campi: nome, contatto, cosa vogliono, da dove arrivano. Questa è noiosa e cambia tutto il resto che potrai misurare."
+          },
+          {
+            "title": "La richiesta di recensione che non ti ricordi mai di mandare",
+            "body": "Le recensioni sono il segnale più forte che hai, sia per la ricerca locale sia per le risposte generate dall'IA che sempre più spesso stanno sopra. Chiedere è la parte difficile, quindi smetti di chiedere a mano: fai partire la richiesta uno o due giorni dopo la fine del lavoro, mentre il cliente ricorda ancora di essere stato contento. Ne parliamo meglio in [farsi trovare quando risponde prima l'IA](~/blog/get-found-in-ai-search)."
+          },
+          {
+            "title": "I numeri settimanali che metti insieme a mano",
+            "body": "Qualunque cosa esporti, incolli e sommi ogni lunedì mattina: prenotazioni, vendite, ore, scorte. Se sai descrivere i passaggi, possono girare da soli e arrivare nella tua posta prima che tu apra il portatile. Il valore non è il tempo risparmiato, è che i numeri li guardi davvero quando arrivano da soli."
+          },
+          {
+            "title": "L'avvio dei nuovi clienti",
+            "body": "Il pacchetto di cose che mandi a ogni nuovo cliente: il modulo, l'indirizzo e dove parcheggiare, il documento che serve sempre, cosa succede dopo e quando. Inviato in automatico e in ordine, fa sembrare un'attività di due persone organizzata come la concorrenza non è, ed evita il rimpallo che si mangia un'intera giornata per cliente."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Come scegliere la prima"
+      },
+      {
+        "type": "p",
+        "text": "Resisti alla tentazione di partire dalla più interessante. Parti da quella che si ripaga prima, e la trovi in una ventina di minuti con una penna."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Elenca cosa hai fatto due volte questa settimana nello stesso modo",
+            "body": "Non quello che credi di fare. Quello che hai davvero ripetuto: la risposta che hai ribattuto, il numero che hai copiato, la cosa che hai cercato due volte. Scrivine cinque."
+          },
+          {
+            "title": "Moltiplica la frequenza per i minuti",
+            "body": "Sei volte a settimana per quattro minuti fanno circa diciassette ore all'anno, su un solo piccolo compito. Due come quello e hai trovato una settimana di lavoro. Questo numero di solito è la sorpresa."
+          },
+          {
+            "title": "Segna quelli che toccano i soldi",
+            "body": "Una prima risposta, un promemoria, il sollecito su un preventivo. Questi non fanno solo risparmiare tempo, cambiano il risultato. Vanno in cima alla fila anche quando non sono quelli che portano via più tempo."
+          },
+          {
+            "title": "Mettine in piedi una, poi lasciala stare un mese",
+            "body": "Un'automazione che funziona bene vale più di cinque fatte a metà. Dalle un mese, verifica che sia davvero scattata tutte le volte che doveva, poi scegli la successiva."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/automation-priority.svg",
+        "alt": "Una griglia che incrocia quanto spesso si ripete un compito con quanto è vicino al fatturato; risposte immediate, promemoria e solleciti sui preventivi finiscono nell'angolo a più alta priorità",
+        "caption": "Bastano due assi: quanto spesso si ripete e quanto sta vicino ai soldi. L'angolo in alto a destra è la tua prima automazione."
+      },
+      {
+        "type": "h2",
+        "text": "Dove l'automazione va storta"
+      },
+      {
+        "type": "p",
+        "text": "Vale la pena dare un nome ai modi in cui fallisce, perché sono prevedibili e nessuno è un problema tecnologico esotico."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Si automatizza un processo rotto così com'è.** L'automazione fa sì che un flusso sbagliato accada più in fretta e più spesso. Prima sistema i passaggi, poi collegali.",
+          "**Fallisce in silenzio.** L'integrazione smette di funzionare a marzo e nessuno se ne accorge fino a giugno, perché il successo somiglia esattamente al non fare niente. Tutto ciò che è automatico ha bisogno di un modo per gridare quando si rompe.",
+          "**Suona da robot ai tuoi stessi clienti.** Automatico non deve voler dire impersonale. Se il messaggio ti imbarazzerebbe inviato a mano, non mandarlo cento volte.",
+          "**Proliferazione di strumenti.** Sei abbonamenti, ognuno che fa una fetta dello stesso lavoro, nessuno che parla con gli altri. Il totale mensile supera in silenzio quello che sarebbe costato un unico impianto su misura.",
+          "**Nessuno se ne occupa.** Ogni automazione ha bisogno di una persona che controlli, una volta al mese, che faccia ancora ciò per cui è stata costruita. In una piccola attività quella persona di solito sei tu, e sono dieci minuti."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Automazioni, agenti IA e strumenti su misura non sono la stessa cosa"
+      },
+      {
+        "type": "p",
+        "text": "Questi tre vengono venduti come un unico prodotto sfocato, e sbagliare scelta costa. La differenza è semplice:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Un'automazione** segue una regola fissa. Stesso innesco, stessi passaggi, ogni volta. Ideale per tutto ciò che è prevedibile: promemoria, solleciti, smistamento, report. Sono le [automazioni e integrazioni](~/services/automations).",
+          "**Un agente IA** si occupa della metà imprevedibile: una vera conversazione, in linguaggio normale, a qualsiasi ora, capace di rispondere e di prenotare. È quello che ti serve quando ciò che arriva è una persona con una domanda e non un evento con una regola. Abbiamo scritto un giro in parole semplici su [cosa fa davvero un agente IA](~/blog/ai-agent-for-small-business).",
+          "**Uno strumento su misura** serve quando la tua attività ha un processo che nessun prodotto di catalogo copre, e il foglio di calcolo è diventato un rischio. Sono gli [strumenti e app su misura](~/services/custom-tools)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "La maggior parte delle piccole attività ha bisogno del primo, trae vantaggio in fretta dal secondo, e ha davvero bisogno del terzo solo quando i primi due funzionano."
+      },
+      {
+        "type": "callout",
+        "title": "Se sei in Spagna, questo può essere finanziato",
+        "body": "Il lavoro di automazione e integrazione rientra in diverse categorie di soluzioni finanziate dal programma Kit Digital, il che significa che una parte può essere coperta anziché pagata. Regole, importi e scadenze sono nella nostra [guida completa al Kit Digital 2026](~/blog/kit-digital-2026)."
+      },
+      {
+        "type": "h2",
+        "text": "Come aiuta Kodable"
+      },
+      {
+        "type": "p",
+        "text": "Partiamo dalla parte con carta e penna: cosa si ripete davvero nella tua settimana, quanto ti costa e quali due o tre passaggi conviene cedere per primi. Poi li costruiamo dentro gli strumenti che già usi, con un modo per avvisarti quando qualcosa si rompe. Nessuno stack nuovo da imparare, niente sei abbonamenti. Guarda [automazioni e integrazioni](~/services/automations) per vedere come funziona in pratica."
+      },
+      {
+        "type": "cta",
+        "title": "Trova le tue prime tre automazioni",
+        "body": "Portaci una settimana qualunque: come ti arrivano le richieste, cosa ribatti, chi solleciti. In 15 minuti ti diciamo quali parti conviene cedere per prime e quali non vale ancora la pena toccare.",
+        "button": "Parla con noi"
+      },
+      {
+        "type": "h2",
+        "text": "Domande frequenti"
+      },
+      {
+        "type": "h3",
+        "text": "Devo sostituire gli strumenti che uso già?"
+      },
+      {
+        "type": "p",
+        "text": "Di solito no, e conviene diffidare di chi dice subito il contrario. L'automazione utile è soprattutto connettiva: il tuo sistema di prenotazioni, la posta, il foglio di calcolo e WhatsApp, collegati perché le informazioni si spostino senza che le porti tu. Sostituire uno strumento è una decisione per quando è lo strumento stesso il problema, non il primo passo automatico."
+      },
+      {
+        "type": "h3",
+        "text": "Quanto piccoli si è troppo piccoli per questo?"
+      },
+      {
+        "type": "p",
+        "text": "Un'attività di una sola persona è spesso quella in cui l'automazione si ripaga più in fretta, perché non c'è nessuno a cui delegare. La soglia non è il numero di persone, è la ripetizione. Se un compito torna ogni settimana e porta via più di un paio di minuti, il conto vale già la pena."
+      },
+      {
+        "type": "h3",
+        "text": "I miei clienti se ne accorgeranno?"
+      },
+      {
+        "type": "p",
+        "text": "Noteranno che rispondi in fretta, che confermi bene e che non perdi mai il filo, e quasi tutti lo leggono come «gestita bene», non come «automatizzata». Quello che tradisce è la formulazione generica e i messaggi che ignorano quello che la persona ha chiesto davvero. Sono problemi di scrittura, non di tecnologia."
+      },
+      {
+        "type": "h3",
+        "text": "Cosa succede quando qualcosa cambia nella mia attività?"
+      },
+      {
+        "type": "p",
+        "text": "I prezzi cambiano, gli orari cambiano, si aggiungono servizi. Un'automazione costruita attorno a un dato fisso diventa sbagliata in silenzio, che è il modo peggiore di sbagliare. Tutto ciò che può cambiare dovrebbe stare in un unico posto che puoi modificare, e qualcuno dovrebbe rivedere l'insieme una volta a trimestre. È una cosa breve se si fa; è un guaio se non si fa mai."
+      },
+      {
+        "type": "h3",
+        "text": "Automazione e intelligenza artificiale sono la stessa cosa?"
+      },
+      {
+        "type": "p",
+        "text": "No, e confonderle porta a pagare troppo. L'automazione classica è deterministica: una regola fissa, nessuna interpretazione, ed è la risposta giusta per la maggior parte dell'amministrazione. L'IA entra dove ci sono linguaggio e giudizio, come capire una domanda scritta da un cliente a mezzanotte. Un buon impianto usa ciascuno per quello che serve davvero."
+      }
+    ]
+  },
+  {
+    "slug": "ai-strategy-for-small-business",
+    "category": "AI Strategy",
+    "categoryIcon": "spark",
+    "title": "Strategia IA per una piccola impresa: come scegliere le tre cose che valgono la pena",
+    "description": "Una strategia IA per una piccola impresa, senza fumo: come individuare le poche attività da affidare al software, come scegliere la prima e un piano di 90 giorni per verificare che funzioni.",
+    "dek": "Ogni settimana arriva un altro strumento che dovresti già usare. Ecco un modo per decidere di cosa ha davvero bisogno la tua attività, in un pomeriggio, senza nulla di più costoso di un elenco del lavoro che già fai.",
+    "keyword": "AI strategy for small business",
+    "author": "Il team di Kodable",
+    "datePublished": "2026-08-21",
+    "ogImage": "ai-strategy-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Una strategia IA alla tua scala non è un documento. È un elenco breve e ordinato di attività che hai deciso di smettere di fare a mano, e una da cui hai deciso di partire.",
+      "Scegli dalla tua settimana, non da un elenco di strumenti. Il lavoro che si ripete, che ha ogni volta la stessa forma e che sta vicino ai soldi è dove sta il ritorno.",
+      "Ci sono quattro punti in cui l'IA si ripaga davvero in una piccola impresa: farsi trovare, rispondere, dare seguito e conoscere i propri numeri. Quasi tutto il resto è una distrazione finché questi quattro non funzionano.",
+      "Novanta giorni bastano a dimostrare o archiviare qualsiasi idea. Se non sai dire cosa conterebbe come fallimento prima di iniziare, non stai testando niente."
+    ],
+    "related": [
+      "ai-agent-for-small-business",
+      "automations-for-small-business",
+      "get-found-in-ai-search"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Parliamo di ciò che serve davvero alla tua attività"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-map.jpg",
+        "alt": "Una griglia isometrica di blocchi grigio chiaro che rappresenta tutto il lavoro di una piccola impresa, con una manciata di blocchi evidenziati in blu notte e collegati da frecce, a rappresentare le poche attività scelte per l'IA",
+        "caption": "Una strategia non è tutta la griglia. Sono i tre blocchi che hai scelto, e l'ordine in cui li hai scelti."
+      },
+      {
+        "type": "p",
+        "text": "Probabilmente ti hanno detto, più volte quest'anno, che la tua attività ha bisogno di IA. Raramente da qualcuno in grado di dire quale parte della tua attività, cosa sostituirebbe o come capiresti poi se ha funzionato. Quella non è una strategia, è uno stato d'animo. Una **strategia IA per una piccola impresa** è qualcosa di molto più piccolo e molto più utile: un elenco breve di attività che hai deciso di smettere di fare a mano, nell'ordine in cui intendi smettere."
+      },
+      {
+        "type": "p",
+        "text": "Questa guida è il metodo che usiamo con titolari che hanno tra due e trenta persone, nessun team tecnico interno e nessuna voglia di un progetto da sei mesi. Richiede un pomeriggio, non costa nulla applicarlo e di solito finisce con tre candidate e una decisione."
+      },
+      {
+        "type": "h2",
+        "text": "Cosa significa una strategia quando siete in cinque, non in cinquecento"
+      },
+      {
+        "type": "p",
+        "text": "Le grandi aziende scrivono strategie IA perché devono coordinare centinaia di persone attorno a una scommessa comune. Tu quel problema non ce l'hai. Il tuo limite non è l'allineamento, è l'attenzione: puoi cambiare seriamente una cosa alla volta, e solo se non ti rompe la settimana mentre la cambi."
+      },
+      {
+        "type": "p",
+        "text": "Quindi la versione utile del documento è lunga quattro righe. Qual è l'attività. Chi la fa oggi. Cosa sostituisce quella persona. Come lo sapremo tra novanta giorni. Tutto ciò che è più lungo è un piano che non rileggerai, e i piani che non si rileggono non cambiano nulla."
+      },
+      {
+        "type": "callout",
+        "title": "La versione in una frase",
+        "body": "Se la tua strategia non si può dire ad alta voce in un fiato, con parole che un nuovo assunto capirebbe, non è ancora una strategia. \"Smettiamo di scrivere a mano la prima risposta a ogni richiesta\" è una strategia. \"Sfrutteremo l'IA lungo il percorso del cliente\" è un desiderio."
+      },
+      {
+        "type": "h2",
+        "text": "Parti dalla tua settimana, non dall'elenco degli strumenti"
+      },
+      {
+        "type": "p",
+        "text": "L'errore più comune è partire dal lato sbagliato: leggere cosa sa fare uno strumento e poi cercare nell'attività dove infilarlo. Ottieni un abbonamento e nessun cambiamento in come scorre la settimana. Ribalta l'ordine. La settimana che hai già è il briefing."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Annota cosa ha riempito davvero la settimana",
+            "body": "Non la versione da mansionario. Quella vera: i venti minuti al telefono per confermare un appuntamento, la risposta riscritta per la nona volta, il numero copiato da un'app all'altra, il foglio di calcolo del lunedì. Fallo per una settimana normale, su carta, mentre accade. Ricordarlo dopo ti fa sempre bella figura."
+          },
+          {
+            "title": "Segna tutto ciò che si è ripetuto",
+            "body": "Metti un segno accanto a qualsiasi cosa sia successa più di due volte nella stessa forma. La ripetizione è tutto il segnale. Un'attività che cambia ogni volta richiede giudizio ed è una pessima prima candidata. Un'attività che potresti spiegare a un nuovo assunto il primo giorno è un'ottima candidata."
+          },
+          {
+            "title": "Cerchia quelle che toccano i soldi",
+            "body": "Parte di quel lavoro ripetuto sta esattamente tra uno sconosciuto e un cliente che paga: la prima risposta, il preventivo, la prenotazione, il sollecito, la richiesta di recensione. Un'altra parte no: archiviare, riordinare, formattare. Entrambe prima o poi vanno sistemate. Solo la prima ti ripaga abbastanza in fretta da finanziare il resto."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ciò che resta dopo questi tre passaggi è la tua vera rosa di candidate, e di solito sorprende. I titolari arrivano convinti che la risposta sia un chatbot sul sito, e se ne vanno avendo capito che il problema costoso era che i preventivi escono con due giorni di ritardo."
+      },
+      {
+        "type": "h2",
+        "text": "I quattro punti in cui l'IA si ripaga in una piccola impresa"
+      },
+      {
+        "type": "p",
+        "text": "Nelle attività con cui lavoriamo, quasi tutto ciò che vale la pena rientra in uno di quattro cassetti. Sono elencati più o meno nell'ordine in cui li affronteremmo, perché ognuno rende il successivo più redditizio."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Farsi trovare, anche dalle macchine che rispondono per prime",
+            "body": "Non ha senso automatizzare le risposte se non arriva nulla a cui rispondere. Una quota crescente di persone non arriva mai a un elenco di link: chiede, ottiene una risposta, agisce. Rendere la tua attività leggibile per quei sistemi fa ormai parte dell'essere visibili, come raccontiamo in [farsi trovare quando risponde prima l'IA](~/blog/get-found-in-ai-search)."
+          },
+          {
+            "title": "Rispondere, nel momento in cui qualcuno chiede",
+            "body": "Le ore tra una richiesta e una risposta sono il punto in cui la maggior parte delle piccole imprese perde lavoro in silenzio, e nessuna dose di disciplina lo risolve, perché eri occupato a guadagnare. Un [agente IA che gestisce la prima conversazione](~/blog/ai-agent-for-small-business) risponde alle domande di sempre, raccoglie i dati e ti passa una persona già mezza qualificata."
+          },
+          {
+            "title": "Dare seguito senza doverci pensare",
+            "body": "Conferme, promemoria, il preventivo che nessuno ha sollecitato, la fattura rimasta muta, la recensione mai chiesta. Presi da soli, inezie; messi insieme, un mezzo impiego. Questa è ordinaria [automazione per piccole imprese](~/blog/automations-for-small-business), e di solito è il denaro più a buon mercato sul tavolo."
+          },
+          {
+            "title": "Conoscere i propri numeri senza doverli montare",
+            "body": "Il rituale del lunedì mattina fatto di esporta, incolla e somma o, peggio, i numeri che non guardi mai perché metterli insieme è una seccatura. Un piccolo [strumento su misura](~/services/custom-tools) che raccoglie ogni settimana gli stessi dati nella stessa forma cambia le decisioni, perché finalmente vedi la tendenza invece dell'ultima cosa successa."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nota che nessuno di questi punti è \"aggiungere IA al prodotto\". Alla tua scala il rendimento sta nelle operazioni, non nell'offerta. Non è un'ambizione minore: è dove vivono davvero le ore e il fatturato perso."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "persone al mese usano ormai le Panoramiche IA di Google. Se il tuo primo istinto è pensare che l'IA riguardi altre attività, questo è il numero che dice il contrario: è già in mezzo tra te e le persone che ti cercano.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "h2",
+        "text": "Come scegliere la prima"
+      },
+      {
+        "type": "p",
+        "text": "Ora hai una rosa di candidate e quattro cassetti. Per arrivare da lì a una sola decisione, dai a ciascuna un voto da uno a cinque su quattro domande. Non serve un foglio di calcolo e, onestamente, nemmeno molta precisione: la vincitrice è quasi sempre ovvia appena le domande vengono dette ad alta voce."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Ogni quanto succede?** Ogni giorno batte ogni settimana, che batte ogni mese, e di parecchio. Frequenza per minuti è l'unico risparmio di tempo che sia reale.",
+          "**Quanto tocca i soldi?** Sistemarlo porta lavoro, trattiene lavoro o fa pagare prima? Se la risposta onesta è nessuna delle tre, è un progetto di consolazione.",
+          "**Quanto bene sai descriverlo?** Se puoi scrivere le regole e un nuovo assunto potrebbe seguirle senza chiederti nulla, è pronto. Se le tue istruzioni finiscono con \"dipende\", tieniti il giudizio e automatizza intorno.",
+          "**Cosa succede se sbaglia?** Preferisci ciò che fallisce in modo visibile ed economico. Un promemoria saltato è una seccatura. Un prezzo sbagliato mandato a un cliente è un'altra categoria, e richiede una persona nel mezzo."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Prendi il punteggio più alto. Poi, ed è la parte che tutti saltano, scrivi cosa ti farebbe chiamarlo un fallimento. \"A novembre ancora a mano\" va benissimo come definizione. Senza, terrai in vita un cambiamento mediocre per cortesia verso la tua stessa decisione."
+      },
+      {
+        "type": "callout",
+        "title": "Due cose da rimandare",
+        "body": "Tutto ciò che pretende che ogni persona del team cambi modo di lavorare dal primo giorno, e tutto ciò il cui valore dipende da dati che oggi non raccogli. A volte valgono entrambe. Nessuna delle due è una prima mossa, perché falliscono per ragioni che nulla hanno a che fare con la bontà dell'idea."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-90-days.svg",
+        "alt": "Una linea temporale di novanta giorni in tre blocchi da trenta: scegliere e misurare, costruire la versione più piccola, poi confrontare e decidere se tenere, correggere o abbandonare",
+        "caption": "Novanta giorni, tre mosse. L'ultima casella è quella che rende utili le prime due."
+      },
+      {
+        "type": "h2",
+        "text": "Un piano da 90 giorni che non richiede una riunione di budget"
+      },
+      {
+        "type": "p",
+        "text": "Novanta giorni bastano perché un cambiamento reale si veda nei numeri e sono abbastanza pochi da ricordarti ancora perché hai iniziato. Dividili in tre."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Giorni da 1 a 30: scegli e misura com'è adesso",
+            "body": "Fai l'analisi della settimana, scegli l'unica attività e poi misura lo stato attuale prima di cambiare qualsiasi cosa. Quante richieste sono arrivate, quanto ha impiegato la prima risposta, quanti preventivi sono usciti, quanti sono stati sollecitati. Conteggi approssimativi su carta vanno bene. Saltare questo passaggio è il motivo più comune per cui poi nessuno sa dire se ha funzionato."
+          },
+          {
+            "title": "Giorni da 31 a 60: costruisci la versione più piccola che possa funzionare",
+            "body": "Non il sistema completo. La fetta più stretta che tocca un cliente vero: un canale, un tipo di richiesta, un promemoria. Abbastanza piccola da spegnerla in un minuto se si comporta male. Mettila in funzione davvero, tienila d'occhio ogni giorno la prima settimana e annota ogni caso in cui hai dovuto intervenire."
+          },
+          {
+            "title": "Giorni da 61 a 90: confronta, poi decidi ad alta voce",
+            "body": "Metti i numeri nuovi accanto ai vecchi e prendi una di tre decisioni: tenerlo e allargarlo, correggere l'unica cosa che lo frena, o abbandonarlo e passare alla candidata successiva. Decidere ad alta voce conta. Una cosa su cui nessuno ha mai deciso continua a consumare attenzione per sempre."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cosa tenere saldamente umano"
+      },
+      {
+        "type": "p",
+        "text": "Una buona strategia è altrettanto chiara su ciò che non toccherà. In una piccola impresa il tuo vantaggio sui concorrenti più grandi è che un cliente può raggiungere qualcuno che sa la risposta e può decidere. Automatizzarlo via per risparmiare qualche minuto è un pessimo scambio a qualunque prezzo."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Tutto ciò che coinvolge un cliente scontento. La conversazione di recupero vale più della vendita iniziale e richiede una persona capace di scusarsi sul serio.",
+          "Eccezioni di prezzo, trattative e promesse sui tempi. Sono impegni, e gli impegni li prende chi ne risponde.",
+          "L'ultima parola su qualsiasi cosa esca in pubblico a tuo nome. Scrivi con il software, firma come te stesso.",
+          "La prima conversazione con il tipo di cliente di cui vorresti averne di più. Quella è ricerca, non amministrazione, e la propria ricerca di mercato non si appalta."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Cinque modi per sbagliare"
+      },
+      {
+        "type": "p",
+        "text": "I fallimenti sono noiosamente uguali, il che è una buona notizia, perché li rende facili da evitare."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Automatizzare un processo rotto",
+            "body": "Il software rende un processo esistente più veloce e più costante, anche se è un processo scadente. Se la versione attuale confonde i clienti, stai per confonderli su larga scala. Sistema prima la forma, su carta, e poi affidala."
+          },
+          {
+            "title": "Comprare cinque strumenti prima di finirne uno",
+            "body": "L'entusiasmo spende in fretta. Cinque abbonamenti configurati a metà producono cinque addebiti mensili e nessun cambiamento nella settimana. Finiscine uno, per intero, prima di permettere al secondo di esistere."
+          },
+          {
+            "title": "Nessuno che se ne occupi",
+            "body": "Ogni cosa automatizzata ha bisogno di una persona con nome e cognome che si accorga quando si ferma. Non un comitato, e non \"ci stiamo attenti tutti\", che regolarmente significa che non ci sta attento nessuno."
+          },
+          {
+            "title": "Guastarsi in silenzio",
+            "body": "Il risultato peggiore non è un'automazione che si rompe. È una che si rompe in sordina a giugno e si scopre ad agosto. Qualsiasi cosa giri per conto tuo dovrebbe dirti quando non lo ha fatto o, come minimo, dirti ogni settimana che lo ha fatto."
+          },
+          {
+            "title": "Nessun prima con cui confrontare il dopo",
+            "body": "Senza un riferimento approssimativo ogni risultato diventa questione di opinioni, e le opinioni sulle proprie decisioni sono generose. Dieci minuti di conteggio nella prima settimana chiudono le discussioni del terzo mese."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Come dovrebbe sembrare dopo un anno"
+      },
+      {
+        "type": "p",
+        "text": "Se funziona, il cambiamento non è spettacolare e non somiglia al depliant. Le richieste ricevono risposta mentre hai ancora il trapano in mano. I preventivi escono in giornata e vengono sollecitati senza che tu ti senta un rompiscatole. I numeri del lunedì sono nella posta prima che apri il portatile. Arrivano recensioni perché qualcuno le ha chieste al momento giusto, e le attività che vengono consigliate sono quelle che hanno recensioni da mostrare."
+      },
+      {
+        "type": "p",
+        "text": "Niente di tutto questo è un robot che dirige la tua azienda. Sono tre o quattro piccoli passaggi di consegne, scelti nell'ordine giusto, ognuno dei quali ti ha restituito una fetta della settimana che spendevi in lavoro che nessuno ti pagava. Questa è tutta la strategia IA alla tua scala, ed è onestamente la maggior parte del beneficio disponibile."
+      },
+      {
+        "type": "cta",
+        "title": "Non sai quali sono le tue tre?",
+        "body": "Di solito è una conversazione da quaranta minuti, non un progetto. Raccontaci com'è la tua settimana e ti diremo onestamente quali parti vale la pena affidare, quali no, e quale sarebbe la prima versione utile più piccola.",
+        "button": "Parliamone insieme"
+      },
+      {
+        "type": "h2",
+        "text": "Domande frequenti"
+      },
+      {
+        "type": "h3",
+        "text": "Serve qualcuno di tecnico prima di iniziare?"
+      },
+      {
+        "type": "p",
+        "text": "Non per la parte decisionale, che è quella che conta di più e che nessuno può fare al posto tuo. L'analisi della settimana, la rosa di candidate e la scelta sono decisioni di business, non tecniche. L'aiuto tecnico serve per costruire la cosa, e molto meno di quanto si pensi una volta che l'attività è descritta con precisione."
+      },
+      {
+        "type": "h3",
+        "text": "Quanto dovrebbe spendere una piccola impresa il primo anno?"
+      },
+      {
+        "type": "p",
+        "text": "Meno di quanto suggerisca l'istinto, e per gradi. Il senso della struttura dei novanta giorni è spendere su una sola cosa stretta, vedere se ha mosso un numero che già seguivi e solo allora decidere se allargarla. Tutto ciò che chiede di impegnare un anno di budget prima di avere prove è un affare peggiore di quanto sembri."
+      },
+      {
+        "type": "h3",
+        "text": "E se la mia attività fosse troppo piccola o troppo tradizionale per l'IA?"
+      },
+      {
+        "type": "p",
+        "text": "Essere piccoli di solito aiuta, perché non c'è nessuno da consultare e nulla da migrare. Anche essere tradizionali aiuta: più la tua amministrazione gira ancora su telefonate, carta e memoria, più lavoro ripetuto dalla forma evidente hai. Chi ne ricava meno sono le attività che già usano software ordinato ovunque."
+      },
+      {
+        "type": "h3",
+        "text": "Una strategia è solo scegliere quale abbonamento IA comprare?"
+      },
+      {
+        "type": "p",
+        "text": "No, e partire dall'abbonamento è esattamente l'errore che questo metodo vuole evitare. Lo strumento è l'ultima decisione, non la prima. Quando l'attività è definita con precisione sufficiente per affidarla, la scelta dello strumento è di solito ristretta e a volte si rivela qualcosa che già paghi."
+      },
+      {
+        "type": "h3",
+        "text": "Cosa succede se sbaglio il primo progetto?"
+      },
+      {
+        "type": "p",
+        "text": "Perdi novanta giorni e scopri dov'è il vincolo vero, ed è per questo che il primo deve essere piccolo e spegnibile. L'errore costoso non è scegliere male, è scegliere qualcosa di così grande da non poter capire se ha funzionato né fermarlo quando sospetti di no."
       }
     ]
   }

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" font-family="Arial, Helvetica, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8f93b0"/>
+    </marker>
+    <marker id="arn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#000080"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <text x="40" y="54" font-size="31" font-weight="800" fill="#16182b" letter-spacing="-1">The same enquiry, handled twice</text>
+  <text x="40" y="88" font-size="19" fill="#4b5266">The routine steps are identical. Only who does them, and how fast, changes.</text>
+
+  <line x1="500" y1="120" x2="500" y2="520" stroke="#dfe1ec" stroke-width="2" stroke-dasharray="6 7"/>
+
+  <!-- LEFT: by hand -->
+  <rect x="40" y="120" width="180" height="38" rx="19" fill="#f4f5fa" stroke="#dfe1ec"/>
+  <text x="62" y="145" font-size="17" font-weight="700" fill="#4b5266">BY HAND</text>
+
+  <rect x="40" y="180" width="420" height="58" rx="14" fill="#f4f5fa" stroke="#dfe1ec"/>
+  <text x="62" y="206" font-size="19" font-weight="700" fill="#16182b">Enquiry arrives, 21:40</text>
+  <text x="62" y="228" font-size="16" fill="#4b5266">Web form, WhatsApp, missed call</text>
+  <path d="M250 244 L250 268" fill="none" stroke="#8f93b0" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <rect x="40" y="274" width="420" height="52" rx="14" fill="#f4f5fa" stroke="#dfe1ec"/>
+  <text x="62" y="306" font-size="18" fill="#4b5266">Sits in an inbox until someone is free</text>
+  <path d="M250 332 L250 356" fill="none" stroke="#8f93b0" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <rect x="40" y="362" width="420" height="52" rx="14" fill="#f4f5fa" stroke="#dfe1ec"/>
+  <text x="62" y="394" font-size="18" fill="#4b5266">Details re-typed into notes, then a calendar</text>
+  <path d="M250 420 L250 444" fill="none" stroke="#8f93b0" stroke-width="2.5" marker-end="url(#ar)"/>
+
+  <rect x="40" y="450" width="420" height="58" rx="14" fill="#fdeceb" stroke="#f3ccc8"/>
+  <text x="62" y="476" font-size="19" font-weight="700" fill="#a32418">Reply the next afternoon</text>
+  <text x="62" y="498" font-size="16" fill="#8a3b31">Often after they booked somebody else</text>
+
+  <!-- RIGHT: automated -->
+  <rect x="540" y="120" width="230" height="38" rx="19" fill="#e5e6f5"/>
+  <text x="562" y="145" font-size="17" font-weight="700" fill="#08083f">AUTOMATED</text>
+
+  <rect x="540" y="180" width="420" height="58" rx="14" fill="#f4f5fa" stroke="#dfe1ec"/>
+  <text x="562" y="206" font-size="19" font-weight="700" fill="#16182b">Enquiry arrives, 21:40</text>
+  <text x="562" y="228" font-size="16" fill="#4b5266">Same person, same question</text>
+  <path d="M750 244 L750 268" fill="none" stroke="#000080" stroke-width="2.5" marker-end="url(#arn)"/>
+
+  <rect x="540" y="274" width="420" height="52" rx="14" fill="#e5e6f5"/>
+  <text x="562" y="306" font-size="18" font-weight="700" fill="#08083f">Useful reply sent in seconds</text>
+  <path d="M750 332 L750 356" fill="none" stroke="#000080" stroke-width="2.5" marker-end="url(#arn)"/>
+
+  <rect x="540" y="362" width="420" height="52" rx="14" fill="#e5e6f5"/>
+  <text x="562" y="394" font-size="18" font-weight="700" fill="#08083f">Details land in one list, slot offered</text>
+  <path d="M750 420 L750 444" fill="none" stroke="#000080" stroke-width="2.5" marker-end="url(#arn)"/>
+
+  <rect x="540" y="450" width="420" height="58" rx="14" fill="#ffffff" stroke="#000080" stroke-width="2"/>
+  <text x="562" y="476" font-size="19" font-weight="700" fill="#08083f">You get what actually needs you</text>
+  <text x="562" y="498" font-size="16" fill="#4b5266">With the context already collected</text>
+</svg>

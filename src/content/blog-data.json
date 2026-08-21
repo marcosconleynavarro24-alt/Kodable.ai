@@ -18,8 +18,8 @@
    "In 2026 the programme runs until the funds run out, get ready now, because it is handed out first-come, first-served."
   ],
   "related": [
-   "ai-agent-for-small-business",
-   "get-found-in-ai-search"
+   "ai-strategy-for-small-business",
+   "automations-for-small-business"
   ],
   "cta": {
    "service": "websites",
@@ -278,8 +278,8 @@
    "What actually works is unglamorous and evidence-backed: answer real questions clearly, back it with real detail, own your Google Business Profile and reviews, earn honest mentions, and keep the site fast."
   ],
   "related": [
-   "ai-agent-for-small-business",
-   "kit-digital-2026"
+   "ai-strategy-for-small-business",
+   "ai-agent-for-small-business"
   ],
   "cta": {
    "service": "websites",
@@ -476,8 +476,8 @@
    "An agent converts the demand you already have; it does not invent new demand. It also needs your real answers to work with, and a clear handover to a human for anything it should not decide."
   ],
   "related": [
-   "get-found-in-ai-search",
-   "kit-digital-2026"
+   "ai-strategy-for-small-business",
+   "automations-for-small-business"
   ],
   "cta": {
    "service": "ai-agents",
@@ -625,6 +625,555 @@
    {
     "type": "p",
     "text": "The same agent can sit behind several doors: your website chat, WhatsApp, even the follow-up to a missed call. Where it lives depends on where your customers already write to you."
+   }
+  ]
+ },
+ {
+  "slug": "automations-for-small-business",
+  "category": "Automation",
+  "categoryIcon": "layers",
+  "title": "Small Business Automation: Which Jobs to Stop Doing by Hand First",
+  "description": "A practical guide to small business automation: the seven jobs worth automating first, how to pick the one that pays back fastest, and the mistakes that make automation cost more than it saves.",
+  "dek": "Most small businesses run on a second, unpaid job: the copying, chasing and re-typing that fills the gaps between real work. Here is which parts of it to hand over first, and how to choose without buying six subscriptions you do not need.",
+  "keyword": "small business automation",
+  "author": "The Kodable team",
+  "datePublished": "2026-08-20",
+  "ogImage": "automations-for-small-business.jpg",
+  "readMinutes": 10,
+  "takeaways": [
+   "Automation is not a robot taking over your business. It is a set of small handovers: the same task, done the same way every week, moved off your desk.",
+   "The jobs worth automating first are the ones closest to money: the first reply to an enquiry, the booking reminder, the quote that never got chased, the review that never got asked for.",
+   "Pick by arithmetic, not by excitement. Frequency times minutes times how much it annoys you beats any feature list.",
+   "Automation fails for boring reasons: a broken process gets automated as-is, nobody owns it, or it breaks quietly and nobody notices for a month. All three are avoidable."
+  ],
+  "related": [
+   "ai-strategy-for-small-business",
+   "ai-agent-for-small-business"
+  ],
+  "cta": {
+   "service": "automations",
+   "label": "See what we could automate for you"
+  },
+  "body": [
+   {
+    "type": "figure",
+    "src": "/blog/automation-handoffs.svg",
+    "alt": "Two versions of the same enquiry: on the left it passes through an inbox, a notes app and a phone before anyone replies; on the right an automation replies, records the details and books the slot in seconds",
+    "caption": "The same enquiry, twice. On the left it waits for a human to be free. On the right the routine part happens immediately and the human gets what is left."
+   },
+   {
+    "type": "p",
+    "text": "There is the work you get paid for, and then there is the second job. Copying a phone number from WhatsApp into a notes app. Typing the same reply for the ninth time this week. Remembering, at 22:40, that you never sent Tuesday's quote. Nobody invoices for that job, and it still takes hours every week. **Small business automation** is simply the practice of handing the most repetitive parts of it to software, so that the parts that need you actually get you."
+   },
+   {
+    "type": "p",
+    "text": "The word carries more drama than it deserves. This is not a factory arm or an algorithm that runs your company. It is a set of small, unglamorous handovers, and the useful question is never \"should I automate\", it is \"which three things first\"."
+   },
+   {
+    "type": "h2",
+    "text": "What automation actually means at your size"
+   },
+   {
+    "type": "p",
+    "text": "An automation is a rule with a trigger and a consequence. When a form is submitted, send this reply and add the person to this list. When a booking is 24 hours away, send a reminder. When an invoice passes 15 days, nudge politely. That is the whole idea. Everything else is plumbing between the tools you already use."
+   },
+   {
+    "type": "p",
+    "text": "Which is why the honest test for whether something is a candidate is not technical at all. Ask three questions about the task: does it happen **regularly**, does it happen the **same way** each time, and does it need a **judgement** only you can make? Regular and repeatable with no real judgement in it: automate. Judgement in the middle: automate the parts around the judgement and keep the decision."
+   },
+   {
+    "type": "callout",
+    "title": "A quick sanity check",
+    "body": "If you could write down exactly how you do the task, and a competent new hire could follow it on their first day without asking you anything, it is a good automation candidate. If your written instructions end in \"it depends\", it is not, at least not yet."
+   },
+   {
+    "type": "h2",
+    "text": "Why the first reply is where the money leaks"
+   },
+   {
+    "type": "p",
+    "text": "Before the list, one piece of arithmetic that decides the order. Most small businesses lose more revenue in the gap between an enquiry arriving and someone answering it than anywhere else in their admin. Not because the answer is hard, but because the answer is late."
+   },
+   {
+    "type": "stat",
+    "value": "~5 min",
+    "label": "reply within about five minutes and you are dramatically more likely to reach and qualify a new lead than if you wait even half an hour. Speed to first reply is the single most studied lever in lead response.",
+    "source": "the Lead Response Management study (InsideSales / MIT)"
+   },
+   {
+    "type": "p",
+    "text": "You cannot beat that clock by trying harder, because the reason you miss it is that you were doing your job. Software has no such problem. That is why almost every list below is really a variation of the same theme: close the gap between something happening and someone hearing back."
+   },
+   {
+    "type": "h2",
+    "text": "Seven automations worth setting up first"
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "An instant, useful reply to every enquiry",
+      "body": "Not an auto-reply that says \"we have received your message\". A real one: thanks, here is what happens next, here is roughly when we will call, and here are the two things it helps to know before we do. It buys you hours of goodwill and stops the person shopping around while they wait."
+     },
+     {
+      "title": "Booking confirmations and reminders",
+      "body": "A confirmation at the moment of booking and a reminder the day before. This is the cheapest automation in existence and it protects the most expensive thing you own: a slot in your calendar that someone forgot about. Add a one-tap way to move the appointment, because a rescheduled slot is worth far more than an empty one."
+     },
+     {
+      "title": "Quote and invoice follow-up",
+      "body": "Most quotes are not rejected, they are forgotten, by both sides. A short follow-up at day three and day ten, and a polite nudge when an invoice goes past its date, recovers work you already did the hard part of. Nobody enjoys chasing, which is exactly why it should not depend on you feeling like it."
+     },
+     {
+      "title": "One place where every lead lands",
+      "body": "Enquiries arrive by web form, WhatsApp, phone, Instagram and someone stopping you in the street. If they live in five places they effectively live nowhere. Route them all into one list with the same fields: name, contact, what they want, where they came from. This one is boring and it changes everything else you can measure."
+     },
+     {
+      "title": "The review request you never remember to send",
+      "body": "Reviews are the strongest signal you have for both local search and the AI answers that increasingly sit above it. Asking is the hard part, so stop asking manually: trigger the request a day or two after the job is finished, while the customer still remembers being pleased. More on why that matters in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
+     },
+     {
+      "title": "The weekly numbers you assemble by hand",
+      "body": "Whatever you export, paste and total every Monday morning: bookings, sales, hours, stock. If you can describe the steps, they can run themselves and land in your inbox before you open the laptop. The value is not the time saved, it is that you actually look at the numbers when they arrive on their own."
+     },
+     {
+      "title": "New-customer onboarding",
+      "body": "The pack of things you send every new client: the form, the address and parking, the document you always need, what happens next and when. Sent automatically, in order, it makes a two-person business feel organised in a way competitors are not, and it stops the back and forth that eats a whole day per client."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "How to pick your first one"
+   },
+   {
+    "type": "p",
+    "text": "Resist the urge to start with the most interesting one. Start with the one that pays back fastest, which you can find in about twenty minutes with a pen."
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "List what you did twice this week the same way",
+      "body": "Not what you think you do. What you actually repeated: the reply you retyped, the number you copied, the thing you looked up twice. Write down five."
+     },
+     {
+      "title": "Multiply frequency by minutes",
+      "body": "Six times a week at four minutes is roughly seventeen hours a year, on one small task. Two of those and you have found a working week. This number is usually the surprise."
+     },
+     {
+      "title": "Mark the ones that touch money",
+      "body": "A first reply, a reminder, a follow-up on a quote. These do not just save time, they change the outcome. They go to the front of the queue even when they are not the biggest time sink."
+     },
+     {
+      "title": "Ship one, then leave it alone for a month",
+      "body": "One automation, running properly, is worth more than five half-built ones. Give it a month, check that it actually fired every time it should have, then pick the next."
+     }
+    ]
+   },
+   {
+    "type": "figure",
+    "src": "/blog/automation-priority.svg",
+    "alt": "A grid plotting how often a task repeats against how close it is to revenue, with instant replies, reminders and quote follow-ups landing in the high priority corner",
+    "caption": "Two axes are enough: how often it repeats, and how close it sits to money. The top right corner is your first automation."
+   },
+   {
+    "type": "h2",
+    "text": "Where automation goes wrong"
+   },
+   {
+    "type": "p",
+    "text": "It is worth naming the failure modes, because they are predictable and none of them are exotic technology problems."
+   },
+   {
+    "type": "list",
+    "items": [
+     "**A broken process gets automated as it is.** Automation makes a bad workflow happen faster and more often. Fix the steps first, then wire them up.",
+     "**It fails silently.** The integration stops working in March and nobody notices until June, because success looks exactly like doing nothing. Anything automated needs a way to shout when it breaks.",
+     "**It sounds like a robot to your own customers.** Automated does not have to mean impersonal. If the message would embarrass you to send by hand, do not send it a hundred times.",
+     "**Tool sprawl.** Six subscriptions, each doing a slice of one job, none of them talking. The monthly total quietly passes what a single fitted setup would have cost.",
+     "**Nobody owns it.** Every automation needs one person who checks, once a month, that it still does what it was built to do. In a small business that person is usually you, and it takes ten minutes."
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "Automation, AI agents and custom tools are not the same thing"
+   },
+   {
+    "type": "p",
+    "text": "These three get sold as one blurry product, and choosing badly is expensive. The difference is simple:"
+   },
+   {
+    "type": "list",
+    "items": [
+     "**An automation** follows a fixed rule. Same trigger, same steps, every time. Best for anything predictable: reminders, follow-ups, routing, reporting. That is [automations and integrations](~/services/automations).",
+     "**An AI agent** handles the unpredictable half: an actual conversation, in normal language, at any hour, that can answer questions and take a booking. It is what you want when the incoming thing is a person with a question rather than an event with a rule. We wrote a plain-English tour of [what an AI agent actually does](~/blog/ai-agent-for-small-business).",
+     "**A custom tool** is for when your business has a process no off-the-shelf product matches, and the spreadsheet has become a liability. That is [custom tools and apps](~/services/custom-tools)."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Most small businesses need the first one, benefit quickly from the second, and only genuinely need the third once the first two are running."
+   },
+   {
+    "type": "callout",
+    "title": "If you are in Spain, this may be funded",
+    "body": "Automation and integration work falls inside several of the funded solution categories under the Kit Digital programme, which means a chunk of it can be covered rather than paid for. The rules, amounts and deadlines are in our [complete guide to Kit Digital 2026](~/blog/kit-digital-2026)."
+   },
+   {
+    "type": "h2",
+    "text": "How Kodable helps"
+   },
+   {
+    "type": "p",
+    "text": "We start with the pen-and-paper part: what actually repeats in your week, what it costs you, and which two or three handovers are worth making first. Then we build them into the tools you already use, with a way to tell you when something breaks. No new stack to learn, no six subscriptions. See [automations and integrations](~/services/automations) for how that works in practice."
+   },
+   {
+    "type": "cta",
+    "title": "Find your first three automations",
+    "body": "Bring us one ordinary week: how enquiries reach you, what you retype, what you chase. In 15 minutes we will tell you which parts are worth handing over first, and which are not worth touching yet.",
+    "button": "Talk to us"
+   },
+   {
+    "type": "h2",
+    "text": "Frequently asked questions"
+   },
+   {
+    "type": "h3",
+    "text": "Do I have to replace the tools I already use?"
+   },
+   {
+    "type": "p",
+    "text": "Usually not, and you should be suspicious of anyone who says otherwise straight away. Most useful automation is connective: your existing booking system, inbox, spreadsheet and WhatsApp, wired so information moves between them without you carrying it. Replacing a tool is a decision for when the tool itself is the problem, not the default first step."
+   },
+   {
+    "type": "h3",
+    "text": "How small is too small to bother?"
+   },
+   {
+    "type": "p",
+    "text": "A one-person business is often where automation pays back fastest, because there is nobody to delegate to. The threshold is not headcount, it is repetition. If a task happens weekly and takes more than a couple of minutes, it is already worth the arithmetic."
+   },
+   {
+    "type": "h3",
+    "text": "Will my customers be able to tell?"
+   },
+   {
+    "type": "p",
+    "text": "They will notice that you answer quickly, confirm things properly and never lose track of them, which most people read as \"well run\", not \"automated\". What gives it away is generic wording and messages that ignore what the person actually asked. Both are writing problems, not technology problems."
+   },
+   {
+    "type": "h3",
+    "text": "What happens when something changes in my business?"
+   },
+   {
+    "type": "p",
+    "text": "Prices change, hours change, services get added. An automation built around one hard-coded detail becomes wrong quietly, which is the worst way to be wrong. Anything likely to change should sit in one place you can edit, and someone should review the set once a quarter. It is a short job if it happens; it is a mess if it never does."
+   },
+   {
+    "type": "h3",
+    "text": "Is automation the same as artificial intelligence?"
+   },
+   {
+    "type": "p",
+    "text": "No, and mixing them up leads to overpaying. Classic automation is deterministic: a fixed rule, no interpretation, and it is the right answer for most admin. AI comes in where language and judgement are involved, such as understanding a question a customer typed at midnight. A good setup uses each for what it is actually good at."
+   }
+  ]
+ },
+ {
+  "slug": "ai-strategy-for-small-business",
+  "category": "AI Strategy",
+  "categoryIcon": "spark",
+  "title": "AI Strategy for a Small Business: How to Pick the Three Things Worth Doing",
+  "description": "An AI strategy for a small business without the hype: how to find the few jobs worth handing to software, how to choose the first one, and a 90 day plan to prove it works.",
+  "dek": "Every week brings another tool you are supposed to be using already. Here is a way to decide what your business actually needs, in one afternoon, using nothing more expensive than a list of the work you already do.",
+  "keyword": "AI strategy for small business",
+  "author": "The Kodable team",
+  "datePublished": "2026-08-21",
+  "ogImage": "ai-strategy-for-small-business.jpg",
+  "readMinutes": 11,
+  "takeaways": [
+   "An AI strategy at your size is not a document. It is a short, ordered list of jobs you have decided to stop doing by hand, and one you have decided to start with.",
+   "Choose from your own week, not from a tool list. The work that repeats, follows the same shape every time and sits close to money is where the payback is.",
+   "There are four places AI reliably earns its keep in a small business: being found, answering, following through and knowing your own numbers. Almost everything else is a distraction until those work.",
+   "Ninety days is enough to prove or kill any single idea. If you cannot say what would count as failure before you start, you are not testing anything."
+  ],
+  "related": [
+   "ai-agent-for-small-business",
+   "automations-for-small-business",
+   "get-found-in-ai-search"
+  ],
+  "cta": {
+   "service": "custom-tools",
+   "label": "Talk through what your business actually needs"
+  },
+  "body": [
+   {
+    "type": "figure",
+    "src": "/blog/ai-strategy-map.jpg",
+    "alt": "An isometric grid of pale grey blocks representing all the work in a small business, with a handful of blocks picked out in navy and joined by arrows, standing for the few jobs chosen for AI",
+    "caption": "A strategy is not the whole grid. It is the three blocks you picked, and the order you picked them in."
+   },
+   {
+    "type": "p",
+    "text": "You have probably been told, several times this year, that your business needs AI. Rarely by someone who could say which part of your business, or what it would replace, or how you would know afterwards whether it worked. That is not a strategy, it is a mood. An **AI strategy for a small business** is something much smaller and much more useful: a short list of jobs you have decided to stop doing by hand, in the order you intend to stop doing them."
+   },
+   {
+    "type": "p",
+    "text": "This guide is the method we use with owners who have between two and thirty people, no in-house technical team, and no appetite for a six month project. It takes an afternoon, it costs nothing to run, and it usually ends with three candidates and one decision."
+   },
+   {
+    "type": "h2",
+    "text": "What a strategy actually means when you are five people, not five hundred"
+   },
+   {
+    "type": "p",
+    "text": "Large companies write AI strategies because they have to coordinate hundreds of people around a shared bet. You do not have that problem. Your constraint is not alignment, it is attention: you can seriously change one thing at a time, and only if it does not break the week while you change it."
+   },
+   {
+    "type": "p",
+    "text": "So the useful version of the document is four lines long. What is the job. Who does it today. What replaces them doing it. How we will know in ninety days. Anything longer than that is a plan you will not read again, and plans you do not read again do not change anything."
+   },
+   {
+    "type": "callout",
+    "title": "The one sentence version",
+    "body": "If your strategy cannot be said out loud in one breath, in language a new employee would understand, it is not a strategy yet. \"We are going to stop typing the first reply to every enquiry\" is a strategy. \"We are going to leverage AI across the customer journey\" is a wish."
+   },
+   {
+    "type": "h2",
+    "text": "Start from your week, not from the tool list"
+   },
+   {
+    "type": "p",
+    "text": "The most common mistake is starting at the wrong end: reading about what a tool can do, then hunting your business for somewhere to put it. That gets you a subscription and no change in how the week feels. Reverse it. The week you already have is the brief."
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "Write down what actually filled the week",
+      "body": "Not the job description version. The real one: the twenty minutes on the phone confirming an appointment, the reply retyped for the ninth time, the number copied from one app into another, the Monday spreadsheet. Do it for one ordinary week, on paper, as it happens. Recalling it later always flatters you."
+     },
+     {
+      "title": "Mark everything that repeated",
+      "body": "Put a mark next to anything that happened more than twice in the same shape. Repetition is the whole signal. A task that varies every time needs judgement and is a poor first candidate. A task you could describe to a new hire on day one is an excellent one."
+     },
+     {
+      "title": "Circle the ones that touch money",
+      "body": "Some of that repeated work sits directly between a stranger and a paying customer: the first reply, the quote, the booking, the follow-up, the review request. Some of it does not: filing, tidying, formatting. Both are worth fixing eventually. Only the first kind pays you back fast enough to fund the rest."
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "What is left after those three passes is your real shortlist, and it will usually surprise you. Owners tend to arrive convinced the answer is a chatbot on the website, and leave having realised the expensive problem was that quotes go out two days late."
+   },
+   {
+    "type": "h2",
+    "text": "The four places AI pays for itself in a small business"
+   },
+   {
+    "type": "p",
+    "text": "Across the businesses we work with, almost everything worth doing falls into one of four buckets. They are ordered here roughly the way we would sequence them, because each one makes the next one worth more."
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "Being found, including by the machines that answer first",
+      "body": "There is no point automating your replies if nothing arrives to reply to. A growing share of people never reach a list of links at all: they ask, they get an answer, they act on it. Making your business legible to those systems is now part of being visible at all, which we cover in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
+     },
+     {
+      "title": "Answering, at the moment someone asks",
+      "body": "The hours between an enquiry and a reply are where most small businesses quietly lose work, and no amount of discipline fixes it, because you were busy earning. An [AI agent that handles the first conversation](~/blog/ai-agent-for-small-business) answers the routine questions, takes the details, and hands you a person who is already halfway qualified."
+     },
+     {
+      "title": "Following through, without you remembering",
+      "body": "Confirmations, reminders, the quote nobody chased, the invoice that went quiet, the review you never asked for. Individually trivial, collectively a part-time job. This is ordinary [small business automation](~/blog/automations-for-small-business), and it is usually the cheapest money on the table."
+     },
+     {
+      "title": "Knowing your own numbers without assembling them",
+      "body": "The Monday morning export-paste-total ritual, or worse, the numbers you never look at because assembling them is a chore. A small [custom tool](~/services/custom-tools) that pulls the same figures into the same shape every week changes decisions, because you finally see the trend rather than the last thing that happened."
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Notice that none of these is \"add AI to the product\". At your size the returns are in the operations, not the offering. That is not a lesser ambition, it is where the hours and the lost revenue actually live."
+   },
+   {
+    "type": "stat",
+    "value": "2.5 billion",
+    "label": "people a month now use Google's AI Overviews. If your first instinct is that AI is something happening to other businesses, this is the number that says otherwise: it is already sitting between you and the people looking for you.",
+    "source": "Google I/O, May 2026"
+   },
+   {
+    "type": "h2",
+    "text": "How to choose the first one"
+   },
+   {
+    "type": "p",
+    "text": "You now have a shortlist and four buckets. To get from there to a single decision, score each candidate out of five on four questions. No spreadsheet required, and honestly, no great precision required either: the winner is usually obvious once the questions are asked out loud."
+   },
+   {
+    "type": "list",
+    "items": [
+     "**How often does it happen?** Daily beats weekly beats monthly, by a lot. Frequency multiplied by minutes is the only time saving that is real.",
+     "**How close is it to money?** Does fixing it win work, keep work, or get paid faster? If the honest answer is none of those, it is a comfort project.",
+     "**How well can you describe it?** If you can write the rules down and a new hire could follow them without asking you, it is ready. If your instructions end in \"it depends\", keep the judgement and automate around it.",
+     "**What happens if it fails?** Prefer things that fail visibly and cheaply. A missed reminder is an annoyance. A wrong price sent to a customer is a different category, and needs a human in the loop."
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Pick the highest score. Then, and this is the part people skip, write down what would make you call it a failure. \"Still doing this by hand in November\" is a fine definition. Without one you will keep a mediocre change alive out of politeness to your own decision."
+   },
+   {
+    "type": "callout",
+    "title": "Two things to leave for later",
+    "body": "Anything that requires every member of staff to change how they work on day one, and anything whose value depends on data you do not currently collect. Both are sometimes worth doing. Neither is a first move, because both fail for reasons that have nothing to do with whether the idea was good."
+   },
+   {
+    "type": "figure",
+    "src": "/blog/ai-strategy-90-days.svg",
+    "alt": "A ninety day timeline in three thirty day blocks: choose and instrument, build the smallest version, then measure and decide to keep, fix or drop",
+    "caption": "Ninety days, three moves. The last box is the one that makes the first two worth doing."
+   },
+   {
+    "type": "h2",
+    "text": "A 90 day plan that does not need a budget meeting"
+   },
+   {
+    "type": "p",
+    "text": "Ninety days is long enough for a real change to show up in the numbers and short enough that you will still remember why you started. Split it into three."
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "Days 1 to 30: choose it and measure it as it is",
+      "body": "Do the week audit, pick the one job, and then measure the current state before you change anything. How many enquiries came in, how long did the first reply take, how many quotes went out, how many were chased. Rough counts on paper are fine. Skipping this is the single most common reason people cannot tell later whether it worked."
+     },
+     {
+      "title": "Days 31 to 60: build the smallest version that could work",
+      "body": "Not the complete system. The narrowest slice that touches a real customer: one channel, one type of enquiry, one reminder. Small enough to switch off in a minute if it misbehaves. Run it live, watch it daily for the first week, and keep a note of every case where you had to step in."
+     },
+     {
+      "title": "Days 61 to 90: compare, then decide out loud",
+      "body": "Put the new numbers next to the old ones and make one of three calls: keep it and widen it, fix the one thing holding it back, or drop it and take the next candidate. Deciding out loud matters. A thing nobody ever decided about keeps consuming attention forever."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "What to keep firmly human"
+   },
+   {
+    "type": "p",
+    "text": "A good strategy is as clear about what it will not touch. In a small business your advantage over larger competitors is that a customer can reach someone who knows the answer and can make a decision. Automating that away to save a few minutes is a poor trade at any price."
+   },
+   {
+    "type": "list",
+    "items": [
+     "Anything involving an unhappy customer. The recovery conversation is worth more than the original sale, and it needs a person who can apologise and mean it.",
+     "Pricing exceptions, negotiations and promises about timing. These are commitments, and commitments should be made by someone accountable for keeping them.",
+     "The final word on anything that goes out under your name in public. Draft with software, sign as yourself.",
+     "The first conversation with the kind of customer you most want more of. That is research, not admin, and you should not outsource your own market research."
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "Five ways this goes wrong"
+   },
+   {
+    "type": "p",
+    "text": "The failures are boringly consistent, which is good news, because it makes them easy to avoid."
+   },
+   {
+    "type": "steps",
+    "steps": [
+     {
+      "title": "Automating a broken process",
+      "body": "Software makes an existing process faster and more consistent, including a bad one. If the current version confuses customers, you are about to confuse them at scale. Fix the shape first, on paper, then hand it over."
+     },
+     {
+      "title": "Buying five tools before finishing one",
+      "body": "Enthusiasm spends easily. Five half-configured subscriptions produce five monthly charges and no change in the week. Finish one, in full, before the second one is allowed to exist."
+     },
+     {
+      "title": "Nobody owning it",
+      "body": "Every automated thing needs one named person who notices when it stops. Not a committee, and not \"we will all keep an eye on it\", which reliably means nobody does."
+     },
+     {
+      "title": "Failing silently",
+      "body": "The worst outcome is not an automation that breaks. It is one that breaks quietly in June and gets discovered in August. Anything that runs on your behalf should tell you when it did not, or at least tell you weekly that it did."
+     },
+     {
+      "title": "No before to compare the after to",
+      "body": "Without a rough baseline, every result is a matter of opinion, and opinions about your own decisions are generous. Ten minutes of counting in week one settles arguments in month three."
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "What it should feel like after a year"
+   },
+   {
+    "type": "p",
+    "text": "If this works, the change is not dramatic and it does not look like the brochure. Enquiries get answered while you are still holding a drill. Quotes go out the same day and get chased without you feeling like a nuisance. Monday's numbers are in your inbox before you open the laptop. Reviews arrive because someone asked at the right moment, and the businesses that get recommended are the ones with reviews to recommend."
+   },
+   {
+    "type": "p",
+    "text": "None of that is a robot running your company. It is three or four small handovers, chosen in the right order, each of which gave you back a slice of the week you were spending on work nobody was paying you for. That is the whole of an AI strategy at your size, and it is genuinely most of the available benefit."
+   },
+   {
+    "type": "cta",
+    "title": "Not sure which three are yours?",
+    "body": "That is usually a forty minute conversation, not a project. Tell us what your week looks like and we will tell you honestly which parts are worth handing over, which parts are not, and what the smallest useful first version would be.",
+    "button": "Talk it through with us"
+   },
+   {
+    "type": "h2",
+    "text": "Frequently asked questions"
+   },
+   {
+    "type": "h3",
+    "text": "Do I need someone technical before I can start?"
+   },
+   {
+    "type": "p",
+    "text": "Not for the deciding part, which is the part that matters most and the part nobody can do for you. The week audit, the shortlist and the choice are business decisions, not technical ones. You need technical help to build the thing, and much less of it than people expect once the job is described precisely."
+   },
+   {
+    "type": "h3",
+    "text": "How much should a small business spend on this in the first year?"
+   },
+   {
+    "type": "p",
+    "text": "Less than the instinct says, and in stages. The point of the ninety day structure is that you spend on one narrow thing, see whether it moved a number you were already tracking, and only then decide whether to widen it. Anything that requires committing a year of budget before you have evidence is a worse deal than it looks."
+   },
+   {
+    "type": "h3",
+    "text": "What if my business feels too small or too traditional for AI?"
+   },
+   {
+    "type": "p",
+    "text": "Small usually helps, because there is nobody to consult and nothing to migrate. Traditional helps too: the more of your admin still runs on phone calls, paper and memory, the more of it is repeated work with an obvious shape. The businesses that get least from this are the ones already running tidy software everywhere."
+   },
+   {
+    "type": "h3",
+    "text": "Is a strategy just picking which AI subscription to buy?"
+   },
+   {
+    "type": "p",
+    "text": "No, and starting from the subscription is the failure mode this whole method is designed to avoid. The tool is the last decision, not the first. Once the job is defined precisely enough to hand over, the choice of tool is usually narrow and occasionally turns out to be something you already pay for."
+   },
+   {
+    "type": "h3",
+    "text": "What happens if I choose the wrong first project?"
+   },
+   {
+    "type": "p",
+    "text": "You lose ninety days and learn where the real constraint is, which is why the first one should be small and switchable off. The expensive mistake is not choosing wrong, it is choosing something so large that you cannot tell whether it worked and cannot stop it once you suspect it did not."
    }
   ]
  }

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="40" y="54" font-size="31" font-weight="800" fill="#16182b" letter-spacing="-1">Which automation to build first</text>
+  <text x="40" y="88" font-size="19" fill="#4b5266">Two axes are enough: how often it repeats, and how close it sits to money.</text>
+
+  <!-- plot area -->
+  <rect x="150" y="120" width="700" height="400" fill="#f4f5fa"/>
+  <rect x="500" y="120" width="350" height="200" fill="#e5e6f5"/>
+  <line x1="500" y1="120" x2="500" y2="520" stroke="#dfe1ec" stroke-width="2"/>
+  <line x1="150" y1="320" x2="850" y2="320" stroke="#dfe1ec" stroke-width="2"/>
+  <rect x="150" y="120" width="700" height="400" fill="none" stroke="#dfe1ec" stroke-width="2"/>
+
+  <!-- axes labels -->
+  <text x="500" y="558" font-size="18" font-weight="700" fill="#4b5266" text-anchor="middle">How often it repeats</text>
+  <text x="168" y="546" font-size="15" fill="#8f93b0">rarely</text>
+  <text x="832" y="546" font-size="15" fill="#8f93b0" text-anchor="end">every day</text>
+  <text x="0" y="0" font-size="18" font-weight="700" fill="#4b5266" text-anchor="middle" transform="translate(72,320) rotate(-90)">How close to money</text>
+  <text x="0" y="0" font-size="15" fill="#8f93b0" text-anchor="middle" transform="translate(112,500) rotate(-90)">far</text>
+  <text x="0" y="0" font-size="15" fill="#8f93b0" text-anchor="middle" transform="translate(112,150) rotate(-90)">direct</text>
+
+  <text x="832" y="152" font-size="16" font-weight="700" fill="#08083f" text-anchor="end" letter-spacing="1">BUILD THESE FIRST</text>
+
+  <!-- points, top right -->
+  <circle cx="770" cy="196" r="10" fill="#000080"/>
+  <text x="750" y="202" font-size="17" font-weight="700" fill="#08083f" text-anchor="end">Instant first reply</text>
+  <circle cx="700" cy="252" r="10" fill="#000080"/>
+  <text x="680" y="258" font-size="17" font-weight="700" fill="#08083f" text-anchor="end">Booking reminders</text>
+  <circle cx="590" cy="296" r="10" fill="#000080"/>
+  <text x="570" y="302" font-size="17" font-weight="700" fill="#08083f" text-anchor="end">Quote follow-up</text>
+
+  <!-- points, other quadrants -->
+  <circle cx="700" cy="392" r="9" fill="#8f93b0"/>
+  <text x="722" y="398" font-size="16" fill="#4b5266">Weekly numbers</text>
+  <circle cx="420" cy="236" r="9" fill="#8f93b0"/>
+  <text x="442" y="242" font-size="16" fill="#4b5266">Review requests</text>
+  <circle cx="330" cy="426" r="9" fill="#8f93b0"/>
+  <text x="352" y="432" font-size="16" fill="#4b5266">Onboarding pack</text>
+</svg>
