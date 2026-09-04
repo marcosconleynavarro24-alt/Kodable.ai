@@ -144,6 +144,10 @@ console.log("root redirect:");
   const sm = await fetch(`${SITE}/sitemap.xml`).then((r) => r.text());
   check("sitemap has no bare-root entry", !sm.includes(`<loc>${SITE}/</loc>`));
   check("sitemap x-default -> bare root on homepage", sm.includes(`hreflang="x-default" href="${SITE}/"`));
+  // www is a duplicate host unless it redirects; proxy.ts sends it to the apex.
+  const www = await fetch(`${SITE.replace("://", "://www.")}/en/faq?x=1`, { redirect: "manual" });
+  const wwwLoc = www.headers.get("location") ?? "";
+  check("www -> apex 308 keeps path+query", www.status === 308 && wwwLoc === `${SITE}/en/faq?x=1`, `status=${www.status} location=${wwwLoc}`);
 }
 
 console.log("links:");

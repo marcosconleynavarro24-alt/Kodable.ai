@@ -81,6 +81,22 @@ const PRICING_REDIRECT_RE = new RegExp(
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // 0) www -> apex. Both hosts are attached to the Vercel project and www was
+  // serving the whole site as a second copy (every page self-canonicalizes to
+  // the apex, so Google coped, but a duplicate host is still a duplicate host).
+  // 308 keeps method + path + query. The matcher below skips dotted paths, so
+  // static files on www still serve; the Vercel dashboard redirect for the
+  // domain covers those too and takes precedence if it is ever switched on.
+  const host = request.headers.get("host") ?? "";
+  if (host.startsWith("www.")) {
+    const url = request.nextUrl.clone();
+    url.host = host.slice(4);
+    return NextResponse.redirect(url, {
+      status: 308,
+      headers: { "cache-control": "no-store" },
+    });
+  }
+
   // 1) Old service slug → new home (handles both prefixed and un-prefixed forms).
   const svc = pathname.match(SERVICE_REDIRECT_RE);
   if (svc) {
