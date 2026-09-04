@@ -5,6 +5,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { locales, defaultLocale } from "@/i18n/config";
+import { SHOW_PRICING } from "@/content/flags";
 
 function getLocale(request: NextRequest): string {
   const accept = request.headers.get("accept-language");
@@ -68,6 +69,15 @@ const CASOS_REDIRECT_RE = new RegExp(
   `^/(?:(${locales.join("|")})/)?casos/?$`,
 );
 
+// /pricing gated off (SHOW_PRICING, 2026-08-21). The route 404s while the flag
+// is off, but Google had indexed every locale of it in August (GSC "Not found
+// (404)" from 2026-08-29). 301 to the services overview, same treatment as the
+// pulled custom-tools / automations pillars, so the indexed URLs shed the 404
+// and keep their equity. Dormant again the moment the flag flips back on.
+const PRICING_REDIRECT_RE = new RegExp(
+  `^/(?:(${locales.join("|")})/)?pricing/?$`,
+);
+
 export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
@@ -104,6 +114,16 @@ export function proxy(request: NextRequest) {
     const locale = casos[1] ?? getLocale(request);
     request.nextUrl.pathname = `/${locale}/portfolio`;
     return NextResponse.redirect(request.nextUrl, 301);
+  }
+
+  // 1e) /pricing while prices are off the public site -> services overview (301).
+  if (!SHOW_PRICING) {
+    const pricing = pathname.match(PRICING_REDIRECT_RE);
+    if (pricing) {
+      const locale = pricing[1] ?? getLocale(request);
+      request.nextUrl.pathname = `/${locale}/services`;
+      return NextResponse.redirect(request.nextUrl, 301);
+    }
   }
 
   // 2) Locale routing: prefix un-prefixed paths with the best-matching locale.

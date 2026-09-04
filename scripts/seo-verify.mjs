@@ -142,8 +142,15 @@ console.log("links:");
     check("home does NOT link /en/pricing", !html.includes('href="/en/pricing"'));
     const sm = await fetch(`${SITE}/sitemap.xml`).then((r) => r.text());
     check("sitemap has no /pricing", !sm.includes("/pricing"));
-    const st = await fetch(`${SITE}/en/pricing`).then((r) => r.status);
-    check("/en/pricing returns 404", st === 404, `status=${st}`);
+    // Off-switch keeps the old URLs alive as 301s (proxy.ts): Google indexed
+    // every locale of /pricing in August, a 404 would just bleed them.
+    const pr = await fetch(`${SITE}/en/pricing`, { redirect: "manual" });
+    const prLoc = pr.headers.get("location") ?? "";
+    check(
+      "/en/pricing 301 -> /en/services",
+      pr.status === 301 && /\/en\/services$/.test(prLoc),
+      `status=${pr.status} location=${prLoc}`,
+    );
   }
 }
 
