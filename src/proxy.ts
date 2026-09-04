@@ -134,7 +134,18 @@ export function proxy(request: NextRequest) {
 
   const locale = getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname === "/" ? "" : pathname}`;
-  return NextResponse.redirect(request.nextUrl);
+  // 308, not 307. Google keeps the SOURCE of a temporary redirect as the
+  // canonical, so with 307 the bare root stayed Google's canonical homepage and
+  // /en sat in Search Console as "Duplicate, Google chose different canonical
+  // than user" (validation failed on it 2026-08-18; URL Inspection on
+  // 2026-09-04 showed Google-selected canonical = https://kodable.ai/). A
+  // permanent redirect hands the canonical to the locale page. no-store stops
+  // browsers pinning the first locale they were sent to, so per-visitor
+  // language detection still runs on every visit to /.
+  return NextResponse.redirect(request.nextUrl, {
+    status: 308,
+    headers: { "cache-control": "no-store" },
+  });
 }
 
 export const config = {

@@ -132,6 +132,20 @@ for (const p of ["/en/onboarding", "/es/contratar", "/es/contratar/gracias"]) {
   check(`${p} no head hreflang`, !/<link rel="alternate"[^>]*hrefLang/.test(html));
 }
 
+console.log("root redirect:");
+{
+  // Permanent so Google canonicalizes to /en instead of keeping the bare root
+  // (307 kept / as canonical and left /en in GSC as a duplicate). no-store so
+  // browsers still run locale detection on every visit.
+  const root = await fetch(`${SITE}/`, { redirect: "manual" });
+  const rootLoc = root.headers.get("location") ?? "";
+  check("/ 308 -> /en", root.status === 308 && /\/en$/.test(rootLoc), `status=${root.status} location=${rootLoc}`);
+  check("/ redirect is no-store", /no-store/.test(root.headers.get("cache-control") ?? ""), root.headers.get("cache-control"));
+  const sm = await fetch(`${SITE}/sitemap.xml`).then((r) => r.text());
+  check("sitemap has no bare-root entry", !sm.includes(`<loc>${SITE}/</loc>`));
+  check("sitemap x-default -> bare root on homepage", sm.includes(`hreflang="x-default" href="${SITE}/"`));
+}
+
 console.log("links:");
 {
   const { html } = await page("/en");

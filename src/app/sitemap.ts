@@ -77,24 +77,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   );
 
-  // Bare root (/) auto-redirects to each visitor's best locale. Listing it here
-  // gives Google an explicit reason to (re)crawl and consolidate it to the
-  // localized homepages - without it, the redirect-source root lingers in the
-  // index on a stale crawl (old snippet + favicon). x-default → root is the
-  // standard hreflang for a locale-selecting homepage.
-  return [
-    {
-      url: `${SITE_URL}/`,
-      lastModified: now,
-      changeFrequency: "weekly" as const,
-      priority: 1,
-      alternates: {
-        languages: {
-          ...Object.fromEntries(locales.map((l) => [l, `${SITE_URL}/${l}`])),
-          "x-default": `${SITE_URL}/`,
-        },
-      },
-    },
-    ...localeRoutes,
-  ];
+  // The bare root (/) is a permanent redirect to each visitor's best locale
+  // (proxy.ts), so it is not a canonical URL and stays out of the sitemap. It
+  // still appears as every homepage's x-default above: that is the standard
+  // hreflang for a locale-selecting root. (It was listed here from 2026-06-30
+  // to force a recrawl of a stale root snippet; with the 308 that job is done.)
+  return localeRoutes;
 }
