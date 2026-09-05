@@ -10,7 +10,7 @@ import type { ClientStats } from "@/content/clientStats";
    deliberately anonymous: no client names anywhere (owner directive 2026-08-12).
    ========================================================================== */
 
-const numLocale: Record<Locale, string> = { en: "en-GB", es: "es-ES", fr: "de-DE", de: "de-DE", it: "it-IT" };
+const numLocale: Record<Locale, string> = { en: "en-GB", es: "es-ES", fr: "fr-FR", de: "de-DE", it: "it-IT" };
 const dateLocale: Record<Locale, string> = { en: "en-GB", es: "es-ES", fr: "fr-FR", de: "de-DE", it: "it-IT" };
 
 /* Displayed figures are rounded DOWN to one significant figure and shown with a
