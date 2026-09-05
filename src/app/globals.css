@@ -862,3 +862,8 @@ button.slot.taken { cursor: not-allowed; }
 @media (max-width: 560px) {
   .cookie-notice { flex-direction: column; align-items: stretch; text-align: center; }
 }
+
+/* Contact page: booking widget is primary, written form is secondary below. */
+.contact-ways { font-weight: 600; margin-bottom: 12px; color: var(--ink-mute); font-size: .92rem; }
+.contact-form-wrap { max-width: 44rem; margin: 0 auto; }
+.contact-wrap .booking { max-width: none; }
