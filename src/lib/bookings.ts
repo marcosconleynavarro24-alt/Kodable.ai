@@ -18,6 +18,16 @@ export const TZ = "Europe/Madrid";
 export const SLOTS = ["10:00", "11:30", "12:00", "16:00", "17:30", "18:00"] as const;
 export const DAYS_SHOWN = 5; // business days offered in the picker
 const WINDOW_DAYS = 21; // how far ahead a date may be booked (server-side guard)
+
+// Custom times: besides the fixed slots, a visitor may type any time inside
+// business hours (Madrid), on a 15-minute grid. A call lasts MEETING_MIN, so
+// the latest start is HOURS_END - MEETING_MIN, and two bookings conflict when
+// they are closer than MEETING_MIN apart. Today's times need LEAD_MIN notice.
+export const HOURS_START = 9 * 60; // 09:00
+export const HOURS_END = 19 * 60; // 19:00
+export const STEP_MIN = 15;
+export const MEETING_MIN = 15;
+const LEAD_MIN = 60;
 const EVENT_MINUTES = 15; // a free 15-minute consultation
 
 // ── Durable store (Supabase, optional) ───────────────────────────────────────
@@ -54,9 +64,13 @@ export interface DaySlots {
   dn: string; // day-of-month, e.g. "24"
   dow: string; // localized short weekday, e.g. "Mar"
   slots: { t: string; state: SlotState }[];
+  from: string; // earliest bookable start that day (HH:MM), custom or fixed
+  to: string; // latest bookable start that day (HH:MM)
+  busy: string[]; // every booked start that day, so the widget can flag overlaps
 }
 export interface Availability {
   tz: string;
+  step: number; // minutes between bookable custom times
   days: DaySlots[];
 }
 
@@ -127,6 +141,36 @@ function madridNow() {
   return { date: p.date, minutes: p.hh * 60 + p.mi };
 }
 
+const HHMM_RE = /^([01]\d|2[0-3]):[0-5]\d$/;
+function toMin(t: string): number {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+}
+function toHHMM(min: number): string {
+  return `${String(Math.floor(min / 60)).padStart(2, "0")}:${String(min % 60).padStart(2, "0")}`;
+}
+
+// Bookable start window for a date (minutes of day). Today starts LEAD_MIN from
+// now, rounded up to the grid; every other day opens at HOURS_START.
+function startWindow(date: string, now: { date: string; minutes: number }) {
+  let from = HOURS_START;
+  if (date === now.date) {
+    const lead = Math.ceil((now.minutes + LEAD_MIN) / STEP_MIN) * STEP_MIN;
+    from = Math.max(from, lead);
+  }
+  return { from, to: HOURS_END - MEETING_MIN };
+}
+
+// Two calls conflict when their starts are closer than one meeting length.
+function conflicts(busy: Set<string> | undefined, time: string): boolean {
+  if (!busy) return false;
+  const t = toMin(time);
+  for (const b of busy) {
+    if (HHMM_RE.test(b) && Math.abs(toMin(b) - t) < MEETING_MIN) return true;
+  }
+  return false;
+}
+
 // UTC offset (ms) for Madrid at a given instant.
 function offsetMs(d: Date): number {
   const p = partsInTz(d);
@@ -170,17 +214,24 @@ export async function getAvailability(localeRaw: unknown): Promise<Availability>
   const days: DaySlots[] = [];
   const now = madridNow();
   for (const date of upcomingBusinessDays(now.date)) {
+    const win = startWindow(date, now);
+    if (win.from > win.to) continue; // today, but too late to book anything
+    const busySet = taken.get(date);
     const slots = SLOTS.map((t) => ({
       t,
-      // Every time is offered; a slot is only unavailable once genuinely booked.
-      state: (taken.get(date)?.has(t) ? "taken" : "free") as SlotState,
+      // A fixed slot is unavailable once genuinely booked (or overlapping a
+      // custom booking), or when it has already passed today.
+      state: (conflicts(busySet, t) || toMin(t) < win.from ? "taken" : "free") as SlotState,
     }));
-    if (!slots.some((s) => s.state === "free")) continue; // skip fully-booked days
     const dn = String(Number(date.split("-")[2]));
-    days.push({ date, dn, dow: weekdayShort(date, locale), slots });
+    days.push({
+      date, dn, dow: weekdayShort(date, locale), slots,
+      from: toHHMM(win.from), to: toHHMM(win.to),
+      busy: busySet ? [...busySet].sort() : [],
+    });
     if (days.length >= DAYS_SHOWN) break;
   }
-  return { tz: TZ, days };
+  return { tz: TZ, step: STEP_MIN, days };
 }
 
 // Map of already-booked slots (date -> set of times). Backed by Supabase when
@@ -226,6 +277,8 @@ const messages = {
     email: "That email doesn't look right.",
     contact: "Please leave an email or a phone number so we can confirm.",
     slot: "Please pick an available day and time.",
+    hours: "Pick a time between 09:00 and 19:00 (Spain time), in 15-minute steps.",
+    past: "That time has already passed today. Please pick a later one.",
     taken: "Sorry, that slot was just taken. Please pick another.",
   },
   es: {
@@ -233,6 +286,8 @@ const messages = {
     email: "Ese email no parece correcto.",
     contact: "Déjanos un email o un teléfono para poder confirmar.",
     slot: "Elige un día y una hora disponibles.",
+    hours: "Elige una hora entre las 09:00 y las 19:00 (hora de España), en tramos de 15 minutos.",
+    past: "Esa hora ya ha pasado hoy. Elige una más tarde.",
     taken: "Lo sentimos, acaban de coger esa hora. Elige otra.",
   },
 } as const;
@@ -256,14 +311,24 @@ export async function validateBooking(input: BookingInput): Promise<BookingResul
   if (email && !EMAIL_RE.test(email)) errors.email = m.email;
   if (!email && !phone) errors.contact = m.contact;
 
-  // Slot must be a real upcoming business-day slot, not in the past.
-  const validDate = [...upcomingBusinessDays(madridNow().date)].includes(date);
-  const validTime = (SLOTS as readonly string[]).includes(time);
-  if (!validDate || !validTime) {
+  // Date must be an upcoming business day. Time is either a fixed slot or any
+  // custom time on the grid inside business hours, and never in the past.
+  const now = madridNow();
+  const validDate = [...upcomingBusinessDays(now.date)].includes(date);
+  if (!validDate || !HHMM_RE.test(time)) {
     errors.slot = m.slot;
   } else {
-    const taken = await takenSlots();
-    if (taken.get(date)?.has(time)) errors.slot = m.taken;
+    const t = toMin(time);
+    const win = startWindow(date, now);
+    const fixed = (SLOTS as readonly string[]).includes(time);
+    if (!fixed && (t % STEP_MIN !== 0 || t < HOURS_START || t > win.to)) {
+      errors.slot = m.hours;
+    } else if (t < win.from) {
+      errors.slot = m.past;
+    } else {
+      const taken = await takenSlots();
+      if (conflicts(taken.get(date), time)) errors.slot = m.taken;
+    }
   }
 
   if (Object.keys(errors).length > 0) return { ok: false, errors };

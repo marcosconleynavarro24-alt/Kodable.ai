@@ -11,17 +11,93 @@ interface DaySlots {
   dn: string;
   dow: string;
   slots: { t: string; state: SlotState }[];
+  from: string; // earliest bookable start (HH:MM)
+  to: string; // latest bookable start (HH:MM)
+  busy: string[]; // already-booked starts that day
 }
 interface Availability {
   tz: string;
+  step: number;
   days: DaySlots[];
 }
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const MEETING_MIN = 15;
+
+function toMin(t: string): number {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+}
+
+// Format what the visitor types into "HH:MM" as they go: digits only, colon
+// inserted after the hour. Keeps a plain text field on brand instead of the
+// browser's native time picker (a wheel on iOS, a dropdown elsewhere).
+function formatTyping(raw: string): string {
+  const d = raw.replace(/\D/g, "").slice(0, 4);
+  if (!d) return "";
+  // "930" means 9:30, "245" means 2:45: a leading 3-9 (or 2 followed by 4-9)
+  // can only be a one-digit hour, so the colon goes after the first digit.
+  const oneDigitHour = d[0] > "2" || (d.length > 1 && d[0] === "2" && d[1] > "3");
+  const hLen = oneDigitHour ? 1 : 2;
+  const h = d.slice(0, hLen);
+  const m = d.slice(hLen, hLen + 2);
+  if (m) return `${h}:${m}`;
+  return raw.endsWith(":") && d.length === hLen ? `${h}:` : h;
+}
+
+// Turn any reasonable entry ("9", "930", "16:4", "16:45") into "HH:MM", or
+// null when it cannot be a time of day.
+function normalizeTime(raw: string): string | null {
+  const v = raw.trim();
+  if (!v) return null;
+  let h: string;
+  let m: string;
+  if (v.includes(":")) {
+    const [a, b = ""] = v.split(":");
+    h = a;
+    m = b.padEnd(2, "0");
+  } else {
+    const d = v.replace(/\D/g, "");
+    if (!d) return null;
+    if (d.length <= 2) {
+      h = d;
+      m = "00";
+    } else if (d.length === 3) {
+      h = d.slice(0, 1);
+      m = d.slice(1);
+    } else {
+      h = d.slice(0, 2);
+      m = d.slice(2, 4);
+    }
+  }
+  if (!/^\d{1,2}$/.test(h) || !/^\d{2}$/.test(m)) return null;
+  const hh = Number(h);
+  const mm = Number(m);
+  if (hh > 23 || mm > 59) return null;
+  return `${String(hh).padStart(2, "0")}:${m}`;
+}
+
+type CustomIssue = "invalid" | "past" | "taken" | null;
+
+// Check a normalized custom time against the day's window and the grid.
+function checkCustom(t: string, day: DaySlots, step: number): CustomIssue {
+  const min = toMin(t);
+  const opens = 9 * 60; // business hours open; the API sends `from` per day
+  if (min % step !== 0 || min < opens || min > toMin(day.to)) return "invalid";
+  if (min < toMin(day.from)) return "past";
+  if (day.busy.some((b) => Math.abs(toMin(b) - min) < MEETING_MIN)) return "taken";
+  return null;
+}
+
+function fill(s: string, day: DaySlots): string {
+  return s.replace("{from}", day.from).replace("{to}", day.to);
+}
 
 // The "Reserva tu cita" widget, now functional: pick a day + time, leave your
 // details, and it creates a real booking (owner + client emails, calendar
 // invite with a day-before reminder). Availability comes from /api/booking.
+// Besides the fixed slots, "another time" opens a typed HH:MM field for any
+// time inside business hours.
 export default function BookingWidget({
   locale,
   copy,
@@ -32,11 +108,15 @@ export default function BookingWidget({
   const [avail, setAvail] = useState<Availability | null>(null);
   const [loadFailed, setLoadFailed] = useState(false);
   const [dayIdx, setDayIdx] = useState(0);
-  const [time, setTime] = useState<string | null>(null);
+  const [pick, setPick] = useState<string | null>(null); // a fixed slot
+  const [customOpen, setCustomOpen] = useState(false);
+  const [custom, setCustom] = useState(""); // raw typed text
+  const [customTouched, setCustomTouched] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", phone: "", note: "", companyUrl: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">("idle");
   const [errMsg, setErrMsg] = useState<string | null>(null);
   const t0 = useRef<number>(0);
+  const customRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     t0.current = Date.now();
@@ -47,7 +127,7 @@ export default function BookingWidget({
         if (!alive) return;
         setAvail(data);
         setDayIdx(0);
-        setTime(null);
+        setPick(null);
       })
       .catch(() => alive && setLoadFailed(true));
     return () => {
@@ -56,9 +136,29 @@ export default function BookingWidget({
   }, [locale]);
 
   const day = avail?.days[dayIdx];
+  const step = avail?.step ?? 15;
+
+  // The chosen time: a fixed slot, or a custom entry once it is valid.
+  const customNorm = customOpen ? normalizeTime(custom) : null;
+  const customIssue: CustomIssue =
+    customOpen && day ? (customNorm ? checkCustom(customNorm, day, step) : custom.trim() ? "invalid" : null) : null;
+  const time = customOpen ? (customNorm && !customIssue ? customNorm : null) : pick;
+
   const set = (k: keyof typeof form, v: string) => setForm((f) => ({ ...f, [k]: v }));
   const canSubmit =
     !!time && form.name.trim().length >= 2 && EMAIL_RE.test(form.email.trim());
+
+  function openCustom() {
+    setPick(null);
+    setCustomOpen(true);
+    // Focus after the field mounts.
+    setTimeout(() => customRef.current?.focus(), 0);
+  }
+
+  function chooseSlot(t: string) {
+    setCustomOpen(false);
+    setPick(t);
+  }
 
   async function submit() {
     if (!canSubmit || !day || status === "sending") return;
@@ -126,6 +226,15 @@ export default function BookingWidget({
 
   // ── Picker + form ────────────────────────────────────────────────────────────
   const noSlots = avail && avail.days.length === 0;
+  const customMsg =
+    day && customTouched && customIssue
+      ? customIssue === "past"
+        ? copy.customPast
+        : customIssue === "taken"
+          ? copy.customTaken
+          : fill(copy.customInvalid, day)
+      : null;
+
   return (
     <div className="booking reveal" role="group" aria-label={copy.title}>
       <div className="booking-head">
@@ -154,7 +263,7 @@ export default function BookingWidget({
                 aria-pressed={i === dayIdx}
                 onClick={() => {
                   setDayIdx(i);
-                  setTime(null);
+                  setPick(null);
                 }}
               >
                 <span className="dn">{d.dn}</span>
@@ -167,20 +276,75 @@ export default function BookingWidget({
           <div className="slots" role="group" aria-label={copy.pickTime}>
             {day.slots.map((s) => {
               const taken = s.state === "taken";
+              const on = !customOpen && pick === s.t;
               return (
                 <button
                   key={s.t}
                   type="button"
-                  className={`slot${taken ? " taken" : ""}${time === s.t ? " pick" : ""}`}
+                  className={`slot${taken ? " taken" : ""}${on ? " pick" : ""}`}
                   disabled={taken}
-                  aria-pressed={time === s.t}
-                  onClick={() => setTime(s.t)}
+                  aria-pressed={on}
+                  onClick={() => chooseSlot(s.t)}
                 >
                   {s.t}
                 </button>
               );
             })}
+            <button
+              type="button"
+              className={`slot slot-other${customOpen ? " pick" : ""}`}
+              aria-pressed={customOpen}
+              aria-expanded={customOpen}
+              aria-controls="bk-custom-wrap"
+              onClick={openCustom}
+            >
+              <Icon name="clock" />
+              {copy.otherTime}
+            </button>
           </div>
+
+          {customOpen ? (
+            <div className="custom-time" id="bk-custom-wrap">
+              <div className={`field${customMsg ? " bad" : ""}`}>
+                <label htmlFor="bk-custom">{copy.customLabel}</label>
+                <div className="custom-row">
+                  <input
+                    ref={customRef}
+                    id="bk-custom"
+                    value={custom}
+                    inputMode="numeric"
+                    autoComplete="off"
+                    maxLength={5}
+                    placeholder={copy.customPh}
+                    aria-describedby="bk-custom-hint"
+                    aria-invalid={!!customMsg}
+                    onChange={(e) => setCustom(formatTyping(e.target.value))}
+                    onBlur={() => {
+                      setCustomTouched(true);
+                      const n = normalizeTime(custom);
+                      if (n) setCustom(n);
+                    }}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter") (e.target as HTMLInputElement).blur();
+                    }}
+                  />
+                  {time && customOpen ? (
+                    <span className="custom-ok" aria-hidden="true">
+                      <Icon name="check" />
+                    </span>
+                  ) : null}
+                </div>
+                {customMsg ? (
+                  <p className="err" role="alert">
+                    {customMsg}
+                  </p>
+                ) : null}
+                <p className="book-hint" id="bk-custom-hint">
+                  {fill(copy.customHint, day)}
+                </p>
+              </div>
+            </div>
+          ) : null}
 
           {time ? (
             <div className="book-form">

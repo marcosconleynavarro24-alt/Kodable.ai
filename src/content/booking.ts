@@ -28,6 +28,14 @@ export interface BookingCopy {
   errorRateLimited: string;
   loading: string;
   noSlots: string;
+  // Custom time entry: the "another time" chip opens a typed HH:MM field.
+  otherTime: string;
+  customLabel: string;
+  customPh: string;
+  customHint: string; // {from} and {to} are replaced with the day's window
+  customInvalid: string;
+  customPast: string;
+  customTaken: string;
 }
 
 const en: BookingCopy = {
@@ -53,6 +61,13 @@ const en: BookingCopy = {
   errorRateLimited: "Too many attempts just now. Wait a minute and try again, or message us on WhatsApp.",
   loading: "Loading available times…",
   noSlots: "No free times right now. Message us on WhatsApp and we'll sort it out.",
+  otherTime: "Another time",
+  customLabel: "Type a time that suits you",
+  customPh: "e.g. 16:45",
+  customHint: "Any time from {from} to {to}, Spain time, in 15-minute steps.",
+  customInvalid: "Enter a time between {from} and {to}, like 16:45.",
+  customPast: "That time has already passed today. Pick a later one.",
+  customTaken: "That time overlaps another booking. Pick one 15 minutes away.",
 };
 
 const es: BookingCopy = {
@@ -78,6 +93,13 @@ const es: BookingCopy = {
   errorRateLimited: "Demasiados intentos ahora mismo. Espera un minuto y vuelve a probar, o escríbenos por WhatsApp.",
   loading: "Cargando horas disponibles…",
   noSlots: "Ahora mismo no hay horas libres. Escríbenos por WhatsApp y lo organizamos.",
+  otherTime: "Otra hora",
+  customLabel: "Escribe la hora que te venga bien",
+  customPh: "p. ej. 16:45",
+  customHint: "Cualquier hora de {from} a {to}, hora de España, en tramos de 15 minutos.",
+  customInvalid: "Escribe una hora entre {from} y {to}, como 16:45.",
+  customPast: "Esa hora ya ha pasado hoy. Elige una más tarde.",
+  customTaken: "Esa hora se solapa con otra reserva. Elige una 15 minutos más lejos.",
 };
 
 const fr: BookingCopy = {
@@ -103,6 +125,13 @@ const fr: BookingCopy = {
   errorRateLimited: "Trop de tentatives pour le moment. Attendez une minute et réessayez, ou écrivez-nous sur WhatsApp.",
   loading: "Chargement des horaires disponibles…",
   noSlots: "Aucun créneau libre pour le moment. Écrivez-nous sur WhatsApp et on s'arrange.",
+  otherTime: "Autre horaire",
+  customLabel: "Indiquez l'heure qui vous convient",
+  customPh: "p. ex. 16:45",
+  customHint: "N'importe quelle heure de {from} à {to}, heure d'Espagne, par tranches de 15 minutes.",
+  customInvalid: "Saisissez une heure entre {from} et {to}, par exemple 16:45.",
+  customPast: "Cette heure est déjà passée aujourd'hui. Choisissez-en une plus tard.",
+  customTaken: "Cette heure chevauche une autre réservation. Choisissez-en une à 15 minutes d'écart.",
 };
 
 const de: BookingCopy = {
@@ -128,6 +157,13 @@ const de: BookingCopy = {
   errorRateLimited: "Gerade zu viele Versuche. Warte kurz und versuch es nochmal, oder schreib uns auf WhatsApp.",
   loading: "Verfügbare Zeiten werden geladen…",
   noSlots: "Gerade keine Zeiten frei. Schreib uns auf WhatsApp, wir finden einen Termin.",
+  otherTime: "Andere Uhrzeit",
+  customLabel: "Gib eine Uhrzeit ein, die dir passt",
+  customPh: "z. B. 16:45",
+  customHint: "Jede Uhrzeit von {from} bis {to}, spanische Zeit, in 15-Minuten-Schritten.",
+  customInvalid: "Gib eine Uhrzeit zwischen {from} und {to} ein, zum Beispiel 16:45.",
+  customPast: "Diese Uhrzeit ist heute schon vorbei. Wähl eine spätere.",
+  customTaken: "Diese Uhrzeit überschneidet sich mit einer anderen Buchung. Wähl eine mit 15 Minuten Abstand.",
 };
 
 const it: BookingCopy = {
@@ -153,6 +189,13 @@ const it: BookingCopy = {
   errorRateLimited: "Troppi tentativi in questo momento. Aspetta un minuto e riprova, o scrivici su WhatsApp.",
   loading: "Caricamento orari disponibili…",
   noSlots: "Al momento non ci sono orari liberi. Scrivici su WhatsApp e lo sistemiamo.",
+  otherTime: "Un altro orario",
+  customLabel: "Scrivi l'orario che preferisci",
+  customPh: "es. 16:45",
+  customHint: "Qualsiasi orario dalle {from} alle {to}, ora spagnola, a intervalli di 15 minuti.",
+  customInvalid: "Inserisci un orario tra le {from} e le {to}, per esempio 16:45.",
+  customPast: "Quest'ora è già passata oggi. Scegline una più tardi.",
+  customTaken: "Quest'orario si sovrappone a un'altra prenotazione. Scegline uno a 15 minuti di distanza.",
 };
 
 const content: Record<Locale, BookingCopy> = { en, es, fr, de, it };

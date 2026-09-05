@@ -867,3 +867,18 @@ button.slot.taken { cursor: not-allowed; }
 .contact-ways { font-weight: 600; margin-bottom: 12px; color: var(--ink-mute); font-size: .92rem; }
 .contact-form-wrap { max-width: 44rem; margin: 0 auto; }
 .contact-wrap .booking { max-width: none; }
+
+/* Booking widget: "another time" chip + typed custom-time entry (site-styled
+   text field, not the browser's native time picker). */
+.slot-other { grid-column: 1 / -1; display: inline-flex; align-items: center; justify-content: center; gap: 7px; border-style: dashed; color: var(--accent-deep); }
+.slot-other svg { width: 16px; height: 16px; }
+.slot-other.pick { border-style: solid; }
+.custom-time { margin: -6px 0 18px; padding: 14px 14px 12px; background: var(--paper-warm); border: 1px solid var(--line); border-radius: 12px; }
+.custom-time .field { margin-bottom: 0; }
+.custom-time .field label { font-size: .82rem; margin-bottom: 6px; }
+.custom-row { position: relative; }
+.custom-time .field input { padding: 10px 44px 10px 12px; font-size: 1.05rem; font-weight: 600; border-radius: 10px; font-variant-numeric: tabular-nums; letter-spacing: .02em; max-width: 180px; }
+.custom-ok { position: absolute; top: 50%; left: 146px; transform: translateY(-50%); width: 24px; height: 24px; border-radius: 50%; background: var(--accent-soft); color: var(--accent-deep); display: flex; align-items: center; justify-content: center; }
+.custom-ok svg { width: 14px; height: 14px; }
+.book-hint { margin-top: 7px; font-size: .8rem; color: var(--ink-mute); line-height: 1.45; }
+.custom-time .field .err { margin-top: 6px; font-size: .82rem; }
