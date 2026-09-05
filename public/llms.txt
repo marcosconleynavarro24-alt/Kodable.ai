@@ -18,12 +18,15 @@
 - [Kit Digital 2026: The Complete Guide for Spanish Businesses (€3,000–€29,000 in EU Grants)](https://kodable.ai/en/blog/kit-digital-2026)
 - [Getting Found When AI Answers First: A 2026 Guide for Local Businesses](https://kodable.ai/en/blog/get-found-in-ai-search)
 - [What an AI Agent Actually Does for a Small Business](https://kodable.ai/en/blog/ai-agent-for-small-business)
+- [Small Business Automation: Which Jobs to Stop Doing by Hand First](https://kodable.ai/en/blog/automations-for-small-business)
+- [AI Strategy for a Small Business: How to Pick the Three Things Worth Doing](https://kodable.ai/en/blog/ai-strategy-for-small-business)
+- [Google Business Profile for Small Business: What Actually Ranks](https://kodable.ai/en/blog/google-business-profile-for-small-business)
 
 ## En español
 - [Servicios](https://kodable.ai/es/services)
 - [Portfolio](https://kodable.ai/es/portfolio)
 - [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
-- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, y qué hace un agente de IA por un pequeño negocio.
+- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, qué hace un agente de IA por un pequeño negocio, automatización, estrategia de IA y el Perfil de Empresa de Google.
 - [Preguntas frecuentes](https://kodable.ai/es/faq)
 - [Contacto](https://kodable.ai/es/contact)
 

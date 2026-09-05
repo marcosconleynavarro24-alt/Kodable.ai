@@ -1206,6 +1206,12 @@
     "body": [
       {
         "type": "figure",
+        "src": "/blog/gbp-hero.jpg",
+        "alt": "Ilustración isométrica de un móvil con un mapa local con tres marcadores azul marino y tres fichas con valoración en estrellas, junto a pequeños cubos azul marino con una tienda, un tick y un bocadillo de diálogo",
+        "caption": "La ficha es el escaparate que la mayoría de clientes ve primero. Los marcadores, las estrellas y las respuestas son lo que juzgan."
+      },
+      {
+        "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
         "alt": "La pantalla de un móvil con una búsqueda en Google de un fontanero cerca: un mapa con tres negocios marcados, luego tres tarjetas con valoración en estrellas, número de reseñas, horario y botón de llamar, y solo debajo los enlaces azules de siempre",
         "caption": "El bloque del mapa está por encima de las webs. En una búsqueda cercana desde el móvil, las tres fichas que aparecen en él reciben el toque antes de que cargue nada más."

@@ -1206,6 +1206,12 @@
     "body": [
       {
         "type": "figure",
+        "src": "/blog/gbp-hero.jpg",
+        "alt": "An isometric illustration of a phone showing a local map with three navy pins and three listing cards with star ratings, beside small navy cubes with a shopfront, a tick and a speech bubble",
+        "caption": "The listing is the shopfront most customers see first. The pins, the stars and the replies are what they judge it on."
+      },
+      {
+        "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
         "alt": "A phone screen showing a Google search for a plumber nearby: a map with three pinned businesses, then three listing cards with star ratings, review counts, opening hours and a call button, and only below that the ordinary blue links",
         "caption": "The map pack sits above the websites. For a nearby search on a phone, the three listings in it get the tap before anything else loads."

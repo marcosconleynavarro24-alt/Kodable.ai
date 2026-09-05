@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="40" y="54" font-size="31" font-weight="800" fill="#16182b" letter-spacing="-1">What a nearby search looks like on a phone</text>
+  <text x="40" y="88" font-size="19" fill="#4b5266">The map pack comes first. The websites come after.</text>
+  <!-- phone -->
+  <rect x="330" y="118" width="340" height="470" rx="34" fill="#16182b"/>
+  <rect x="344" y="132" width="312" height="456" rx="24" fill="#fbfbfd"/>
+  <rect x="452" y="140" width="96" height="10" rx="5" fill="#16182b"/>
+  <!-- search bar -->
+  <rect x="362" y="166" width="276" height="34" rx="17" fill="#ffffff" stroke="#dfe1ec" stroke-width="2"/>
+  <circle cx="382" cy="183" r="6" fill="none" stroke="#000080" stroke-width="2"/>
+  <line x1="386" y1="187" x2="391" y2="192" stroke="#000080" stroke-width="2" stroke-linecap="round"/>
+  <text x="402" y="189" font-size="14" fill="#16182b">plumber near me</text>
+  <!-- map -->
+  <rect x="362" y="212" width="276" height="96" rx="10" fill="#e5e6f5"/>
+  <path d="M362 250 h276 M420 212 v96 M540 212 v96" stroke="#ffffff" stroke-width="4"/>
+  <path d="M362 285 q80 -30 140 0 t136 -10" stroke="#ffffff" stroke-width="6" fill="none"/>
+  <g fill="#000080">
+    <path d="M440 240 c-9 0 -14 7 -14 14 c0 10 14 22 14 22 s14 -12 14 -22 c0 -7 -5 -14 -14 -14z"/>
+    <path d="M520 262 c-9 0 -14 7 -14 14 c0 10 14 22 14 22 s14 -12 14 -22 c0 -7 -5 -14 -14 -14z"/>
+    <path d="M590 228 c-9 0 -14 7 -14 14 c0 10 14 22 14 22 s14 -12 14 -22 c0 -7 -5 -14 -14 -14z"/>
+  </g>
+  <!-- three listing cards -->
+  <g>
+    <rect x="362" y="318" width="276" height="62" rx="10" fill="#ffffff" stroke="#dfe1ec" stroke-width="2"/>
+    <rect x="374" y="330" width="120" height="10" rx="5" fill="#16182b"/>
+    <text x="374" y="357" font-size="12" fill="#4b5266">4.9 ★★★★★ (212) · Open now</text>
+    <text x="374" y="372" font-size="11" fill="#8f93b0">Emergency plumber · 1.2 km</text>
+    <rect x="574" y="333" width="52" height="30" rx="15" fill="#000080"/>
+    <text x="600" y="353" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Call</text>
+  </g>
+  <g>
+    <rect x="362" y="388" width="276" height="62" rx="10" fill="#ffffff" stroke="#dfe1ec" stroke-width="2"/>
+    <rect x="374" y="400" width="96" height="10" rx="5" fill="#16182b"/>
+    <text x="374" y="427" font-size="12" fill="#4b5266">4.7 ★★★★★ (86) · Open now</text>
+    <text x="374" y="442" font-size="11" fill="#8f93b0">Plumber · 2.4 km</text>
+    <rect x="574" y="403" width="52" height="30" rx="15" fill="#000080"/>
+    <text x="600" y="423" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Call</text>
+  </g>
+  <g>
+    <rect x="362" y="458" width="276" height="62" rx="10" fill="#ffffff" stroke="#dfe1ec" stroke-width="2"/>
+    <rect x="374" y="470" width="132" height="10" rx="5" fill="#16182b"/>
+    <text x="374" y="497" font-size="12" fill="#4b5266">4.6 ★★★★★ (41) · Closes 18:00</text>
+    <text x="374" y="512" font-size="11" fill="#8f93b0">Plumber · 3.1 km</text>
+    <rect x="574" y="473" width="52" height="30" rx="15" fill="#000080"/>
+    <text x="600" y="493" font-size="12" font-weight="700" fill="#ffffff" text-anchor="middle">Call</text>
+  </g>
+  <!-- ordinary links below the fold -->
+  <rect x="362" y="534" width="180" height="10" rx="5" fill="#dfe1ec"/>
+  <rect x="362" y="552" width="240" height="8" rx="4" fill="#eceef6"/>
+  <rect x="362" y="568" width="210" height="8" rx="4" fill="#eceef6"/>
+  <!-- side callouts -->
+  <g font-size="16" fill="#4b5266">
+    <text x="40" y="262" font-weight="700" fill="#000080">Map pack</text>
+    <text x="40" y="286">Built only from Google</text>
+    <text x="40" y="308">Business Profiles.</text>
+    <line x1="230" y1="270" x2="352" y2="260" stroke="#000080" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="40" y="420" font-weight="700" fill="#000080">One tap to act</text>
+    <text x="40" y="444">Rating, hours and a call</text>
+    <text x="40" y="466">button, before any site loads.</text>
+    <line x1="250" y1="428" x2="352" y2="418" stroke="#000080" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="700" y="548" font-weight="700" fill="#8f93b0">Websites</text>
+    <text x="700" y="572">Below the fold, after</text>
+    <text x="700" y="594">the three listings.</text>
+    <line x1="694" y1="552" x2="648" y2="546" stroke="#8f93b0" stroke-width="2" stroke-dasharray="6 5"/>
+  </g>
+</svg>

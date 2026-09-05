@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" font-family="Arial, Helvetica, sans-serif">
+  <rect width="1200" height="675" fill="#fbfbfd"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#000080"/>
+  <text x="64" y="92" font-size="26" font-weight="800" fill="#16182b" letter-spacing="-0.5">Kodable</text>
+  <rect x="64" y="118" width="230" height="40" rx="20" fill="#e5e6f5"/>
+  <text x="86" y="144" font-size="17" font-weight="700" fill="#08083f" letter-spacing="1.5">GETTING FOUND</text>
+  <text x="64" y="288" font-size="62" font-weight="800" fill="#16182b" letter-spacing="-2">Google Business Profile:</text>
+  <text x="64" y="358" font-size="62" font-weight="800" fill="#000080" letter-spacing="-2">what actually ranks</text>
+  <text x="64" y="424" font-size="27" fill="#4b5266">The fields, the weekly routine, the review system.</text>
+  <line x1="64" y1="576" x2="360" y2="576" stroke="#dfe1ec" stroke-width="2"/>
+  <text x="64" y="616" font-size="22" font-weight="700" fill="#000080">kodable.ai</text>
+  <rect x="806" y="150" width="330" height="376" rx="20" fill="#e5e6f5"/>
+  <rect x="830" y="176" width="282" height="110" rx="14" fill="#ffffff"/>
+  <path d="M830 236 h282 M900 176 v110 M1040 176 v110" stroke="#e5e6f5" stroke-width="4"/>
+  <path d="M971 200 c-13 0 -20 10 -20 20 c0 15 20 32 20 32 s20 -17 20 -32 c0 -10 -7 -20 -20 -20z" fill="#000080"/>
+  <rect x="830" y="300" width="282" height="60" rx="14" fill="#ffffff"/>
+  <rect x="846" y="314" width="120" height="12" rx="6" fill="#16182b"/>
+  <text x="846" y="348" font-size="15" fill="#4b5266">4.9 ★★★★★ (212) · Open now</text>
+  <rect x="1044" y="314" width="52" height="32" rx="16" fill="#000080"/>
+  <text x="1070" y="336" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Call</text>
+  <rect x="830" y="374" width="282" height="60" rx="14" fill="#ffffff"/>
+  <rect x="846" y="388" width="96" height="12" rx="6" fill="#dfe1ec"/>
+  <rect x="846" y="412" width="160" height="10" rx="5" fill="#eceef6"/>
+  <rect x="830" y="448" width="282" height="60" rx="14" fill="#ffffff"/>
+  <rect x="846" y="462" width="132" height="12" rx="6" fill="#dfe1ec"/>
+  <rect x="846" y="486" width="140" height="10" rx="5" fill="#eceef6"/>
+</svg>

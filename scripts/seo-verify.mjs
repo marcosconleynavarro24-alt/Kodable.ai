@@ -106,7 +106,7 @@ console.log("structured data:");
     const h2s = (html.match(/<h2[\s>]/g) ?? []).length;
     check(`/${loc}/pricing has >=2 h2`, h2s >= 2, `h2=${h2s}`);
   }
-  for (const post of ["kit-digital-2026", "get-found-in-ai-search", "ai-agent-for-small-business", "automations-for-small-business", "ai-strategy-for-small-business"]) {
+  for (const post of ["kit-digital-2026", "get-found-in-ai-search", "ai-agent-for-small-business", "automations-for-small-business", "ai-strategy-for-small-business", "google-business-profile-for-small-business"]) {
     const { html } = await page(`/en/blog/${post}`);
     const nodes = jsonLdNodes(html);
     const bp = nodes.find((n) => n["@type"] === "BlogPosting");

@@ -1206,6 +1206,12 @@
     "body": [
       {
         "type": "figure",
+        "src": "/blog/gbp-hero.jpg",
+        "alt": "Un'illustrazione isometrica di un telefono con una mappa locale con tre segnaposto blu navy e tre schede con valutazione in stelle, accanto a piccoli cubi blu navy con una vetrina, una spunta e un fumetto",
+        "caption": "La scheda è la vetrina che la maggior parte dei clienti vede per prima. I segnaposto, le stelle e le risposte sono ciò su cui la giudicano."
+      },
+      {
+        "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
         "alt": "Lo schermo di un telefono con una ricerca Google di un idraulico nelle vicinanze: una mappa con tre attività segnate, poi tre schede con valutazione in stelle, numero di recensioni, orari e pulsante di chiamata, e solo sotto i soliti link blu",
         "caption": "Il blocco della mappa sta sopra i siti web. In una ricerca nelle vicinanze da telefono, le tre schede che contiene ricevono il tocco prima che si carichi qualsiasi altra cosa."

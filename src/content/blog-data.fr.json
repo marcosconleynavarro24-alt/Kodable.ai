@@ -1206,6 +1206,12 @@
     "body": [
       {
         "type": "figure",
+        "src": "/blog/gbp-hero.jpg",
+        "alt": "Illustration isométrique d'un téléphone affichant une carte locale avec trois repères bleu marine et trois fiches avec notes en étoiles, à côté de petits cubes bleu marine avec une devanture, une coche et une bulle de dialogue",
+        "caption": "La fiche est la vitrine que la plupart des clients voient en premier. Les repères, les étoiles et les réponses sont ce sur quoi ils la jugent."
+      },
+      {
+        "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
         "alt": "Un écran de téléphone montrant une recherche Google d'un plombier à proximité : une carte avec trois établissements épinglés, puis trois cartes de fiche avec note en étoiles, nombre d'avis, horaires et bouton d'appel, et seulement en dessous les liens bleus habituels",
         "caption": "Le bloc carte est au-dessus des sites web. Pour une recherche de proximité sur téléphone, les trois fiches qu'il contient reçoivent le clic avant que quoi que ce soit d'autre ne se charge."

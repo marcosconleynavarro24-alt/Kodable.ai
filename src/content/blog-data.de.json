@@ -1206,6 +1206,12 @@
     "body": [
       {
         "type": "figure",
+        "src": "/blog/gbp-hero.jpg",
+        "alt": "Eine isometrische Illustration eines Handys mit einer lokalen Karte mit drei dunkelblauen Pins und drei Eintragskarten mit Sternebewertung, daneben kleine dunkelblaue Würfel mit Ladenfront, Häkchen und Sprechblase",
+        "caption": "Der Eintrag ist das Schaufenster, das die meisten Kunden zuerst sehen. Die Pins, die Sterne und die Antworten sind das, wonach sie ihn beurteilen."
+      },
+      {
+        "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
         "alt": "Ein Handybildschirm mit einer Google-Suche nach einem Klempner in der Nähe: eine Karte mit drei markierten Betrieben, darunter drei Eintragskarten mit Sternebewertung, Anzahl der Bewertungen, Öffnungszeiten und Anruf-Button, und erst darunter die gewohnten blauen Links",
         "caption": "Das Kartenpaket sitzt über den Websites. Bei einer Suche in der Nähe auf dem Handy bekommen die drei Einträge darin den Tipp, bevor irgendetwas anderes lädt."
