@@ -27,17 +27,19 @@ export interface ClientStats {
   mobilePct: number;
 }
 
-// Pulled 2026-08-21 from Lovable analytics, window 2026-07-22 → 2026-08-21:
-// visitors 10,861 · pageviews 27,596 · avg session 151 s · devices mobile
-// 8,190 / desktop 3,427 / tablet 55 → 70% mobile.
+// Pulled 2026-09-05 from Lovable analytics, window 2026-08-06 -> 2026-09-05
+// (get_project_analytics, project 1f6fdca9-41fd-412b-96e9-9664fda3b30e, start
+// 2026-08-06T00:00:00Z, end 2026-09-05T23:59:59Z): visitors 10,140 · pageviews
+// 25,575 · avg session 145 s · devices mobile 7,648 / desktop 3,687 / tablet 64
+// -> 67% mobile.
 export const VCP_STATS: ClientStats = {
   slug: "valenciacamperpark",
   name: "Valencia Camper Park",
   url: "https://valenciacamperpark.com",
   periodDays: 30,
-  updatedAt: "2026-08-21",
-  visitors: 10861,
-  pageviews: 27596,
-  avgSessionSec: 151,
-  mobilePct: 70,
+  updatedAt: "2026-09-05",
+  visitors: 10140,
+  pageviews: 25575,
+  avgSessionSec: 145,
+  mobilePct: 67,
 };
