@@ -1,1180 +1,1420 @@
 [
- {
-  "slug": "kit-digital-2026",
-  "category": "Funding",
-  "categoryIcon": "card",
-  "title": "Kit Digital 2026: The Complete Guide for Spanish Businesses (€3,000–€29,000 in EU Grants)",
-  "description": "A plain-English guide to Spain's Kit Digital 2026 for freelancers and SMEs: what it is, how much you get per segment (€3,000–€29,000), the requirements, and how to apply for the digital voucher.",
-  "dek": "The EU is subsidising the digitalisation of Spanish businesses through the Kit Digital voucher. Here is the plain-English version: how much you get, who qualifies, and how to be ready so you don't miss out.",
-  "keyword": "Kit Digital 2026",
-  "author": "The Kodable team",
-  "datePublished": "2026-06-28",
-  "ogImage": "kit-digital-2026.jpg",
-  "readMinutes": 11,
-  "takeaways": [
-   "Kit Digital is an EU grant (NextGenerationEU): it gives you a voucher to digitalise your business, and you never pay it back.",
-   "The amount ranges from €3,000 (freelancers) to €29,000 (companies up to 250 employees), depending on your segment.",
-   "Applying is four steps: register on Acelera Pyme, do the self-assessment test, submit the application, and choose a digitiser.",
-   "In 2026 the programme runs until the funds run out, get ready now, because it is handed out first-come, first-served."
-  ],
-  "related": [
-   "ai-strategy-for-small-business",
-   "automations-for-small-business"
-  ],
-  "cta": {
-   "service": "websites",
-   "label": "Get Kit Digital-ready"
+  {
+    "slug": "kit-digital-2026",
+    "category": "Funding",
+    "categoryIcon": "card",
+    "title": "Kit Digital 2026: The Complete Guide for Spanish Businesses (€3,000–€29,000 in EU Grants)",
+    "description": "A plain-English guide to Spain's Kit Digital 2026 for freelancers and SMEs: what it is, how much you get per segment (€3,000–€29,000), the requirements, and how to apply for the digital voucher.",
+    "dek": "The EU is subsidising the digitalisation of Spanish businesses through the Kit Digital voucher. Here is the plain-English version: how much you get, who qualifies, and how to be ready so you don't miss out.",
+    "keyword": "Kit Digital 2026",
+    "author": "The Kodable team",
+    "datePublished": "2026-06-28",
+    "ogImage": "kit-digital-2026.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Kit Digital is an EU grant (NextGenerationEU): it gives you a voucher to digitalise your business, and you never pay it back.",
+      "The amount ranges from €3,000 (freelancers) to €29,000 (companies up to 250 employees), depending on your segment.",
+      "Applying is four steps: register on Acelera Pyme, do the self-assessment test, submit the application, and choose a digitiser.",
+      "In 2026 the programme runs until the funds run out, get ready now, because it is handed out first-come, first-served."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Get Kit Digital-ready"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/eu-nextgen-emblem.svg",
+        "alt": "Official emblem: Funded by the European Union, NextGenerationEU",
+        "caption": "Kit Digital is financed by the European Union's NextGenerationEU funds."
+      },
+      {
+        "type": "p",
+        "text": "The European Union is putting money on the table so that Spanish businesses go digital. It is called **Kit Digital**, and since 2022 it has handed out billions in vouchers for websites, online shops, cybersecurity and more. Most of the freelancers and small businesses that could claim it... simply don't. This guide explains, without the jargon, what it is, how much you get, and how to be ready so you are not left out."
+      },
+      {
+        "type": "h2",
+        "text": "What Kit Digital actually is, in plain terms"
+      },
+      {
+        "type": "p",
+        "text": "Kit Digital is a public grant programme from the Government of Spain, managed by **Red.es** and financed by the European [NextGenerationEU](https://espanadigital.gob.es/lineas-de-actuacion/programa-kit-digital) funds under the Recovery Plan. Translated: the administration gives you a **digital voucher** (a fixed amount of money) so you can hire digital solutions (a website, an online shop, a CRM, cybersecurity) from approved companies called **agentes digitalizadores** (digitisers). You never touch the cash: the voucher pays the solution's invoice directly."
+      },
+      {
+        "type": "p",
+        "text": "It is not a loan. You do not pay it back. It is a subsidy, conditional on you genuinely digitalising your business."
+      },
+      {
+        "type": "h2",
+        "text": "How much you get: amounts by segment"
+      },
+      {
+        "type": "p",
+        "text": "What you can receive depends on the size of your workforce. The programme splits beneficiaries into **segments**:"
+      },
+      {
+        "type": "figure",
+        "src": "/blog/kit-digital-importes.svg",
+        "alt": "Chart of Kit Digital voucher amounts by company segment, from €3,000 to €29,000",
+        "caption": "Maximum voucher by headcount, from Segment III (freelancers) to Segment V (up to 250 employees)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Segment III** (0–2 employees, most freelancers): up to **€3,000**.",
+          "**Segment II** (3–9 employees): up to **€6,000**.",
+          "**Segment I** (10–49 employees): up to **€12,000**.",
+          "**Segment IV** (50–99 employees): up to **€25,000**.",
+          "**Segment V** (100–249 employees): up to **€29,000**."
+        ]
+      },
+      {
+        "type": "stat",
+        "value": "€29,000",
+        "label": "the maximum voucher, for medium-sized companies of up to 250 employees (Segment V)",
+        "source": "espanadigital.gob.es / sede.red.gob.es"
+      },
+      {
+        "type": "p",
+        "text": "The important shift of the last couple of years? The programme **raised the Segment III voucher to €3,000** and **widened its reach to companies of up to 250 employees** (Segments IV and V), which used to be reserved for the smallest businesses. More and more companies now qualify."
+      },
+      {
+        "type": "h2",
+        "text": "Can you claim it? The basic requirements"
+      },
+      {
+        "type": "p",
+        "text": "Kit Digital is aimed at freelancers, micro-businesses and SMEs with a tax address in Spain. Broadly, you need to:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Be a **registered autónomo** or an SME/micro-business with fewer than 250 employees.",
+          "Have a **minimum trading history** (usually 6 months registered in the RETA or as a company).",
+          "Be **up to date** with your tax (Hacienda) and Social Security obligations.",
+          "Not exceed the accumulated **de minimis aid** limits of recent years.",
+          "Complete the **self-assessment test** (it is mandatory)."
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "An honest note",
+        "body": "The exact requirements (trading history, de minimis amounts, deadlines) are set by each call (convocatoria) in its own rules. Before you take anything for granted, confirm it in the [official rules](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070) and on [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital). We give you the map; the fine print always lives at the official source."
+      },
+      {
+        "type": "h2",
+        "text": "How to apply, step by step"
+      },
+      {
+        "type": "figure",
+        "src": "/blog/kit-digital-pasos.svg",
+        "alt": "The four steps to apply for Kit Digital: register, self-assessment, application, digitiser",
+        "caption": "The process end to end: registration, self-assessment, application, and choosing your digitiser."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Register on Acelera Pyme",
+            "body": "Go to acelerapyme.gob.es and create your account with a digital certificate or Cl@ve. It is the front door to the whole process."
+          },
+          {
+            "title": "Take the self-assessment test",
+            "body": "A short questionnaire (around 13 questions) that measures your digital maturity. There is no pass mark (you just have to do it) but it is mandatory in order to claim the voucher."
+          },
+          {
+            "title": "Apply for your digital voucher",
+            "body": "When your call is open, you submit the application on the Red.es electronic office, in the procedure for your segment."
+          },
+          {
+            "title": "Choose your digitiser",
+            "body": "Once the voucher is granted, you pick a company from the official catalogue of agentes digitalizadores, who delivers the solution and invoices against your voucher."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What can you spend the voucher on?"
+      },
+      {
+        "type": "p",
+        "text": "The voucher is not free cash: it is spent on **categories of solutions** from the official catalogue. The most useful ones for a local business:"
+      },
+      {
+        "type": "figure",
+        "src": "/blog/kit-digital-soluciones.svg",
+        "alt": "Categories of digital solutions funded by Kit Digital, including website, e-commerce, CRM, cybersecurity and AI",
+        "caption": "Some of the eligible solutions from the official catalogue."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Website and online presence**: a professional site so people find you on Google.",
+          "**E-commerce**: selling online, with a catalogue and a payment gateway.",
+          "**Social media** and **marketing** management to win customers.",
+          "**Customer management (CRM)** so no opportunity slips through.",
+          "**Cybersecurity** and **secure workplace** to protect your data.",
+          "**E-invoicing**, **virtual office** and **process management** to save hours every week."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "And the direction of travel is clear: the programme keeps adding **artificial intelligence** and managed-cybersecurity solutions, exactly where a small business gains the most time."
+      },
+      {
+        "type": "h2",
+        "text": "The 2026 status: is it open right now?"
+      },
+      {
+        "type": "p",
+        "text": "Here we have to be straight, because there is a lot of confusing information out there. The original Kit Digital calls (Segments I, II and III) **closed in October 2025**. In January 2026, the official gazette published [Orden TDF/39/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070), which **reactivates the programme's legal framework** and allows the **leftover European funds** from earlier calls to be redistributed."
+      },
+      {
+        "type": "p",
+        "text": "What does that mean for you today? That the programme **drops the rigid closing date** and instead runs **until the funds are exhausted**. New calls are published as those remaining funds get reassigned. Which is why the real status changes from week to week: the only reliable answer is the official source."
+      },
+      {
+        "type": "callout",
+        "title": "Where to check the real status",
+        "body": "Always look at the Red.es electronic office, [sede.red.gob.es](https://sede.red.gob.es), and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital) before acting. If your call is open, the deadline is shown there; if not, it appears as closed or coming soon."
+      },
+      {
+        "type": "h2",
+        "text": "Why get ready TODAY, even if your call is not open"
+      },
+      {
+        "type": "p",
+        "text": "There is a lesson from the previous calls worth burning into memory: **the money is handed out in order of arrival, until it runs out.** The businesses that already had their registration done, their self-assessment passed and their digitiser chosen were able to apply the moment the window opened. The ones who started finding out that day arrived too late."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Create your account and **do the self-assessment now**: it is free and does not expire.",
+          "Decide **which solutions** you want to fund (website, online shop, CRM, cybersecurity).",
+          "Have **your digitiser identified** so you are not improvising on opening day."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The voucher does not go to whoever needs it most, but to whoever shows up ready on the day it opens.",
+        "cite": "The Kodable team"
+      },
+      {
+        "type": "h2",
+        "text": "How Kodable helps"
+      },
+      {
+        "type": "p",
+        "text": "We build exactly the kind of solutions Kit Digital subsidises: **websites that sell, online shops, AI agents, automations and custom tools** for local businesses. We help you reach opening day with everything ready, the registration, the self-assessment, and a clear plan for what to build with your voucher."
+      },
+      {
+        "type": "p",
+        "text": "An honest note on the fine print: for the voucher to pay the invoice, the solution must be delivered by an **agente digitalizador from the official catalogue**. We walk the whole path with you (design, build and launch) and guide you to the right digitiser when the moment comes. No promises we can't keep."
+      },
+      {
+        "type": "cta",
+        "title": "Get ready for your Kit Digital",
+        "body": "Tell us about your business in a 15-minute call. We'll tell you what you can fund and leave your application ready for when your call opens.",
+        "button": "Talk to us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Do you have to pay Kit Digital back?"
+      },
+      {
+        "type": "p",
+        "text": "No. It is a subsidy, not a loan. If you meet the conditions and justify the solution, there is nothing to repay."
+      },
+      {
+        "type": "h3",
+        "text": "How much can a freelancer with no employees claim?"
+      },
+      {
+        "type": "p",
+        "text": "A freelancer in Segment III (0–2 employees) can receive up to **€3,000** in digital voucher."
+      },
+      {
+        "type": "h3",
+        "text": "Can I choose any company to build my website?"
+      },
+      {
+        "type": "p",
+        "text": "Only if it is registered as an **agente digitalizador** in the official Red.es catalogue. The funded solution must be delivered by an approved digitiser."
+      },
+      {
+        "type": "h3",
+        "text": "Is the application window open right now?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on the call and the moment. The framework has been reactivated since 2026 and runs until funds are exhausted; check the status on [sede.red.gob.es](https://sede.red.gob.es) and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
+      }
+    ]
   },
-  "body": [
-   {
-    "type": "figure",
-    "src": "/blog/eu-nextgen-emblem.svg",
-    "alt": "Official emblem: Funded by the European Union, NextGenerationEU",
-    "caption": "Kit Digital is financed by the European Union's NextGenerationEU funds."
-   },
-   {
-    "type": "p",
-    "text": "The European Union is putting money on the table so that Spanish businesses go digital. It is called **Kit Digital**, and since 2022 it has handed out billions in vouchers for websites, online shops, cybersecurity and more. Most of the freelancers and small businesses that could claim it... simply don't. This guide explains, without the jargon, what it is, how much you get, and how to be ready so you are not left out."
-   },
-   {
-    "type": "h2",
-    "text": "What Kit Digital actually is, in plain terms"
-   },
-   {
-    "type": "p",
-    "text": "Kit Digital is a public grant programme from the Government of Spain, managed by **Red.es** and financed by the European [NextGenerationEU](https://espanadigital.gob.es/lineas-de-actuacion/programa-kit-digital) funds under the Recovery Plan. Translated: the administration gives you a **digital voucher** (a fixed amount of money) so you can hire digital solutions (a website, an online shop, a CRM, cybersecurity) from approved companies called **agentes digitalizadores** (digitisers). You never touch the cash: the voucher pays the solution's invoice directly."
-   },
-   {
-    "type": "p",
-    "text": "It is not a loan. You do not pay it back. It is a subsidy, conditional on you genuinely digitalising your business."
-   },
-   {
-    "type": "h2",
-    "text": "How much you get: amounts by segment"
-   },
-   {
-    "type": "p",
-    "text": "What you can receive depends on the size of your workforce. The programme splits beneficiaries into **segments**:"
-   },
-   {
-    "type": "figure",
-    "src": "/blog/kit-digital-importes.svg",
-    "alt": "Chart of Kit Digital voucher amounts by company segment, from €3,000 to €29,000",
-    "caption": "Maximum voucher by headcount, from Segment III (freelancers) to Segment V (up to 250 employees)."
-   },
-   {
-    "type": "list",
-    "items": [
-     "**Segment III** (0–2 employees, most freelancers): up to **€3,000**.",
-     "**Segment II** (3–9 employees): up to **€6,000**.",
-     "**Segment I** (10–49 employees): up to **€12,000**.",
-     "**Segment IV** (50–99 employees): up to **€25,000**.",
-     "**Segment V** (100–249 employees): up to **€29,000**."
+  {
+    "slug": "get-found-in-ai-search",
+    "category": "Getting Found",
+    "categoryIcon": "search",
+    "title": "Getting Found When AI Answers First: A 2026 Guide for Local Businesses",
+    "description": "Google now writes an AI answer at the top of the page, so fewer searches end in a click. Here is what AI Overviews and AI Mode change for a local business, and a plain-English playbook to still get found: clear answers, reviews, Google Business Profile and speed.",
+    "dek": "Google increasingly writes the answer at the top of the page, and fewer people click through. Here is what actually changed for a local business, and the honest playbook for getting found when AI answers first.",
+    "keyword": "get found in AI search",
+    "author": "The Kodable team",
+    "datePublished": "2026-07-10",
+    "ogImage": "get-found-in-ai-search.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Google increasingly answers the question itself, in an AI box at the top of the page. When that box appears, clicks to websites roughly halve, and most searches already end with no click at all.",
+      "The customer-rich searches for a local business, near me, open now, best X in your town, and Google Maps, are still very much alive. AI has not replaced them.",
+      "The goal shifted from ranking number one to being the clear, trustworthy answer the AI quotes. People call it GEO or AEO, and being cited is now a different game from ranking.",
+      "What actually works is unglamorous and evidence-backed: answer real questions clearly, back it with real detail, own your Google Business Profile and reviews, earn honest mentions, and keep the site fast."
+    ],
+    "related": [
+      "google-business-profile-for-small-business",
+      "ai-strategy-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Get a site AI can recommend"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-serp.svg",
+        "alt": "A Google results page in 2026: an AI-written answer sits at the top, above the familiar list of website links",
+        "caption": "The results page in 2026: Google writes an answer at the top, and the familiar list of links starts further down."
+      },
+      {
+        "type": "p",
+        "text": "Type a question into Google today and, more and more often, you do not get a tidy list of ten blue links. You get an **answer**, written by AI, sitting at the very top of the page, with a handful of sources beside it. It is called an **AI Overview**, and it is quietly changing how customers find local businesses, faster than most owners have noticed."
+      },
+      {
+        "type": "h2",
+        "text": "What actually changed"
+      },
+      {
+        "type": "p",
+        "text": "Two things landed on Google in the last couple of years. **AI Overviews**: the AI-written summary that now appears above the normal results for many searches. And **AI Mode**: a full conversational way to search, where you ask follow-up questions like you would a person. Google is not alone either, people now ask **ChatGPT, Gemini and Perplexity** the kind of questions they used to type into a search bar. And yes, [this is already live in Spain, in Spanish](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "people a month now use Google's AI Overviews, and AI Mode has passed 1 billion. This is simply how a lot of people search now.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "p",
+        "text": "The effect is simple: the answer often satisfies the person right there, on Google's page, without a click. Analysts call it a **zero-click search**, and it was already the norm before AI, [nearly 6 in 10 searches in the EU](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) ended without a click to any website back in 2024. AI Overviews are pouring fuel on that fire."
+      },
+      {
+        "type": "stat",
+        "value": "1 in 100",
+        "label": "people click a source inside a Google AI answer. And when that answer shows, clicks through to any website roughly halve, from 15% to 8% of searches.",
+        "source": "Pew Research Center, 2025"
+      },
+      {
+        "type": "h2",
+        "text": "So is this bad news for a small business?"
+      },
+      {
+        "type": "p",
+        "text": "Yes and no, and anyone who tells you only one half is selling something. The clicks AI Overviews absorb are mostly **informational**: the what-is and how-do-I questions, the general how-to articles. That traffic is genuinely down. But the searches that bring a local business actual customers are different: **near me, open now, book, best [what you do] in [your town]**. Those still lead to a phone call, a booking, a visit, and to **Google Maps**, which the AI box has not replaced."
+      },
+      {
+        "type": "callout",
+        "title": "An honest note",
+        "body": "We are not going to pretend the old playbook is untouched. Clicks on general informational articles really have dropped. What still works, and works better than ever, is being genuinely the clearest, most trustworthy answer, and being visible where the AI looks. That is not a trick you buy; it is something you build."
+      },
+      {
+        "type": "stat",
+        "value": "38%",
+        "label": "of the businesses quoted in a Google AI answer come from the top-10 results, down from about 76% a year earlier. Being the answer is now a different game from ranking first.",
+        "source": "Ahrefs, 2026"
+      },
+      {
+        "type": "h2",
+        "text": "The shift: from ranking to being the answer"
+      },
+      {
+        "type": "p",
+        "text": "For twenty years, getting found meant **ranking a page**, climbing to the top of the list. The new game, people call it **GEO** (generative engine optimization) or **AEO** (answer engine optimization), is about being the source the AI **quotes**. The goal has not really changed: be the business the machine, and the customer, decide to trust. The surface just moved."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-search-signals.svg",
+        "alt": "Four signals that push a business into an AI answer: clear answers, reviews and mentions, structured data, and a strong local presence",
+        "caption": "What pushes a business into the answer: clear answers to real questions, reviews and mentions, a machine-readable site, and a strong local presence."
+      },
+      {
+        "type": "h2",
+        "text": "What to actually do (that works today)"
+      },
+      {
+        "type": "p",
+        "text": "There is no magic switch, and anyone selling one is guessing. But there is real evidence about what helps. The most striking finding: in a [peer-reviewed study](https://arxiv.org/abs/2311.09735), pages that answered clearly and backed it up with **real statistics, quotes and cited sources** were up to 30 to 40 percent more visible in AI answers. Keyword-stuffing did nothing. In plain terms, the way to win is to genuinely be the best answer."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Answer the real questions, clearly",
+            "body": "Write the plain answers to what customers actually ask: price ranges, opening hours, parking, whether you do X. AI answers are short and question-shaped, so a page that answers one real question in a few clear sentences is exactly the shape it quotes."
+          },
+          {
+            "title": "Be genuinely worth quoting",
+            "body": "Back your answers with real specifics: an actual number, a real example, a named source. This is the one lever with hard evidence behind it. Thin, vague, spun-up text is precisely what the new systems filter out."
+          },
+          {
+            "title": "Own your Google Business Profile",
+            "body": "For local searches, Maps and the local results still decide who gets the call. A complete profile, real photos, current hours and answered reviews do more for a local business than most technical SEO ever did."
+          },
+          {
+            "title": "Earn mentions elsewhere",
+            "body": "AI cross-checks. Because being quoted no longer depends only on your own ranking, honest reviews, a listing in the right local directories and a mention in the local press all help the machine trust and repeat your name."
+          },
+          {
+            "title": "Keep the basics right",
+            "body": "A fast, clean, well-structured site helps people and machines alike. Add structured data (schema) so Google can show rich results, but be honest about it: in the best test to date, schema on its own did not win more AI citations. It is hygiene, not a magic trick."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What to ignore"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Anyone **guaranteeing number one on Google**, or now **number one in ChatGPT**. Nobody controls those rankings, and nobody can promise them.",
+          "**Keyword-stuffing** and thin, AI-spun filler articles, the exact thing the new systems are built to filter out.",
+          "**Buying reviews.** Against the rules, increasingly easy to detect, and a fast way to lose trust with customers and Google alike.",
+          "The claim that **schema markup alone gets you into AI answers.** Do it for rich results, but the [best test we have seen](https://ahrefs.com/blog/schema-ai-citations/) found it did not move AI citations by itself.",
+          "Panic. The fundamentals, be findable, be trustworthy, be the best answer, did not change. Only the surface did."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "AI did not kill getting found. It moved the finish line from ranked first to trusted enough to be quoted.",
+        "cite": "The Kodable team"
+      },
+      {
+        "type": "h2",
+        "text": "How Kodable helps"
+      },
+      {
+        "type": "p",
+        "text": "We build sites made for exactly this: fast, cleanly structured, with your Google Business Profile and local signals set up, and the plain, genuinely useful answers your customers, and the AI, are looking for. No tricks, and no guarantees we cannot keep, just being the clearest, most trustworthy answer in your area, in a form both people and machines understand."
+      },
+      {
+        "type": "cta",
+        "title": "Get a site AI can find and recommend",
+        "body": "Tell us about your business in a 15-minute call. We will show you where you are invisible to AI search today, and what is worth fixing first.",
+        "button": "Talk to us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is SEO dead?"
+      },
+      {
+        "type": "p",
+        "text": "No, it changed. Being findable and trustworthy matters more than ever; the mechanics moved from ten blue links to AI answers and Maps. The work is different, not gone."
+      },
+      {
+        "type": "h3",
+        "text": "What is the difference between SEO, GEO and AEO?"
+      },
+      {
+        "type": "p",
+        "text": "SEO is ranking in the classic list of results. GEO and AEO are about being the source an AI answer quotes. In practice they overlap almost completely: the same clear, trustworthy, well-structured site tends to win all three at once."
+      },
+      {
+        "type": "h3",
+        "text": "Will an AI Overview actually mention my business?"
+      },
+      {
+        "type": "p",
+        "text": "It can, especially for local and specific questions, when your information is clear, consistent across the web, and genuinely useful. There is no guarantee, and anyone promising one is guessing."
+      },
+      {
+        "type": "h3",
+        "text": "Do I need to be on ChatGPT to get found?"
+      },
+      {
+        "type": "p",
+        "text": "You do not publish onto ChatGPT. These tools pull from the open web, your site, your Google profile, your reviews, your mentions. Get those right and you turn up in the answer, wherever the question is asked."
+      }
     ]
-   },
-   {
-    "type": "stat",
-    "value": "€29,000",
-    "label": "the maximum voucher, for medium-sized companies of up to 250 employees (Segment V)",
-    "source": "espanadigital.gob.es / sede.red.gob.es"
-   },
-   {
-    "type": "p",
-    "text": "The important shift of the last couple of years? The programme **raised the Segment III voucher to €3,000** and **widened its reach to companies of up to 250 employees** (Segments IV and V), which used to be reserved for the smallest businesses. More and more companies now qualify."
-   },
-   {
-    "type": "h2",
-    "text": "Can you claim it? The basic requirements"
-   },
-   {
-    "type": "p",
-    "text": "Kit Digital is aimed at freelancers, micro-businesses and SMEs with a tax address in Spain. Broadly, you need to:"
-   },
-   {
-    "type": "list",
-    "items": [
-     "Be a **registered autónomo** or an SME/micro-business with fewer than 250 employees.",
-     "Have a **minimum trading history** (usually 6 months registered in the RETA or as a company).",
-     "Be **up to date** with your tax (Hacienda) and Social Security obligations.",
-     "Not exceed the accumulated **de minimis aid** limits of recent years.",
-     "Complete the **self-assessment test** (it is mandatory)."
-    ]
-   },
-   {
-    "type": "callout",
-    "title": "An honest note",
-    "body": "The exact requirements (trading history, de minimis amounts, deadlines) are set by each call (convocatoria) in its own rules. Before you take anything for granted, confirm it in the [official rules](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070) and on [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital). We give you the map; the fine print always lives at the official source."
-   },
-   {
-    "type": "h2",
-    "text": "How to apply, step by step"
-   },
-   {
-    "type": "figure",
-    "src": "/blog/kit-digital-pasos.svg",
-    "alt": "The four steps to apply for Kit Digital: register, self-assessment, application, digitiser",
-    "caption": "The process end to end: registration, self-assessment, application, and choosing your digitiser."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Register on Acelera Pyme",
-      "body": "Go to acelerapyme.gob.es and create your account with a digital certificate or Cl@ve. It is the front door to the whole process."
-     },
-     {
-      "title": "Take the self-assessment test",
-      "body": "A short questionnaire (around 13 questions) that measures your digital maturity. There is no pass mark (you just have to do it) but it is mandatory in order to claim the voucher."
-     },
-     {
-      "title": "Apply for your digital voucher",
-      "body": "When your call is open, you submit the application on the Red.es electronic office, in the procedure for your segment."
-     },
-     {
-      "title": "Choose your digitiser",
-      "body": "Once the voucher is granted, you pick a company from the official catalogue of agentes digitalizadores, who delivers the solution and invoices against your voucher."
-     }
-    ]
-   },
-   {
-    "type": "h2",
-    "text": "What can you spend the voucher on?"
-   },
-   {
-    "type": "p",
-    "text": "The voucher is not free cash: it is spent on **categories of solutions** from the official catalogue. The most useful ones for a local business:"
-   },
-   {
-    "type": "figure",
-    "src": "/blog/kit-digital-soluciones.svg",
-    "alt": "Categories of digital solutions funded by Kit Digital, including website, e-commerce, CRM, cybersecurity and AI",
-    "caption": "Some of the eligible solutions from the official catalogue."
-   },
-   {
-    "type": "list",
-    "items": [
-     "**Website and online presence**: a professional site so people find you on Google.",
-     "**E-commerce**: selling online, with a catalogue and a payment gateway.",
-     "**Social media** and **marketing** management to win customers.",
-     "**Customer management (CRM)** so no opportunity slips through.",
-     "**Cybersecurity** and **secure workplace** to protect your data.",
-     "**E-invoicing**, **virtual office** and **process management** to save hours every week."
-    ]
-   },
-   {
-    "type": "p",
-    "text": "And the direction of travel is clear: the programme keeps adding **artificial intelligence** and managed-cybersecurity solutions, exactly where a small business gains the most time."
-   },
-   {
-    "type": "h2",
-    "text": "The 2026 status: is it open right now?"
-   },
-   {
-    "type": "p",
-    "text": "Here we have to be straight, because there is a lot of confusing information out there. The original Kit Digital calls (Segments I, II and III) **closed in October 2025**. In January 2026, the official gazette published [Orden TDF/39/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-2070), which **reactivates the programme's legal framework** and allows the **leftover European funds** from earlier calls to be redistributed."
-   },
-   {
-    "type": "p",
-    "text": "What does that mean for you today? That the programme **drops the rigid closing date** and instead runs **until the funds are exhausted**. New calls are published as those remaining funds get reassigned. Which is why the real status changes from week to week: the only reliable answer is the official source."
-   },
-   {
-    "type": "callout",
-    "title": "Where to check the real status",
-    "body": "Always look at the Red.es electronic office, [sede.red.gob.es](https://sede.red.gob.es), and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital) before acting. If your call is open, the deadline is shown there; if not, it appears as closed or coming soon."
-   },
-   {
-    "type": "h2",
-    "text": "Why get ready TODAY, even if your call is not open"
-   },
-   {
-    "type": "p",
-    "text": "There is a lesson from the previous calls worth burning into memory: **the money is handed out in order of arrival, until it runs out.** The businesses that already had their registration done, their self-assessment passed and their digitiser chosen were able to apply the moment the window opened. The ones who started finding out that day arrived too late."
-   },
-   {
-    "type": "list",
-    "items": [
-     "Create your account and **do the self-assessment now**: it is free and does not expire.",
-     "Decide **which solutions** you want to fund (website, online shop, CRM, cybersecurity).",
-     "Have **your digitiser identified** so you are not improvising on opening day."
-    ]
-   },
-   {
-    "type": "quote",
-    "text": "The voucher does not go to whoever needs it most, but to whoever shows up ready on the day it opens.",
-    "cite": "The Kodable team"
-   },
-   {
-    "type": "h2",
-    "text": "How Kodable helps"
-   },
-   {
-    "type": "p",
-    "text": "We build exactly the kind of solutions Kit Digital subsidises: **websites that sell, online shops, AI agents, automations and custom tools** for local businesses. We help you reach opening day with everything ready, the registration, the self-assessment, and a clear plan for what to build with your voucher."
-   },
-   {
-    "type": "p",
-    "text": "An honest note on the fine print: for the voucher to pay the invoice, the solution must be delivered by an **agente digitalizador from the official catalogue**. We walk the whole path with you (design, build and launch) and guide you to the right digitiser when the moment comes. No promises we can't keep."
-   },
-   {
-    "type": "cta",
-    "title": "Get ready for your Kit Digital",
-    "body": "Tell us about your business in a 15-minute call. We'll tell you what you can fund and leave your application ready for when your call opens.",
-    "button": "Talk to us"
-   },
-   {
-    "type": "h2",
-    "text": "Frequently asked questions"
-   },
-   {
-    "type": "h3",
-    "text": "Do you have to pay Kit Digital back?"
-   },
-   {
-    "type": "p",
-    "text": "No. It is a subsidy, not a loan. If you meet the conditions and justify the solution, there is nothing to repay."
-   },
-   {
-    "type": "h3",
-    "text": "How much can a freelancer with no employees claim?"
-   },
-   {
-    "type": "p",
-    "text": "A freelancer in Segment III (0–2 employees) can receive up to **€3,000** in digital voucher."
-   },
-   {
-    "type": "h3",
-    "text": "Can I choose any company to build my website?"
-   },
-   {
-    "type": "p",
-    "text": "Only if it is registered as an **agente digitalizador** in the official Red.es catalogue. The funded solution must be delivered by an approved digitiser."
-   },
-   {
-    "type": "h3",
-    "text": "Is the application window open right now?"
-   },
-   {
-    "type": "p",
-    "text": "It depends on the call and the moment. The framework has been reactivated since 2026 and runs until funds are exhausted; check the status on [sede.red.gob.es](https://sede.red.gob.es) and [acelerapyme.gob.es](https://www.acelerapyme.gob.es/kit-digital)."
-   }
-  ]
- },
- {
-  "slug": "get-found-in-ai-search",
-  "category": "Getting Found",
-  "categoryIcon": "search",
-  "title": "Getting Found When AI Answers First: A 2026 Guide for Local Businesses",
-  "description": "Google now writes an AI answer at the top of the page, so fewer searches end in a click. Here is what AI Overviews and AI Mode change for a local business, and a plain-English playbook to still get found: clear answers, reviews, Google Business Profile and speed.",
-  "dek": "Google increasingly writes the answer at the top of the page, and fewer people click through. Here is what actually changed for a local business, and the honest playbook for getting found when AI answers first.",
-  "keyword": "get found in AI search",
-  "author": "The Kodable team",
-  "datePublished": "2026-07-10",
-  "ogImage": "get-found-in-ai-search.jpg",
-  "readMinutes": 10,
-  "takeaways": [
-   "Google increasingly answers the question itself, in an AI box at the top of the page. When that box appears, clicks to websites roughly halve, and most searches already end with no click at all.",
-   "The customer-rich searches for a local business, near me, open now, best X in your town, and Google Maps, are still very much alive. AI has not replaced them.",
-   "The goal shifted from ranking number one to being the clear, trustworthy answer the AI quotes. People call it GEO or AEO, and being cited is now a different game from ranking.",
-   "What actually works is unglamorous and evidence-backed: answer real questions clearly, back it with real detail, own your Google Business Profile and reviews, earn honest mentions, and keep the site fast."
-  ],
-  "related": [
-   "ai-strategy-for-small-business",
-   "ai-agent-for-small-business"
-  ],
-  "cta": {
-   "service": "websites",
-   "label": "Get a site AI can recommend"
   },
-  "body": [
-   {
-    "type": "figure",
-    "src": "/blog/ai-search-serp.svg",
-    "alt": "A Google results page in 2026: an AI-written answer sits at the top, above the familiar list of website links",
-    "caption": "The results page in 2026: Google writes an answer at the top, and the familiar list of links starts further down."
-   },
-   {
-    "type": "p",
-    "text": "Type a question into Google today and, more and more often, you do not get a tidy list of ten blue links. You get an **answer**, written by AI, sitting at the very top of the page, with a handful of sources beside it. It is called an **AI Overview**, and it is quietly changing how customers find local businesses, faster than most owners have noticed."
-   },
-   {
-    "type": "h2",
-    "text": "What actually changed"
-   },
-   {
-    "type": "p",
-    "text": "Two things landed on Google in the last couple of years. **AI Overviews**: the AI-written summary that now appears above the normal results for many searches. And **AI Mode**: a full conversational way to search, where you ask follow-up questions like you would a person. Google is not alone either, people now ask **ChatGPT, Gemini and Perplexity** the kind of questions they used to type into a search bar. And yes, [this is already live in Spain, in Spanish](https://blog.google/feed/were-bringing-the-helpfulness-of-ai-overviews-to-more-countries-in-europe/)."
-   },
-   {
-    "type": "stat",
-    "value": "2.5 billion",
-    "label": "people a month now use Google's AI Overviews, and AI Mode has passed 1 billion. This is simply how a lot of people search now.",
-    "source": "Google I/O, May 2026"
-   },
-   {
-    "type": "p",
-    "text": "The effect is simple: the answer often satisfies the person right there, on Google's page, without a click. Analysts call it a **zero-click search**, and it was already the norm before AI, [nearly 6 in 10 searches in the EU](https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/) ended without a click to any website back in 2024. AI Overviews are pouring fuel on that fire."
-   },
-   {
-    "type": "stat",
-    "value": "1 in 100",
-    "label": "people click a source inside a Google AI answer. And when that answer shows, clicks through to any website roughly halve, from 15% to 8% of searches.",
-    "source": "Pew Research Center, 2025"
-   },
-   {
-    "type": "h2",
-    "text": "So is this bad news for a small business?"
-   },
-   {
-    "type": "p",
-    "text": "Yes and no, and anyone who tells you only one half is selling something. The clicks AI Overviews absorb are mostly **informational**: the what-is and how-do-I questions, the general how-to articles. That traffic is genuinely down. But the searches that bring a local business actual customers are different: **near me, open now, book, best [what you do] in [your town]**. Those still lead to a phone call, a booking, a visit, and to **Google Maps**, which the AI box has not replaced."
-   },
-   {
-    "type": "callout",
-    "title": "An honest note",
-    "body": "We are not going to pretend the old playbook is untouched. Clicks on general informational articles really have dropped. What still works, and works better than ever, is being genuinely the clearest, most trustworthy answer, and being visible where the AI looks. That is not a trick you buy; it is something you build."
-   },
-   {
-    "type": "stat",
-    "value": "38%",
-    "label": "of the businesses quoted in a Google AI answer come from the top-10 results, down from about 76% a year earlier. Being the answer is now a different game from ranking first.",
-    "source": "Ahrefs, 2026"
-   },
-   {
-    "type": "h2",
-    "text": "The shift: from ranking to being the answer"
-   },
-   {
-    "type": "p",
-    "text": "For twenty years, getting found meant **ranking a page**, climbing to the top of the list. The new game, people call it **GEO** (generative engine optimization) or **AEO** (answer engine optimization), is about being the source the AI **quotes**. The goal has not really changed: be the business the machine, and the customer, decide to trust. The surface just moved."
-   },
-   {
-    "type": "figure",
-    "src": "/blog/ai-search-signals.svg",
-    "alt": "Four signals that push a business into an AI answer: clear answers, reviews and mentions, structured data, and a strong local presence",
-    "caption": "What pushes a business into the answer: clear answers to real questions, reviews and mentions, a machine-readable site, and a strong local presence."
-   },
-   {
-    "type": "h2",
-    "text": "What to actually do (that works today)"
-   },
-   {
-    "type": "p",
-    "text": "There is no magic switch, and anyone selling one is guessing. But there is real evidence about what helps. The most striking finding: in a [peer-reviewed study](https://arxiv.org/abs/2311.09735), pages that answered clearly and backed it up with **real statistics, quotes and cited sources** were up to 30 to 40 percent more visible in AI answers. Keyword-stuffing did nothing. In plain terms, the way to win is to genuinely be the best answer."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Answer the real questions, clearly",
-      "body": "Write the plain answers to what customers actually ask: price ranges, opening hours, parking, whether you do X. AI answers are short and question-shaped, so a page that answers one real question in a few clear sentences is exactly the shape it quotes."
-     },
-     {
-      "title": "Be genuinely worth quoting",
-      "body": "Back your answers with real specifics: an actual number, a real example, a named source. This is the one lever with hard evidence behind it. Thin, vague, spun-up text is precisely what the new systems filter out."
-     },
-     {
-      "title": "Own your Google Business Profile",
-      "body": "For local searches, Maps and the local results still decide who gets the call. A complete profile, real photos, current hours and answered reviews do more for a local business than most technical SEO ever did."
-     },
-     {
-      "title": "Earn mentions elsewhere",
-      "body": "AI cross-checks. Because being quoted no longer depends only on your own ranking, honest reviews, a listing in the right local directories and a mention in the local press all help the machine trust and repeat your name."
-     },
-     {
-      "title": "Keep the basics right",
-      "body": "A fast, clean, well-structured site helps people and machines alike. Add structured data (schema) so Google can show rich results, but be honest about it: in the best test to date, schema on its own did not win more AI citations. It is hygiene, not a magic trick."
-     }
+  {
+    "slug": "ai-agent-for-small-business",
+    "category": "AI Agents",
+    "categoryIcon": "chat",
+    "title": "What an AI Agent Actually Does for a Small Business",
+    "description": "AI agent is the buzzword of 2026, but what does one actually do for a small business? A plain-English tour: answering customers 24/7, capturing leads while you work, booking appointments, and knowing when to hand over to a human.",
+    "dek": "Every enquiry you miss after hours is a customer someone else answered. Here is what an AI agent really does for a small business, in plain English, and what it will never do for you.",
+    "keyword": "AI agent for small business",
+    "author": "The Kodable team",
+    "datePublished": "2026-08-15",
+    "ogImage": "ai-agent-for-small-business.jpg",
+    "readMinutes": 9,
+    "takeaways": [
+      "An AI agent is not a pop-up chatbot with canned replies. It understands questions in normal language, answers from your real business information, and takes actions: booking, collecting details, handing over to you.",
+      "Its main job is brutally simple: be there when you cannot. Evenings, weekends, and the hours you are busy doing the actual work are exactly when enquiries slip away.",
+      "Speed is the whole game with new leads. The evidence says the first minutes decide whether you ever reach that person, and an agent replies in seconds, every time.",
+      "An agent converts the demand you already have; it does not invent new demand. It also needs your real answers to work with, and a clear handover to a human for anything it should not decide."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "ai-agents",
+      "label": "See what an agent could handle for you"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-agent-day.svg",
+        "alt": "A timeline of one day at a small business: enquiries arrive at all hours, and an AI agent answers each one in seconds, books appointments and passes the difficult ones to the owner",
+        "caption": "One ordinary day: enquiries do not keep business hours. An agent answers each one in seconds, books what it can, and hands the rest to you."
+      },
+      {
+        "type": "p",
+        "text": "Somebody finds your business at 9:40 on a Tuesday night. They have one question, maybe two, and they are ready to book. You are asleep, or at dinner, or elbow-deep in the actual work you get paid for. By morning, that person has asked someone else. **AI agent** is the buzzword attached to fixing this, and like most buzzwords it gets used to sell all sorts of things. So let us be precise about what one actually does."
+      },
+      {
+        "type": "h2",
+        "text": "First, what an AI agent actually is"
+      },
+      {
+        "type": "p",
+        "text": "You have met the old website chatbot: a widget with five buttons and canned replies, helpful right up until you ask a real question. An **AI agent** is a different animal. It runs on the same kind of AI behind ChatGPT, but it is set up with **your** information: your services, your opening hours, your policies, your prices if you want, your tone. Ask it something in normal language, in the middle of the night, with typos, and it answers the way a well-briefed employee would."
+      },
+      {
+        "type": "p",
+        "text": "The word **agent** matters, because answering is only half the job. A proper agent can also **act**: take a booking, collect a caller's details and what they need, send a confirmation, and flag the conversation for a human when it should. That is the line between a chatbot that talks and an agent that works."
+      },
+      {
+        "type": "h2",
+        "text": "The real problem it solves: you cannot answer everything"
+      },
+      {
+        "type": "p",
+        "text": "A small business misses enquiries for the most honest reason there is: everyone is busy doing the work. The plumber is under a sink. The clinic is with a patient. The restaurant is mid-service. And a lot of demand arrives outside opening hours anyway, because people search when **they** are free, not when you are. None of those enquiries announce themselves twice."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "reply within about five minutes and you are dramatically more likely to reach and qualify a new lead than if you wait even half an hour. Speed to first reply is the single most studied lever in lead response.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "That is the uncomfortable arithmetic: it is rarely the quality of your work that loses the lead, it is the **gap between their question and your answer**. An agent closes that gap to seconds, at 2pm and at 2am, on the day before a holiday, and on the Saturday you finally took off."
+      },
+      {
+        "type": "h2",
+        "text": "What a well-built agent handles in a normal week"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Answers the questions that repeat",
+            "body": "Every business has the same ten questions on a loop: do you do X, how much roughly, where are you, can I come Saturday. The agent answers them instantly and accurately, from information you approved, which also frees you from typing the same reply for the hundredth time."
+          },
+          {
+            "title": "Captures the lead while interest is hot",
+            "body": "When the visitor is a potential customer, the agent does what a good receptionist does: gets their name, contact details and what they need, right there in the conversation. Even if nothing else happens until morning, the lead is caught instead of gone."
+          },
+          {
+            "title": "Books, confirms and reminds",
+            "body": "Connected to your calendar, the agent offers real available slots, books the appointment and sends the confirmation. Reminders cut the no-shows that quietly eat a service business's week."
+          },
+          {
+            "title": "Hands over to a human at the right moment",
+            "body": "A complaint, a negotiation, an unusual request, anything sensitive: a well-configured agent recognises the boundary, says so honestly, and passes the conversation to you with the full context, instead of improvising."
+          },
+          {
+            "title": "Writes everything down",
+            "body": "Every conversation is logged: who asked, what they wanted, what happened next. After a few weeks you can see which questions and services people actually ask about, which is marketing information most small businesses never had."
+          }
+        ]
+      },
+      {
+        "type": "callout",
+        "title": "An honest note",
+        "body": "An agent is only as good as what you give it. Feed it vague or outdated information and it will give vague or outdated answers, faster. The setup work, deciding what it should say, what it must never promise, and when it hands over, is where the real value is built. That part is done by people, once, and then the agent repeats it perfectly."
+      },
+      {
+        "type": "h2",
+        "text": "What an AI agent is not"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**A replacement for you.** It handles the repetitive front door so your time goes to the work and the conversations that genuinely need a person.",
+          "**A generic widget you switch on.** The value comes from the configuration: your services, your rules, your tone, your calendar. An agent that knows nothing about your business is just a chatbot with better grammar.",
+          "**Set-and-forget.** Prices change, hours change, services change. An agent needs the same occasional upkeep as your website, or it starts confidently telling people last year's truth.",
+          "**A source of new demand.** It converts the enquiries you already get and would otherwise miss. If nobody is finding you in the first place, fix [getting found](~/blog/get-found-in-ai-search) first."
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The businesses winning with AI agents are not doing anything clever. They are simply the ones that answer, every time, in seconds.",
+        "cite": "The Kodable team"
+      },
+      {
+        "type": "h2",
+        "text": "How Kodable helps"
+      },
+      {
+        "type": "p",
+        "text": "We build [AI agents](~/services/ai-agents) configured for one specific business: yours. Your services, your rules, your calendar, your tone, in your language and your customers' language, with clear boundaries and a clean handover to you. No generic widget, and no promises an agent cannot keep."
+      },
+      {
+        "type": "cta",
+        "title": "See what an agent could take off your plate",
+        "body": "Tell us how enquiries reach you today, in a 15-minute call. We will map what an agent could answer, book and capture for your business, and what should stay human.",
+        "button": "Talk to us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is this just ChatGPT on my website?"
+      },
+      {
+        "type": "p",
+        "text": "Same family of technology, very different setup. ChatGPT knows the internet; an agent knows your business, and only says what you have approved. It also connects to real things, like your calendar and your inbox, which a plain chat window cannot."
+      },
+      {
+        "type": "h3",
+        "text": "Will customers be annoyed they are talking to an AI?"
+      },
+      {
+        "type": "p",
+        "text": "People are annoyed by dead ends, not by software. An agent that answers the actual question at 11pm beats a contact form that replies in two days. Being upfront that it is an assistant, and handing over to a human smoothly, is part of doing it properly."
+      },
+      {
+        "type": "h3",
+        "text": "What happens when it does not know the answer?"
+      },
+      {
+        "type": "p",
+        "text": "A well-built agent says so, takes the person's details, and passes the conversation to you with context. The failure mode to avoid is an agent that guesses; that is a configuration choice, and we set ours to never do it."
+      },
+      {
+        "type": "h3",
+        "text": "Does this work on WhatsApp or only on my website?"
+      },
+      {
+        "type": "p",
+        "text": "The same agent can sit behind several doors: your website chat, WhatsApp, even the follow-up to a missed call. Where it lives depends on where your customers already write to you."
+      }
     ]
-   },
-   {
-    "type": "h2",
-    "text": "What to ignore"
-   },
-   {
-    "type": "list",
-    "items": [
-     "Anyone **guaranteeing number one on Google**, or now **number one in ChatGPT**. Nobody controls those rankings, and nobody can promise them.",
-     "**Keyword-stuffing** and thin, AI-spun filler articles, the exact thing the new systems are built to filter out.",
-     "**Buying reviews.** Against the rules, increasingly easy to detect, and a fast way to lose trust with customers and Google alike.",
-     "The claim that **schema markup alone gets you into AI answers.** Do it for rich results, but the [best test we have seen](https://ahrefs.com/blog/schema-ai-citations/) found it did not move AI citations by itself.",
-     "Panic. The fundamentals, be findable, be trustworthy, be the best answer, did not change. Only the surface did."
-    ]
-   },
-   {
-    "type": "quote",
-    "text": "AI did not kill getting found. It moved the finish line from ranked first to trusted enough to be quoted.",
-    "cite": "The Kodable team"
-   },
-   {
-    "type": "h2",
-    "text": "How Kodable helps"
-   },
-   {
-    "type": "p",
-    "text": "We build sites made for exactly this: fast, cleanly structured, with your Google Business Profile and local signals set up, and the plain, genuinely useful answers your customers, and the AI, are looking for. No tricks, and no guarantees we cannot keep, just being the clearest, most trustworthy answer in your area, in a form both people and machines understand."
-   },
-   {
-    "type": "cta",
-    "title": "Get a site AI can find and recommend",
-    "body": "Tell us about your business in a 15-minute call. We will show you where you are invisible to AI search today, and what is worth fixing first.",
-    "button": "Talk to us"
-   },
-   {
-    "type": "h2",
-    "text": "Frequently asked questions"
-   },
-   {
-    "type": "h3",
-    "text": "Is SEO dead?"
-   },
-   {
-    "type": "p",
-    "text": "No, it changed. Being findable and trustworthy matters more than ever; the mechanics moved from ten blue links to AI answers and Maps. The work is different, not gone."
-   },
-   {
-    "type": "h3",
-    "text": "What is the difference between SEO, GEO and AEO?"
-   },
-   {
-    "type": "p",
-    "text": "SEO is ranking in the classic list of results. GEO and AEO are about being the source an AI answer quotes. In practice they overlap almost completely: the same clear, trustworthy, well-structured site tends to win all three at once."
-   },
-   {
-    "type": "h3",
-    "text": "Will an AI Overview actually mention my business?"
-   },
-   {
-    "type": "p",
-    "text": "It can, especially for local and specific questions, when your information is clear, consistent across the web, and genuinely useful. There is no guarantee, and anyone promising one is guessing."
-   },
-   {
-    "type": "h3",
-    "text": "Do I need to be on ChatGPT to get found?"
-   },
-   {
-    "type": "p",
-    "text": "You do not publish onto ChatGPT. These tools pull from the open web, your site, your Google profile, your reviews, your mentions. Get those right and you turn up in the answer, wherever the question is asked."
-   }
-  ]
- },
- {
-  "slug": "ai-agent-for-small-business",
-  "category": "AI Agents",
-  "categoryIcon": "chat",
-  "title": "What an AI Agent Actually Does for a Small Business",
-  "description": "AI agent is the buzzword of 2026, but what does one actually do for a small business? A plain-English tour: answering customers 24/7, capturing leads while you work, booking appointments, and knowing when to hand over to a human.",
-  "dek": "Every enquiry you miss after hours is a customer someone else answered. Here is what an AI agent really does for a small business, in plain English, and what it will never do for you.",
-  "keyword": "AI agent for small business",
-  "author": "The Kodable team",
-  "datePublished": "2026-08-15",
-  "ogImage": "ai-agent-for-small-business.jpg",
-  "readMinutes": 9,
-  "takeaways": [
-   "An AI agent is not a pop-up chatbot with canned replies. It understands questions in normal language, answers from your real business information, and takes actions: booking, collecting details, handing over to you.",
-   "Its main job is brutally simple: be there when you cannot. Evenings, weekends, and the hours you are busy doing the actual work are exactly when enquiries slip away.",
-   "Speed is the whole game with new leads. The evidence says the first minutes decide whether you ever reach that person, and an agent replies in seconds, every time.",
-   "An agent converts the demand you already have; it does not invent new demand. It also needs your real answers to work with, and a clear handover to a human for anything it should not decide."
-  ],
-  "related": [
-   "ai-strategy-for-small-business",
-   "automations-for-small-business"
-  ],
-  "cta": {
-   "service": "ai-agents",
-   "label": "See what an agent could handle for you"
   },
-  "body": [
-   {
-    "type": "figure",
-    "src": "/blog/ai-agent-day.svg",
-    "alt": "A timeline of one day at a small business: enquiries arrive at all hours, and an AI agent answers each one in seconds, books appointments and passes the difficult ones to the owner",
-    "caption": "One ordinary day: enquiries do not keep business hours. An agent answers each one in seconds, books what it can, and hands the rest to you."
-   },
-   {
-    "type": "p",
-    "text": "Somebody finds your business at 9:40 on a Tuesday night. They have one question, maybe two, and they are ready to book. You are asleep, or at dinner, or elbow-deep in the actual work you get paid for. By morning, that person has asked someone else. **AI agent** is the buzzword attached to fixing this, and like most buzzwords it gets used to sell all sorts of things. So let us be precise about what one actually does."
-   },
-   {
-    "type": "h2",
-    "text": "First, what an AI agent actually is"
-   },
-   {
-    "type": "p",
-    "text": "You have met the old website chatbot: a widget with five buttons and canned replies, helpful right up until you ask a real question. An **AI agent** is a different animal. It runs on the same kind of AI behind ChatGPT, but it is set up with **your** information: your services, your opening hours, your policies, your prices if you want, your tone. Ask it something in normal language, in the middle of the night, with typos, and it answers the way a well-briefed employee would."
-   },
-   {
-    "type": "p",
-    "text": "The word **agent** matters, because answering is only half the job. A proper agent can also **act**: take a booking, collect a caller's details and what they need, send a confirmation, and flag the conversation for a human when it should. That is the line between a chatbot that talks and an agent that works."
-   },
-   {
-    "type": "h2",
-    "text": "The real problem it solves: you cannot answer everything"
-   },
-   {
-    "type": "p",
-    "text": "A small business misses enquiries for the most honest reason there is: everyone is busy doing the work. The plumber is under a sink. The clinic is with a patient. The restaurant is mid-service. And a lot of demand arrives outside opening hours anyway, because people search when **they** are free, not when you are. None of those enquiries announce themselves twice."
-   },
-   {
-    "type": "stat",
-    "value": "~5 min",
-    "label": "reply within about five minutes and you are dramatically more likely to reach and qualify a new lead than if you wait even half an hour. Speed to first reply is the single most studied lever in lead response.",
-    "source": "the Lead Response Management study (InsideSales / MIT)"
-   },
-   {
-    "type": "p",
-    "text": "That is the uncomfortable arithmetic: it is rarely the quality of your work that loses the lead, it is the **gap between their question and your answer**. An agent closes that gap to seconds, at 2pm and at 2am, on the day before a holiday, and on the Saturday you finally took off."
-   },
-   {
-    "type": "h2",
-    "text": "What a well-built agent handles in a normal week"
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Answers the questions that repeat",
-      "body": "Every business has the same ten questions on a loop: do you do X, how much roughly, where are you, can I come Saturday. The agent answers them instantly and accurately, from information you approved, which also frees you from typing the same reply for the hundredth time."
-     },
-     {
-      "title": "Captures the lead while interest is hot",
-      "body": "When the visitor is a potential customer, the agent does what a good receptionist does: gets their name, contact details and what they need, right there in the conversation. Even if nothing else happens until morning, the lead is caught instead of gone."
-     },
-     {
-      "title": "Books, confirms and reminds",
-      "body": "Connected to your calendar, the agent offers real available slots, books the appointment and sends the confirmation. Reminders cut the no-shows that quietly eat a service business's week."
-     },
-     {
-      "title": "Hands over to a human at the right moment",
-      "body": "A complaint, a negotiation, an unusual request, anything sensitive: a well-configured agent recognises the boundary, says so honestly, and passes the conversation to you with the full context, instead of improvising."
-     },
-     {
-      "title": "Writes everything down",
-      "body": "Every conversation is logged: who asked, what they wanted, what happened next. After a few weeks you can see which questions and services people actually ask about, which is marketing information most small businesses never had."
-     }
+  {
+    "slug": "automations-for-small-business",
+    "category": "Automation",
+    "categoryIcon": "layers",
+    "title": "Small Business Automation: Which Jobs to Stop Doing by Hand First",
+    "description": "A practical guide to small business automation: the seven jobs worth automating first, how to pick the one that pays back fastest, and the mistakes that make automation cost more than it saves.",
+    "dek": "Most small businesses run on a second, unpaid job: the copying, chasing and re-typing that fills the gaps between real work. Here is which parts of it to hand over first, and how to choose without buying six subscriptions you do not need.",
+    "keyword": "small business automation",
+    "author": "The Kodable team",
+    "datePublished": "2026-08-20",
+    "ogImage": "automations-for-small-business.jpg",
+    "readMinutes": 10,
+    "takeaways": [
+      "Automation is not a robot taking over your business. It is a set of small handovers: the same task, done the same way every week, moved off your desk.",
+      "The jobs worth automating first are the ones closest to money: the first reply to an enquiry, the booking reminder, the quote that never got chased, the review that never got asked for.",
+      "Pick by arithmetic, not by excitement. Frequency times minutes times how much it annoys you beats any feature list.",
+      "Automation fails for boring reasons: a broken process gets automated as-is, nobody owns it, or it breaks quietly and nobody notices for a month. All three are avoidable."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "google-business-profile-for-small-business"
+    ],
+    "cta": {
+      "service": "automations",
+      "label": "See what we could automate for you"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/automation-handoffs.svg",
+        "alt": "Two versions of the same enquiry: on the left it passes through an inbox, a notes app and a phone before anyone replies; on the right an automation replies, records the details and books the slot in seconds",
+        "caption": "The same enquiry, twice. On the left it waits for a human to be free. On the right the routine part happens immediately and the human gets what is left."
+      },
+      {
+        "type": "p",
+        "text": "There is the work you get paid for, and then there is the second job. Copying a phone number from WhatsApp into a notes app. Typing the same reply for the ninth time this week. Remembering, at 22:40, that you never sent Tuesday's quote. Nobody invoices for that job, and it still takes hours every week. **Small business automation** is simply the practice of handing the most repetitive parts of it to software, so that the parts that need you actually get you."
+      },
+      {
+        "type": "p",
+        "text": "The word carries more drama than it deserves. This is not a factory arm or an algorithm that runs your company. It is a set of small, unglamorous handovers, and the useful question is never \"should I automate\", it is \"which three things first\"."
+      },
+      {
+        "type": "h2",
+        "text": "What automation actually means at your size"
+      },
+      {
+        "type": "p",
+        "text": "An automation is a rule with a trigger and a consequence. When a form is submitted, send this reply and add the person to this list. When a booking is 24 hours away, send a reminder. When an invoice passes 15 days, nudge politely. That is the whole idea. Everything else is plumbing between the tools you already use."
+      },
+      {
+        "type": "p",
+        "text": "Which is why the honest test for whether something is a candidate is not technical at all. Ask three questions about the task: does it happen **regularly**, does it happen the **same way** each time, and does it need a **judgement** only you can make? Regular and repeatable with no real judgement in it: automate. Judgement in the middle: automate the parts around the judgement and keep the decision."
+      },
+      {
+        "type": "callout",
+        "title": "A quick sanity check",
+        "body": "If you could write down exactly how you do the task, and a competent new hire could follow it on their first day without asking you anything, it is a good automation candidate. If your written instructions end in \"it depends\", it is not, at least not yet."
+      },
+      {
+        "type": "h2",
+        "text": "Why the first reply is where the money leaks"
+      },
+      {
+        "type": "p",
+        "text": "Before the list, one piece of arithmetic that decides the order. Most small businesses lose more revenue in the gap between an enquiry arriving and someone answering it than anywhere else in their admin. Not because the answer is hard, but because the answer is late."
+      },
+      {
+        "type": "stat",
+        "value": "~5 min",
+        "label": "reply within about five minutes and you are dramatically more likely to reach and qualify a new lead than if you wait even half an hour. Speed to first reply is the single most studied lever in lead response.",
+        "source": "the Lead Response Management study (InsideSales / MIT)"
+      },
+      {
+        "type": "p",
+        "text": "You cannot beat that clock by trying harder, because the reason you miss it is that you were doing your job. Software has no such problem. That is why almost every list below is really a variation of the same theme: close the gap between something happening and someone hearing back."
+      },
+      {
+        "type": "h2",
+        "text": "Seven automations worth setting up first"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "An instant, useful reply to every enquiry",
+            "body": "Not an auto-reply that says \"we have received your message\". A real one: thanks, here is what happens next, here is roughly when we will call, and here are the two things it helps to know before we do. It buys you hours of goodwill and stops the person shopping around while they wait."
+          },
+          {
+            "title": "Booking confirmations and reminders",
+            "body": "A confirmation at the moment of booking and a reminder the day before. This is the cheapest automation in existence and it protects the most expensive thing you own: a slot in your calendar that someone forgot about. Add a one-tap way to move the appointment, because a rescheduled slot is worth far more than an empty one."
+          },
+          {
+            "title": "Quote and invoice follow-up",
+            "body": "Most quotes are not rejected, they are forgotten, by both sides. A short follow-up at day three and day ten, and a polite nudge when an invoice goes past its date, recovers work you already did the hard part of. Nobody enjoys chasing, which is exactly why it should not depend on you feeling like it."
+          },
+          {
+            "title": "One place where every lead lands",
+            "body": "Enquiries arrive by web form, WhatsApp, phone, Instagram and someone stopping you in the street. If they live in five places they effectively live nowhere. Route them all into one list with the same fields: name, contact, what they want, where they came from. This one is boring and it changes everything else you can measure."
+          },
+          {
+            "title": "The review request you never remember to send",
+            "body": "Reviews are the strongest signal you have for both local search and the AI answers that increasingly sit above it. Asking is the hard part, so stop asking manually: trigger the request a day or two after the job is finished, while the customer still remembers being pleased. More on why that matters in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
+          },
+          {
+            "title": "The weekly numbers you assemble by hand",
+            "body": "Whatever you export, paste and total every Monday morning: bookings, sales, hours, stock. If you can describe the steps, they can run themselves and land in your inbox before you open the laptop. The value is not the time saved, it is that you actually look at the numbers when they arrive on their own."
+          },
+          {
+            "title": "New-customer onboarding",
+            "body": "The pack of things you send every new client: the form, the address and parking, the document you always need, what happens next and when. Sent automatically, in order, it makes a two-person business feel organised in a way competitors are not, and it stops the back and forth that eats a whole day per client."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How to pick your first one"
+      },
+      {
+        "type": "p",
+        "text": "Resist the urge to start with the most interesting one. Start with the one that pays back fastest, which you can find in about twenty minutes with a pen."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "List what you did twice this week the same way",
+            "body": "Not what you think you do. What you actually repeated: the reply you retyped, the number you copied, the thing you looked up twice. Write down five."
+          },
+          {
+            "title": "Multiply frequency by minutes",
+            "body": "Six times a week at four minutes is roughly seventeen hours a year, on one small task. Two of those and you have found a working week. This number is usually the surprise."
+          },
+          {
+            "title": "Mark the ones that touch money",
+            "body": "A first reply, a reminder, a follow-up on a quote. These do not just save time, they change the outcome. They go to the front of the queue even when they are not the biggest time sink."
+          },
+          {
+            "title": "Ship one, then leave it alone for a month",
+            "body": "One automation, running properly, is worth more than five half-built ones. Give it a month, check that it actually fired every time it should have, then pick the next."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/automation-priority.svg",
+        "alt": "A grid plotting how often a task repeats against how close it is to revenue, with instant replies, reminders and quote follow-ups landing in the high priority corner",
+        "caption": "Two axes are enough: how often it repeats, and how close it sits to money. The top right corner is your first automation."
+      },
+      {
+        "type": "h2",
+        "text": "Where automation goes wrong"
+      },
+      {
+        "type": "p",
+        "text": "It is worth naming the failure modes, because they are predictable and none of them are exotic technology problems."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**A broken process gets automated as it is.** Automation makes a bad workflow happen faster and more often. Fix the steps first, then wire them up.",
+          "**It fails silently.** The integration stops working in March and nobody notices until June, because success looks exactly like doing nothing. Anything automated needs a way to shout when it breaks.",
+          "**It sounds like a robot to your own customers.** Automated does not have to mean impersonal. If the message would embarrass you to send by hand, do not send it a hundred times.",
+          "**Tool sprawl.** Six subscriptions, each doing a slice of one job, none of them talking. The monthly total quietly passes what a single fitted setup would have cost.",
+          "**Nobody owns it.** Every automation needs one person who checks, once a month, that it still does what it was built to do. In a small business that person is usually you, and it takes ten minutes."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Automation, AI agents and custom tools are not the same thing"
+      },
+      {
+        "type": "p",
+        "text": "These three get sold as one blurry product, and choosing badly is expensive. The difference is simple:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**An automation** follows a fixed rule. Same trigger, same steps, every time. Best for anything predictable: reminders, follow-ups, routing, reporting. That is [automations and integrations](~/services/automations).",
+          "**An AI agent** handles the unpredictable half: an actual conversation, in normal language, at any hour, that can answer questions and take a booking. It is what you want when the incoming thing is a person with a question rather than an event with a rule. We wrote a plain-English tour of [what an AI agent actually does](~/blog/ai-agent-for-small-business).",
+          "**A custom tool** is for when your business has a process no off-the-shelf product matches, and the spreadsheet has become a liability. That is [custom tools and apps](~/services/custom-tools)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Most small businesses need the first one, benefit quickly from the second, and only genuinely need the third once the first two are running."
+      },
+      {
+        "type": "callout",
+        "title": "If you are in Spain, this may be funded",
+        "body": "Automation and integration work falls inside several of the funded solution categories under the Kit Digital programme, which means a chunk of it can be covered rather than paid for. The rules, amounts and deadlines are in our [complete guide to Kit Digital 2026](~/blog/kit-digital-2026)."
+      },
+      {
+        "type": "h2",
+        "text": "How Kodable helps"
+      },
+      {
+        "type": "p",
+        "text": "We start with the pen-and-paper part: what actually repeats in your week, what it costs you, and which two or three handovers are worth making first. Then we build them into the tools you already use, with a way to tell you when something breaks. No new stack to learn, no six subscriptions. See [automations and integrations](~/services/automations) for how that works in practice."
+      },
+      {
+        "type": "cta",
+        "title": "Find your first three automations",
+        "body": "Bring us one ordinary week: how enquiries reach you, what you retype, what you chase. In 15 minutes we will tell you which parts are worth handing over first, and which are not worth touching yet.",
+        "button": "Talk to us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Do I have to replace the tools I already use?"
+      },
+      {
+        "type": "p",
+        "text": "Usually not, and you should be suspicious of anyone who says otherwise straight away. Most useful automation is connective: your existing booking system, inbox, spreadsheet and WhatsApp, wired so information moves between them without you carrying it. Replacing a tool is a decision for when the tool itself is the problem, not the default first step."
+      },
+      {
+        "type": "h3",
+        "text": "How small is too small to bother?"
+      },
+      {
+        "type": "p",
+        "text": "A one-person business is often where automation pays back fastest, because there is nobody to delegate to. The threshold is not headcount, it is repetition. If a task happens weekly and takes more than a couple of minutes, it is already worth the arithmetic."
+      },
+      {
+        "type": "h3",
+        "text": "Will my customers be able to tell?"
+      },
+      {
+        "type": "p",
+        "text": "They will notice that you answer quickly, confirm things properly and never lose track of them, which most people read as \"well run\", not \"automated\". What gives it away is generic wording and messages that ignore what the person actually asked. Both are writing problems, not technology problems."
+      },
+      {
+        "type": "h3",
+        "text": "What happens when something changes in my business?"
+      },
+      {
+        "type": "p",
+        "text": "Prices change, hours change, services get added. An automation built around one hard-coded detail becomes wrong quietly, which is the worst way to be wrong. Anything likely to change should sit in one place you can edit, and someone should review the set once a quarter. It is a short job if it happens; it is a mess if it never does."
+      },
+      {
+        "type": "h3",
+        "text": "Is automation the same as artificial intelligence?"
+      },
+      {
+        "type": "p",
+        "text": "No, and mixing them up leads to overpaying. Classic automation is deterministic: a fixed rule, no interpretation, and it is the right answer for most admin. AI comes in where language and judgement are involved, such as understanding a question a customer typed at midnight. A good setup uses each for what it is actually good at."
+      }
     ]
-   },
-   {
-    "type": "callout",
-    "title": "An honest note",
-    "body": "An agent is only as good as what you give it. Feed it vague or outdated information and it will give vague or outdated answers, faster. The setup work, deciding what it should say, what it must never promise, and when it hands over, is where the real value is built. That part is done by people, once, and then the agent repeats it perfectly."
-   },
-   {
-    "type": "h2",
-    "text": "What an AI agent is not"
-   },
-   {
-    "type": "list",
-    "items": [
-     "**A replacement for you.** It handles the repetitive front door so your time goes to the work and the conversations that genuinely need a person.",
-     "**A generic widget you switch on.** The value comes from the configuration: your services, your rules, your tone, your calendar. An agent that knows nothing about your business is just a chatbot with better grammar.",
-     "**Set-and-forget.** Prices change, hours change, services change. An agent needs the same occasional upkeep as your website, or it starts confidently telling people last year's truth.",
-     "**A source of new demand.** It converts the enquiries you already get and would otherwise miss. If nobody is finding you in the first place, fix [getting found](~/blog/get-found-in-ai-search) first."
-    ]
-   },
-   {
-    "type": "quote",
-    "text": "The businesses winning with AI agents are not doing anything clever. They are simply the ones that answer, every time, in seconds.",
-    "cite": "The Kodable team"
-   },
-   {
-    "type": "h2",
-    "text": "How Kodable helps"
-   },
-   {
-    "type": "p",
-    "text": "We build [AI agents](~/services/ai-agents) configured for one specific business: yours. Your services, your rules, your calendar, your tone, in your language and your customers' language, with clear boundaries and a clean handover to you. No generic widget, and no promises an agent cannot keep."
-   },
-   {
-    "type": "cta",
-    "title": "See what an agent could take off your plate",
-    "body": "Tell us how enquiries reach you today, in a 15-minute call. We will map what an agent could answer, book and capture for your business, and what should stay human.",
-    "button": "Talk to us"
-   },
-   {
-    "type": "h2",
-    "text": "Frequently asked questions"
-   },
-   {
-    "type": "h3",
-    "text": "Is this just ChatGPT on my website?"
-   },
-   {
-    "type": "p",
-    "text": "Same family of technology, very different setup. ChatGPT knows the internet; an agent knows your business, and only says what you have approved. It also connects to real things, like your calendar and your inbox, which a plain chat window cannot."
-   },
-   {
-    "type": "h3",
-    "text": "Will customers be annoyed they are talking to an AI?"
-   },
-   {
-    "type": "p",
-    "text": "People are annoyed by dead ends, not by software. An agent that answers the actual question at 11pm beats a contact form that replies in two days. Being upfront that it is an assistant, and handing over to a human smoothly, is part of doing it properly."
-   },
-   {
-    "type": "h3",
-    "text": "What happens when it does not know the answer?"
-   },
-   {
-    "type": "p",
-    "text": "A well-built agent says so, takes the person's details, and passes the conversation to you with context. The failure mode to avoid is an agent that guesses; that is a configuration choice, and we set ours to never do it."
-   },
-   {
-    "type": "h3",
-    "text": "Does this work on WhatsApp or only on my website?"
-   },
-   {
-    "type": "p",
-    "text": "The same agent can sit behind several doors: your website chat, WhatsApp, even the follow-up to a missed call. Where it lives depends on where your customers already write to you."
-   }
-  ]
- },
- {
-  "slug": "automations-for-small-business",
-  "category": "Automation",
-  "categoryIcon": "layers",
-  "title": "Small Business Automation: Which Jobs to Stop Doing by Hand First",
-  "description": "A practical guide to small business automation: the seven jobs worth automating first, how to pick the one that pays back fastest, and the mistakes that make automation cost more than it saves.",
-  "dek": "Most small businesses run on a second, unpaid job: the copying, chasing and re-typing that fills the gaps between real work. Here is which parts of it to hand over first, and how to choose without buying six subscriptions you do not need.",
-  "keyword": "small business automation",
-  "author": "The Kodable team",
-  "datePublished": "2026-08-20",
-  "ogImage": "automations-for-small-business.jpg",
-  "readMinutes": 10,
-  "takeaways": [
-   "Automation is not a robot taking over your business. It is a set of small handovers: the same task, done the same way every week, moved off your desk.",
-   "The jobs worth automating first are the ones closest to money: the first reply to an enquiry, the booking reminder, the quote that never got chased, the review that never got asked for.",
-   "Pick by arithmetic, not by excitement. Frequency times minutes times how much it annoys you beats any feature list.",
-   "Automation fails for boring reasons: a broken process gets automated as-is, nobody owns it, or it breaks quietly and nobody notices for a month. All three are avoidable."
-  ],
-  "related": [
-   "ai-strategy-for-small-business",
-   "ai-agent-for-small-business"
-  ],
-  "cta": {
-   "service": "automations",
-   "label": "See what we could automate for you"
   },
-  "body": [
-   {
-    "type": "figure",
-    "src": "/blog/automation-handoffs.svg",
-    "alt": "Two versions of the same enquiry: on the left it passes through an inbox, a notes app and a phone before anyone replies; on the right an automation replies, records the details and books the slot in seconds",
-    "caption": "The same enquiry, twice. On the left it waits for a human to be free. On the right the routine part happens immediately and the human gets what is left."
-   },
-   {
-    "type": "p",
-    "text": "There is the work you get paid for, and then there is the second job. Copying a phone number from WhatsApp into a notes app. Typing the same reply for the ninth time this week. Remembering, at 22:40, that you never sent Tuesday's quote. Nobody invoices for that job, and it still takes hours every week. **Small business automation** is simply the practice of handing the most repetitive parts of it to software, so that the parts that need you actually get you."
-   },
-   {
-    "type": "p",
-    "text": "The word carries more drama than it deserves. This is not a factory arm or an algorithm that runs your company. It is a set of small, unglamorous handovers, and the useful question is never \"should I automate\", it is \"which three things first\"."
-   },
-   {
-    "type": "h2",
-    "text": "What automation actually means at your size"
-   },
-   {
-    "type": "p",
-    "text": "An automation is a rule with a trigger and a consequence. When a form is submitted, send this reply and add the person to this list. When a booking is 24 hours away, send a reminder. When an invoice passes 15 days, nudge politely. That is the whole idea. Everything else is plumbing between the tools you already use."
-   },
-   {
-    "type": "p",
-    "text": "Which is why the honest test for whether something is a candidate is not technical at all. Ask three questions about the task: does it happen **regularly**, does it happen the **same way** each time, and does it need a **judgement** only you can make? Regular and repeatable with no real judgement in it: automate. Judgement in the middle: automate the parts around the judgement and keep the decision."
-   },
-   {
-    "type": "callout",
-    "title": "A quick sanity check",
-    "body": "If you could write down exactly how you do the task, and a competent new hire could follow it on their first day without asking you anything, it is a good automation candidate. If your written instructions end in \"it depends\", it is not, at least not yet."
-   },
-   {
-    "type": "h2",
-    "text": "Why the first reply is where the money leaks"
-   },
-   {
-    "type": "p",
-    "text": "Before the list, one piece of arithmetic that decides the order. Most small businesses lose more revenue in the gap between an enquiry arriving and someone answering it than anywhere else in their admin. Not because the answer is hard, but because the answer is late."
-   },
-   {
-    "type": "stat",
-    "value": "~5 min",
-    "label": "reply within about five minutes and you are dramatically more likely to reach and qualify a new lead than if you wait even half an hour. Speed to first reply is the single most studied lever in lead response.",
-    "source": "the Lead Response Management study (InsideSales / MIT)"
-   },
-   {
-    "type": "p",
-    "text": "You cannot beat that clock by trying harder, because the reason you miss it is that you were doing your job. Software has no such problem. That is why almost every list below is really a variation of the same theme: close the gap between something happening and someone hearing back."
-   },
-   {
-    "type": "h2",
-    "text": "Seven automations worth setting up first"
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "An instant, useful reply to every enquiry",
-      "body": "Not an auto-reply that says \"we have received your message\". A real one: thanks, here is what happens next, here is roughly when we will call, and here are the two things it helps to know before we do. It buys you hours of goodwill and stops the person shopping around while they wait."
-     },
-     {
-      "title": "Booking confirmations and reminders",
-      "body": "A confirmation at the moment of booking and a reminder the day before. This is the cheapest automation in existence and it protects the most expensive thing you own: a slot in your calendar that someone forgot about. Add a one-tap way to move the appointment, because a rescheduled slot is worth far more than an empty one."
-     },
-     {
-      "title": "Quote and invoice follow-up",
-      "body": "Most quotes are not rejected, they are forgotten, by both sides. A short follow-up at day three and day ten, and a polite nudge when an invoice goes past its date, recovers work you already did the hard part of. Nobody enjoys chasing, which is exactly why it should not depend on you feeling like it."
-     },
-     {
-      "title": "One place where every lead lands",
-      "body": "Enquiries arrive by web form, WhatsApp, phone, Instagram and someone stopping you in the street. If they live in five places they effectively live nowhere. Route them all into one list with the same fields: name, contact, what they want, where they came from. This one is boring and it changes everything else you can measure."
-     },
-     {
-      "title": "The review request you never remember to send",
-      "body": "Reviews are the strongest signal you have for both local search and the AI answers that increasingly sit above it. Asking is the hard part, so stop asking manually: trigger the request a day or two after the job is finished, while the customer still remembers being pleased. More on why that matters in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
-     },
-     {
-      "title": "The weekly numbers you assemble by hand",
-      "body": "Whatever you export, paste and total every Monday morning: bookings, sales, hours, stock. If you can describe the steps, they can run themselves and land in your inbox before you open the laptop. The value is not the time saved, it is that you actually look at the numbers when they arrive on their own."
-     },
-     {
-      "title": "New-customer onboarding",
-      "body": "The pack of things you send every new client: the form, the address and parking, the document you always need, what happens next and when. Sent automatically, in order, it makes a two-person business feel organised in a way competitors are not, and it stops the back and forth that eats a whole day per client."
-     }
+  {
+    "slug": "ai-strategy-for-small-business",
+    "category": "AI Strategy",
+    "categoryIcon": "spark",
+    "title": "AI Strategy for a Small Business: How to Pick the Three Things Worth Doing",
+    "description": "An AI strategy for a small business without the hype: how to find the few jobs worth handing to software, how to choose the first one, and a 90 day plan to prove it works.",
+    "dek": "Every week brings another tool you are supposed to be using already. Here is a way to decide what your business actually needs, in one afternoon, using nothing more expensive than a list of the work you already do.",
+    "keyword": "AI strategy for small business",
+    "author": "The Kodable team",
+    "datePublished": "2026-08-21",
+    "ogImage": "ai-strategy-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "An AI strategy at your size is not a document. It is a short, ordered list of jobs you have decided to stop doing by hand, and one you have decided to start with.",
+      "Choose from your own week, not from a tool list. The work that repeats, follows the same shape every time and sits close to money is where the payback is.",
+      "There are four places AI reliably earns its keep in a small business: being found, answering, following through and knowing your own numbers. Almost everything else is a distraction until those work.",
+      "Ninety days is enough to prove or kill any single idea. If you cannot say what would count as failure before you start, you are not testing anything."
+    ],
+    "related": [
+      "ai-agent-for-small-business",
+      "automations-for-small-business",
+      "get-found-in-ai-search"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Talk through what your business actually needs"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-map.jpg",
+        "alt": "An isometric grid of pale grey blocks representing all the work in a small business, with a handful of blocks picked out in navy and joined by arrows, standing for the few jobs chosen for AI",
+        "caption": "A strategy is not the whole grid. It is the three blocks you picked, and the order you picked them in."
+      },
+      {
+        "type": "p",
+        "text": "You have probably been told, several times this year, that your business needs AI. Rarely by someone who could say which part of your business, or what it would replace, or how you would know afterwards whether it worked. That is not a strategy, it is a mood. An **AI strategy for a small business** is something much smaller and much more useful: a short list of jobs you have decided to stop doing by hand, in the order you intend to stop doing them."
+      },
+      {
+        "type": "p",
+        "text": "This guide is the method we use with owners who have between two and thirty people, no in-house technical team, and no appetite for a six month project. It takes an afternoon, it costs nothing to run, and it usually ends with three candidates and one decision."
+      },
+      {
+        "type": "h2",
+        "text": "What a strategy actually means when you are five people, not five hundred"
+      },
+      {
+        "type": "p",
+        "text": "Large companies write AI strategies because they have to coordinate hundreds of people around a shared bet. You do not have that problem. Your constraint is not alignment, it is attention: you can seriously change one thing at a time, and only if it does not break the week while you change it."
+      },
+      {
+        "type": "p",
+        "text": "So the useful version of the document is four lines long. What is the job. Who does it today. What replaces them doing it. How we will know in ninety days. Anything longer than that is a plan you will not read again, and plans you do not read again do not change anything."
+      },
+      {
+        "type": "callout",
+        "title": "The one sentence version",
+        "body": "If your strategy cannot be said out loud in one breath, in language a new employee would understand, it is not a strategy yet. \"We are going to stop typing the first reply to every enquiry\" is a strategy. \"We are going to leverage AI across the customer journey\" is a wish."
+      },
+      {
+        "type": "h2",
+        "text": "Start from your week, not from the tool list"
+      },
+      {
+        "type": "p",
+        "text": "The most common mistake is starting at the wrong end: reading about what a tool can do, then hunting your business for somewhere to put it. That gets you a subscription and no change in how the week feels. Reverse it. The week you already have is the brief."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Write down what actually filled the week",
+            "body": "Not the job description version. The real one: the twenty minutes on the phone confirming an appointment, the reply retyped for the ninth time, the number copied from one app into another, the Monday spreadsheet. Do it for one ordinary week, on paper, as it happens. Recalling it later always flatters you."
+          },
+          {
+            "title": "Mark everything that repeated",
+            "body": "Put a mark next to anything that happened more than twice in the same shape. Repetition is the whole signal. A task that varies every time needs judgement and is a poor first candidate. A task you could describe to a new hire on day one is an excellent one."
+          },
+          {
+            "title": "Circle the ones that touch money",
+            "body": "Some of that repeated work sits directly between a stranger and a paying customer: the first reply, the quote, the booking, the follow-up, the review request. Some of it does not: filing, tidying, formatting. Both are worth fixing eventually. Only the first kind pays you back fast enough to fund the rest."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "What is left after those three passes is your real shortlist, and it will usually surprise you. Owners tend to arrive convinced the answer is a chatbot on the website, and leave having realised the expensive problem was that quotes go out two days late."
+      },
+      {
+        "type": "h2",
+        "text": "The four places AI pays for itself in a small business"
+      },
+      {
+        "type": "p",
+        "text": "Across the businesses we work with, almost everything worth doing falls into one of four buckets. They are ordered here roughly the way we would sequence them, because each one makes the next one worth more."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Being found, including by the machines that answer first",
+            "body": "There is no point automating your replies if nothing arrives to reply to. A growing share of people never reach a list of links at all: they ask, they get an answer, they act on it. Making your business legible to those systems is now part of being visible at all, which we cover in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
+          },
+          {
+            "title": "Answering, at the moment someone asks",
+            "body": "The hours between an enquiry and a reply are where most small businesses quietly lose work, and no amount of discipline fixes it, because you were busy earning. An [AI agent that handles the first conversation](~/blog/ai-agent-for-small-business) answers the routine questions, takes the details, and hands you a person who is already halfway qualified."
+          },
+          {
+            "title": "Following through, without you remembering",
+            "body": "Confirmations, reminders, the quote nobody chased, the invoice that went quiet, the review you never asked for. Individually trivial, collectively a part-time job. This is ordinary [small business automation](~/blog/automations-for-small-business), and it is usually the cheapest money on the table."
+          },
+          {
+            "title": "Knowing your own numbers without assembling them",
+            "body": "The Monday morning export-paste-total ritual, or worse, the numbers you never look at because assembling them is a chore. A small [custom tool](~/services/custom-tools) that pulls the same figures into the same shape every week changes decisions, because you finally see the trend rather than the last thing that happened."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Notice that none of these is \"add AI to the product\". At your size the returns are in the operations, not the offering. That is not a lesser ambition, it is where the hours and the lost revenue actually live."
+      },
+      {
+        "type": "stat",
+        "value": "2.5 billion",
+        "label": "people a month now use Google's AI Overviews. If your first instinct is that AI is something happening to other businesses, this is the number that says otherwise: it is already sitting between you and the people looking for you.",
+        "source": "Google I/O, May 2026"
+      },
+      {
+        "type": "h2",
+        "text": "How to choose the first one"
+      },
+      {
+        "type": "p",
+        "text": "You now have a shortlist and four buckets. To get from there to a single decision, score each candidate out of five on four questions. No spreadsheet required, and honestly, no great precision required either: the winner is usually obvious once the questions are asked out loud."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How often does it happen?** Daily beats weekly beats monthly, by a lot. Frequency multiplied by minutes is the only time saving that is real.",
+          "**How close is it to money?** Does fixing it win work, keep work, or get paid faster? If the honest answer is none of those, it is a comfort project.",
+          "**How well can you describe it?** If you can write the rules down and a new hire could follow them without asking you, it is ready. If your instructions end in \"it depends\", keep the judgement and automate around it.",
+          "**What happens if it fails?** Prefer things that fail visibly and cheaply. A missed reminder is an annoyance. A wrong price sent to a customer is a different category, and needs a human in the loop."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Pick the highest score. Then, and this is the part people skip, write down what would make you call it a failure. \"Still doing this by hand in November\" is a fine definition. Without one you will keep a mediocre change alive out of politeness to your own decision."
+      },
+      {
+        "type": "callout",
+        "title": "Two things to leave for later",
+        "body": "Anything that requires every member of staff to change how they work on day one, and anything whose value depends on data you do not currently collect. Both are sometimes worth doing. Neither is a first move, because both fail for reasons that have nothing to do with whether the idea was good."
+      },
+      {
+        "type": "figure",
+        "src": "/blog/ai-strategy-90-days.svg",
+        "alt": "A ninety day timeline in three thirty day blocks: choose and instrument, build the smallest version, then measure and decide to keep, fix or drop",
+        "caption": "Ninety days, three moves. The last box is the one that makes the first two worth doing."
+      },
+      {
+        "type": "h2",
+        "text": "A 90 day plan that does not need a budget meeting"
+      },
+      {
+        "type": "p",
+        "text": "Ninety days is long enough for a real change to show up in the numbers and short enough that you will still remember why you started. Split it into three."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Days 1 to 30: choose it and measure it as it is",
+            "body": "Do the week audit, pick the one job, and then measure the current state before you change anything. How many enquiries came in, how long did the first reply take, how many quotes went out, how many were chased. Rough counts on paper are fine. Skipping this is the single most common reason people cannot tell later whether it worked."
+          },
+          {
+            "title": "Days 31 to 60: build the smallest version that could work",
+            "body": "Not the complete system. The narrowest slice that touches a real customer: one channel, one type of enquiry, one reminder. Small enough to switch off in a minute if it misbehaves. Run it live, watch it daily for the first week, and keep a note of every case where you had to step in."
+          },
+          {
+            "title": "Days 61 to 90: compare, then decide out loud",
+            "body": "Put the new numbers next to the old ones and make one of three calls: keep it and widen it, fix the one thing holding it back, or drop it and take the next candidate. Deciding out loud matters. A thing nobody ever decided about keeps consuming attention forever."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What to keep firmly human"
+      },
+      {
+        "type": "p",
+        "text": "A good strategy is as clear about what it will not touch. In a small business your advantage over larger competitors is that a customer can reach someone who knows the answer and can make a decision. Automating that away to save a few minutes is a poor trade at any price."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Anything involving an unhappy customer. The recovery conversation is worth more than the original sale, and it needs a person who can apologise and mean it.",
+          "Pricing exceptions, negotiations and promises about timing. These are commitments, and commitments should be made by someone accountable for keeping them.",
+          "The final word on anything that goes out under your name in public. Draft with software, sign as yourself.",
+          "The first conversation with the kind of customer you most want more of. That is research, not admin, and you should not outsource your own market research."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Five ways this goes wrong"
+      },
+      {
+        "type": "p",
+        "text": "The failures are boringly consistent, which is good news, because it makes them easy to avoid."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Automating a broken process",
+            "body": "Software makes an existing process faster and more consistent, including a bad one. If the current version confuses customers, you are about to confuse them at scale. Fix the shape first, on paper, then hand it over."
+          },
+          {
+            "title": "Buying five tools before finishing one",
+            "body": "Enthusiasm spends easily. Five half-configured subscriptions produce five monthly charges and no change in the week. Finish one, in full, before the second one is allowed to exist."
+          },
+          {
+            "title": "Nobody owning it",
+            "body": "Every automated thing needs one named person who notices when it stops. Not a committee, and not \"we will all keep an eye on it\", which reliably means nobody does."
+          },
+          {
+            "title": "Failing silently",
+            "body": "The worst outcome is not an automation that breaks. It is one that breaks quietly in June and gets discovered in August. Anything that runs on your behalf should tell you when it did not, or at least tell you weekly that it did."
+          },
+          {
+            "title": "No before to compare the after to",
+            "body": "Without a rough baseline, every result is a matter of opinion, and opinions about your own decisions are generous. Ten minutes of counting in week one settles arguments in month three."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What it should feel like after a year"
+      },
+      {
+        "type": "p",
+        "text": "If this works, the change is not dramatic and it does not look like the brochure. Enquiries get answered while you are still holding a drill. Quotes go out the same day and get chased without you feeling like a nuisance. Monday's numbers are in your inbox before you open the laptop. Reviews arrive because someone asked at the right moment, and the businesses that get recommended are the ones with reviews to recommend."
+      },
+      {
+        "type": "p",
+        "text": "None of that is a robot running your company. It is three or four small handovers, chosen in the right order, each of which gave you back a slice of the week you were spending on work nobody was paying you for. That is the whole of an AI strategy at your size, and it is genuinely most of the available benefit."
+      },
+      {
+        "type": "cta",
+        "title": "Not sure which three are yours?",
+        "body": "That is usually a forty minute conversation, not a project. Tell us what your week looks like and we will tell you honestly which parts are worth handing over, which parts are not, and what the smallest useful first version would be.",
+        "button": "Talk it through with us"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Do I need someone technical before I can start?"
+      },
+      {
+        "type": "p",
+        "text": "Not for the deciding part, which is the part that matters most and the part nobody can do for you. The week audit, the shortlist and the choice are business decisions, not technical ones. You need technical help to build the thing, and much less of it than people expect once the job is described precisely."
+      },
+      {
+        "type": "h3",
+        "text": "How much should a small business spend on this in the first year?"
+      },
+      {
+        "type": "p",
+        "text": "Less than the instinct says, and in stages. The point of the ninety day structure is that you spend on one narrow thing, see whether it moved a number you were already tracking, and only then decide whether to widen it. Anything that requires committing a year of budget before you have evidence is a worse deal than it looks."
+      },
+      {
+        "type": "h3",
+        "text": "What if my business feels too small or too traditional for AI?"
+      },
+      {
+        "type": "p",
+        "text": "Small usually helps, because there is nobody to consult and nothing to migrate. Traditional helps too: the more of your admin still runs on phone calls, paper and memory, the more of it is repeated work with an obvious shape. The businesses that get least from this are the ones already running tidy software everywhere."
+      },
+      {
+        "type": "h3",
+        "text": "Is a strategy just picking which AI subscription to buy?"
+      },
+      {
+        "type": "p",
+        "text": "No, and starting from the subscription is the failure mode this whole method is designed to avoid. The tool is the last decision, not the first. Once the job is defined precisely enough to hand over, the choice of tool is usually narrow and occasionally turns out to be something you already pay for."
+      },
+      {
+        "type": "h3",
+        "text": "What happens if I choose the wrong first project?"
+      },
+      {
+        "type": "p",
+        "text": "You lose ninety days and learn where the real constraint is, which is why the first one should be small and switchable off. The expensive mistake is not choosing wrong, it is choosing something so large that you cannot tell whether it worked and cannot stop it once you suspect it did not."
+      }
     ]
-   },
-   {
-    "type": "h2",
-    "text": "How to pick your first one"
-   },
-   {
-    "type": "p",
-    "text": "Resist the urge to start with the most interesting one. Start with the one that pays back fastest, which you can find in about twenty minutes with a pen."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "List what you did twice this week the same way",
-      "body": "Not what you think you do. What you actually repeated: the reply you retyped, the number you copied, the thing you looked up twice. Write down five."
-     },
-     {
-      "title": "Multiply frequency by minutes",
-      "body": "Six times a week at four minutes is roughly seventeen hours a year, on one small task. Two of those and you have found a working week. This number is usually the surprise."
-     },
-     {
-      "title": "Mark the ones that touch money",
-      "body": "A first reply, a reminder, a follow-up on a quote. These do not just save time, they change the outcome. They go to the front of the queue even when they are not the biggest time sink."
-     },
-     {
-      "title": "Ship one, then leave it alone for a month",
-      "body": "One automation, running properly, is worth more than five half-built ones. Give it a month, check that it actually fired every time it should have, then pick the next."
-     }
-    ]
-   },
-   {
-    "type": "figure",
-    "src": "/blog/automation-priority.svg",
-    "alt": "A grid plotting how often a task repeats against how close it is to revenue, with instant replies, reminders and quote follow-ups landing in the high priority corner",
-    "caption": "Two axes are enough: how often it repeats, and how close it sits to money. The top right corner is your first automation."
-   },
-   {
-    "type": "h2",
-    "text": "Where automation goes wrong"
-   },
-   {
-    "type": "p",
-    "text": "It is worth naming the failure modes, because they are predictable and none of them are exotic technology problems."
-   },
-   {
-    "type": "list",
-    "items": [
-     "**A broken process gets automated as it is.** Automation makes a bad workflow happen faster and more often. Fix the steps first, then wire them up.",
-     "**It fails silently.** The integration stops working in March and nobody notices until June, because success looks exactly like doing nothing. Anything automated needs a way to shout when it breaks.",
-     "**It sounds like a robot to your own customers.** Automated does not have to mean impersonal. If the message would embarrass you to send by hand, do not send it a hundred times.",
-     "**Tool sprawl.** Six subscriptions, each doing a slice of one job, none of them talking. The monthly total quietly passes what a single fitted setup would have cost.",
-     "**Nobody owns it.** Every automation needs one person who checks, once a month, that it still does what it was built to do. In a small business that person is usually you, and it takes ten minutes."
-    ]
-   },
-   {
-    "type": "h2",
-    "text": "Automation, AI agents and custom tools are not the same thing"
-   },
-   {
-    "type": "p",
-    "text": "These three get sold as one blurry product, and choosing badly is expensive. The difference is simple:"
-   },
-   {
-    "type": "list",
-    "items": [
-     "**An automation** follows a fixed rule. Same trigger, same steps, every time. Best for anything predictable: reminders, follow-ups, routing, reporting. That is [automations and integrations](~/services/automations).",
-     "**An AI agent** handles the unpredictable half: an actual conversation, in normal language, at any hour, that can answer questions and take a booking. It is what you want when the incoming thing is a person with a question rather than an event with a rule. We wrote a plain-English tour of [what an AI agent actually does](~/blog/ai-agent-for-small-business).",
-     "**A custom tool** is for when your business has a process no off-the-shelf product matches, and the spreadsheet has become a liability. That is [custom tools and apps](~/services/custom-tools)."
-    ]
-   },
-   {
-    "type": "p",
-    "text": "Most small businesses need the first one, benefit quickly from the second, and only genuinely need the third once the first two are running."
-   },
-   {
-    "type": "callout",
-    "title": "If you are in Spain, this may be funded",
-    "body": "Automation and integration work falls inside several of the funded solution categories under the Kit Digital programme, which means a chunk of it can be covered rather than paid for. The rules, amounts and deadlines are in our [complete guide to Kit Digital 2026](~/blog/kit-digital-2026)."
-   },
-   {
-    "type": "h2",
-    "text": "How Kodable helps"
-   },
-   {
-    "type": "p",
-    "text": "We start with the pen-and-paper part: what actually repeats in your week, what it costs you, and which two or three handovers are worth making first. Then we build them into the tools you already use, with a way to tell you when something breaks. No new stack to learn, no six subscriptions. See [automations and integrations](~/services/automations) for how that works in practice."
-   },
-   {
-    "type": "cta",
-    "title": "Find your first three automations",
-    "body": "Bring us one ordinary week: how enquiries reach you, what you retype, what you chase. In 15 minutes we will tell you which parts are worth handing over first, and which are not worth touching yet.",
-    "button": "Talk to us"
-   },
-   {
-    "type": "h2",
-    "text": "Frequently asked questions"
-   },
-   {
-    "type": "h3",
-    "text": "Do I have to replace the tools I already use?"
-   },
-   {
-    "type": "p",
-    "text": "Usually not, and you should be suspicious of anyone who says otherwise straight away. Most useful automation is connective: your existing booking system, inbox, spreadsheet and WhatsApp, wired so information moves between them without you carrying it. Replacing a tool is a decision for when the tool itself is the problem, not the default first step."
-   },
-   {
-    "type": "h3",
-    "text": "How small is too small to bother?"
-   },
-   {
-    "type": "p",
-    "text": "A one-person business is often where automation pays back fastest, because there is nobody to delegate to. The threshold is not headcount, it is repetition. If a task happens weekly and takes more than a couple of minutes, it is already worth the arithmetic."
-   },
-   {
-    "type": "h3",
-    "text": "Will my customers be able to tell?"
-   },
-   {
-    "type": "p",
-    "text": "They will notice that you answer quickly, confirm things properly and never lose track of them, which most people read as \"well run\", not \"automated\". What gives it away is generic wording and messages that ignore what the person actually asked. Both are writing problems, not technology problems."
-   },
-   {
-    "type": "h3",
-    "text": "What happens when something changes in my business?"
-   },
-   {
-    "type": "p",
-    "text": "Prices change, hours change, services get added. An automation built around one hard-coded detail becomes wrong quietly, which is the worst way to be wrong. Anything likely to change should sit in one place you can edit, and someone should review the set once a quarter. It is a short job if it happens; it is a mess if it never does."
-   },
-   {
-    "type": "h3",
-    "text": "Is automation the same as artificial intelligence?"
-   },
-   {
-    "type": "p",
-    "text": "No, and mixing them up leads to overpaying. Classic automation is deterministic: a fixed rule, no interpretation, and it is the right answer for most admin. AI comes in where language and judgement are involved, such as understanding a question a customer typed at midnight. A good setup uses each for what it is actually good at."
-   }
-  ]
- },
- {
-  "slug": "ai-strategy-for-small-business",
-  "category": "AI Strategy",
-  "categoryIcon": "spark",
-  "title": "AI Strategy for a Small Business: How to Pick the Three Things Worth Doing",
-  "description": "An AI strategy for a small business without the hype: how to find the few jobs worth handing to software, how to choose the first one, and a 90 day plan to prove it works.",
-  "dek": "Every week brings another tool you are supposed to be using already. Here is a way to decide what your business actually needs, in one afternoon, using nothing more expensive than a list of the work you already do.",
-  "keyword": "AI strategy for small business",
-  "author": "The Kodable team",
-  "datePublished": "2026-08-21",
-  "ogImage": "ai-strategy-for-small-business.jpg",
-  "readMinutes": 11,
-  "takeaways": [
-   "An AI strategy at your size is not a document. It is a short, ordered list of jobs you have decided to stop doing by hand, and one you have decided to start with.",
-   "Choose from your own week, not from a tool list. The work that repeats, follows the same shape every time and sits close to money is where the payback is.",
-   "There are four places AI reliably earns its keep in a small business: being found, answering, following through and knowing your own numbers. Almost everything else is a distraction until those work.",
-   "Ninety days is enough to prove or kill any single idea. If you cannot say what would count as failure before you start, you are not testing anything."
-  ],
-  "related": [
-   "ai-agent-for-small-business",
-   "automations-for-small-business",
-   "get-found-in-ai-search"
-  ],
-  "cta": {
-   "service": "custom-tools",
-   "label": "Talk through what your business actually needs"
   },
-  "body": [
-   {
-    "type": "figure",
-    "src": "/blog/ai-strategy-map.jpg",
-    "alt": "An isometric grid of pale grey blocks representing all the work in a small business, with a handful of blocks picked out in navy and joined by arrows, standing for the few jobs chosen for AI",
-    "caption": "A strategy is not the whole grid. It is the three blocks you picked, and the order you picked them in."
-   },
-   {
-    "type": "p",
-    "text": "You have probably been told, several times this year, that your business needs AI. Rarely by someone who could say which part of your business, or what it would replace, or how you would know afterwards whether it worked. That is not a strategy, it is a mood. An **AI strategy for a small business** is something much smaller and much more useful: a short list of jobs you have decided to stop doing by hand, in the order you intend to stop doing them."
-   },
-   {
-    "type": "p",
-    "text": "This guide is the method we use with owners who have between two and thirty people, no in-house technical team, and no appetite for a six month project. It takes an afternoon, it costs nothing to run, and it usually ends with three candidates and one decision."
-   },
-   {
-    "type": "h2",
-    "text": "What a strategy actually means when you are five people, not five hundred"
-   },
-   {
-    "type": "p",
-    "text": "Large companies write AI strategies because they have to coordinate hundreds of people around a shared bet. You do not have that problem. Your constraint is not alignment, it is attention: you can seriously change one thing at a time, and only if it does not break the week while you change it."
-   },
-   {
-    "type": "p",
-    "text": "So the useful version of the document is four lines long. What is the job. Who does it today. What replaces them doing it. How we will know in ninety days. Anything longer than that is a plan you will not read again, and plans you do not read again do not change anything."
-   },
-   {
-    "type": "callout",
-    "title": "The one sentence version",
-    "body": "If your strategy cannot be said out loud in one breath, in language a new employee would understand, it is not a strategy yet. \"We are going to stop typing the first reply to every enquiry\" is a strategy. \"We are going to leverage AI across the customer journey\" is a wish."
-   },
-   {
-    "type": "h2",
-    "text": "Start from your week, not from the tool list"
-   },
-   {
-    "type": "p",
-    "text": "The most common mistake is starting at the wrong end: reading about what a tool can do, then hunting your business for somewhere to put it. That gets you a subscription and no change in how the week feels. Reverse it. The week you already have is the brief."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Write down what actually filled the week",
-      "body": "Not the job description version. The real one: the twenty minutes on the phone confirming an appointment, the reply retyped for the ninth time, the number copied from one app into another, the Monday spreadsheet. Do it for one ordinary week, on paper, as it happens. Recalling it later always flatters you."
-     },
-     {
-      "title": "Mark everything that repeated",
-      "body": "Put a mark next to anything that happened more than twice in the same shape. Repetition is the whole signal. A task that varies every time needs judgement and is a poor first candidate. A task you could describe to a new hire on day one is an excellent one."
-     },
-     {
-      "title": "Circle the ones that touch money",
-      "body": "Some of that repeated work sits directly between a stranger and a paying customer: the first reply, the quote, the booking, the follow-up, the review request. Some of it does not: filing, tidying, formatting. Both are worth fixing eventually. Only the first kind pays you back fast enough to fund the rest."
-     }
+  {
+    "slug": "google-business-profile-for-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "pin",
+    "title": "Google Business Profile for Small Business: What Actually Ranks",
+    "description": "Set up and optimise a Google Business Profile for a small business: the fields Google ranks on, a ten-minute weekly routine, and reviews that run themselves.",
+    "dek": "For most local businesses the Google listing gets more visits than the website. It is also the thing most owners set up once and never touch again. Here is what to fill in, what to keep doing, and what to leave alone.",
+    "keyword": "Google Business Profile for small business",
+    "author": "The Kodable team",
+    "datePublished": "2026-09-05",
+    "ogImage": "google-business-profile-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Google ranks local listings on three things it names openly: relevance, distance and prominence. You control the first and the third. Distance is where your door is.",
+      "Most of the ranking gain comes from a handful of fields done properly: primary category, services, opening hours that are actually true, and a description written for a person.",
+      "Reviews are the compounding asset. Not the star average, the steady flow of recent ones with real replies underneath.",
+      "A profile is not a project, it is a habit. Ten minutes a week beats a perfect setup you abandon in March."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Get a site your Google listing can point to"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/gbp-local-pack.svg",
+        "alt": "A phone screen showing a Google search for a plumber nearby: a map with three pinned businesses, then three listing cards with star ratings, review counts, opening hours and a call button, and only below that the ordinary blue links",
+        "caption": "The map pack sits above the websites. For a nearby search on a phone, the three listings in it get the tap before anything else loads."
+      },
+      {
+        "type": "p",
+        "text": "Search for a plumber, a dentist or a place for lunch on your phone and the first thing you see is not a website. It is a map with three businesses pinned to it, each with a star rating, opening hours and a call button. That block is built entirely from **Google Business Profiles**, the free listing Google gives every business. For a small business, the profile is very often the first, and sometimes the only, place a new customer meets you."
+      },
+      {
+        "type": "p",
+        "text": "Which is why it is strange how little attention it gets. The website was paid for, so it gets looked at. The profile was free, so it was set up in an afternoon three years ago and has not been opened since. This guide is the correction: what to fill in, what to keep doing every week, and what to do about reviews, in that order."
+      },
+      {
+        "type": "stat",
+        "value": "98%",
+        "label": "of consumers say they read online reviews for local businesses at least occasionally. The profile is where most of those reviews live, and where the reading happens.",
+        "source": "BrightLocal, Local Consumer Review Survey 2023"
+      },
+      {
+        "type": "h2",
+        "text": "How Google decides who appears in the map"
+      },
+      {
+        "type": "p",
+        "text": "Google is unusually open about this one. Its own help documentation for local ranking lists three factors: **relevance** (how well the listing matches what was searched), **distance** (how far the business is from the searcher, or from the place they named), and **prominence** (how well known the business is, measured through reviews, links, articles and how it ranks in ordinary web search)."
+      },
+      {
+        "type": "p",
+        "text": "Distance you cannot change without moving. Relevance and prominence you can. Relevance is mostly a question of filling in the profile completely and accurately. Prominence is mostly a question of reviews and of having a website and a wider presence that Google can connect to the listing. Almost everything below is one of those two levers."
+      },
+      {
+        "type": "callout",
+        "title": "The one idea to keep",
+        "body": "Google is trying to answer a question: \"which of these businesses is really the best match for this person, right now?\" Every field you fill in and every review you earn is evidence. Thin profiles do not lose because Google dislikes them. They lose because there is nothing to go on."
+      },
+      {
+        "type": "h2",
+        "text": "The fields that do the ranking work"
+      },
+      {
+        "type": "p",
+        "text": "A profile has dozens of fields, and they are not equal. These are the ones worth getting right first, in roughly the order they matter."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Primary category",
+            "body": "The single most important field. It tells Google which searches you belong in at all. Be specific and honest: \"Italian restaurant\", not \"Restaurant\"; \"Emergency plumber\" only if you actually answer at 3 a.m. Add secondary categories for real other things you do, and resist adding ones you do not."
+          },
+          {
+            "title": "Business name, exactly as it is on the sign",
+            "body": "Not \"Marta's Salon, Best Hair Colour in Valencia\". Google's guidelines forbid stuffing keywords into the name, and listings that do it get reported by competitors and suspended. The name is the name. The keywords go in the fields built for them."
+          },
+          {
+            "title": "Services and products, one per line",
+            "body": "List each thing you do as its own service with a short description and, where you can, a price or a from-price. This is where relevance gets built: someone searching for \"boiler repair\" matches a listing that says boiler repair, not one that says \"all plumbing work\"."
+          },
+          {
+            "title": "Opening hours that are true",
+            "body": "Including holidays, including the Tuesday you close early. A customer who drives to a closed door because the profile said open leaves a one-star review that outlives the mistake by years. Set special hours ahead of every public holiday; it takes a minute."
+          },
+          {
+            "title": "A description written for a human",
+            "body": "You get 750 characters. Use the first two sentences to say what you do, for whom, and where, in the words a customer would use. Then what makes you the sensible choice. No lists of neighbourhoods, no capital letters, no \"best\"."
+          },
+          {
+            "title": "Photos that look like today",
+            "body": "The front of the building (so people recognise it), the inside, the team, the work. Recent, well lit, taken on a phone is fine. Replace the ones from the opening week. Photos are one of the first things a searcher looks at and one of the first things that goes stale."
+          },
+          {
+            "title": "Phone, website and booking link",
+            "body": "The phone number that is actually answered. The website that actually loads on a phone. If you take bookings, a link straight to the booking page, not the homepage. Every step you remove between the listing and the action is a customer you do not lose on the way."
+          },
+          {
+            "title": "Attributes",
+            "body": "Wheelchair access, outdoor seating, women-owned, appointment required, accepts cards. Small fields, but they answer the filters people apply and the questions AI assistants get asked. Tick the true ones."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/gbp-checklist.svg",
+        "alt": "A checklist of Google Business Profile fields grouped in three columns: do once (category, name, services, description, attributes), keep true (hours, phone, website, photos) and keep flowing (reviews, replies, posts, questions)",
+        "caption": "Three kinds of field: the ones you do once, the ones you keep true, and the ones that only work if they keep flowing."
+      },
+      {
+        "type": "h2",
+        "text": "Reviews: the part that compounds"
+      },
+      {
+        "type": "p",
+        "text": "If you do nothing else from this article, build a way of asking for reviews that does not depend on remembering. Reviews feed prominence directly. They are also what a person actually reads before choosing, and increasingly what an AI assistant summarises when someone asks it to recommend a place."
+      },
+      {
+        "type": "p",
+        "text": "Three things matter more than the star average. **Recency**: a listing whose last review is from 2024 looks closed. **Volume over time**: a steady trickle beats a burst, and a burst of twenty in one week looks bought. **Replies**: an owner who answers, including the bad ones, calmly and specifically, is visibly a business that is paying attention."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Get your review link",
+            "body": "Inside the profile dashboard there is a short link that opens the review box directly. Save it. Put it on the receipt, on a small card at the till, in the confirmation email, and as a QR code where people wait."
+          },
+          {
+            "title": "Ask at the moment of satisfaction",
+            "body": "Not at the invoice. When the job is finished and the customer says \"that's great, thank you\", that is the moment. A day later, at most two, is still fine. A month later is a favour they have forgotten they owe."
+          },
+          {
+            "title": "Automate the ask",
+            "body": "Any booking or invoicing tool can send a short message a day after the job with the link in it. Set it up once and stop relying on remembering. This is the single highest-value automation most local businesses can build; we explain how to pick it in [which jobs to automate first](~/blog/automations-for-small-business)."
+          },
+          {
+            "title": "Reply to every review within a few days",
+            "body": "Two lines for a good one, with something specific from the visit so it does not read as a template. For a bad one: thank them, state the one fact that matters, offer to fix it offline. Never argue, never mention their name in a way that identifies them if they did not, and never reply angry on the same day."
+          },
+          {
+            "title": "Never buy, trade or fake them",
+            "body": "Google removes reviews it thinks are fake and can suspend the listing that received them. The people who buy reviews always think they are the ones who will not get caught. Slow and real wins, and it also happens to be the only version that produces customers."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The ten-minute weekly routine"
+      },
+      {
+        "type": "p",
+        "text": "A profile is a living record, and Google notices when it is alive. The whole routine fits in a calendar reminder on Monday morning."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Reply to new reviews.** Usually one or two. If there are none, it is a reminder to ask.",
+          "**Answer the questions.** The profile has a public Q&A section that anyone can answer, including strangers with wrong information. Answer them yourself, and seed the five questions you get asked every day.",
+          "**Post one update.** A photo of this week's work, a seasonal offer, a change of hours, a new service. Posts expire, so a steady stream matters more than any single one.",
+          "**Check the hours.** Especially in the run-up to a holiday. Google also sometimes edits listings from third-party data; a monthly glance catches an hour change you never made.",
+          "**Glance at the numbers.** The profile shows how people found you, what they searched, and how many called or asked for directions. Watching that for five minutes a week teaches you more about your customers than most reports."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The website still matters, for a different reason"
+      },
+      {
+        "type": "p",
+        "text": "It is tempting to conclude that if the listing gets the tap, the website is optional. It is the opposite. Google connects the listing to the site, and the site is a large part of what it means by prominence: does this business exist beyond the listing, does it say the same things, do others link to it. A profile pointing at a slow page from 2019, or at nothing, is a profile with a weak foundation."
+      },
+      {
+        "type": "p",
+        "text": "The practical rule is consistency. Same name, same address, same phone number, same categories of service, on the listing, on the site and everywhere else you appear. Then make the site do the one job the listing cannot: explain, in enough depth, why someone should choose you, with a way to book or call on every page. That is the job a [small business website](~/services/websites) is for, and the reason the two together outperform either alone. If you want to understand where all of this is heading as AI assistants start answering the search directly, read [getting found when AI answers first](~/blog/get-found-in-ai-search)."
+      },
+      {
+        "type": "h2",
+        "text": "Mistakes that get listings suspended or buried"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Keywords in the business name.** The most common reason a small business listing is suspended. It works for a month and then it is gone, along with the reviews.",
+          "**A service-area business showing a home address.** If you go to customers and they do not come to you, hide the address and set a service area. Showing a house on the map is against the guidelines and looks odd to customers.",
+          "**Duplicate listings.** An old one from a previous owner, one made by an employee, one from a directory. They split reviews and confuse Google. Claim and merge or remove them.",
+          "**Letting strangers answer your Q&A.** The section is public. If you leave it empty, someone else fills it, sometimes wrongly.",
+          "**Treating a suspension as final.** It is not. There is a reinstatement form. Fix the violation first, then appeal, plainly and honestly. Most legitimate businesses get back."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Not sure what your listing is missing?",
+        "body": "Send us the name of your business and we will look at the profile and the site together and tell you the three things that would move it most. No report, no invoice, a short honest email.",
+        "button": "Ask for a look"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is a Google Business Profile free?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, completely. Creating, verifying and managing the profile costs nothing, and Google does not sell better placement in the map results. Anyone offering to \"register you with Google\" for a fee is reselling a free form, and the ones who call about it unprompted are usually not worth talking to."
+      },
+      {
+        "type": "h3",
+        "text": "How long does it take to see results after optimising the profile?"
+      },
+      {
+        "type": "p",
+        "text": "Corrections to categories, hours and services usually show within days. Movement in the map ranking is slower, because prominence is built from reviews and signals that accumulate over weeks and months. Give a properly completed profile eight to twelve weeks of the weekly routine before judging it."
+      },
+      {
+        "type": "h3",
+        "text": "Do I need a website if I have a Google Business Profile?"
+      },
+      {
+        "type": "p",
+        "text": "You can be found without one, but you rank better and convert better with one. Google uses the site as part of prominence, and customers use it to decide once the listing has caught their eye. A simple, fast, mobile-first site that matches the listing is enough; you can see what that costs on our [pricing page](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Can I remove a bad review from my Google Business Profile?"
+      },
+      {
+        "type": "p",
+        "text": "Only if it breaks Google's policies, for example spam, a review of the wrong business, or content that is off-topic or abusive. You can flag it from the dashboard and Google decides. An honest negative review from a real customer stays; the best response is a calm, specific public reply, which future customers read more carefully than the review itself."
+      }
     ]
-   },
-   {
-    "type": "p",
-    "text": "What is left after those three passes is your real shortlist, and it will usually surprise you. Owners tend to arrive convinced the answer is a chatbot on the website, and leave having realised the expensive problem was that quotes go out two days late."
-   },
-   {
-    "type": "h2",
-    "text": "The four places AI pays for itself in a small business"
-   },
-   {
-    "type": "p",
-    "text": "Across the businesses we work with, almost everything worth doing falls into one of four buckets. They are ordered here roughly the way we would sequence them, because each one makes the next one worth more."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Being found, including by the machines that answer first",
-      "body": "There is no point automating your replies if nothing arrives to reply to. A growing share of people never reach a list of links at all: they ask, they get an answer, they act on it. Making your business legible to those systems is now part of being visible at all, which we cover in [getting found when AI answers first](~/blog/get-found-in-ai-search)."
-     },
-     {
-      "title": "Answering, at the moment someone asks",
-      "body": "The hours between an enquiry and a reply are where most small businesses quietly lose work, and no amount of discipline fixes it, because you were busy earning. An [AI agent that handles the first conversation](~/blog/ai-agent-for-small-business) answers the routine questions, takes the details, and hands you a person who is already halfway qualified."
-     },
-     {
-      "title": "Following through, without you remembering",
-      "body": "Confirmations, reminders, the quote nobody chased, the invoice that went quiet, the review you never asked for. Individually trivial, collectively a part-time job. This is ordinary [small business automation](~/blog/automations-for-small-business), and it is usually the cheapest money on the table."
-     },
-     {
-      "title": "Knowing your own numbers without assembling them",
-      "body": "The Monday morning export-paste-total ritual, or worse, the numbers you never look at because assembling them is a chore. A small [custom tool](~/services/custom-tools) that pulls the same figures into the same shape every week changes decisions, because you finally see the trend rather than the last thing that happened."
-     }
-    ]
-   },
-   {
-    "type": "p",
-    "text": "Notice that none of these is \"add AI to the product\". At your size the returns are in the operations, not the offering. That is not a lesser ambition, it is where the hours and the lost revenue actually live."
-   },
-   {
-    "type": "stat",
-    "value": "2.5 billion",
-    "label": "people a month now use Google's AI Overviews. If your first instinct is that AI is something happening to other businesses, this is the number that says otherwise: it is already sitting between you and the people looking for you.",
-    "source": "Google I/O, May 2026"
-   },
-   {
-    "type": "h2",
-    "text": "How to choose the first one"
-   },
-   {
-    "type": "p",
-    "text": "You now have a shortlist and four buckets. To get from there to a single decision, score each candidate out of five on four questions. No spreadsheet required, and honestly, no great precision required either: the winner is usually obvious once the questions are asked out loud."
-   },
-   {
-    "type": "list",
-    "items": [
-     "**How often does it happen?** Daily beats weekly beats monthly, by a lot. Frequency multiplied by minutes is the only time saving that is real.",
-     "**How close is it to money?** Does fixing it win work, keep work, or get paid faster? If the honest answer is none of those, it is a comfort project.",
-     "**How well can you describe it?** If you can write the rules down and a new hire could follow them without asking you, it is ready. If your instructions end in \"it depends\", keep the judgement and automate around it.",
-     "**What happens if it fails?** Prefer things that fail visibly and cheaply. A missed reminder is an annoyance. A wrong price sent to a customer is a different category, and needs a human in the loop."
-    ]
-   },
-   {
-    "type": "p",
-    "text": "Pick the highest score. Then, and this is the part people skip, write down what would make you call it a failure. \"Still doing this by hand in November\" is a fine definition. Without one you will keep a mediocre change alive out of politeness to your own decision."
-   },
-   {
-    "type": "callout",
-    "title": "Two things to leave for later",
-    "body": "Anything that requires every member of staff to change how they work on day one, and anything whose value depends on data you do not currently collect. Both are sometimes worth doing. Neither is a first move, because both fail for reasons that have nothing to do with whether the idea was good."
-   },
-   {
-    "type": "figure",
-    "src": "/blog/ai-strategy-90-days.svg",
-    "alt": "A ninety day timeline in three thirty day blocks: choose and instrument, build the smallest version, then measure and decide to keep, fix or drop",
-    "caption": "Ninety days, three moves. The last box is the one that makes the first two worth doing."
-   },
-   {
-    "type": "h2",
-    "text": "A 90 day plan that does not need a budget meeting"
-   },
-   {
-    "type": "p",
-    "text": "Ninety days is long enough for a real change to show up in the numbers and short enough that you will still remember why you started. Split it into three."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Days 1 to 30: choose it and measure it as it is",
-      "body": "Do the week audit, pick the one job, and then measure the current state before you change anything. How many enquiries came in, how long did the first reply take, how many quotes went out, how many were chased. Rough counts on paper are fine. Skipping this is the single most common reason people cannot tell later whether it worked."
-     },
-     {
-      "title": "Days 31 to 60: build the smallest version that could work",
-      "body": "Not the complete system. The narrowest slice that touches a real customer: one channel, one type of enquiry, one reminder. Small enough to switch off in a minute if it misbehaves. Run it live, watch it daily for the first week, and keep a note of every case where you had to step in."
-     },
-     {
-      "title": "Days 61 to 90: compare, then decide out loud",
-      "body": "Put the new numbers next to the old ones and make one of three calls: keep it and widen it, fix the one thing holding it back, or drop it and take the next candidate. Deciding out loud matters. A thing nobody ever decided about keeps consuming attention forever."
-     }
-    ]
-   },
-   {
-    "type": "h2",
-    "text": "What to keep firmly human"
-   },
-   {
-    "type": "p",
-    "text": "A good strategy is as clear about what it will not touch. In a small business your advantage over larger competitors is that a customer can reach someone who knows the answer and can make a decision. Automating that away to save a few minutes is a poor trade at any price."
-   },
-   {
-    "type": "list",
-    "items": [
-     "Anything involving an unhappy customer. The recovery conversation is worth more than the original sale, and it needs a person who can apologise and mean it.",
-     "Pricing exceptions, negotiations and promises about timing. These are commitments, and commitments should be made by someone accountable for keeping them.",
-     "The final word on anything that goes out under your name in public. Draft with software, sign as yourself.",
-     "The first conversation with the kind of customer you most want more of. That is research, not admin, and you should not outsource your own market research."
-    ]
-   },
-   {
-    "type": "h2",
-    "text": "Five ways this goes wrong"
-   },
-   {
-    "type": "p",
-    "text": "The failures are boringly consistent, which is good news, because it makes them easy to avoid."
-   },
-   {
-    "type": "steps",
-    "steps": [
-     {
-      "title": "Automating a broken process",
-      "body": "Software makes an existing process faster and more consistent, including a bad one. If the current version confuses customers, you are about to confuse them at scale. Fix the shape first, on paper, then hand it over."
-     },
-     {
-      "title": "Buying five tools before finishing one",
-      "body": "Enthusiasm spends easily. Five half-configured subscriptions produce five monthly charges and no change in the week. Finish one, in full, before the second one is allowed to exist."
-     },
-     {
-      "title": "Nobody owning it",
-      "body": "Every automated thing needs one named person who notices when it stops. Not a committee, and not \"we will all keep an eye on it\", which reliably means nobody does."
-     },
-     {
-      "title": "Failing silently",
-      "body": "The worst outcome is not an automation that breaks. It is one that breaks quietly in June and gets discovered in August. Anything that runs on your behalf should tell you when it did not, or at least tell you weekly that it did."
-     },
-     {
-      "title": "No before to compare the after to",
-      "body": "Without a rough baseline, every result is a matter of opinion, and opinions about your own decisions are generous. Ten minutes of counting in week one settles arguments in month three."
-     }
-    ]
-   },
-   {
-    "type": "h2",
-    "text": "What it should feel like after a year"
-   },
-   {
-    "type": "p",
-    "text": "If this works, the change is not dramatic and it does not look like the brochure. Enquiries get answered while you are still holding a drill. Quotes go out the same day and get chased without you feeling like a nuisance. Monday's numbers are in your inbox before you open the laptop. Reviews arrive because someone asked at the right moment, and the businesses that get recommended are the ones with reviews to recommend."
-   },
-   {
-    "type": "p",
-    "text": "None of that is a robot running your company. It is three or four small handovers, chosen in the right order, each of which gave you back a slice of the week you were spending on work nobody was paying you for. That is the whole of an AI strategy at your size, and it is genuinely most of the available benefit."
-   },
-   {
-    "type": "cta",
-    "title": "Not sure which three are yours?",
-    "body": "That is usually a forty minute conversation, not a project. Tell us what your week looks like and we will tell you honestly which parts are worth handing over, which parts are not, and what the smallest useful first version would be.",
-    "button": "Talk it through with us"
-   },
-   {
-    "type": "h2",
-    "text": "Frequently asked questions"
-   },
-   {
-    "type": "h3",
-    "text": "Do I need someone technical before I can start?"
-   },
-   {
-    "type": "p",
-    "text": "Not for the deciding part, which is the part that matters most and the part nobody can do for you. The week audit, the shortlist and the choice are business decisions, not technical ones. You need technical help to build the thing, and much less of it than people expect once the job is described precisely."
-   },
-   {
-    "type": "h3",
-    "text": "How much should a small business spend on this in the first year?"
-   },
-   {
-    "type": "p",
-    "text": "Less than the instinct says, and in stages. The point of the ninety day structure is that you spend on one narrow thing, see whether it moved a number you were already tracking, and only then decide whether to widen it. Anything that requires committing a year of budget before you have evidence is a worse deal than it looks."
-   },
-   {
-    "type": "h3",
-    "text": "What if my business feels too small or too traditional for AI?"
-   },
-   {
-    "type": "p",
-    "text": "Small usually helps, because there is nobody to consult and nothing to migrate. Traditional helps too: the more of your admin still runs on phone calls, paper and memory, the more of it is repeated work with an obvious shape. The businesses that get least from this are the ones already running tidy software everywhere."
-   },
-   {
-    "type": "h3",
-    "text": "Is a strategy just picking which AI subscription to buy?"
-   },
-   {
-    "type": "p",
-    "text": "No, and starting from the subscription is the failure mode this whole method is designed to avoid. The tool is the last decision, not the first. Once the job is defined precisely enough to hand over, the choice of tool is usually narrow and occasionally turns out to be something you already pay for."
-   },
-   {
-    "type": "h3",
-    "text": "What happens if I choose the wrong first project?"
-   },
-   {
-    "type": "p",
-    "text": "You lose ninety days and learn where the real constraint is, which is why the first one should be small and switchable off. The expensive mistake is not choosing wrong, it is choosing something so large that you cannot tell whether it worked and cannot stop it once you suspect it did not."
-   }
-  ]
- }
+  }
 ]

@@ -22,6 +22,10 @@ export interface BookingCopy {
   successTitle: string;
   successBody: string;
   errorGeneric: string;
+  // Shown when the API answers 429: the visitor's slot is fine, they just sent
+  // too many requests. Kept here (not server-side) because the API collapses
+  // locales to en/es, while every site locale has its own copy in this file.
+  errorRateLimited: string;
   loading: string;
   noSlots: string;
 }
@@ -46,6 +50,7 @@ const en: BookingCopy = {
   successTitle: "You're booked!",
   successBody: "Check your email for the confirmation and a calendar invite, with a reminder the day before.",
   errorGeneric: "Something went wrong. Please try again, or message us on WhatsApp.",
+  errorRateLimited: "Too many attempts just now. Wait a minute and try again, or message us on WhatsApp.",
   loading: "Loading available times…",
   noSlots: "No free times right now. Message us on WhatsApp and we'll sort it out.",
 };
@@ -70,6 +75,7 @@ const es: BookingCopy = {
   successTitle: "¡Reserva confirmada!",
   successBody: "Revisa tu email: te hemos enviado la confirmación y un evento para tu calendario, con recordatorio el día antes.",
   errorGeneric: "Algo ha fallado. Inténtalo de nuevo o escríbenos por WhatsApp.",
+  errorRateLimited: "Demasiados intentos ahora mismo. Espera un minuto y vuelve a probar, o escríbenos por WhatsApp.",
   loading: "Cargando horas disponibles…",
   noSlots: "Ahora mismo no hay horas libres. Escríbenos por WhatsApp y lo organizamos.",
 };
@@ -94,6 +100,7 @@ const fr: BookingCopy = {
   successTitle: "C'est réservé !",
   successBody: "Consultez votre email : confirmation et invitation agenda envoyées, avec un rappel la veille.",
   errorGeneric: "Une erreur s'est produite. Réessayez ou écrivez-nous sur WhatsApp.",
+  errorRateLimited: "Trop de tentatives pour le moment. Attendez une minute et réessayez, ou écrivez-nous sur WhatsApp.",
   loading: "Chargement des horaires disponibles…",
   noSlots: "Aucun créneau libre pour le moment. Écrivez-nous sur WhatsApp et on s'arrange.",
 };
@@ -118,6 +125,7 @@ const de: BookingCopy = {
   successTitle: "Gebucht!",
   successBody: "Schau in dein Postfach: Bestätigung und Kalendereinladung sind unterwegs, mit einer Erinnerung am Tag davor.",
   errorGeneric: "Etwas ist schiefgelaufen. Versuch es nochmal oder schreib uns auf WhatsApp.",
+  errorRateLimited: "Gerade zu viele Versuche. Warte kurz und versuch es nochmal, oder schreib uns auf WhatsApp.",
   loading: "Verfügbare Zeiten werden geladen…",
   noSlots: "Gerade keine Zeiten frei. Schreib uns auf WhatsApp, wir finden einen Termin.",
 };
@@ -142,6 +150,7 @@ const it: BookingCopy = {
   successTitle: "Prenotazione confermata!",
   successBody: "Controlla la tua email: ti abbiamo inviato la conferma e l'invito per il calendario, con promemoria il giorno prima.",
   errorGeneric: "Qualcosa è andato storto. Riprova o scrivici su WhatsApp.",
+  errorRateLimited: "Troppi tentativi in questo momento. Aspetta un minuto e riprova, o scrivici su WhatsApp.",
   loading: "Caricamento orari disponibili…",
   noSlots: "Al momento non ci sono orari liberi. Scrivici su WhatsApp e lo sistemiamo.",
 };

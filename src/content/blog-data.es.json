@@ -278,8 +278,8 @@
       "Lo que de verdad funciona es poco glamuroso y está respaldado por datos: responde a preguntas reales con claridad, respáldalo con detalle real, cuida tu Perfil de Empresa en Google y tus reseñas, gánate menciones honestas y mantén la web rápida."
     ],
     "related": [
-      "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business",
+      "ai-strategy-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -648,7 +648,7 @@
     ],
     "related": [
       "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business"
     ],
     "cta": {
       "service": "automations",
@@ -1174,6 +1174,246 @@
       {
         "type": "p",
         "text": "Pierdes noventa días y aprendes dónde está la limitación real, y por eso el primero debe ser pequeño y apagable. El error caro no es elegir mal, es elegir algo tan grande que no puedas saber si funcionó ni pararlo cuando sospechas que no."
+      }
+    ]
+  },
+  {
+    "slug": "google-business-profile-for-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "pin",
+    "title": "Perfil de Empresa de Google para pequeños negocios: qué posiciona de verdad",
+    "description": "Cómo crear y optimizar el Perfil de Empresa de Google de un pequeño negocio: los campos que Google usa para posicionar, una rutina semanal de diez minutos y un sistema de reseñas que funciona solo.",
+    "dek": "En la mayoría de negocios locales, la ficha de Google recibe más visitas que la web. Y es lo que casi todos los dueños configuran una vez y no vuelven a tocar. Aquí tienes qué rellenar, qué seguir haciendo y qué dejar en paz.",
+    "keyword": "Google Business Profile for small business",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-09-05",
+    "ogImage": "google-business-profile-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Google ordena las fichas locales por tres cosas que dice abiertamente: relevancia, distancia y notoriedad. Tú controlas la primera y la tercera. La distancia es donde está tu puerta.",
+      "Casi toda la mejora de posición viene de un puñado de campos bien hechos: categoría principal, servicios, un horario que sea verdad y una descripción escrita para una persona.",
+      "Las reseñas son el activo que se acumula. No la media de estrellas, sino el flujo constante de reseñas recientes con respuestas reales debajo.",
+      "Un perfil no es un proyecto, es un hábito. Diez minutos a la semana ganan a una configuración perfecta que abandonas en marzo."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Consigue una web a la que tu ficha de Google pueda apuntar"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/gbp-local-pack.svg",
+        "alt": "La pantalla de un móvil con una búsqueda en Google de un fontanero cerca: un mapa con tres negocios marcados, luego tres tarjetas con valoración en estrellas, número de reseñas, horario y botón de llamar, y solo debajo los enlaces azules de siempre",
+        "caption": "El bloque del mapa está por encima de las webs. En una búsqueda cercana desde el móvil, las tres fichas que aparecen en él reciben el toque antes de que cargue nada más."
+      },
+      {
+        "type": "p",
+        "text": "Busca un fontanero, un dentista o un sitio para comer desde el móvil y lo primero que ves no es una web. Es un mapa con tres negocios marcados, cada uno con su valoración, su horario y un botón de llamar. Ese bloque se construye por completo con los **Perfiles de Empresa de Google**, la ficha gratuita que Google da a cada negocio. Para un pequeño negocio, el perfil es muy a menudo el primer sitio, y a veces el único, donde un cliente nuevo te conoce."
+      },
+      {
+        "type": "p",
+        "text": "Por eso sorprende lo poco que se le atiende. La web se pagó, así que se mira. El perfil era gratis, así que se configuró una tarde hace tres años y no se ha vuelto a abrir. Esta guía es la corrección: qué rellenar, qué seguir haciendo cada semana y qué hacer con las reseñas, en ese orden."
+      },
+      {
+        "type": "stat",
+        "value": "98%",
+        "label": "de los consumidores dicen que leen reseñas online de negocios locales al menos de vez en cuando. El perfil es donde viven la mayoría de esas reseñas y donde ocurre la lectura.",
+        "source": "BrightLocal, Local Consumer Review Survey 2023"
+      },
+      {
+        "type": "h2",
+        "text": "Cómo decide Google quién aparece en el mapa"
+      },
+      {
+        "type": "p",
+        "text": "Google es inusualmente transparente con esto. Su propia documentación de ayuda sobre posicionamiento local enumera tres factores: **relevancia** (cuánto encaja la ficha con lo que se ha buscado), **distancia** (a qué distancia está el negocio de quien busca, o del lugar que ha indicado) y **notoriedad** (lo conocido que es el negocio, medido a través de reseñas, enlaces, artículos y su posición en la búsqueda web normal)."
+      },
+      {
+        "type": "p",
+        "text": "La distancia no la cambias sin mudarte. La relevancia y la notoriedad, sí. La relevancia es sobre todo cuestión de rellenar el perfil completo y con precisión. La notoriedad es sobre todo cuestión de reseñas y de tener una web y una presencia más amplia que Google pueda conectar con la ficha. Casi todo lo que sigue es una de esas dos palancas."
+      },
+      {
+        "type": "callout",
+        "title": "La única idea que hay que quedarse",
+        "body": "Google intenta responder a una pregunta: \"¿cuál de estos negocios es realmente el mejor para esta persona, ahora mismo?\". Cada campo que rellenas y cada reseña que consigues es una prueba. Los perfiles vacíos no pierden porque a Google no le gusten. Pierden porque no hay nada en lo que basarse."
+      },
+      {
+        "type": "h2",
+        "text": "Los campos que hacen el trabajo de posicionar"
+      },
+      {
+        "type": "p",
+        "text": "Un perfil tiene decenas de campos y no todos valen lo mismo. Estos son los que conviene tener bien primero, más o menos en el orden en que importan."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Categoría principal",
+            "body": "El campo más importante de todos. Le dice a Google en qué búsquedas encajas siquiera. Sé concreto y honesto: \"Restaurante italiano\", no \"Restaurante\"; \"Fontanero de urgencias\" solo si de verdad coges el teléfono a las 3 de la mañana. Añade categorías secundarias para otras cosas reales que hagas, y resiste la tentación de añadir las que no."
+          },
+          {
+            "title": "Nombre del negocio, exactamente como está en el rótulo",
+            "body": "No \"Peluquería Marta, el mejor color de Valencia\". Las directrices de Google prohíben meter palabras clave en el nombre, y las fichas que lo hacen acaban denunciadas por la competencia y suspendidas. El nombre es el nombre. Las palabras clave van en los campos hechos para ellas."
+          },
+          {
+            "title": "Servicios y productos, uno por línea",
+            "body": "Lista cada cosa que haces como un servicio propio, con una descripción corta y, cuando puedas, un precio o un \"desde\". Aquí es donde se construye la relevancia: alguien que busca \"reparación de calderas\" encaja con una ficha que dice reparación de calderas, no con una que dice \"todo tipo de fontanería\"."
+          },
+          {
+            "title": "Un horario que sea verdad",
+            "body": "Incluidos los festivos, incluido el martes que cierras antes. Un cliente que conduce hasta una puerta cerrada porque el perfil decía abierto deja una reseña de una estrella que sobrevive al error durante años. Configura horarios especiales antes de cada festivo; es un minuto."
+          },
+          {
+            "title": "Una descripción escrita para una persona",
+            "body": "Tienes 750 caracteres. Usa las dos primeras frases para decir qué haces, para quién y dónde, con las palabras que usaría un cliente. Después, qué te convierte en la opción sensata. Sin listas de barrios, sin mayúsculas, sin \"el mejor\"."
+          },
+          {
+            "title": "Fotos que parezcan de hoy",
+            "body": "La fachada (para que la gente la reconozca), el interior, el equipo, el trabajo. Recientes, bien iluminadas, hechas con el móvil valen. Sustituye las de la semana de apertura. Las fotos son de lo primero que mira quien busca y de lo primero que se queda viejo."
+          },
+          {
+            "title": "Teléfono, web y enlace de reserva",
+            "body": "El número de teléfono que de verdad se coge. La web que de verdad carga en un móvil. Si aceptas reservas, un enlace directo a la página de reservas, no a la portada. Cada paso que quitas entre la ficha y la acción es un cliente que no pierdes por el camino."
+          },
+          {
+            "title": "Atributos",
+            "body": "Acceso para sillas de ruedas, terraza, negocio dirigido por mujeres, con cita previa, acepta tarjeta. Campos pequeños, pero responden a los filtros que aplica la gente y a las preguntas que reciben los asistentes de IA. Marca los que sean verdad."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/gbp-checklist.svg",
+        "alt": "Una lista de comprobación de los campos del Perfil de Empresa de Google agrupados en tres columnas: hacer una vez (categoría, nombre, servicios, descripción, atributos), mantener al día (horario, teléfono, web, fotos) y mantener en marcha (reseñas, respuestas, publicaciones, preguntas)",
+        "caption": "Tres tipos de campo: los que haces una vez, los que mantienes al día y los que solo funcionan si siguen fluyendo."
+      },
+      {
+        "type": "h2",
+        "text": "Reseñas: la parte que se acumula"
+      },
+      {
+        "type": "p",
+        "text": "Si no haces nada más de este artículo, monta una forma de pedir reseñas que no dependa de acordarte. Las reseñas alimentan la notoriedad directamente. Son también lo que una persona lee de verdad antes de elegir, y cada vez más lo que resume un asistente de IA cuando alguien le pide una recomendación."
+      },
+      {
+        "type": "p",
+        "text": "Tres cosas importan más que la media de estrellas. **Frescura**: una ficha cuya última reseña es de 2024 parece cerrada. **Volumen sostenido**: un goteo constante gana a una ráfaga, y una ráfaga de veinte en una semana parece comprada. **Respuestas**: un dueño que contesta, también a las malas, con calma y concreción, es visiblemente un negocio que está atento."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Consigue tu enlace de reseña",
+            "body": "Dentro del panel del perfil hay un enlace corto que abre directamente la caja de reseña. Guárdalo. Ponlo en el ticket, en una tarjetita junto a la caja, en el email de confirmación y como código QR donde la gente espera."
+          },
+          {
+            "title": "Pide en el momento de satisfacción",
+            "body": "No con la factura. Cuando el trabajo está terminado y el cliente dice \"genial, muchas gracias\", ese es el momento. Un día después, dos como mucho, sigue valiendo. Un mes después es un favor que ya han olvidado que te deben."
+          },
+          {
+            "title": "Automatiza la petición",
+            "body": "Cualquier herramienta de reservas o facturación puede enviar un mensaje corto al día siguiente del trabajo con el enlace dentro. Configúralo una vez y deja de depender de acordarte. Es la automatización de mayor valor que puede montar la mayoría de negocios locales; explicamos cómo elegirla en [qué tareas automatizar primero](~/blog/automations-for-small-business)."
+          },
+          {
+            "title": "Responde a cada reseña en pocos días",
+            "body": "Dos líneas para una buena, con algo concreto de la visita para que no parezca una plantilla. Para una mala: da las gracias, di el único dato que importa y ofrece arreglarlo fuera de la ficha. Nunca discutas, nunca menciones su nombre de forma que le identifique si no lo ha hecho, y nunca respondas enfadado el mismo día."
+          },
+          {
+            "title": "Nunca las compres, intercambies ni inventes",
+            "body": "Google elimina las reseñas que considera falsas y puede suspender la ficha que las recibió. Los que compran reseñas siempre creen que a ellos no les pillarán. Lo lento y real gana, y además es la única versión que produce clientes."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "La rutina semanal de diez minutos"
+      },
+      {
+        "type": "p",
+        "text": "Un perfil es un registro vivo, y Google nota cuándo está vivo. Toda la rutina cabe en un recordatorio de calendario el lunes por la mañana."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Responde a las reseñas nuevas.** Normalmente una o dos. Si no hay ninguna, es un recordatorio para pedirlas.",
+          "**Contesta las preguntas.** El perfil tiene una sección pública de preguntas y respuestas que puede responder cualquiera, incluidos desconocidos con información equivocada. Respóndelas tú, y siembra las cinco preguntas que te hacen cada día.",
+          "**Publica una novedad.** Una foto del trabajo de esta semana, una oferta de temporada, un cambio de horario, un servicio nuevo. Las publicaciones caducan, así que un flujo constante importa más que cualquiera en particular.",
+          "**Revisa el horario.** Sobre todo en la víspera de un festivo. Google a veces también edita fichas a partir de datos de terceros; un vistazo mensual detecta un cambio de horario que tú nunca hiciste.",
+          "**Echa un ojo a los números.** El perfil muestra cómo te ha encontrado la gente, qué ha buscado y cuántos han llamado o pedido indicaciones. Mirarlo cinco minutos a la semana te enseña más sobre tus clientes que la mayoría de informes."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "La web sigue importando, por otra razón"
+      },
+      {
+        "type": "p",
+        "text": "Es tentador concluir que si la ficha se lleva el toque, la web es opcional. Es al revés. Google conecta la ficha con la web, y la web es una parte grande de lo que entiende por notoriedad: ¿existe este negocio más allá de la ficha, dice lo mismo, otros enlazan a él? Un perfil que apunta a una página lenta de 2019, o a nada, es un perfil con cimientos débiles."
+      },
+      {
+        "type": "p",
+        "text": "La regla práctica es la coherencia. Mismo nombre, misma dirección, mismo teléfono, mismas categorías de servicio, en la ficha, en la web y en cualquier otro sitio donde aparezcas. Después, haz que la web cumpla el único trabajo que la ficha no puede: explicar, con suficiente profundidad, por qué alguien debería elegirte, con una forma de reservar o llamar en cada página. Para eso sirve una [web para pequeños negocios](~/services/websites), y por eso las dos juntas rinden más que cualquiera por separado. Si quieres entender hacia dónde va todo esto ahora que los asistentes de IA empiezan a responder la búsqueda directamente, lee [cómo aparecer cuando responde la IA](~/blog/get-found-in-ai-search)."
+      },
+      {
+        "type": "h2",
+        "text": "Errores que hacen que una ficha se suspenda o se hunda"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Palabras clave en el nombre del negocio.** La razón más común por la que se suspende la ficha de un pequeño negocio. Funciona un mes y luego desaparece, con las reseñas incluidas.",
+          "**Un negocio a domicilio mostrando la dirección de casa.** Si vas tú a los clientes y ellos no vienen a ti, oculta la dirección y define un área de servicio. Mostrar una vivienda en el mapa va contra las directrices y resulta raro a los clientes.",
+          "**Fichas duplicadas.** Una antigua del dueño anterior, una creada por un empleado, una de un directorio. Reparten las reseñas y confunden a Google. Reclámalas y fusiónalas o elimínalas.",
+          "**Dejar que desconocidos respondan tus preguntas.** La sección es pública. Si la dejas vacía, la rellena otro, a veces mal.",
+          "**Tratar una suspensión como definitiva.** No lo es. Hay un formulario de restablecimiento. Corrige primero la infracción y luego apela, con claridad y honestidad. La mayoría de negocios legítimos recuperan la ficha."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "¿No sabes qué le falta a tu ficha?",
+        "body": "Mándanos el nombre de tu negocio y miraremos el perfil y la web juntos para decirte las tres cosas que más lo moverían. Sin informe, sin factura, un email corto y honesto.",
+        "button": "Pide un vistazo"
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿El Perfil de Empresa de Google es gratis?"
+      },
+      {
+        "type": "p",
+        "text": "Sí, del todo. Crear, verificar y gestionar el perfil no cuesta nada, y Google no vende mejores posiciones en los resultados del mapa. Quien ofrece \"darte de alta en Google\" a cambio de una cuota está revendiendo un formulario gratuito, y los que llaman para eso sin que se lo pidas no suelen merecer la conversación."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto se tarda en ver resultados tras optimizar el perfil?"
+      },
+      {
+        "type": "p",
+        "text": "Las correcciones de categorías, horario y servicios suelen verse en días. El movimiento en la posición del mapa es más lento, porque la notoriedad se construye con reseñas y señales que se acumulan durante semanas y meses. Dale a un perfil bien completado entre ocho y doce semanas de rutina semanal antes de juzgarlo."
+      },
+      {
+        "type": "h3",
+        "text": "¿Necesito una web si tengo Perfil de Empresa de Google?"
+      },
+      {
+        "type": "p",
+        "text": "Puedes aparecer sin ella, pero posicionas mejor y conviertes mejor con ella. Google usa la web como parte de la notoriedad, y los clientes la usan para decidir una vez que la ficha les ha llamado la atención. Basta con una web sencilla, rápida y pensada para móvil que coincida con la ficha; puedes ver lo que cuesta en nuestra [página de precios](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "¿Puedo eliminar una reseña mala de mi Perfil de Empresa de Google?"
+      },
+      {
+        "type": "p",
+        "text": "Solo si incumple las políticas de Google, por ejemplo spam, una reseña de otro negocio o contenido fuera de lugar o abusivo. Puedes marcarla desde el panel y Google decide. Una reseña negativa honesta de un cliente real se queda; la mejor respuesta es una contestación pública, tranquila y concreta, que los futuros clientes leen con más atención que la propia reseña."
       }
     ]
   }

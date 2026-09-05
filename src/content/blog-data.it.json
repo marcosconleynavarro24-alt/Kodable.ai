@@ -278,8 +278,8 @@
       "Ciò che funziona davvero è poco glamour e sostenuto dai dati: rispondi con chiarezza a domande vere, sostienilo con dettagli reali, cura il tuo Profilo dell'attività su Google e le recensioni, guadagnati menzioni oneste e tieni il sito veloce."
     ],
     "related": [
-      "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business",
+      "ai-strategy-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -648,7 +648,7 @@
     ],
     "related": [
       "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business"
     ],
     "cta": {
       "service": "automations",
@@ -1174,6 +1174,246 @@
       {
         "type": "p",
         "text": "Perdi novanta giorni e scopri dov'è il vincolo vero, ed è per questo che il primo deve essere piccolo e spegnibile. L'errore costoso non è scegliere male, è scegliere qualcosa di così grande da non poter capire se ha funzionato né fermarlo quando sospetti di no."
+      }
+    ]
+  },
+  {
+    "slug": "google-business-profile-for-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "pin",
+    "title": "Profilo dell'attività su Google per piccole imprese: cosa conta davvero",
+    "description": "Come creare e ottimizzare il Profilo dell'attività su Google di una piccola impresa: i campi su cui Google posiziona, una routine settimanale di dieci minuti e un sistema di recensioni che funziona da solo.",
+    "dek": "Per la maggior parte delle attività locali la scheda Google riceve più visite del sito. Ed è anche ciò che quasi tutti i titolari configurano una volta e non toccano più. Ecco cosa compilare, cosa continuare a fare e cosa lasciare stare.",
+    "keyword": "Google Business Profile for small business",
+    "author": "Il team Kodable",
+    "datePublished": "2026-09-05",
+    "ogImage": "google-business-profile-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Google ordina le schede locali in base a tre fattori che dichiara apertamente: pertinenza, distanza e notorietà. Il primo e il terzo li controlli tu. La distanza è dove sta la tua porta.",
+      "Quasi tutto il guadagno di posizione viene da una manciata di campi fatti bene: categoria principale, servizi, orari che siano davvero veri e una descrizione scritta per una persona.",
+      "Le recensioni sono il patrimonio che si accumula. Non la media delle stelle, ma il flusso costante di recensioni recenti con risposte vere sotto.",
+      "Un profilo non è un progetto, è un'abitudine. Dieci minuti a settimana battono una configurazione perfetta abbandonata a marzo."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Un sito a cui la tua scheda Google possa rimandare"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/gbp-local-pack.svg",
+        "alt": "Lo schermo di un telefono con una ricerca Google di un idraulico nelle vicinanze: una mappa con tre attività segnate, poi tre schede con valutazione in stelle, numero di recensioni, orari e pulsante di chiamata, e solo sotto i soliti link blu",
+        "caption": "Il blocco della mappa sta sopra i siti web. In una ricerca nelle vicinanze da telefono, le tre schede che contiene ricevono il tocco prima che si carichi qualsiasi altra cosa."
+      },
+      {
+        "type": "p",
+        "text": "Cerca un idraulico, un dentista o un posto per pranzo dal telefono e la prima cosa che vedi non è un sito web. È una mappa con tre attività segnate, ciascuna con la sua valutazione, gli orari e un pulsante di chiamata. Quel blocco è costruito interamente con i **Profili dell'attività su Google**, la scheda gratuita che Google dà a ogni impresa. Per una piccola impresa, il profilo è molto spesso il primo posto, e a volte l'unico, dove un nuovo cliente ti incontra."
+      },
+      {
+        "type": "p",
+        "text": "Per questo sorprende quanta poca attenzione riceva. Il sito è stato pagato, quindi lo si guarda. Il profilo era gratis, quindi è stato configurato in un pomeriggio tre anni fa e non è più stato aperto. Questa guida è la correzione: cosa compilare, cosa continuare a fare ogni settimana e cosa fare con le recensioni, in quest'ordine."
+      },
+      {
+        "type": "stat",
+        "value": "98%",
+        "label": "dei consumatori dichiara di leggere recensioni online di attività locali almeno occasionalmente. Il profilo è dove vive la maggior parte di quelle recensioni e dove avviene la lettura.",
+        "source": "BrightLocal, Local Consumer Review Survey 2023"
+      },
+      {
+        "type": "h2",
+        "text": "Come Google decide chi compare sulla mappa"
+      },
+      {
+        "type": "p",
+        "text": "Su questo Google è insolitamente trasparente. La sua stessa documentazione di aiuto sul posizionamento locale elenca tre fattori: **pertinenza** (quanto la scheda corrisponde a ciò che è stato cercato), **distanza** (quanto l'attività è lontana da chi cerca, o dal luogo indicato) e **notorietà** (quanto l'impresa è conosciuta, misurata tramite recensioni, link, articoli e la sua posizione nella normale ricerca web)."
+      },
+      {
+        "type": "p",
+        "text": "La distanza non la cambi senza traslocare. Pertinenza e notorietà sì. La pertinenza è soprattutto questione di compilare il profilo in modo completo e preciso. La notorietà è soprattutto questione di recensioni e di avere un sito e una presenza più ampia che Google possa collegare alla scheda. Quasi tutto ciò che segue è una di queste due leve."
+      },
+      {
+        "type": "callout",
+        "title": "L'unica idea da tenere",
+        "body": "Google sta cercando di rispondere a una domanda: \"quale di queste attività è davvero la scelta migliore per questa persona, adesso?\". Ogni campo che compili e ogni recensione che ottieni è una prova. I profili scarni non perdono perché a Google non piacciono. Perdono perché non c'è niente su cui basarsi."
+      },
+      {
+        "type": "h2",
+        "text": "I campi che fanno il lavoro di posizionamento"
+      },
+      {
+        "type": "p",
+        "text": "Un profilo ha decine di campi, e non sono tutti uguali. Questi sono quelli da sistemare per primi, più o meno nell'ordine in cui contano."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Categoria principale",
+            "body": "Il campo più importante di tutti. Dice a Google in quali ricerche rientri. Sii specifico e onesto: \"Ristorante italiano\", non \"Ristorante\"; \"Idraulico d'emergenza\" solo se rispondi davvero alle 3 di notte. Aggiungi categorie secondarie per le altre cose che fai davvero, e resisti alla tentazione di aggiungere quelle che non fai."
+          },
+          {
+            "title": "Nome dell'attività, esattamente come sull'insegna",
+            "body": "Non \"Salone Marta, il miglior colore di Valencia\". Le linee guida di Google vietano di infilare parole chiave nel nome, e le schede che lo fanno vengono segnalate dai concorrenti e sospese. Il nome è il nome. Le parole chiave vanno nei campi fatti apposta."
+          },
+          {
+            "title": "Servizi e prodotti, uno per riga",
+            "body": "Elenca ogni cosa che fai come servizio a sé, con una breve descrizione e, quando puoi, un prezzo o un \"a partire da\". È qui che si costruisce la pertinenza: chi cerca \"riparazione caldaia\" corrisponde a una scheda che dice riparazione caldaia, non a una che dice \"tutti i lavori idraulici\"."
+          },
+          {
+            "title": "Orari che siano veri",
+            "body": "Festivi compresi, compreso il martedì in cui chiudi prima. Un cliente che guida fino a una porta chiusa perché il profilo diceva aperto lascia una recensione da una stella che sopravvive all'errore per anni. Imposta gli orari speciali prima di ogni festività; ci vuole un minuto."
+          },
+          {
+            "title": "Una descrizione scritta per una persona",
+            "body": "Hai 750 caratteri. Usa le prime due frasi per dire cosa fai, per chi e dove, con le parole che userebbe un cliente. Poi cosa ti rende la scelta sensata. Niente elenchi di quartieri, niente maiuscole, niente \"il migliore\"."
+          },
+          {
+            "title": "Foto che sembrino di oggi",
+            "body": "La facciata (perché la gente la riconosca), l'interno, il team, il lavoro. Recenti, ben illuminate, fatte col telefono vanno benissimo. Sostituisci quelle della settimana di apertura. Le foto sono tra le prime cose che guarda chi cerca e tra le prime a invecchiare."
+          },
+          {
+            "title": "Telefono, sito e link di prenotazione",
+            "body": "Il numero di telefono a cui si risponde davvero. Il sito che si carica davvero su un telefono. Se accetti prenotazioni, un link diretto alla pagina di prenotazione, non alla home. Ogni passaggio che togli tra la scheda e l'azione è un cliente che non perdi per strada."
+          },
+          {
+            "title": "Attributi",
+            "body": "Accesso per sedie a rotelle, tavoli all'aperto, attività gestita da donne, su appuntamento, carte accettate. Campi piccoli, ma rispondono ai filtri che la gente applica e alle domande che ricevono gli assistenti IA. Spunta quelli veri."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/gbp-checklist.svg",
+        "alt": "Una checklist dei campi del Profilo dell'attività su Google in tre colonne: da fare una volta (categoria, nome, servizi, descrizione, attributi), da tenere aggiornati (orari, telefono, sito, foto) e da far scorrere (recensioni, risposte, post, domande)",
+        "caption": "Tre tipi di campo: quelli che fai una volta, quelli che tieni aggiornati e quelli che funzionano solo se continuano a scorrere."
+      },
+      {
+        "type": "h2",
+        "text": "Recensioni: la parte che si accumula"
+      },
+      {
+        "type": "p",
+        "text": "Se da questo articolo non fai nient'altro, costruisci un modo di chiedere recensioni che non dipenda dal ricordarsene. Le recensioni alimentano direttamente la notorietà. Sono anche ciò che una persona legge davvero prima di scegliere, e sempre più ciò che un assistente IA riassume quando qualcuno gli chiede di consigliare un posto."
+      },
+      {
+        "type": "p",
+        "text": "Tre cose contano più della media delle stelle. **Freschezza**: una scheda la cui ultima recensione è del 2024 sembra chiusa. **Volume nel tempo**: un flusso costante batte una raffica, e venti recensioni in una settimana sembrano comprate. **Risposte**: un titolare che risponde, anche alle negative, con calma e precisione, è visibilmente un'attività che sta attenta."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Prendi il tuo link per le recensioni",
+            "body": "Nel pannello del profilo c'è un link breve che apre direttamente la finestra della recensione. Salvalo. Mettilo sullo scontrino, su un cartoncino alla cassa, nell'email di conferma e come codice QR dove la gente aspetta."
+          },
+          {
+            "title": "Chiedi nel momento della soddisfazione",
+            "body": "Non con la fattura. Quando il lavoro è finito e il cliente dice \"perfetto, grazie mille\", quello è il momento. Un giorno dopo, al massimo due, va ancora bene. Un mese dopo è un favore che ha dimenticato di doverti."
+          },
+          {
+            "title": "Automatizza la richiesta",
+            "body": "Qualsiasi strumento di prenotazione o fatturazione può inviare un breve messaggio il giorno dopo il lavoro con dentro il link. Configuralo una volta e smetti di affidarti alla memoria. È l'automazione di maggior valore che la maggior parte delle attività locali possa costruire; spieghiamo come sceglierla in [quali compiti automatizzare per primi](~/blog/automations-for-small-business)."
+          },
+          {
+            "title": "Rispondi a ogni recensione entro pochi giorni",
+            "body": "Due righe per una positiva, con qualcosa di specifico della visita perché non sembri un modello. Per una negativa: ringrazia, indica l'unico fatto che conta, offriti di risolvere in privato. Mai discutere, mai citare il nome in modo da identificare la persona se non lo ha fatto lei, e mai rispondere arrabbiato lo stesso giorno."
+          },
+          {
+            "title": "Mai comprarle, scambiarle o inventarle",
+            "body": "Google rimuove le recensioni che ritiene false e può sospendere la scheda che le ha ricevute. Chi compra recensioni pensa sempre di essere quello che non verrà scoperto. Lento e vero vince, ed è anche l'unica versione che porta clienti."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "La routine settimanale di dieci minuti"
+      },
+      {
+        "type": "p",
+        "text": "Un profilo è un registro vivo, e Google si accorge quando è vivo. Tutta la routine sta in un promemoria di calendario il lunedì mattina."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Rispondi alle nuove recensioni.** Di solito una o due. Se non ce ne sono, è un promemoria per chiederle.",
+          "**Rispondi alle domande.** Il profilo ha una sezione pubblica di domande e risposte a cui può rispondere chiunque, compresi sconosciuti con informazioni sbagliate. Rispondi tu, e inserisci le cinque domande che ti fanno ogni giorno.",
+          "**Pubblica un aggiornamento.** Una foto del lavoro di questa settimana, un'offerta stagionale, un cambio di orario, un nuovo servizio. I post scadono, quindi un flusso costante conta più di qualsiasi singolo post.",
+          "**Controlla gli orari.** Soprattutto a ridosso di una festività. Google a volte modifica anche le schede in base a dati di terzi; un'occhiata mensile intercetta un cambio di orario che non hai mai fatto.",
+          "**Dai un'occhiata ai numeri.** Il profilo mostra come ti hanno trovato, cosa hanno cercato e quanti hanno chiamato o chiesto indicazioni. Guardarlo cinque minuti a settimana ti insegna sui tuoi clienti più della maggior parte dei report."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Il sito conta ancora, per un altro motivo"
+      },
+      {
+        "type": "p",
+        "text": "È facile concludere che, se la scheda riceve il tocco, il sito è facoltativo. È il contrario. Google collega la scheda al sito, e il sito è gran parte di ciò che intende per notorietà: questa attività esiste oltre la scheda, dice le stesse cose, altri la linkano. Un profilo che rimanda a una pagina lenta del 2019, o a niente, è un profilo con fondamenta deboli."
+      },
+      {
+        "type": "p",
+        "text": "La regola pratica è la coerenza. Stesso nome, stesso indirizzo, stesso numero di telefono, stesse categorie di servizio, sulla scheda, sul sito e ovunque tu compaia. Poi fai fare al sito l'unico lavoro che la scheda non può fare: spiegare, con abbastanza profondità, perché qualcuno dovrebbe scegliere te, con un modo per prenotare o chiamare in ogni pagina. A questo serve un [sito web per piccole imprese](~/services/websites), ed è per questo che i due insieme rendono più di ciascuno da solo. Se vuoi capire dove sta andando tutto questo ora che gli assistenti IA iniziano a rispondere direttamente alla ricerca, leggi [farsi trovare quando risponde prima l'IA](~/blog/get-found-in-ai-search)."
+      },
+      {
+        "type": "h2",
+        "text": "Errori che fanno sospendere o affondare una scheda"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Parole chiave nel nome dell'attività.** Il motivo più comune per cui la scheda di una piccola impresa viene sospesa. Funziona un mese e poi sparisce, recensioni comprese.",
+          "**Un'attività a domicilio che mostra l'indirizzo di casa.** Se vai tu dai clienti e loro non vengono da te, nascondi l'indirizzo e imposta un'area di servizio. Mostrare una casa sulla mappa va contro le linee guida e risulta strano ai clienti.",
+          "**Schede duplicate.** Una vecchia del proprietario precedente, una creata da un dipendente, una da una directory. Dividono le recensioni e confondono Google. Rivendicale e uniscile o rimuovile.",
+          "**Lasciare che sconosciuti rispondano alle tue domande.** La sezione è pubblica. Se la lasci vuota, la riempie qualcun altro, a volte male.",
+          "**Trattare una sospensione come definitiva.** Non lo è. Esiste un modulo di ripristino. Correggi prima la violazione, poi fai ricorso, in modo semplice e onesto. La maggior parte delle attività legittime recupera la scheda."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Non sai cosa manca alla tua scheda?",
+        "body": "Mandaci il nome della tua attività: guarderemo profilo e sito insieme e ti diremo le tre cose che la farebbero salire di più. Niente report, niente fattura, una breve email onesta.",
+        "button": "Chiedi un'occhiata"
+      },
+      {
+        "type": "h2",
+        "text": "Domande frequenti"
+      },
+      {
+        "type": "h3",
+        "text": "Il Profilo dell'attività su Google è gratuito?"
+      },
+      {
+        "type": "p",
+        "text": "Sì, del tutto. Creare, verificare e gestire il profilo non costa nulla, e Google non vende posizioni migliori nei risultati della mappa. Chi offre di \"registrarti su Google\" a pagamento sta rivendendo un modulo gratuito, e chi chiama per questo senza essere richiesto raramente merita la conversazione."
+      },
+      {
+        "type": "h3",
+        "text": "Quanto ci vuole per vedere risultati dopo aver ottimizzato il profilo?"
+      },
+      {
+        "type": "p",
+        "text": "Le correzioni a categorie, orari e servizi di solito compaiono entro giorni. Il movimento nella posizione sulla mappa è più lento, perché la notorietà si costruisce con recensioni e segnali che si accumulano in settimane e mesi. Concedi a un profilo compilato bene tra le otto e le dodici settimane di routine settimanale prima di giudicarlo."
+      },
+      {
+        "type": "h3",
+        "text": "Mi serve un sito se ho il Profilo dell'attività su Google?"
+      },
+      {
+        "type": "p",
+        "text": "Puoi essere trovato anche senza, ma con un sito ti posizioni meglio e converti meglio. Google usa il sito come parte della notorietà, e i clienti lo usano per decidere una volta che la scheda ha catturato la loro attenzione. Basta un sito semplice, veloce, pensato per il mobile e coerente con la scheda; puoi vedere quanto costa nella nostra [pagina dei prezzi](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Posso rimuovere una recensione negativa dal mio Profilo dell'attività su Google?"
+      },
+      {
+        "type": "p",
+        "text": "Solo se viola le norme di Google, per esempio spam, una recensione dell'attività sbagliata o contenuti fuori tema o offensivi. Puoi segnalarla dal pannello e decide Google. Una recensione negativa onesta di un cliente vero resta; la risposta migliore è una replica pubblica, calma e precisa, che i futuri clienti leggono con più attenzione della recensione stessa."
       }
     ]
   }

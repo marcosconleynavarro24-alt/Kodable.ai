@@ -87,6 +87,12 @@ export interface Booking {
 export type BookingErrors = Partial<
   Record<"name" | "email" | "contact" | "slot", string>
 >;
+
+// Request-level failures that are NOT about what the visitor typed (bad JSON,
+// rate limit, a save that blew up). They travel to the client as a machine code
+// in the `error` field, never as a field message: backendLocale() below only
+// knows en/es, while the widget owns this copy in all five site locales.
+export type BookingFailure = "bad_request" | "rate_limited" | "save_failed";
 export type BookingResult =
   | { ok: true; booking: Booking }
   | { ok: false; errors: BookingErrors };
@@ -304,8 +310,20 @@ const BOOKINGS_FILE = path.join(DATA_DIR, "bookings.ndjson");
 
 export async function saveBooking(b: Booking): Promise<void> {
   if (supabaseOn()) {
-    await saveBookingToSupabase(b); // throws SlotTakenError if the slot is gone
-    return;
+    try {
+      await saveBookingToSupabase(b);
+      return;
+    } catch (err) {
+      // A real conflict (slot gone) must reach the caller: the visitor has to
+      // pick another time and gets no confirmation.
+      if (err instanceof SlotTakenError) throw err;
+      // Anything else means Supabase is down or rejected the row. Never lose the
+      // booking over it: fall through to the local store so the caller still
+      // sends the owner notification and the client confirmation, which are the
+      // durable record. The slot stays free in availability until the owner
+      // reconciles, so this has to stay loud in the logs.
+      console.error("[booking] supabase insert failed, falling back to local store:", err);
+    }
   }
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
@@ -318,23 +336,30 @@ export async function saveBooking(b: Booking): Promise<void> {
 
 // Insert into Supabase. A 409 means the UNIQUE(slot_date, slot_time) constraint
 // fired - the slot was just taken - which we surface as SlotTakenError so the
-// caller can tell the user and skip the confirmation emails.
+// caller can tell the user and skip the confirmation emails. Every other
+// failure (network, 4xx/5xx) throws a plain Error, which saveBooking() catches
+// and downgrades to the local store rather than dropping the booking.
 async function saveBookingToSupabase(b: Booking): Promise<void> {
-  const res = await fetch(`${SB_URL}/rest/v1/${SB_TABLE}`, {
-    method: "POST",
-    headers: sbHeaders({ Prefer: "return=minimal" }),
-    body: JSON.stringify({
-      id: b.id,
-      slot_date: b.date,
-      slot_time: b.time,
-      name: b.name,
-      email: b.email,
-      phone: b.phone,
-      note: b.note,
-      locale: b.locale,
-      created_at: b.createdAt,
-    }),
-  });
+  let res: Response;
+  try {
+    res = await fetch(`${SB_URL}/rest/v1/${SB_TABLE}`, {
+      method: "POST",
+      headers: sbHeaders({ Prefer: "return=minimal" }),
+      body: JSON.stringify({
+        id: b.id,
+        slot_date: b.date,
+        slot_time: b.time,
+        name: b.name,
+        email: b.email,
+        phone: b.phone,
+        note: b.note,
+        locale: b.locale,
+        created_at: b.createdAt,
+      }),
+    });
+  } catch (err) {
+    throw new Error(`supabase insert request failed: ${String(err)}`);
+  }
   if (res.status === 409) throw new SlotTakenError();
   if (!res.ok) {
     throw new Error(`supabase insert ${res.status} ${(await res.text().catch(() => "")).slice(0, 200)}`);

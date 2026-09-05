@@ -278,8 +278,8 @@
       "Ce qui marche vraiment est peu glamour et étayé par des données : répondez clairement à de vraies questions, appuyez-le sur du concret, soignez votre fiche d'établissement Google et vos avis, gagnez des mentions honnêtes et gardez le site rapide."
     ],
     "related": [
-      "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business",
+      "ai-strategy-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -648,7 +648,7 @@
     ],
     "related": [
       "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business"
     ],
     "cta": {
       "service": "automations",
@@ -1174,6 +1174,246 @@
       {
         "type": "p",
         "text": "Vous perdez quatre-vingt-dix jours et vous apprenez où se trouve la vraie contrainte, raison pour laquelle le premier doit être petit et coupable en un instant. L'erreur coûteuse n'est pas de mal choisir, c'est de choisir quelque chose de si gros que vous ne pouvez ni savoir si cela a marché ni l'arrêter quand vous en doutez."
+      }
+    ]
+  },
+  {
+    "slug": "google-business-profile-for-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "pin",
+    "title": "Fiche d'établissement Google pour petite entreprise : ce qui compte vraiment",
+    "description": "Créer et optimiser la fiche d'établissement Google d'une petite entreprise : les champs sur lesquels Google classe, une routine hebdomadaire de dix minutes et un système d'avis qui tourne tout seul.",
+    "dek": "Pour la plupart des commerces locaux, la fiche Google reçoit plus de visites que le site. C'est aussi ce que la plupart des propriétaires configurent une fois et ne rouvrent jamais. Voici quoi remplir, quoi continuer à faire et quoi laisser tranquille.",
+    "keyword": "Google Business Profile for small business",
+    "author": "L'équipe Kodable",
+    "datePublished": "2026-09-05",
+    "ogImage": "google-business-profile-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Google classe les fiches locales selon trois critères qu'il nomme ouvertement : pertinence, distance et notoriété. Vous contrôlez le premier et le troisième. La distance, c'est l'emplacement de votre porte.",
+      "L'essentiel du gain de classement vient d'une poignée de champs bien remplis : catégorie principale, services, horaires réellement exacts et une description écrite pour une personne.",
+      "Les avis sont l'actif qui se capitalise. Pas la moyenne d'étoiles, mais le flux régulier d'avis récents avec de vraies réponses en dessous.",
+      "Une fiche n'est pas un projet, c'est une habitude. Dix minutes par semaine valent mieux qu'une configuration parfaite abandonnée en mars."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Obtenez un site vers lequel votre fiche Google peut pointer"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/gbp-local-pack.svg",
+        "alt": "Un écran de téléphone montrant une recherche Google d'un plombier à proximité : une carte avec trois établissements épinglés, puis trois cartes de fiche avec note en étoiles, nombre d'avis, horaires et bouton d'appel, et seulement en dessous les liens bleus habituels",
+        "caption": "Le bloc carte est au-dessus des sites web. Pour une recherche de proximité sur téléphone, les trois fiches qu'il contient reçoivent le clic avant que quoi que ce soit d'autre ne se charge."
+      },
+      {
+        "type": "p",
+        "text": "Cherchez un plombier, un dentiste ou un endroit pour déjeuner sur votre téléphone : la première chose que vous voyez n'est pas un site web. C'est une carte avec trois établissements épinglés, chacun avec sa note, ses horaires et un bouton d'appel. Ce bloc est entièrement construit à partir des **fiches d'établissement Google**, la fiche gratuite que Google offre à chaque entreprise. Pour une petite entreprise, la fiche est très souvent le premier endroit, et parfois le seul, où un nouveau client vous rencontre."
+      },
+      {
+        "type": "p",
+        "text": "D'où l'étrangeté du peu d'attention qu'elle reçoit. Le site a été payé, donc on le regarde. La fiche était gratuite, donc elle a été configurée un après-midi il y a trois ans et n'a plus été ouverte depuis. Ce guide est la correction : quoi remplir, quoi continuer à faire chaque semaine et quoi faire des avis, dans cet ordre."
+      },
+      {
+        "type": "stat",
+        "value": "98%",
+        "label": "des consommateurs déclarent lire des avis en ligne sur les commerces locaux au moins occasionnellement. La fiche est l'endroit où vivent la plupart de ces avis, et où se fait la lecture.",
+        "source": "BrightLocal, Local Consumer Review Survey 2023"
+      },
+      {
+        "type": "h2",
+        "text": "Comment Google décide qui apparaît sur la carte"
+      },
+      {
+        "type": "p",
+        "text": "Google est inhabituellement transparent sur ce point. Sa propre documentation d'aide sur le classement local cite trois facteurs : la **pertinence** (à quel point la fiche correspond à ce qui a été cherché), la **distance** (à quelle distance se trouve l'établissement de la personne, ou du lieu qu'elle a indiqué) et la **notoriété** (à quel point l'entreprise est connue, mesurée par les avis, les liens, les articles et son classement dans la recherche web classique)."
+      },
+      {
+        "type": "p",
+        "text": "La distance, vous ne la changez pas sans déménager. La pertinence et la notoriété, si. La pertinence est surtout une question de fiche remplie complètement et avec exactitude. La notoriété est surtout une question d'avis et d'un site web et d'une présence plus large que Google peut relier à la fiche. Presque tout ce qui suit relève de l'un de ces deux leviers."
+      },
+      {
+        "type": "callout",
+        "title": "La seule idée à retenir",
+        "body": "Google essaie de répondre à une question : « lequel de ces établissements est vraiment le meilleur choix pour cette personne, maintenant ? ». Chaque champ que vous remplissez et chaque avis que vous obtenez est une preuve. Les fiches maigres ne perdent pas parce que Google ne les aime pas. Elles perdent parce qu'il n'y a rien sur quoi s'appuyer."
+      },
+      {
+        "type": "h2",
+        "text": "Les champs qui font le travail de classement"
+      },
+      {
+        "type": "p",
+        "text": "Une fiche a des dizaines de champs, et ils ne se valent pas. Voici ceux qu'il faut soigner en premier, à peu près dans l'ordre de leur importance."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Catégorie principale",
+            "body": "Le champ le plus important de tous. Il indique à Google dans quelles recherches vous avez votre place. Soyez précis et honnête : « Restaurant italien », pas « Restaurant » ; « Plombier d'urgence » seulement si vous répondez vraiment à 3 h du matin. Ajoutez des catégories secondaires pour les autres choses que vous faites réellement, et résistez à l'envie d'ajouter celles que vous ne faites pas."
+          },
+          {
+            "title": "Nom de l'entreprise, exactement comme sur l'enseigne",
+            "body": "Pas « Salon Marta, meilleure coloration de Valence ». Les règles de Google interdisent de bourrer le nom de mots-clés, et les fiches qui le font sont signalées par les concurrents et suspendues. Le nom, c'est le nom. Les mots-clés vont dans les champs prévus pour eux."
+          },
+          {
+            "title": "Services et produits, un par ligne",
+            "body": "Listez chaque prestation comme un service à part, avec une courte description et, quand c'est possible, un prix ou un « à partir de ». C'est ici que se construit la pertinence : quelqu'un qui cherche « réparation de chaudière » correspond à une fiche qui dit réparation de chaudière, pas à une qui dit « tous travaux de plomberie »."
+          },
+          {
+            "title": "Des horaires qui sont vrais",
+            "body": "Jours fériés compris, mardi où vous fermez tôt compris. Un client qui roule jusqu'à une porte fermée parce que la fiche disait ouvert laisse un avis à une étoile qui survit à l'erreur pendant des années. Définissez des horaires spéciaux avant chaque jour férié ; cela prend une minute."
+          },
+          {
+            "title": "Une description écrite pour un humain",
+            "body": "Vous avez 750 caractères. Utilisez les deux premières phrases pour dire ce que vous faites, pour qui et où, avec les mots qu'emploierait un client. Puis ce qui fait de vous le choix raisonnable. Pas de liste de quartiers, pas de majuscules, pas de « meilleur »."
+          },
+          {
+            "title": "Des photos qui ressemblent à aujourd'hui",
+            "body": "La façade (pour qu'on la reconnaisse), l'intérieur, l'équipe, le travail. Récentes, bien éclairées, prises au téléphone, c'est très bien. Remplacez celles de la semaine d'ouverture. Les photos sont parmi les premières choses que regarde une personne qui cherche, et parmi les premières à vieillir."
+          },
+          {
+            "title": "Téléphone, site web et lien de réservation",
+            "body": "Le numéro de téléphone auquel on répond vraiment. Le site qui se charge vraiment sur un téléphone. Si vous prenez des réservations, un lien direct vers la page de réservation, pas vers l'accueil. Chaque étape supprimée entre la fiche et l'action est un client que vous ne perdez pas en route."
+          },
+          {
+            "title": "Attributs",
+            "body": "Accès fauteuil roulant, terrasse, entreprise dirigée par une femme, sur rendez-vous, cartes acceptées. De petits champs, mais ils répondent aux filtres que les gens appliquent et aux questions que reçoivent les assistants IA. Cochez ceux qui sont vrais."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/gbp-checklist.svg",
+        "alt": "Une liste de contrôle des champs de la fiche d'établissement Google en trois colonnes : à faire une fois (catégorie, nom, services, description, attributs), à garder exacts (horaires, téléphone, site, photos) et à faire vivre (avis, réponses, posts, questions)",
+        "caption": "Trois types de champs : ceux que vous remplissez une fois, ceux que vous gardez exacts et ceux qui ne fonctionnent que s'ils continuent de circuler."
+      },
+      {
+        "type": "h2",
+        "text": "Les avis : la partie qui se capitalise"
+      },
+      {
+        "type": "p",
+        "text": "Si vous ne retenez qu'une chose de cet article, mettez en place une façon de demander des avis qui ne dépende pas de votre mémoire. Les avis nourrissent directement la notoriété. Ce sont aussi ce qu'une personne lit vraiment avant de choisir, et de plus en plus ce qu'un assistant IA résume quand on lui demande de recommander un endroit."
+      },
+      {
+        "type": "p",
+        "text": "Trois choses comptent plus que la moyenne d'étoiles. La **fraîcheur** : une fiche dont le dernier avis date de 2024 a l'air fermée. Le **volume dans la durée** : un filet régulier vaut mieux qu'une rafale, et vingt avis en une semaine ont l'air achetés. Les **réponses** : un propriétaire qui répond, y compris aux mauvais avis, calmement et précisément, est visiblement une entreprise attentive."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Récupérez votre lien d'avis",
+            "body": "Dans le tableau de bord de la fiche, il y a un lien court qui ouvre directement la fenêtre d'avis. Gardez-le. Mettez-le sur le ticket, sur une petite carte à la caisse, dans l'e-mail de confirmation et en QR code là où les gens attendent."
+          },
+          {
+            "title": "Demandez au moment de la satisfaction",
+            "body": "Pas à la facture. Quand le travail est terminé et que le client dit « c'est parfait, merci », c'est le moment. Un jour plus tard, deux au maximum, ça va encore. Un mois plus tard, c'est un service qu'il a oublié vous devoir."
+          },
+          {
+            "title": "Automatisez la demande",
+            "body": "N'importe quel outil de réservation ou de facturation peut envoyer un court message le lendemain du travail avec le lien dedans. Configurez-le une fois et cessez de compter sur votre mémoire. C'est l'automatisation la plus rentable que la plupart des commerces locaux puissent mettre en place ; nous expliquons comment la choisir dans [quelles tâches automatiser en premier](~/blog/automations-for-small-business)."
+          },
+          {
+            "title": "Répondez à chaque avis sous quelques jours",
+            "body": "Deux lignes pour un bon avis, avec un détail précis de la visite pour que ça ne ressemble pas à un modèle. Pour un mauvais : remerciez, donnez le seul fait qui compte, proposez de régler ça en privé. Ne discutez jamais, ne citez jamais le nom de la personne d'une façon qui l'identifie si elle ne l'a pas fait, et ne répondez jamais en colère le jour même."
+          },
+          {
+            "title": "Ne les achetez, n'échangez ni n'inventez jamais",
+            "body": "Google supprime les avis qu'il juge faux et peut suspendre la fiche qui les a reçus. Ceux qui achètent des avis pensent toujours qu'ils ne se feront pas prendre. Lent et vrai gagne, et c'est d'ailleurs la seule version qui produit des clients."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "La routine hebdomadaire de dix minutes"
+      },
+      {
+        "type": "p",
+        "text": "Une fiche est un registre vivant, et Google remarque quand elle est vivante. Toute la routine tient dans un rappel d'agenda le lundi matin."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Répondez aux nouveaux avis.** En général un ou deux. S'il n'y en a pas, c'est un rappel d'en demander.",
+          "**Répondez aux questions.** La fiche a une section publique de questions-réponses à laquelle n'importe qui peut répondre, y compris des inconnus avec des informations fausses. Répondez-y vous-même, et semez les cinq questions qu'on vous pose chaque jour.",
+          "**Publiez une actualité.** Une photo du travail de la semaine, une offre saisonnière, un changement d'horaires, un nouveau service. Les posts expirent, donc un flux régulier compte plus que n'importe lequel en particulier.",
+          "**Vérifiez les horaires.** Surtout à l'approche d'un jour férié. Google modifie aussi parfois les fiches à partir de données tierces ; un coup d'œil mensuel attrape un changement d'horaire que vous n'avez jamais fait.",
+          "**Jetez un œil aux chiffres.** La fiche montre comment les gens vous ont trouvé, ce qu'ils ont cherché, et combien ont appelé ou demandé l'itinéraire. Regarder ça cinq minutes par semaine vous en apprend plus sur vos clients que la plupart des rapports."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Le site web compte toujours, pour une autre raison"
+      },
+      {
+        "type": "p",
+        "text": "Il est tentant de conclure que si la fiche reçoit le clic, le site est facultatif. C'est l'inverse. Google relie la fiche au site, et le site est une grande partie de ce qu'il entend par notoriété : cette entreprise existe-t-elle au-delà de la fiche, dit-elle la même chose, d'autres la citent-ils. Une fiche qui pointe vers une page lente de 2019, ou vers rien, est une fiche aux fondations fragiles."
+      },
+      {
+        "type": "p",
+        "text": "La règle pratique, c'est la cohérence. Même nom, même adresse, même numéro de téléphone, mêmes catégories de services, sur la fiche, sur le site et partout ailleurs où vous apparaissez. Ensuite, faites faire au site le seul travail que la fiche ne peut pas faire : expliquer, avec assez de profondeur, pourquoi vous choisir, avec un moyen de réserver ou d'appeler sur chaque page. C'est à ça que sert un [site web pour petite entreprise](~/services/websites), et c'est pourquoi les deux ensemble font mieux que chacun seul. Pour comprendre où tout cela mène maintenant que les assistants IA commencent à répondre directement à la recherche, lisez [être trouvé quand l'IA répond en premier](~/blog/get-found-in-ai-search)."
+      },
+      {
+        "type": "h2",
+        "text": "Les erreurs qui font suspendre ou enterrer une fiche"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Des mots-clés dans le nom de l'entreprise.** La raison la plus courante de suspension d'une fiche de petite entreprise. Ça marche un mois, puis elle disparaît, avec les avis.",
+          "**Une entreprise à domicile qui affiche l'adresse de la maison.** Si vous allez chez les clients et qu'ils ne viennent pas chez vous, masquez l'adresse et définissez une zone desservie. Afficher une maison sur la carte est contraire aux règles et paraît étrange aux clients.",
+          "**Des fiches en double.** Une ancienne du propriétaire précédent, une créée par un employé, une issue d'un annuaire. Elles divisent les avis et embrouillent Google. Revendiquez-les, fusionnez-les ou supprimez-les.",
+          "**Laisser des inconnus répondre à vos questions.** La section est publique. Si vous la laissez vide, quelqu'un d'autre la remplit, parfois mal.",
+          "**Considérer une suspension comme définitive.** Elle ne l'est pas. Il existe un formulaire de rétablissement. Corrigez d'abord l'infraction, puis faites appel, simplement et honnêtement. La plupart des entreprises légitimes récupèrent leur fiche."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Vous ne savez pas ce qui manque à votre fiche ?",
+        "body": "Envoyez-nous le nom de votre entreprise : nous regarderons la fiche et le site ensemble et vous dirons les trois choses qui la feraient le plus avancer. Pas de rapport, pas de facture, un court e-mail honnête.",
+        "button": "Demander un coup d'œil"
+      },
+      {
+        "type": "h2",
+        "text": "Questions fréquentes"
+      },
+      {
+        "type": "h3",
+        "text": "La fiche d'établissement Google est-elle gratuite ?"
+      },
+      {
+        "type": "p",
+        "text": "Oui, entièrement. Créer, valider et gérer la fiche ne coûte rien, et Google ne vend pas de meilleur placement dans les résultats de la carte. Quiconque propose de « vous référencer sur Google » contre paiement revend un formulaire gratuit, et ceux qui appellent pour ça sans qu'on le leur demande méritent rarement la conversation."
+      },
+      {
+        "type": "h3",
+        "text": "Combien de temps avant de voir des résultats après avoir optimisé la fiche ?"
+      },
+      {
+        "type": "p",
+        "text": "Les corrections de catégories, d'horaires et de services apparaissent généralement en quelques jours. Le mouvement dans le classement de la carte est plus lent, parce que la notoriété se construit avec des avis et des signaux qui s'accumulent sur des semaines et des mois. Accordez à une fiche correctement remplie huit à douze semaines de routine hebdomadaire avant de la juger."
+      },
+      {
+        "type": "h3",
+        "text": "Ai-je besoin d'un site web si j'ai une fiche d'établissement Google ?"
+      },
+      {
+        "type": "p",
+        "text": "On peut vous trouver sans, mais vous êtes mieux classé et convertissez mieux avec. Google utilise le site comme partie de la notoriété, et les clients l'utilisent pour se décider une fois que la fiche a retenu leur attention. Un site simple, rapide, pensé pour le mobile et cohérent avec la fiche suffit ; vous pouvez voir ce que cela coûte sur notre [page tarifs](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Puis-je supprimer un mauvais avis de ma fiche d'établissement Google ?"
+      },
+      {
+        "type": "p",
+        "text": "Seulement s'il enfreint les règles de Google, par exemple du spam, un avis sur la mauvaise entreprise ou un contenu hors sujet ou abusif. Vous pouvez le signaler depuis le tableau de bord et Google décide. Un avis négatif honnête d'un vrai client reste ; la meilleure réponse est une réponse publique, calme et précise, que les futurs clients lisent plus attentivement que l'avis lui-même."
       }
     ]
   }

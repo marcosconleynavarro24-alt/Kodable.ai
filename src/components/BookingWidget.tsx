@@ -84,8 +84,18 @@ export default function BookingWidget({
       if (res.ok && data.ok) {
         setStatus("done");
       } else {
+        // `error` is a request-level failure code (nothing the visitor typed is
+        // wrong), so it wins over the field errors and is rendered from `copy`,
+        // which exists in the visitor's own locale. `errors` holds field messages.
         const errs = (data && data.errors) || {};
-        setErrMsg(errs.slot || errs.contact || errs.email || errs.name || copy.errorGeneric);
+        const code: string | undefined = data && data.error;
+        setErrMsg(
+          code === "rate_limited"
+            ? copy.errorRateLimited
+            : code
+              ? copy.errorGeneric
+              : errs.slot || errs.contact || errs.email || errs.name || copy.errorGeneric,
+        );
         setStatus("error");
       }
     } catch {

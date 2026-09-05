@@ -278,8 +278,8 @@
       "Was wirklich funktioniert, ist unglamourös und durch Daten belegt: beantworte echte Fragen klar, untermauere es mit echtem Detail, pflege dein Google-Unternehmensprofil und deine Bewertungen, verdiene dir ehrliche Erwähnungen und halte die Seite schnell."
     ],
     "related": [
-      "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business",
+      "ai-strategy-for-small-business"
     ],
     "cta": {
       "service": "websites",
@@ -648,7 +648,7 @@
     ],
     "related": [
       "ai-strategy-for-small-business",
-      "ai-agent-for-small-business"
+      "google-business-profile-for-small-business"
     ],
     "cta": {
       "service": "automations",
@@ -1174,6 +1174,246 @@
       {
         "type": "p",
         "text": "Sie verlieren neunzig Tage und lernen, wo die echte Engstelle liegt, weshalb das erste klein und abschaltbar sein sollte. Der teure Fehler ist nicht die falsche Wahl, sondern etwas so Großes zu wählen, dass Sie weder erkennen können, ob es gewirkt hat, noch es stoppen können, wenn Sie zweifeln."
+      }
+    ]
+  },
+  {
+    "slug": "google-business-profile-for-small-business",
+    "category": "Getting Found",
+    "categoryIcon": "pin",
+    "title": "Google Unternehmensprofil für kleine Unternehmen: Was wirklich rankt",
+    "description": "Google Unternehmensprofil für ein kleines Unternehmen einrichten und optimieren: die Felder, nach denen Google rankt, eine wöchentliche Zehn-Minuten-Routine und ein Bewertungssystem, das von allein läuft.",
+    "dek": "Bei den meisten lokalen Betrieben bekommt der Google-Eintrag mehr Besuche als die Website. Und er ist das, was die meisten Inhaber einmal einrichten und nie wieder anfassen. Hier steht, was auszufüllen ist, was man weiter tun sollte und was man in Ruhe lässt.",
+    "keyword": "Google Business Profile for small business",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-09-05",
+    "ogImage": "google-business-profile-for-small-business.jpg",
+    "readMinutes": 11,
+    "takeaways": [
+      "Google ordnet lokale Einträge nach drei Dingen, die es offen benennt: Relevanz, Entfernung und Bekanntheit. Das erste und das dritte steuern Sie. Die Entfernung ist dort, wo Ihre Tür steht.",
+      "Der Großteil des Ranking-Gewinns kommt von einer Handvoll richtig ausgefüllter Felder: Hauptkategorie, Leistungen, Öffnungszeiten, die tatsächlich stimmen, und eine Beschreibung, die für einen Menschen geschrieben ist.",
+      "Bewertungen sind das Kapital, das sich verzinst. Nicht der Sternedurchschnitt, sondern der stetige Fluss aktueller Bewertungen mit echten Antworten darunter.",
+      "Ein Profil ist kein Projekt, sondern eine Gewohnheit. Zehn Minuten pro Woche schlagen eine perfekte Einrichtung, die Sie im März aufgeben."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Eine Website, auf die Ihr Google-Eintrag verweisen kann"
+    },
+    "body": [
+      {
+        "type": "figure",
+        "src": "/blog/gbp-local-pack.svg",
+        "alt": "Ein Handybildschirm mit einer Google-Suche nach einem Klempner in der Nähe: eine Karte mit drei markierten Betrieben, darunter drei Eintragskarten mit Sternebewertung, Anzahl der Bewertungen, Öffnungszeiten und Anruf-Button, und erst darunter die gewohnten blauen Links",
+        "caption": "Das Kartenpaket sitzt über den Websites. Bei einer Suche in der Nähe auf dem Handy bekommen die drei Einträge darin den Tipp, bevor irgendetwas anderes lädt."
+      },
+      {
+        "type": "p",
+        "text": "Suchen Sie auf dem Handy nach einem Klempner, einem Zahnarzt oder einem Ort zum Mittagessen, und das Erste, was Sie sehen, ist keine Website. Es ist eine Karte mit drei markierten Betrieben, jeder mit Sternebewertung, Öffnungszeiten und einem Anruf-Button. Dieser Block besteht komplett aus **Google Unternehmensprofilen**, dem kostenlosen Eintrag, den Google jedem Unternehmen gibt. Für ein kleines Unternehmen ist das Profil sehr oft der erste, und manchmal der einzige, Ort, an dem ein neuer Kunde Ihnen begegnet."
+      },
+      {
+        "type": "p",
+        "text": "Umso seltsamer, wie wenig Aufmerksamkeit es bekommt. Die Website wurde bezahlt, also schaut man sie an. Das Profil war kostenlos, also wurde es vor drei Jahren an einem Nachmittag eingerichtet und seitdem nicht mehr geöffnet. Dieser Leitfaden ist die Korrektur: was auszufüllen ist, was jede Woche weiter zu tun ist und was mit Bewertungen zu tun ist, in dieser Reihenfolge."
+      },
+      {
+        "type": "stat",
+        "value": "98%",
+        "label": "der Verbraucher geben an, zumindest gelegentlich Online-Bewertungen lokaler Unternehmen zu lesen. Das Profil ist der Ort, an dem die meisten dieser Bewertungen leben und an dem gelesen wird.",
+        "source": "BrightLocal, Local Consumer Review Survey 2023"
+      },
+      {
+        "type": "h2",
+        "text": "Wie Google entscheidet, wer auf der Karte erscheint"
+      },
+      {
+        "type": "p",
+        "text": "Hier ist Google ungewöhnlich offen. Seine eigene Hilfedokumentation zum lokalen Ranking nennt drei Faktoren: **Relevanz** (wie gut der Eintrag zur Suche passt), **Entfernung** (wie weit der Betrieb vom Suchenden oder vom genannten Ort entfernt ist) und **Bekanntheit** (wie bekannt das Unternehmen ist, gemessen an Bewertungen, Links, Artikeln und seinem Rang in der normalen Websuche)."
+      },
+      {
+        "type": "p",
+        "text": "Die Entfernung ändern Sie nicht ohne Umzug. Relevanz und Bekanntheit schon. Relevanz ist vor allem eine Frage des vollständigen und korrekten Ausfüllens. Bekanntheit ist vor allem eine Frage der Bewertungen und einer Website und breiteren Präsenz, die Google mit dem Eintrag verknüpfen kann. Fast alles, was folgt, ist einer dieser beiden Hebel."
+      },
+      {
+        "type": "callout",
+        "title": "Der eine Gedanke zum Behalten",
+        "body": "Google versucht, eine Frage zu beantworten: \"Welcher dieser Betriebe passt gerade jetzt wirklich am besten zu dieser Person?\" Jedes Feld, das Sie ausfüllen, und jede Bewertung, die Sie bekommen, ist ein Beleg. Dünne Profile verlieren nicht, weil Google sie nicht mag. Sie verlieren, weil es nichts gibt, worauf man sich stützen könnte."
+      },
+      {
+        "type": "h2",
+        "text": "Die Felder, die die Ranking-Arbeit leisten"
+      },
+      {
+        "type": "p",
+        "text": "Ein Profil hat Dutzende Felder, und sie sind nicht gleichwertig. Das sind die, die Sie zuerst richtig hinbekommen sollten, ungefähr in der Reihenfolge ihrer Bedeutung."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Hauptkategorie",
+            "body": "Das wichtigste Feld überhaupt. Es sagt Google, in welche Suchen Sie überhaupt gehören. Seien Sie konkret und ehrlich: \"Italienisches Restaurant\", nicht \"Restaurant\"; \"Notdienst-Klempner\" nur, wenn Sie um 3 Uhr nachts wirklich rangehen. Ergänzen Sie Nebenkategorien für andere Dinge, die Sie tatsächlich tun, und widerstehen Sie der Versuchung, welche hinzuzufügen, die Sie nicht tun."
+          },
+          {
+            "title": "Firmenname, genau wie auf dem Schild",
+            "body": "Nicht \"Salon Marta, beste Haarfarbe in Valencia\". Googles Richtlinien verbieten es, Schlüsselwörter in den Namen zu stopfen, und Einträge, die das tun, werden von Wettbewerbern gemeldet und gesperrt. Der Name ist der Name. Die Schlüsselwörter gehören in die dafür gebauten Felder."
+          },
+          {
+            "title": "Leistungen und Produkte, eine pro Zeile",
+            "body": "Führen Sie jede Leistung als eigenen Dienst auf, mit kurzer Beschreibung und, wo möglich, einem Preis oder einem Ab-Preis. Hier entsteht Relevanz: Wer nach \"Heizungsreparatur\" sucht, passt zu einem Eintrag, der Heizungsreparatur sagt, nicht zu einem, der \"alle Sanitärarbeiten\" sagt."
+          },
+          {
+            "title": "Öffnungszeiten, die stimmen",
+            "body": "Einschließlich Feiertage, einschließlich des Dienstags, an dem Sie früher schließen. Ein Kunde, der vor einer verschlossenen Tür steht, weil das Profil geöffnet sagte, hinterlässt eine Ein-Stern-Bewertung, die den Fehler um Jahre überlebt. Legen Sie vor jedem Feiertag Sonderzeiten fest; das dauert eine Minute."
+          },
+          {
+            "title": "Eine Beschreibung, die für einen Menschen geschrieben ist",
+            "body": "Sie haben 750 Zeichen. Nutzen Sie die ersten zwei Sätze, um zu sagen, was Sie tun, für wen und wo, in den Worten, die ein Kunde benutzen würde. Dann, was Sie zur vernünftigen Wahl macht. Keine Stadtteillisten, keine Großbuchstaben, kein \"beste\"."
+          },
+          {
+            "title": "Fotos, die nach heute aussehen",
+            "body": "Die Fassade (damit man sie erkennt), der Innenraum, das Team, die Arbeit. Aktuell, gut ausgeleuchtet, mit dem Handy aufgenommen reicht völlig. Ersetzen Sie die aus der Eröffnungswoche. Fotos sind eines der ersten Dinge, die ein Suchender ansieht, und eines der ersten, die veralten."
+          },
+          {
+            "title": "Telefon, Website und Buchungslink",
+            "body": "Die Telefonnummer, an die tatsächlich jemand rangeht. Die Website, die auf dem Handy tatsächlich lädt. Wenn Sie Buchungen annehmen, ein Link direkt zur Buchungsseite, nicht zur Startseite. Jeder Schritt, den Sie zwischen Eintrag und Aktion entfernen, ist ein Kunde, den Sie unterwegs nicht verlieren."
+          },
+          {
+            "title": "Attribute",
+            "body": "Rollstuhlgerecht, Außenbereich, von Frauen geführt, Termin erforderlich, Kartenzahlung. Kleine Felder, aber sie beantworten die Filter, die Leute setzen, und die Fragen, die KI-Assistenten gestellt werden. Haken Sie die an, die stimmen."
+          }
+        ]
+      },
+      {
+        "type": "figure",
+        "src": "/blog/gbp-checklist.svg",
+        "alt": "Eine Checkliste der Felder des Google Unternehmensprofils in drei Spalten: einmal erledigen (Kategorie, Name, Leistungen, Beschreibung, Attribute), aktuell halten (Öffnungszeiten, Telefon, Website, Fotos) und am Laufen halten (Bewertungen, Antworten, Beiträge, Fragen)",
+        "caption": "Drei Arten von Feldern: die, die Sie einmal erledigen, die, die Sie aktuell halten, und die, die nur funktionieren, wenn sie in Bewegung bleiben."
+      },
+      {
+        "type": "h2",
+        "text": "Bewertungen: der Teil, der sich verzinst"
+      },
+      {
+        "type": "p",
+        "text": "Wenn Sie aus diesem Artikel nur eines umsetzen, dann bauen Sie eine Art, um Bewertungen zu bitten, die nicht vom Daran-Denken abhängt. Bewertungen speisen die Bekanntheit direkt. Sie sind außerdem das, was eine Person vor der Wahl tatsächlich liest, und zunehmend das, was ein KI-Assistent zusammenfasst, wenn jemand ihn um eine Empfehlung bittet."
+      },
+      {
+        "type": "p",
+        "text": "Drei Dinge zählen mehr als der Sternedurchschnitt. **Aktualität**: ein Eintrag, dessen letzte Bewertung von 2024 stammt, wirkt geschlossen. **Menge über die Zeit**: ein stetiges Rinnsal schlägt einen Schub, und zwanzig Bewertungen in einer Woche wirken gekauft. **Antworten**: ein Inhaber, der antwortet, auch auf die schlechten, ruhig und konkret, ist erkennbar ein Betrieb, der aufpasst."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Holen Sie sich Ihren Bewertungslink",
+            "body": "Im Profil-Dashboard gibt es einen kurzen Link, der das Bewertungsfenster direkt öffnet. Speichern Sie ihn. Drucken Sie ihn auf den Bon, auf eine kleine Karte an der Kasse, in die Bestätigungsmail und als QR-Code dort, wo Leute warten."
+          },
+          {
+            "title": "Bitten Sie im Moment der Zufriedenheit",
+            "body": "Nicht bei der Rechnung. Wenn die Arbeit fertig ist und der Kunde sagt \"super, vielen Dank\", das ist der Moment. Einen Tag später, höchstens zwei, geht noch. Einen Monat später ist es ein Gefallen, von dem er vergessen hat, dass er ihn schuldet."
+          },
+          {
+            "title": "Automatisieren Sie die Bitte",
+            "body": "Jedes Buchungs- oder Rechnungstool kann am Tag nach dem Auftrag eine kurze Nachricht mit dem Link verschicken. Einmal einrichten und nicht mehr aufs Daran-Denken verlassen. Das ist die wertvollste Automatisierung, die die meisten lokalen Betriebe bauen können; wie man sie auswählt, erklären wir in [welche Aufgaben zuerst automatisieren](~/blog/automations-for-small-business)."
+          },
+          {
+            "title": "Antworten Sie auf jede Bewertung innerhalb weniger Tage",
+            "body": "Zwei Zeilen für eine gute, mit etwas Konkretem aus dem Besuch, damit es nicht wie eine Vorlage klingt. Bei einer schlechten: bedanken, den einen entscheidenden Fakt nennen, anbieten, es außerhalb zu klären. Nie streiten, nie den Namen so nennen, dass die Person erkennbar wird, wenn sie es selbst nicht getan hat, und nie am selben Tag wütend antworten."
+          },
+          {
+            "title": "Nie kaufen, tauschen oder fälschen",
+            "body": "Google entfernt Bewertungen, die es für gefälscht hält, und kann den Eintrag sperren, der sie erhalten hat. Wer Bewertungen kauft, glaubt immer, gerade er werde nicht erwischt. Langsam und echt gewinnt, und es ist zufällig auch die einzige Variante, die Kunden bringt."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Die wöchentliche Zehn-Minuten-Routine"
+      },
+      {
+        "type": "p",
+        "text": "Ein Profil ist ein lebendiges Verzeichnis, und Google merkt, wenn es lebt. Die ganze Routine passt in eine Kalendererinnerung am Montagmorgen."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Auf neue Bewertungen antworten.** Meist eine oder zwei. Gibt es keine, ist das die Erinnerung, darum zu bitten.",
+          "**Die Fragen beantworten.** Das Profil hat einen öffentlichen Fragen-und-Antworten-Bereich, in dem jeder antworten kann, auch Fremde mit falschen Informationen. Beantworten Sie sie selbst, und legen Sie die fünf Fragen an, die Ihnen jeden Tag gestellt werden.",
+          "**Einen Beitrag veröffentlichen.** Ein Foto der Arbeit dieser Woche, ein Saisonangebot, geänderte Öffnungszeiten, eine neue Leistung. Beiträge laufen ab, also zählt ein stetiger Strom mehr als ein einzelner.",
+          "**Die Öffnungszeiten prüfen.** Vor allem vor einem Feiertag. Google bearbeitet Einträge manchmal auch anhand von Drittdaten; ein monatlicher Blick fängt eine Zeitänderung ab, die Sie nie gemacht haben.",
+          "**Einen Blick auf die Zahlen werfen.** Das Profil zeigt, wie Leute Sie gefunden haben, wonach sie gesucht haben und wie viele angerufen oder den Weg abgefragt haben. Fünf Minuten pro Woche darauf zu schauen lehrt Sie mehr über Ihre Kunden als die meisten Berichte."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Die Website zählt weiterhin, aus einem anderen Grund"
+      },
+      {
+        "type": "p",
+        "text": "Es ist verlockend zu schließen, dass die Website optional ist, wenn der Eintrag den Tipp bekommt. Es ist umgekehrt. Google verknüpft den Eintrag mit der Website, und die Website ist ein großer Teil dessen, was es unter Bekanntheit versteht: Gibt es dieses Unternehmen über den Eintrag hinaus, sagt es dasselbe, verlinken andere darauf. Ein Profil, das auf eine langsame Seite von 2019 zeigt, oder auf gar nichts, ist ein Profil mit schwachem Fundament."
+      },
+      {
+        "type": "p",
+        "text": "Die praktische Regel ist Konsistenz. Gleicher Name, gleiche Adresse, gleiche Telefonnummer, gleiche Leistungskategorien, im Eintrag, auf der Website und überall sonst, wo Sie auftauchen. Dann lassen Sie die Website die eine Aufgabe erledigen, die der Eintrag nicht kann: ausführlich genug erklären, warum jemand Sie wählen sollte, mit einer Buchungs- oder Anrufmöglichkeit auf jeder Seite. Dafür ist eine [Website für kleine Unternehmen](~/services/websites) da, und deshalb leisten beide zusammen mehr als jedes für sich. Wenn Sie verstehen wollen, wohin das alles führt, jetzt, wo KI-Assistenten anfangen, die Suche direkt zu beantworten, lesen Sie [gefunden werden, wenn die KI zuerst antwortet](~/blog/get-found-in-ai-search)."
+      },
+      {
+        "type": "h2",
+        "text": "Fehler, die Einträge sperren oder begraben lassen"
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Schlüsselwörter im Firmennamen.** Der häufigste Grund, warum der Eintrag eines kleinen Unternehmens gesperrt wird. Es funktioniert einen Monat, dann ist er weg, samt Bewertungen.",
+          "**Ein mobiler Dienstleister, der die Privatadresse zeigt.** Wenn Sie zu den Kunden fahren und sie nicht zu Ihnen kommen, verbergen Sie die Adresse und legen Sie ein Einzugsgebiet fest. Ein Wohnhaus auf der Karte verstößt gegen die Richtlinien und wirkt auf Kunden seltsam.",
+          "**Doppelte Einträge.** Ein alter vom Vorbesitzer, einer von einem Mitarbeiter angelegt, einer aus einem Verzeichnis. Sie teilen die Bewertungen auf und verwirren Google. Beanspruchen Sie sie und führen Sie sie zusammen oder entfernen Sie sie.",
+          "**Fremde Ihre Fragen beantworten lassen.** Der Bereich ist öffentlich. Lassen Sie ihn leer, füllt ihn jemand anderes, manchmal falsch.",
+          "**Eine Sperre als endgültig betrachten.** Ist sie nicht. Es gibt ein Formular zur Wiederherstellung. Beheben Sie zuerst den Verstoß, dann legen Sie Einspruch ein, schlicht und ehrlich. Die meisten legitimen Unternehmen bekommen den Eintrag zurück."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Nicht sicher, was Ihrem Eintrag fehlt?",
+        "body": "Schicken Sie uns den Namen Ihres Unternehmens, und wir sehen uns Profil und Website zusammen an und nennen Ihnen die drei Dinge, die am meisten bewegen würden. Kein Bericht, keine Rechnung, eine kurze ehrliche E-Mail.",
+        "button": "Um einen Blick bitten"
+      },
+      {
+        "type": "h2",
+        "text": "Häufig gestellte Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Ist ein Google Unternehmensprofil kostenlos?"
+      },
+      {
+        "type": "p",
+        "text": "Ja, vollständig. Erstellen, bestätigen und verwalten des Profils kostet nichts, und Google verkauft keine bessere Platzierung in den Kartenergebnissen. Wer anbietet, Sie gegen Gebühr \"bei Google einzutragen\", verkauft ein kostenloses Formular weiter, und wer deswegen unaufgefordert anruft, ist das Gespräch meist nicht wert."
+      },
+      {
+        "type": "h3",
+        "text": "Wie lange dauert es, bis nach der Optimierung Ergebnisse sichtbar werden?"
+      },
+      {
+        "type": "p",
+        "text": "Korrekturen an Kategorien, Öffnungszeiten und Leistungen sind meist innerhalb von Tagen sichtbar. Bewegung im Kartenranking ist langsamer, weil Bekanntheit aus Bewertungen und Signalen entsteht, die sich über Wochen und Monate ansammeln. Geben Sie einem sauber ausgefüllten Profil acht bis zwölf Wochen wöchentlicher Routine, bevor Sie urteilen."
+      },
+      {
+        "type": "h3",
+        "text": "Brauche ich eine Website, wenn ich ein Google Unternehmensprofil habe?"
+      },
+      {
+        "type": "p",
+        "text": "Man kann Sie auch ohne finden, aber mit ranken Sie besser und gewinnen mehr Kunden. Google nutzt die Website als Teil der Bekanntheit, und Kunden nutzen sie, um sich zu entscheiden, sobald der Eintrag ihre Aufmerksamkeit hat. Eine einfache, schnelle, für Mobilgeräte gebaute Website, die zum Eintrag passt, reicht; was das kostet, sehen Sie auf unserer [Preisseite](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Kann ich eine schlechte Bewertung aus meinem Google Unternehmensprofil entfernen?"
+      },
+      {
+        "type": "p",
+        "text": "Nur wenn sie gegen Googles Richtlinien verstößt, zum Beispiel Spam, eine Bewertung des falschen Unternehmens oder themenfremde oder beleidigende Inhalte. Sie können sie im Dashboard melden, und Google entscheidet. Eine ehrliche negative Bewertung eines echten Kunden bleibt; die beste Reaktion ist eine ruhige, konkrete öffentliche Antwort, die künftige Kunden aufmerksamer lesen als die Bewertung selbst."
       }
     ]
   }

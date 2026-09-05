@@ -12,10 +12,20 @@ import {
   bookingMessages,
   SlotTakenError,
   type BookingInput,
+  type BookingFailure,
 } from "@/lib/bookings";
 import { recordEvent } from "@/lib/events";
 
 export const dynamic = "force-dynamic";
+
+// A failure that is not about what the visitor typed answers with a machine
+// code, never a field message. These used to ride in errors.slot, which told the
+// visitor to change a slot choice that was never the problem (and, since the
+// widget reads errors.slot before its own generic copy, hid the real message).
+// The widget maps each code to its own copy, which exists in all five locales.
+function fail(error: BookingFailure, status: number): Response {
+  return Response.json({ ok: false, error }, { status });
+}
 
 function clientIp(request: Request): string {
   // Prefer x-real-ip: on Vercel the platform sets it to the true client IP and
@@ -45,7 +55,7 @@ export async function POST(request: Request) {
   try {
     body = (await request.json()) as BookingInput;
   } catch {
-    return Response.json({ ok: false, errors: { slot: "Invalid request." } }, { status: 400 });
+    return fail("bad_request", 400);
   }
 
   const m = bookingMessages(body.locale);
@@ -56,10 +66,7 @@ export async function POST(request: Request) {
   }
 
   if (rateLimited(clientIp(request))) {
-    return Response.json(
-      { ok: false, errors: { slot: m.slot } },
-      { status: 429 },
-    );
+    return fail("rate_limited", 429);
   }
 
   const result = await validateBooking(body);
@@ -77,7 +84,7 @@ export async function POST(request: Request) {
       return Response.json({ ok: false, errors: { slot: m.taken } }, { status: 409 });
     }
     console.error("[booking] save error:", err);
-    return Response.json({ ok: false, errors: { slot: m.slot } }, { status: 500 });
+    return fail("save_failed", 500);
   }
 
   // The slot is secured - delivery and analytics are best-effort and must never

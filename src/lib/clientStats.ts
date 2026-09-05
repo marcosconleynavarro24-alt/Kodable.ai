@@ -14,10 +14,10 @@
 import "server-only";
 import { type ClientStats, VCP_STATS } from "@/content/clientStats";
 
-const SB_URL = process.env.SUPABASE_URL ?? "https://utjislfuhqixkiictkqp.supabase.co";
+const SB_URL = process.env.SUPABASE_URL ?? "https://aphpqveqmziwdxvsrpjm.supabase.co";
 const SB_KEY =
   process.env.SUPABASE_SERVICE_ROLE_KEY ??
-  "sb_publishable_ouke6kmiz8LLIBiMMRflOg_NayFkVF4";
+  "sb_publishable_3Ra-aUab8dS1vI6ZaCf8_A_jGw-Tc7F";
 const SB_TABLE = "kodable_client_stats";
 const SB_COLUMNS =
   "slug,period_days,updated_at,visitors,pageviews,avg_session_sec,mobile_pct";
