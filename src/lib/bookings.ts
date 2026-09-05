@@ -10,6 +10,7 @@
 // client's own calendar (no server cron needed). The DB seam (saveBooking /
 // readBookings) is isolated for wiring durable storage later.
 import "server-only";
+import { contactInfo } from "@/content/contact-info";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 
@@ -472,16 +473,40 @@ function prettyWhen(date: string, time: string, locale: BackendLocale): string {
   return `${d}, ${time}`;
 }
 
-function buildIcs(b: Booking, fromAddr: string): string {
+// RFC 5545 text value: escape backslash, semicolon, comma and newlines.
+function icsText(v: string): string {
+  return v.replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\r?\n/g, "\\n");
+}
+
+const EVENT_LOCATION = "Online / WhatsApp";
+
+function eventCopy(b: Booking) {
+  return b.locale === "es"
+    ? {
+        summary: "Consulta con Kodable.ai (15 min)",
+        desc: "Tu consulta gratis de 15 minutos con Kodable.ai. Te contactaremos por WhatsApp o email.",
+        remind: "Recordatorio: consulta con Kodable.ai mañana",
+      }
+    : {
+        summary: "Kodable.ai consultation (15 min)",
+        desc: "Your free 15-minute consultation with Kodable.ai. We'll reach you by WhatsApp or email.",
+        remind: "Reminder: Kodable.ai consultation tomorrow",
+      };
+}
+
+function eventSpan(b: Booking) {
   const start = madridWallToUtc(b.date, b.time);
   const end = new Date(start.getTime() + EVENT_MINUTES * 60_000);
-  const summary = b.locale === "es"
-    ? "Consulta con Kodable.ai (15 min)"
-    : "Kodable.ai consultation (15 min)";
-  const desc = b.locale === "es"
-    ? "Tu consulta gratis de 15 minutos con Kodable.ai. Te contactaremos por WhatsApp o email."
-    : "Your free 15-minute consultation with Kodable.ai. We'll reach you by WhatsApp or email.";
-  const remind = b.locale === "es" ? "Recordatorio: consulta con Kodable.ai mañana" : "Reminder: Kodable.ai consultation tomorrow";
+  return { start, end };
+}
+
+// A meeting REQUEST that Google Calendar (and Outlook / Apple) treat as a real
+// invitation: info@kodable.ai organizes and attends, the visitor is the invited
+// attendee. Gmail shows the RSVP card and puts the event on both calendars.
+function buildIcs(b: Booking): string {
+  const { start, end } = eventSpan(b);
+  const { summary, desc, remind } = eventCopy(b);
+  const organizer = contactInfo.email;
   const lines = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
@@ -490,24 +515,45 @@ function buildIcs(b: Booking, fromAddr: string): string {
     "METHOD:REQUEST",
     "BEGIN:VEVENT",
     `UID:${b.id}@kodable.ai`,
+    "SEQUENCE:0",
     `DTSTAMP:${fmtUtc(new Date())}`,
     `DTSTART:${fmtUtc(start)}`,
     `DTEND:${fmtUtc(end)}`,
-    `SUMMARY:${summary}`,
-    `DESCRIPTION:${desc}`,
-    "LOCATION:Online / WhatsApp",
-    `ORGANIZER;CN=Kodable.ai:mailto:${emailAddress(fromAddr)}`,
-    b.email ? `ATTENDEE;CN=${icsParam(b.name)};RSVP=TRUE:mailto:${b.email}` : "",
+    `SUMMARY:${icsText(summary)}`,
+    `DESCRIPTION:${icsText(desc)}`,
+    `LOCATION:${icsText(EVENT_LOCATION)}`,
+    `ORGANIZER;CN=Kodable.ai:mailto:${organizer}`,
+    `ATTENDEE;CN=Kodable.ai;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED:mailto:${organizer}`,
+    b.email
+      ? `ATTENDEE;CN=${icsParam(b.name)};ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TRUE:mailto:${b.email}`
+      : "",
     "STATUS:CONFIRMED",
+    "TRANSP:OPAQUE",
     "BEGIN:VALARM",
     "TRIGGER:-P1D",
     "ACTION:DISPLAY",
-    `DESCRIPTION:${remind}`,
+    `DESCRIPTION:${icsText(remind)}`,
     "END:VALARM",
     "END:VEVENT",
     "END:VCALENDAR",
   ].filter(Boolean);
   return lines.join("\r\n");
+}
+
+// One-click "Add to Google Calendar" link with the other party pre-added as a
+// guest, as a fallback for mail clients that do not render the .ics request.
+function googleCalendarUrl(b: Booking, guest: string): string {
+  const { start, end } = eventSpan(b);
+  const { summary, desc } = eventCopy(b);
+  const p = new URLSearchParams({
+    action: "TEMPLATE",
+    text: summary,
+    dates: `${fmtUtc(start)}/${fmtUtc(end)}`,
+    details: desc,
+    location: EVENT_LOCATION,
+  });
+  if (guest) p.set("add", guest);
+  return `https://calendar.google.com/calendar/render?${p.toString()}`;
 }
 
 interface Rendered {
@@ -526,6 +572,7 @@ function parseRecipients(v: string | undefined): string[] {
 
 function ownerEmail(b: Booking, to: string | string[]): Rendered {
   const when = prettyWhen(b.date, b.time, b.locale);
+  const gcal = googleCalendarUrl(b, b.email);
   const lines = [
     `New booking · ${when}`,
     `Name: ${b.name}`,
@@ -549,12 +596,12 @@ function ownerEmail(b: Booking, to: string | string[]): Rendered {
     </table>
     ${b.note ? `<div style="margin-top:18px;padding:16px;background:#f4f5fa;border-radius:12px;white-space:pre-wrap;font-size:15px;line-height:1.5">${escapeHtml(b.note)}</div>` : ""}
     ${b.email ? `<p style="margin-top:18px"><a href="mailto:${escapeHtml(b.email)}" style="color:#000063;font-weight:600">Reply to ${escapeHtml(b.name)} →</a></p>` : ""}
-    <p style="color:#4b5266;font-size:13px;margin-top:14px">Calendar invite attached.</p>
+    <p style="color:#4b5266;font-size:13px;margin-top:14px">Calendar invite attached (organizer ${escapeHtml(contactInfo.email)}). <a href="${escapeHtml(gcal)}" style="color:#000063;font-weight:600">Add to Google Calendar</a></p>
   </div>`;
   return {
     to,
     subject: `New booking · ${b.name} · ${when}`,
-    text: lines.filter(Boolean).join("\n"),
+    text: [...lines, `\nAdd to Google Calendar: ${gcal}`].filter(Boolean).join("\n"),
     html,
     replyTo: b.email || undefined,
   };
@@ -563,12 +610,14 @@ function ownerEmail(b: Booking, to: string | string[]): Rendered {
 function clientEmail(b: Booking, from: string): Rendered | null {
   if (!b.email) return null;
   const when = prettyWhen(b.date, b.time, b.locale);
-  const wa = "https://wa.me/34690689260";
+  const wa = contactInfo.whatsappUrl;
+  const gcal = googleCalendarUrl(b, contactInfo.email);
   const t = b.locale === "es"
     ? {
         subject: `Cita confirmada · ${when} · Kodable.ai`,
         hi: `¡Hola ${b.name}!`,
-        body: `Tu consulta gratis de 15 minutos está confirmada para el ${when} (hora peninsular). Te hemos adjuntado el evento para tu calendario, con un recordatorio el día antes.`,
+        body: `Tu consulta gratis de 15 minutos está confirmada para el ${when} (hora peninsular). Acepta la invitación de calendario de este email y quedará en tu Google Calendar, con un recordatorio el día antes.`,
+        gcal: "Añadir a Google Calendar",
         change: "¿Necesitas cambiarla? Respóndenos a este email o escríbenos por WhatsApp.",
         wa: "Escríbenos por WhatsApp",
         sign: "Un saludo,\nEl equipo de Kodable.ai",
@@ -576,19 +625,21 @@ function clientEmail(b: Booking, from: string): Rendered | null {
     : {
         subject: `Booking confirmed · ${when} · Kodable.ai`,
         hi: `Hi ${b.name},`,
-        body: `Your free 15-minute consultation is confirmed for ${when} (Spain time). We've attached the event for your calendar, with a reminder the day before.`,
+        body: `Your free 15-minute consultation is confirmed for ${when} (Spain time). Accept the calendar invitation in this email and it lands in your Google Calendar, with a reminder the day before.`,
+        gcal: "Add to Google Calendar",
         change: "Need to change it? Just reply to this email or message us on WhatsApp.",
         wa: "Message us on WhatsApp",
         sign: "Warmly,\nThe Kodable.ai team",
       };
-  const text = `${t.hi}\n\n${t.body}\n\n${t.change}\n\n${t.sign}`;
+  const text = `${t.hi}\n\n${t.body}\n\n${t.gcal}: ${gcal}\n\n${t.change}\n\n${t.sign}`;
   const html = `
   <div style="font-family:system-ui,sans-serif;max-width:560px;margin:0 auto;color:#16182b">
     <p style="font-size:17px;margin:0 0 12px">${escapeHtml(t.hi)}</p>
     <div style="padding:14px 16px;background:#e5e6f5;border-radius:12px;color:#08083f;font-weight:700;font-size:16px;margin:0 0 16px">📅 ${escapeHtml(when)}</div>
     <p style="color:#333a4d;line-height:1.6;margin:0 0 16px">${escapeHtml(t.body)}</p>
     <p style="color:#333a4d;line-height:1.6;margin:0 0 18px">${escapeHtml(t.change)}</p>
-    <p style="margin:0 0 22px"><a href="${wa}" style="display:inline-block;background:#000080;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
+    <p style="margin:0 0 12px"><a href="${escapeHtml(gcal)}" style="display:inline-block;background:#000080;color:#fff;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.gcal)}</a></p>
+    <p style="margin:0 0 22px"><a href="${wa}" style="display:inline-block;background:#e5e6f5;color:#08083f;text-decoration:none;font-weight:700;padding:11px 20px;border-radius:999px">${escapeHtml(t.wa)}</a></p>
     <p style="color:#4b5266;white-space:pre-line;font-size:14px">${escapeHtml(t.sign)}</p>
   </div>`;
   return { to: b.email, subject: t.subject, text, html, replyTo: emailAddress(from) };
@@ -641,13 +692,18 @@ async function writeToOutbox(kind: string, email: Rendered, ics?: string): Promi
 
 // Best-effort: a delivery failure never fails the request (booking is saved).
 export async function deliverBooking(b: Booking): Promise<void> {
-  const from = process.env.LEAD_FROM_EMAIL ?? "Kodable.ai <hola@kodable.ai>";
+  // Booking mail is sent as info@kodable.ai so the sender matches the invite's
+  // ORGANIZER (Gmail then treats it as a first-party invitation). Override with
+  // BOOKING_FROM_EMAIL; LEAD_FROM_EMAIL stays for the contact form.
+  const from = process.env.BOOKING_FROM_EMAIL ?? `Kodable.ai <${contactInfo.email}>`;
   // Owner notification can go to several inboxes (e.g. the kodable.ai address +
   // a personal email). BOOKING_NOTIFY_EMAIL is a comma/semicolon-separated list;
-  // falls back to LEAD_NOTIFY_EMAIL.
+  // falls back to LEAD_NOTIFY_EMAIL. info@kodable.ai is always on it: that copy
+  // carries the invite that puts the event on the info@ Google Calendar.
   const notify = parseRecipients(process.env.BOOKING_NOTIFY_EMAIL ?? process.env.LEAD_NOTIFY_EMAIL);
+  if (!notify.includes(contactInfo.email)) notify.push(contactInfo.email);
   const configured = Boolean(process.env.RESEND_API_KEY);
-  const ics = buildIcs(b, from);
+  const ics = buildIcs(b);
   const icsB64 = Buffer.from(ics, "utf8").toString("base64");
 
   const jobs: { kind: string; email: Rendered | null }[] = [
