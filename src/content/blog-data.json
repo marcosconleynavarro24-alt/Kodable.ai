@@ -1422,5 +1422,185 @@
         "text": "Only if it breaks Google's policies, for example spam, a review of the wrong business, or content that is off-topic or abusive. You can flag it from the dashboard and Google decides. An honest negative review from a real customer stays; the best response is a calm, specific public reply, which future customers read more carefully than the review itself."
       }
     ]
+  },
+  {
+    "slug": "what-a-website-costs",
+    "category": "Websites",
+    "categoryIcon": "globe",
+    "title": "How Much Does a Small Business Website Really Cost?",
+    "description": "A website's price depends on what it needs to do, not just who builds it. Here's what actually drives the number, and how to work out yours.",
+    "dek": "The honest answer is not one number. It is a handful of choices that add up differently for every business, and a simple way to work out where yours lands.",
+    "keyword": "how much does a small business website cost",
+    "author": "The Kodable team",
+    "datePublished": "2026-09-10",
+    "ogImage": "what-a-website-costs.jpg",
+    "readMinutes": 6,
+    "takeaways": [
+      "A website's price is driven mostly by what it has to do, booking, payments, a second language, not by who builds it.",
+      "The ongoing cost, hosting, security, updates and backups, is not optional and usually matters more over three years than the build price.",
+      "A cheaper site is not automatically the cheaper choice: work out what one missed enquiry actually costs you before comparing prices.",
+      "Decide page count, features and language before asking for a quote, and the question turns from impossible into specific.",
+      "Kodable prices websites with VAT included and no small print, with a monthly care plan folding hosting, security and updates into one line."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Get a clear price for your site"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "A small business website costs anywhere from a few hundred to tens of thousands of dollars a year, and the honest reason is that \"a website\" is not one product. A one page site on a subscription tool and a custom site with booking, payments and a second language are both websites, and not the same purchase."
+      },
+      {
+        "type": "h2",
+        "text": "Why isn't there one straight answer?"
+      },
+      {
+        "type": "p",
+        "text": "Ask five website companies what a site costs and you get five different numbers, because you are really asking five different questions. A do it yourself builder rents you a template and hosting for a monthly fee. A freelancer builds closer to what you actually need, for a one off price. An agency does the same with a bigger team and a bigger invoice. None of these numbers is wrong. They answer different questions wearing the same headline."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How many pages, and what each one has to do.** A single page that says who you are and how to book costs far less than a site with services, locations, staff bios and a shop.",
+          "**Template or custom design.** A template gets you live fast and cheap. Custom design around your business and photos usually costs more up front.",
+          "**Booking, ordering or payments built in.** The moment the site has to talk to a calendar, a kitchen or a payment processor, it stops being a brochure and starts being software.",
+          "**Who writes the words and takes the photos.** Your own photography and copy, written for your business, reads better, and costs more, than stock images and placeholder text nobody replaced.",
+          "**A second language.** Serving customers in more than one language roughly doubles the writing, and needs a real translation, not a plugin.",
+          "**Ongoing care.** Hosting, security updates and backups are not optional, whoever builds the site. The only choice is whether you pay for them clearly, or find out the hard way."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What actually moves the number"
+      },
+      {
+        "type": "p",
+        "text": "The two effects owners usually underestimate are what the site has to **do**, and who writes the **words**. A five page site that only explains the business is a small, fast job. The same five pages with a booking calendar or a quote form that does the maths for the customer is a different scale of work, because something now has to keep working after launch. Design moves the number less than people expect, and content moves it more: a clean, well organised [small business website](~/services/websites) written properly for the business reads and ranks better than an elaborate one filled with generic paragraphs nobody wrote for it."
+      },
+      {
+        "type": "h2",
+        "text": "What should you budget beyond the build?"
+      },
+      {
+        "type": "p",
+        "text": "The build price is the number everyone asks about, and the ongoing cost is the one that decides what you pay over three years: a place to live (hosting), a certificate that keeps the padlock in the browser (security), a way to fix it when something breaks (maintenance), and someone who notices if it goes down. None of that is a one off purchase."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Hosting and a domain.** Somewhere to live and an address to be found at. Both renew every year whether the site changes or not.",
+          "**Security and updates.** Software that runs a website needs patching. Skip it for long enough and the risk is not a slow site, it is a hacked one.",
+          "**Backups.** The one line item nobody misses until the week they need it.",
+          "**Small changes.** Hours change, a price changes, a new service launches. A site nobody can update without calling someone back in is a site you will stop updating."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Kodable folds all four into one monthly [care plan](~/pricing), so what you pay after launch is one predictable line, not separate surprises in different months."
+      },
+      {
+        "type": "h2",
+        "text": "Is a cheaper site actually cheaper?"
+      },
+      {
+        "type": "p",
+        "text": "Not always. A cheap site that loads slowly, has no way to book, or nobody keeps updated does not just look worse, it quietly turns away the customers who found you. The comparison that matters is not build price against build price. It is build price against what a missed customer is actually worth to you."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Write down what a customer is worth",
+            "body": "Not the average sale, the real number: what you make from one booking, one job, or one order, after costs."
+          },
+          {
+            "title": "Estimate how many enquiries the site should bring in",
+            "body": "Look at current enquiries, calls or bookings from the site or the listing that points at it. A rough monthly number is enough."
+          },
+          {
+            "title": "Ask what a slow or broken site costs you",
+            "body": "A form that does not work or a booking link that goes nowhere turns a found customer into a lost one. Even a handful of those a month adds up fast against a fixed monthly build cost."
+          },
+          {
+            "title": "Compare that number to the build and care plan together",
+            "body": "Once you know what one customer is worth, the honest comparison is straightforward: does the site pay for itself in the customers it stops losing. That answer flips quickly once bookings run through the site instead of a phone nobody answers; see how that connects in [automations that save the most time](~/blog/automations-for-small-business)."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "A simple way to price your own site"
+      },
+      {
+        "type": "p",
+        "text": "Before you ask anyone for a quote, decide these five things. It turns \"how much does a website cost\" from an impossible question into a specific one someone can actually answer."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How many pages, roughly.** Five is enough for most small businesses: home, services, about, a location or two, contact.",
+          "**Whether it takes bookings, orders or payments.** The single biggest driver of price, and of what the site actually does for you.",
+          "**Whether you need more than one language.** Decide before the build starts. Adding it later means redoing the structure, not just the words.",
+          "**Who is writing the words.** Your own copy, or copy written for you. Knowing which one before you ask for a quote stops it moving later.",
+          "**What \"done\" looks like in a year.** Still fast, secure and easy to update. Ask any company you are considering what that costs before you sign."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Not sure what tier your business needs?",
+        "body": "Tell us how many pages and whether you take bookings, and we will tell you honestly which tier fits and what it costs, VAT included, no small print.",
+        "button": "Get a clear price"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is a free website builder good enough for a small business?"
+      },
+      {
+        "type": "p",
+        "text": "For a very early business with no budget yet, a free or near free builder gets something live, which beats nothing live. The tradeoffs show up as you grow: limited design, a subscription that never ends, and template code that struggles once you need booking or a second language. Most owners outgrow it within a year or two and rebuild anyway."
+      },
+      {
+        "type": "h3",
+        "text": "Do I pay for a website once, or every month?"
+      },
+      {
+        "type": "p",
+        "text": "Usually both, and any company that tells you otherwise is hiding one of them. There is normally a build cost, one off or spread over instalments, and then a smaller ongoing cost for hosting, security and updates, whether that is billed by your builder or by companies you now have to manage yourself."
+      },
+      {
+        "type": "h3",
+        "text": "What is the biggest hidden cost in a website project?"
+      },
+      {
+        "type": "p",
+        "text": "Content. Someone has to write what the business does, in its own words, for every page, and that either gets scoped and paid for up front or becomes the reason the project stalls for weeks waiting on a paragraph that never arrives. Ask who is writing the words before you ask what the site costs."
+      },
+      {
+        "type": "h3",
+        "text": "Does a more expensive website rank higher in Google?"
+      },
+      {
+        "type": "p",
+        "text": "No, not directly. Price buys you time, design and features, not ranking. What ranks is a fast site, clear structure, and content that actually answers what a customer is searching for. See [what actually gets a small business found now](~/blog/get-found-in-ai-search) for what does move that number."
+      },
+      {
+        "type": "h3",
+        "text": "How long should a small business website take to build?"
+      },
+      {
+        "type": "p",
+        "text": "A straightforward site, five to eight pages, one language, no custom booking, is usually a matter of weeks once the content is ready, not months. The content is almost always the slower part, not the build; deciding your [approach to AI and the website together](~/blog/ai-strategy-for-small-business) before you start tends to shorten both."
+      }
+    ]
   }
 ]
