@@ -9,7 +9,7 @@ import data_de from "./blog-data.de.json";
 import data_it from "./blog-data.it.json";
 
 // ── Types ────────────────────────────────────────────────────────────────
-export type BlogCategory = "AI Agents" | "Getting Found" | "Automation" | "AI Strategy" | "Funding";
+export type BlogCategory = "AI Agents" | "Getting Found" | "Automation" | "AI Strategy" | "Funding" | "Websites";
 
 // Article body is a list of typed blocks, rendered by the post page. Paragraph
 // text may contain **bold** and inline links written as [anchor](~/path), where
