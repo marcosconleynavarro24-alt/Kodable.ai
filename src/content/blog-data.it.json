@@ -1602,5 +1602,172 @@
         "text": "Un sito semplice, da cinque a otto pagine, una lingua, senza prenotazioni su misura, è di solito questione di settimane una volta pronto il contenuto, non di mesi. Il contenuto è quasi sempre la parte più lenta, non la costruzione; decidere il tuo [approccio all'IA e al sito insieme](~/blog/ai-strategy-for-small-business) prima di iniziare tende ad accorciare entrambi."
       }
     ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "Lo Strumento di Inventario che Serve Davvero a un Piccolo Negozio",
+    "description": "Un piccolo negozio ha bisogno di uno strumento di inventario pensato per una cassa e un magazzino, non per un centro logistico. Ecco cosa cercare e come iniziare.",
+    "dek": "I fogli di calcolo generici e i software da magazzino non si adattano a un negozio con un solo punto vendita e poche migliaia di referenze; ecco cosa funziona davvero.",
+    "keyword": "inventory tool for small shops",
+    "author": "Il team Kodable",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Un negozio ha bisogno di uno strumento di inventario che segua le scorte per scaffale e magazzino, non di uno pensato per un magazzino con dieci sedi.",
+      "Lo stock fantasma, la differenza tra ciò che dice il sistema e ciò che c'è realmente sullo scaffale, di solito nasce da resi non scansionati, consegne incomplete o un espositore mai collegato al conteggio.",
+      "Scansionare ogni consegna prima che arrivi sullo scaffale elimina da solo la maggior parte dello stock fantasma.",
+      "Un foglio di calcolo funziona per un magazzino piccolo e lento; appena le consegne diventano settimanali e un prodotto di punta si esaurisce di continuo, l'ora settimanale spesa a far quadrare i numeri costa di solito più di uno strumento pensato apposta.",
+      "Comincia dal quinto dei prodotti che genera la maggior parte delle vendite, invece di contare tutto il negozio il primo giorno."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Dicci cosa deve tracciare il tuo negozio"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "Lo strumento di inventario giusto per un piccolo negozio non è lo stesso che usa un centro logistico. Deve tracciare le scorte per scaffale e magazzino, avvisarti prima che un prodotto di punta finisca, e richiedere meno tempo per aggiornarsi di un foglio di conteggio su carta. Un negozio con una cassa, un magazzino e poche migliaia di referenze ha bisogno di qualcosa pensato per questo, non di un foglio di calcolo portato oltre i suoi limiti né di un software aziendale pensato per dieci magazzini."
+      },
+      {
+        "type": "h2",
+        "text": "Dove si Perdono Davvero le Scorte di un Negozio"
+      },
+      {
+        "type": "p",
+        "text": "La maggior parte dei negozi non perde scorte per i furti, prima di tutto. Le perde nella differenza tra ciò che dice lo scaffale e ciò che c'è davvero dietro il bancone. Una consegna arriva un martedì mattina: dodici scatole, tre fornitori, una fattura ciascuno. Qualcuno ne disimballa metà prima dell'apertura, mette il prezzo al resto durante la pausa pranzo, e per venerdì nessuno ricorda più esattamente cosa è finito dove. Il punto cassa sa cosa si è venduto. Non ha idea di cosa sia in magazzino, ancora nella sua scatola."
+      },
+      {
+        "type": "p",
+        "text": "Quella differenza cresce ogni settimana in cui non viene misurata. Un negozio di articoli da regalo riordina una linea di candele che è ancora in una scatola datata il mese scorso. Una ferramenta dice a un cliente che un pezzo è disponibile perché lo dice l'etichetta sullo scaffale, poi passa dieci minuti a dimostrare il contrario. Nessuno dei due titolari ha fatto qualcosa di sbagliato; semplicemente non hanno mai avuto un sistema che collegasse scaffale, magazzino e cassa in un unico posto."
+      },
+      {
+        "type": "h2",
+        "text": "Perché lo Scaffale Dice che C'è Stock Quando il Magazzino è Vuoto?"
+      },
+      {
+        "type": "p",
+        "text": "Questo è ciò che nel commercio si chiama stock fantasma: il conteggio su carta o nel sistema non corrisponde a ciò che è fisicamente sullo scaffale. Succede per lo stesso pugno di motivi in quasi tutti i negozi. Un reso torna sullo scaffale senza essere scansionato. Un fornitore consegna meno del previsto e nessuno corregge il conteggio. Un dipendente vende l'ultimo pezzo di un espositore e il conteggio di magazzino non si muove perché l'espositore non era mai stato collegato ad esso."
+      },
+      {
+        "type": "callout",
+        "title": "Il vero costo dello stock fantasma",
+        "body": "Non è solo il viaggio inutile in magazzino. È il cliente che voleva la taglia, il colore o il pezzo promesso dallo scaffale ed è uscito senza, ed è il nuovo ordine che duplica scorte già presenti da qualche parte nel negozio."
+      },
+      {
+        "type": "p",
+        "text": "Uno [strumento su misura](~/services/custom-tools) risolve questo collegando un codice a barre a una posizione sullo scaffale e a una riga di cassa, così una vendita, un reso o una consegna aggiornano lo stesso numero ovunque, contemporaneamente. Questa è la differenza tra uno strumento pensato per un negozio e un foglio di calcolo che qualcuno aggiorna quando se ne ricorda."
+      },
+      {
+        "type": "h2",
+        "text": "Cosa Dovrebbe Fare per un Negozio uno Strumento di Inventario Vero"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scansiona un codice a barre da un telefono, al bancone o in magazzino, senza comprare né ricaricare un lettore a parte",
+          "Avvisa prima che un prodotto di punta finisca, non dopo che un cliente lo ha già chiesto",
+          "Divide le scorte per posizione (scaffale, magazzino, seconda cassa) così il conteggio significa qualcosa di concreto",
+          "Continua a funzionare in un sabato di grande affluenza senza bisogno di un portatile aperto alla cassa",
+          "Trasforma un avviso di scorte basse in un ordine al fornitore reale, non in un appunto su un post-it"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Niente di tutto questo deve essere un software complicato. Deve adattarsi a come funziona davvero il negozio: un titolare, uno o due dipendenti, un ritmo di consegne e un sabato affollato che un sistema generico da magazzino non è mai stato pensato per gestire. Scegliere quello giusto segue lo stesso filtro a tre domande di qualsiasi decisione tecnologica di una piccola impresa: cosa fa davvero risparmiare, quanto costa mandarlo avanti, e cosa si rompe se va male, trattato nella nostra [guida per scegliere le priorità di IA e software](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Foglio di Calcolo, App Generica, o Qualcosa Costruito per il Tuo Negozio?"
+      },
+      {
+        "type": "p",
+        "text": "Un foglio di calcolo è gratis, ed è da lì che partono la maggior parte dei negozi, il che va benissimo per un magazzino di poche decine di articoli contati una volta al mese. Superate poche centinaia di referenze e con un ritmo di consegne quotidiano, smette di essere gratis: costa al titolare un'ora a settimana per far quadrare numeri che una scansione del codice a barre avrebbe tenuto esatti in automatico. Un'app di inventario generica colma parte di quel divario, ma di solito presuppone un magazzino e accessi per il personale che un negozio con un solo punto vendita non userà mai, con un prezzo pensato per una scala che non raggiunge mai."
+      },
+      {
+        "type": "p",
+        "text": "Uno strumento [costruito attorno al negozio](~/services/custom-tools) si colloca tra i due: solo le schermate di cui il negozio ha bisogno, legato a come quel negozio riceve davvero la merce e incassa una vendita. I prezzi di partenza e cosa li determina (hardware di scansione, integrazioni con i fornitori, un secondo punto vendita) sono su [la nostra pagina prezzi](~/pricing), confermati correttamente in una consulenza gratuita invece di essere indovinati qui. La stessa logica vale per [quanto costa davvero un sito web per una piccola impresa](~/blog/what-a-website-costs): il prezzo di listino conta meno di quanto lo strumento fa risparmiare rispetto a ciò che sostituisce."
+      },
+      {
+        "type": "h2",
+        "text": "Come Iniziare Senza Fermare il Negozio per una Settimana"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Conta prima ciò che conta davvero",
+            "body": "Non cercare di contare ogni referenza il primo giorno. La maggior parte dei negozi scopre che un quinto dei propri prodotti genera la maggior parte delle vendite; inizia il nuovo sistema da quelli, su carta se serve, prima di toccare qualsiasi software."
+          },
+          {
+            "title": "Dai un nome a ogni posizione",
+            "body": "Scaffale A, fila 3 del magazzino, vetrina: come li chiama davvero il negozio. Uno strumento è preciso solo quanto lo sono i nomi delle posizioni che qualcuno userà davvero ogni giorno."
+          },
+          {
+            "title": "Scansiona le consegne prima che arrivino sullo scaffale",
+            "body": "L'unica abitudine che corregge più in fretta lo stock fantasma: niente va in esposizione finché non è stato scansionato nel sistema, anche se il prezzo viene applicato più tardi nello stesso giorno."
+          },
+          {
+            "title": "Automatizza il punto di riordino solo per i best seller",
+            "body": "Imposta un avviso di scorte basse per la manciata di prodotti la cui mancanza farebbe davvero male. Tutto il resto può restare un controllo manuale mensile per ora."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Un negozio che segue questo ordine di solito consolida l'abitudine in un paio di settimane, ben prima che lo strumento sia completamente pronto. Confrontalo con un [flusso di riordino automatizzato](~/blog/automations-for-small-business): l'abitudine descritta sopra è ciò che rende quell'automazione affidabile invece che una macchina di falsi allarmi."
+      },
+      {
+        "type": "h2",
+        "text": "Domande Frequenti"
+      },
+      {
+        "type": "h3",
+        "text": "Un piccolo negozio ha davvero bisogno di un software di inventario, o basta un foglio di calcolo?"
+      },
+      {
+        "type": "p",
+        "text": "Un foglio di calcolo basta per un magazzino piccolo e lento, contato a mano una volta al mese. Appena le consegne arrivano ogni settimana, il personale cresce oltre una persona, o un prodotto di punta si esaurisce senza preavviso, l'ora settimanale spesa a far quadrare il foglio costa di solito più di uno strumento pensato apposta."
+      },
+      {
+        "type": "h3",
+        "text": "Quanto costa uno strumento di inventario su misura per un piccolo negozio?"
+      },
+      {
+        "type": "p",
+        "text": "Dipende soprattutto dalle sedi, dagli accessi del personale e dalle integrazioni con i fornitori, per questo lo quotiamo dopo una breve conversazione invece di indovinarlo qui. I prezzi di partenza attuali sono su [la nostra pagina prezzi](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Uno strumento di inventario può funzionare con una sola cassa e senza un sistema di magazzino separato?"
+      },
+      {
+        "type": "p",
+        "text": "Sì. Un negozio con un solo punto vendita è il caso più semplice: un codice a barre, una posizione sullo scaffale, una cassa. La complessità che la maggior parte dei software di inventario aggiunge serve per più sedi o magazzini, cosa che un negozio con una sola cassa può saltare del tutto."
+      },
+      {
+        "type": "h3",
+        "text": "Quanto tempo serve per attivare uno strumento di inventario in un piccolo negozio?"
+      },
+      {
+        "type": "p",
+        "text": "La maggior parte del ritardo non dipende dal software, ma dal contare le scorte esistenti. Un negozio che parte dal suo quinto di prodotti più venduti, come descritto sopra, di solito ha il nucleo funzionante in un paio di settimane, invece di aspettare prima un conteggio completo."
+      },
+      {
+        "type": "h3",
+        "text": "Cos'è lo stock fantasma e come lo evito?"
+      },
+      {
+        "type": "p",
+        "text": "Lo stock fantasma è quando il sistema indica un articolo come disponibile ma in realtà non è sullo scaffale, di solito per un reso non scansionato, una consegna incompleta o una vendita che non ha mai aggiornato il conteggio. Scansionare ogni consegna prima che arrivi sullo scaffale elimina da solo la maggior parte del problema."
+      }
+    ]
   }
 ]

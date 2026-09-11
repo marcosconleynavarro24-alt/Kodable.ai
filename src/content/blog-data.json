@@ -1602,5 +1602,172 @@
         "text": "A straightforward site, five to eight pages, one language, no custom booking, is usually a matter of weeks once the content is ready, not months. The content is almost always the slower part, not the build; deciding your [approach to AI and the website together](~/blog/ai-strategy-for-small-business) before you start tends to shorten both."
       }
     ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "The Inventory Tool a Small Shop Actually Needs",
+    "description": "A small shop needs an inventory tool built for one till and a back room, not a warehouse. Here is what to look for and how to start.",
+    "dek": "Off-the-shelf spreadsheets and warehouse software both miss the mark for a shop with one location and a few thousand SKUs; here is what actually fits.",
+    "keyword": "inventory tool for small shops",
+    "author": "The Kodable team",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "A shop needs an inventory tool that tracks stock by shelf and back room, not one built for a warehouse with ten locations.",
+      "Phantom stock, the gap between what the system says and what is actually on the shelf, is usually caused by unscanned returns, short-shipped deliveries or a display never linked to the count.",
+      "Scanning every delivery in before it reaches the shelf removes most phantom stock without any other change.",
+      "A spreadsheet works for a small, slow stockroom; once deliveries are weekly and a bestseller keeps selling out, the hour spent reconciling it each week usually costs more than a purpose-built tool.",
+      "Start with the fifth of products that drive most sales rather than counting the whole shop on day one."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Tell us what your shop needs tracked"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "The right inventory tool for a small shop is not the same one a warehouse uses. It should track stock by shelf and back room, warn you before a bestseller runs out, and take less time to update than a paper count sheet ever did. A shop with one till, one back room and a few thousand SKUs needs something built for that, not a spreadsheet stretched past its limits and not enterprise software built for ten warehouses."
+      },
+      {
+        "type": "h2",
+        "text": "Where a Shop's Stock Actually Goes Missing"
+      },
+      {
+        "type": "p",
+        "text": "Most shops do not lose stock to theft first. They lose it to the gap between what the shelf says and what is actually behind the counter. A delivery arrives on a Tuesday morning: twelve boxes, three suppliers, one invoice each. Someone unpacks half of it before the doors open, prices the rest at lunch, and by Friday nobody remembers exactly what went where. The point of sale knows what sold. It has no idea what is sitting in the back room, still in its box."
+      },
+      {
+        "type": "p",
+        "text": "That gap grows every week it goes unmeasured. A gift shop reorders a candle line still sitting in a box marked with last month's date. A hardware store tells a customer a part is in stock because the shelf tag says so, then spends ten minutes proving it wrong. Neither owner did anything careless; they just never had a system connecting the shelf, the back room and the register in one place."
+      },
+      {
+        "type": "h2",
+        "text": "Why Does the Shelf Say In Stock When the Back Room Is Empty?"
+      },
+      {
+        "type": "p",
+        "text": "This is what people in retail call phantom stock: the count on paper or in the system does not match what is physically on the shelf. It happens for the same handful of reasons in almost every shop. A return goes back on the shelf without being scanned in. A supplier short-ships an order and nobody adjusts the count. A staff member sells the last one off a display and the stockroom count never moves because the display was never linked to it in the first place."
+      },
+      {
+        "type": "callout",
+        "title": "The real cost of phantom stock",
+        "body": "It is not just the wasted trip to the back room. It is the customer who wanted the size, color or part that the shelf promised and walked out without it, and the reorder that duplicates stock already sitting somewhere in the shop."
+      },
+      {
+        "type": "p",
+        "text": "A [custom tool](~/services/custom-tools) fixes this by tying one barcode to one shelf location and one register line, so a sale, a return or a delivery updates the same number everywhere at once. That is the difference between a tool built for a shop and a spreadsheet someone updates when they remember to."
+      },
+      {
+        "type": "h2",
+        "text": "What a Real Inventory Tool Should Do for a Shop"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scans a barcode from a phone at the counter or in the back room, no separate handheld device to buy or charge",
+          "Warns before a bestseller runs out, not after a customer already asked for it",
+          "Splits stock by location (shelf, back room, second till) so the count means something specific",
+          "Keeps working through a busy Saturday without needing a laptop propped open at the register",
+          "Turns a low-stock warning into a reorder to the actual supplier, not a note on a sticky pad"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "None of that needs to be complicated software. It needs to match how the shop actually runs: one owner, one or two staff, a rhythm of deliveries and a Saturday rush that a generic warehouse system was never built to handle. Picking the right one is the same three-question filter behind any small business tech decision: what it actually saves, what it costs to run, and what breaks if it goes wrong, covered in our [guide to picking AI and software priorities](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Off-the-Shelf Sheet, App, or Something Built Around Your Shop?"
+      },
+      {
+        "type": "p",
+        "text": "A spreadsheet is free, and it is where most shops start, which is fine for a stockroom of a few dozen items counted once a month. Past a few hundred SKUs and a daily delivery rhythm, it stops being free: it costs the owner an hour a week reconciling numbers a barcode scan would have kept accurate automatically. A generic inventory app closes some of that gap but usually assumes a warehouse and staff logins a one-location shop will never touch, priced for a scale it never reaches."
+      },
+      {
+        "type": "p",
+        "text": "A tool [built around the shop](~/services/custom-tools) sits between the two: only the screens the shop needs, tied to how that shop actually receives stock and rings up a sale. Starting prices and what drives them (barcode hardware, supplier integrations, a second location) are on [our pricing page](~/pricing), confirmed properly in a free consultation rather than guessed at here. The same logic applies to [what a small business website actually costs](~/blog/what-a-website-costs): the sticker price matters less than what the tool saves against what it replaces."
+      },
+      {
+        "type": "h2",
+        "text": "How to Get Started Without Stopping the Shop for a Week"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Count what actually matters first",
+            "body": "Do not try to count every SKU on day one. Most shops find that a fifth of their products drive most of their sales; start the new system with those, on paper if needed, before touching software."
+          },
+          {
+            "title": "Give every location a name",
+            "body": "Shelf A, back room row 3, window display: whatever the shop actually calls them. A tool is only as accurate as the location names someone will actually use every day."
+          },
+          {
+            "title": "Scan deliveries in before they hit the shelf",
+            "body": "The single habit that fixes phantom stock fastest: nothing goes on display until it has been scanned into the system, even if pricing happens later that day."
+          },
+          {
+            "title": "Automate the reorder point for the top sellers only",
+            "body": "Set a low-stock alert for the handful of products that would actually hurt to run out of. Everything else can stay a monthly manual check for now."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A shop that follows that order usually has the habit in place within a couple of weeks, well before the tool is fully built out. Compare that to an [automated reorder workflow](~/blog/automations-for-small-business): the habit above is what makes that automation trustworthy instead of a false alarm machine."
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "type": "h3",
+        "text": "Does a small shop really need inventory software, or is a spreadsheet enough?"
+      },
+      {
+        "type": "p",
+        "text": "A spreadsheet is enough for a small, slow-moving stockroom counted by hand once a month. Once deliveries arrive weekly, staff numbers grow past one, or a bestseller keeps selling out without warning, the hour spent reconciling the sheet each week usually costs more than a tool built for the job."
+      },
+      {
+        "type": "h3",
+        "text": "How much does a custom inventory tool cost for a small shop?"
+      },
+      {
+        "type": "p",
+        "text": "It depends mostly on locations, staff logins and supplier integrations, which is why we quote it after a short conversation rather than guessing here. Current starting prices are on [our pricing page](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Can an inventory tool work with a single till and no separate back-room system?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. A single-location shop is the simplest case: one barcode, one shelf location, one till feed. The complexity most inventory software adds is for multiple locations or warehouses, which a one-till shop can skip entirely."
+      },
+      {
+        "type": "h3",
+        "text": "How long does it take to set up an inventory tool for a small shop?"
+      },
+      {
+        "type": "p",
+        "text": "Most of the delay is not the software, it is counting the existing stock. A shop that starts with its top-selling fifth of products, as above, can usually be running the core of it within a couple of weeks rather than waiting for a full count first."
+      },
+      {
+        "type": "h3",
+        "text": "What is phantom stock and how do I stop it?"
+      },
+      {
+        "type": "p",
+        "text": "Phantom stock is when the system says an item is available but it is not actually on the shelf, usually from an unscanned return, a short-shipped delivery or a sale that never updated the count. Scanning every delivery in before it reaches the shelf removes most of it on its own."
+      }
+    ]
   }
 ]

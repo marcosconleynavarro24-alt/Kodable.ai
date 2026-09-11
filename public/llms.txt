@@ -27,7 +27,7 @@
 - [Servicios](https://kodable.ai/es/services)
 - [Portfolio](https://kodable.ai/es/portfolio)
 - [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
-- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, qué hace un agente de IA por un pequeño negocio, automatización, estrategia de IA, el Perfil de Empresa de Google y cuánto cuesta una web.
+- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, qué hace un agente de IA por un pequeño negocio, automatización, estrategia de IA, el Perfil de Empresa de Google, cuánto cuesta una web y qué herramienta de inventario necesita una tienda pequeña.
 - [Preguntas frecuentes](https://kodable.ai/es/faq)
 - [Contacto](https://kodable.ai/es/contact)
 
@@ -45,3 +45,4 @@
 ## Contact
 - Email: info@kodable.ai
 - WhatsApp: https://wa.me/34690689260
+- [The Inventory Tool a Small Shop Actually Needs](https://kodable.ai/en/blog/inventory-tool-for-small-shops)

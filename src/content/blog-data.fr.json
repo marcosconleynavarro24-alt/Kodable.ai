@@ -1602,5 +1602,172 @@
         "text": "Un site simple, de cinq à huit pages, une langue, sans réservation sur mesure, prend généralement des semaines une fois le contenu prêt, pas des mois. Le contenu est presque toujours la partie la plus lente, pas la construction ; décider votre [approche de l'IA et du site ensemble](~/blog/ai-strategy-for-small-business) avant de commencer tend à raccourcir les deux."
       }
     ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "L'Outil d'Inventaire Qu'il Faut Vraiment à une Petite Boutique",
+    "description": "Une petite boutique a besoin d'un outil d'inventaire pensé pour une caisse et une réserve, pas pour un entrepôt. Voici quoi chercher et comment commencer.",
+    "dek": "Les tableurs génériques et les logiciels d'entrepôt ratent tous les deux leur cible pour une boutique avec un seul point de vente et quelques milliers de références ; voici ce qui convient vraiment.",
+    "keyword": "inventory tool for small shops",
+    "author": "L'équipe Kodable",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Une boutique a besoin d'un outil d'inventaire qui suit le stock par rayon et par réserve, pas d'un outil pensé pour un entrepôt avec dix sites.",
+      "Le stock fantôme, l'écart entre ce que dit le système et ce qui se trouve réellement en rayon, vient en général d'un retour jamais scanné, d'une livraison incomplète ou d'une vitrine jamais reliée au comptage.",
+      "Scanner chaque livraison avant qu'elle n'arrive en rayon élimine à lui seul la plus grande partie du stock fantôme.",
+      "Un tableur convient à une petite réserve, à rotation lente ; dès que les livraisons deviennent hebdomadaires et qu'un best-seller est en rupture à répétition, l'heure passée chaque semaine à recouper les chiffres coûte en général plus cher qu'un outil pensé pour ça.",
+      "Commencez par le cinquième des produits qui génère la majorité des ventes, plutôt que de compter toute la boutique dès le premier jour."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Dites-nous ce que votre boutique doit suivre"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "Le bon outil d'inventaire pour une petite boutique n'est pas celui qu'utilise un entrepôt. Il doit suivre le stock par rayon et par réserve, vous prévenir avant la rupture d'un best-seller, et prendre moins de temps à mettre à jour qu'une feuille de comptage papier. Une boutique avec une caisse, une réserve et quelques milliers de références a besoin de quelque chose pensé pour ça, pas d'un tableur poussé au-delà de ses limites, ni d'un logiciel d'entreprise pensé pour dix entrepôts."
+      },
+      {
+        "type": "h2",
+        "text": "Où le Stock d'une Boutique Se Perd Vraiment"
+      },
+      {
+        "type": "p",
+        "text": "La plupart des boutiques ne perdent pas leur stock à cause du vol, en premier lieu. Elles le perdent dans l'écart entre ce que dit le rayon et ce qu'il y a réellement derrière le comptoir. Une livraison arrive un mardi matin : douze cartons, trois fournisseurs, une facture chacun. Quelqu'un en déballe la moitié avant l'ouverture, étiquette le reste à midi, et le vendredi plus personne ne se souvient exactement de ce qui est allé où. La caisse sait ce qui s'est vendu. Elle n'a aucune idée de ce qui se trouve en réserve, encore dans son carton."
+      },
+      {
+        "type": "p",
+        "text": "Cet écart grandit chaque semaine où il n'est pas mesuré. Une boutique de cadeaux recommande une gamme de bougies qui dort encore dans un carton daté du mois dernier. Une quincaillerie assure à un client qu'une pièce est en stock parce que l'étiquette du rayon le dit, puis passe dix minutes à prouver le contraire. Aucun des deux commerçants n'a été négligent ; ils n'ont simplement jamais eu de système reliant le rayon, la réserve et la caisse en un seul endroit."
+      },
+      {
+        "type": "h2",
+        "text": "Pourquoi le Rayon Dit-il Qu'il y a du Stock Quand la Réserve Est Vide ?"
+      },
+      {
+        "type": "p",
+        "text": "C'est ce que le commerce appelle le stock fantôme : le comptage sur papier ou dans le système ne correspond pas à ce qui est physiquement en rayon. Cela arrive pour la même poignée de raisons dans presque toutes les boutiques. Un retour revient en rayon sans être scanné. Un fournisseur livre moins que la commande et personne n'ajuste le comptage. Un employé vend le dernier exemplaire d'une vitrine et le comptage de la réserve ne bouge jamais parce que la vitrine n'y a jamais été reliée."
+      },
+      {
+        "type": "callout",
+        "title": "Le vrai coût du stock fantôme",
+        "body": "Ce n'est pas seulement l'aller-retour inutile jusqu'à la réserve. C'est le client qui voulait la taille, la couleur ou la pièce promise par le rayon et reparti sans, et c'est la nouvelle commande qui double un stock déjà présent quelque part dans la boutique."
+      },
+      {
+        "type": "p",
+        "text": "Un [outil sur mesure](~/services/custom-tools) règle cela en reliant un code-barres à un emplacement en rayon et à une ligne de caisse, de sorte qu'une vente, un retour ou une livraison mette à jour le même chiffre partout, en même temps. C'est la différence entre un outil pensé pour une boutique et un tableur que quelqu'un met à jour quand il y pense."
+      },
+      {
+        "type": "h2",
+        "text": "Ce Qu'un Vrai Outil d'Inventaire Doit Faire pour une Boutique"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scanne un code-barres depuis un téléphone, au comptoir ou en réserve, sans acheter ni recharger un lecteur à part",
+          "Prévient avant la rupture d'un best-seller, pas après qu'un client l'a déjà demandé",
+          "Sépare le stock par emplacement (rayon, réserve, deuxième caisse) pour que le comptage veuille dire quelque chose de précis",
+          "Continue de fonctionner un samedi chargé sans avoir besoin d'un ordinateur portable ouvert à la caisse",
+          "Transforme une alerte de stock bas en commande auprès du vrai fournisseur, pas en note sur un post-it"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Rien de tout cela n'exige un logiciel compliqué. Il doit correspondre à la façon dont la boutique fonctionne vraiment : un commerçant, un ou deux employés, un rythme de livraisons et une affluence du samedi qu'un système d'entrepôt générique n'a jamais été conçu pour gérer. Choisir le bon outil suit le même filtre à trois questions que toute décision technologique d'une petite entreprise : ce qu'il fait vraiment économiser, ce qu'il coûte à faire tourner, et ce qui casse s'il tombe en panne, traité dans notre [guide pour choisir ses priorités IA et logicielles](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Tableur Générique, Appli, ou Quelque Chose Pensé pour Votre Boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "Un tableur est gratuit, et c'est là que la plupart des boutiques commencent, ce qui convient pour une réserve de quelques dizaines d'articles comptés une fois par mois. Passé quelques centaines de références et un rythme de livraisons quotidien, il cesse d'être gratuit : il coûte au commerçant une heure par semaine à recouper des chiffres qu'un scan de code-barres aurait tenus à jour automatiquement. Une appli d'inventaire générique comble une partie de cet écart, mais suppose en général un entrepôt et des accès employés qu'une boutique à un seul site n'utilisera jamais, avec un prix pensé pour une échelle jamais atteinte."
+      },
+      {
+        "type": "p",
+        "text": "Un outil [pensé pour votre boutique](~/services/custom-tools) se situe entre les deux : seulement les écrans dont la boutique a besoin, calé sur la façon dont elle reçoit vraiment le stock et encaisse une vente. Les prix de départ et ce qui les fait varier (matériel de scan, intégrations fournisseurs, un deuxième site) sont sur [notre page tarifs](~/pricing), confirmés comme il faut lors d'une consultation gratuite plutôt que devinés ici. La même logique s'applique à [ce que coûte vraiment un site pour une petite entreprise](~/blog/what-a-website-costs) : le prix affiché compte moins que ce que l'outil fait économiser par rapport à ce qu'il remplace."
+      },
+      {
+        "type": "h2",
+        "text": "Comment Commencer Sans Arrêter la Boutique Pendant une Semaine"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Comptez d'abord ce qui compte vraiment",
+            "body": "N'essayez pas de compter chaque référence dès le premier jour. La plupart des boutiques constatent qu'un cinquième de leurs produits génère la majorité de leurs ventes ; commencez le nouveau système avec ceux-là, sur papier si besoin, avant de toucher à un logiciel."
+          },
+          {
+            "title": "Donnez un nom à chaque emplacement",
+            "body": "Rayon A, réserve rangée 3, vitrine : peu importe, du moment que c'est le nom que la boutique utilise vraiment. Un outil n'est fiable que si les noms d'emplacement sont ceux que quelqu'un utilisera vraiment chaque jour."
+          },
+          {
+            "title": "Scannez les livraisons avant qu'elles n'arrivent en rayon",
+            "body": "La seule habitude qui corrige le stock fantôme le plus vite : rien ne part en rayon avant d'avoir été scanné dans le système, même si l'étiquetage du prix se fait plus tard dans la journée."
+          },
+          {
+            "title": "Automatisez le seuil de réapprovisionnement, mais seulement pour les meilleures ventes",
+            "body": "Définissez une alerte de stock bas pour la poignée de produits dont la rupture ferait vraiment mal. Tout le reste peut rester une vérification manuelle mensuelle pour l'instant."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Une boutique qui suit cet ordre a en général pris l'habitude en quelques semaines, bien avant que l'outil ne soit entièrement construit. Comparez cela à un [flux de réapprovisionnement automatisé](~/blog/automations-for-small-business) : l'habitude ci-dessus est ce qui rend cette automatisation fiable plutôt qu'une machine à fausses alertes."
+      },
+      {
+        "type": "h2",
+        "text": "Questions Fréquentes"
+      },
+      {
+        "type": "h3",
+        "text": "Une petite boutique a-t-elle vraiment besoin d'un logiciel d'inventaire, ou un tableur suffit-il ?"
+      },
+      {
+        "type": "p",
+        "text": "Un tableur suffit pour une petite réserve, à rotation lente, comptée à la main une fois par mois. Dès que les livraisons arrivent chaque semaine, que l'équipe dépasse une personne, ou qu'un best-seller est en rupture sans prévenir, l'heure passée chaque semaine à recouper la feuille coûte en général plus cher qu'un outil pensé pour ça."
+      },
+      {
+        "type": "h3",
+        "text": "Combien coûte un outil d'inventaire sur mesure pour une petite boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "Cela dépend surtout du nombre de sites, des accès employés et des intégrations fournisseurs, c'est pourquoi nous le chiffrons après une courte conversation plutôt que de deviner ici. Les prix de départ actuels sont sur [notre page tarifs](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Un outil d'inventaire peut-il fonctionner avec une seule caisse et sans système de réserve séparé ?"
+      },
+      {
+        "type": "p",
+        "text": "Oui. Une boutique à un seul site est le cas le plus simple : un code-barres, un emplacement en rayon, une caisse. La complexité qu'ajoute la plupart des logiciels d'inventaire vise plusieurs sites ou entrepôts, ce qu'une boutique à une seule caisse peut ignorer entièrement."
+      },
+      {
+        "type": "h3",
+        "text": "Combien de temps faut-il pour mettre en place un outil d'inventaire dans une petite boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "L'essentiel du délai ne vient pas du logiciel, mais du comptage du stock existant. Une boutique qui commence par son cinquième de produits les plus vendus, comme expliqué plus haut, fait en général tourner l'essentiel en quelques semaines, plutôt que d'attendre un comptage complet au préalable."
+      },
+      {
+        "type": "h3",
+        "text": "Qu'est-ce que le stock fantôme et comment l'éviter ?"
+      },
+      {
+        "type": "p",
+        "text": "Le stock fantôme, c'est quand le système indique qu'un article est disponible alors qu'il n'est en réalité pas en rayon, en général à cause d'un retour jamais scanné, d'une livraison incomplète ou d'une vente qui n'a jamais mis à jour le comptage. Scanner chaque livraison avant qu'elle n'arrive en rayon élimine à lui seul la plus grande partie du problème."
+      }
+    ]
   }
 ]

@@ -1602,5 +1602,172 @@
         "text": "Una web sencilla, de cinco a ocho páginas, un idioma, sin reservas a medida, suele ser cosa de semanas una vez el contenido está listo, no de meses. El contenido casi siempre es la parte lenta, no la construcción; decidir tu [enfoque sobre IA y la web juntos](~/blog/ai-strategy-for-small-business) antes de empezar suele acortar las dos cosas."
       }
     ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "La Herramienta de Inventario que una Tienda Pequeña Necesita",
+    "description": "Una tienda pequeña necesita una herramienta de inventario pensada para una caja y un almacén, no para un centro logístico. Esto es lo que buscar y cómo empezar.",
+    "dek": "Las hojas de cálculo genéricas y el software de almacén no encajan con una tienda de un solo local y unos pocos miles de referencias; esto es lo que sí encaja.",
+    "keyword": "inventory tool for small shops",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Una tienda necesita una herramienta de inventario que controle el stock por estantería y almacén, no una pensada para un almacén con diez sedes.",
+      "El stock fantasma, la diferencia entre lo que dice el sistema y lo que hay realmente en la estantería, suele deberse a devoluciones sin escanear, envíos incompletos o un expositor que nunca se vinculó al recuento.",
+      "Escanear cada entrega antes de que llegue a la estantería elimina la mayor parte del stock fantasma sin ningún otro cambio.",
+      "Una hoja de cálculo funciona para un almacén pequeño y de movimiento lento; en cuanto las entregas son semanales y un producto estrella se agota una y otra vez, la hora semanal de cuadrar los números suele costar más que una herramienta hecha a medida.",
+      "Empieza por la quinta parte de los productos que generan la mayoría de las ventas, en lugar de contar toda la tienda el primer día."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Cuéntanos qué necesita controlar tu tienda"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "La herramienta de inventario adecuada para una tienda pequeña no es la misma que usa un centro logístico. Debe controlar el stock por estantería y por almacén, avisarte antes de que se agote un producto estrella, y tardar menos en actualizarse que una hoja de recuento en papel. Una tienda con una caja, un almacén y unos pocos miles de referencias necesita algo pensado para eso, no una hoja de cálculo llevada al límite ni un software empresarial pensado para diez almacenes."
+      },
+      {
+        "type": "h2",
+        "text": "Dónde Se Pierde Realmente el Stock de una Tienda"
+      },
+      {
+        "type": "p",
+        "text": "La mayoría de las tiendas no pierden stock por robos, en primer lugar. Lo pierden por la diferencia entre lo que dice la estantería y lo que hay realmente detrás del mostrador. Llega un pedido un martes por la mañana: doce cajas, tres proveedores, una factura cada uno. Alguien desempaqueta la mitad antes de abrir, pone precio al resto a la hora de comer, y para el viernes nadie recuerda exactamente qué fue a parar dónde. El punto de venta sabe lo que se ha vendido. No tiene ni idea de lo que hay en el almacén, todavía en su caja."
+      },
+      {
+        "type": "p",
+        "text": "Esa diferencia crece cada semana que no se mide. Una tienda de regalos vuelve a pedir una línea de velas que sigue en una caja con la fecha del mes pasado. Una ferretería le dice a un cliente que tiene una pieza porque la etiqueta de la estantería lo dice, y luego pasa diez minutos demostrando que no es así. Ninguno de los dos dueños hizo nada descuidado; simplemente nunca tuvieron un sistema que conectara la estantería, el almacén y la caja en un solo sitio."
+      },
+      {
+        "type": "h2",
+        "text": "¿Por Qué la Estantería Dice Que Hay Stock Cuando el Almacén Está Vacío?"
+      },
+      {
+        "type": "p",
+        "text": "Esto es lo que en el comercio llaman stock fantasma: el recuento en papel o en el sistema no coincide con lo que hay físicamente en la estantería. Ocurre por el mismo puñado de razones en casi todas las tiendas. Una devolución vuelve a la estantería sin escanearse. Un proveedor envía menos unidades de las pedidas y nadie ajusta el recuento. Un empleado vende la última unidad de un expositor y el recuento del almacén no se mueve porque el expositor nunca estuvo vinculado a él."
+      },
+      {
+        "type": "callout",
+        "title": "El coste real del stock fantasma",
+        "body": "No es solo el viaje perdido al almacén. Es el cliente que quería la talla, el color o la pieza que prometía la estantería y se fue sin ella, y es el nuevo pedido que duplica stock que ya está en algún rincón de la tienda."
+      },
+      {
+        "type": "p",
+        "text": "Una [herramienta a medida](~/services/custom-tools) soluciona esto vinculando un código de barras a una ubicación en la estantería y a una línea de caja, de modo que una venta, una devolución o una entrega actualizan el mismo número en todas partes a la vez. Esa es la diferencia entre una herramienta pensada para una tienda y una hoja de cálculo que alguien actualiza cuando se acuerda."
+      },
+      {
+        "type": "h2",
+        "text": "Lo Que Debe Hacer una Herramienta de Inventario de Verdad"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Escanea un código de barras desde un móvil, en el mostrador o en el almacén, sin comprar ni cargar un lector aparte",
+          "Avisa antes de que se agote un producto estrella, no después de que un cliente ya lo haya pedido",
+          "Separa el stock por ubicación (estantería, almacén, segunda caja) para que el recuento signifique algo concreto",
+          "Sigue funcionando en un sábado de mucho movimiento sin necesitar un portátil abierto junto a la caja",
+          "Convierte un aviso de stock bajo en un pedido al proveedor real, no en una nota en un pósit"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nada de esto necesita ser un software complicado. Necesita encajar con cómo funciona la tienda de verdad: un dueño, uno o dos empleados, un ritmo de entregas y un sábado de mucho ajetreo que un sistema genérico de almacén nunca se pensó para gestionar. Elegir el correcto pasa por el mismo filtro de tres preguntas que cualquier decisión tecnológica de un pequeño negocio: qué ahorra de verdad, qué cuesta mantenerlo y qué falla si sale mal, algo que tratamos en nuestra [guía para elegir prioridades de IA y software](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "¿Hoja de Cálculo, App Genérica o Algo Hecho para tu Tienda?"
+      },
+      {
+        "type": "p",
+        "text": "Una hoja de cálculo es gratis, y es donde empiezan la mayoría de las tiendas, lo cual está bien para un almacén de unas pocas docenas de artículos contados una vez al mes. Pasadas unas pocas centenas de referencias y con entregas diarias, deja de ser gratis: le cuesta al dueño una hora a la semana cuadrando números que un escaneo de código de barras habría mantenido exactos de forma automática. Una app de inventario genérica cierra parte de esa brecha, pero suele dar por hecho un almacén y accesos de personal que una tienda de un solo local nunca va a usar, con un precio pensado para una escala que nunca alcanza."
+      },
+      {
+        "type": "p",
+        "text": "Una herramienta [hecha para tu tienda](~/services/custom-tools) se sitúa entre las dos: solo las pantallas que la tienda necesita, ligada a cómo esa tienda recibe realmente el género y cobra una venta. Los precios de partida y qué los determina (lectores de código de barras, integraciones con proveedores, un segundo local) están en [nuestra página de precios](~/pricing), confirmados como es debido en una consulta gratuita en lugar de adivinados aquí. La misma lógica se aplica a [lo que cuesta realmente una web para un pequeño negocio](~/blog/what-a-website-costs): el precio de partida importa menos que lo que ahorra la herramienta frente a lo que sustituye."
+      },
+      {
+        "type": "h2",
+        "text": "Cómo Empezar Sin Parar la Tienda una Semana"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Cuenta primero lo que de verdad importa",
+            "body": "No intentes contar cada referencia el primer día. La mayoría de las tiendas descubren que una quinta parte de sus productos generan la mayoría de sus ventas; empieza el nuevo sistema con esos, en papel si hace falta, antes de tocar ningún software."
+          },
+          {
+            "title": "Ponle nombre a cada ubicación",
+            "body": "Estantería A, fila 3 del almacén, escaparate: como los llame realmente la tienda. Una herramienta es tan precisa como los nombres de ubicación que alguien vaya a usar de verdad cada día."
+          },
+          {
+            "title": "Escanea las entregas antes de colocarlas en la estantería",
+            "body": "El único hábito que corrige el stock fantasma más rápido: nada sale a la venta hasta que se ha escaneado en el sistema, aunque el precio se ponga más tarde ese mismo día."
+          },
+          {
+            "title": "Automatiza el punto de pedido solo para los más vendidos",
+            "body": "Configura un aviso de stock bajo para el puñado de productos cuya falta realmente perjudicaría. Todo lo demás puede seguir siendo una comprobación manual mensual por ahora."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Una tienda que sigue ese orden suele tener el hábito instaurado en un par de semanas, mucho antes de que la herramienta esté terminada del todo. Compáralo con un [flujo automático de reposición](~/blog/automations-for-small-business): el hábito anterior es lo que hace que esa automatización sea de fiar en lugar de una máquina de falsas alarmas."
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas Frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿Necesita de verdad una tienda pequeña un software de inventario, o basta con una hoja de cálculo?"
+      },
+      {
+        "type": "p",
+        "text": "Una hoja de cálculo basta para un almacén pequeño y de movimiento lento, contado a mano una vez al mes. En cuanto las entregas llegan cada semana, el personal crece más allá de una persona, o un producto estrella se agota sin previo aviso, la hora semanal dedicada a cuadrar la hoja suele costar más que una herramienta pensada para ello."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto cuesta una herramienta de inventario a medida para una tienda pequeña?"
+      },
+      {
+        "type": "p",
+        "text": "Depende sobre todo de los locales, los accesos del personal y las integraciones con proveedores, por eso lo presupuestamos tras una conversación breve en lugar de adivinarlo aquí. Los precios de partida actuales están en [nuestra página de precios](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "¿Puede una herramienta de inventario funcionar con una sola caja y sin un sistema de almacén aparte?"
+      },
+      {
+        "type": "p",
+        "text": "Sí. Una tienda de un solo local es el caso más sencillo: un código de barras, una ubicación en la estantería, una caja. La complejidad que añade la mayoría del software de inventario es para varios locales o almacenes, algo que una tienda con una sola caja puede saltarse por completo."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto se tarda en poner en marcha una herramienta de inventario para una tienda pequeña?"
+      },
+      {
+        "type": "p",
+        "text": "La mayor parte del retraso no es el software, es contar el stock existente. Una tienda que empieza por su quinta parte de productos más vendidos, como se explicaba antes, suele tener lo esencial funcionando en un par de semanas, en lugar de esperar a hacer un recuento completo primero."
+      },
+      {
+        "type": "h3",
+        "text": "¿Qué es el stock fantasma y cómo lo evito?"
+      },
+      {
+        "type": "p",
+        "text": "El stock fantasma ocurre cuando el sistema dice que un artículo está disponible pero en realidad no está en la estantería, normalmente por una devolución sin escanear, una entrega incompleta o una venta que nunca actualizó el recuento. Escanear cada entrega antes de que llegue a la estantería elimina la mayor parte por sí solo."
+      }
+    ]
   }
 ]

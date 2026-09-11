@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="The Inventory Tool a Small Shop Actually Needs">
+  <rect width="1200" height="675" fill="#fbfbfd"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#000080"/>
+  <g transform="translate(96,86) scale(0.72)">
+    <path d="M32 32 11.22 20 32 8 52.78 20Z" fill="#000080"/>
+    <path d="M32 8 52.78 20V44L32 56 11.22 44V20Z" fill="none" stroke="#16182b" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M11.22 20 32 32 52.78 20M32 32v24" fill="none" stroke="#16182b" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <text x="146" y="127" font-family="'Hanken Grotesk','Liberation Sans','DejaVu Sans',sans-serif" font-size="30" font-weight="800" letter-spacing="-1.1" fill="#16182b">kodable<tspan fill="#000080">.ai</tspan></text>
+  <g>
+    <rect x="96" y="168" width="180" height="40" rx="20" fill="none" stroke="#dfe1ec" stroke-width="2"/>
+    <text x="186" y="195" text-anchor="middle" font-family="'Hanken Grotesk','Liberation Sans','DejaVu Sans',sans-serif" font-size="18" font-weight="700" letter-spacing="0.6" fill="#000080">CUSTOM TOOLS</text>
+  </g>
+  <text font-family="'Hanken Grotesk','Liberation Sans','DejaVu Sans',sans-serif" font-size="64" font-weight="800" letter-spacing="-1.8" fill="#16182b">
+      <tspan x="96" y="418">The Inventory Tool a Small</tspan>
+      <tspan x="96" y="496">Shop Actually Needs</tspan>
+  </text>
+  <line x1="96" y1="556" x2="1104" y2="556" stroke="#dfe1ec" stroke-width="2"/>
+  <text x="96" y="600" font-family="'Hanken Grotesk','Liberation Sans','DejaVu Sans',sans-serif" font-size="22" font-weight="600" fill="#16182b" opacity="0.72">Websites, AI agents and automations for small businesses</text>
+  <text x="1104" y="600" text-anchor="end" font-family="'Hanken Grotesk','Liberation Sans','DejaVu Sans',sans-serif" font-size="22" font-weight="700" fill="#000080">kodable.ai</text>
+</svg>

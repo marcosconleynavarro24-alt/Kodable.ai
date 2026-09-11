@@ -1602,5 +1602,172 @@
         "text": "Eine unkomplizierte Website, fünf bis acht Seiten, eine Sprache, ohne maßgeschneiderte Buchung, dauert meist Wochen, sobald der Inhalt fertig ist, nicht Monate. Der Inhalt ist fast immer der langsamere Teil, nicht der Bau; Ihren [Ansatz für KI und die Website zusammen](~/blog/ai-strategy-for-small-business) vor dem Start zu klären verkürzt meist beides."
       }
     ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "Das Inventar-Tool, das ein kleiner Laden wirklich braucht",
+    "description": "Ein kleiner Laden braucht ein Inventar-Tool für eine Kasse und ein Lager, nicht für ein Warenlager. Hier erfährst du, worauf es ankommt und wie du anfängst.",
+    "dek": "Fertige Tabellen und Lagersoftware treffen beide nicht den Bedarf eines Ladens mit einem Standort und ein paar tausend Artikeln; hier ist, was wirklich passt.",
+    "keyword": "inventory tool for small shops",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Ein Laden braucht ein Inventar-Tool, das Bestand nach Regal und Lager erfasst, nicht eines, das für ein Lager mit zehn Standorten gebaut wurde.",
+      "Phantombestand, die Lücke zwischen dem, was das System sagt, und dem, was tatsächlich im Regal steht, entsteht meist durch nicht gescannte Retouren, unvollständige Lieferungen oder eine Auslage, die nie mit der Zählung verknüpft wurde.",
+      "Jede Lieferung vor dem Einräumen zu scannen beseitigt allein schon den größten Teil des Phantombestands.",
+      "Eine Tabelle funktioniert für ein kleines, langsames Lager; sobald Lieferungen wöchentlich kommen und ein Verkaufsschlager immer wieder ausverkauft ist, kostet die wöchentliche Stunde zum Abgleichen meist mehr als ein Tool, das für genau das gebaut wurde.",
+      "Fang mit dem Fünftel der Produkte an, das die meisten Verkäufe bringt, statt am ersten Tag den ganzen Laden zu zählen."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Sag uns, was dein Laden erfassen muss"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "Das richtige Inventar-Tool für einen kleinen Laden ist nicht dasselbe, das ein Warenlager nutzt. Es sollte Bestand nach Regal und Lager erfassen, dich warnen, bevor ein Verkaufsschlager ausgeht, und schneller zu aktualisieren sein als eine Zählliste auf Papier. Ein Laden mit einer Kasse, einem Lager und ein paar tausend Artikeln braucht etwas, das genau dafür gebaut ist, keine bis an ihre Grenzen gedehnte Tabelle und keine Unternehmenssoftware für zehn Lagerhäuser."
+      },
+      {
+        "type": "h2",
+        "text": "Wo der Bestand eines Ladens wirklich verschwindet"
+      },
+      {
+        "type": "p",
+        "text": "Die meisten Läden verlieren Bestand nicht zuerst durch Diebstahl. Sie verlieren ihn durch die Lücke zwischen dem, was das Regal sagt, und dem, was tatsächlich hinter der Theke liegt. Eine Lieferung kommt an einem Dienstagmorgen: zwölf Kartons, drei Lieferanten, je eine Rechnung. Jemand packt vor Öffnung die Hälfte aus, bepreist den Rest in der Mittagspause, und am Freitag weiß niemand mehr genau, was wohin gegangen ist. Die Kasse weiß, was verkauft wurde. Sie hat keine Ahnung, was im Lager liegt, noch im Karton."
+      },
+      {
+        "type": "p",
+        "text": "Diese Lücke wächst mit jeder Woche, in der sie nicht gemessen wird. Ein Geschenkeladen bestellt eine Kerzenlinie nach, die noch in einem Karton mit dem Datum vom letzten Monat liegt. Ein Baumarkt sagt einem Kunden, ein Teil sei vorrätig, weil das Regaletikett es so sagt, und verbringt dann zehn Minuten damit, das Gegenteil zu beweisen. Keiner der beiden Inhaber hat etwas falsch gemacht; sie hatten schlicht nie ein System, das Regal, Lager und Kasse an einem Ort verbindet."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Zeigt das Regal Bestand, Wenn das Lager Leer Ist?"
+      },
+      {
+        "type": "p",
+        "text": "Das nennt man im Einzelhandel Phantombestand: Die Zählung auf Papier oder im System stimmt nicht mit dem überein, was physisch im Regal liegt. Es passiert in fast jedem Laden aus denselben paar Gründen. Eine Retoure kommt zurück ins Regal, ohne gescannt zu werden. Ein Lieferant liefert weniger als bestellt, und niemand passt die Zählung an. Ein Mitarbeiter verkauft das letzte Stück aus einer Auslage, und der Lagerbestand bewegt sich nie, weil die Auslage von Anfang an nie damit verknüpft war."
+      },
+      {
+        "type": "callout",
+        "title": "Die wahren Kosten von Phantombestand",
+        "body": "Es ist nicht nur der unnötige Weg ins Lager. Es ist der Kunde, der die Größe, Farbe oder das Teil wollte, das das Regal versprochen hat, und ohne es gegangen ist, und es ist die Nachbestellung, die Bestand verdoppelt, der irgendwo im Laden schon liegt."
+      },
+      {
+        "type": "p",
+        "text": "Ein [maßgeschneidertes Tool](~/services/custom-tools) löst das, indem es einen Barcode mit einem Regalplatz und einer Kassenzeile verknüpft, sodass ein Verkauf, eine Retoure oder eine Lieferung überall gleichzeitig dieselbe Zahl aktualisiert. Das ist der Unterschied zwischen einem Tool, das für einen Laden gebaut wurde, und einer Tabelle, die jemand aktualisiert, wenn er daran denkt."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein Echtes Inventar-Tool für einen Laden Leisten Sollte"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scannt einen Barcode vom Handy aus, an der Theke oder im Lager, ohne ein separates Scangerät zu kaufen oder aufzuladen",
+          "Warnt, bevor ein Verkaufsschlager ausgeht, nicht erst, nachdem ein Kunde schon danach gefragt hat",
+          "Trennt Bestand nach Standort (Regal, Lager, zweite Kasse), damit die Zählung etwas Konkretes bedeutet",
+          "Funktioniert auch an einem vollen Samstag weiter, ohne dass an der Kasse ein Laptop aufgeklappt sein muss",
+          "Macht aus einer Niedrigbestand-Warnung eine Nachbestellung beim tatsächlichen Lieferanten, keine Notiz auf einem Klebezettel"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nichts davon muss komplizierte Software sein. Es muss dazu passen, wie der Laden wirklich läuft: ein Inhaber, ein oder zwei Mitarbeiter, ein Lieferrhythmus und ein Samstagsansturm, für den ein generisches Lagersystem nie gebaut wurde. Das richtige zu wählen folgt demselben Drei-Fragen-Filter wie jede Technologieentscheidung eines Kleinunternehmens: was es wirklich spart, was es im Betrieb kostet und was ausfällt, wenn es versagt, behandelt in unserem [Leitfaden zur Wahl von KI- und Software-Prioritäten](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Fertige Tabelle, App oder Etwas, das um Deinen Laden Herum Gebaut Ist?"
+      },
+      {
+        "type": "p",
+        "text": "Eine Tabelle ist kostenlos, und dort fangen die meisten Läden an, was für ein Lager mit ein paar Dutzend Artikeln, einmal im Monat gezählt, völlig ausreicht. Ab ein paar hundert Artikeln und täglichem Lieferrhythmus hört sie auf, kostenlos zu sein: Sie kostet den Inhaber eine Stunde pro Woche, um Zahlen abzugleichen, die ein Barcode-Scan automatisch genau gehalten hätte. Eine generische Inventar-App schließt einen Teil dieser Lücke, geht aber meist von einem Lager und Mitarbeiterzugängen aus, die ein Laden mit einem Standort nie brauchen wird, zu einem Preis für eine Größenordnung, die er nie erreicht."
+      },
+      {
+        "type": "p",
+        "text": "Ein Tool, das [um den Laden herum gebaut ist](~/services/custom-tools), liegt zwischen beidem: nur die Ansichten, die der Laden braucht, abgestimmt darauf, wie er tatsächlich Ware annimmt und einen Verkauf abrechnet. Startpreise und was sie beeinflusst (Scanner-Hardware, Lieferanten-Integrationen, ein zweiter Standort) stehen auf [unserer Preisseite](~/pricing), richtig bestätigt in einem kostenlosen Gespräch statt hier geraten. Dieselbe Logik gilt für [was eine Website für ein Kleinunternehmen wirklich kostet](~/blog/what-a-website-costs): Der Preisaufkleber zählt weniger als das, was das Tool gegenüber dem einspart, was es ersetzt."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du Anfängst, ohne den Laden Eine Woche Lang Stillzulegen"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Zähl zuerst, was wirklich zählt",
+            "body": "Versuch nicht, am ersten Tag jeden Artikel zu zählen. Die meisten Läden stellen fest, dass ein Fünftel ihrer Produkte den Großteil ihrer Verkäufe ausmacht; fang das neue System mit denen an, notfalls auf Papier, bevor du Software anfasst."
+          },
+          {
+            "title": "Gib jedem Standort einen Namen",
+            "body": "Regal A, Lagerreihe 3, Schaufenster: wie auch immer der Laden sie tatsächlich nennt. Ein Tool ist nur so genau wie die Standortnamen, die jemand tatsächlich jeden Tag benutzt."
+          },
+          {
+            "title": "Lieferungen scannen, bevor sie ins Regal kommen",
+            "body": "Die eine Gewohnheit, die Phantombestand am schnellsten behebt: Nichts kommt in die Auslage, bevor es im System gescannt wurde, auch wenn die Preisauszeichnung erst später am Tag erfolgt."
+          },
+          {
+            "title": "Nur für die Topseller den Meldebestand automatisieren",
+            "body": "Richte eine Niedrigbestand-Warnung für die Handvoll Produkte ein, deren Fehlen wirklich wehtun würde. Alles andere kann vorerst eine monatliche manuelle Kontrolle bleiben."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ein Laden, der diese Reihenfolge befolgt, hat die Gewohnheit meist innerhalb weniger Wochen etabliert, lange bevor das Tool vollständig fertig gebaut ist. Vergleiche das mit einem [automatisierten Nachbestell-Workflow](~/blog/automations-for-small-business): Die obige Gewohnheit ist es, die diese Automatisierung vertrauenswürdig macht statt zu einer Fehlalarm-Maschine."
+      },
+      {
+        "type": "h2",
+        "text": "Häufig Gestellte Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Braucht ein kleiner Laden wirklich Inventarsoftware, oder reicht eine Tabelle?"
+      },
+      {
+        "type": "p",
+        "text": "Eine Tabelle reicht für ein kleines, langsames Lager, einmal im Monat von Hand gezählt. Sobald Lieferungen wöchentlich eintreffen, das Personal über eine Person hinauswächst oder ein Verkaufsschlager unangekündigt immer wieder ausverkauft ist, kostet die wöchentliche Stunde zum Abgleichen meist mehr als ein Tool, das genau dafür gebaut wurde."
+      },
+      {
+        "type": "h3",
+        "text": "Was kostet ein maßgeschneidertes Inventar-Tool für einen kleinen Laden?"
+      },
+      {
+        "type": "p",
+        "text": "Das hängt vor allem von Standorten, Mitarbeiterzugängen und Lieferanten-Integrationen ab, weshalb wir es nach einem kurzen Gespräch anbieten, statt hier zu raten. Aktuelle Startpreise stehen auf [unserer Preisseite](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Kann ein Inventar-Tool mit nur einer Kasse und ohne separates Lagersystem funktionieren?"
+      },
+      {
+        "type": "p",
+        "text": "Ja. Ein Laden mit einem Standort ist der einfachste Fall: ein Barcode, ein Regalplatz, eine Kassenanbindung. Die Komplexität, die die meiste Inventarsoftware hinzufügt, ist für mehrere Standorte oder Lager gedacht, was ein Laden mit einer Kasse komplett überspringen kann."
+      },
+      {
+        "type": "h3",
+        "text": "Wie lange dauert es, ein Inventar-Tool für einen kleinen Laden einzurichten?"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Teil der Verzögerung liegt nicht an der Software, sondern am Zählen des vorhandenen Bestands. Ein Laden, der mit seinem meistverkauften Fünftel an Produkten beginnt, wie oben beschrieben, hat den Kern meist innerhalb weniger Wochen am Laufen, statt zuerst auf eine Vollzählung zu warten."
+      },
+      {
+        "type": "h3",
+        "text": "Was ist Phantombestand, und wie stoppe ich ihn?"
+      },
+      {
+        "type": "p",
+        "text": "Phantombestand bedeutet, dass das System einen Artikel als verfügbar zeigt, er aber tatsächlich nicht im Regal liegt, meist wegen einer nicht gescannten Retoure, einer unvollständigen Lieferung oder eines Verkaufs, der die Zählung nie aktualisiert hat. Jede Lieferung vor dem Einräumen ins Regal zu scannen beseitigt allein schon das meiste davon."
+      }
+    ]
   }
 ]
