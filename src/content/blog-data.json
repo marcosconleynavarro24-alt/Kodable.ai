@@ -1422,5 +1422,352 @@
         "text": "Only if it breaks Google's policies, for example spam, a review of the wrong business, or content that is off-topic or abusive. You can flag it from the dashboard and Google decides. An honest negative review from a real customer stays; the best response is a calm, specific public reply, which future customers read more carefully than the review itself."
       }
     ]
+  },
+  {
+    "slug": "what-a-website-costs",
+    "category": "Websites",
+    "categoryIcon": "globe",
+    "title": "How Much Does a Small Business Website Really Cost?",
+    "description": "A website's price depends on what it needs to do, not just who builds it. Here's what actually drives the number, and how to work out yours.",
+    "dek": "The honest answer is not one number. It is a handful of choices that add up differently for every business, and a simple way to work out where yours lands.",
+    "keyword": "how much does a small business website cost",
+    "author": "The Kodable team",
+    "datePublished": "2026-09-10",
+    "ogImage": "what-a-website-costs.jpg",
+    "readMinutes": 6,
+    "takeaways": [
+      "A website's price is driven mostly by what it has to do, booking, payments, a second language, not by who builds it.",
+      "The ongoing cost, hosting, security, updates and backups, is not optional and usually matters more over three years than the build price.",
+      "A cheaper site is not automatically the cheaper choice: work out what one missed enquiry actually costs you before comparing prices.",
+      "Decide page count, features and language before asking for a quote, and the question turns from impossible into specific.",
+      "Kodable prices websites with VAT included and no small print, with a monthly care plan folding hosting, security and updates into one line."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Get a clear price for your site"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "A small business website costs anywhere from a few hundred to tens of thousands of dollars a year, and the honest reason is that \"a website\" is not one product. A one page site on a subscription tool and a custom site with booking, payments and a second language are both websites, and not the same purchase."
+      },
+      {
+        "type": "h2",
+        "text": "Why isn't there one straight answer?"
+      },
+      {
+        "type": "p",
+        "text": "Ask five website companies what a site costs and you get five different numbers, because you are really asking five different questions. A do it yourself builder rents you a template and hosting for a monthly fee. A freelancer builds closer to what you actually need, for a one off price. An agency does the same with a bigger team and a bigger invoice. None of these numbers is wrong. They answer different questions wearing the same headline."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How many pages, and what each one has to do.** A single page that says who you are and how to book costs far less than a site with services, locations, staff bios and a shop.",
+          "**Template or custom design.** A template gets you live fast and cheap. Custom design around your business and photos usually costs more up front.",
+          "**Booking, ordering or payments built in.** The moment the site has to talk to a calendar, a kitchen or a payment processor, it stops being a brochure and starts being software.",
+          "**Who writes the words and takes the photos.** Your own photography and copy, written for your business, reads better, and costs more, than stock images and placeholder text nobody replaced.",
+          "**A second language.** Serving customers in more than one language roughly doubles the writing, and needs a real translation, not a plugin.",
+          "**Ongoing care.** Hosting, security updates and backups are not optional, whoever builds the site. The only choice is whether you pay for them clearly, or find out the hard way."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What actually moves the number"
+      },
+      {
+        "type": "p",
+        "text": "The two effects owners usually underestimate are what the site has to **do**, and who writes the **words**. A five page site that only explains the business is a small, fast job. The same five pages with a booking calendar or a quote form that does the maths for the customer is a different scale of work, because something now has to keep working after launch. Design moves the number less than people expect, and content moves it more: a clean, well organised [small business website](~/services/websites) written properly for the business reads and ranks better than an elaborate one filled with generic paragraphs nobody wrote for it."
+      },
+      {
+        "type": "h2",
+        "text": "What should you budget beyond the build?"
+      },
+      {
+        "type": "p",
+        "text": "The build price is the number everyone asks about, and the ongoing cost is the one that decides what you pay over three years: a place to live (hosting), a certificate that keeps the padlock in the browser (security), a way to fix it when something breaks (maintenance), and someone who notices if it goes down. None of that is a one off purchase."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Hosting and a domain.** Somewhere to live and an address to be found at. Both renew every year whether the site changes or not.",
+          "**Security and updates.** Software that runs a website needs patching. Skip it for long enough and the risk is not a slow site, it is a hacked one.",
+          "**Backups.** The one line item nobody misses until the week they need it.",
+          "**Small changes.** Hours change, a price changes, a new service launches. A site nobody can update without calling someone back in is a site you will stop updating."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Kodable folds all four into one monthly [care plan](~/pricing), so what you pay after launch is one predictable line, not separate surprises in different months."
+      },
+      {
+        "type": "h2",
+        "text": "Is a cheaper site actually cheaper?"
+      },
+      {
+        "type": "p",
+        "text": "Not always. A cheap site that loads slowly, has no way to book, or nobody keeps updated does not just look worse, it quietly turns away the customers who found you. The comparison that matters is not build price against build price. It is build price against what a missed customer is actually worth to you."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Write down what a customer is worth",
+            "body": "Not the average sale, the real number: what you make from one booking, one job, or one order, after costs."
+          },
+          {
+            "title": "Estimate how many enquiries the site should bring in",
+            "body": "Look at current enquiries, calls or bookings from the site or the listing that points at it. A rough monthly number is enough."
+          },
+          {
+            "title": "Ask what a slow or broken site costs you",
+            "body": "A form that does not work or a booking link that goes nowhere turns a found customer into a lost one. Even a handful of those a month adds up fast against a fixed monthly build cost."
+          },
+          {
+            "title": "Compare that number to the build and care plan together",
+            "body": "Once you know what one customer is worth, the honest comparison is straightforward: does the site pay for itself in the customers it stops losing. That answer flips quickly once bookings run through the site instead of a phone nobody answers; see how that connects in [automations that save the most time](~/blog/automations-for-small-business)."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "A simple way to price your own site"
+      },
+      {
+        "type": "p",
+        "text": "Before you ask anyone for a quote, decide these five things. It turns \"how much does a website cost\" from an impossible question into a specific one someone can actually answer."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**How many pages, roughly.** Five is enough for most small businesses: home, services, about, a location or two, contact.",
+          "**Whether it takes bookings, orders or payments.** The single biggest driver of price, and of what the site actually does for you.",
+          "**Whether you need more than one language.** Decide before the build starts. Adding it later means redoing the structure, not just the words.",
+          "**Who is writing the words.** Your own copy, or copy written for you. Knowing which one before you ask for a quote stops it moving later.",
+          "**What \"done\" looks like in a year.** Still fast, secure and easy to update. Ask any company you are considering what that costs before you sign."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Not sure what tier your business needs?",
+        "body": "Tell us how many pages and whether you take bookings, and we will tell you honestly which tier fits and what it costs, VAT included, no small print.",
+        "button": "Get a clear price"
+      },
+      {
+        "type": "h2",
+        "text": "Frequently asked questions"
+      },
+      {
+        "type": "h3",
+        "text": "Is a free website builder good enough for a small business?"
+      },
+      {
+        "type": "p",
+        "text": "For a very early business with no budget yet, a free or near free builder gets something live, which beats nothing live. The tradeoffs show up as you grow: limited design, a subscription that never ends, and template code that struggles once you need booking or a second language. Most owners outgrow it within a year or two and rebuild anyway."
+      },
+      {
+        "type": "h3",
+        "text": "Do I pay for a website once, or every month?"
+      },
+      {
+        "type": "p",
+        "text": "Usually both, and any company that tells you otherwise is hiding one of them. There is normally a build cost, one off or spread over instalments, and then a smaller ongoing cost for hosting, security and updates, whether that is billed by your builder or by companies you now have to manage yourself."
+      },
+      {
+        "type": "h3",
+        "text": "What is the biggest hidden cost in a website project?"
+      },
+      {
+        "type": "p",
+        "text": "Content. Someone has to write what the business does, in its own words, for every page, and that either gets scoped and paid for up front or becomes the reason the project stalls for weeks waiting on a paragraph that never arrives. Ask who is writing the words before you ask what the site costs."
+      },
+      {
+        "type": "h3",
+        "text": "Does a more expensive website rank higher in Google?"
+      },
+      {
+        "type": "p",
+        "text": "No, not directly. Price buys you time, design and features, not ranking. What ranks is a fast site, clear structure, and content that actually answers what a customer is searching for. See [what actually gets a small business found now](~/blog/get-found-in-ai-search) for what does move that number."
+      },
+      {
+        "type": "h3",
+        "text": "How long should a small business website take to build?"
+      },
+      {
+        "type": "p",
+        "text": "A straightforward site, five to eight pages, one language, no custom booking, is usually a matter of weeks once the content is ready, not months. The content is almost always the slower part, not the build; deciding your [approach to AI and the website together](~/blog/ai-strategy-for-small-business) before you start tends to shorten both."
+      }
+    ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "The Inventory Tool a Small Shop Actually Needs",
+    "description": "A small shop needs an inventory tool built for one till and a back room, not a warehouse. Here is what to look for and how to start.",
+    "dek": "Off-the-shelf spreadsheets and warehouse software both miss the mark for a shop with one location and a few thousand SKUs; here is what actually fits.",
+    "keyword": "inventory tool for small shops",
+    "author": "The Kodable team",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "A shop needs an inventory tool that tracks stock by shelf and back room, not one built for a warehouse with ten locations.",
+      "Phantom stock, the gap between what the system says and what is actually on the shelf, is usually caused by unscanned returns, short-shipped deliveries or a display never linked to the count.",
+      "Scanning every delivery in before it reaches the shelf removes most phantom stock without any other change.",
+      "A spreadsheet works for a small, slow stockroom; once deliveries are weekly and a bestseller keeps selling out, the hour spent reconciling it each week usually costs more than a purpose-built tool.",
+      "Start with the fifth of products that drive most sales rather than counting the whole shop on day one."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Tell us what your shop needs tracked"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "The right inventory tool for a small shop is not the same one a warehouse uses. It should track stock by shelf and back room, warn you before a bestseller runs out, and take less time to update than a paper count sheet ever did. A shop with one till, one back room and a few thousand SKUs needs something built for that, not a spreadsheet stretched past its limits and not enterprise software built for ten warehouses."
+      },
+      {
+        "type": "h2",
+        "text": "Where a Shop's Stock Actually Goes Missing"
+      },
+      {
+        "type": "p",
+        "text": "Most shops do not lose stock to theft first. They lose it to the gap between what the shelf says and what is actually behind the counter. A delivery arrives on a Tuesday morning: twelve boxes, three suppliers, one invoice each. Someone unpacks half of it before the doors open, prices the rest at lunch, and by Friday nobody remembers exactly what went where. The point of sale knows what sold. It has no idea what is sitting in the back room, still in its box."
+      },
+      {
+        "type": "p",
+        "text": "That gap grows every week it goes unmeasured. A gift shop reorders a candle line still sitting in a box marked with last month's date. A hardware store tells a customer a part is in stock because the shelf tag says so, then spends ten minutes proving it wrong. Neither owner did anything careless; they just never had a system connecting the shelf, the back room and the register in one place."
+      },
+      {
+        "type": "h2",
+        "text": "Why Does the Shelf Say In Stock When the Back Room Is Empty?"
+      },
+      {
+        "type": "p",
+        "text": "This is what people in retail call phantom stock: the count on paper or in the system does not match what is physically on the shelf. It happens for the same handful of reasons in almost every shop. A return goes back on the shelf without being scanned in. A supplier short-ships an order and nobody adjusts the count. A staff member sells the last one off a display and the stockroom count never moves because the display was never linked to it in the first place."
+      },
+      {
+        "type": "callout",
+        "title": "The real cost of phantom stock",
+        "body": "It is not just the wasted trip to the back room. It is the customer who wanted the size, color or part that the shelf promised and walked out without it, and the reorder that duplicates stock already sitting somewhere in the shop."
+      },
+      {
+        "type": "p",
+        "text": "A [custom tool](~/services/custom-tools) fixes this by tying one barcode to one shelf location and one register line, so a sale, a return or a delivery updates the same number everywhere at once. That is the difference between a tool built for a shop and a spreadsheet someone updates when they remember to."
+      },
+      {
+        "type": "h2",
+        "text": "What a Real Inventory Tool Should Do for a Shop"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scans a barcode from a phone at the counter or in the back room, no separate handheld device to buy or charge",
+          "Warns before a bestseller runs out, not after a customer already asked for it",
+          "Splits stock by location (shelf, back room, second till) so the count means something specific",
+          "Keeps working through a busy Saturday without needing a laptop propped open at the register",
+          "Turns a low-stock warning into a reorder to the actual supplier, not a note on a sticky pad"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "None of that needs to be complicated software. It needs to match how the shop actually runs: one owner, one or two staff, a rhythm of deliveries and a Saturday rush that a generic warehouse system was never built to handle. Picking the right one is the same three-question filter behind any small business tech decision: what it actually saves, what it costs to run, and what breaks if it goes wrong, covered in our [guide to picking AI and software priorities](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Off-the-Shelf Sheet, App, or Something Built Around Your Shop?"
+      },
+      {
+        "type": "p",
+        "text": "A spreadsheet is free, and it is where most shops start, which is fine for a stockroom of a few dozen items counted once a month. Past a few hundred SKUs and a daily delivery rhythm, it stops being free: it costs the owner an hour a week reconciling numbers a barcode scan would have kept accurate automatically. A generic inventory app closes some of that gap but usually assumes a warehouse and staff logins a one-location shop will never touch, priced for a scale it never reaches."
+      },
+      {
+        "type": "p",
+        "text": "A tool [built around the shop](~/services/custom-tools) sits between the two: only the screens the shop needs, tied to how that shop actually receives stock and rings up a sale. Starting prices and what drives them (barcode hardware, supplier integrations, a second location) are on [our pricing page](~/pricing), confirmed properly in a free consultation rather than guessed at here. The same logic applies to [what a small business website actually costs](~/blog/what-a-website-costs): the sticker price matters less than what the tool saves against what it replaces."
+      },
+      {
+        "type": "h2",
+        "text": "How to Get Started Without Stopping the Shop for a Week"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Count what actually matters first",
+            "body": "Do not try to count every SKU on day one. Most shops find that a fifth of their products drive most of their sales; start the new system with those, on paper if needed, before touching software."
+          },
+          {
+            "title": "Give every location a name",
+            "body": "Shelf A, back room row 3, window display: whatever the shop actually calls them. A tool is only as accurate as the location names someone will actually use every day."
+          },
+          {
+            "title": "Scan deliveries in before they hit the shelf",
+            "body": "The single habit that fixes phantom stock fastest: nothing goes on display until it has been scanned into the system, even if pricing happens later that day."
+          },
+          {
+            "title": "Automate the reorder point for the top sellers only",
+            "body": "Set a low-stock alert for the handful of products that would actually hurt to run out of. Everything else can stay a monthly manual check for now."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A shop that follows that order usually has the habit in place within a couple of weeks, well before the tool is fully built out. Compare that to an [automated reorder workflow](~/blog/automations-for-small-business): the habit above is what makes that automation trustworthy instead of a false alarm machine."
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions"
+      },
+      {
+        "type": "h3",
+        "text": "Does a small shop really need inventory software, or is a spreadsheet enough?"
+      },
+      {
+        "type": "p",
+        "text": "A spreadsheet is enough for a small, slow-moving stockroom counted by hand once a month. Once deliveries arrive weekly, staff numbers grow past one, or a bestseller keeps selling out without warning, the hour spent reconciling the sheet each week usually costs more than a tool built for the job."
+      },
+      {
+        "type": "h3",
+        "text": "How much does a custom inventory tool cost for a small shop?"
+      },
+      {
+        "type": "p",
+        "text": "It depends mostly on locations, staff logins and supplier integrations, which is why we quote it after a short conversation rather than guessing here. Current starting prices are on [our pricing page](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Can an inventory tool work with a single till and no separate back-room system?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. A single-location shop is the simplest case: one barcode, one shelf location, one till feed. The complexity most inventory software adds is for multiple locations or warehouses, which a one-till shop can skip entirely."
+      },
+      {
+        "type": "h3",
+        "text": "How long does it take to set up an inventory tool for a small shop?"
+      },
+      {
+        "type": "p",
+        "text": "Most of the delay is not the software, it is counting the existing stock. A shop that starts with its top-selling fifth of products, as above, can usually be running the core of it within a couple of weeks rather than waiting for a full count first."
+      },
+      {
+        "type": "h3",
+        "text": "What is phantom stock and how do I stop it?"
+      },
+      {
+        "type": "p",
+        "text": "Phantom stock is when the system says an item is available but it is not actually on the shelf, usually from an unscanned return, a short-shipped delivery or a sale that never updated the count. Scanning every delivery in before it reaches the shelf removes most of it on its own."
+      }
+    ]
   }
 ]

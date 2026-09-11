@@ -21,12 +21,13 @@
 - [Small Business Automation: Which Jobs to Stop Doing by Hand First](https://kodable.ai/en/blog/automations-for-small-business)
 - [AI Strategy for a Small Business: How to Pick the Three Things Worth Doing](https://kodable.ai/en/blog/ai-strategy-for-small-business)
 - [Google Business Profile for Small Business: What Actually Ranks](https://kodable.ai/en/blog/google-business-profile-for-small-business)
+- [How Much Does a Small Business Website Really Cost?](https://kodable.ai/en/blog/what-a-website-costs)
 
 ## En español
 - [Servicios](https://kodable.ai/es/services)
 - [Portfolio](https://kodable.ai/es/portfolio)
 - [¿Creador de webs o agencia?](https://kodable.ai/es/comparativa)
-- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, qué hace un agente de IA por un pequeño negocio, automatización, estrategia de IA y el Perfil de Empresa de Google.
+- [Blog en español](https://kodable.ai/es/blog): Kit Digital 2026, cómo aparecer cuando responde la IA, qué hace un agente de IA por un pequeño negocio, automatización, estrategia de IA, el Perfil de Empresa de Google, cuánto cuesta una web y qué herramienta de inventario necesita una tienda pequeña.
 - [Preguntas frecuentes](https://kodable.ai/es/faq)
 - [Contacto](https://kodable.ai/es/contact)
 
@@ -44,3 +45,4 @@
 ## Contact
 - Email: info@kodable.ai
 - WhatsApp: https://wa.me/34690689260
+- [The Inventory Tool a Small Shop Actually Needs](https://kodable.ai/en/blog/inventory-tool-for-small-shops)

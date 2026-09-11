@@ -29,8 +29,8 @@
       {
         "type": "figure",
         "src": "/blog/eu-nextgen-emblem.svg",
-        "alt": "Emblema oficial: Financiado por la Unión Europea, NextGenerationEU",
-        "caption": "El Kit Digital se financia con los fondos NextGenerationEU de la Unión Europea."
+        "alt": "El Kit Digital se financia con los fondos NextGenerationEU de la Unión Europea.",
+        "caption": "Emblema oficial: Financiado por la Unión Europea, NextGenerationEU"
       },
       {
         "type": "p",
@@ -59,8 +59,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-importes.svg",
-        "alt": "Gráfico de importes del bono Kit Digital por segmento, de 3.000 € a 29.000 €",
-        "caption": "Importe máximo del bono según el número de empleados, del Segmento III (autónomos) al Segmento V (hasta 250 empleados)."
+        "alt": "Importe máximo del bono según el número de empleados, del Segmento III (autónomos) al Segmento V (hasta 250 empleados).",
+        "caption": "Gráfico de importes del bono Kit Digital por segmento, de 3.000 € a 29.000 €"
       },
       {
         "type": "list",
@@ -112,8 +112,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-pasos.svg",
-        "alt": "Los cuatro pasos para solicitar el Kit Digital: registro, autodiagnóstico, solicitud y agente digitalizador",
-        "caption": "El proceso de principio a fin: registro, autodiagnóstico, solicitud y elección del agente digitalizador."
+        "alt": "El proceso de principio a fin: registro, autodiagnóstico, solicitud y elección del agente digitalizador.",
+        "caption": "Los cuatro pasos para solicitar el Kit Digital: registro, autodiagnóstico, solicitud y agente digitalizador"
       },
       {
         "type": "steps",
@@ -147,8 +147,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-soluciones.svg",
-        "alt": "Categorías de soluciones digitales que financia el Kit Digital: web, comercio electrónico, CRM, ciberseguridad e IA",
-        "caption": "Algunas de las soluciones subvencionables del catálogo oficial."
+        "alt": "Algunas de las soluciones subvencionables del catálogo oficial.",
+        "caption": "Categorías de soluciones digitales que financia el Kit Digital: web, comercio electrónico, CRM, ciberseguridad e IA"
       },
       {
         "type": "list",
@@ -289,8 +289,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-serp.svg",
-        "alt": "Una página de resultados de Google en 2026: una respuesta escrita por IA ocupa lo alto, por encima de la lista habitual de enlaces a webs",
-        "caption": "La página de resultados en 2026: Google escribe una respuesta arriba, y la lista habitual de enlaces empieza más abajo."
+        "alt": "La página de resultados en 2026: Google escribe una respuesta arriba, y la lista habitual de enlaces empieza más abajo.",
+        "caption": "Una página de resultados de Google en 2026: una respuesta escrita por IA ocupa lo alto, por encima de la lista habitual de enlaces a webs"
       },
       {
         "type": "p",
@@ -350,8 +350,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-signals.svg",
-        "alt": "Cuatro señales que meten a un negocio en una respuesta de IA: respuestas claras, reseñas y menciones, datos estructurados y una presencia local fuerte",
-        "caption": "Lo que mete a un negocio en la respuesta: respuestas claras a preguntas reales, reseñas y menciones, una web legible por máquinas y una presencia local fuerte."
+        "alt": "Lo que mete a un negocio en la respuesta: respuestas claras a preguntas reales, reseñas y menciones, una web legible por máquinas y una presencia local fuerte.",
+        "caption": "Cuatro señales que meten a un negocio en una respuesta de IA: respuestas claras, reseñas y menciones, datos estructurados y una presencia local fuerte"
       },
       {
         "type": "h2",
@@ -487,8 +487,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-agent-day.svg",
-        "alt": "Cronología de un día en un pequeño negocio: las consultas llegan a cualquier hora, y un agente de IA responde a cada una en segundos, reserva citas y pasa las difíciles al dueño",
-        "caption": "Un día cualquiera: las consultas no respetan el horario comercial. Un agente responde a cada una en segundos, reserva lo que puede y te pasa el resto."
+        "alt": "Un día cualquiera: las consultas no respetan el horario comercial. Un agente responde a cada una en segundos, reserva lo que puede y te pasa el resto.",
+        "caption": "Cronología de un día en un pequeño negocio: las consultas llegan a cualquier hora, y un agente de IA responde a cada una en segundos, reserva citas y pasa las difíciles al dueño"
       },
       {
         "type": "p",
@@ -658,8 +658,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-handoffs.svg",
-        "alt": "Dos versiones de la misma consulta: a la izquierda pasa por una bandeja de entrada, una app de notas y un teléfono antes de que alguien responda; a la derecha una automatización responde, guarda los datos y reserva la cita en segundos",
-        "caption": "La misma consulta, dos veces. A la izquierda espera a que un humano esté libre. A la derecha la parte rutinaria ocurre de inmediato y al humano le llega lo que queda."
+        "alt": "La misma consulta, dos veces. A la izquierda espera a que un humano esté libre. A la derecha la parte rutinaria ocurre de inmediato y al humano le llega lo que queda.",
+        "caption": "Dos versiones de la misma consulta: a la izquierda pasa por una bandeja de entrada, una app de notas y un teléfono antes de que alguien responda; a la derecha una automatización responde, guarda los datos y reserva la cita en segundos"
       },
       {
         "type": "p",
@@ -773,8 +773,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-priority.svg",
-        "alt": "Una cuadrícula que cruza cada cuánto se repite una tarea con lo cerca que está de los ingresos; las respuestas inmediatas, los recordatorios y el seguimiento de presupuestos caen en la esquina de mayor prioridad",
-        "caption": "Con dos ejes basta: cada cuánto se repite y lo cerca que está del dinero. La esquina superior derecha es tu primera automatización."
+        "alt": "Con dos ejes basta: cada cuánto se repite y lo cerca que está del dinero. La esquina superior derecha es tu primera automatización.",
+        "caption": "Una cuadrícula que cruza cada cuánto se repite una tarea con lo cerca que está de los ingresos; las respuestas inmediatas, los recordatorios y el seguimiento de presupuestos caen en la esquina de mayor prioridad"
       },
       {
         "type": "h2",
@@ -910,8 +910,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-map.jpg",
-        "alt": "Una retícula isométrica de bloques gris claro que representa todo el trabajo de una pequeña empresa, con un puñado de bloques destacados en azul marino y unidos por flechas, que representan las pocas tareas elegidas para la IA",
-        "caption": "Una estrategia no es la retícula entera. Son los tres bloques que elegiste, y el orden en que los elegiste."
+        "alt": "Una estrategia no es la retícula entera. Son los tres bloques que elegiste, y el orden en que los elegiste.",
+        "caption": "Una retícula isométrica de bloques gris claro que representa todo el trabajo de una pequeña empresa, con un puñado de bloques destacados en azul marino y unidos por flechas, que representan las pocas tareas elegidas para la IA"
       },
       {
         "type": "p",
@@ -1035,8 +1035,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-90-days.svg",
-        "alt": "Una línea temporal de noventa días en tres bloques de treinta: elegir y medir, construir la versión más pequeña, y después comparar y decidir si se mantiene, se corrige o se descarta",
-        "caption": "Noventa días, tres movimientos. La última casilla es la que hace que las dos primeras valgan la pena."
+        "alt": "Noventa días, tres movimientos. La última casilla es la que hace que las dos primeras valgan la pena.",
+        "caption": "Una línea temporal de noventa días en tres bloques de treinta: elegir y medir, construir la versión más pequeña, y después comparar y decidir si se mantiene, se corrige o se descarta"
       },
       {
         "type": "h2",
@@ -1207,14 +1207,14 @@
       {
         "type": "figure",
         "src": "/blog/gbp-hero.jpg",
-        "alt": "Ilustración isométrica de un móvil con un mapa local con tres marcadores azul marino y tres fichas con valoración en estrellas, junto a pequeños cubos azul marino con una tienda, un tick y un bocadillo de diálogo",
-        "caption": "La ficha es el escaparate que la mayoría de clientes ve primero. Los marcadores, las estrellas y las respuestas son lo que juzgan."
+        "alt": "La ficha es el escaparate que la mayoría de clientes ve primero. Los marcadores, las estrellas y las respuestas son lo que juzgan.",
+        "caption": "Ilustración isométrica de un móvil con un mapa local con tres marcadores azul marino y tres fichas con valoración en estrellas, junto a pequeños cubos azul marino con una tienda, un tick y un bocadillo de diálogo"
       },
       {
         "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
-        "alt": "La pantalla de un móvil con una búsqueda en Google de un fontanero cerca: un mapa con tres negocios marcados, luego tres tarjetas con valoración en estrellas, número de reseñas, horario y botón de llamar, y solo debajo los enlaces azules de siempre",
-        "caption": "El bloque del mapa está por encima de las webs. En una búsqueda cercana desde el móvil, las tres fichas que aparecen en él reciben el toque antes de que cargue nada más."
+        "alt": "El bloque del mapa está por encima de las webs. En una búsqueda cercana desde el móvil, las tres fichas que aparecen en él reciben el toque antes de que cargue nada más.",
+        "caption": "La pantalla de un móvil con una búsqueda en Google de un fontanero cerca: un mapa con tres negocios marcados, luego tres tarjetas con valoración en estrellas, número de reseñas, horario y botón de llamar, y solo debajo los enlaces azules de siempre"
       },
       {
         "type": "p",
@@ -1295,8 +1295,8 @@
       {
         "type": "figure",
         "src": "/blog/gbp-checklist.svg",
-        "alt": "Una lista de comprobación de los campos del Perfil de Empresa de Google agrupados en tres columnas: hacer una vez (categoría, nombre, servicios, descripción, atributos), mantener al día (horario, teléfono, web, fotos) y mantener en marcha (reseñas, respuestas, publicaciones, preguntas)",
-        "caption": "Tres tipos de campo: los que haces una vez, los que mantienes al día y los que solo funcionan si siguen fluyendo."
+        "alt": "Tres tipos de campo: los que haces una vez, los que mantienes al día y los que solo funcionan si siguen fluyendo.",
+        "caption": "Una lista de comprobación de los campos del Perfil de Empresa de Google agrupados en tres columnas: hacer una vez (categoría, nombre, servicios, descripción, atributos), mantener al día (horario, teléfono, web, fotos) y mantener en marcha (reseñas, respuestas, publicaciones, preguntas)"
       },
       {
         "type": "h2",
@@ -1420,6 +1420,353 @@
       {
         "type": "p",
         "text": "Solo si incumple las políticas de Google, por ejemplo spam, una reseña de otro negocio o contenido fuera de lugar o abusivo. Puedes marcarla desde el panel y Google decide. Una reseña negativa honesta de un cliente real se queda; la mejor respuesta es una contestación pública, tranquila y concreta, que los futuros clientes leen con más atención que la propia reseña."
+      }
+    ]
+  },
+  {
+    "slug": "what-a-website-costs",
+    "category": "Websites",
+    "categoryIcon": "globe",
+    "title": "¿Cuánto cuesta realmente una web para un pequeño negocio?",
+    "description": "El precio de una web depende de lo que tenga que hacer, no solo de quién la construya. Esto es lo que mueve la cifra de verdad, y cómo calcular la tuya.",
+    "dek": "La respuesta honesta no es una sola cifra. Es un puñado de decisiones que suman de forma distinta para cada negocio, y una forma sencilla de calcular dónde cae la tuya.",
+    "keyword": "how much does a small business website cost",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-09-10",
+    "ogImage": "what-a-website-costs.jpg",
+    "readMinutes": 6,
+    "takeaways": [
+      "El precio de una web lo marca sobre todo lo que tiene que hacer, reservas, pagos, un segundo idioma, no quién la construye.",
+      "El coste continuo, alojamiento, seguridad, actualizaciones y copias de seguridad, no es opcional y suele pesar más a tres años vista que el precio de construirla.",
+      "Una web más barata no es automáticamente la opción más barata: calcula cuánto te cuesta una consulta perdida antes de comparar precios.",
+      "Decide el número de páginas, las funciones y el idioma antes de pedir presupuesto, y la pregunta pasa de imposible a concreta.",
+      "Kodable pone precio a las webs con IVA incluido y sin letra pequeña, con un plan de cuidado mensual que junta alojamiento, seguridad y actualizaciones en una sola línea."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Pide un precio claro para tu web"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Una web para un pequeño negocio cuesta desde unos pocos cientos hasta varios miles de euros al año, y el motivo honesto es que \"una web\" no es un solo producto. Una página construida con una herramienta por suscripción y una web a medida con reservas, pagos y un segundo idioma son las dos webs, y no son la misma compra."
+      },
+      {
+        "type": "h2",
+        "text": "¿Por qué no hay una sola respuesta?"
+      },
+      {
+        "type": "p",
+        "text": "Pregunta a cinco empresas cuánto cuesta una web y te darán cinco cifras distintas, porque en realidad estás haciendo cinco preguntas distintas. Una herramienta de autoservicio te alquila una plantilla y el alojamiento por una cuota mensual. Un freelance construye algo más cercano a lo que necesitas de verdad, por un precio único. Una agencia hace lo mismo con un equipo más grande y una factura mayor. Ninguna de estas cifras está mal. Son respuestas a preguntas distintas con el mismo titular."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Cuántas páginas, y qué tiene que hacer cada una.** Una sola página que diga quién eres y cómo reservar cuesta mucho menos que una web con servicios, ubicaciones, el equipo y una tienda.",
+          "**Plantilla o diseño a medida.** Una plantilla te pone en marcha rápido y barato. Un diseño a medida, con tu negocio y tus fotos, suele costar más al empezar.",
+          "**Reservas, pedidos o pagos integrados.** En el momento en que la web tiene que hablar con un calendario, una cocina o una pasarela de pago, deja de ser un folleto y pasa a ser software.",
+          "**Quién escribe los textos y hace las fotos.** Tus propias fotos y unos textos escritos para tu negocio se leen mejor, y cuestan más, que imágenes de banco y un texto de relleno que nadie sustituyó.",
+          "**Un segundo idioma.** Atender a clientes en más de un idioma dobla aproximadamente la redacción, y necesita una traducción de verdad, no un plugin.",
+          "**El cuidado continuo.** Alojamiento, actualizaciones de seguridad y copias de seguridad no son opcionales, sea quien sea quien construya la web. Lo único que eliges es si lo pagas de forma clara, o lo descubres por las malas."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Qué mueve la cifra de verdad"
+      },
+      {
+        "type": "p",
+        "text": "Los dos factores que casi todos los dueños subestiman son qué tiene que **hacer** la web, y quién escribe las **palabras**. Una web de cinco páginas que solo explica el negocio es un trabajo pequeño y rápido. Las mismas cinco páginas con un calendario de reservas o un formulario que calcula un presupuesto para el cliente son otra escala de trabajo, porque ahora algo tiene que seguir funcionando después del lanzamiento. El diseño mueve la cifra menos de lo que la gente cree, y el contenido la mueve más: una [web para pequeños negocios](~/services/websites) limpia y bien organizada, escrita como es debido, se lee y posiciona mejor que una elaborada llena de párrafos genéricos que nadie escribió para ese negocio."
+      },
+      {
+        "type": "h2",
+        "text": "¿Qué presupuesto reservar más allá de la construcción?"
+      },
+      {
+        "type": "p",
+        "text": "El precio de construcción es la cifra que todo el mundo pregunta, y el coste continuo es el que decide lo que pagas a tres años vista: un sitio donde vivir (alojamiento), un certificado que mantiene el candado en el navegador (seguridad), una forma de arreglarla cuando algo se rompe (mantenimiento), y alguien que se dé cuenta si se cae. Nada de eso es una compra única."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Alojamiento y dominio.** Un sitio donde vivir y una dirección donde encontrarte. Ambos se renuevan cada año, cambie la web o no.",
+          "**Seguridad y actualizaciones.** El software que hace funcionar una web necesita parches. Descuídalo el tiempo suficiente y el riesgo no es una web lenta, es una web hackeada.",
+          "**Copias de seguridad.** La partida que nadie echa de menos hasta la semana en que la necesita.",
+          "**Cambios pequeños.** Cambia un horario, cambia un precio, se lanza un servicio nuevo. Una web que nadie puede actualizar sin llamar a alguien es una web que dejarás de actualizar."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Kodable junta esas cuatro cosas en un [plan de cuidado](~/pricing) mensual, así que lo que pagas tras el lanzamiento es una línea previsible, no sorpresas sueltas en meses distintos."
+      },
+      {
+        "type": "h2",
+        "text": "¿Es de verdad más barata una web barata?"
+      },
+      {
+        "type": "p",
+        "text": "No siempre. Una web barata que carga lento, no tiene forma de reservar, o que nadie mantiene actualizada, no solo se ve peor, aleja en silencio a los clientes que te encontraron. La comparación que importa no es precio de construcción contra precio de construcción. Es precio de construcción contra lo que de verdad vale un cliente perdido."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Anota cuánto vale un cliente",
+            "body": "No la venta media, la cifra real: lo que ganas con una reserva, un trabajo o un pedido, después de costes."
+          },
+          {
+            "title": "Calcula cuántas consultas debería traerte la web",
+            "body": "Mira las consultas, llamadas o reservas actuales de la web o de la ficha que apunta a ella. Basta con una cifra mensual aproximada."
+          },
+          {
+            "title": "Pregúntate qué te cuesta una web lenta o rota",
+            "body": "Un formulario que no funciona o un enlace de reserva que no lleva a ningún sitio convierte a un cliente que te encontró en un cliente perdido. Con un puñado de casos al mes ya suma mucho frente a un coste fijo mensual de construcción."
+          },
+          {
+            "title": "Compara esa cifra con la construcción y el plan de cuidado juntos",
+            "body": "Una vez sabes lo que vale un cliente, la comparación honesta es directa: si la web se paga sola con los clientes que deja de perder. Esa respuesta cambia rápido en cuanto las reservas pasan por la web en vez de por un teléfono que nadie coge; mira cómo encaja esto en [las automatizaciones que más tiempo ahorran](~/blog/automations-for-small-business)."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Una forma sencilla de poner precio a tu web"
+      },
+      {
+        "type": "p",
+        "text": "Antes de pedir presupuesto a nadie, decide estas cinco cosas. Convierte \"cuánto cuesta una web\" de una pregunta imposible en una pregunta concreta que alguien puede responder de verdad."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Cuántas páginas, más o menos.** Cinco bastan para la mayoría de negocios pequeños: inicio, servicios, sobre nosotros, una o dos ubicaciones, contacto.",
+          "**Si lleva reservas, pedidos o pagos.** Es el factor que más mueve el precio, y lo que la web hace de verdad por ti.",
+          "**Si necesitas más de un idioma.** Decídelo antes de empezar la construcción. Añadirlo después obliga a rehacer la estructura, no solo los textos.",
+          "**Quién escribe los textos.** Tus propios textos, o textos escritos para ti. Saber cuál antes de pedir presupuesto evita que el precio se mueva después.",
+          "**Cómo se ve \"terminada\" dentro de un año.** Rápida, segura y fácil de actualizar. Pregunta a cualquier empresa que valores cuánto cuesta eso antes de firmar nada."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "¿No sabes qué nivel necesita tu negocio?",
+        "body": "Cuéntanos cuántas páginas necesitas y si llevas reservas, y te diremos con honestidad qué nivel te encaja y cuánto cuesta, con IVA incluido y sin letra pequeña.",
+        "button": "Pide un precio claro"
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿Es suficiente un creador de webs gratuito para un pequeño negocio?"
+      },
+      {
+        "type": "p",
+        "text": "Para un negocio muy joven sin presupuesto todavía, un creador gratuito o casi gratuito pone algo en marcha, y eso ya es mejor que no tener nada. Los inconvenientes aparecen al crecer: diseño limitado, una suscripción que no termina nunca, y un código de plantilla que se queda corto en cuanto necesitas reservas o un segundo idioma. Casi todos los dueños lo superan en uno o dos años y acaban rehaciendo la web."
+      },
+      {
+        "type": "h3",
+        "text": "¿Se paga una web una sola vez, o cada mes?"
+      },
+      {
+        "type": "p",
+        "text": "Normalmente las dos cosas, y cualquier empresa que te diga lo contrario te está ocultando una de ellas. Suele haber un coste de construcción, único o en plazos, y luego un coste continuo más pequeño de alojamiento, seguridad y actualizaciones, ya lo facture quien te construyó la web o varias empresas distintas que ahora tienes que gestionar tú."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuál es el coste oculto más grande de un proyecto de web?"
+      },
+      {
+        "type": "p",
+        "text": "El contenido. Alguien tiene que escribir lo que hace el negocio, con sus propias palabras, para cada página, y ese trabajo o se define y se paga desde el principio, o se convierte en el motivo por el que el proyecto se para semanas esperando un párrafo que no llega. Pregunta quién va a escribir los textos antes de preguntar cuánto cuesta la web."
+      },
+      {
+        "type": "h3",
+        "text": "¿Posiciona mejor en Google una web más cara?"
+      },
+      {
+        "type": "p",
+        "text": "No, no directamente. El precio compra tiempo, diseño y funciones, no posicionamiento. Lo que posiciona es una web rápida, con una estructura clara y contenido que responde de verdad a lo que busca un cliente. Mira [qué hace que un pequeño negocio se encuentre de verdad ahora](~/blog/get-found-in-ai-search) para saber qué mueve esa cifra."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto debería tardar en construirse la web de un pequeño negocio?"
+      },
+      {
+        "type": "p",
+        "text": "Una web sencilla, de cinco a ocho páginas, un idioma, sin reservas a medida, suele ser cosa de semanas una vez el contenido está listo, no de meses. El contenido casi siempre es la parte lenta, no la construcción; decidir tu [enfoque sobre IA y la web juntos](~/blog/ai-strategy-for-small-business) antes de empezar suele acortar las dos cosas."
+      }
+    ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "La Herramienta de Inventario que una Tienda Pequeña Necesita",
+    "description": "Una tienda pequeña necesita una herramienta de inventario pensada para una caja y un almacén, no para un centro logístico. Esto es lo que buscar y cómo empezar.",
+    "dek": "Las hojas de cálculo genéricas y el software de almacén no encajan con una tienda de un solo local y unos pocos miles de referencias; esto es lo que sí encaja.",
+    "keyword": "inventory tool for small shops",
+    "author": "El equipo de Kodable",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Una tienda necesita una herramienta de inventario que controle el stock por estantería y almacén, no una pensada para un almacén con diez sedes.",
+      "El stock fantasma, la diferencia entre lo que dice el sistema y lo que hay realmente en la estantería, suele deberse a devoluciones sin escanear, envíos incompletos o un expositor que nunca se vinculó al recuento.",
+      "Escanear cada entrega antes de que llegue a la estantería elimina la mayor parte del stock fantasma sin ningún otro cambio.",
+      "Una hoja de cálculo funciona para un almacén pequeño y de movimiento lento; en cuanto las entregas son semanales y un producto estrella se agota una y otra vez, la hora semanal de cuadrar los números suele costar más que una herramienta hecha a medida.",
+      "Empieza por la quinta parte de los productos que generan la mayoría de las ventas, en lugar de contar toda la tienda el primer día."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Cuéntanos qué necesita controlar tu tienda"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "La herramienta de inventario adecuada para una tienda pequeña no es la misma que usa un centro logístico. Debe controlar el stock por estantería y por almacén, avisarte antes de que se agote un producto estrella, y tardar menos en actualizarse que una hoja de recuento en papel. Una tienda con una caja, un almacén y unos pocos miles de referencias necesita algo pensado para eso, no una hoja de cálculo llevada al límite ni un software empresarial pensado para diez almacenes."
+      },
+      {
+        "type": "h2",
+        "text": "Dónde Se Pierde Realmente el Stock de una Tienda"
+      },
+      {
+        "type": "p",
+        "text": "La mayoría de las tiendas no pierden stock por robos, en primer lugar. Lo pierden por la diferencia entre lo que dice la estantería y lo que hay realmente detrás del mostrador. Llega un pedido un martes por la mañana: doce cajas, tres proveedores, una factura cada uno. Alguien desempaqueta la mitad antes de abrir, pone precio al resto a la hora de comer, y para el viernes nadie recuerda exactamente qué fue a parar dónde. El punto de venta sabe lo que se ha vendido. No tiene ni idea de lo que hay en el almacén, todavía en su caja."
+      },
+      {
+        "type": "p",
+        "text": "Esa diferencia crece cada semana que no se mide. Una tienda de regalos vuelve a pedir una línea de velas que sigue en una caja con la fecha del mes pasado. Una ferretería le dice a un cliente que tiene una pieza porque la etiqueta de la estantería lo dice, y luego pasa diez minutos demostrando que no es así. Ninguno de los dos dueños hizo nada descuidado; simplemente nunca tuvieron un sistema que conectara la estantería, el almacén y la caja en un solo sitio."
+      },
+      {
+        "type": "h2",
+        "text": "¿Por Qué la Estantería Dice Que Hay Stock Cuando el Almacén Está Vacío?"
+      },
+      {
+        "type": "p",
+        "text": "Esto es lo que en el comercio llaman stock fantasma: el recuento en papel o en el sistema no coincide con lo que hay físicamente en la estantería. Ocurre por el mismo puñado de razones en casi todas las tiendas. Una devolución vuelve a la estantería sin escanearse. Un proveedor envía menos unidades de las pedidas y nadie ajusta el recuento. Un empleado vende la última unidad de un expositor y el recuento del almacén no se mueve porque el expositor nunca estuvo vinculado a él."
+      },
+      {
+        "type": "callout",
+        "title": "El coste real del stock fantasma",
+        "body": "No es solo el viaje perdido al almacén. Es el cliente que quería la talla, el color o la pieza que prometía la estantería y se fue sin ella, y es el nuevo pedido que duplica stock que ya está en algún rincón de la tienda."
+      },
+      {
+        "type": "p",
+        "text": "Una [herramienta a medida](~/services/custom-tools) soluciona esto vinculando un código de barras a una ubicación en la estantería y a una línea de caja, de modo que una venta, una devolución o una entrega actualizan el mismo número en todas partes a la vez. Esa es la diferencia entre una herramienta pensada para una tienda y una hoja de cálculo que alguien actualiza cuando se acuerda."
+      },
+      {
+        "type": "h2",
+        "text": "Lo Que Debe Hacer una Herramienta de Inventario de Verdad"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Escanea un código de barras desde un móvil, en el mostrador o en el almacén, sin comprar ni cargar un lector aparte",
+          "Avisa antes de que se agote un producto estrella, no después de que un cliente ya lo haya pedido",
+          "Separa el stock por ubicación (estantería, almacén, segunda caja) para que el recuento signifique algo concreto",
+          "Sigue funcionando en un sábado de mucho movimiento sin necesitar un portátil abierto junto a la caja",
+          "Convierte un aviso de stock bajo en un pedido al proveedor real, no en una nota en un pósit"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nada de esto necesita ser un software complicado. Necesita encajar con cómo funciona la tienda de verdad: un dueño, uno o dos empleados, un ritmo de entregas y un sábado de mucho ajetreo que un sistema genérico de almacén nunca se pensó para gestionar. Elegir el correcto pasa por el mismo filtro de tres preguntas que cualquier decisión tecnológica de un pequeño negocio: qué ahorra de verdad, qué cuesta mantenerlo y qué falla si sale mal, algo que tratamos en nuestra [guía para elegir prioridades de IA y software](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "¿Hoja de Cálculo, App Genérica o Algo Hecho para tu Tienda?"
+      },
+      {
+        "type": "p",
+        "text": "Una hoja de cálculo es gratis, y es donde empiezan la mayoría de las tiendas, lo cual está bien para un almacén de unas pocas docenas de artículos contados una vez al mes. Pasadas unas pocas centenas de referencias y con entregas diarias, deja de ser gratis: le cuesta al dueño una hora a la semana cuadrando números que un escaneo de código de barras habría mantenido exactos de forma automática. Una app de inventario genérica cierra parte de esa brecha, pero suele dar por hecho un almacén y accesos de personal que una tienda de un solo local nunca va a usar, con un precio pensado para una escala que nunca alcanza."
+      },
+      {
+        "type": "p",
+        "text": "Una herramienta [hecha para tu tienda](~/services/custom-tools) se sitúa entre las dos: solo las pantallas que la tienda necesita, ligada a cómo esa tienda recibe realmente el género y cobra una venta. Los precios de partida y qué los determina (lectores de código de barras, integraciones con proveedores, un segundo local) están en [nuestra página de precios](~/pricing), confirmados como es debido en una consulta gratuita en lugar de adivinados aquí. La misma lógica se aplica a [lo que cuesta realmente una web para un pequeño negocio](~/blog/what-a-website-costs): el precio de partida importa menos que lo que ahorra la herramienta frente a lo que sustituye."
+      },
+      {
+        "type": "h2",
+        "text": "Cómo Empezar Sin Parar la Tienda una Semana"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Cuenta primero lo que de verdad importa",
+            "body": "No intentes contar cada referencia el primer día. La mayoría de las tiendas descubren que una quinta parte de sus productos generan la mayoría de sus ventas; empieza el nuevo sistema con esos, en papel si hace falta, antes de tocar ningún software."
+          },
+          {
+            "title": "Ponle nombre a cada ubicación",
+            "body": "Estantería A, fila 3 del almacén, escaparate: como los llame realmente la tienda. Una herramienta es tan precisa como los nombres de ubicación que alguien vaya a usar de verdad cada día."
+          },
+          {
+            "title": "Escanea las entregas antes de colocarlas en la estantería",
+            "body": "El único hábito que corrige el stock fantasma más rápido: nada sale a la venta hasta que se ha escaneado en el sistema, aunque el precio se ponga más tarde ese mismo día."
+          },
+          {
+            "title": "Automatiza el punto de pedido solo para los más vendidos",
+            "body": "Configura un aviso de stock bajo para el puñado de productos cuya falta realmente perjudicaría. Todo lo demás puede seguir siendo una comprobación manual mensual por ahora."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Una tienda que sigue ese orden suele tener el hábito instaurado en un par de semanas, mucho antes de que la herramienta esté terminada del todo. Compáralo con un [flujo automático de reposición](~/blog/automations-for-small-business): el hábito anterior es lo que hace que esa automatización sea de fiar en lugar de una máquina de falsas alarmas."
+      },
+      {
+        "type": "h2",
+        "text": "Preguntas Frecuentes"
+      },
+      {
+        "type": "h3",
+        "text": "¿Necesita de verdad una tienda pequeña un software de inventario, o basta con una hoja de cálculo?"
+      },
+      {
+        "type": "p",
+        "text": "Una hoja de cálculo basta para un almacén pequeño y de movimiento lento, contado a mano una vez al mes. En cuanto las entregas llegan cada semana, el personal crece más allá de una persona, o un producto estrella se agota sin previo aviso, la hora semanal dedicada a cuadrar la hoja suele costar más que una herramienta pensada para ello."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto cuesta una herramienta de inventario a medida para una tienda pequeña?"
+      },
+      {
+        "type": "p",
+        "text": "Depende sobre todo de los locales, los accesos del personal y las integraciones con proveedores, por eso lo presupuestamos tras una conversación breve en lugar de adivinarlo aquí. Los precios de partida actuales están en [nuestra página de precios](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "¿Puede una herramienta de inventario funcionar con una sola caja y sin un sistema de almacén aparte?"
+      },
+      {
+        "type": "p",
+        "text": "Sí. Una tienda de un solo local es el caso más sencillo: un código de barras, una ubicación en la estantería, una caja. La complejidad que añade la mayoría del software de inventario es para varios locales o almacenes, algo que una tienda con una sola caja puede saltarse por completo."
+      },
+      {
+        "type": "h3",
+        "text": "¿Cuánto se tarda en poner en marcha una herramienta de inventario para una tienda pequeña?"
+      },
+      {
+        "type": "p",
+        "text": "La mayor parte del retraso no es el software, es contar el stock existente. Una tienda que empieza por su quinta parte de productos más vendidos, como se explicaba antes, suele tener lo esencial funcionando en un par de semanas, en lugar de esperar a hacer un recuento completo primero."
+      },
+      {
+        "type": "h3",
+        "text": "¿Qué es el stock fantasma y cómo lo evito?"
+      },
+      {
+        "type": "p",
+        "text": "El stock fantasma ocurre cuando el sistema dice que un artículo está disponible pero en realidad no está en la estantería, normalmente por una devolución sin escanear, una entrega incompleta o una venta que nunca actualizó el recuento. Escanear cada entrega antes de que llegue a la estantería elimina la mayor parte por sí solo."
       }
     ]
   }

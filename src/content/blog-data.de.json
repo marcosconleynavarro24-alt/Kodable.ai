@@ -29,8 +29,8 @@
       {
         "type": "figure",
         "src": "/blog/eu-nextgen-emblem.svg",
-        "alt": "Offizielles Emblem: Finanziert von der Europäischen Union, NextGenerationEU",
-        "caption": "Kit Digital wird aus den NextGenerationEU-Mitteln der Europäischen Union finanziert."
+        "alt": "Kit Digital wird aus den NextGenerationEU-Mitteln der Europäischen Union finanziert.",
+        "caption": "Offizielles Emblem: Finanziert von der Europäischen Union, NextGenerationEU"
       },
       {
         "type": "p",
@@ -59,8 +59,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-importes.svg",
-        "alt": "Diagramm der Kit Digital-Gutscheinbeträge nach Unternehmenssegment, von €3,000 bis €29,000",
-        "caption": "Maximaler Gutschein nach Mitarbeiterzahl, von Segment III (autónomos) bis Segment V (bis zu 250 Beschäftigte)."
+        "alt": "Maximaler Gutschein nach Mitarbeiterzahl, von Segment III (autónomos) bis Segment V (bis zu 250 Beschäftigte).",
+        "caption": "Diagramm der Kit Digital-Gutscheinbeträge nach Unternehmenssegment, von €3,000 bis €29,000"
       },
       {
         "type": "list",
@@ -112,8 +112,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-pasos.svg",
-        "alt": "Die vier Schritte zur Beantragung von Kit Digital: Registrierung, Selbsteinschätzung, Antrag, Digitalisierer",
-        "caption": "Der Prozess von Anfang bis Ende: Registrierung, Selbsteinschätzung, Antrag und Auswahl Ihres Digitalisierers."
+        "alt": "Der Prozess von Anfang bis Ende: Registrierung, Selbsteinschätzung, Antrag und Auswahl Ihres Digitalisierers.",
+        "caption": "Die vier Schritte zur Beantragung von Kit Digital: Registrierung, Selbsteinschätzung, Antrag, Digitalisierer"
       },
       {
         "type": "steps",
@@ -147,8 +147,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-soluciones.svg",
-        "alt": "Kategorien digitaler Lösungen, die von Kit Digital gefördert werden, einschließlich Website, E-Commerce, CRM, Cybersicherheit und KI",
-        "caption": "Einige der förderfähigen Lösungen aus dem offiziellen Katalog."
+        "alt": "Einige der förderfähigen Lösungen aus dem offiziellen Katalog.",
+        "caption": "Kategorien digitaler Lösungen, die von Kit Digital gefördert werden, einschließlich Website, E-Commerce, CRM, Cybersicherheit und KI"
       },
       {
         "type": "list",
@@ -289,8 +289,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-serp.svg",
-        "alt": "Eine Google-Ergebnisseite 2026: eine von KI geschriebene Antwort steht oben, über der gewohnten Liste von Website-Links",
-        "caption": "Die Ergebnisseite 2026: Google schreibt oben eine Antwort, und die gewohnte Liste von Links beginnt weiter unten."
+        "alt": "Die Ergebnisseite 2026: Google schreibt oben eine Antwort, und die gewohnte Liste von Links beginnt weiter unten.",
+        "caption": "Eine Google-Ergebnisseite 2026: eine von KI geschriebene Antwort steht oben, über der gewohnten Liste von Website-Links"
       },
       {
         "type": "p",
@@ -350,8 +350,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-signals.svg",
-        "alt": "Vier Signale, die ein Unternehmen in eine KI-Antwort bringen: klare Antworten, Bewertungen und Erwähnungen, strukturierte Daten und eine starke lokale Präsenz",
-        "caption": "Was ein Unternehmen in die Antwort bringt: klare Antworten auf echte Fragen, Bewertungen und Erwähnungen, eine maschinenlesbare Seite und eine starke lokale Präsenz."
+        "alt": "Was ein Unternehmen in die Antwort bringt: klare Antworten auf echte Fragen, Bewertungen und Erwähnungen, eine maschinenlesbare Seite und eine starke lokale Präsenz.",
+        "caption": "Vier Signale, die ein Unternehmen in eine KI-Antwort bringen: klare Antworten, Bewertungen und Erwähnungen, strukturierte Daten und eine starke lokale Präsenz"
       },
       {
         "type": "h2",
@@ -487,8 +487,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-agent-day.svg",
-        "alt": "Zeitleiste eines Tages in einem kleinen Unternehmen: Anfragen kommen zu jeder Uhrzeit, und ein KI-Agent beantwortet jede in Sekunden, bucht Termine und reicht die schwierigen an den Inhaber weiter",
-        "caption": "Ein ganz normaler Tag: Anfragen halten sich nicht an Öffnungszeiten. Ein Agent beantwortet jede in Sekunden, bucht, was er kann, und übergibt den Rest an dich."
+        "alt": "Ein ganz normaler Tag: Anfragen halten sich nicht an Öffnungszeiten. Ein Agent beantwortet jede in Sekunden, bucht, was er kann, und übergibt den Rest an dich.",
+        "caption": "Zeitleiste eines Tages in einem kleinen Unternehmen: Anfragen kommen zu jeder Uhrzeit, und ein KI-Agent beantwortet jede in Sekunden, bucht Termine und reicht die schwierigen an den Inhaber weiter"
       },
       {
         "type": "p",
@@ -658,8 +658,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-handoffs.svg",
-        "alt": "Zwei Versionen derselben Anfrage: links läuft sie durch ein Postfach, eine Notiz-App und ein Telefon, bevor jemand antwortet; rechts antwortet eine Automatisierung, erfasst die Angaben und bucht den Termin in Sekunden",
-        "caption": "Dieselbe Anfrage, zweimal. Links wartet sie, bis ein Mensch Zeit hat. Rechts passiert der Routineteil sofort, und der Mensch bekommt, was übrig bleibt."
+        "alt": "Dieselbe Anfrage, zweimal. Links wartet sie, bis ein Mensch Zeit hat. Rechts passiert der Routineteil sofort, und der Mensch bekommt, was übrig bleibt.",
+        "caption": "Zwei Versionen derselben Anfrage: links läuft sie durch ein Postfach, eine Notiz-App und ein Telefon, bevor jemand antwortet; rechts antwortet eine Automatisierung, erfasst die Angaben und bucht den Termin in Sekunden"
       },
       {
         "type": "p",
@@ -773,8 +773,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-priority.svg",
-        "alt": "Ein Raster, das aufträgt, wie oft sich eine Aufgabe wiederholt und wie nah sie am Umsatz liegt; Sofortantworten, Erinnerungen und das Nachfassen bei Angeboten landen in der Ecke mit der höchsten Priorität",
-        "caption": "Zwei Achsen genügen: wie oft es sich wiederholt und wie nah es am Geld sitzt. Die Ecke oben rechts ist deine erste Automatisierung."
+        "alt": "Zwei Achsen genügen: wie oft es sich wiederholt und wie nah es am Geld sitzt. Die Ecke oben rechts ist deine erste Automatisierung.",
+        "caption": "Ein Raster, das aufträgt, wie oft sich eine Aufgabe wiederholt und wie nah sie am Umsatz liegt; Sofortantworten, Erinnerungen und das Nachfassen bei Angeboten landen in der Ecke mit der höchsten Priorität"
       },
       {
         "type": "h2",
@@ -910,8 +910,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-map.jpg",
-        "alt": "Ein isometrisches Raster aus blassgrauen Blöcken, das die gesamte Arbeit eines kleinen Betriebs darstellt, mit einer Handvoll marineblau hervorgehobener und durch Pfeile verbundener Blöcke für die wenigen Aufgaben, die für KI ausgewählt wurden",
-        "caption": "Eine Strategie ist nicht das ganze Raster. Sie sind die drei Blöcke, die Sie gewählt haben, und die Reihenfolge, in der Sie sie gewählt haben."
+        "alt": "Eine Strategie ist nicht das ganze Raster. Sie sind die drei Blöcke, die Sie gewählt haben, und die Reihenfolge, in der Sie sie gewählt haben.",
+        "caption": "Ein isometrisches Raster aus blassgrauen Blöcken, das die gesamte Arbeit eines kleinen Betriebs darstellt, mit einer Handvoll marineblau hervorgehobener und durch Pfeile verbundener Blöcke für die wenigen Aufgaben, die für KI ausgewählt wurden"
       },
       {
         "type": "p",
@@ -1035,8 +1035,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-90-days.svg",
-        "alt": "Ein Zeitstrahl über neunzig Tage in drei Blöcken zu dreißig Tagen: auswählen und messen, die kleinste Version bauen, dann vergleichen und entscheiden, ob behalten, korrigieren oder verwerfen",
-        "caption": "Neunzig Tage, drei Züge. Das letzte Feld ist das, was die ersten beiden lohnend macht."
+        "alt": "Neunzig Tage, drei Züge. Das letzte Feld ist das, was die ersten beiden lohnend macht.",
+        "caption": "Ein Zeitstrahl über neunzig Tage in drei Blöcken zu dreißig Tagen: auswählen und messen, die kleinste Version bauen, dann vergleichen und entscheiden, ob behalten, korrigieren oder verwerfen"
       },
       {
         "type": "h2",
@@ -1207,14 +1207,14 @@
       {
         "type": "figure",
         "src": "/blog/gbp-hero.jpg",
-        "alt": "Eine isometrische Illustration eines Handys mit einer lokalen Karte mit drei dunkelblauen Pins und drei Eintragskarten mit Sternebewertung, daneben kleine dunkelblaue Würfel mit Ladenfront, Häkchen und Sprechblase",
-        "caption": "Der Eintrag ist das Schaufenster, das die meisten Kunden zuerst sehen. Die Pins, die Sterne und die Antworten sind das, wonach sie ihn beurteilen."
+        "alt": "Der Eintrag ist das Schaufenster, das die meisten Kunden zuerst sehen. Die Pins, die Sterne und die Antworten sind das, wonach sie ihn beurteilen.",
+        "caption": "Eine isometrische Illustration eines Handys mit einer lokalen Karte mit drei dunkelblauen Pins und drei Eintragskarten mit Sternebewertung, daneben kleine dunkelblaue Würfel mit Ladenfront, Häkchen und Sprechblase"
       },
       {
         "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
-        "alt": "Ein Handybildschirm mit einer Google-Suche nach einem Klempner in der Nähe: eine Karte mit drei markierten Betrieben, darunter drei Eintragskarten mit Sternebewertung, Anzahl der Bewertungen, Öffnungszeiten und Anruf-Button, und erst darunter die gewohnten blauen Links",
-        "caption": "Das Kartenpaket sitzt über den Websites. Bei einer Suche in der Nähe auf dem Handy bekommen die drei Einträge darin den Tipp, bevor irgendetwas anderes lädt."
+        "alt": "Das Kartenpaket sitzt über den Websites. Bei einer Suche in der Nähe auf dem Handy bekommen die drei Einträge darin den Tipp, bevor irgendetwas anderes lädt.",
+        "caption": "Ein Handybildschirm mit einer Google-Suche nach einem Klempner in der Nähe: eine Karte mit drei markierten Betrieben, darunter drei Eintragskarten mit Sternebewertung, Anzahl der Bewertungen, Öffnungszeiten und Anruf-Button, und erst darunter die gewohnten blauen Links"
       },
       {
         "type": "p",
@@ -1295,8 +1295,8 @@
       {
         "type": "figure",
         "src": "/blog/gbp-checklist.svg",
-        "alt": "Eine Checkliste der Felder des Google Unternehmensprofils in drei Spalten: einmal erledigen (Kategorie, Name, Leistungen, Beschreibung, Attribute), aktuell halten (Öffnungszeiten, Telefon, Website, Fotos) und am Laufen halten (Bewertungen, Antworten, Beiträge, Fragen)",
-        "caption": "Drei Arten von Feldern: die, die Sie einmal erledigen, die, die Sie aktuell halten, und die, die nur funktionieren, wenn sie in Bewegung bleiben."
+        "alt": "Drei Arten von Feldern: die, die Sie einmal erledigen, die, die Sie aktuell halten, und die, die nur funktionieren, wenn sie in Bewegung bleiben.",
+        "caption": "Eine Checkliste der Felder des Google Unternehmensprofils in drei Spalten: einmal erledigen (Kategorie, Name, Leistungen, Beschreibung, Attribute), aktuell halten (Öffnungszeiten, Telefon, Website, Fotos) und am Laufen halten (Bewertungen, Antworten, Beiträge, Fragen)"
       },
       {
         "type": "h2",
@@ -1420,6 +1420,353 @@
       {
         "type": "p",
         "text": "Nur wenn sie gegen Googles Richtlinien verstößt, zum Beispiel Spam, eine Bewertung des falschen Unternehmens oder themenfremde oder beleidigende Inhalte. Sie können sie im Dashboard melden, und Google entscheidet. Eine ehrliche negative Bewertung eines echten Kunden bleibt; die beste Reaktion ist eine ruhige, konkrete öffentliche Antwort, die künftige Kunden aufmerksamer lesen als die Bewertung selbst."
+      }
+    ]
+  },
+  {
+    "slug": "what-a-website-costs",
+    "category": "Websites",
+    "categoryIcon": "globe",
+    "title": "Was kostet eine Website für ein kleines Unternehmen wirklich?",
+    "description": "Der Preis einer Website hängt davon ab, was sie können muss, nicht nur davon, wer sie baut. Das bewegt die Zahl wirklich, und so berechnen Sie Ihre eigene.",
+    "dek": "Die ehrliche Antwort ist keine einzelne Zahl. Es sind ein paar Entscheidungen, die sich für jedes Unternehmen anders summieren, und ein einfacher Weg, herauszufinden, wo Ihre landet.",
+    "keyword": "how much does a small business website cost",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-09-10",
+    "ogImage": "what-a-website-costs.jpg",
+    "readMinutes": 6,
+    "takeaways": [
+      "Der Preis einer Website hängt vor allem davon ab, was sie können muss, Buchung, Zahlung, eine zweite Sprache, nicht davon, wer sie baut.",
+      "Die laufenden Kosten, Hosting, Sicherheit, Updates und Backups, sind nicht optional und wiegen über drei Jahre gesehen oft schwerer als der Baupreis.",
+      "Eine billigere Website ist nicht automatisch die günstigere Wahl: Rechnen Sie aus, was Sie eine verpasste Anfrage tatsächlich kostet, bevor Sie Preise vergleichen.",
+      "Legen Sie Seitenzahl, Funktionen und Sprache fest, bevor Sie ein Angebot anfragen, dann wird aus einer unmöglichen Frage eine konkrete.",
+      "Kodable bepreist Websites inklusive Mehrwertsteuer und ohne Kleingedrucktes, mit einem monatlichen Pflegeplan, der Hosting, Sicherheit und Updates in einer Zeile bündelt."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Klaren Preis für Ihre Website anfragen"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Eine Website für ein kleines Unternehmen kostet zwischen ein paar Hundert und mehreren Tausend Euro im Jahr, und der ehrliche Grund ist, dass \"eine Website\" kein einzelnes Produkt ist. Eine Seite auf einem Abo-Baukasten und eine maßgeschneiderte Website mit Buchung, Zahlung und einer zweiten Sprache sind beides Websites, und nicht derselbe Kauf."
+      },
+      {
+        "type": "h2",
+        "text": "Warum gibt es keine einzelne Antwort?"
+      },
+      {
+        "type": "p",
+        "text": "Fragen Sie fünf Anbieter, was eine Website kostet, und Sie bekommen fünf verschiedene Zahlen, weil Sie eigentlich fünf verschiedene Fragen stellen. Ein Baukasten vermietet Ihnen eine Vorlage und Hosting für eine monatliche Gebühr. Ein Freelancer baut etwas, das näher an dem ist, was Sie wirklich brauchen, zu einem einmaligen Preis. Eine Agentur macht dasselbe mit einem größeren Team und einer größeren Rechnung. Keine dieser Zahlen ist falsch. Es sind Antworten auf verschiedene Fragen unter derselben Überschrift."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Wie viele Seiten, und was jede leisten muss.** Eine einzelne Seite, die sagt, wer Sie sind und wie man bucht, kostet deutlich weniger als eine Seite mit Leistungen, Standorten, Team und Shop.",
+          "**Vorlage oder maßgeschneidertes Design.** Eine Vorlage bringt Sie schnell und günstig online. Ein Design, das um Ihr Unternehmen und Ihre Fotos herum gebaut wird, kostet zu Beginn meist mehr.",
+          "**Buchung, Bestellung oder Zahlung eingebaut.** Sobald die Website mit einem Kalender, einer Küche oder einem Zahlungsanbieter sprechen muss, ist sie keine Broschüre mehr, sondern Software.",
+          "**Wer die Texte schreibt und die Fotos macht.** Eigene Fotos und Texte, die für Ihr Unternehmen geschrieben wurden, lesen sich besser, und kosten mehr, als Stockbilder und ein Platzhaltertext, den nie jemand ersetzt hat.",
+          "**Eine zweite Sprache.** Kunden in mehr als einer Sprache zu bedienen verdoppelt etwa den Schreibaufwand und braucht eine echte Übersetzung, kein Plugin.",
+          "**Laufende Pflege.** Hosting, Sicherheitsupdates und Backups sind nicht optional, egal wer die Website baut. Die einzige Wahl ist, ob Sie klar dafür bezahlen, oder es auf die harte Tour herausfinden."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Was die Zahl wirklich bewegt"
+      },
+      {
+        "type": "p",
+        "text": "Die zwei Faktoren, die Inhaber meist unterschätzen, sind, was die Website leisten **muss**, und wer die **Texte** schreibt. Eine fünfseitige Website, die nur das Unternehmen erklärt, ist ein kleiner, schneller Auftrag. Dieselben fünf Seiten mit einem Buchungskalender oder einem Formular, das ein Angebot für den Kunden berechnet, sind eine andere Größenordnung Arbeit, weil jetzt etwas nach dem Start weiterlaufen muss. Design bewegt die Zahl weniger, als man denkt, und Inhalt bewegt sie mehr: eine saubere, gut organisierte [Website für kleine Unternehmen](~/services/websites), die richtig geschrieben wurde, liest und rankt besser als eine aufwendige Seite voller generischer Absätze, die niemand für dieses Unternehmen geschrieben hat."
+      },
+      {
+        "type": "h2",
+        "text": "Was sollten Sie über den Bau hinaus einplanen?"
+      },
+      {
+        "type": "p",
+        "text": "Der Baupreis ist die Zahl, nach der alle fragen, und die laufenden Kosten sind es, die entscheiden, was Sie über drei Jahre zahlen: ein Zuhause (Hosting), ein Zertifikat, das das Vorhängeschloss im Browser hält (Sicherheit), ein Weg, es zu reparieren, wenn etwas kaputtgeht (Wartung), und jemand, der bemerkt, wenn es ausfällt. Nichts davon ist ein einmaliger Kauf."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Hosting und Domain.** Ein Zuhause und eine Adresse, unter der man gefunden wird. Beide erneuern sich jedes Jahr, egal ob sich die Website ändert oder nicht.",
+          "**Sicherheit und Updates.** Software, die eine Website betreibt, braucht Patches. Vernachlässigen Sie das lange genug, und das Risiko ist nicht eine langsame Website, sondern eine gehackte.",
+          "**Backups.** Der Posten, den niemand vermisst, bis zu der Woche, in der er ihn braucht.",
+          "**Kleine Änderungen.** Öffnungszeiten ändern sich, ein Preis ändert sich, eine neue Leistung kommt dazu. Eine Website, die niemand aktualisieren kann, ohne jemanden zurückzurufen, ist eine Website, die Sie irgendwann nicht mehr aktualisieren."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Kodable bündelt all das in einem monatlichen [Pflegeplan](~/pricing), sodass das, was Sie nach dem Start zahlen, eine planbare Zeile ist, statt Überraschungen in verschiedenen Monaten."
+      },
+      {
+        "type": "h2",
+        "text": "Ist eine billigere Website wirklich billiger?"
+      },
+      {
+        "type": "p",
+        "text": "Nicht immer. Eine billige Website, die langsam lädt, keine Buchung hat, oder die niemand aktuell hält, sieht nicht nur schlechter aus, sie vertreibt still die Kunden, die Sie gefunden haben. Der Vergleich, der zählt, ist nicht Baupreis gegen Baupreis. Es ist Baupreis gegen das, was ein verpasster Kunde wirklich wert ist."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Schreiben Sie auf, was ein Kunde wert ist",
+            "body": "Nicht der Durchschnittsverkauf, die echte Zahl: was Sie an einer Buchung, einem Auftrag oder einer Bestellung verdienen, nach Kosten."
+          },
+          {
+            "title": "Schätzen Sie, wie viele Anfragen die Website bringen sollte",
+            "body": "Schauen Sie sich aktuelle Anfragen, Anrufe oder Buchungen von der Website oder dem Eintrag, der darauf verweist, an. Eine grobe Monatszahl reicht."
+          },
+          {
+            "title": "Fragen Sie sich, was eine langsame oder defekte Website Sie kostet",
+            "body": "Ein Formular, das nicht funktioniert, oder ein Buchungslink, der ins Leere führt, macht aus einem gefundenen Kunden einen verlorenen. Schon eine Handvoll davon pro Monat summiert sich schnell gegen feste monatliche Baukosten."
+          },
+          {
+            "title": "Vergleichen Sie diese Zahl mit Bau und Pflegeplan zusammen",
+            "body": "Sobald Sie wissen, was ein Kunde wert ist, ist der ehrliche Vergleich einfach: zahlt sich die Website durch die Kunden aus, die sie nicht mehr verliert. Diese Antwort kippt schnell, sobald Buchungen über die Website laufen statt über ein Telefon, das niemand abnimmt; sehen Sie, wie das mit [den Automatisierungen, die am meisten Zeit sparen](~/blog/automations-for-small-business) zusammenhängt."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ein einfacher Weg, Ihre eigene Website zu bepreisen"
+      },
+      {
+        "type": "p",
+        "text": "Bevor Sie irgendjemanden um ein Angebot bitten, legen Sie diese fünf Dinge fest. Das macht aus \"was kostet eine Website\" statt einer unmöglichen Frage eine konkrete, die jemand tatsächlich beantworten kann."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Wie viele Seiten, ungefähr.** Fünf reichen für die meisten kleinen Unternehmen: Start, Leistungen, über uns, ein oder zwei Standorte, Kontakt.",
+          "**Ob Buchungen, Bestellungen oder Zahlungen eingebaut sind.** Das ist der größte Preistreiber, und das, was die Website wirklich für Sie leistet.",
+          "**Ob Sie mehr als eine Sprache brauchen.** Entscheiden Sie das, bevor der Bau beginnt. Es später hinzuzufügen bedeutet, die Struktur neu zu machen, nicht nur die Texte.",
+          "**Wer die Texte schreibt.** Ihre eigenen Texte, oder Texte, die für Sie geschrieben werden. Zu wissen, welches, bevor Sie nach einem Angebot fragen, verhindert, dass sich der Preis später verschiebt.",
+          "**Wie \"fertig\" in einem Jahr aussieht.** Immer noch schnell, sicher und leicht zu aktualisieren. Fragen Sie jedes Unternehmen, das Sie in Betracht ziehen, was das kostet, bevor Sie etwas unterschreiben."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Nicht sicher, welche Stufe zu Ihrem Unternehmen passt?",
+        "body": "Sagen Sie uns, wie viele Seiten Sie brauchen und ob Sie Buchungen annehmen, und wir sagen Ihnen ehrlich, welche Stufe passt und was sie kostet, inklusive Mehrwertsteuer, ohne Kleingedrucktes.",
+        "button": "Klaren Preis anfragen"
+      },
+      {
+        "type": "h2",
+        "text": "Häufig gestellte Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Reicht ein kostenloser Website-Baukasten für ein kleines Unternehmen?"
+      },
+      {
+        "type": "p",
+        "text": "Für ein sehr junges Unternehmen ohne Budget bringt ein kostenloser oder fast kostenloser Baukasten etwas online, und das ist besser als gar nichts online zu haben. Die Nachteile zeigen sich mit dem Wachstum: begrenztes Design, ein Abo, das nie endet, und Vorlagencode, der an seine Grenzen stößt, sobald Sie eine Buchung oder eine zweite Sprache brauchen. Die meisten Inhaber wachsen innerhalb von ein bis zwei Jahren heraus und bauen die Website neu."
+      },
+      {
+        "type": "h3",
+        "text": "Zahle ich eine Website einmal, oder jeden Monat?"
+      },
+      {
+        "type": "p",
+        "text": "Meist beides, und jedes Unternehmen, das Ihnen etwas anderes sagt, verschweigt Ihnen einen Teil davon. Normalerweise gibt es Baukosten, einmalig oder in Raten, und dann laufende, kleinere Kosten für Hosting, Sicherheit und Updates, egal ob das von Ihrem Anbieter abgerechnet wird oder von mehreren Unternehmen, die Sie jetzt selbst verwalten müssen."
+      },
+      {
+        "type": "h3",
+        "text": "Was sind die größten versteckten Kosten bei einem Website-Projekt?"
+      },
+      {
+        "type": "p",
+        "text": "Inhalt. Jemand muss aufschreiben, was das Unternehmen tut, in den eigenen Worten des Unternehmens, für jede Seite, und diese Arbeit wird entweder vorab eingeplant und bezahlt, oder sie wird der Grund, warum das Projekt wochenlang auf einen Absatz wartet, der nie ankommt. Fragen Sie, wer die Texte schreibt, bevor Sie fragen, was die Website kostet."
+      },
+      {
+        "type": "h3",
+        "text": "Rankt eine teurere Website höher bei Google?"
+      },
+      {
+        "type": "p",
+        "text": "Nein, nicht direkt. Preis kauft Zeit, Design und Funktionen, kein Ranking. Was rankt, ist eine schnelle Website, klare Struktur und Inhalt, der wirklich beantwortet, wonach ein Kunde sucht. Sehen Sie [was ein kleines Unternehmen heute wirklich gefunden macht](~/blog/get-found-in-ai-search) für das, was diese Zahl wirklich bewegt."
+      },
+      {
+        "type": "h3",
+        "text": "Wie lange sollte der Bau der Website eines kleinen Unternehmens dauern?"
+      },
+      {
+        "type": "p",
+        "text": "Eine unkomplizierte Website, fünf bis acht Seiten, eine Sprache, ohne maßgeschneiderte Buchung, dauert meist Wochen, sobald der Inhalt fertig ist, nicht Monate. Der Inhalt ist fast immer der langsamere Teil, nicht der Bau; Ihren [Ansatz für KI und die Website zusammen](~/blog/ai-strategy-for-small-business) vor dem Start zu klären verkürzt meist beides."
+      }
+    ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "Das Inventar-Tool, das ein kleiner Laden wirklich braucht",
+    "description": "Ein kleiner Laden braucht ein Inventar-Tool für eine Kasse und ein Lager, nicht für ein Warenlager. Hier erfährst du, worauf es ankommt und wie du anfängst.",
+    "dek": "Fertige Tabellen und Lagersoftware treffen beide nicht den Bedarf eines Ladens mit einem Standort und ein paar tausend Artikeln; hier ist, was wirklich passt.",
+    "keyword": "inventory tool for small shops",
+    "author": "Das Kodable-Team",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Ein Laden braucht ein Inventar-Tool, das Bestand nach Regal und Lager erfasst, nicht eines, das für ein Lager mit zehn Standorten gebaut wurde.",
+      "Phantombestand, die Lücke zwischen dem, was das System sagt, und dem, was tatsächlich im Regal steht, entsteht meist durch nicht gescannte Retouren, unvollständige Lieferungen oder eine Auslage, die nie mit der Zählung verknüpft wurde.",
+      "Jede Lieferung vor dem Einräumen zu scannen beseitigt allein schon den größten Teil des Phantombestands.",
+      "Eine Tabelle funktioniert für ein kleines, langsames Lager; sobald Lieferungen wöchentlich kommen und ein Verkaufsschlager immer wieder ausverkauft ist, kostet die wöchentliche Stunde zum Abgleichen meist mehr als ein Tool, das für genau das gebaut wurde.",
+      "Fang mit dem Fünftel der Produkte an, das die meisten Verkäufe bringt, statt am ersten Tag den ganzen Laden zu zählen."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Sag uns, was dein Laden erfassen muss"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "Das richtige Inventar-Tool für einen kleinen Laden ist nicht dasselbe, das ein Warenlager nutzt. Es sollte Bestand nach Regal und Lager erfassen, dich warnen, bevor ein Verkaufsschlager ausgeht, und schneller zu aktualisieren sein als eine Zählliste auf Papier. Ein Laden mit einer Kasse, einem Lager und ein paar tausend Artikeln braucht etwas, das genau dafür gebaut ist, keine bis an ihre Grenzen gedehnte Tabelle und keine Unternehmenssoftware für zehn Lagerhäuser."
+      },
+      {
+        "type": "h2",
+        "text": "Wo der Bestand eines Ladens wirklich verschwindet"
+      },
+      {
+        "type": "p",
+        "text": "Die meisten Läden verlieren Bestand nicht zuerst durch Diebstahl. Sie verlieren ihn durch die Lücke zwischen dem, was das Regal sagt, und dem, was tatsächlich hinter der Theke liegt. Eine Lieferung kommt an einem Dienstagmorgen: zwölf Kartons, drei Lieferanten, je eine Rechnung. Jemand packt vor Öffnung die Hälfte aus, bepreist den Rest in der Mittagspause, und am Freitag weiß niemand mehr genau, was wohin gegangen ist. Die Kasse weiß, was verkauft wurde. Sie hat keine Ahnung, was im Lager liegt, noch im Karton."
+      },
+      {
+        "type": "p",
+        "text": "Diese Lücke wächst mit jeder Woche, in der sie nicht gemessen wird. Ein Geschenkeladen bestellt eine Kerzenlinie nach, die noch in einem Karton mit dem Datum vom letzten Monat liegt. Ein Baumarkt sagt einem Kunden, ein Teil sei vorrätig, weil das Regaletikett es so sagt, und verbringt dann zehn Minuten damit, das Gegenteil zu beweisen. Keiner der beiden Inhaber hat etwas falsch gemacht; sie hatten schlicht nie ein System, das Regal, Lager und Kasse an einem Ort verbindet."
+      },
+      {
+        "type": "h2",
+        "text": "Warum Zeigt das Regal Bestand, Wenn das Lager Leer Ist?"
+      },
+      {
+        "type": "p",
+        "text": "Das nennt man im Einzelhandel Phantombestand: Die Zählung auf Papier oder im System stimmt nicht mit dem überein, was physisch im Regal liegt. Es passiert in fast jedem Laden aus denselben paar Gründen. Eine Retoure kommt zurück ins Regal, ohne gescannt zu werden. Ein Lieferant liefert weniger als bestellt, und niemand passt die Zählung an. Ein Mitarbeiter verkauft das letzte Stück aus einer Auslage, und der Lagerbestand bewegt sich nie, weil die Auslage von Anfang an nie damit verknüpft war."
+      },
+      {
+        "type": "callout",
+        "title": "Die wahren Kosten von Phantombestand",
+        "body": "Es ist nicht nur der unnötige Weg ins Lager. Es ist der Kunde, der die Größe, Farbe oder das Teil wollte, das das Regal versprochen hat, und ohne es gegangen ist, und es ist die Nachbestellung, die Bestand verdoppelt, der irgendwo im Laden schon liegt."
+      },
+      {
+        "type": "p",
+        "text": "Ein [maßgeschneidertes Tool](~/services/custom-tools) löst das, indem es einen Barcode mit einem Regalplatz und einer Kassenzeile verknüpft, sodass ein Verkauf, eine Retoure oder eine Lieferung überall gleichzeitig dieselbe Zahl aktualisiert. Das ist der Unterschied zwischen einem Tool, das für einen Laden gebaut wurde, und einer Tabelle, die jemand aktualisiert, wenn er daran denkt."
+      },
+      {
+        "type": "h2",
+        "text": "Was ein Echtes Inventar-Tool für einen Laden Leisten Sollte"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scannt einen Barcode vom Handy aus, an der Theke oder im Lager, ohne ein separates Scangerät zu kaufen oder aufzuladen",
+          "Warnt, bevor ein Verkaufsschlager ausgeht, nicht erst, nachdem ein Kunde schon danach gefragt hat",
+          "Trennt Bestand nach Standort (Regal, Lager, zweite Kasse), damit die Zählung etwas Konkretes bedeutet",
+          "Funktioniert auch an einem vollen Samstag weiter, ohne dass an der Kasse ein Laptop aufgeklappt sein muss",
+          "Macht aus einer Niedrigbestand-Warnung eine Nachbestellung beim tatsächlichen Lieferanten, keine Notiz auf einem Klebezettel"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Nichts davon muss komplizierte Software sein. Es muss dazu passen, wie der Laden wirklich läuft: ein Inhaber, ein oder zwei Mitarbeiter, ein Lieferrhythmus und ein Samstagsansturm, für den ein generisches Lagersystem nie gebaut wurde. Das richtige zu wählen folgt demselben Drei-Fragen-Filter wie jede Technologieentscheidung eines Kleinunternehmens: was es wirklich spart, was es im Betrieb kostet und was ausfällt, wenn es versagt, behandelt in unserem [Leitfaden zur Wahl von KI- und Software-Prioritäten](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Fertige Tabelle, App oder Etwas, das um Deinen Laden Herum Gebaut Ist?"
+      },
+      {
+        "type": "p",
+        "text": "Eine Tabelle ist kostenlos, und dort fangen die meisten Läden an, was für ein Lager mit ein paar Dutzend Artikeln, einmal im Monat gezählt, völlig ausreicht. Ab ein paar hundert Artikeln und täglichem Lieferrhythmus hört sie auf, kostenlos zu sein: Sie kostet den Inhaber eine Stunde pro Woche, um Zahlen abzugleichen, die ein Barcode-Scan automatisch genau gehalten hätte. Eine generische Inventar-App schließt einen Teil dieser Lücke, geht aber meist von einem Lager und Mitarbeiterzugängen aus, die ein Laden mit einem Standort nie brauchen wird, zu einem Preis für eine Größenordnung, die er nie erreicht."
+      },
+      {
+        "type": "p",
+        "text": "Ein Tool, das [um den Laden herum gebaut ist](~/services/custom-tools), liegt zwischen beidem: nur die Ansichten, die der Laden braucht, abgestimmt darauf, wie er tatsächlich Ware annimmt und einen Verkauf abrechnet. Startpreise und was sie beeinflusst (Scanner-Hardware, Lieferanten-Integrationen, ein zweiter Standort) stehen auf [unserer Preisseite](~/pricing), richtig bestätigt in einem kostenlosen Gespräch statt hier geraten. Dieselbe Logik gilt für [was eine Website für ein Kleinunternehmen wirklich kostet](~/blog/what-a-website-costs): Der Preisaufkleber zählt weniger als das, was das Tool gegenüber dem einspart, was es ersetzt."
+      },
+      {
+        "type": "h2",
+        "text": "Wie du Anfängst, ohne den Laden Eine Woche Lang Stillzulegen"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Zähl zuerst, was wirklich zählt",
+            "body": "Versuch nicht, am ersten Tag jeden Artikel zu zählen. Die meisten Läden stellen fest, dass ein Fünftel ihrer Produkte den Großteil ihrer Verkäufe ausmacht; fang das neue System mit denen an, notfalls auf Papier, bevor du Software anfasst."
+          },
+          {
+            "title": "Gib jedem Standort einen Namen",
+            "body": "Regal A, Lagerreihe 3, Schaufenster: wie auch immer der Laden sie tatsächlich nennt. Ein Tool ist nur so genau wie die Standortnamen, die jemand tatsächlich jeden Tag benutzt."
+          },
+          {
+            "title": "Lieferungen scannen, bevor sie ins Regal kommen",
+            "body": "Die eine Gewohnheit, die Phantombestand am schnellsten behebt: Nichts kommt in die Auslage, bevor es im System gescannt wurde, auch wenn die Preisauszeichnung erst später am Tag erfolgt."
+          },
+          {
+            "title": "Nur für die Topseller den Meldebestand automatisieren",
+            "body": "Richte eine Niedrigbestand-Warnung für die Handvoll Produkte ein, deren Fehlen wirklich wehtun würde. Alles andere kann vorerst eine monatliche manuelle Kontrolle bleiben."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Ein Laden, der diese Reihenfolge befolgt, hat die Gewohnheit meist innerhalb weniger Wochen etabliert, lange bevor das Tool vollständig fertig gebaut ist. Vergleiche das mit einem [automatisierten Nachbestell-Workflow](~/blog/automations-for-small-business): Die obige Gewohnheit ist es, die diese Automatisierung vertrauenswürdig macht statt zu einer Fehlalarm-Maschine."
+      },
+      {
+        "type": "h2",
+        "text": "Häufig Gestellte Fragen"
+      },
+      {
+        "type": "h3",
+        "text": "Braucht ein kleiner Laden wirklich Inventarsoftware, oder reicht eine Tabelle?"
+      },
+      {
+        "type": "p",
+        "text": "Eine Tabelle reicht für ein kleines, langsames Lager, einmal im Monat von Hand gezählt. Sobald Lieferungen wöchentlich eintreffen, das Personal über eine Person hinauswächst oder ein Verkaufsschlager unangekündigt immer wieder ausverkauft ist, kostet die wöchentliche Stunde zum Abgleichen meist mehr als ein Tool, das genau dafür gebaut wurde."
+      },
+      {
+        "type": "h3",
+        "text": "Was kostet ein maßgeschneidertes Inventar-Tool für einen kleinen Laden?"
+      },
+      {
+        "type": "p",
+        "text": "Das hängt vor allem von Standorten, Mitarbeiterzugängen und Lieferanten-Integrationen ab, weshalb wir es nach einem kurzen Gespräch anbieten, statt hier zu raten. Aktuelle Startpreise stehen auf [unserer Preisseite](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Kann ein Inventar-Tool mit nur einer Kasse und ohne separates Lagersystem funktionieren?"
+      },
+      {
+        "type": "p",
+        "text": "Ja. Ein Laden mit einem Standort ist der einfachste Fall: ein Barcode, ein Regalplatz, eine Kassenanbindung. Die Komplexität, die die meiste Inventarsoftware hinzufügt, ist für mehrere Standorte oder Lager gedacht, was ein Laden mit einer Kasse komplett überspringen kann."
+      },
+      {
+        "type": "h3",
+        "text": "Wie lange dauert es, ein Inventar-Tool für einen kleinen Laden einzurichten?"
+      },
+      {
+        "type": "p",
+        "text": "Der größte Teil der Verzögerung liegt nicht an der Software, sondern am Zählen des vorhandenen Bestands. Ein Laden, der mit seinem meistverkauften Fünftel an Produkten beginnt, wie oben beschrieben, hat den Kern meist innerhalb weniger Wochen am Laufen, statt zuerst auf eine Vollzählung zu warten."
+      },
+      {
+        "type": "h3",
+        "text": "Was ist Phantombestand, und wie stoppe ich ihn?"
+      },
+      {
+        "type": "p",
+        "text": "Phantombestand bedeutet, dass das System einen Artikel als verfügbar zeigt, er aber tatsächlich nicht im Regal liegt, meist wegen einer nicht gescannten Retoure, einer unvollständigen Lieferung oder eines Verkaufs, der die Zählung nie aktualisiert hat. Jede Lieferung vor dem Einräumen ins Regal zu scannen beseitigt allein schon das meiste davon."
       }
     ]
   }

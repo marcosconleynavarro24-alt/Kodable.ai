@@ -29,8 +29,8 @@
       {
         "type": "figure",
         "src": "/blog/eu-nextgen-emblem.svg",
-        "alt": "Emblème officiel : Financé par l'Union européenne, NextGenerationEU",
-        "caption": "Kit Digital est financé par les fonds NextGenerationEU de l'Union européenne."
+        "alt": "Kit Digital est financé par les fonds NextGenerationEU de l'Union européenne.",
+        "caption": "Emblème officiel : Financé par l'Union européenne, NextGenerationEU"
       },
       {
         "type": "p",
@@ -59,8 +59,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-importes.svg",
-        "alt": "Graphique des montants du chèque Kit Digital par segment d'entreprise, de 3 000 € à 29 000 €",
-        "caption": "Chèque maximal selon l'effectif, du Segment III (indépendants) au Segment V (jusqu'à 250 salariés)."
+        "alt": "Chèque maximal selon l'effectif, du Segment III (indépendants) au Segment V (jusqu'à 250 salariés).",
+        "caption": "Graphique des montants du chèque Kit Digital par segment d'entreprise, de 3 000 € à 29 000 €"
       },
       {
         "type": "list",
@@ -112,8 +112,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-pasos.svg",
-        "alt": "Les quatre étapes pour demander le Kit Digital : inscription, auto-évaluation, demande, agente digitalizador",
-        "caption": "Le processus de bout en bout : inscription, auto-évaluation, demande et choix de votre agente digitalizador."
+        "alt": "Le processus de bout en bout : inscription, auto-évaluation, demande et choix de votre agente digitalizador.",
+        "caption": "Les quatre étapes pour demander le Kit Digital : inscription, auto-évaluation, demande, agente digitalizador"
       },
       {
         "type": "steps",
@@ -147,8 +147,8 @@
       {
         "type": "figure",
         "src": "/blog/kit-digital-soluciones.svg",
-        "alt": "Catégories de solutions numériques financées par Kit Digital, dont site web, e-commerce, CRM, cybersécurité et IA",
-        "caption": "Quelques-unes des solutions éligibles du catalogue officiel."
+        "alt": "Quelques-unes des solutions éligibles du catalogue officiel.",
+        "caption": "Catégories de solutions numériques financées par Kit Digital, dont site web, e-commerce, CRM, cybersécurité et IA"
       },
       {
         "type": "list",
@@ -289,8 +289,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-serp.svg",
-        "alt": "Une page de résultats Google en 2026 : une réponse rédigée par IA occupe le haut, au-dessus de la liste habituelle de liens vers des sites",
-        "caption": "La page de résultats en 2026 : Google écrit une réponse en haut, et la liste habituelle de liens commence plus bas."
+        "alt": "La page de résultats en 2026 : Google écrit une réponse en haut, et la liste habituelle de liens commence plus bas.",
+        "caption": "Une page de résultats Google en 2026 : une réponse rédigée par IA occupe le haut, au-dessus de la liste habituelle de liens vers des sites"
       },
       {
         "type": "p",
@@ -350,8 +350,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-search-signals.svg",
-        "alt": "Quatre signaux qui font entrer un commerce dans une réponse IA : réponses claires, avis et mentions, données structurées, et une forte présence locale",
-        "caption": "Ce qui fait entrer un commerce dans la réponse : des réponses claires à de vraies questions, des avis et des mentions, un site lisible par les machines, et une forte présence locale."
+        "alt": "Ce qui fait entrer un commerce dans la réponse : des réponses claires à de vraies questions, des avis et des mentions, un site lisible par les machines, et une forte présence locale.",
+        "caption": "Quatre signaux qui font entrer un commerce dans une réponse IA : réponses claires, avis et mentions, données structurées, et une forte présence locale"
       },
       {
         "type": "h2",
@@ -487,8 +487,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-agent-day.svg",
-        "alt": "La chronologie d'une journée dans une petite entreprise : les demandes arrivent à toute heure, et un agent IA répond à chacune en quelques secondes, prend les rendez-vous et transmet les cas difficiles au patron",
-        "caption": "Une journée ordinaire : les demandes ne respectent pas les horaires d'ouverture. Un agent répond à chacune en quelques secondes, réserve ce qu'il peut et vous transmet le reste."
+        "alt": "Une journée ordinaire : les demandes ne respectent pas les horaires d'ouverture. Un agent répond à chacune en quelques secondes, réserve ce qu'il peut et vous transmet le reste.",
+        "caption": "La chronologie d'une journée dans une petite entreprise : les demandes arrivent à toute heure, et un agent IA répond à chacune en quelques secondes, prend les rendez-vous et transmet les cas difficiles au patron"
       },
       {
         "type": "p",
@@ -658,8 +658,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-handoffs.svg",
-        "alt": "Deux versions de la même demande : à gauche, elle traverse une boîte mail, une appli de notes et un téléphone avant que quelqu'un réponde ; à droite, une automatisation répond, enregistre les informations et réserve le créneau en quelques secondes",
-        "caption": "La même demande, deux fois. À gauche, elle attend qu'un humain soit disponible. À droite, la partie routinière se fait immédiatement et l'humain reçoit ce qui reste."
+        "alt": "La même demande, deux fois. À gauche, elle attend qu'un humain soit disponible. À droite, la partie routinière se fait immédiatement et l'humain reçoit ce qui reste.",
+        "caption": "Deux versions de la même demande : à gauche, elle traverse une boîte mail, une appli de notes et un téléphone avant que quelqu'un réponde ; à droite, une automatisation répond, enregistre les informations et réserve le créneau en quelques secondes"
       },
       {
         "type": "p",
@@ -773,8 +773,8 @@
       {
         "type": "figure",
         "src": "/blog/automation-priority.svg",
-        "alt": "Une grille croisant la fréquence de répétition d'une tâche et sa proximité avec le chiffre d'affaires ; les réponses immédiates, les rappels et les relances de devis se placent dans le coin prioritaire",
-        "caption": "Deux axes suffisent : la fréquence de répétition et la proximité avec l'argent. Le coin en haut à droite, c'est votre première automatisation."
+        "alt": "Deux axes suffisent : la fréquence de répétition et la proximité avec l'argent. Le coin en haut à droite, c'est votre première automatisation.",
+        "caption": "Une grille croisant la fréquence de répétition d'une tâche et sa proximité avec le chiffre d'affaires ; les réponses immédiates, les rappels et les relances de devis se placent dans le coin prioritaire"
       },
       {
         "type": "h2",
@@ -910,8 +910,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-map.jpg",
-        "alt": "Une grille isométrique de blocs gris pâle représentant l'ensemble du travail d'une petite entreprise, avec une poignée de blocs détachés en bleu marine et reliés par des flèches, représentant les rares tâches confiées à l'IA",
-        "caption": "Une stratégie, ce n'est pas la grille entière. Ce sont les trois blocs que vous avez choisis, et l'ordre dans lequel vous les avez choisis."
+        "alt": "Une stratégie, ce n'est pas la grille entière. Ce sont les trois blocs que vous avez choisis, et l'ordre dans lequel vous les avez choisis.",
+        "caption": "Une grille isométrique de blocs gris pâle représentant l'ensemble du travail d'une petite entreprise, avec une poignée de blocs détachés en bleu marine et reliés par des flèches, représentant les rares tâches confiées à l'IA"
       },
       {
         "type": "p",
@@ -1035,8 +1035,8 @@
       {
         "type": "figure",
         "src": "/blog/ai-strategy-90-days.svg",
-        "alt": "Une frise de quatre-vingt-dix jours en trois blocs de trente : choisir et mesurer, construire la plus petite version, puis comparer et décider de garder, corriger ou abandonner",
-        "caption": "Quatre-vingt-dix jours, trois mouvements. La dernière case est celle qui rend les deux premières utiles."
+        "alt": "Quatre-vingt-dix jours, trois mouvements. La dernière case est celle qui rend les deux premières utiles.",
+        "caption": "Une frise de quatre-vingt-dix jours en trois blocs de trente : choisir et mesurer, construire la plus petite version, puis comparer et décider de garder, corriger ou abandonner"
       },
       {
         "type": "h2",
@@ -1207,14 +1207,14 @@
       {
         "type": "figure",
         "src": "/blog/gbp-hero.jpg",
-        "alt": "Illustration isométrique d'un téléphone affichant une carte locale avec trois repères bleu marine et trois fiches avec notes en étoiles, à côté de petits cubes bleu marine avec une devanture, une coche et une bulle de dialogue",
-        "caption": "La fiche est la vitrine que la plupart des clients voient en premier. Les repères, les étoiles et les réponses sont ce sur quoi ils la jugent."
+        "alt": "La fiche est la vitrine que la plupart des clients voient en premier. Les repères, les étoiles et les réponses sont ce sur quoi ils la jugent.",
+        "caption": "Illustration isométrique d'un téléphone affichant une carte locale avec trois repères bleu marine et trois fiches avec notes en étoiles, à côté de petits cubes bleu marine avec une devanture, une coche et une bulle de dialogue"
       },
       {
         "type": "figure",
         "src": "/blog/gbp-local-pack.svg",
-        "alt": "Un écran de téléphone montrant une recherche Google d'un plombier à proximité : une carte avec trois établissements épinglés, puis trois cartes de fiche avec note en étoiles, nombre d'avis, horaires et bouton d'appel, et seulement en dessous les liens bleus habituels",
-        "caption": "Le bloc carte est au-dessus des sites web. Pour une recherche de proximité sur téléphone, les trois fiches qu'il contient reçoivent le clic avant que quoi que ce soit d'autre ne se charge."
+        "alt": "Le bloc carte est au-dessus des sites web. Pour une recherche de proximité sur téléphone, les trois fiches qu'il contient reçoivent le clic avant que quoi que ce soit d'autre ne se charge.",
+        "caption": "Un écran de téléphone montrant une recherche Google d'un plombier à proximité : une carte avec trois établissements épinglés, puis trois cartes de fiche avec note en étoiles, nombre d'avis, horaires et bouton d'appel, et seulement en dessous les liens bleus habituels"
       },
       {
         "type": "p",
@@ -1295,8 +1295,8 @@
       {
         "type": "figure",
         "src": "/blog/gbp-checklist.svg",
-        "alt": "Une liste de contrôle des champs de la fiche d'établissement Google en trois colonnes : à faire une fois (catégorie, nom, services, description, attributs), à garder exacts (horaires, téléphone, site, photos) et à faire vivre (avis, réponses, posts, questions)",
-        "caption": "Trois types de champs : ceux que vous remplissez une fois, ceux que vous gardez exacts et ceux qui ne fonctionnent que s'ils continuent de circuler."
+        "alt": "Trois types de champs : ceux que vous remplissez une fois, ceux que vous gardez exacts et ceux qui ne fonctionnent que s'ils continuent de circuler.",
+        "caption": "Une liste de contrôle des champs de la fiche d'établissement Google en trois colonnes : à faire une fois (catégorie, nom, services, description, attributs), à garder exacts (horaires, téléphone, site, photos) et à faire vivre (avis, réponses, posts, questions)"
       },
       {
         "type": "h2",
@@ -1420,6 +1420,353 @@
       {
         "type": "p",
         "text": "Seulement s'il enfreint les règles de Google, par exemple du spam, un avis sur la mauvaise entreprise ou un contenu hors sujet ou abusif. Vous pouvez le signaler depuis le tableau de bord et Google décide. Un avis négatif honnête d'un vrai client reste ; la meilleure réponse est une réponse publique, calme et précise, que les futurs clients lisent plus attentivement que l'avis lui-même."
+      }
+    ]
+  },
+  {
+    "slug": "what-a-website-costs",
+    "category": "Websites",
+    "categoryIcon": "globe",
+    "title": "Combien coûte vraiment un site pour une petite entreprise ?",
+    "description": "Le prix d'un site dépend de ce qu'il doit faire, pas seulement de qui le construit. Voici ce qui fait vraiment varier le chiffre, et comment calculer le vôtre.",
+    "dek": "La réponse honnête n'est pas un seul chiffre. C'est une poignée de choix qui s'additionnent différemment pour chaque entreprise, et une façon simple de savoir où se situe la vôtre.",
+    "keyword": "how much does a small business website cost",
+    "author": "L'équipe Kodable",
+    "datePublished": "2026-09-10",
+    "ogImage": "what-a-website-costs.jpg",
+    "readMinutes": 6,
+    "takeaways": [
+      "Le prix d'un site dépend surtout de ce qu'il doit faire, réservation, paiement, une deuxième langue, pas de qui le construit.",
+      "Le coût continu, hébergement, sécurité, mises à jour et sauvegardes, n'est pas optionnel et pèse souvent plus lourd sur trois ans que le prix de construction.",
+      "Un site moins cher n'est pas automatiquement le choix le moins cher : calculez ce que vous coûte une demande manquée avant de comparer les prix.",
+      "Décidez du nombre de pages, des fonctionnalités et de la langue avant de demander un devis, et la question passe d'impossible à précise.",
+      "Kodable fixe le prix de ses sites TVA comprise et sans petites lignes, avec un plan d'entretien mensuel qui regroupe hébergement, sécurité et mises à jour en une seule ligne."
+    ],
+    "related": [
+      "get-found-in-ai-search",
+      "ai-strategy-for-small-business",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "websites",
+      "label": "Obtenir un prix clair pour mon site"
+    },
+    "body": [
+      {
+        "type": "p",
+        "text": "Un site pour une petite entreprise coûte de quelques centaines à plusieurs milliers d'euros par an, et la raison honnête est qu'un \"site web\" n'est pas un seul produit. Une page sur un outil par abonnement et un site sur mesure avec réservation, paiement et une deuxième langue sont deux sites, et pas le même achat."
+      },
+      {
+        "type": "h2",
+        "text": "Pourquoi n'y a-t-il pas une seule réponse ?"
+      },
+      {
+        "type": "p",
+        "text": "Demandez à cinq entreprises combien coûte un site et vous obtiendrez cinq chiffres différents, parce que vous posez en réalité cinq questions différentes. Un outil en libre service vous loue un modèle et l'hébergement pour un abonnement mensuel. Un freelance construit quelque chose de plus proche de ce dont vous avez vraiment besoin, pour un prix unique. Une agence fait la même chose avec une équipe plus grande et une facture plus élevée. Aucun de ces chiffres n'est faux. Ce sont des réponses à des questions différentes sous le même titre."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Combien de pages, et ce que chacune doit faire.** Une seule page qui dit qui vous êtes et comment réserver coûte bien moins cher qu'un site avec services, adresses, équipe et boutique.",
+          "**Modèle ou design sur mesure.** Un modèle vous met en ligne vite et pour pas cher. Un design construit autour de votre entreprise et de vos photos coûte souvent plus cher au départ.",
+          "**Réservation, commande ou paiement intégrés.** Dès que le site doit parler à un agenda, une cuisine ou un processeur de paiement, il cesse d'être une brochure et devient un logiciel.",
+          "**Qui écrit les textes et prend les photos.** Vos propres photos et des textes écrits pour votre entreprise se lisent mieux, et coûtent plus cher, que des images de banque et un texte provisoire que personne n'a remplacé.",
+          "**Une deuxième langue.** Servir des clients dans plus d'une langue double à peu près la rédaction, et demande une vraie traduction, pas un module.",
+          "**L'entretien continu.** Hébergement, mises à jour de sécurité et sauvegardes ne sont pas optionnels, quel que soit le constructeur du site. Le seul choix est de les payer clairement, ou de le découvrir à vos dépens."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Ce qui fait vraiment varier le chiffre"
+      },
+      {
+        "type": "p",
+        "text": "Les deux facteurs que la plupart des dirigeants sous estiment sont ce que le site doit **faire**, et qui écrit les **mots**. Un site de cinq pages qui ne fait qu'expliquer l'entreprise est un travail petit et rapide. Les mêmes cinq pages avec un agenda de réservation ou un formulaire qui calcule un devis pour le client, c'est une autre échelle de travail, parce que quelque chose doit maintenant continuer à fonctionner après le lancement. Le design fait moins varier le chiffre qu'on ne le pense, et le contenu le fait plus varier : un [site pour petite entreprise](~/services/websites) propre et bien organisé, écrit correctement, se lit et se classe mieux qu'un site élaboré rempli de paragraphes génériques que personne n'a écrits pour cette entreprise."
+      },
+      {
+        "type": "h2",
+        "text": "Quel budget prévoir au delà de la construction ?"
+      },
+      {
+        "type": "p",
+        "text": "Le prix de construction est le chiffre que tout le monde demande, et le coût continu est celui qui décide ce que vous payez sur trois ans : un endroit où vivre (hébergement), un certificat qui garde le cadenas dans le navigateur (sécurité), un moyen de réparer quand quelque chose casse (maintenance), et quelqu'un qui remarque si le site tombe. Rien de tout cela n'est un achat unique."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Hébergement et nom de domaine.** Un endroit où vivre et une adresse où être trouvé. Les deux se renouvellent chaque année, que le site change ou non.",
+          "**Sécurité et mises à jour.** Le logiciel qui fait fonctionner un site a besoin de correctifs. Négligez-le assez longtemps et le risque n'est pas un site lent, c'est un site piraté.",
+          "**Sauvegardes.** La ligne que personne ne remarque, jusqu'à la semaine où il en a besoin.",
+          "**Petits changements.** Les horaires changent, un prix change, un nouveau service est lancé. Un site que personne ne peut mettre à jour sans rappeler quelqu'un est un site que vous cesserez de mettre à jour."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Kodable regroupe ces quatre points dans un [plan d'entretien](~/pricing) mensuel, si bien que ce que vous payez après le lancement est une ligne prévisible, pas des surprises séparées sur des mois différents."
+      },
+      {
+        "type": "h2",
+        "text": "Un site moins cher est-il vraiment moins cher ?"
+      },
+      {
+        "type": "p",
+        "text": "Pas toujours. Un site bon marché qui charge lentement, n'a pas de réservation, ou que personne ne tient à jour, ne fait pas que moins bien paraître, il éloigne en silence les clients qui vous ont trouvé. La comparaison qui compte n'est pas prix de construction contre prix de construction. C'est prix de construction contre ce que vaut vraiment un client manqué."
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Notez ce que vaut un client",
+            "body": "Pas la vente moyenne, le vrai chiffre : ce que vous gagnez sur une réservation, un chantier ou une commande, après les coûts."
+          },
+          {
+            "title": "Estimez combien de demandes le site devrait apporter",
+            "body": "Regardez les demandes, appels ou réservations actuels venant du site ou de la fiche qui y renvoie. Un chiffre mensuel approximatif suffit."
+          },
+          {
+            "title": "Demandez-vous ce que vous coûte un site lent ou en panne",
+            "body": "Un formulaire qui ne fonctionne pas ou un lien de réservation qui ne mène nulle part transforme un client qui vous a trouvé en client perdu. Même une poignée de cas par mois s'additionne vite face à un coût mensuel fixe de construction."
+          },
+          {
+            "title": "Comparez ce chiffre à la construction et au plan d'entretien réunis",
+            "body": "Une fois que vous savez ce que vaut un client, la comparaison honnête est directe : le site se rembourse-t-il par les clients qu'il ne perd plus. Cette réponse bascule vite dès que les réservations passent par le site plutôt que par un téléphone que personne ne décroche ; voyez comment cela rejoint [les automatisations qui font gagner le plus de temps](~/blog/automations-for-small-business)."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Une façon simple de chiffrer votre propre site"
+      },
+      {
+        "type": "p",
+        "text": "Avant de demander un devis à qui que ce soit, décidez de ces cinq points. Cela transforme \"combien coûte un site\" d'une question impossible en une question précise que quelqu'un peut vraiment traiter."
+      },
+      {
+        "type": "list",
+        "items": [
+          "**Combien de pages, à peu près.** Cinq suffisent pour la plupart des petites entreprises : accueil, services, à propos, une ou deux adresses, contact.",
+          "**Si le site prend des réservations, commandes ou paiements.** C'est le facteur qui fait le plus varier le prix, et ce que le site fait vraiment pour vous.",
+          "**Si vous avez besoin de plus d'une langue.** Décidez-le avant que la construction commence. L'ajouter plus tard oblige à refaire la structure, pas seulement les textes.",
+          "**Qui écrit les textes.** Vos propres textes, ou des textes écrits pour vous. Savoir lequel avant de demander un devis évite que le prix bouge ensuite.",
+          "**À quoi ressemble \"terminé\" dans un an.** Rapide, sécurisé et facile à mettre à jour. Demandez à toute entreprise que vous envisagez combien cela coûte avant de signer quoi que ce soit."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Vous ne savez pas quel niveau convient à votre entreprise ?",
+        "body": "Dites-nous combien de pages et si vous prenez des réservations, et nous vous dirons honnêtement quel niveau vous convient et combien il coûte, TVA comprise, sans petites lignes.",
+        "button": "Obtenir un prix clair"
+      },
+      {
+        "type": "h2",
+        "text": "Questions fréquentes"
+      },
+      {
+        "type": "h3",
+        "text": "Un créateur de site gratuit suffit-il pour une petite entreprise ?"
+      },
+      {
+        "type": "p",
+        "text": "Pour une entreprise très jeune sans budget encore, un créateur gratuit ou presque gratuit met quelque chose en ligne, ce qui vaut mieux que rien du tout. Les compromis apparaissent en grandissant : design limité, un abonnement qui ne s'arrête jamais, et un code de modèle qui peine dès que vous avez besoin de réservation ou d'une deuxième langue. La plupart des dirigeants le dépassent en un ou deux ans et refont le site."
+      },
+      {
+        "type": "h3",
+        "text": "Un site se paie-t-il une fois, ou tous les mois ?"
+      },
+      {
+        "type": "p",
+        "text": "Généralement les deux, et toute entreprise qui vous dit le contraire vous en cache une partie. Il y a normalement un coût de construction, unique ou en plusieurs fois, puis un coût continu plus petit pour l'hébergement, la sécurité et les mises à jour, facturé soit par votre constructeur, soit par plusieurs entreprises que vous devez désormais gérer vous-même."
+      },
+      {
+        "type": "h3",
+        "text": "Quel est le coût caché le plus important d'un projet de site ?"
+      },
+      {
+        "type": "p",
+        "text": "Le contenu. Quelqu'un doit écrire ce que fait l'entreprise, avec ses propres mots, pour chaque page, et ce travail est soit cadré et payé dès le départ, soit devient la raison pour laquelle le projet s'arrête pendant des semaines en attendant un paragraphe qui n'arrive jamais. Demandez qui écrit les textes avant de demander ce que coûte le site."
+      },
+      {
+        "type": "h3",
+        "text": "Un site plus cher se classe-t-il mieux sur Google ?"
+      },
+      {
+        "type": "p",
+        "text": "Non, pas directement. Le prix achète du temps, du design et des fonctionnalités, pas un classement. Ce qui classe bien, c'est un site rapide, une structure claire, et un contenu qui répond vraiment à ce que cherche un client. Voir [ce qui fait vraiment trouver une petite entreprise aujourd'hui](~/blog/get-found-in-ai-search) pour savoir ce qui fait vraiment varier ce chiffre."
+      },
+      {
+        "type": "h3",
+        "text": "Combien de temps doit prendre la construction du site d'une petite entreprise ?"
+      },
+      {
+        "type": "p",
+        "text": "Un site simple, de cinq à huit pages, une langue, sans réservation sur mesure, prend généralement des semaines une fois le contenu prêt, pas des mois. Le contenu est presque toujours la partie la plus lente, pas la construction ; décider votre [approche de l'IA et du site ensemble](~/blog/ai-strategy-for-small-business) avant de commencer tend à raccourcir les deux."
+      }
+    ]
+  },
+  {
+    "slug": "inventory-tool-for-small-shops",
+    "category": "Custom Tools",
+    "categoryIcon": "code",
+    "title": "L'Outil d'Inventaire Qu'il Faut Vraiment à une Petite Boutique",
+    "description": "Une petite boutique a besoin d'un outil d'inventaire pensé pour une caisse et une réserve, pas pour un entrepôt. Voici quoi chercher et comment commencer.",
+    "dek": "Les tableurs génériques et les logiciels d'entrepôt ratent tous les deux leur cible pour une boutique avec un seul point de vente et quelques milliers de références ; voici ce qui convient vraiment.",
+    "keyword": "inventory tool for small shops",
+    "author": "L'équipe Kodable",
+    "datePublished": "2026-09-11",
+    "readMinutes": 6,
+    "takeaways": [
+      "Une boutique a besoin d'un outil d'inventaire qui suit le stock par rayon et par réserve, pas d'un outil pensé pour un entrepôt avec dix sites.",
+      "Le stock fantôme, l'écart entre ce que dit le système et ce qui se trouve réellement en rayon, vient en général d'un retour jamais scanné, d'une livraison incomplète ou d'une vitrine jamais reliée au comptage.",
+      "Scanner chaque livraison avant qu'elle n'arrive en rayon élimine à lui seul la plus grande partie du stock fantôme.",
+      "Un tableur convient à une petite réserve, à rotation lente ; dès que les livraisons deviennent hebdomadaires et qu'un best-seller est en rupture à répétition, l'heure passée chaque semaine à recouper les chiffres coûte en général plus cher qu'un outil pensé pour ça.",
+      "Commencez par le cinquième des produits qui génère la majorité des ventes, plutôt que de compter toute la boutique dès le premier jour."
+    ],
+    "related": [
+      "ai-strategy-for-small-business",
+      "what-a-website-costs",
+      "automations-for-small-business"
+    ],
+    "cta": {
+      "service": "custom-tools",
+      "label": "Dites-nous ce que votre boutique doit suivre"
+    },
+    "ogImage": "inventory-tool-for-small-shops.jpg",
+    "body": [
+      {
+        "type": "p",
+        "text": "Le bon outil d'inventaire pour une petite boutique n'est pas celui qu'utilise un entrepôt. Il doit suivre le stock par rayon et par réserve, vous prévenir avant la rupture d'un best-seller, et prendre moins de temps à mettre à jour qu'une feuille de comptage papier. Une boutique avec une caisse, une réserve et quelques milliers de références a besoin de quelque chose pensé pour ça, pas d'un tableur poussé au-delà de ses limites, ni d'un logiciel d'entreprise pensé pour dix entrepôts."
+      },
+      {
+        "type": "h2",
+        "text": "Où le Stock d'une Boutique Se Perd Vraiment"
+      },
+      {
+        "type": "p",
+        "text": "La plupart des boutiques ne perdent pas leur stock à cause du vol, en premier lieu. Elles le perdent dans l'écart entre ce que dit le rayon et ce qu'il y a réellement derrière le comptoir. Une livraison arrive un mardi matin : douze cartons, trois fournisseurs, une facture chacun. Quelqu'un en déballe la moitié avant l'ouverture, étiquette le reste à midi, et le vendredi plus personne ne se souvient exactement de ce qui est allé où. La caisse sait ce qui s'est vendu. Elle n'a aucune idée de ce qui se trouve en réserve, encore dans son carton."
+      },
+      {
+        "type": "p",
+        "text": "Cet écart grandit chaque semaine où il n'est pas mesuré. Une boutique de cadeaux recommande une gamme de bougies qui dort encore dans un carton daté du mois dernier. Une quincaillerie assure à un client qu'une pièce est en stock parce que l'étiquette du rayon le dit, puis passe dix minutes à prouver le contraire. Aucun des deux commerçants n'a été négligent ; ils n'ont simplement jamais eu de système reliant le rayon, la réserve et la caisse en un seul endroit."
+      },
+      {
+        "type": "h2",
+        "text": "Pourquoi le Rayon Dit-il Qu'il y a du Stock Quand la Réserve Est Vide ?"
+      },
+      {
+        "type": "p",
+        "text": "C'est ce que le commerce appelle le stock fantôme : le comptage sur papier ou dans le système ne correspond pas à ce qui est physiquement en rayon. Cela arrive pour la même poignée de raisons dans presque toutes les boutiques. Un retour revient en rayon sans être scanné. Un fournisseur livre moins que la commande et personne n'ajuste le comptage. Un employé vend le dernier exemplaire d'une vitrine et le comptage de la réserve ne bouge jamais parce que la vitrine n'y a jamais été reliée."
+      },
+      {
+        "type": "callout",
+        "title": "Le vrai coût du stock fantôme",
+        "body": "Ce n'est pas seulement l'aller-retour inutile jusqu'à la réserve. C'est le client qui voulait la taille, la couleur ou la pièce promise par le rayon et reparti sans, et c'est la nouvelle commande qui double un stock déjà présent quelque part dans la boutique."
+      },
+      {
+        "type": "p",
+        "text": "Un [outil sur mesure](~/services/custom-tools) règle cela en reliant un code-barres à un emplacement en rayon et à une ligne de caisse, de sorte qu'une vente, un retour ou une livraison mette à jour le même chiffre partout, en même temps. C'est la différence entre un outil pensé pour une boutique et un tableur que quelqu'un met à jour quand il y pense."
+      },
+      {
+        "type": "h2",
+        "text": "Ce Qu'un Vrai Outil d'Inventaire Doit Faire pour une Boutique"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Scanne un code-barres depuis un téléphone, au comptoir ou en réserve, sans acheter ni recharger un lecteur à part",
+          "Prévient avant la rupture d'un best-seller, pas après qu'un client l'a déjà demandé",
+          "Sépare le stock par emplacement (rayon, réserve, deuxième caisse) pour que le comptage veuille dire quelque chose de précis",
+          "Continue de fonctionner un samedi chargé sans avoir besoin d'un ordinateur portable ouvert à la caisse",
+          "Transforme une alerte de stock bas en commande auprès du vrai fournisseur, pas en note sur un post-it"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Rien de tout cela n'exige un logiciel compliqué. Il doit correspondre à la façon dont la boutique fonctionne vraiment : un commerçant, un ou deux employés, un rythme de livraisons et une affluence du samedi qu'un système d'entrepôt générique n'a jamais été conçu pour gérer. Choisir le bon outil suit le même filtre à trois questions que toute décision technologique d'une petite entreprise : ce qu'il fait vraiment économiser, ce qu'il coûte à faire tourner, et ce qui casse s'il tombe en panne, traité dans notre [guide pour choisir ses priorités IA et logicielles](~/blog/ai-strategy-for-small-business)."
+      },
+      {
+        "type": "h2",
+        "text": "Tableur Générique, Appli, ou Quelque Chose Pensé pour Votre Boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "Un tableur est gratuit, et c'est là que la plupart des boutiques commencent, ce qui convient pour une réserve de quelques dizaines d'articles comptés une fois par mois. Passé quelques centaines de références et un rythme de livraisons quotidien, il cesse d'être gratuit : il coûte au commerçant une heure par semaine à recouper des chiffres qu'un scan de code-barres aurait tenus à jour automatiquement. Une appli d'inventaire générique comble une partie de cet écart, mais suppose en général un entrepôt et des accès employés qu'une boutique à un seul site n'utilisera jamais, avec un prix pensé pour une échelle jamais atteinte."
+      },
+      {
+        "type": "p",
+        "text": "Un outil [pensé pour votre boutique](~/services/custom-tools) se situe entre les deux : seulement les écrans dont la boutique a besoin, calé sur la façon dont elle reçoit vraiment le stock et encaisse une vente. Les prix de départ et ce qui les fait varier (matériel de scan, intégrations fournisseurs, un deuxième site) sont sur [notre page tarifs](~/pricing), confirmés comme il faut lors d'une consultation gratuite plutôt que devinés ici. La même logique s'applique à [ce que coûte vraiment un site pour une petite entreprise](~/blog/what-a-website-costs) : le prix affiché compte moins que ce que l'outil fait économiser par rapport à ce qu'il remplace."
+      },
+      {
+        "type": "h2",
+        "text": "Comment Commencer Sans Arrêter la Boutique Pendant une Semaine"
+      },
+      {
+        "type": "steps",
+        "steps": [
+          {
+            "title": "Comptez d'abord ce qui compte vraiment",
+            "body": "N'essayez pas de compter chaque référence dès le premier jour. La plupart des boutiques constatent qu'un cinquième de leurs produits génère la majorité de leurs ventes ; commencez le nouveau système avec ceux-là, sur papier si besoin, avant de toucher à un logiciel."
+          },
+          {
+            "title": "Donnez un nom à chaque emplacement",
+            "body": "Rayon A, réserve rangée 3, vitrine : peu importe, du moment que c'est le nom que la boutique utilise vraiment. Un outil n'est fiable que si les noms d'emplacement sont ceux que quelqu'un utilisera vraiment chaque jour."
+          },
+          {
+            "title": "Scannez les livraisons avant qu'elles n'arrivent en rayon",
+            "body": "La seule habitude qui corrige le stock fantôme le plus vite : rien ne part en rayon avant d'avoir été scanné dans le système, même si l'étiquetage du prix se fait plus tard dans la journée."
+          },
+          {
+            "title": "Automatisez le seuil de réapprovisionnement, mais seulement pour les meilleures ventes",
+            "body": "Définissez une alerte de stock bas pour la poignée de produits dont la rupture ferait vraiment mal. Tout le reste peut rester une vérification manuelle mensuelle pour l'instant."
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Une boutique qui suit cet ordre a en général pris l'habitude en quelques semaines, bien avant que l'outil ne soit entièrement construit. Comparez cela à un [flux de réapprovisionnement automatisé](~/blog/automations-for-small-business) : l'habitude ci-dessus est ce qui rend cette automatisation fiable plutôt qu'une machine à fausses alertes."
+      },
+      {
+        "type": "h2",
+        "text": "Questions Fréquentes"
+      },
+      {
+        "type": "h3",
+        "text": "Une petite boutique a-t-elle vraiment besoin d'un logiciel d'inventaire, ou un tableur suffit-il ?"
+      },
+      {
+        "type": "p",
+        "text": "Un tableur suffit pour une petite réserve, à rotation lente, comptée à la main une fois par mois. Dès que les livraisons arrivent chaque semaine, que l'équipe dépasse une personne, ou qu'un best-seller est en rupture sans prévenir, l'heure passée chaque semaine à recouper la feuille coûte en général plus cher qu'un outil pensé pour ça."
+      },
+      {
+        "type": "h3",
+        "text": "Combien coûte un outil d'inventaire sur mesure pour une petite boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "Cela dépend surtout du nombre de sites, des accès employés et des intégrations fournisseurs, c'est pourquoi nous le chiffrons après une courte conversation plutôt que de deviner ici. Les prix de départ actuels sont sur [notre page tarifs](~/pricing)."
+      },
+      {
+        "type": "h3",
+        "text": "Un outil d'inventaire peut-il fonctionner avec une seule caisse et sans système de réserve séparé ?"
+      },
+      {
+        "type": "p",
+        "text": "Oui. Une boutique à un seul site est le cas le plus simple : un code-barres, un emplacement en rayon, une caisse. La complexité qu'ajoute la plupart des logiciels d'inventaire vise plusieurs sites ou entrepôts, ce qu'une boutique à une seule caisse peut ignorer entièrement."
+      },
+      {
+        "type": "h3",
+        "text": "Combien de temps faut-il pour mettre en place un outil d'inventaire dans une petite boutique ?"
+      },
+      {
+        "type": "p",
+        "text": "L'essentiel du délai ne vient pas du logiciel, mais du comptage du stock existant. Une boutique qui commence par son cinquième de produits les plus vendus, comme expliqué plus haut, fait en général tourner l'essentiel en quelques semaines, plutôt que d'attendre un comptage complet au préalable."
+      },
+      {
+        "type": "h3",
+        "text": "Qu'est-ce que le stock fantôme et comment l'éviter ?"
+      },
+      {
+        "type": "p",
+        "text": "Le stock fantôme, c'est quand le système indique qu'un article est disponible alors qu'il n'est en réalité pas en rayon, en général à cause d'un retour jamais scanné, d'une livraison incomplète ou d'une vente qui n'a jamais mis à jour le comptage. Scanner chaque livraison avant qu'elle n'arrive en rayon élimine à lui seul la plus grande partie du problème."
       }
     ]
   }
